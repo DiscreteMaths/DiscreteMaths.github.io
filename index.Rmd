@@ -1,0 +1,491 @@
+---
+title: "Discrete Mathematics"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column 
+--------------------
+
+### Introduction
+
+<p>
+
+
+
+<p>
+
+<h4>Programme and Abstracts</h4>
+<p>
+* Date: Saturday 29th February 2020
+* Location: Strand Hotel Limerick 
+* Times: 10.00am to 17:10pm approx
+
+
+
+Number Systems {data-navmenu="Section 1"}
+==============================================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+### Pycon Limerick 2020
+
+PyCon Limerick 2020 will be returing to Limerick on Saturday 29th February 2020.
+
+
+
+Binary Numbers {data-navmenu="Section 1"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+Hexadecimal Numbers {data-navmenu="Section 1"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+Set Theory {data-navmenu="Section 2"}
+====================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+### Set Theory Operations
+
+*  The Universal Set $\mathcal{U}$
+*  Union
+*  Intersection
+*  Set Difference
+*  Relative Difference
+
+
+
+
+
+Logic {data-navmenu="Section 2"}
+====================================
+
+Column
+-------------------------------
+
+### Logical Operators
+
+### Logic Networks
+
+
+
+Functions {data-navmenu="Section 3"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+
+Mathematical Functions{data-navmenu="Section 3"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Logarithms
+
+### Exponennts
+
+### Tutorial
+
+
+Functions {data-navmenu="Section 3"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+
+Graph Theory {data-navmenu="Section 4"}
+====================================
+
+Column{.tabset}
+----------------------------------------------
+
+### Graph Theory Terms
+
+
+### Types of Graphs 
+
+<h5>Directed Graphs</h5>
+A directed graph is a graph where the arcs are one-directional, that is an arc between two nodes only indicates the possibility of moving from one node to the other, but not in the opposite direction. The arcs will usually be drawn as arrows to indicate the direction. An example of a potential use for a directed graph would be a graph which tracks possible states that a computer could be in; there may be a way for a computer in one state to reach a subsequent state, but no way to return from the second state to the first.
+
+<h5>Weighted graph</h5>
+A weighted graph is a graph where there is some 'cost' associated with each arc. Usually, a little number will appear directly adjacent to every arc to express this price. A typical use of a weighted graph would be planning routes between locations on a map where the 'cost' associated with the arc would be the distance between the two locations.
+
+<h5>Trees</h5>
+A tree is a special graph which is connected (every node can be reached from every other node by following one or more arcs) and for which the number of arcs is exactly one fewer than the number of nodes. A tree is usually drawn with one node (called the 'root node') at the top of the diagram, and then 'growing' downwards with arcs and nodes getting further and further from the root. In this way, nodes can be grouped in terms of their distance from the root. Every node (aside from the root) is referred to as the 'child' of the node to which it is connected and which is one step closer to the root. This node is also called the 'parent' node of the child. Every node has at most one parent but can have any number of children. Nodes without any children are commonly called 'leaf nodes'. A typical use of a tree would be a decision problem where the answer to a question determines the next question and set of possible answers.
+
+<h5> Planar Graphs</h5>
+A planar graph is a graph that can be drawn in the plane such that there are no edge crossings.
+
+<h5>Characterization</h5>
+The planar graphs can be characterized by a theorem first proven by Kazimierz Kuratowski in 1930, which states that the planar graphs are exactly those graphs G such that $K_5 \not \preceq G$  and $K_{3,3</h5> \not \preceq G$ .
+
+
+
+<h5>Types of Graph Layouts</h5>
+
+1. Bipartite Graphs
+2. Path Graphs
+3. Cycle Graphs
+4. Null Graphs
+
+
+<h5>Bipartite Graphs</h5>
+
+* A bipartite graph is a graph whose vertex-set can be split into two sets in such a way that each edge of the graph joins a vertex in first set to a vertex in second set.
+
+
+
+<h5>Path Graphs</h5>
+
+* A path graph is a graph consisting of a single path. 
+* The path graph with n vertices is denoted by $P_n$.
+
+
+
+<h5>Cycle Graphs</h5>
+
+* A cycle graph is a graph consisting of a single cycle. 
+* The cycle graph with n vertices is denoted by $C_n$.
+
+
+
+<h5>Null Graphs</h5>
+
+* A null graphs is a graph containing no edges. * The null graph with n vertices is denoted by $N_n$.
+
+
+
+
+There are various types of graphs depending upon the number of vertices, number of edges, interconnectivity, and their overall structure. We will discuss only a certain few important types of graphs in this chapter.
+
+
+Trees {data-navmenu="Section 4"}
+====================================
+
+Column {.tabset}
+----------------------------------------------
+
+### Binary Search Trees
+
+A binary search tree (BST), sometimes also called an ordered or sorted binary tree, is a node-based binary tree data structure which has the following properties:
+
+*  The left subtree of a node contains only nodes with keys less than the node's key.
+*  The right subtree of a node contains only nodes with keys greater than the node's key.
+*  The left and right subtree must each also be a binary search tree.
+*  There must be no duplicate nodes.
+
+
+### Spanning Trees
+
+A spanning tree $T$ of a connected, undirected graph $G$ is a tree composed of all the vertices and some (or perhaps all) of the edges of $G$. 
+
+Informally, a spanning tree of $G$ is a selection of edges of $G$ that form a tree spanning every vertex. That is, every vertex lies in the tree, but no cycles (or loops) are formed. On the other hand, every bridge of $G$ must belong to $T$.
+
+A spanning tree of a connected graph $G$ can also be defined as a maximal set of edges of $G$ that contains no cycle, or as a minimal set of edges that connect all vertices.
+
+#### Subgraphs
+
+We say that a graph H is a subgraph of a graph G if its vertices are a subset of the
+vertex set of G, its edges are a subset of the edge set of G, and each edge of H has
+the same end-vertices in G and H.
+
+#### Definition 
+If H is a subgraph of G such that $V(H) = V (G)$, then H is called a spanning subgraph of G. If H is a spanning subgraph which is also a tree, then H is said to be a spanning tree of G.
+
+### Traversals
+
+A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal. We will consider several traversal algorithms with we group in the following two kinds
+
+* depth-first traversal
+* breadth-first traversal
+
+
+There are three different types of depth-first traversals, :
+
+* Pre-Order traversal - visit the parent first and then left and right children;
+* In-Order traversal - visit the left child, then the parent and the right child;
+* Post-Order traversal - visit left child, then the right child and then the parent;
+
+
+
+Relations and Digraphs {data-navmenu="Section 4"}
+=====================================
+
+
+
+Column {.tabset}
+-------------------------------------------------
+
+Abstracts for Morning Session 1
+
+### Room 1
+
+<h5>GraphQL with Python </h5>
+
+
+* The talk will be about GraphQL technology. What is GraphQL and why we might use it. 
+
+
+
+### Room 2
+
+
+
+
+
+
+<h5> Social Network Analysis of the 1916 rising (James Nagle)</h5>
+
+### Room 3
+
+<h5>Building smarter solutions with no expertise in machine learning (Laurent Picard)</h5>
+
+
+
+Sequences and Series {data-navmenu="Section 5"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Introduction 
+
+* Sequences - what are sequences?
+* Arithmetic Progressions
+* Geometric Progressions
+* Recurrences Relationships (Fibonacci Sequence)
+
+
+Finite Series {data-navmenu="Section 5"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+
+### Finite Series and Sigma Notation
+Mathematical notation uses a symbol that compactly represents summation of many similar terms: the summation symbol, $\sum$, an enlarged form of the upright capital Greek letter *Sigma*. 
+
+This is defined as:
+\[\sum_{i=m}^n a_i = a_m + a_{m+1} + a_{m+2} +\cdots+ a_{n-1} + a_n. \]
+Where, i represents the index of summation; ai is an indexed variable representing each successive term in the series; m is the lower bound of summation, and n is the upper bound of summation. The "i = m" under the summation symbol means that the index i starts out equal to m. The index, i, is incremented by 1 for each successive term, stopping when i = n.
+Here is an example showing the summation of exponential terms (all terms to the power of 2):
+\[\sum_{i=3}^6 i^2 = 3^2+4^2+5^2+6^2 = 86.\]
+Informal writing sometimes omits the definition of the index and bounds of summation when these are clear from context, as in:
+\[\sum a_i^2 = \sum_{i=1}^n a_i^2.\]
+
+
+#### Three Important Summation Identities
+(index term = i , Number of terms = n }
+
+
+*  Identity 1
+\[ \sum^{i=n}_{i=1} 1 = n \]
+*  Identity 2  
+\[ \sum^{i=n}_{i=1} i = \frac{n(n+1)}{2} \]
+*  Identity 3 
+\[ \sum^{i=n}_{i=1} i^2 = \frac{(2n+1)(n+1)(n)}{6} \]
+
+
+### Partitioning of Summations 
+
+
+For some integers $m$ and $n$, with $m<n$.
+
+\[ \sum^{i=n}_{i=1} u_{i} = \sum^{i=m}_{i=1} u_{i} + \sum^{i=n}_{i=m+1} u_{i}\]
+
+Suppose $n=100$ and $m=50$
+
+\[ \sum^{i=100}_{i=1} u_{i} = \sum^{i=50}_{i=1} u_{i} + \sum^{i=100}_{i=51} u_{i}\]
+
+\textbf{Example}
+Evaluate the following expression:
+\[ \sum^{i=100}_{i=51} (i+1) \]
+
+
+***Step 1*** Evaluate this expression using the identities (notice the lower bound)
+\[ \sum^{i=100}_{i=1} (i+1) \]
+***Step 2*** From the outcome of step 1, subtract the following
+\[ \sum^{i=50}_{i=1} (i+1) \]
+
+
+
+
+<h5>Step 1</h5> Evaluate the following expression using the identities. In this step $n=100$
+\[ \sum^{i=100}_{i=1} (i+1)  = \sum^{i=100}_{i=1} i  +  \sum^{i=100}_{i=1} 1  \]
+
+1. First term \[\sum^{i=100}_{i=1} i  = \frac{100\times(100+1)}{2}  = 5050\]
+2. Second term \[ \sum^{i=100}_{i=1} i  =  100\]
+
+
+\[ \sum^{i=100}_{i=1} (i+1)  = 5050 + 100 = 5150 \]
+
+
+
+
+<h5>Step 2</h5>
+Evaluate the following expression using the identities. In this step $n=50$
+\[ \sum^{i=50}_{i=1} (i+1)  = \sum^{i=50}_{i=1} i  +  \sum^{i=50}_{i=1} 1  \]
+
+1. First term \[\sum^{i=50}_{i=1} i  = \frac{50\times(50+1)}{2}  = 1275\]
+2. Second term \[ \sum^{i=50}_{i=1} i  =  50\]
+
+
+\[ \sum^{i=50}_{i=1} (i+1)  = 1275 + 50 = 1325 \]
+
+
+\[ \sum^{i=100}_{i=51} (i+1) = \sum^{i=100}_{i=1} (i+1)  - \sum^{i=50}_{i=1}(i+1)   \]
+
+\[ \sum^{i=100}_{i=51} (i+1)  = 5150 - 1325 =\boldsymbol{3825} \]
+
+### Sequences and Series
+
+
+### Telescoping Series
+
+
+Proof By Induction {data-navmenu="Section 5"}
+=====================================
+
+Column
+----------------------------------
+
+### Proof by Induction
+
+<h5> Conference Events in the West of Ireland</h5>
+
+Informal talk on building a tech community in West of Ireland
+
+### Tutorial Sheet 
+
+
+
+
+Probability {data-navmenu="Section 6"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Basics of Probability
+
+
+### Room 1
+
+<h5> High-Level APIs for Machine Learning (Iain Keaney) </h5>
+
+
+### Counting Problems
+
+<h5> Counting Problems </h5>
+
+
+
+Matrices {data-navmenu="Section 6"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Introduction
+
+### Adding and Substracting Matrices
+
+
+### Matrix Multiplication
+
+* Method for multiply a pair of $2\times2$ matrices.
+
+\[ \left(
+\begin{array}{cc}
+a_1 & a_2 \\ 
+b_1 & b_2
+\end{array} \right)\left(
+\begin{array}{cc}
+c_1 & d_1 \\ 
+c_2 & d_2
+\end{array} \right) = \left(
+\begin{array}{cc}
+(a_1 \times c_1) + (a_2 \times c_2) & (a_1 \times d_1) + (a_2 \times d_2) \\ 
+(b_1 \times c_1) + (b_2 \times c_2) & (b_1 \times d_1) + (b_2 \times d_2)
+\end{array} \right) \]
+
+#### Example
+
+\[ \left(
+\begin{array}{cc}
+1 & 3 \\ 
+0 & 2
+\end{array} \right)\left(
+\begin{array}{cc}
+1 & 2 \\ 
+4 & 1
+\end{array} \right) = \left(
+\begin{array}{cc}
+(1 \times 1) + (3 \times 4) & (1 \times 2) + (3 \times 1) \\ 
+(0 \times 4) + (2 \times 4) & (0 \times 2) + (2 \times 1)
+\end{array} \right) = \left(
+\begin{array}{cc}
+14 & 5 \\ 
+8 & 2
+\end{array} \right) \]
+
+
+### Determinants
+
+
+### Tutorials
+
+Matrices Tutorial 1
+
+* Question 1 <a href= "https://youtu.be/XCYf81OTDVc"> Here</a>
+* Question 2 <a href= "https://youtu.be/z1aIiH4bE4k"> Here</a>
+* Question 3  - Part 1 <a href= "https://youtu.be/FtyNlZIsiXg"> Here</a>
+* Question 3  - Part 2 <a href= "https://youtu.be/Xwg6VB_ooHk"> Here</a>
+* Question 4
+* Question 5
+* Question 6
+* Question 7 <a href= "https://youtu.be/Jj_7KiXJb64"> Here</a>
+* Question 8 <a href= "https://youtu.be/tdVrjFFq1A8"> Here</a>
+
+Systems of Linear Equations {data-navmenu="Section 6"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+### Workshop 1 (Morning)
+
+<h5> Introduction to Github (2 Hours) </h5>
+
+
+
+Counting Problems {data-navmenu="Section 6"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+### Permutations
