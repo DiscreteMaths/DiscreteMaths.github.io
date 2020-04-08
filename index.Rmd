@@ -40,14 +40,84 @@ Number Systems {data-navmenu="Section 1"}
 Column {.tabset}
 -------------------------------------------------------------
 
-### Pycon Limerick 2020
+### Real and Irrational Numbers
 
-PyCon Limerick 2020 will be returing to Limerick on Saturday 29th February 2020.
+#### Real and Irrational Numbers
+
+*  <a title="Number Sets" href="http://youtu.be/9NAmHx3pAxk" target="_blank">Number Sets</a>Natural Numbers, Integers, Rational Numbers and Real Numbers.
+*  <a title="Irrational Numbers" href="http://youtu.be/lu7uhe903TY" target="_blank">Irrational Numbers</a>: Exercise involving irrational numbers.
+*  <a title="Rational Numbers" href="http://youtu.be/WnXnVADCXuQ" target="_blank">Rational and Irrational Numbers</a>[4:16] (New Video)
+*  <a title="Repeating Decimals" href="http://youtu.be/mhHAJOQQ8kM" target="_blank">Repeating Decimals</a>(video 1)
+*  <a title="Repeating Decimal" href="http://youtu.be/99qV28WmzH4" target="_blank">Repeating Decimal </a>[3:37](Video 2)
+
+
+<h5>Discrete Maths: Numbers</h5>
+
+
+### Part 1. Number Bases
+
+*  Numbers in Base 10
+*  The binary system
+*  Calculating in the binary system
+*  The Hexadecimal system
+*  Converting decimal integers into other bases
+
+
+### Part 2. Rational Numbers
+
+*  Factor, multiples and primes
+*  Representing fractions
+*  Decimal fractions
+*  Fractions in bases other than 10
+
+
+### Part 3. Real Numbers
+
+*  Irrational numbers
+*  Inequality symbols
+*  Floating-point notation
+
+
+* <a href="https://www.youtube.com/embed/9NAmHx3pAxk" >Number Sets: Natural Numbers, Integers, Rational Numbers and Real Numbers.</a>
+* <a href="https://www.youtube.com/embed/lu7uhe903TY" >Irrational Numbers: Exercise involving irrational numbers.</a>
+* <a href="https://www.youtube.com/embed/WnXnVADCXuQ" >Rational and Irrational Numbers</a>
+
+* <a href="https://www.youtube.com/embed/mhHAJOQQ8kM" >Repeating Decimals</a>
+* <a href="https://www.youtube.com/embed/99qV28WmzH4" >Repeating Decimals</a>
+* <a href="https://www.youtube.com/embed/sIowD1XjFJ8" >Repeating Decimals</a>
+
 
 
 
 Binary Numbers {data-navmenu="Section 1"}
 ==================================
+
+* <a href="https://www.youtube.com/embed/Xj75KbggKMU">Binary Number Conversion</a>
+
+* <a href="https://www.youtube.com/embed/xyo2UiDpND8"> Expressing Binary Numbers</a>
+
+* <a href="https://www.youtube.com/embed/HDQ7PGYo5Y8"> Binary Addition</a>
+
+* <a href="https://www.youtube.com/embed/Hz3PfnllV6I">Binary Addition</a>
+
+* <a href="https://www.youtube.com/embed/cnv7scvjc7o"> Binary Addition </a>
+
+* <a href="https://www.youtube.com/embed/dQMQMvU4GT0"> Binary Subtraction: using Borrowing Method</a>
+
+* <a href="https://www.youtube.com/embed/iwzaZDdaT9g">Binary Numbers Adding Two Binary Numbers (Example) HD</a>
+    
+* <a href="https://www.youtube.com/embed/DTO3mS5D2lA">Binary Subtraction using "Two's Complement"</a>
+
+* <a href="https://www.youtube.com/embed/Ai5F0KLyh2Q"> Left Shifting Technique for Binary Multiplication</a>
+
+* <a href="https://www.youtube.com/embed/P_vd1vkafYk">  Binary Subtraction: using Twos Complement</a>
+    
+* <a href="https://www.youtube.com/embed/WfWHdWwITgk"> Binary Multiplication: using Left Shifting</a>
+
+* <a href="https://www.youtube.com/embed/A08P9ZJsLOs"> Relations -Example</a>
+
+* <a href="https://www.youtube.com/embed/-svSPXMGyfs "> Binary Multiplication ( Binary Numbers Tutorial Sheet)		</a>
+
 
 Column {.tabset}
 -----------------------------
@@ -57,6 +127,23 @@ Hexadecimal Numbers {data-navmenu="Section 1"}
 
 Column {.tabset}
 -----------------------------
+
+### Hexadecimal Numbers
+
+### Videos
+
+
+* <a href="https://www.youtube.com/embed/-4uUCdDxsrU">Hexadecimal Number Conversion</a>
+* <a href="https://www.youtube.com/embed/JvMNIkmszaU">Converting Hexadecimal Numbers With Fractions to Decimal Form</a>
+* <a href="https://www.youtube.com/embed/ztxKt77mTFE">Converting Decimal Fractions to Hexadecimal</a>
+* <a href="https://www.youtube.com/embed/ussn9qLHYrE">Hexadecimal and Binary Numbers</a>
+* <a href="https://www.youtube.com/embed/d6_oOPZBdTY">Binary and Hexadecimal Arithmetic</a>
+* <a href="https://www.youtube.com/embed/ztxKt77mTFE">Converting Decimal Fractions to Hexadecimal</a>
+* <a href="https://www.youtube.com/embed/VSwZ-1mCEW0">Converting Hex to Binary</a>
+* <a href="https://www.youtube.com/embed/UWbKK6Q8xlY">Adding Hexadecimal Numbers[6:38]</a>
+* <a href="https://www.youtube.com/embed/Stt4nkIeaEc">Spreadsheet Commands[6:43] Checking your answers on a spreadsheet.</a>
+
+
 
 Set Theory {data-navmenu="Section 2"}
 ====================================
@@ -79,13 +166,40 @@ Column {.tabset}
 Logic {data-navmenu="Section 2"}
 ====================================
 
-Column
+Column {.tabset}
 -------------------------------
 
-### Logical Operators
+### Logic 
+
+Propositions, The negations of a proposition, Compound Statements, Truth tables
+
+* <a href = "https://www.youtube.com/embed/YK6tzrBYS14"> Logic 2003 Propositions</a>
+* <a href = "https://www.youtube.com/embed/SNah7Lai_Lo"> Logic 2007 Propositions </a>
+* <a href = "https://www.youtube.com/embed/qLP5fnux3RA"> Introduction to Truth Tables</a>
+
+* <a href = "https://www.youtube.com/embed/qiO6sEmfkIc"> Proof using Truth Tables</a>
+* <a href = "https://www.youtube.com/embed/Z9YVIP7v-Ik"> Proof using Truth Tables</a>
+* <a href = "https://www.youtube.com/embed/4ZSgi6lmd_4"> Logic proof by truth table</a>
+
+* <a href = "https://www.youtube.com/embed/U_VxV-3p7dU"> Logic 2007 Question 3 Truth Tables</a>
+* <a href = "https://www.youtube.com/embed/FT9ocP-L6Mc"> Conditional Connectives :  p implies q </a>
+* <a href = "https://www.youtube.com/embed/dnem1E71TI4"> Logic 2001 Implication Connective</a>
+
+* <a href = "https://www.youtube.com/embed/s1f3nCOOzz8">  HERE </a>
+
+### Truth Tables
+
+* Introduction to Truth Tables
+
+### Conditional Connectives
+
+* Truth tables for condition connectives  
+* The contrapositive
 
 ### Logic Networks
 
+* <a href = "https://www.youtube.com/embed/DtkPULIOlWQ"> Logic Networks: (Example 1)</a>
+* <a href = "https://www.youtube.com/embed/NzFMJwUR82k"> Logic Networks: (Example 2)</a>
 
 
 Functions {data-navmenu="Section 3"}
@@ -93,8 +207,13 @@ Functions {data-navmenu="Section 3"}
 
 Column {.tabset}
 -------------------------------------------------
+### Functions
 
-
+* <a href ="https://www.youtube.com/embed/-3hd821alPI">Functions (2005 Q4 Part A)  </a>
+* <a href ="https://www.youtube.com/embed/cR5b2zWOa0w">Functions (2003 Q4 Part B) </a>
+* <a href ="https://www.youtube.com/embed/IXs5CTQnBU4">Floor Functions Exercise HD	</a>
+ 
+ 
 Mathematical Functions{data-navmenu="Section 3"}
 =====================================
 
@@ -108,11 +227,14 @@ Column {.tabset}
 ### Tutorial
 
 
-Functions {data-navmenu="Section 3"}
+Invertible Functions {data-navmenu="Section 3"}
 =====================================
 
 Column {.tabset}
 -------------------------------------------------
+
+### Invertible Functions
+
 
 
 Graph Theory {data-navmenu="Section 4"}
@@ -121,7 +243,67 @@ Graph Theory {data-navmenu="Section 4"}
 Column{.tabset}
 ----------------------------------------------
 
+### Graph Theory
+
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called ***vertices***, can be connected by lines, called ***edges***.
+
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions are assigned to edges.
+
+### Videos
+
+* <a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a>  – 2010 Question [4:58]
+* <a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> [9:20]
+* <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> [11:22]
+* <a title="Weighted Graphs " href="http://youtu.be/MurOpIGCmhQ" target="_blank">Weighted Graphs</a> [6:02]
+* <a title="Degree Sequence of a Graph" href="https://www.youtube.com/watch?v=D-W7VdUQBto" target="_blank">Degree Sequence of a Graph</a>
+* <a title="Complete Graphs" href="http://youtu.be/wvoEtJOht9g" target="_blank">Complete Graphs</a>
+* <a title="Regular Graphs" href="http://youtu.be/W757kOQvDww" target="_blank">Regular Graphs</a>
+* <a title="Adjacency List" href="http://youtu.be/pms38inEdzg" target="_blank">Adjacency List:</a> Using an adjacency list to construct a graph.
+* <a title="Adjacency List" href="http://youtu.be/imYq0rFJlHc" target="_blank">Adjacency List</a> ( Worked Example)
+* <a title="Paths and Cycles in Graph Theory" href="http://youtu.be/baEtZGjpDLk" target="_blank">Paths and Cycles in Graph Theory</a>
+* <a title="Non-Isomorphic Graphs" href="http://youtu.be/U-7kcP6AZX8" target="_blank">Non-Isomorphic Graphs</a> [4:01]
+* <a href="https://www.youtube.com/watch?v=Xq8o-z1DsUA">Isomorphic Graphs – Example 1</a> [8:29]
+* <a href="https://www.youtube.com/watch?v=KejZccQTDF8">Isomorphic Graphs – Example 2</a> [ 3:40]
+* <a href="http://youtu.be/xcOrrJGxzu8" target="_blank">Isomorphic Graphs </a>[5:16]
+* <a href="http://youtu.be/PIGyXIWeqZg" target="_blank">Walks and Paths in Graphs</a> [9.20]
+* <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]
+
+
 ### Graph Theory Terms
+
+
+#### Graph Theory 
+
+*  <a href="https://www.youtube.com/watch?v=tL7l5E1NnS8">Introduction to Graph Theory – Part 1</a> [9:27]
+*  <a href="https://www.youtube.com/watch?v=xozFOG8xQJw">Introduction to Graph Theory – Part 2</a> [6:29]
+*  <a href="https://www.youtube.com/watch?v=aqsDGlbja3s">Introduction to Graph Theory – Part 3</a> [11:24]
+*  <a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a>  – 2010 Question [4:58]
+*  <a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> [9:20]
+*  <a href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> [11:22]
+*  <a title="Weighted Graphs " href="http://youtu.be/MurOpIGCmhQ" target="_blank">Weighted Graphs</a> [6:02]
+
+
+
+
+* <a href="https://www.youtube.com/embed/s1f3nCOOzz8"></a>
+* <a href="https://www.youtube.com/embed/imYq0rFJlHc">Adjacency List ( Worked Example)</a>
+* <a href="https://www.youtube.com/embed/xcOrrJGxzu8">Isomorphic Graphs [5:16]</a>
+
+
+* <a href="https://www.youtube.com/embed/D-W7VdUQBto">Degree Sequence of a Graph</a>
+* <a href="https://www.youtube.com/embed/wvoEtJOht9g">Complete Graphs</a>
+* <a href="https://www.youtube.com/embed/PIGyXIWeqZg">Walks and Paths in Graphs</a>
+
+
+
+* <a href="https://www.youtube.com/embed/W757kOQvDww">Regular Graphs</a>
+* <a href="https://www.youtube.com/embed/Xq8o-z1DsUA">Isomorphic Graphs – Example 1 </a>
+* <a href="https://www.youtube.com/embed/U-7kcP6AZX8">Non-Isomorphic Graphs [4:01]</a>
+
+
+* <a href="https://www.youtube.com/embed/E4GNXq9dUO0">Eulers Formula for Planar Graphs [5:42]</a>
+* <a href="https://www.youtube.com/embed/baEtZGjpDLk">Paths and Cycles in Graph Theory </a>
+* <a href="https://www.youtube.com/embed/pms38inEdzg">Adjacency List: Using an adjacency list to construct a graph.</a>
 
 
 ### Types of Graphs 
@@ -187,6 +369,32 @@ Trees {data-navmenu="Section 4"}
 Column {.tabset}
 ----------------------------------------------
 
+### Trees
+* <a href ="//www.youtube.com/embed/TzLswrllE7E">    Spanning Trees - </a>
+* <a href ="//www.youtube.com/embed/ueEOrbbB6Uw">     Trees 2006 Isomorphic Trees</a>
+* <a href ="//www.youtube.com/embed/wVtE00YodYs">     Spanning Trees  - (Example 1)[10.55]</a>
+
+
+* <a href ="//www.youtube.com/embed/1Nb1I8nfyx4">    Spanning Trees  - (Example 2)[7.06]</a>
+
+* <a href ="//www.youtube.com/embed/tm8Ew3Vyj40">    Spanning Trees  - (Example 3)[9:35]</a>
+
+* <a href ="//www.youtube.com/embed/p95zIv1eyME">    Binary Search Trees - Number of Records</a>
+
+* <a href ="//www.youtube.com/embed/5J8ofTU13KU">    Non-Isomorphic Trees - [9:59]</a>
+* <a href ="//www.youtube.com/embed/7EYf2XhxB4s">    Binary Search Trees  - Important Terminology</a>
+* <a href ="//www.youtube.com/embed/GKWQbtPq6R0">    Binary Search Trees - Drawing a BST with 14 nodes.</a>
+
+* <a href ="//www.youtube.com/embed/-MieB-QtX14">    Height of a Binary Search Tree</a>
+
+* <a href ="//www.youtube.com/embed/Qkb_2I23DJo">    Binary Search Trees  - Example</a>
+   
+
+* <a href ="//www.youtube.com/embed/lU1RKxj6zXs">    Binary Search Trees - (Revision and 2004 Question) [ 8:39 ]</a>
+
+
+
+
 ### Binary Search Trees
 
 A binary search tree (BST), sometimes also called an ordered or sorted binary tree, is a node-based binary tree data structure which has the following properties:
@@ -238,14 +446,27 @@ Relations and Digraphs {data-navmenu="Section 4"}
 Column {.tabset}
 -------------------------------------------------
 
-Abstracts for Morning Session 1
+Digraphs and Relations
 
-### Room 1
+### Videos 
 
-<h5>GraphQL with Python </h5>
+* < a href = ="https://www.youtube.com/embed/4vSr6q5Nxqc"> Digraphs and Relations</a>
 
+*  < a href = ="https://www.youtube.com/embed/dHzu897SdDA">  Cartesian Products</a>
 
-* The talk will be about GraphQL technology. What is GraphQL and why we might use it. 
+*  < a href = ="https://www.youtube.com/embed/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
+
+* < a href = ="https://www.youtube.com/embed/eZIEc1O0W1w"> Relations Example 2</a>
+
+*  < a href = ="https://www.youtube.com/embed/dHzu897SdDA">  Cartesian </a>
+
+*  < a href = ="https://www.youtube.com/embed/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
+
+* < a href = ="https://www.youtube.com/embed/rG8mhlqnkr0">  Relations -Example</a>
+
+*  < a href = ="https://www.youtube.com/embed/_QTKlTJYKRA">  Transitive Relations</a>
+
+*  < a href = ="https://www.youtube.com/embed/A08P9ZJsLOs">  Relations -Example</a>
 
 
 
@@ -276,6 +497,126 @@ Column {.tabset}
 * Arithmetic Progressions
 * Geometric Progressions
 * Recurrences Relationships (Fibonacci Sequence)
+
+### Videos
+
+*  Part 1 : Sequences
+*  Part 2 : Proof by Induction
+*  Part 3 : Series and the Sigma Notation
+
+
+* <a href="https://www.youtube.com/embed/FsnDh03YYVQ"> Sequences and Series - Sequences</a>
+* <a href="https://www.youtube.com/embed/puPz1kBzoi4"> Sequences and Series : Basic Sequences	</a>
+* <a href="https://www.youtube.com/embed/puPz1kBzoi4">Sequences and Series : Basic Sequences	</a>
+* <a href="https://www.youtube.com/embed/wGzpAfUTJTw"> Arithmetic Progressions (Sequences and Series)</a>
+* <a href="https://www.youtube.com/embed/sAm0PHazpvQ"> Sequences and Series - Geometric Series</a>
+* <a href="https://www.youtube.com/embed/OvHeYH9mNkA">Geometric Series (Sequence and Series)</a>
+    
+ 
+* <a href="https://www.youtube.com/embed/4yQaMo9zqCs"> Series Part 1</a>
+* <a href="https://www.youtube.com/embed/hoodEvYAGxQ"> Sequences 2001 basic sequences</a>
+* <a href="https://www.youtube.com/embed/oZgnNIUZSVA">Sequences and Series 2002 evaluating a series</a>
+      
+* <a href="https://www.youtube.com/embed/mUws2ruOP9k"> Sequences and Series 2001 summations</a>
+* <a href="https://www.youtube.com/embed/BCzU5smvhMY"> Recurrence Relations 2004</a>
+
+*  <a href="http://youtu.be/r5SiDTplMwI">Sigma Notation</a> [6.49]
+*  <a title="Sequence Expression" href="http://youtu.be/vLAorai793I" target="_blank">Determining Sequence Expressions</a>
+*  <a title="Finite Series" href="http://youtu.be/NnuAIuvf73U" target="_blank">Finite Series</a> :  Summation of a sequence.
+
+
+* <a href="https://www.youtube.com/embed/D8zZ7nr80r8">    Sigma Notation</a>
+* <a href="https://www.youtube.com/embed/lwjpA522bnY">    Finite Series</a>
+
+    
+* <a href="https://www.youtube.com/embed/NhUBAYcfY_A">Evaluating the Sum of a Series</a>
+  
+* <a href="https://www.youtube.com/embed/sAm0PHazpvQ">Geometric Series </a>
+
+* <a href="https://www.youtube.com/embed/XVyyGuMtyPo">Geometric Summation Exercise</a>
+ 
+  
+  
+
+
+#### Sigma Notation and Finite Series
+
+*  <a href="https://www.youtube.com/watch?v=O8y3OInkTsg" target="_blank">Sigma Notation</a> (6:49 Minutes)
+*  Finite Series – <a title="Sequences and Series : Finite Series " href="https://www.youtube.com/watch?v=HQ-nWl6Xfn4" target="_blank">HERE</a> (4:40 Minutes)
+*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> ( 3:12 Minutes)
+
+#### Geometric Series
+
+*  Geometric Series - <a href="https://www.youtube.com/watch?v=sAm0PHazpvQ" target="_blank">HERE</a>  - [14:41]
+*  <a href="https://www.youtube.com/watch?v=XVyyGuMtyPo">Geometric Summation Exercise</a>
+
+
+
+#### Series 
+
+*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> ( 3:12 Minutes)
+
+
+		
+#### Proof by Induction
+  
+*  <a href="https://www.youtube.com/watch?v=VbO3eX1YKiM">Proof By Induction Example </a>
+	
+
+    
+
+#### Sequences
+
+*  Sequences – <a href="http://youtu.be/dZpq0JV_5vI" target="_blank">HERE</a>
+*  Sequences Value Determination – <a href="http://youtu.be/Q8AeZu2g6nk" target="_blank">HERE</a> (2:24 Minutes)
+*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" target="_blank">HERE </a> (7:00)
+
+
+
+*  Sequences – <a href="http://youtu.be/dZpq0JV_5vI" target="_blank">HERE</a>
+*  Sequences Value Determination – <a href="http://youtu.be/Q8AeZu2g6nk" target="_blank">HERE</a> (2:24 Minutes)
+*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" target="_blank">HERE </a> (7:00)
+
+
+#### Proof by Induction
+
+	<li class="sharedaddy sd-like-enabled sd-sharing-enabled">Simple Example - <a href="https://youtu.be/Jqd_Mvpxsbo" target="_blank">HERE</a> [ 6:14 ]
+
+
+#### Series 
+
+*  Sigma Notation - <a href="https://youtu.be/D8zZ7nr80r8" target="_blank">Here</a> [6:49]
+*  Finite Series – <a title="Sequences and Series : Finite Series " href="http://youtu.be/lwjpA522bnY" target="_blank">HERE</a> (4:40 Minutes)
+*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> ( 3:12 Minutes)
+*  Geometric Series - <a href="https://www.youtube.com/watch?v=sAm0PHazpvQ" target="_blank">HERE</a>  - [14:41]
+*  <a href="https://www.youtube.com/watch?v=XVyyGuMtyPo">Geometric Summation Exercise</a>
+
+
+
+
+#### Sequences and Series
+
+*  Sequences - <a href="http://Sequences" target="_blank">HERE</a>
+*  Introduction to Sequences and Series – <a href="https://youtu.be/z2m2fscysX0" target="_blank">HERE</a>
+*  Sequences Value Determination – <a href="https://www.youtube.com/watch?v=4pdtlxc2UKs" target="_blank">HERE</a> (2:24 Minutes)
+*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" target="_blank">HERE </a> (7:00 Minutes)
+
+### Telescoping Series
+
+	
+#### Videos
+
+*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" target="_blank">Introduction to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences – Part 1</a> [4:09]
+*  <a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction to Sequences – Part 3</a> [8:27]
+*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" target="_blank">Evaluating Sequence Values</a>
+
+*  Exam Question <a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and Series 2003 proof by induction</a>
+
+
+<strong>Telescoping Series</strong>
+
+*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
+*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>
 
 
 Finite Series {data-navmenu="Section 5"}
@@ -365,6 +706,27 @@ Evaluate the following expression using the identities. In this step $n=50$
 
 ### Telescoping Series
 
+#### Telescoping Series
+
+* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>[6:20]
+
+* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>[6:20]
+
+
+
+*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
+*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>
+
+
+
+*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
+*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>
+
+
+*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>[6:20]
+
+
+
 
 Proof By Induction {data-navmenu="Section 5"}
 =====================================
@@ -374,11 +736,25 @@ Column
 
 ### Proof by Induction
 
-<h5> Conference Events in the West of Ireland</h5>
+* <a href="https://www.youtube.com/watch?v=Jqd_Mvpxsbo">Proof By Induction </a>/
+* <a href="https://www.youtube.com/watch?v=Jqd_Mvpxsbo">Proof By Induction </a>
+* <a href="https://www.youtube.com/watch?v=1q21_hbmZG8">Proof By Induction </a>
+	
 
-Informal talk on building a tech community in West of Ireland
+		
+#### Revision Notes
+  
+*  <a href="https://www.youtube.com/watch?v=VbO3eX1YKiM">Proof By Induction Example </a>
+	
+#### Series 
 
-### Tutorial Sheet 
+*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> 
+#### Convergence Testing 
+
+*  <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+
+
 
 
 
@@ -396,10 +772,68 @@ Column {.tabset}
 
 <h5> High-Level APIs for Machine Learning (Iain Keaney) </h5>
 
+Convergence Testing {data-navmenu="Section 5"}
+=========================================
 
-### Counting Problems
+### Convergence Tests
 
-<h5> Counting Problems </h5>
+
+*  <a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+
+*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" target="_blank">HERE</a>(3:13)
+*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" target="_blank">HERE</a>[5:19]
+
+
+#### Ratio Test
+
+
+*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" target="_blank">HERE</a>
+*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" target="_blank">HERE</a>
+
+
+#### Ratio Test
+
+*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" target="_blank">HERE</a>
+*  Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo" target="_blank">HERE</a>
+*  Maclaurin Series Worked Example  <a href="https://youtu.be/tc-Zelm9bWA" target="_blank">HERE</a>
+*  <a href="https://www.youtube.com/watch?v=Ka8OawOt_-w">Simple Ratio Test Exercise	 </a>
+  
+*  <a href="https://www.youtube.com/watch?v=quK-JQ5EQOE">The Ratio Test</a>
+	
+#### Ratio Test
+
+*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" target="_blank">HERE</a>(3:13)
+*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" target="_blank">HERE</a>[5:19]
+*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" target="_blank">HERE</a>
+*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" target="_blank">HERE</a>
+*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" target="_blank">HERE</a>
+
+
+#### Convergence Testing 
+
+*  <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+
+
+
+
+
+ 
+  
+*  <a href="https://www.youtube.com/watch?v=ItK4oTbuuOo">Important Taylor Series Expansions  </a>
+	 
+*  <a href="https://www.youtube.com/watch?v=tc-Zelm9bWA">Maclaurin Series Worked Example</a>
+	
+
+#### Convergence Testing 
+
+*  <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+
+
+
+   
 
 
 
@@ -476,9 +910,6 @@ Systems of Linear Equations {data-navmenu="Section 6"}
 Column {.tabset}
 -----------------------------
 
-### Workshop 1 (Morning)
-
-<h5> Introduction to Github (2 Hours) </h5>
 
 
 
@@ -487,5 +918,33 @@ Counting Problems {data-navmenu="Section 6"}
 
 Column {.tabset}
 -----------------------------
+
+### Counting Problems
+
+<h5> Counting Problems </h5>
+
+
+In this section we look at counting problems, including combinations and permutations.
+
+
+#### Videos
+
+
+* Counting Problems -  <a href="https://www.youtube.com/watch?v=9QVx6yXzfEM" target="_blank">HERE</a>
+* Binomial Coefficients - <a href="https://youtu.be/S74rTbwKIDY" target="_blank">HERE</a>
+* Probability and Combinations (The Hypergeometric Distribution) - <a href="https://www.youtube.com/edit?o=U&amp;video_id=BdkSlLgd5dc" target="_blank">HERE</a>(12:49)
+
+
+  
+* <a href ="https://www.youtube.com/embed/O2Xg1BdqQBM"> Binomial Coefficients - Proof of Identities 1</a>
+* <a href ="https://www.youtube.com/embed/XXoUYJbESCY"> Binomial Coefficients - Proof of Identities 2</a>
+* <a href ="https://www.youtube.com/embed/O8P0te8s-ms"> Binomial Coefficients - Examples</a> /
+* <a href ="https://www.youtube.com/embed/ytvlX_-VrF8"> Binomial Coefficients - Proof of Identities 3</a> 
+* <a href ="https://www.youtube.com/embed/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a>
+* <a href ="https://www.youtube.com/embed/oWlmy3W92u4"> Permutations and Combinations</a>
+
+### Combinations
+
+<h5> Combinations </h5>
 
 ### Permutations
