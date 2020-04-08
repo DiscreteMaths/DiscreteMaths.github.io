@@ -1,2 +1,3 @@
-# pyconlimerick.github.io
-PyCon Limerick 2020
+# discretemaths.github.io
+
+Discrete Maths Tutorials
