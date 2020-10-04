@@ -20,17 +20,21 @@ Column
 
 ### Introduction
 
-<p>
+
+#### Discrete mathematics
 
 
+Discrete mathematics is the common name for the fields of mathematics most generally useful in theoretical computer science. This includes computability theory, computational complexity theory, and information theory. 
 
-<p>
+*  \textbf{Computability theory} examines the limitations of various theoretical models of the computer, including the most powerful known model - the Turing machine. 
 
-<h4>Programme and Abstracts</h4>
-<p>
-* Date: Saturday 29th February 2020
-* Location: Strand Hotel Limerick 
-* Times: 10.00am to 17:10pm approx
+*  \textbf{Complexity theory} is the study of tractability by computer; some problems, although theoretically soluble by computer, are so expensive in terms of time or space that solving them is likely to remain practically unfeasible, even with rapid advance of computer hardware. 
+
+*  Finally, \textbf{information theory} is concerned with the amount of data that can be stored on a given medium, and hence concepts such as compression and entropy.
+
+
+As a relatively new field, discrete mathematics has a number of fundamental open problems. The most famous of these is the "\textbf{P=NP?}" problem, one of the Millennium Prize Problems. It is widely believed that the answer to this problem is no.
+
 
 
 
@@ -42,13 +46,74 @@ Column {.tabset}
 
 ### Real and Irrational Numbers
 
+In mathematics, an irrational number is a real number that cannot be expressed as a ratio of integers, i.e. as a fraction. 
+Therefore, irrational numbers, when written as decimal numbers, do not terminate, nor do they repeat.
+
+
+#### Rational and Irrational Numbers
+You can tell if it is Rational or Irrational by trying to write the number as a simple fraction.
+
+*  1.5 is rational, because it can be written as the ratio 3/2
+*  7 is rational, because it can be written as the ratio 7/1
+*  0.333... (3 repeating) is also rational, because it can be written as the ratio 1/3
+
+
+
+#### Significant Digits
+There are three rules on determining how many significant figures are in a number: Non-zero digits are always significant. Any zeros between two significant digits are significant. A final zero or trailing zeros in the decimal portion ONLY are significant.
+
+
+
+
+#### Floating Point Notation
+
+
+
+In computing, floating point describes a method of 
+representing an approximation of a real number in a 
+way that can support a wide range of values. 
+
+
+The numbers are, in general, represented approximately 
+to a fixed number of significant digits (the mantissa) and scaled using an exponent. 
+
+In essence, computers are integer machines and are capable of representing real numbers only by using complex codes. The most popular code for representing real numbers is called the IEEE Floating-Point Standard .
+The term floating point is derived from the fact that there is no fixed number of digits before and after the decimal point; that is, the decimal point can float. There are also representations in 
+which the number of digits before and after the decimal point is set, called fixed-point representations. In general, floating-point representations are slower and less accurate than fixed-point representations, but they can handle a larger range of numbers.
+
+
+
+
+
+### Natural, Rational and Real Numbers
+
+* $\mathbb{N}$ : natural numbers (or positive integers) $\{1,2,3,\ldots\}$
+* $\mathbb{Z}$ : integers $\{-3,-2,-1,0,1,2,3,\ldots\}$
+\begin{itemize}
+* (The letter $\mathbb{Z}$ comes from the word \emph{Zahlen} which means ``numbers" in German.)
+
+* $\mathbb{Q}$ : rational numbers
+* $\mathbb{R}$ : real numbers
+* $\mathbb{N} \subseteq \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+
+* (All natural numbers are integers. All integers are rational numbers. All rational numbers are real numbers.)
+
+
+
+### Irrational Numbers
+
+An irrational number cannot be expressed as a ratio between two numbers and it cannot be written as a simple fraction because there is not a finite number of numbers when written as a decimal. Instead, the numbers in the decimal would go on forever, without repeating.
+
+
+
+
 #### Real and Irrational Numbers
 
-*  <a title="Number Sets" href="http://youtu.be/9NAmHx3pAxk" target="_blank">Number Sets</a>Natural Numbers, Integers, Rational Numbers and Real Numbers.
-*  <a title="Irrational Numbers" href="http://youtu.be/lu7uhe903TY" target="_blank">Irrational Numbers</a>: Exercise involving irrational numbers.
-*  <a title="Rational Numbers" href="http://youtu.be/WnXnVADCXuQ" target="_blank">Rational and Irrational Numbers</a>[4:16] (New Video)
-*  <a title="Repeating Decimals" href="http://youtu.be/mhHAJOQQ8kM" target="_blank">Repeating Decimals</a>(video 1)
-*  <a title="Repeating Decimal" href="http://youtu.be/99qV28WmzH4" target="_blank">Repeating Decimal </a>[3:37](Video 2)
+*  <a title="Number Sets" href="http://youtu.be/9NAmHx3pAxk" >Number Sets</a>Natural Numbers, Integers, Rational Numbers and Real Numbers.
+*  <a title="Irrational Numbers" href="http://youtu.be/lu7uhe903TY" >Irrational Numbers</a>: Exercise involving irrational numbers.
+*  <a title="Rational Numbers" href="http://youtu.be/WnXnVADCXuQ" >Rational and Irrational Numbers</a>[4:16] (New Video)
+*  <a title="Repeating Decimals" href="http://youtu.be/mhHAJOQQ8kM" >Repeating Decimals</a>(video 1)
+*  <a title="Repeating Decimal" href="http://youtu.be/99qV28WmzH4" >Repeating Decimal </a>[3:37](Video 2)
 
 
 <h5>Discrete Maths: Numbers</h5>
@@ -78,72 +143,51 @@ Column {.tabset}
 *  Floating-point notation
 
 
-* <a href="https://www.youtube.com/embed/9NAmHx3pAxk" >Number Sets: Natural Numbers, Integers, Rational Numbers and Real Numbers.</a>
-* <a href="https://www.youtube.com/embed/lu7uhe903TY" >Irrational Numbers: Exercise involving irrational numbers.</a>
-* <a href="https://www.youtube.com/embed/WnXnVADCXuQ" >Rational and Irrational Numbers</a>
+* <a href="https://www.youtube.com/watch?v=/9NAmHx3pAxk" >Number Sets: Natural Numbers, Integers, Rational Numbers and Real Numbers.</a>
+* <a href="https://www.youtube.com/watch?v=/lu7uhe903TY" >Irrational Numbers: Exercise involving irrational numbers.</a>
+* <a href="https://www.youtube.com/watch?v=/WnXnVADCXuQ" >Rational and Irrational Numbers</a>
 
-* <a href="https://www.youtube.com/embed/mhHAJOQQ8kM" >Repeating Decimals</a>
-* <a href="https://www.youtube.com/embed/99qV28WmzH4" >Repeating Decimals</a>
-* <a href="https://www.youtube.com/embed/sIowD1XjFJ8" >Repeating Decimals</a>
-
+* <a href="https://www.youtube.com/watch?v=/mhHAJOQQ8kM" >Repeating Decimals</a>
+* <a href="https://www.youtube.com/watch?v=/99qV28WmzH4" >Repeating Decimals</a>
+* <a href="https://www.youtube.com/watch?v=/sIowD1XjFJ8" >Repeating Decimals</a>
 
 
 
 Binary Numbers {data-navmenu="Section 1"}
 ==================================
 
-* <a href="https://www.youtube.com/embed/Xj75KbggKMU">Binary Number Conversion</a>
+* <a href="https://www.youtube.com/watch?v=/Xj75KbggKMU">Binary Number Conversion</a>
 
-* <a href="https://www.youtube.com/embed/xyo2UiDpND8"> Expressing Binary Numbers</a>
+* <a href="https://www.youtube.com/watch?v=/xyo2UiDpND8"> Expressing Binary Numbers</a>
 
-* <a href="https://www.youtube.com/embed/HDQ7PGYo5Y8"> Binary Addition</a>
+* <a href="https://www.youtube.com/watch?v=/HDQ7PGYo5Y8"> Binary Addition</a>
 
-* <a href="https://www.youtube.com/embed/Hz3PfnllV6I">Binary Addition</a>
+* <a href="https://www.youtube.com/watch?v=/Hz3PfnllV6I">Binary Addition</a>
 
-* <a href="https://www.youtube.com/embed/cnv7scvjc7o"> Binary Addition </a>
+* <a href="https://www.youtube.com/watch?v=/cnv7scvjc7o"> Binary Addition </a>
 
-* <a href="https://www.youtube.com/embed/dQMQMvU4GT0"> Binary Subtraction: using Borrowing Method</a>
+* <a href="https://www.youtube.com/watch?v=/dQMQMvU4GT0"> Binary Subtraction: using Borrowing Method</a>
 
-* <a href="https://www.youtube.com/embed/iwzaZDdaT9g">Binary Numbers Adding Two Binary Numbers (Example) HD</a>
+* <a href="https://www.youtube.com/watch?v=/iwzaZDdaT9g">Binary Numbers Adding Two Binary Numbers (Example) HD</a>
     
-* <a href="https://www.youtube.com/embed/DTO3mS5D2lA">Binary Subtraction using "Two's Complement"</a>
+* <a href="https://www.youtube.com/watch?v=/DTO3mS5D2lA">Binary Subtraction using "Two's Complement"</a>
 
-* <a href="https://www.youtube.com/embed/Ai5F0KLyh2Q"> Left Shifting Technique for Binary Multiplication</a>
+* <a href="https://www.youtube.com/watch?v=/Ai5F0KLyh2Q"> Left Shifting Technique for Binary Multiplication</a>
 
-* <a href="https://www.youtube.com/embed/P_vd1vkafYk">  Binary Subtraction: using Twos Complement</a>
+* <a href="https://www.youtube.com/watch?v=/P_vd1vkafYk">  Binary Subtraction: using Twos Complement</a>
     
-* <a href="https://www.youtube.com/embed/WfWHdWwITgk"> Binary Multiplication: using Left Shifting</a>
+* <a href="https://www.youtube.com/watch?v=/WfWHdWwITgk"> Binary Multiplication: using Left Shifting</a>
 
-* <a href="https://www.youtube.com/embed/A08P9ZJsLOs"> Relations -Example</a>
+* <a href="https://www.youtube.com/watch?v=/A08P9ZJsLOs"> Relations -Example</a>
 
-* <a href="https://www.youtube.com/embed/-svSPXMGyfs "> Binary Multiplication ( Binary Numbers Tutorial Sheet)		</a>
+* <a href="https://www.youtube.com/watch?v=/-svSPXMGyfs "> Binary Multiplication ( Binary Numbers Tutorial Sheet)		</a>
 
 
 Column {.tabset}
 -----------------------------
 
-Hexadecimal Numbers {data-navmenu="Section 1"}
-==================================
-
-Column {.tabset}
------------------------------
-
-### Hexadecimal Numbers
-
-### Videos
-
-
-* <a href="https://www.youtube.com/embed/-4uUCdDxsrU">Hexadecimal Number Conversion</a>
-* <a href="https://www.youtube.com/embed/JvMNIkmszaU">Converting Hexadecimal Numbers With Fractions to Decimal Form</a>
-* <a href="https://www.youtube.com/embed/ztxKt77mTFE">Converting Decimal Fractions to Hexadecimal</a>
-* <a href="https://www.youtube.com/embed/ussn9qLHYrE">Hexadecimal and Binary Numbers</a>
-* <a href="https://www.youtube.com/embed/d6_oOPZBdTY">Binary and Hexadecimal Arithmetic</a>
-* <a href="https://www.youtube.com/embed/ztxKt77mTFE">Converting Decimal Fractions to Hexadecimal</a>
-* <a href="https://www.youtube.com/embed/VSwZ-1mCEW0">Converting Hex to Binary</a>
-* <a href="https://www.youtube.com/embed/UWbKK6Q8xlY">Adding Hexadecimal Numbers[6:38]</a>
-* <a href="https://www.youtube.com/embed/Stt4nkIeaEc">Spreadsheet Commands[6:43] Checking your answers on a spreadsheet.</a>
-
-
+```{r child="sourcefiles/Numbers-Hexadecimal.Rmd"}
+```
 
 Set Theory {data-navmenu="Section 2"}
 ====================================
@@ -160,47 +204,124 @@ Column {.tabset}
 *  Relative Difference
 
 
+### Set Specification
 
 
 
-Logic {data-navmenu="Section 2"}
-====================================
+NOTATIONS FOR A SET:
 
-Column {.tabset}
--------------------------------
+A set can be represented by two methods:
+1.	ROSTER METHOD
+2.	BUILDER METHOD
+ROSTER METHOD:
 
-### Logic 
+In this method the elements of a set are separated by commas and are enclosed within curly brackets { }. For example:
 
-Propositions, The negations of a proposition, Compound Statements, Truth tables
+A = {1, 2, 3, 4, 5, 6} is a set of numbers.
 
-* <a href = "https://www.youtube.com/embed/YK6tzrBYS14"> Logic 2003 Propositions</a>
-* <a href = "https://www.youtube.com/embed/SNah7Lai_Lo"> Logic 2007 Propositions </a>
-* <a href = "https://www.youtube.com/embed/qLP5fnux3RA"> Introduction to Truth Tables</a>
+B = {Sunny, Joy, Kartik, Harish, Girish} is a set of names.
 
-* <a href = "https://www.youtube.com/embed/qiO6sEmfkIc"> Proof using Truth Tables</a>
-* <a href = "https://www.youtube.com/embed/Z9YVIP7v-Ik"> Proof using Truth Tables</a>
-* <a href = "https://www.youtube.com/embed/4ZSgi6lmd_4"> Logic proof by truth table</a>
+C = {a, e, i, o, u} is a set of vowels.
 
-* <a href = "https://www.youtube.com/embed/U_VxV-3p7dU"> Logic 2007 Question 3 Truth Tables</a>
-* <a href = "https://www.youtube.com/embed/FT9ocP-L6Mc"> Conditional Connectives :  p implies q </a>
-* <a href = "https://www.youtube.com/embed/dnem1E71TI4"> Logic 2001 Implication Connective</a>
+D = {apple, banana, guava, orange, pear} is a set of fruits.
 
-* <a href = "https://www.youtube.com/embed/s1f3nCOOzz8">  HERE </a>
+Listing the elements in this way is called Roster method. In this method, it is not necessary for the elements to be listed in a particular order. The elements of the set can be written just plainly, separated by commas and in any order.
 
-### Truth Tables
 
-* Introduction to Truth Tables
+#### BUILDER METHOD:
 
-### Conditional Connectives
+This method is also called Property method. In Builder method, a set is represented by stating all the properties which are satisfied by the elements of that particular set only.
 
-* Truth tables for condition connectives  
-* The contrapositive
+For example:
 
-### Logic Networks
+If A is a set of elements less than 0, then in Builder method it will be written as
 
-* <a href = "https://www.youtube.com/embed/DtkPULIOlWQ"> Logic Networks: (Example 1)</a>
-* <a href = "https://www.youtube.com/embed/NzFMJwUR82k"> Logic Networks: (Example 2)</a>
+A = {x: x < 0}, this statement is read as "the set of all x such that x is less than 0"
 
+If A is a set of all real numbers less than 7, then in Builder method it is written as A = {x   R: x < 7}
+
+Similarly,
+
+A = {2i: i is an integer} is a set of all even integers.
+
+A = {x   R: x ? 2} is a set of all real numbers except 2.
+
+A = {x   R: x > 3 and x < 7} is a set of real numbers greater than 3 but less than 7.
+
+A = {x   Z: x > 6} is a set of integers greater than 6.
+
+A = {x   Z: 2x + 1} is a set of all odd integers.
+
+### Set theory
+
+#### Definition of a set
+
+A set is defined completely by its elements. Formally, sets X and Y are the same set if they have the same elements; that is, if every element of X is also an element of Y, and vice versa. For example, suppose we define:
+
+\[ F = \{x | \mbox{(x is an integer)} \mbox{ and } 0 < x < 4)\}  \]
+%Then F=A. The definition also makes it clear that {1,2,3} = (3,2,1} = {1,1,2,3,2}. Note also that if X and Y are both empty, then they are equal, justifying referring to "the" empty set.
+
+The equivalence of empty sets has a \textbf{\textit{metaphysical}} consequence for some theories of the metaphysics of properties that define the property of being x as simply the set of all x, then if the two properties are uninstantiated or coextensive they are equivalent - under this theory, because there are no unicorns and there are no pixies, the property of being a unicorn and being a pixie are the same - but if there were a unicorns and pixies, we could tell them apart. (See Universals for more on this.)
+
+### Elements and subsets}
+
+The $\in$  sign indicates set membership. If x is an element (or "member") of a set X, we write $ \in X$; e.g. $3\in A$. (We may also say ``X contains x" and ``A contains 3")
+
+A very important notion is that of a subset. X is a subset of Y, written $X \subseteq Y$ (sometimes simply as$X \subset Y$), if every element of X is also an element of Y. From before $C\subseteq A \subseteq E$.
+\subsection{Sets containing Sets}
+
+
+Sets can of course be elements of other sets; for example we can form the set $G = \{A,B,C,D,E\}$, whose five elements are the sets we considered earlier. Then, for instance, $A\in G$. (Note that this is very different from saying $A\subseteq G$)
+
+%The tilde (~) is as usual used for negation; e.g. $\tilde(A\in B)$.
+
+
+
+
+
+
+
+### Number Sets
+
+The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as \textit{\textbf{blackboard font}}.
+\begin{itemize}
+*  $\mathbb{N}$ Natural Numbers ($0,1,2,3$) 
+(Not used in the CIS102 Syllabus)
+*  $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
+\begin{itemize}
+* [$\ast$] $\mathbb{Z}^{+}$ Positive Integers
+* [$\ast$] $\mathbb{Z}^{-}$ Negative Integers
+\end{itemize}
+*  $\mathbb{Q}$ Rational Numbers
+*  $\mathbb{R}$ Real Numbers
+\end{itemize}
+
+
+#### Sets of Numbers
+
+*  $\mathbb{Z}$ Set of all integers
+*  $\mathbb{Q}$ Set of all rational numbers
+*  $\mathbb{R}$ Set of all real numbers
+
+
+*  $\mathbb{Z}^{+}$ Set of all positive integers
+*  $\mathbb{Z}^{-}$ Set of all negative integers
+*  $\mathbb{R}^{+}$ Set of all positive real numbers
+*  $\mathbb{R}^{-}$ Set of all negative real numbers
+
+### Power set
+
+The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]. The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
+
+Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
+
+%Cantor proved that this in fact holds for any set (Cantor's Theorem). This is obvious for a finite set, but Cantor's ingenious proof made no reference to the set being finite; the theorem holds even for infinite sets. This was a powerful generalisation of his previous discovery that different sizes of infinity exist.
+
+
+
+
+```{r child="sourcefiles/Logic-IntroductionToLogic.Rmd"}
+```
 
 Functions {data-navmenu="Section 3"}
 =====================================
@@ -209,10 +330,17 @@ Column {.tabset}
 -------------------------------------------------
 ### Functions
 
-* <a href ="https://www.youtube.com/embed/-3hd821alPI">Functions (2005 Q4 Part A)  </a>
-* <a href ="https://www.youtube.com/embed/cR5b2zWOa0w">Functions (2003 Q4 Part B) </a>
-* <a href ="https://www.youtube.com/embed/IXs5CTQnBU4">Floor Functions Exercise HD	</a>
- 
+* <a href ="https://www.youtube.com/watch?v=/-3hd821alPI">Functions (2005 Q4 Part A)  </a>
+* <a href ="https://www.youtube.com/watch?v=/cR5b2zWOa0w">Functions (2003 Q4 Part B) </a>
+* <a href ="https://www.youtube.com/watch?v=/IXs5CTQnBU4">Floor Functions Exercise HD	</a>
+
+### Invertible Functions
+
+Necessary Condtions for Invertibility of a Function
+
+* The function must be one-to-one
+* The fucntion must be onto.
+
  
 Mathematical Functions{data-navmenu="Section 3"}
 =====================================
@@ -223,6 +351,18 @@ Column {.tabset}
 ### Logarithms
 
 ### Exponennts
+
+### Absolute Value, Sign
+
+\subsection*{Absolute Value Function (4.1.3)}
+
+
+*  The absolute value of some real number $x$ is denoted $|x|$.
+*  If the number is positive, the asbolute value is the same number.
+*  If the number is negative, the asbolute value is the number without the minus sign.
+*  $|2|=2$
+*  $|-2| = 2$
+
 
 ### Tutorial
 
@@ -237,206 +377,15 @@ Column {.tabset}
 
 
 
-Graph Theory {data-navmenu="Section 4"}
-====================================
 
-Column{.tabset}
-----------------------------------------------
 
-### Graph Theory
 
-Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called ***vertices***, can be connected by lines, called ***edges***.
 
-Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions are assigned to edges.
+```{r child="sourcefiles/Graphs-IntroductionToGraphs.Rmd"}
+```
 
-### Videos
-
-* <a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a>  – 2010 Question [4:58]
-* <a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> [9:20]
-* <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> [11:22]
-* <a title="Weighted Graphs " href="http://youtu.be/MurOpIGCmhQ" target="_blank">Weighted Graphs</a> [6:02]
-* <a title="Degree Sequence of a Graph" href="https://www.youtube.com/watch?v=D-W7VdUQBto" target="_blank">Degree Sequence of a Graph</a>
-* <a title="Complete Graphs" href="http://youtu.be/wvoEtJOht9g" target="_blank">Complete Graphs</a>
-* <a title="Regular Graphs" href="http://youtu.be/W757kOQvDww" target="_blank">Regular Graphs</a>
-* <a title="Adjacency List" href="http://youtu.be/pms38inEdzg" target="_blank">Adjacency List:</a> Using an adjacency list to construct a graph.
-* <a title="Adjacency List" href="http://youtu.be/imYq0rFJlHc" target="_blank">Adjacency List</a> ( Worked Example)
-* <a title="Paths and Cycles in Graph Theory" href="http://youtu.be/baEtZGjpDLk" target="_blank">Paths and Cycles in Graph Theory</a>
-* <a title="Non-Isomorphic Graphs" href="http://youtu.be/U-7kcP6AZX8" target="_blank">Non-Isomorphic Graphs</a> [4:01]
-* <a href="https://www.youtube.com/watch?v=Xq8o-z1DsUA">Isomorphic Graphs – Example 1</a> [8:29]
-* <a href="https://www.youtube.com/watch?v=KejZccQTDF8">Isomorphic Graphs – Example 2</a> [ 3:40]
-* <a href="http://youtu.be/xcOrrJGxzu8" target="_blank">Isomorphic Graphs </a>[5:16]
-* <a href="http://youtu.be/PIGyXIWeqZg" target="_blank">Walks and Paths in Graphs</a> [9.20]
-* <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]
-
-
-### Graph Theory Terms
-
-
-#### Graph Theory 
-
-*  <a href="https://www.youtube.com/watch?v=tL7l5E1NnS8">Introduction to Graph Theory – Part 1</a> [9:27]
-*  <a href="https://www.youtube.com/watch?v=xozFOG8xQJw">Introduction to Graph Theory – Part 2</a> [6:29]
-*  <a href="https://www.youtube.com/watch?v=aqsDGlbja3s">Introduction to Graph Theory – Part 3</a> [11:24]
-*  <a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a>  – 2010 Question [4:58]
-*  <a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> [9:20]
-*  <a href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> [11:22]
-*  <a title="Weighted Graphs " href="http://youtu.be/MurOpIGCmhQ" target="_blank">Weighted Graphs</a> [6:02]
-
-
-
-
-* <a href="https://www.youtube.com/embed/s1f3nCOOzz8"></a>
-* <a href="https://www.youtube.com/embed/imYq0rFJlHc">Adjacency List ( Worked Example)</a>
-* <a href="https://www.youtube.com/embed/xcOrrJGxzu8">Isomorphic Graphs [5:16]</a>
-
-
-* <a href="https://www.youtube.com/embed/D-W7VdUQBto">Degree Sequence of a Graph</a>
-* <a href="https://www.youtube.com/embed/wvoEtJOht9g">Complete Graphs</a>
-* <a href="https://www.youtube.com/embed/PIGyXIWeqZg">Walks and Paths in Graphs</a>
-
-
-
-* <a href="https://www.youtube.com/embed/W757kOQvDww">Regular Graphs</a>
-* <a href="https://www.youtube.com/embed/Xq8o-z1DsUA">Isomorphic Graphs – Example 1 </a>
-* <a href="https://www.youtube.com/embed/U-7kcP6AZX8">Non-Isomorphic Graphs [4:01]</a>
-
-
-* <a href="https://www.youtube.com/embed/E4GNXq9dUO0">Eulers Formula for Planar Graphs [5:42]</a>
-* <a href="https://www.youtube.com/embed/baEtZGjpDLk">Paths and Cycles in Graph Theory </a>
-* <a href="https://www.youtube.com/embed/pms38inEdzg">Adjacency List: Using an adjacency list to construct a graph.</a>
-
-
-### Types of Graphs 
-
-<h5>Directed Graphs</h5>
-A directed graph is a graph where the arcs are one-directional, that is an arc between two nodes only indicates the possibility of moving from one node to the other, but not in the opposite direction. The arcs will usually be drawn as arrows to indicate the direction. An example of a potential use for a directed graph would be a graph which tracks possible states that a computer could be in; there may be a way for a computer in one state to reach a subsequent state, but no way to return from the second state to the first.
-
-<h5>Weighted graph</h5>
-A weighted graph is a graph where there is some 'cost' associated with each arc. Usually, a little number will appear directly adjacent to every arc to express this price. A typical use of a weighted graph would be planning routes between locations on a map where the 'cost' associated with the arc would be the distance between the two locations.
-
-<h5>Trees</h5>
-A tree is a special graph which is connected (every node can be reached from every other node by following one or more arcs) and for which the number of arcs is exactly one fewer than the number of nodes. A tree is usually drawn with one node (called the 'root node') at the top of the diagram, and then 'growing' downwards with arcs and nodes getting further and further from the root. In this way, nodes can be grouped in terms of their distance from the root. Every node (aside from the root) is referred to as the 'child' of the node to which it is connected and which is one step closer to the root. This node is also called the 'parent' node of the child. Every node has at most one parent but can have any number of children. Nodes without any children are commonly called 'leaf nodes'. A typical use of a tree would be a decision problem where the answer to a question determines the next question and set of possible answers.
-
-<h5> Planar Graphs</h5>
-A planar graph is a graph that can be drawn in the plane such that there are no edge crossings.
-
-<h5>Characterization</h5>
-The planar graphs can be characterized by a theorem first proven by Kazimierz Kuratowski in 1930, which states that the planar graphs are exactly those graphs G such that $K_5 \not \preceq G$  and $K_{3,3</h5> \not \preceq G$ .
-
-
-
-<h5>Types of Graph Layouts</h5>
-
-1. Bipartite Graphs
-2. Path Graphs
-3. Cycle Graphs
-4. Null Graphs
-
-
-<h5>Bipartite Graphs</h5>
-
-* A bipartite graph is a graph whose vertex-set can be split into two sets in such a way that each edge of the graph joins a vertex in first set to a vertex in second set.
-
-
-
-<h5>Path Graphs</h5>
-
-* A path graph is a graph consisting of a single path. 
-* The path graph with n vertices is denoted by $P_n$.
-
-
-
-<h5>Cycle Graphs</h5>
-
-* A cycle graph is a graph consisting of a single cycle. 
-* The cycle graph with n vertices is denoted by $C_n$.
-
-
-
-<h5>Null Graphs</h5>
-
-* A null graphs is a graph containing no edges. * The null graph with n vertices is denoted by $N_n$.
-
-
-
-
-There are various types of graphs depending upon the number of vertices, number of edges, interconnectivity, and their overall structure. We will discuss only a certain few important types of graphs in this chapter.
-
-
-Trees {data-navmenu="Section 4"}
-====================================
-
-Column {.tabset}
-----------------------------------------------
-
-### Trees
-* <a href ="//www.youtube.com/embed/TzLswrllE7E">    Spanning Trees - </a>
-* <a href ="//www.youtube.com/embed/ueEOrbbB6Uw">     Trees 2006 Isomorphic Trees</a>
-* <a href ="//www.youtube.com/embed/wVtE00YodYs">     Spanning Trees  - (Example 1)[10.55]</a>
-
-
-* <a href ="//www.youtube.com/embed/1Nb1I8nfyx4">    Spanning Trees  - (Example 2)[7.06]</a>
-
-* <a href ="//www.youtube.com/embed/tm8Ew3Vyj40">    Spanning Trees  - (Example 3)[9:35]</a>
-
-* <a href ="//www.youtube.com/embed/p95zIv1eyME">    Binary Search Trees - Number of Records</a>
-
-* <a href ="//www.youtube.com/embed/5J8ofTU13KU">    Non-Isomorphic Trees - [9:59]</a>
-* <a href ="//www.youtube.com/embed/7EYf2XhxB4s">    Binary Search Trees  - Important Terminology</a>
-* <a href ="//www.youtube.com/embed/GKWQbtPq6R0">    Binary Search Trees - Drawing a BST with 14 nodes.</a>
-
-* <a href ="//www.youtube.com/embed/-MieB-QtX14">    Height of a Binary Search Tree</a>
-
-* <a href ="//www.youtube.com/embed/Qkb_2I23DJo">    Binary Search Trees  - Example</a>
-   
-
-* <a href ="//www.youtube.com/embed/lU1RKxj6zXs">    Binary Search Trees - (Revision and 2004 Question) [ 8:39 ]</a>
-
-
-
-
-### Binary Search Trees
-
-A binary search tree (BST), sometimes also called an ordered or sorted binary tree, is a node-based binary tree data structure which has the following properties:
-
-*  The left subtree of a node contains only nodes with keys less than the node's key.
-*  The right subtree of a node contains only nodes with keys greater than the node's key.
-*  The left and right subtree must each also be a binary search tree.
-*  There must be no duplicate nodes.
-
-
-### Spanning Trees
-
-A spanning tree $T$ of a connected, undirected graph $G$ is a tree composed of all the vertices and some (or perhaps all) of the edges of $G$. 
-
-Informally, a spanning tree of $G$ is a selection of edges of $G$ that form a tree spanning every vertex. That is, every vertex lies in the tree, but no cycles (or loops) are formed. On the other hand, every bridge of $G$ must belong to $T$.
-
-A spanning tree of a connected graph $G$ can also be defined as a maximal set of edges of $G$ that contains no cycle, or as a minimal set of edges that connect all vertices.
-
-#### Subgraphs
-
-We say that a graph H is a subgraph of a graph G if its vertices are a subset of the
-vertex set of G, its edges are a subset of the edge set of G, and each edge of H has
-the same end-vertices in G and H.
-
-#### Definition 
-If H is a subgraph of G such that $V(H) = V (G)$, then H is called a spanning subgraph of G. If H is a spanning subgraph which is also a tree, then H is said to be a spanning tree of G.
-
-### Traversals
-
-A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal. We will consider several traversal algorithms with we group in the following two kinds
-
-* depth-first traversal
-* breadth-first traversal
-
-
-There are three different types of depth-first traversals, :
-
-* Pre-Order traversal - visit the parent first and then left and right children;
-* In-Order traversal - visit the left child, then the parent and the right child;
-* Post-Order traversal - visit left child, then the right child and then the parent;
-
-
+```{r child="sourcefiles/Graphs-Trees.Rmd"}
+```
 
 Relations and Digraphs {data-navmenu="Section 4"}
 =====================================
@@ -446,38 +395,44 @@ Relations and Digraphs {data-navmenu="Section 4"}
 Column {.tabset}
 -------------------------------------------------
 
-Digraphs and Relations
+#### Digraphs and Relations
+
+### Relations
+
+* A relation $R$ from a set A to a set B is a subset of the
+\textbf{cartesian product} A x B. 
+* Thus R is a set of \textbf{ordered pairs} where
+the first element comes from A and the second element comes
+from B i.e. $(a, b)$
+
+* If $(a, b) \in R$ we say that $a$ is related to $b$ and write $aRb$.
+* If $(a, b) \notin R$, we say that $a$ is not related to $b$ and write $aRb$. CHECK
+* If $R$ is a relation from a set $A$ to itself then we say that ``$R$ is a relation
+on $A$".
+
 
 ### Videos 
 
-* < a href = ="https://www.youtube.com/embed/4vSr6q5Nxqc"> Digraphs and Relations</a>
+* < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc"> Digraphs and Relations</a>
 
-*  < a href = ="https://www.youtube.com/embed/dHzu897SdDA">  Cartesian Products</a>
+*  < a href = ="https://www.youtube.com/watch?v=/dHzu897SdDA">  Cartesian Products</a>
 
-*  < a href = ="https://www.youtube.com/embed/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
+*  < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
 
-* < a href = ="https://www.youtube.com/embed/eZIEc1O0W1w"> Relations Example 2</a>
+* < a href = ="https://www.youtube.com/watch?v=/eZIEc1O0W1w"> Relations Example 2</a>
 
-*  < a href = ="https://www.youtube.com/embed/dHzu897SdDA">  Cartesian </a>
+*  < a href = ="https://www.youtube.com/watch?v=/dHzu897SdDA">  Cartesian </a>
 
-*  < a href = ="https://www.youtube.com/embed/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
+*  < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
 
-* < a href = ="https://www.youtube.com/embed/rG8mhlqnkr0">  Relations -Example</a>
+* < a href = ="https://www.youtube.com/watch?v=/rG8mhlqnkr0">  Relations -Example</a>
 
-*  < a href = ="https://www.youtube.com/embed/_QTKlTJYKRA">  Transitive Relations</a>
+*  < a href = ="https://www.youtube.com/watch?v=/_QTKlTJYKRA">  Transitive Relations</a>
 
-*  < a href = ="https://www.youtube.com/embed/A08P9ZJsLOs">  Relations -Example</a>
-
-
-
-### Room 2
+*  < a href = ="https://www.youtube.com/watch?v=/A08P9ZJsLOs">  Relations -Example</a>
 
 
 
-
-
-
-<h5> Social Network Analysis of the 1916 rising (James Nagle)</h5>
 
 ### Room 3
 
@@ -485,139 +440,8 @@ Digraphs and Relations
 
 
 
-Sequences and Series {data-navmenu="Section 5"}
-=====================================
-
-Column {.tabset}
--------------------------------------------------
-
-### Introduction 
-
-* Sequences - what are sequences?
-* Arithmetic Progressions
-* Geometric Progressions
-* Recurrences Relationships (Fibonacci Sequence)
-
-### Videos
-
-*  Part 1 : Sequences
-*  Part 2 : Proof by Induction
-*  Part 3 : Series and the Sigma Notation
-
-
-* <a href="https://www.youtube.com/embed/FsnDh03YYVQ"> Sequences and Series - Sequences</a>
-* <a href="https://www.youtube.com/embed/puPz1kBzoi4"> Sequences and Series : Basic Sequences	</a>
-* <a href="https://www.youtube.com/embed/puPz1kBzoi4">Sequences and Series : Basic Sequences	</a>
-* <a href="https://www.youtube.com/embed/wGzpAfUTJTw"> Arithmetic Progressions (Sequences and Series)</a>
-* <a href="https://www.youtube.com/embed/sAm0PHazpvQ"> Sequences and Series - Geometric Series</a>
-* <a href="https://www.youtube.com/embed/OvHeYH9mNkA">Geometric Series (Sequence and Series)</a>
-    
- 
-* <a href="https://www.youtube.com/embed/4yQaMo9zqCs"> Series Part 1</a>
-* <a href="https://www.youtube.com/embed/hoodEvYAGxQ"> Sequences 2001 basic sequences</a>
-* <a href="https://www.youtube.com/embed/oZgnNIUZSVA">Sequences and Series 2002 evaluating a series</a>
-      
-* <a href="https://www.youtube.com/embed/mUws2ruOP9k"> Sequences and Series 2001 summations</a>
-* <a href="https://www.youtube.com/embed/BCzU5smvhMY"> Recurrence Relations 2004</a>
-
-*  <a href="http://youtu.be/r5SiDTplMwI">Sigma Notation</a> [6.49]
-*  <a title="Sequence Expression" href="http://youtu.be/vLAorai793I" target="_blank">Determining Sequence Expressions</a>
-*  <a title="Finite Series" href="http://youtu.be/NnuAIuvf73U" target="_blank">Finite Series</a> :  Summation of a sequence.
-
-
-* <a href="https://www.youtube.com/embed/D8zZ7nr80r8">    Sigma Notation</a>
-* <a href="https://www.youtube.com/embed/lwjpA522bnY">    Finite Series</a>
-
-    
-* <a href="https://www.youtube.com/embed/NhUBAYcfY_A">Evaluating the Sum of a Series</a>
-  
-* <a href="https://www.youtube.com/embed/sAm0PHazpvQ">Geometric Series </a>
-
-* <a href="https://www.youtube.com/embed/XVyyGuMtyPo">Geometric Summation Exercise</a>
- 
-  
-  
-
-
-#### Sigma Notation and Finite Series
-
-*  <a href="https://www.youtube.com/watch?v=O8y3OInkTsg" target="_blank">Sigma Notation</a> (6:49 Minutes)
-*  Finite Series – <a title="Sequences and Series : Finite Series " href="https://www.youtube.com/watch?v=HQ-nWl6Xfn4" target="_blank">HERE</a> (4:40 Minutes)
-*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> ( 3:12 Minutes)
-
-#### Geometric Series
-
-*  Geometric Series - <a href="https://www.youtube.com/watch?v=sAm0PHazpvQ" target="_blank">HERE</a>  - [14:41]
-*  <a href="https://www.youtube.com/watch?v=XVyyGuMtyPo">Geometric Summation Exercise</a>
-
-
-
-#### Series 
-
-*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> ( 3:12 Minutes)
-
-
-		
-#### Proof by Induction
-  
-*  <a href="https://www.youtube.com/watch?v=VbO3eX1YKiM">Proof By Induction Example </a>
-	
-
-    
-
-#### Sequences
-
-*  Sequences – <a href="http://youtu.be/dZpq0JV_5vI" target="_blank">HERE</a>
-*  Sequences Value Determination – <a href="http://youtu.be/Q8AeZu2g6nk" target="_blank">HERE</a> (2:24 Minutes)
-*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" target="_blank">HERE </a> (7:00)
-
-
-
-*  Sequences – <a href="http://youtu.be/dZpq0JV_5vI" target="_blank">HERE</a>
-*  Sequences Value Determination – <a href="http://youtu.be/Q8AeZu2g6nk" target="_blank">HERE</a> (2:24 Minutes)
-*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" target="_blank">HERE </a> (7:00)
-
-
-#### Proof by Induction
-
-	<li class="sharedaddy sd-like-enabled sd-sharing-enabled">Simple Example - <a href="https://youtu.be/Jqd_Mvpxsbo" target="_blank">HERE</a> [ 6:14 ]
-
-
-#### Series 
-
-*  Sigma Notation - <a href="https://youtu.be/D8zZ7nr80r8" target="_blank">Here</a> [6:49]
-*  Finite Series – <a title="Sequences and Series : Finite Series " href="http://youtu.be/lwjpA522bnY" target="_blank">HERE</a> (4:40 Minutes)
-*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> ( 3:12 Minutes)
-*  Geometric Series - <a href="https://www.youtube.com/watch?v=sAm0PHazpvQ" target="_blank">HERE</a>  - [14:41]
-*  <a href="https://www.youtube.com/watch?v=XVyyGuMtyPo">Geometric Summation Exercise</a>
-
-
-
-
-#### Sequences and Series
-
-*  Sequences - <a href="http://Sequences" target="_blank">HERE</a>
-*  Introduction to Sequences and Series – <a href="https://youtu.be/z2m2fscysX0" target="_blank">HERE</a>
-*  Sequences Value Determination – <a href="https://www.youtube.com/watch?v=4pdtlxc2UKs" target="_blank">HERE</a> (2:24 Minutes)
-*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" target="_blank">HERE </a> (7:00 Minutes)
-
-### Telescoping Series
-
-	
-#### Videos
-
-*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" target="_blank">Introduction to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences – Part 1</a> [4:09]
-*  <a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction to Sequences – Part 3</a> [8:27]
-*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" target="_blank">Evaluating Sequence Values</a>
-
-*  Exam Question <a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and Series 2003 proof by induction</a>
-
-
-<strong>Telescoping Series</strong>
-
-*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>
-
+```{r child="sourcefiles/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
+```
 
 Finite Series {data-navmenu="Section 5"}
 =====================================
@@ -708,22 +532,22 @@ Evaluate the following expression using the identities. In this step $n=50$
 
 #### Telescoping Series
 
-* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>[6:20]
+* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
 
-* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>[6:20]
-
-
-
-*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>
+* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
 
 
 
 *  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>
+*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>
 
 
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" target="_blank">HERE</a>[6:20]
+
+*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
+*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>
+
+
+*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
 
 
 
@@ -748,11 +572,11 @@ Column
 	
 #### Series 
 
-*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" target="_blank">HERE</a> 
+*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> 
 #### Convergence Testing 
 
-*  <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+*  <a  href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
 
 
 
@@ -779,41 +603,41 @@ Convergence Testing {data-navmenu="Section 5"}
 
 
 *  <a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
 
-*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" target="_blank">HERE</a>(3:13)
-*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" target="_blank">HERE</a>[5:19]
-
-
-#### Ratio Test
-
-
-*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" target="_blank">HERE</a>
-*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" target="_blank">HERE</a>
+*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" >HERE</a>(3:13)
+*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" >HERE</a>[5:19]
 
 
 #### Ratio Test
 
-*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" target="_blank">HERE</a>
-*  Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo" target="_blank">HERE</a>
-*  Maclaurin Series Worked Example  <a href="https://youtu.be/tc-Zelm9bWA" target="_blank">HERE</a>
+
+*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" >HERE</a>
+*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" >HERE</a>
+
+
+#### Ratio Test
+
+*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" >HERE</a>
+*  Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo" >HERE</a>
+*  Maclaurin Series Worked Example  <a href="https://youtu.be/tc-Zelm9bWA" >HERE</a>
 *  <a href="https://www.youtube.com/watch?v=Ka8OawOt_-w">Simple Ratio Test Exercise	 </a>
   
 *  <a href="https://www.youtube.com/watch?v=quK-JQ5EQOE">The Ratio Test</a>
 	
 #### Ratio Test
 
-*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" target="_blank">HERE</a>(3:13)
-*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" target="_blank">HERE</a>[5:19]
-*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" target="_blank">HERE</a>
-*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" target="_blank">HERE</a>
-*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" target="_blank">HERE</a>
+*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" >HERE</a>(3:13)
+*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" >HERE</a>[5:19]
+*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" >HERE</a>
+*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" >HERE</a>
+*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" >HERE</a>
 
 
 #### Convergence Testing 
 
-*  <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+*  <a  href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
 
 
 
@@ -828,88 +652,16 @@ Convergence Testing {data-navmenu="Section 5"}
 
 #### Convergence Testing 
 
-*  <a class="vm-video-title-content yt-uix-sessionlink" href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" target="_blank">HERE</a> [5:19]
+*  <a  href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
 
 
 
    
 
 
-
-Matrices {data-navmenu="Section 6"}
-=====================================
-
-Column {.tabset}
--------------------------------------------------
-
-### Introduction
-
-### Adding and Substracting Matrices
-
-
-### Matrix Multiplication
-
-* Method for multiply a pair of $2\times2$ matrices.
-
-\[ \left(
-\begin{array}{cc}
-a_1 & a_2 \\ 
-b_1 & b_2
-\end{array} \right)\left(
-\begin{array}{cc}
-c_1 & d_1 \\ 
-c_2 & d_2
-\end{array} \right) = \left(
-\begin{array}{cc}
-(a_1 \times c_1) + (a_2 \times c_2) & (a_1 \times d_1) + (a_2 \times d_2) \\ 
-(b_1 \times c_1) + (b_2 \times c_2) & (b_1 \times d_1) + (b_2 \times d_2)
-\end{array} \right) \]
-
-#### Example
-
-\[ \left(
-\begin{array}{cc}
-1 & 3 \\ 
-0 & 2
-\end{array} \right)\left(
-\begin{array}{cc}
-1 & 2 \\ 
-4 & 1
-\end{array} \right) = \left(
-\begin{array}{cc}
-(1 \times 1) + (3 \times 4) & (1 \times 2) + (3 \times 1) \\ 
-(0 \times 4) + (2 \times 4) & (0 \times 2) + (2 \times 1)
-\end{array} \right) = \left(
-\begin{array}{cc}
-14 & 5 \\ 
-8 & 2
-\end{array} \right) \]
-
-
-### Determinants
-
-
-### Tutorials
-
-Matrices Tutorial 1
-
-* Question 1 <a href= "https://youtu.be/XCYf81OTDVc"> Here</a>
-* Question 2 <a href= "https://youtu.be/z1aIiH4bE4k"> Here</a>
-* Question 3  - Part 1 <a href= "https://youtu.be/FtyNlZIsiXg"> Here</a>
-* Question 3  - Part 2 <a href= "https://youtu.be/Xwg6VB_ooHk"> Here</a>
-* Question 4
-* Question 5
-* Question 6
-* Question 7 <a href= "https://youtu.be/Jj_7KiXJb64"> Here</a>
-* Question 8 <a href= "https://youtu.be/tdVrjFFq1A8"> Here</a>
-
-Systems of Linear Equations {data-navmenu="Section 6"}
-==================================
-
-Column {.tabset}
------------------------------
-
+```{r child="sourcefiles/Matrices-IntroductionToMatrices.Rmd"}
+```
 
 
 
@@ -930,18 +682,18 @@ In this section we look at counting problems, including combinations and permuta
 #### Videos
 
 
-* Counting Problems -  <a href="https://www.youtube.com/watch?v=9QVx6yXzfEM" target="_blank">HERE</a>
-* Binomial Coefficients - <a href="https://youtu.be/S74rTbwKIDY" target="_blank">HERE</a>
-* Probability and Combinations (The Hypergeometric Distribution) - <a href="https://www.youtube.com/edit?o=U&amp;video_id=BdkSlLgd5dc" target="_blank">HERE</a>(12:49)
+* Counting Problems -  <a href="https://www.youtube.com/watch?v=9QVx6yXzfEM" >HERE</a>
+* Binomial Coefficients - <a href="https://youtu.be/S74rTbwKIDY" >HERE</a>
+* Probability and Combinations (The Hypergeometric Distribution) - <a href="https://www.youtube.com/edit?o=U&amp;video_id=BdkSlLgd5dc" >HERE</a>(12:49)
 
 
   
-* <a href ="https://www.youtube.com/embed/O2Xg1BdqQBM"> Binomial Coefficients - Proof of Identities 1</a>
-* <a href ="https://www.youtube.com/embed/XXoUYJbESCY"> Binomial Coefficients - Proof of Identities 2</a>
-* <a href ="https://www.youtube.com/embed/O8P0te8s-ms"> Binomial Coefficients - Examples</a> /
-* <a href ="https://www.youtube.com/embed/ytvlX_-VrF8"> Binomial Coefficients - Proof of Identities 3</a> 
-* <a href ="https://www.youtube.com/embed/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a>
-* <a href ="https://www.youtube.com/embed/oWlmy3W92u4"> Permutations and Combinations</a>
+* <a href ="https://www.youtube.com/watch?v=/O2Xg1BdqQBM"> Binomial Coefficients - Proof of Identities 1</a>
+* <a href ="https://www.youtube.com/watch?v=/XXoUYJbESCY"> Binomial Coefficients - Proof of Identities 2</a>
+* <a href ="https://www.youtube.com/watch?v=/O8P0te8s-ms"> Binomial Coefficients - Examples</a> /
+* <a href ="https://www.youtube.com/watch?v=/ytvlX_-VrF8"> Binomial Coefficients - Proof of Identities 3</a> 
+* <a href ="https://www.youtube.com/watch?v=/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a>
+* <a href ="https://www.youtube.com/watch?v=/oWlmy3W92u4"> Permutations and Combinations</a>
 
 ### Combinations
 
