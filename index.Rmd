@@ -15,13 +15,21 @@ knitr::opts_chunk$set(echo = TRUE)
 Discrete Mathematics {data-navmenu="Introduction"}
 =====================================
 
-Column 
+Column {.tabset}
 --------------------
 
-### Introduction
+### Contents
 
+|| Section | Conponents ||
+|--------|:-----:|:---------------------|----------|
+| | **Section 1**| Introduction to Numbers, Numbers Systems, Binary Numbers, Hexadecimal Numbers, Octal Numbers | |
+| | **Section 2**| Set Theory, Logic, Logic Networks | |
+| | **Section 3**| Functions, Mathematical Functions, Invertible Functions, O-Notation| |
+| | **Section 4**| Graph Theory, Trees, Binary Search Trees| |
+| | **Section 5**| Sequences and Series, Telescoping Series, Finite Series, Proof by Induction, Convergence and Ratio Tests||
+| | **Section 6**| Probability, Counting Problems, Matrices, Systems of Linear Equations||
 
-#### Discrete mathematics
+### Discrete mathematics
 
 
 Discrete mathematics is the common name for the fields of mathematics most generally useful in theoretical computer science. This includes computability theory, computational complexity theory, and information theory. 
@@ -32,91 +40,8 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 
 *  Finally, \textbf{information theory} is concerned with the amount of data that can be stored on a given medium, and hence concepts such as compression and entropy.
 
-
-As a relatively new field, discrete mathematics has a number of fundamental open problems. The most famous of these is the "\textbf{P=NP?}" problem, one of the Millennium Prize Problems. It is widely believed that the answer to this problem is no.
-
-
-
-
-Number Systems {data-navmenu="Section 1"}
-==============================================================
-
-Column {.tabset}
--------------------------------------------------------------
-
-### Real and Irrational Numbers
-
-In mathematics, an irrational number is a real number that cannot be expressed as a ratio of integers, i.e. as a fraction. 
-Therefore, irrational numbers, when written as decimal numbers, do not terminate, nor do they repeat.
-
-
-#### Rational and Irrational Numbers
-You can tell if it is Rational or Irrational by trying to write the number as a simple fraction.
-
-*  1.5 is rational, because it can be written as the ratio 3/2
-*  7 is rational, because it can be written as the ratio 7/1
-*  0.333... (3 repeating) is also rational, because it can be written as the ratio 1/3
-
-
-
-#### Significant Digits
-There are three rules on determining how many significant figures are in a number: Non-zero digits are always significant. Any zeros between two significant digits are significant. A final zero or trailing zeros in the decimal portion ONLY are significant.
-
-
-
-
-#### Floating Point Notation
-
-
-
-In computing, floating point describes a method of 
-representing an approximation of a real number in a 
-way that can support a wide range of values. 
-
-
-The numbers are, in general, represented approximately 
-to a fixed number of significant digits (the mantissa) and scaled using an exponent. 
-
-In essence, computers are integer machines and are capable of representing real numbers only by using complex codes. The most popular code for representing real numbers is called the IEEE Floating-Point Standard .
-The term floating point is derived from the fact that there is no fixed number of digits before and after the decimal point; that is, the decimal point can float. There are also representations in 
-which the number of digits before and after the decimal point is set, called fixed-point representations. In general, floating-point representations are slower and less accurate than fixed-point representations, but they can handle a larger range of numbers.
-
-
-
-
-
-### Natural, Rational and Real Numbers
-
-* $\mathbb{N}$ : natural numbers (or positive integers) $\{1,2,3,\ldots\}$
-* $\mathbb{Z}$ : integers $\{-3,-2,-1,0,1,2,3,\ldots\}$
-\begin{itemize}
-* (The letter $\mathbb{Z}$ comes from the word \emph{Zahlen} which means ``numbers" in German.)
-
-* $\mathbb{Q}$ : rational numbers
-* $\mathbb{R}$ : real numbers
-* $\mathbb{N} \subseteq \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
-
-* (All natural numbers are integers. All integers are rational numbers. All rational numbers are real numbers.)
-
-
-
-### Irrational Numbers
-
-An irrational number cannot be expressed as a ratio between two numbers and it cannot be written as a simple fraction because there is not a finite number of numbers when written as a decimal. Instead, the numbers in the decimal would go on forever, without repeating.
-
-
-
-
-#### Real and Irrational Numbers
-
-*  <a title="Number Sets" href="http://youtu.be/9NAmHx3pAxk" >Number Sets</a>Natural Numbers, Integers, Rational Numbers and Real Numbers.
-*  <a title="Irrational Numbers" href="http://youtu.be/lu7uhe903TY" >Irrational Numbers</a>: Exercise involving irrational numbers.
-*  <a title="Rational Numbers" href="http://youtu.be/WnXnVADCXuQ" >Rational and Irrational Numbers</a>[4:16] (New Video)
-*  <a title="Repeating Decimals" href="http://youtu.be/mhHAJOQQ8kM" >Repeating Decimals</a>(video 1)
-*  <a title="Repeating Decimal" href="http://youtu.be/99qV28WmzH4" >Repeating Decimal </a>[3:37](Video 2)
-
-
-<h5>Discrete Maths: Numbers</h5>
+```{r child="sourcefiles/Numbers-IntroductionToNumbers.Rmd"}
+```
 
 
 ### Part 1. Number Bases
@@ -151,174 +76,19 @@ An irrational number cannot be expressed as a ratio between two numbers and it c
 * <a href="https://www.youtube.com/watch?v=/99qV28WmzH4" >Repeating Decimals</a>
 * <a href="https://www.youtube.com/watch?v=/sIowD1XjFJ8" >Repeating Decimals</a>
 
-
-
-Binary Numbers {data-navmenu="Section 1"}
-==================================
-
-* <a href="https://www.youtube.com/watch?v=/Xj75KbggKMU">Binary Number Conversion</a>
-
-* <a href="https://www.youtube.com/watch?v=/xyo2UiDpND8"> Expressing Binary Numbers</a>
-
-* <a href="https://www.youtube.com/watch?v=/HDQ7PGYo5Y8"> Binary Addition</a>
-
-* <a href="https://www.youtube.com/watch?v=/Hz3PfnllV6I">Binary Addition</a>
-
-* <a href="https://www.youtube.com/watch?v=/cnv7scvjc7o"> Binary Addition </a>
-
-* <a href="https://www.youtube.com/watch?v=/dQMQMvU4GT0"> Binary Subtraction: using Borrowing Method</a>
-
-* <a href="https://www.youtube.com/watch?v=/iwzaZDdaT9g">Binary Numbers Adding Two Binary Numbers (Example) HD</a>
-    
-* <a href="https://www.youtube.com/watch?v=/DTO3mS5D2lA">Binary Subtraction using "Two's Complement"</a>
-
-* <a href="https://www.youtube.com/watch?v=/Ai5F0KLyh2Q"> Left Shifting Technique for Binary Multiplication</a>
-
-* <a href="https://www.youtube.com/watch?v=/P_vd1vkafYk">  Binary Subtraction: using Twos Complement</a>
-    
-* <a href="https://www.youtube.com/watch?v=/WfWHdWwITgk"> Binary Multiplication: using Left Shifting</a>
-
-* <a href="https://www.youtube.com/watch?v=/A08P9ZJsLOs"> Relations -Example</a>
-
-* <a href="https://www.youtube.com/watch?v=/-svSPXMGyfs "> Binary Multiplication ( Binary Numbers Tutorial Sheet)		</a>
-
-
-Column {.tabset}
------------------------------
+```{r child="sourcefiles/Numbers-BinaryNumbers.Rmd"}
+```
 
 ```{r child="sourcefiles/Numbers-Hexadecimal.Rmd"}
 ```
 
-Set Theory {data-navmenu="Section 2"}
-====================================
-
-Column {.tabset}
--------------------------------------------------------------
-
-### Set Theory Operations
-
-*  The Universal Set $\mathcal{U}$
-*  Union
-*  Intersection
-*  Set Difference
-*  Relative Difference
-
-
-### Set Specification
+```{r child="sourcefiles/Numbers-ConversionTable.Rmd"}
+```
 
 
 
-NOTATIONS FOR A SET:
-
-A set can be represented by two methods:
-1.	ROSTER METHOD
-2.	BUILDER METHOD
-ROSTER METHOD:
-
-In this method the elements of a set are separated by commas and are enclosed within curly brackets { }. For example:
-
-A = {1, 2, 3, 4, 5, 6} is a set of numbers.
-
-B = {Sunny, Joy, Kartik, Harish, Girish} is a set of names.
-
-C = {a, e, i, o, u} is a set of vowels.
-
-D = {apple, banana, guava, orange, pear} is a set of fruits.
-
-Listing the elements in this way is called Roster method. In this method, it is not necessary for the elements to be listed in a particular order. The elements of the set can be written just plainly, separated by commas and in any order.
-
-
-#### BUILDER METHOD:
-
-This method is also called Property method. In Builder method, a set is represented by stating all the properties which are satisfied by the elements of that particular set only.
-
-For example:
-
-If A is a set of elements less than 0, then in Builder method it will be written as
-
-A = {x: x < 0}, this statement is read as "the set of all x such that x is less than 0"
-
-If A is a set of all real numbers less than 7, then in Builder method it is written as A = {x   R: x < 7}
-
-Similarly,
-
-A = {2i: i is an integer} is a set of all even integers.
-
-A = {x   R: x ? 2} is a set of all real numbers except 2.
-
-A = {x   R: x > 3 and x < 7} is a set of real numbers greater than 3 but less than 7.
-
-A = {x   Z: x > 6} is a set of integers greater than 6.
-
-A = {x   Z: 2x + 1} is a set of all odd integers.
-
-### Set theory
-
-#### Definition of a set
-
-A set is defined completely by its elements. Formally, sets X and Y are the same set if they have the same elements; that is, if every element of X is also an element of Y, and vice versa. For example, suppose we define:
-
-\[ F = \{x | \mbox{(x is an integer)} \mbox{ and } 0 < x < 4)\}  \]
-%Then F=A. The definition also makes it clear that {1,2,3} = (3,2,1} = {1,1,2,3,2}. Note also that if X and Y are both empty, then they are equal, justifying referring to "the" empty set.
-
-The equivalence of empty sets has a \textbf{\textit{metaphysical}} consequence for some theories of the metaphysics of properties that define the property of being x as simply the set of all x, then if the two properties are uninstantiated or coextensive they are equivalent - under this theory, because there are no unicorns and there are no pixies, the property of being a unicorn and being a pixie are the same - but if there were a unicorns and pixies, we could tell them apart. (See Universals for more on this.)
-
-### Elements and subsets}
-
-The $\in$  sign indicates set membership. If x is an element (or "member") of a set X, we write $ \in X$; e.g. $3\in A$. (We may also say ``X contains x" and ``A contains 3")
-
-A very important notion is that of a subset. X is a subset of Y, written $X \subseteq Y$ (sometimes simply as$X \subset Y$), if every element of X is also an element of Y. From before $C\subseteq A \subseteq E$.
-\subsection{Sets containing Sets}
-
-
-Sets can of course be elements of other sets; for example we can form the set $G = \{A,B,C,D,E\}$, whose five elements are the sets we considered earlier. Then, for instance, $A\in G$. (Note that this is very different from saying $A\subseteq G$)
-
-%The tilde (~) is as usual used for negation; e.g. $\tilde(A\in B)$.
-
-
-
-
-
-
-
-### Number Sets
-
-The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as \textit{\textbf{blackboard font}}.
-\begin{itemize}
-*  $\mathbb{N}$ Natural Numbers ($0,1,2,3$) 
-(Not used in the CIS102 Syllabus)
-*  $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
-\begin{itemize}
-* [$\ast$] $\mathbb{Z}^{+}$ Positive Integers
-* [$\ast$] $\mathbb{Z}^{-}$ Negative Integers
-\end{itemize}
-*  $\mathbb{Q}$ Rational Numbers
-*  $\mathbb{R}$ Real Numbers
-\end{itemize}
-
-
-#### Sets of Numbers
-
-*  $\mathbb{Z}$ Set of all integers
-*  $\mathbb{Q}$ Set of all rational numbers
-*  $\mathbb{R}$ Set of all real numbers
-
-
-*  $\mathbb{Z}^{+}$ Set of all positive integers
-*  $\mathbb{Z}^{-}$ Set of all negative integers
-*  $\mathbb{R}^{+}$ Set of all positive real numbers
-*  $\mathbb{R}^{-}$ Set of all negative real numbers
-
-### Power set
-
-The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]. The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
-
-Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
-
-%Cantor proved that this in fact holds for any set (Cantor's Theorem). This is obvious for a finite set, but Cantor's ingenious proof made no reference to the set being finite; the theorem holds even for infinite sets. This was a powerful generalisation of his previous discovery that different sizes of infinity exist.
-
-
-
+```{r child="sourcefiles/Set-IntroductionToSet.Rmd"}
+```
 
 ```{r child="sourcefiles/Logic-IntroductionToLogic.Rmd"}
 ```
@@ -336,35 +106,14 @@ Column {.tabset}
 
 ### Invertible Functions
 
-Necessary Condtions for Invertibility of a Function
+Necessary Conditions for Invertibility of a Function
 
 * The function must be one-to-one
 * The fucntion must be onto.
 
  
-Mathematical Functions{data-navmenu="Section 3"}
-=====================================
-
-Column {.tabset}
--------------------------------------------------
-
-### Logarithms
-
-### Exponennts
-
-### Absolute Value, Sign
-
-\subsection*{Absolute Value Function (4.1.3)}
-
-
-*  The absolute value of some real number $x$ is denoted $|x|$.
-*  If the number is positive, the asbolute value is the same number.
-*  If the number is negative, the asbolute value is the number without the minus sign.
-*  $|2|=2$
-*  $|-2| = 2$
-
-
-### Tutorial
+```{r child="sourcefiles/Functions-MathsFunctions.Rmd"}
+```
 
 
 Invertible Functions {data-navmenu="Section 3"}
@@ -387,167 +136,27 @@ Column {.tabset}
 ```{r child="sourcefiles/Graphs-Trees.Rmd"}
 ```
 
-Relations and Digraphs {data-navmenu="Section 4"}
-=====================================
+```{r child="sourcefiles/Graphs-BinarySearchTrees.Rmd"}
+```
+
+```{r child="sourcefiles/RelationsDigraphs-Introduction.Rmd"}
+```
 
 
 
-Column {.tabset}
--------------------------------------------------
-
-#### Digraphs and Relations
-
-### Relations
-
-* A relation $R$ from a set A to a set B is a subset of the
-\textbf{cartesian product} A x B. 
-* Thus R is a set of \textbf{ordered pairs} where
-the first element comes from A and the second element comes
-from B i.e. $(a, b)$
-
-* If $(a, b) \in R$ we say that $a$ is related to $b$ and write $aRb$.
-* If $(a, b) \notin R$, we say that $a$ is not related to $b$ and write $aRb$. CHECK
-* If $R$ is a relation from a set $A$ to itself then we say that ``$R$ is a relation
-on $A$".
-
-
-### Videos 
-
-* < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc"> Digraphs and Relations</a>
-
-*  < a href = ="https://www.youtube.com/watch?v=/dHzu897SdDA">  Cartesian Products</a>
-
-*  < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
-
-* < a href = ="https://www.youtube.com/watch?v=/eZIEc1O0W1w"> Relations Example 2</a>
-
-*  < a href = ="https://www.youtube.com/watch?v=/dHzu897SdDA">  Cartesian </a>
-
-*  < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
-
-* < a href = ="https://www.youtube.com/watch?v=/rG8mhlqnkr0">  Relations -Example</a>
-
-*  < a href = ="https://www.youtube.com/watch?v=/_QTKlTJYKRA">  Transitive Relations</a>
-
-*  < a href = ="https://www.youtube.com/watch?v=/A08P9ZJsLOs">  Relations -Example</a>
-
-
-
-
-### Room 3
-
-<h5>Building smarter solutions with no expertise in machine learning (Laurent Picard)</h5>
 
 
 
 ```{r child="sourcefiles/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
 ```
 
-Finite Series {data-navmenu="Section 5"}
-=====================================
+```{r child="sourcefiles/SequenceSeries-FiniteSeries.Rmd"}
+```
 
-Column {.tabset}
--------------------------------------------------
-
-
-### Finite Series and Sigma Notation
-Mathematical notation uses a symbol that compactly represents summation of many similar terms: the summation symbol, $\sum$, an enlarged form of the upright capital Greek letter *Sigma*. 
-
-This is defined as:
-\[\sum_{i=m}^n a_i = a_m + a_{m+1} + a_{m+2} +\cdots+ a_{n-1} + a_n. \]
-Where, i represents the index of summation; ai is an indexed variable representing each successive term in the series; m is the lower bound of summation, and n is the upper bound of summation. The "i = m" under the summation symbol means that the index i starts out equal to m. The index, i, is incremented by 1 for each successive term, stopping when i = n.
-Here is an example showing the summation of exponential terms (all terms to the power of 2):
-\[\sum_{i=3}^6 i^2 = 3^2+4^2+5^2+6^2 = 86.\]
-Informal writing sometimes omits the definition of the index and bounds of summation when these are clear from context, as in:
-\[\sum a_i^2 = \sum_{i=1}^n a_i^2.\]
+```{r child="sourcefiles/SequenceSeries-TelescopingSeries.Rmd"}
+```
 
 
-#### Three Important Summation Identities
-(index term = i , Number of terms = n }
-
-
-*  Identity 1
-\[ \sum^{i=n}_{i=1} 1 = n \]
-*  Identity 2  
-\[ \sum^{i=n}_{i=1} i = \frac{n(n+1)}{2} \]
-*  Identity 3 
-\[ \sum^{i=n}_{i=1} i^2 = \frac{(2n+1)(n+1)(n)}{6} \]
-
-
-### Partitioning of Summations 
-
-
-For some integers $m$ and $n$, with $m<n$.
-
-\[ \sum^{i=n}_{i=1} u_{i} = \sum^{i=m}_{i=1} u_{i} + \sum^{i=n}_{i=m+1} u_{i}\]
-
-Suppose $n=100$ and $m=50$
-
-\[ \sum^{i=100}_{i=1} u_{i} = \sum^{i=50}_{i=1} u_{i} + \sum^{i=100}_{i=51} u_{i}\]
-
-\textbf{Example}
-Evaluate the following expression:
-\[ \sum^{i=100}_{i=51} (i+1) \]
-
-
-***Step 1*** Evaluate this expression using the identities (notice the lower bound)
-\[ \sum^{i=100}_{i=1} (i+1) \]
-***Step 2*** From the outcome of step 1, subtract the following
-\[ \sum^{i=50}_{i=1} (i+1) \]
-
-
-
-
-<h5>Step 1</h5> Evaluate the following expression using the identities. In this step $n=100$
-\[ \sum^{i=100}_{i=1} (i+1)  = \sum^{i=100}_{i=1} i  +  \sum^{i=100}_{i=1} 1  \]
-
-1. First term \[\sum^{i=100}_{i=1} i  = \frac{100\times(100+1)}{2}  = 5050\]
-2. Second term \[ \sum^{i=100}_{i=1} i  =  100\]
-
-
-\[ \sum^{i=100}_{i=1} (i+1)  = 5050 + 100 = 5150 \]
-
-
-
-
-<h5>Step 2</h5>
-Evaluate the following expression using the identities. In this step $n=50$
-\[ \sum^{i=50}_{i=1} (i+1)  = \sum^{i=50}_{i=1} i  +  \sum^{i=50}_{i=1} 1  \]
-
-1. First term \[\sum^{i=50}_{i=1} i  = \frac{50\times(50+1)}{2}  = 1275\]
-2. Second term \[ \sum^{i=50}_{i=1} i  =  50\]
-
-
-\[ \sum^{i=50}_{i=1} (i+1)  = 1275 + 50 = 1325 \]
-
-
-\[ \sum^{i=100}_{i=51} (i+1) = \sum^{i=100}_{i=1} (i+1)  - \sum^{i=50}_{i=1}(i+1)   \]
-
-\[ \sum^{i=100}_{i=51} (i+1)  = 5150 - 1325 =\boldsymbol{3825} \]
-
-### Sequences and Series
-
-
-### Telescoping Series
-
-#### Telescoping Series
-
-* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
-
-* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
-
-
-
-*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>
-
-
-
-*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>
-
-
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
 
 
 
@@ -560,7 +169,6 @@ Column
 
 ### Proof by Induction
 
-* <a href="https://www.youtube.com/watch?v=Jqd_Mvpxsbo">Proof By Induction </a>/
 * <a href="https://www.youtube.com/watch?v=Jqd_Mvpxsbo">Proof By Induction </a>
 * <a href="https://www.youtube.com/watch?v=1q21_hbmZG8">Proof By Induction </a>
 	
@@ -573,12 +181,9 @@ Column
 #### Series 
 
 *  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> 
-#### Convergence Testing 
 
-*  <a  href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
-
-
+```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
+```
 
 
 
@@ -592,68 +197,8 @@ Column {.tabset}
 ### Basics of Probability
 
 
-### Room 1
+### Rules of Probability
 
-<h5> High-Level APIs for Machine Learning (Iain Keaney) </h5>
-
-Convergence Testing {data-navmenu="Section 5"}
-=========================================
-
-### Convergence Tests
-
-
-*  <a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
-
-*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" >HERE</a>(3:13)
-*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" >HERE</a>[5:19]
-
-
-#### Ratio Test
-
-
-*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" >HERE</a>
-*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" >HERE</a>
-
-
-#### Ratio Test
-
-*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" >HERE</a>
-*  Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo" >HERE</a>
-*  Maclaurin Series Worked Example  <a href="https://youtu.be/tc-Zelm9bWA" >HERE</a>
-*  <a href="https://www.youtube.com/watch?v=Ka8OawOt_-w">Simple Ratio Test Exercise	 </a>
-  
-*  <a href="https://www.youtube.com/watch?v=quK-JQ5EQOE">The Ratio Test</a>
-	
-#### Ratio Test
-
-*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" >HERE</a>(3:13)
-*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" >HERE</a>[5:19]
-*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" >HERE</a>
-*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" >HERE</a>
-*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" >HERE</a>
-
-
-#### Convergence Testing 
-
-*  <a  href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
-
-
-
-
-
- 
-  
-*  <a href="https://www.youtube.com/watch?v=ItK4oTbuuOo">Important Taylor Series Expansions  </a>
-	 
-*  <a href="https://www.youtube.com/watch?v=tc-Zelm9bWA">Maclaurin Series Worked Example</a>
-	
-
-#### Convergence Testing 
-
-*  <a  href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
-*  Ratio Test Exercise – <a href="http://youtu.be/ojL-Vtek2Mo" >HERE</a> [5:19]
 
 
 

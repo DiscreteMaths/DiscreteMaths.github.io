@@ -1,0 +1,51 @@
+
+Trees {data-navmenu="Section 4"}
+====================================
+
+Column {.tabset}
+----------------------------------------------
+
+
+
+
+
+### Spanning Trees
+
+A spanning tree $T$ of a connected, undirected graph $G$ is a tree composed of all the vertices and some (or perhaps all) of the edges of $G$. 
+
+Informally, a spanning tree of $G$ is a selection of edges of $G$ that form a tree spanning every vertex. That is, every vertex lies in the tree, but no cycles (or loops) are formed. On the other hand, every bridge of $G$ must belong to $T$.
+
+A spanning tree of a connected graph $G$ can also be defined as a maximal set of edges of $G$ that contains no cycle, or as a minimal set of edges that connect all vertices.
+
+#### Subgraphs
+
+We say that a graph H is a subgraph of a graph G if its vertices are a subset of the
+vertex set of G, its edges are a subset of the edge set of G, and each edge of H has
+the same end-vertices in G and H.
+
+#### Definition 
+If H is a subgraph of G such that $V(H) = V (G)$, then H is called a spanning subgraph of G. If H is a spanning subgraph which is also a tree, then H is said to be a spanning tree of G.
+
+### Traversals
+
+A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal. We will consider several traversal algorithms with we group in the following two kinds
+
+* depth-first traversal
+* breadth-first traversal
+
+
+There are three different types of depth-first traversals, :
+
+* Pre-Order traversal - visit the parent first and then left and right children;
+* In-Order traversal - visit the left child, then the parent and the right child;
+* Post-Order traversal - visit left child, then the right child and then the parent;
+
+### Trees
+* <a href ="//www.youtube.com/watch?v=/TzLswrllE7E">    Spanning Trees - </a>
+* <a href ="//www.youtube.com/watch?v=/ueEOrbbB6Uw">     Trees 2006 Isomorphic Trees</a>
+* <a href ="//www.youtube.com/watch?v=/wVtE00YodYs">     Spanning Trees  - (Example 1)[10.55]</a>
+
+
+* <a href ="//www.youtube.com/watch?v=/1Nb1I8nfyx4">    Spanning Trees  - (Example 2)[7.06]</a>
+
+* <a href ="//www.youtube.com/watch?v=/tm8Ew3Vyj40">    Spanning Trees  - (Example 3)[9:35]</a>

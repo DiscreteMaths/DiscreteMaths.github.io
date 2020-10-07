@@ -1,0 +1,39 @@
+Convergence Testing {data-navmenu="Section 5"}
+=========================================
+
+Column {.tabset}
+-------------------------------------------
+
+### Convergence Tests
+
+*  <a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  <a href="http://youtu.be/ojL-Vtek2Mo" >Ratio Test Exercise </a> 
+*  <a href="https://youtu.be/LWYiiY1rOqg" >Convergence Test</a>(3:13)
+*  <a href="https://youtu.be/Ka8OawOt_-w" >Ratio Test Exercise </a>
+*  <a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+
+
+
+### Ratio Test
+
+
+*  Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs" >HERE</a>
+*  Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68" >HERE</a>
+*  Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0" >HERE</a>
+*  Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo" >HERE</a>
+*  Maclaurin Series Worked Example  <a href="https://youtu.be/tc-Zelm9bWA" >HERE</a>
+*  <a href="https://www.youtube.com/watch?v=Ka8OawOt_-w">Simple Ratio Test Exercise	 </a>
+*  <a href="https://www.youtube.com/watch?v=quK-JQ5EQOE">The Ratio Test</a>
+*  Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg" >HERE</a>(3:13)
+*  Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w" >HERE</a>[5:19]
+
+
+### Series Expansions
+
+*  <a  href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a>
+*  <a href="http://youtu.be/ojL-Vtek2Mo" >Ratio Test Exercise</a> 
+*  <a href="https://www.youtube.com/watch?v=ItK4oTbuuOo">Important Taylor Series Expansions  </a>
+*  <a href="https://www.youtube.com/watch?v=tc-Zelm9bWA">Maclaurin Series Worked Example</a>
+	
+
+

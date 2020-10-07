@@ -1,0 +1,126 @@
+Set Theory {data-navmenu="Section 2"}
+====================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+### Set Theory Operations
+
+*  The Universal Set $\mathcal{U}$
+*  Union
+*  Intersection
+*  Set Difference
+*  Relative Difference
+
+
+### Set Specification
+
+
+
+NOTATIONS FOR A SET:
+
+A set can be represented by two methods:
+1.	ROSTER METHOD
+2.	BUILDER METHOD
+ROSTER METHOD:
+
+In this method the elements of a set are separated by commas and are enclosed within curly brackets { }. For example:
+
+A = {1, 2, 3, 4, 5, 6} is a set of numbers.
+
+B = {Sunny, Joy, Kartik, Harish, Girish} is a set of names.
+
+C = {a, e, i, o, u} is a set of vowels.
+
+D = {apple, banana, guava, orange, pear} is a set of fruits.
+
+Listing the elements in this way is called Roster method. In this method, it is not necessary for the elements to be listed in a particular order. The elements of the set can be written just plainly, separated by commas and in any order.
+
+
+#### BUILDER METHOD:
+
+This method is also called Property method. In Builder method, a set is represented by stating all the properties which are satisfied by the elements of that particular set only.
+
+For example:
+
+If A is a set of elements less than 0, then in Builder method it will be written as
+
+A = {x: x < 0}, this statement is read as "the set of all x such that x is less than 0"
+
+If A is a set of all real numbers less than 7, then in Builder method it is written as A = {x   R: x < 7}
+
+Similarly,
+
+A = {2i: i is an integer} is a set of all even integers.
+
+A = {x   R: x ? 2} is a set of all real numbers except 2.
+
+A = {x   R: x > 3 and x < 7} is a set of real numbers greater than 3 but less than 7.
+
+A = {x   Z: x > 6} is a set of integers greater than 6.
+
+A = {x   Z: 2x + 1} is a set of all odd integers.
+
+### Set theory
+
+#### Definition of a set
+
+A set is defined completely by its elements. Formally, sets X and Y are the same set if they have the same elements; that is, if every element of X is also an element of Y, and vice versa. For example, suppose we define:
+
+\[ F = \{x | \mbox{(x is an integer)} \mbox{ and } 0 < x < 4)\}  \]
+%Then F=A. The definition also makes it clear that {1,2,3} = (3,2,1} = {1,1,2,3,2}. Note also that if X and Y are both empty, then they are equal, justifying referring to "the" empty set.
+
+The equivalence of empty sets has a \textbf{\textit{metaphysical}} consequence for some theories of the metaphysics of properties that define the property of being x as simply the set of all x, then if the two properties are uninstantiated or coextensive they are equivalent - under this theory, because there are no unicorns and there are no pixies, the property of being a unicorn and being a pixie are the same - but if there were a unicorns and pixies, we could tell them apart. (See Universals for more on this.)
+
+### Elements and subsets
+
+The $\in$  sign indicates set membership. If x is an element (or "member") of a set X, we write $ \in X$; e.g. $3\in A$. (We may also say ``X contains x" and ``A contains 3")
+
+A very important notion is that of a subset. X is a subset of Y, written $X \subseteq Y$ (sometimes simply as$X \subset Y$), if every element of X is also an element of Y. From before $C\subseteq A \subseteq E$.
+
+#### Sets containing Sets
+
+
+Sets can of course be elements of other sets; for example we can form the set $G = \{A,B,C,D,E\}$, whose five elements are the sets we considered earlier. Then, for instance, $A\in G$. (Note that this is very different from saying $A\subseteq G$)
+
+%The tilde (~) is as usual used for negation; e.g. $\tilde(A\in B)$.
+
+
+
+
+
+
+
+### Number Sets
+
+The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as \textit{\textbf{blackboard font}}.
+\begin{itemize}
+*  $\mathbb{N}$ Natural Numbers ($0,1,2,3$) 
+(Not used in the CIS102 Syllabus)
+*  $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
+\begin{itemize}
+* [$\ast$] $\mathbb{Z}^{+}$ Positive Integers
+* [$\ast$] $\mathbb{Z}^{-}$ Negative Integers
+\end{itemize}
+*  $\mathbb{Q}$ Rational Numbers
+*  $\mathbb{R}$ Real Numbers
+\end{itemize}
+
+
+#### Sets of Numbers
+
+*  $\mathbb{Z}$ Set of all integers
+*  $\mathbb{Q}$ Set of all rational numbers
+*  $\mathbb{R}$ Set of all real numbers
+
+
+*  $\mathbb{Z}^{+}$ Set of all positive integers
+*  $\mathbb{Z}^{-}$ Set of all negative integers
+*  $\mathbb{R}^{+}$ Set of all positive real numbers
+*  $\mathbb{R}^{-}$ Set of all negative real numbers
+
+### Power set
+
+The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]. The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
+
+Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 

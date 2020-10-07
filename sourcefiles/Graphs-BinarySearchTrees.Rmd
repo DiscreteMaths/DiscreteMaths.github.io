@@ -1,0 +1,34 @@
+Binary Search Trees {data-navmenu="Section 4"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Binary Search Trees
+
+A binary search tree (BST), sometimes also called an ordered or sorted binary tree, is a node-based binary tree data structure which has the following properties:
+
+*  The left subtree of a node contains only nodes with keys less than the node's key.
+*  The right subtree of a node contains only nodes with keys greater than the node's key.
+*  The left and right subtree must each also be a binary search tree.
+*  There must be no duplicate nodes.
+
+* <a href="https://youtu.be/rWWBbZ4rASo">Binary Search Tree - Terminology	</a>
+* <a href="https://youtu.be/tJr_nrtd-CA">Height of a Binary Search Tree	</a>
+
+
+### Tutorial Questions
+
+* <a href="https://youtu.be/cLCXxY7-HwQ">Binary Search Trees - Worked Example 1	</a>
+* <a href="https://youtu.be/wlgoyD9G4Pg">Binary Search Trees - Worked Example 2	</a>
+* <a href="https://youtu.be/JXJeRQ5XGdA">Binary Search Trees - Worked Example 3 </a>		
+
+
+* <a href ="//www.youtube.com/watch?v=/p95zIv1eyME">    Binary Search Trees - Number of Records</a>
+* <a href ="//www.youtube.com/watch?v=/5J8ofTU13KU">    Non-Isomorphic Trees - [9:59]</a>
+* <a href ="//www.youtube.com/watch?v=/7EYf2XhxB4s">    Binary Search Trees  - Important Terminology</a>
+* <a href ="//www.youtube.com/watch?v=/GKWQbtPq6R0">    Binary Search Trees - Drawing a BST with 14 nodes.</a>
+* <a href ="//www.youtube.com/watch?v=/-MieB-QtX14">    Height of a Binary Search Tree</a>
+* <a href ="//www.youtube.com/watch?v=/Qkb_2I23DJo">    Binary Search Trees  - Example</a>
+* <a href ="//www.youtube.com/watch?v=/lU1RKxj6zXs">    Binary Search Trees - (Revision and 2004 Question) [ 8:39 ]</a>
+

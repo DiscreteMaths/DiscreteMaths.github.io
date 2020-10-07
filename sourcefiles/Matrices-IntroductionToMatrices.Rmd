@@ -1,0 +1,72 @@
+Matrices {data-navmenu="Section 6"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Introduction
+
+### Adding and Substracting Matrices
+
+
+### Matrix Multiplication
+
+* Method for multiply a pair of $2\times2$ matrices.
+
+\[ \left(
+\begin{array}{cc}
+a_1 & a_2 \\ 
+b_1 & b_2
+\end{array} \right)\left(
+\begin{array}{cc}
+c_1 & d_1 \\ 
+c_2 & d_2
+\end{array} \right) = \left(
+\begin{array}{cc}
+(a_1 \times c_1) + (a_2 \times c_2) & (a_1 \times d_1) + (a_2 \times d_2) \\ 
+(b_1 \times c_1) + (b_2 \times c_2) & (b_1 \times d_1) + (b_2 \times d_2)
+\end{array} \right) \]
+
+#### Example
+
+\[ \left(
+\begin{array}{cc}
+1 & 3 \\ 
+0 & 2
+\end{array} \right)\left(
+\begin{array}{cc}
+1 & 2 \\ 
+4 & 1
+\end{array} \right) = \left(
+\begin{array}{cc}
+(1 \times 1) + (3 \times 4) & (1 \times 2) + (3 \times 1) \\ 
+(0 \times 4) + (2 \times 4) & (0 \times 2) + (2 \times 1)
+\end{array} \right) = \left(
+\begin{array}{cc}
+14 & 5 \\ 
+8 & 2
+\end{array} \right) \]
+
+
+### Determinants
+
+
+### Tutorials
+
+Matrices Tutorial 1
+
+* Question 1 <a href= "https://youtu.be/XCYf81OTDVc"> Here</a>
+* Question 2 <a href= "https://youtu.be/z1aIiH4bE4k"> Here</a>
+* Question 3  - Part 1 <a href= "https://youtu.be/FtyNlZIsiXg"> Here</a>
+* Question 3  - Part 2 <a href= "https://youtu.be/Xwg6VB_ooHk"> Here</a>
+* Question 4
+* Question 5
+* Question 6
+* Question 7 <a href= "https://youtu.be/Jj_7KiXJb64"> Here</a>
+* Question 8 <a href= "https://youtu.be/tdVrjFFq1A8"> Here</a>
+
+Systems of Linear Equations {data-navmenu="Section 6"}
+==================================
+
+Column {.tabset}
+-----------------------------

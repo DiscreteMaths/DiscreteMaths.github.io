@@ -1,0 +1,154 @@
+Graph Theory {data-navmenu="Section 4"}
+====================================
+
+Column{.tabset}
+----------------------------------------------
+
+### Graph Theory
+
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called ***vertices***, can be connected by lines, called ***edges***.
+
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions are assigned to edges.
+
+*  <a href="https://www.youtube.com/watch?v=tL7l5E1NnS8">Introduction to Graph Theory – Part 1</a> [9:27]
+*  <a href="https://www.youtube.com/watch?v=xozFOG8xQJw">Introduction to Graph Theory – Part 2</a> [6:29]
+*  <a href="https://www.youtube.com/watch?v=aqsDGlbja3s">Introduction to Graph Theory – Part 3</a> [11:24]
+
+### Videos
+
+* <a href="https://www.youtube.com/watch?v=uKG60xxdBU8">Important Graph Theory Terms</a>  
+* <a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a>  – 2010 Question 
+* <a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> 
+* <a  href="https://www.youtube.com/watch?v=DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a> 
+* <a  href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> 
+* <a title="Weighted Graphs " href="http://youtu.be/MurOpIGCmhQ" >Weighted Graphs</a> [6:02]
+* <a title="Degree Sequence of a Graph" href="https://www.youtube.com/watch?v=D-W7VdUQBto" >Degree Sequence of a Graph</a>
+* <a title="Complete Graphs" href="http://youtu.be/wvoEtJOht9g" >Complete Graphs</a>
+* <a title="Regular Graphs" href="http://youtu.be/W757kOQvDww" >Regular Graphs</a>
+* <a title="Adjacency List" href="http://youtu.be/pms38inEdzg" >Adjacency List:</a> Using an adjacency list to construct a graph.
+* <a title="Adjacency List" href="http://youtu.be/imYq0rFJlHc" >Adjacency List</a> ( Worked Example)
+* <a title="Paths and Cycles in Graph Theory" href="http://youtu.be/baEtZGjpDLk" >Paths and Cycles in Graph Theory</a>
+* <a title="Non-Isomorphic Graphs" href="http://youtu.be/U-7kcP6AZX8" >Non-Isomorphic Graphs</a> [4:01]
+* <a href="https://www.youtube.com/watch?v=Xq8o-z1DsUA">Isomorphic Graphs – Example 1</a> [8:29]
+* <a href="https://www.youtube.com/watch?v=KejZccQTDF8">Isomorphic Graphs – Example 2</a> [ 3:40]
+* <a href="http://youtu.be/xcOrrJGxzu8" >Isomorphic Graphs </a>[5:16]
+* <a href="http://youtu.be/PIGyXIWeqZg" >Walks and Paths in Graphs</a> [9.20]
+* <a  href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]
+
+
+### Graph Theory Terms
+
+
+#### Graph Theory 
+
+
+*  <a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a>  – 2010 Question [4:58]
+*  <a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> [9:20]
+*  <a href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> [11:22]
+*  <a title="Weighted Graphs " href="http://youtu.be/MurOpIGCmhQ" >Weighted Graphs</a> [6:02]
+
+
+
+
+* <a href="https://www.youtube.com/watch?v=/s1f3nCOOzz8"></a>
+* <a href="https://www.youtube.com/watch?v=/imYq0rFJlHc">Adjacency List ( Worked Example)</a>
+
+
+* <a href="https://www.youtube.com/watch?v=/D-W7VdUQBto">Degree Sequence of a Graph</a>
+* <a href="https://www.youtube.com/watch?v=/wvoEtJOht9g">Complete Graphs</a>
+* <a href="https://www.youtube.com/watch?v=/PIGyXIWeqZg">Walks and Paths in Graphs</a>
+
+
+
+* <a href="https://www.youtube.com/watch?v=/W757kOQvDww">Regular Graphs</a>
+
+
+
+* <a href="https://www.youtube.com/watch?v=/E4GNXq9dUO0">Eulers Formula for Planar Graphs [5:42]</a>
+* <a href="https://www.youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory </a>
+* <a href="https://www.youtube.com/watch?v=/pms38inEdzg">Adjacency List: Using an adjacency list to construct a graph.</a>
+
+
+### Types of Graphs 
+
+<h5>Directed Graphs</h5>
+A directed graph is a graph where the arcs are one-directional, that is an arc between two nodes only indicates the possibility of moving from one node to the other, but not in the opposite direction. The arcs will usually be drawn as arrows to indicate the direction. An example of a potential use for a directed graph would be a graph which tracks possible states that a computer could be in; there may be a way for a computer in one state to reach a subsequent state, but no way to return from the second state to the first.
+
+<h5>Weighted graph</h5>
+A weighted graph is a graph where there is some 'cost' associated with each arc. Usually, a little number will appear directly adjacent to every arc to express this price. A typical use of a weighted graph would be planning routes between locations on a map where the 'cost' associated with the arc would be the distance between the two locations.
+
+<h5>Trees</h5>
+A tree is a special graph which is connected (every node can be reached from every other node by following one or more arcs) and for which the number of arcs is exactly one fewer than the number of nodes. A tree is usually drawn with one node (called the 'root node') at the top of the diagram, and then 'growing' downwards with arcs and nodes getting further and further from the root. In this way, nodes can be grouped in terms of their distance from the root. Every node (aside from the root) is referred to as the 'child' of the node to which it is connected and which is one step closer to the root. This node is also called the 'parent' node of the child. Every node has at most one parent but can have any number of children. Nodes without any children are commonly called 'leaf nodes'. A typical use of a tree would be a decision problem where the answer to a question determines the next question and set of possible answers.
+
+<h5> Planar Graphs</h5>
+A planar graph is a graph that can be drawn in the plane such that there are no edge crossings.
+
+<h5>Characterization</h5>
+The planar graphs can be characterized by a theorem first proven by Kazimierz Kuratowski in 1930, which states that the planar graphs are exactly those graphs G such that $K_5 \not \preceq G$  and $K_{3,3</h5> \not \preceq G$ .
+
+
+
+<h5>Types of Graph Layouts</h5>
+
+1. Bipartite Graphs
+2. Path Graphs
+3. Cycle Graphs
+4. Null Graphs
+
+
+<h5>Bipartite Graphs</h5>
+
+* A bipartite graph is a graph whose vertex-set can be split into two sets in such a way that each edge of the graph joins a vertex in first set to a vertex in second set.
+
+
+
+<h5>Path Graphs</h5>
+
+* A path graph is a graph consisting of a single path. 
+* The path graph with n vertices is denoted by $P_n$.
+
+
+
+<h5>Cycle Graphs</h5>
+
+* A cycle graph is a graph consisting of a single cycle. 
+* The cycle graph with n vertices is denoted by $C_n$.
+
+
+
+<h5>Null Graphs</h5>
+
+* A null graphs is a graph containing no edges. * The null graph with n vertices is denoted by $N_n$.
+
+
+
+
+There are various types of graphs depending upon the number of vertices, number of edges, interconnectivity, and their overall structure. We will discuss only a certain few important types of graphs in this chapter.
+
+### Planar Graphs
+
+<h5>Euler's Formula</h5> Let $G$ be a connected planar graph, and let V, E and R denote, respectively, the numbers of vertices, edges, and regions in a plane drawing of G. 
+Then $V - E + R = 2$.
+
+
+### Isomorphic Graphs
+
+<h5> Isomorphic Graphs</h5>
+* The two graphs have different numbers of vertices.
+* The two graphs have different numbers of edges.
+* One graph has parallel edges and the other does not.
+* One graph has a loop and the other does not.
+* One graph has a vertice of degree k (for example) and the other does not.
+* One graph is connected and the other is not.
+* One graph has a cycle and the other has not.
+
+* They have a different number of connected components
+* They have a different number of vertices
+* They have different degrees sequences
+* They have a different number of paths of any given length
+* They have a different number of cycles of any length.
+
+
+* <a href="https://www.youtube.com/watch?v=/xcOrrJGxzu8">Isomorphic Graphs [5:16]</a>
+* <a href="https://www.youtube.com/watch?v=/Xq8o-z1DsUA">Isomorphic Graphs – Example 1 </a>
+* <a href="https://www.youtube.com/watch?v=/U-7kcP6AZX8">Non-Isomorphic Graphs [4:01]</a>

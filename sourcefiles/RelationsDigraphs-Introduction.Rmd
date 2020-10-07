@@ -1,0 +1,43 @@
+Relations and Digraphs {data-navmenu="Section 4"}
+=====================================
+
+
+
+Column {.tabset}
+-------------------------------------------------
+
+#### Digraphs and Relations
+
+### Relations
+
+* A relation $R$ from a set A to a set B is a subset of the
+\textbf{cartesian product} A x B. 
+* Thus R is a set of \textbf{ordered pairs} where
+the first element comes from A and the second element comes
+from B i.e. $(a, b)$
+
+* If $(a, b) \in R$ we say that $a$ is related to $b$ and write $aRb$.
+* If $(a, b) \notin R$, we say that $a$ is not related to $b$ and write $aRb$. CHECK
+* If $R$ is a relation from a set $A$ to itself then we say that ``$R$ is a relation
+on $A$".
+
+
+### Videos 
+
+* < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc"> Digraphs and Relations</a>
+
+*  < a href = ="https://www.youtube.com/watch?v=/dHzu897SdDA">  Cartesian Products</a>
+
+*  < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
+
+* < a href = ="https://www.youtube.com/watch?v=/eZIEc1O0W1w"> Relations Example 2</a>
+
+*  < a href = ="https://www.youtube.com/watch?v=/dHzu897SdDA">  Cartesian </a>
+
+*  < a href = ="https://www.youtube.com/watch?v=/4vSr6q5Nxqc">  Digraphs and Relations -Example</a>
+
+* < a href = ="https://www.youtube.com/watch?v=/rG8mhlqnkr0">  Relations -Example</a>
+
+*  < a href = ="https://www.youtube.com/watch?v=/_QTKlTJYKRA">  Transitive Relations</a>
+
+*  < a href = ="https://www.youtube.com/watch?v=/A08P9ZJsLOs">  Relations -Example</a>
