@@ -1,0 +1,50 @@
+Counting Problems {data-navmenu="Section 6"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+### Counting Problems
+
+<h5> Counting Problems </h5>
+
+
+In this section we look at counting problems, including combinations and permutations.
+
+
+#### Videos
+
+
+* Counting Problems -  <a href="https://www.youtube.com/watch?v=9QVx6yXzfEM" >HERE</a>
+* Binomial Coefficients - <a href="https://youtube.com/watch?v=/S74rTbwKIDY" >HERE</a>
+* Probability and Combinations (The Hypergeometric Distribution) - <a href="https://www.youtube.com/edit?o=U&amp;video_id=BdkSlLgd5dc" >HERE</a>(12:49)
+
+### Binomial Coefficients
+
+<h5> Binomial Coefficients</h5>
+  
+* <a href ="https://www.youtube.com/watch?v=/O2Xg1BdqQBM"> Binomial Coefficients - Proof of Identities 1</a>
+* <a href ="https://www.youtube.com/watch?v=/XXoUYJbESCY"> Binomial Coefficients - Proof of Identities 2</a>
+* <a href ="https://www.youtube.com/watch?v=/O8P0te8s-ms"> Binomial Coefficients - Examples</a> /
+* <a href ="https://www.youtube.com/watch?v=/ytvlX_-VrF8"> Binomial Coefficients - Proof of Identities 3</a> 
+* <a href ="https://www.youtube.com/watch?v=/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a>
+
+
+### Combinations
+
+<h5> Combinations </h5>
+
+* <a href ="https://www.youtube.com/watch?v=/oWlmy3W92u4"> Permutations and Combinations</a>
+
+### Permutations
+
+* A permutation of a set is, loosely speaking, an arrangement of its members into a sequence or linear order, or if the set is already ordered, a rearrangement of its elements.
+* The word "permutation" also refers to the act or process of changing the linear order of an ordered set.
+
+<h5>Videos</h5>
+* <a href= "https://youtube.com/watch?v=/722AHPX0Pss">  Augmented Matrices ( Discrete Mathematics ) </a>
+* <a href= "https://youtube.com/watch?v=/Ud0HSKw_V3g"> Permutations - Ordered Subsets  </a>
+* <a href= "https://youtube.com/watch?v=/lHjeyvgC0kI">  Permutations  - Worked Example 2 </a>
+* <a href= "https://youtube.com/watch?v=/Oiqj0qsNKM4"> Permutations - Worked Example 1  </a>
+* <a href= "https://youtube.com/watch?v=/ifTP8pGWRsM"> Discrete Mathematics -  Anagrams as Permutations  </a>
+

@@ -41,6 +41,11 @@ There are three different types of depth-first traversals, :
 * Post-Order traversal - visit left child, then the right child and then the parent;
 
 ### Trees
+
+* <a href="https://youtube.com/watch?v=/U98IToj6-iM">Spanning Trees - Worked Example	</a>
+
+
+
 * <a href ="//www.youtube.com/watch?v=/TzLswrllE7E">    Spanning Trees - </a>
 * <a href ="//www.youtube.com/watch?v=/ueEOrbbB6Uw">     Trees 2006 Isomorphic Trees</a>
 * <a href ="//www.youtube.com/watch?v=/wVtE00YodYs">     Spanning Trees  - (Example 1)[10.55]</a>

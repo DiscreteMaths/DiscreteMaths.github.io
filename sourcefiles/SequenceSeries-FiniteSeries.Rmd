@@ -79,3 +79,24 @@ Evaluate the following expression using the identities. In this step $n=50$
 \[ \sum^{i=100}_{i=51} (i+1) = \sum^{i=100}_{i=1} (i+1)  - \sum^{i=50}_{i=1}(i+1)   \]
 
 \[ \sum^{i=100}_{i=51} (i+1)  = 5150 - 1325 =\boldsymbol{3825} \]
+
+#### Series 
+
+*  Evaluating the Sum of a Series – <a href="http://youtube.com/watch?v=/NhUBAYcfY_A" >HERE</a> 
+
+
+### Videos
+
+
+
+
+#### Sigma Notation and Finite Series
+
+* <a href="https://www.youtube.com/watch?v=/D8zZ7nr80r8">    Sigma Notation</a>
+* <a href="https://www.youtube.com/watch?v=/lwjpA522bnY">    Finite Series</a>
+
+    
+* <a href="https://www.youtube.com/watch?v=/NhUBAYcfY_A">Evaluating the Sum of a Series</a>
+*  <a href="https://www.youtube.com/watch?v=O8y3OInkTsg" >Sigma Notation</a> (6:49 Minutes)
+*  Finite Series – <a title="Sequences and Series : Finite Series " href="https://www.youtube.com/watch?v=HQ-nWl6Xfn4" >HERE</a> (4:40 Minutes)
+*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> ( 3:12 Minutes)

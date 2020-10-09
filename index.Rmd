@@ -157,30 +157,12 @@ Column {.tabset}
 ```
 
 
+```{r child="sourcefiles/SequenceSeries-ProofbyInduction.Rmd"}
+```
 
 
 
 
-Proof By Induction {data-navmenu="Section 5"}
-=====================================
-
-Column
-----------------------------------
-
-### Proof by Induction
-
-* <a href="https://www.youtube.com/watch?v=Jqd_Mvpxsbo">Proof By Induction </a>
-* <a href="https://www.youtube.com/watch?v=1q21_hbmZG8">Proof By Induction </a>
-	
-
-		
-#### Revision Notes
-  
-*  <a href="https://www.youtube.com/watch?v=VbO3eX1YKiM">Proof By Induction Example </a>
-	
-#### Series 
-
-*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> 
 
 ```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
 ```
@@ -201,6 +183,8 @@ Column {.tabset}
 
 
 
+```{r child="sourcefiles/CountingProblems.Rmd"}
+```
 
    
 
@@ -210,38 +194,5 @@ Column {.tabset}
 
 
 
-Counting Problems {data-navmenu="Section 6"}
-==================================
-
-Column {.tabset}
------------------------------
-
-### Counting Problems
-
-<h5> Counting Problems </h5>
 
 
-In this section we look at counting problems, including combinations and permutations.
-
-
-#### Videos
-
-
-* Counting Problems -  <a href="https://www.youtube.com/watch?v=9QVx6yXzfEM" >HERE</a>
-* Binomial Coefficients - <a href="https://youtu.be/S74rTbwKIDY" >HERE</a>
-* Probability and Combinations (The Hypergeometric Distribution) - <a href="https://www.youtube.com/edit?o=U&amp;video_id=BdkSlLgd5dc" >HERE</a>(12:49)
-
-
-  
-* <a href ="https://www.youtube.com/watch?v=/O2Xg1BdqQBM"> Binomial Coefficients - Proof of Identities 1</a>
-* <a href ="https://www.youtube.com/watch?v=/XXoUYJbESCY"> Binomial Coefficients - Proof of Identities 2</a>
-* <a href ="https://www.youtube.com/watch?v=/O8P0te8s-ms"> Binomial Coefficients - Examples</a> /
-* <a href ="https://www.youtube.com/watch?v=/ytvlX_-VrF8"> Binomial Coefficients - Proof of Identities 3</a> 
-* <a href ="https://www.youtube.com/watch?v=/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a>
-* <a href ="https://www.youtube.com/watch?v=/oWlmy3W92u4"> Permutations and Combinations</a>
-
-### Combinations
-
-<h5> Combinations </h5>
-
-### Permutations

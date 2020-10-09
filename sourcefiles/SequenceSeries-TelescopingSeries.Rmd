@@ -6,21 +6,25 @@ Column {.tabset}
 
 ### Telescoping Series
 
-#### Telescoping Series
-
-* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
-
-* Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]
+<strong>Telescoping Series</strong>
 
 
+* A telescoping series is a series whose partial sums eventually only have a finite number of terms after cancellation. 
+* The cancellation technique, with part of each term cancelling with part of the next term, is known as the method of differences. 
 
 *  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
 *  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>
 
 
 
-*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>
+
+	
+#### Videos
+
+*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Introduction to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences – Part 1</a> [4:09]
+*  <a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction to Sequences – Part 3</a> [8:27]
+*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Evaluating Sequence Values</a>
+
+*  Exam Question <a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and Series 2003 proof by induction</a>
 
 
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>[6:20]

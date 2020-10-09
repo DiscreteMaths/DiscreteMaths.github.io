@@ -8,11 +8,34 @@ Column{.tabset}
 
 ### Binary Numbers
 
-### Additional and Subtraction
+<h5> binary Numbers</h5>
+
+
+* The binary number system is a Base-2 numbering system which follows the same set of rules in mathematics as the commonly used decimal or base-10 number system. 
+
+* So instead of powers of ten, ( 10n ) for example: 1, 10, 100, 1000 etc, binary numbers use powers of two, ( 2n ) effectively doubling the value of each successive bit as it goes, for example: 1, 2, 4, 8, 16, 32 etc.
+
+* The system of using Binary Numbers ideal for use in digital or electronic circuits and systems, because there are only two valid Boolean values for representing either a logic “1” or a logic “0”,(i.e. on and off).
+
+#### Videos 
+* <a href="https://www.youtube.com/watch?v=/xyo2UiDpND8"> Expressing Binary Numbers</a>
+
+### Converting Between Bases.
 
 * <a href="https://www.youtube.com/watch?v=/Xj75KbggKMU">Binary Number Conversion</a>
 
-* <a href="https://www.youtube.com/watch?v=/xyo2UiDpND8"> Expressing Binary Numbers</a>
+### Additional and Subtraction
+
+
+#### Tutorial Questions
+
+* <a href="https://youtube.com/watch?v=/qhdgu7LXLX8">Addition of Binary Numbers Example 1</a>
+* <a href="https://youtube.com/watch?v=/bi7QmO_dIbk">Addition of Binary Numbers Example 2	</a>
+* <a href="https://youtube.com/watch?v=/wL6lYKoBy7M">Addition of Binary Numbers Example 3	</a>
+
+#### Other Questions 
+
+
 
 * <a href="https://www.youtube.com/watch?v=/HDQ7PGYo5Y8"> Binary Addition</a>
 
@@ -38,3 +61,11 @@ Column{.tabset}
 
 * <a href="https://www.youtube.com/watch?v=/-svSPXMGyfs "> Binary Multiplication ( Binary Numbers Tutorial Sheet)		</a>
 
+### Gray Code
+
+
+* The reflected binary code (RBC), also known just as reflected binary (RB) or Gray code after Frank Gray, is an ordering of the binary numeral system such that two successive values differ in only one bit (binary digit).
+
+* For example, the representation of the decimal value "1" in binary would normally be "001" and "2" would be "010". In Gray code, these values are represented as "001" and "011". That way, incrementing a value from 1 to 2 requires only one bit to change, instead of two.
+
+* Gray codes are widely used to prevent spurious output from electromechanical switches and to facilitate error correction in digital communications such as digital terrestrial television and some cable TV systems. 

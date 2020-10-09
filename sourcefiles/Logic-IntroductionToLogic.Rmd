@@ -19,26 +19,38 @@ Propositions, The negations of a proposition, Compound Statements, Truth tables
 
 * <a href = "https://www.youtube.com/watch?v=/YK6tzrBYS14"> Logic 2003 Propositions</a>
 * <a href = "https://www.youtube.com/watch?v=/SNah7Lai_Lo"> Logic 2007 Propositions </a>
-* <a href = "https://www.youtube.com/watch?v=/qLP5fnux3RA"> Introduction to Truth Tables</a>
 
-* <a href = "https://www.youtube.com/watch?v=/qiO6sEmfkIc"> Proof using Truth Tables</a>
-* <a href = "https://www.youtube.com/watch?v=/Z9YVIP7v-Ik"> Proof using Truth Tables</a>
-* <a href = "https://www.youtube.com/watch?v=/4ZSgi6lmd_4"> Logic proof by truth table</a>
 
-* <a href = "https://www.youtube.com/watch?v=/U_VxV-3p7dU"> Logic 2007 Question 3 Truth Tables</a>
-* <a href = "https://www.youtube.com/watch?v=/FT9ocP-L6Mc"> Conditional Connectives :  p implies q </a>
-* <a href = "https://www.youtube.com/watch?v=/dnem1E71TI4"> Logic 2001 Implication Connective</a>
 
 * <a href = "https://www.youtube.com/watch?v=/s1f3nCOOzz8">  HERE </a>
 
 ### Truth Tables
 
-* Introduction to Truth Tables
+<h5>Truth Tables</h5>
+
+* <a href="https://youtube.com/watch?v=/U0tPnYxc0ME">Logic: Logical Truth Tables</a>
+* <a href="https://youtube.com/watch?v=/U0tPnYxc0ME">Logic: Introduction to Truth Tables</a>
+* <a href="https://youtube.com/watch?v=/qm-D7yx_Lwo">Logic: Proofs using Truth Tables</a>
+* <a href="https://youtube.com/watch?v=/3dkhjfjUo7M">Logic: Proof with Truth Tables (Worked Example)</a>
+* <a href="https://youtube.com/watch?v=/aQVK6mf4fUw">Logic: Truth Tables -  Worked Example 1</a>
+* <a href="https://youtube.com/watch?v=/nn2QdOEeFBU">Logic: Truth Tables -  Worked Example 2</a>
+* <a href= "https://youtube.com/watch?v=/pvZrpzLzM60"> Logical Proofs -Truth Tables Example  </a>
+
+#### Older Videos
+
+* <a href = "https://www.youtube.com/watch?v=/qLP5fnux3RA"> Introduction to Truth Tables</a>
+* <a href = "https://www.youtube.com/watch?v=/U_VxV-3p7dU"> Logic 2007 Question 3 Truth Tables</a>
+* <a href = "https://www.youtube.com/watch?v=/qiO6sEmfkIc"> Proof using Truth Tables</a>
+* <a href = "https://www.youtube.com/watch?v=/Z9YVIP7v-Ik"> Proof using Truth Tables</a>
+* <a href = "https://www.youtube.com/watch?v=/4ZSgi6lmd_4"> Logic proof by truth table</a>
 
 ### Conditional Connectives
 
 * Truth tables for condition connectives  
 * The contrapositive
+
+* <a href = "https://www.youtube.com/watch?v=/FT9ocP-L6Mc"> Conditional Connectives :  p implies q </a>
+* <a href = "https://www.youtube.com/watch?v=/dnem1E71TI4"> Logic 2001 Implication Connective</a>
 
 ### Logic Networks
 

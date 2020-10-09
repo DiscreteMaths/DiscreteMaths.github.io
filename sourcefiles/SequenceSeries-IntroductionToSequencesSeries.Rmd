@@ -38,11 +38,7 @@ Column {.tabset}
 *  <a title="Finite Series" href="http://youtu.be/NnuAIuvf73U" >Finite Series</a> :  Summation of a sequence.
 
 
-* <a href="https://www.youtube.com/watch?v=/D8zZ7nr80r8">    Sigma Notation</a>
-* <a href="https://www.youtube.com/watch?v=/lwjpA522bnY">    Finite Series</a>
 
-    
-* <a href="https://www.youtube.com/watch?v=/NhUBAYcfY_A">Evaluating the Sum of a Series</a>
   
 * <a href="https://www.youtube.com/watch?v=/sAm0PHazpvQ">Geometric Series </a>
 
@@ -50,14 +46,6 @@ Column {.tabset}
  
   
   
-
-
-#### Sigma Notation and Finite Series
-
-*  <a href="https://www.youtube.com/watch?v=O8y3OInkTsg" >Sigma Notation</a> (6:49 Minutes)
-*  Finite Series – <a title="Sequences and Series : Finite Series " href="https://www.youtube.com/watch?v=HQ-nWl6Xfn4" >HERE</a> (4:40 Minutes)
-*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> ( 3:12 Minutes)
-
 #### Geometric Series
 
 *  Geometric Series - <a href="https://www.youtube.com/watch?v=sAm0PHazpvQ" >HERE</a>  - [14:41]
@@ -70,13 +58,7 @@ Column {.tabset}
 *  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> ( 3:12 Minutes)
 
 
-		
-#### Proof by Induction
   
-*  <a href="https://www.youtube.com/watch?v=VbO3eX1YKiM">Proof By Induction Example </a>
-	
-
-    
 
 #### Sequences
 
@@ -91,9 +73,7 @@ Column {.tabset}
 *  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" >HERE </a> (7:00)
 
 
-#### Proof by Induction
 
-	<li class="sharedaddy sd-like-enabled sd-sharing-enabled">Simple Example - <a href="https://youtu.be/Jqd_Mvpxsbo" >HERE</a> [ 6:14 ]
 
 
 #### Series 
@@ -113,20 +93,3 @@ Column {.tabset}
 *  Introduction to Sequences and Series – <a href="https://youtu.be/z2m2fscysX0" >HERE</a>
 *  Sequences Value Determination – <a href="https://www.youtube.com/watch?v=4pdtlxc2UKs" >HERE</a> (2:24 Minutes)
 *  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" >HERE </a> (7:00 Minutes)
-
-### Telescoping Series
-
-	
-#### Videos
-
-*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Introduction to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences – Part 1</a> [4:09]
-*  <a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction to Sequences – Part 3</a> [8:27]
-*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Evaluating Sequence Values</a>
-
-*  Exam Question <a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and Series 2003 proof by induction</a>
-
-
-<strong>Telescoping Series</strong>
-
-*  <a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping Series (Lecture)</a>
-*  Telescoping Series - Worked Example - <a href="http://Telescoping%20Series (Lecture)" >HERE</a>

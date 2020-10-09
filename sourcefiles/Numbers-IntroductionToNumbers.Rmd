@@ -1,49 +1,9 @@
-Number Systems {data-navmenu="Section 1"}
+
+Types of Numbers {data-navmenu="Section 1"}
 ==============================================================
 
 Column {.tabset}
 -------------------------------------------------------------
-
-### Real and Irrational Numbers
-
-In mathematics, an irrational number is a real number that cannot be expressed as a ratio of integers, i.e. as a fraction. 
-Therefore, irrational numbers, when written as decimal numbers, do not terminate, nor do they repeat.
-
-
-#### Rational and Irrational Numbers
-You can tell if it is Rational or Irrational by trying to write the number as a simple fraction.
-
-*  1.5 is rational, because it can be written as the ratio 3/2
-*  7 is rational, because it can be written as the ratio 7/1
-*  0.333... (3 repeating) is also rational, because it can be written as the ratio 1/3
-
-
-
-#### Significant Digits
-There are three rules on determining how many significant figures are in a number: Non-zero digits are always significant. Any zeros between two significant digits are significant. A final zero or trailing zeros in the decimal portion ONLY are significant.
-
-
-
-
-#### Floating Point Notation
-
-
-
-In computing, floating point describes a method of 
-representing an approximation of a real number in a 
-way that can support a wide range of values. 
-
-
-The numbers are, in general, represented approximately 
-to a fixed number of significant digits (the mantissa) and scaled using an exponent. 
-
-In essence, computers are integer machines and are capable of representing real numbers only by using complex codes. The most popular code for representing real numbers is called the IEEE Floating-Point Standard .
-The term floating point is derived from the fact that there is no fixed number of digits before and after the decimal point; that is, the decimal point can float. There are also representations in 
-which the number of digits before and after the decimal point is set, called fixed-point representations. In general, floating-point representations are slower and less accurate than fixed-point representations, but they can handle a larger range of numbers.
-
-
-
-
 
 ### Natural, Rational and Real Numbers
 
@@ -60,9 +20,68 @@ which the number of digits before and after the decimal point is set, called fix
 
 
 
-### Irrational Numbers
+
+
+Notations for Numbers {data-navmenu="Section 1"}
+==============================================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+### Significant Digits
+ 
+* There are three rules on determining how many significant figures are in a number: Non-zero digits are always significant. 
+* Any zeros between two significant digits are significant. 
+* A final zero or trailing zeros in the decimal portion ONLY are significant.
+
+
+
+
+### Floating Point Notation
+
+* In computing, floating point describes a method of  representing an approximation of a real number in a 
+way that can support a wide range of values. 
+
+
+* The numbers are, in general, represented approximately to a fixed number of significant digits (the mantissa) and scaled using an exponent. 
+
+* In essence, computers are integer machines and are capable of representing real numbers only by using complex codes. The most popular code for representing real numbers is called the IEEE Floating-Point Standard .
+The term floating point is derived from the fact that there is no fixed number of digits before and after the decimal point; that is, the decimal point can float. 
+
+* There are also representations in 
+which the number of digits before and after the decimal point is set, called fixed-point representations. 
+
+* In general, floating-point representations are slower and less accurate than fixed-point representations, but they can handle a larger range of numbers.
+
+
+Rational and Irrational Numbers {data-navmenu="Section 1"}
+==============================================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+### Real and Irrational Numbers
+
+In mathematics, an irrational number is a real number that cannot be expressed as a ratio of integers, i.e. as a fraction. 
+Therefore, irrational numbers, when written as decimal numbers, do not terminate, nor do they repeat.
+
+
+
+#### Irrational Numbers
 
 An irrational number cannot be expressed as a ratio between two numbers and it cannot be written as a simple fraction because there is not a finite number of numbers when written as a decimal. Instead, the numbers in the decimal would go on forever, without repeating.
+
+
+
+#### Rational and Irrational Numbers
+You can tell if it is Rational or Irrational by trying to write the number as a simple fraction.
+
+*  1.5 is rational, because it can be written as the ratio 3/2
+*  7 is rational, because it can be written as the ratio 7/1
+*  0.333... (3 repeating) is also rational, because it can be written as the ratio 1/3
+
+
+
 
 
 

@@ -6,6 +6,15 @@ Column {.tabset}
 
 ### Introduction
 
+
+* <a href= "https://youtube.com/watch?v=/z3Vfd_unDBE"> Basic Matrix Operations ( Discrete Mathematics )  </a>
+
+
+* <a href= "https://youtube.com/watch?v=/cGJuRL0Az5I"> Matrix Multiplication ( Discrete Mathematics )  </a>
+
+
+
+
 ### Adding and Substracting Matrices
 
 
@@ -55,15 +64,15 @@ c_2 & d_2
 
 Matrices Tutorial 1
 
-* Question 1 <a href= "https://youtu.be/XCYf81OTDVc"> Here</a>
-* Question 2 <a href= "https://youtu.be/z1aIiH4bE4k"> Here</a>
-* Question 3  - Part 1 <a href= "https://youtu.be/FtyNlZIsiXg"> Here</a>
-* Question 3  - Part 2 <a href= "https://youtu.be/Xwg6VB_ooHk"> Here</a>
+* Question 1 <a href= "https://youtube.com/watch?v=/XCYf81OTDVc"> Here</a>
+* Question 2 <a href= "https://youtube.com/watch?v=/z1aIiH4bE4k"> Here</a>
+* Question 3  - Part 1 <a href= "https://youtube.com/watch?v=/FtyNlZIsiXg"> Here</a>
+* Question 3  - Part 2 <a href= "https://youtube.com/watch?v=/Xwg6VB_ooHk"> Here</a>
 * Question 4
 * Question 5
 * Question 6
-* Question 7 <a href= "https://youtu.be/Jj_7KiXJb64"> Here</a>
-* Question 8 <a href= "https://youtu.be/tdVrjFFq1A8"> Here</a>
+* Question 7 <a href= "https://youtube.com/watch?v=/Jj_7KiXJb64"> Here</a>
+* Question 8 <a href= "https://youtube.com/watch?v=/tdVrjFFq1A8"> Here</a>
 
 Systems of Linear Equations {data-navmenu="Section 6"}
 ==================================
