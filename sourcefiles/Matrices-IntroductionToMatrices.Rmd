@@ -63,6 +63,18 @@ c_2 & d_2
 ### Determinants
 
 
+The determinant helps us find the inverse of a matrix, tells us things about the matrix that are useful in systems of linear equations, calculus and more.
+
+The symbol for determinant is two vertical lines either side: |A| means the determinant of the matrix A (exactly the same symbol as absolute value.)
+
+In the case of a 2 × 2 matrix the determinant can be defined as
+
+$${\displaystyle {\begin{aligned}|A|={\begin{vmatrix}a&b\\c&d\end{vmatrix}}=ad-bc.\end{aligned}}}$$
+Similarly, for a 3 × 3 matrix A, its determinant is
+
+$${\displaystyle {\begin{aligned}|A|={\begin{vmatrix}a&b&c\\d&e&f\\g&h&i\end{vmatrix}}&=a\,{\begin{vmatrix}e&f\\h&i\end{vmatrix}}-b\,{\begin{vmatrix}d&f\\g&i\end{vmatrix}}+c\,{\begin{vmatrix}d&e\\g&h\end{vmatrix}}\\[3pt]&=aei+bfg+cdh-ceg-bdi-afh.\end{aligned}}}$$
+
+
 ### Tutorials
 
 Matrices Tutorial 1
