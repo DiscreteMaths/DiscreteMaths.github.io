@@ -6,6 +6,9 @@ Column {.tabset}
 
 ### Introduction
 
+In mathematics, a matrix (plural matrices ) is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are commonly written in box brackets.
+
+An $m \times n$ (read ‘m by n’) matrix is an arrangement of numbers (or algebraic expressions ) in $m$ rows and $n$ columns. Each number in a given matrix is called an element or entry. A zero matrix has all its elements equal to zero.
 
 * <a href= "https://youtube.com/watch?v=/z3Vfd_unDBE"> Basic Matrix Operations ( Discrete Mathematics )  </a>
 
