@@ -17,6 +17,25 @@ An $m \times n$ (read ‘m by n’) matrix is an arrangement of numbers (or alge
 
 
 
+#### Matrices and Systems of Equations
+
+* Dimensions of a Matrix
+* Matrix Multiplication
+* Matrix Calculations
+* Systems of Equations
+* Expression Systems of Equations as Matrices
+* Augmented Matrices
+* Guassian Elimination
+
+### Matrix algebra 
+
+* Writing a system of linear equations as a matrix equation
+* The rules for when two matrices can be added and subtracted
+* The rules for when two matrices can be multiplied
+* Adding, subtracting and multiplying matrices of suitable sizes
+* The identity matrices In and their properties
+* Interpreting powers of the adiacency matrix of a graph/digraph
+
 
 ### Adding and Substracting Matrices
 
