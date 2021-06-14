@@ -1,5 +1,6 @@
+#### Question 1
 
-\item Express the following decimal numbers as binary numbers.
+Express the following decimal numbers as binary numbers.
 
 
 \item[i)] $(73)_{10}$
@@ -7,6 +8,8 @@
 \item[iii)] $(22)_{10}$
 
 <hline> 
+
+#### Question 2
 
 All three answers are among the following options.
 
@@ -17,46 +20,62 @@ c. $(1001001)_{2}$ %73
 d. $(1000010)_{2}$ %64
 
 <hline> 
-%---------------------------%
-\item Express the following binary numbers as decimal numbers
+
+#### Question 3
+
+Express the following binary numbers as decimal numbers
 
 
-\item[(i)] $101$
-\item[(ii)] $1101$
-\item[(iii)] $11011$
-\item[(iv)] $100101$
+a.  $101$
+
+b.  $1101$
+
+c.  $11011$
+
+d.  $100101$
 
 <hline> 
 
 
-\item Express the following binary numbers as decimal numbers.
+#### Question 4 
+Express the following binary numbers as decimal numbers.
 
 
 a.$(101010)_{2}$
+
 b.$(10101)_{2}$
-c. $(111010)_{2}$
+
+c.$(111010)_{2}$
+
 d. $(11010)_{2}$
 
 <hline> 
-\item Express the following binary numbers as decimal numbers.
+#### Question 5
+
+Express the following binary numbers as decimal numbers.
 
 
 a.$(110.10101)_{2}$
+
 b.$(101.0111)_{2}$
+
 c. $(111.01)_{2}$
+
 d. $(110.1101)_{2}$
 
 <hline> 
 
 
-%---------------------------%
-\item Express the following decimal numbers as binary numbers
+<hline> 
+#### Question 6
+
+Express the following decimal numbers as binary numbers
 
 
-\item[(i)] 6
-\item[(ii)] 15
-\item[(iii)] 37
-\item[(iv)] 77
+a. 6
+b. 15
+c. 37
+d. 77
 
 <hline> 
 

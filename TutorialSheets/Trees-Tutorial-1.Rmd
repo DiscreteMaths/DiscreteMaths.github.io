@@ -8,58 +8,42 @@ Column {.tabset}
 ### Worksheets 1
 
 
+#### Question 1
 
-\item Let G be a graph. What two properties must G satisfy in order to be a tree?
-
-
-% \item %\textbf{Part A : Spanning Trees}
-% \begin{enumerate}
-% \item How many edges are in the spanning tree $T$ ?
-% \item What is the sum of the degree sequence of $T$?
-% \item Write down all the possible degree sequences for the spanning tree $T$.
-% \end{enumerate}
-
-% \includegraphics[]{images/trees/edges_spinning_tree.jpg.png}
-
-\item Draw the tree $T$ with $V(T) = \{v_1,v_2,v_3,v_4,v_5,v_6\}$ and $E(T)= \{v_1v_3, v_2v_3, v_3v_4,v_4v_5,v_4v_6\}$.
+Let G be a graph. What two properties must G satisfy in order to be a tree?
 
 
+#### Question 2
 
-    a.  Construct all the non-isomorphic tree on seven vertices which may be obtained by adding a new vertex of degree one to $T$.
+a. How many edges are in the spanning tree $T$ ?
+b. What is the sum of the degree sequence of $T$?
+c. Write down all the possible degree sequences for the spanning tree $T$.
 
 
+includegraphics[]{images/trees/edges_spinning_tree.jpg.png}
 
-a.  Explain briefly why the trees you obtained are not isomorphic to each other.
+#### Question 3 
+
+Draw the tree $T$ with $V(T) = \{v_1,v_2,v_3,v_4,v_5,v_6\}$ and $E(T)= \{v_1v_3, v_2v_3, v_3v_4,v_4v_5,v_4v_6\}$.
+
+
+a.  Construct all the non-isomorphic tree on seven vertices which may be obtained by adding a new vertex of degree one to $T$.
 
 
 
+b.  Explain briefly why the trees you obtained are not isomorphic to each other.
 
-\item 
+
+
+#### Question 4
+
 Let $T$ be a rooted tree with root r. 
 
-\begin{enumerate}[(a)]
-\item Explain how the nodes of $T$ are partitioned into levels.
-\item What does it mean to say that $T$ has height $h$?
-\item What does it mean to say that a node of $v$ is an external node?
-\end{enumerate}
-\item
-Suppose a database, comprised of 30,000 internal nodes, is structured as a Binary Search Tree.
+a. Explain how the nodes of $T$ are partitioned into levels.
+b. What does it mean to say that $T$ has height $h$?
+c. What does it mean to say that a node of $v$ is an external node?
 
-\begin{enumerate}[(a)]
-\item What is the key (number) of the Root node?
-\item What are the keys of the nodes at level 1?
-\item For the nodes at level1, how many subtrees are there?
-\item State which nodes are in the substrees of the level 1 nodes?
-\item How many nodes are the between the root (level 0) and level 7. \\
-(Hint: use a summation theorem)
-\item What is the maximum number of searchs in this database?
-\end{enumerate}
 
-\item A binary search tree is designed to store an ordered list of 6000 records at its internal nodes.
-
-a.  Find which record is stored at the root (level 0) of the tree and at each
-of the nodes at level 1.
-b.   What is the height of the tree?
 
 ### Work Sheet 2
 
@@ -79,3 +63,28 @@ at the root and at each of the nodes at level 1 and 2, making it clear
 which records are at each level.
 [(ii)] What is the maximum number of comparisons that would have to be
 made in order to locate an existing record from the list of 50000? 
+
+
+#### Question 2
+Suppose a database, comprised of 30,000 internal nodes, is structured as a Binary Search Tree.
+
+a. What is the key (number) of the Root node?
+
+b. What are the keys of the nodes at level 1?
+
+c. For the nodes at level1, how many subtrees are there?
+
+d. State which nodes are in the substrees of the level 1 nodes?
+
+e. How many nodes are the between the root (level 0) and level 7. 
+(Hint: use a summation theorem)
+
+f. What is the maximum number of searchs in this database?
+
+#### Question 3
+
+A binary search tree is designed to store an ordered list of 6000 records at its internal nodes.
+
+a.  Find which record is stored at the root (level 0) of the tree and at each
+of the nodes at level 1.
+b.   What is the height of the tree?

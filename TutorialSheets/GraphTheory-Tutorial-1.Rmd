@@ -17,8 +17,8 @@ of v.
 b.  A graph is called k-regular if each of its vertices has degree k. Construct an
 example of:
 
-\item[(i)] a 2-regular graph with 5 vertices, 
-\item[(ii)] a 3-regular graph with 6 vertices. 
+ i.   a 2-regular graph with 5 vertices, 
+ ii.  a 3-regular graph with 6 vertices. 
 
 c. State, without proving, a result connecting the degrees of the vertices of
 a graph G with the number of its edges.
@@ -40,34 +40,33 @@ Draw the graph \textbf{G}, which has the vertices $v_1$,$v_2$,$v_3$,$\ldots$,$v_
  [$v_1$]: $v_2$,$v_4$
  [$v_2$]: $v_1$,$v_3$
  [$v_3$]: $v_2$,$v_4$
-\item[$v_4$]: $v_1$,$v_3$,$v_5$
-\item[$v_5$]: $v_4$,$v_6$
-\item[$v_6$]: $v_5$,$v_7$
-\item[$v_7$]: $v_5$,$v_6$
+ [$v_4$]: $v_1$,$v_3$,$v_5$
+ [$v_5$]: $v_4$,$v_6$
+ [$v_6$]: $v_5$,$v_7$
+ [$v_7$]: $v_5$,$v_6$
 
 <hline> 
-%Draw the graph \textbf{G}.
 
+#### Question 3
 
-\subsection*{Question 3}
 Given the following definitions for simple, connected graphs:
 
-\item $K_n$ is a graph on $n$ vertices where each pair of vertices is connected by an edge;
-\item $C_n$ is the graph with vertices $v_1, v_2, v_3, \dots, v_n$ and edges $\{v_1,v_2\}, \{v_2,v_3\}, \dots\{v_n, v_1\}$;
-\item $W_n$ is the graph obtained from $C_n$ by adding an extra vertex,$v_{n+1}$, and edges
+* $K_n$ is a graph on $n$ vertices where each pair of vertices is connected by an edge;
+* $C_n$ is the graph with vertices $v_1, v_2, v_3, \dots, v_n$ and edges $\{v_1,v_2\}, \{v_2,v_3\}, \dots\{v_n, v_1\}$;
+* $W_n$ is the graph obtained from $C_n$ by adding an extra vertex,$v_{n+1}$, and edges
 from this to each of the original vertices in $C_n$.
 
 Draw $K_4$, $C_4$, and $W_4$. 
 
 
 
-%----------------------------- %
-\subsection*{Question 4}
-\begin{enumerate}[(a)]
-\item A simple, connected graph has 7 vertices, all having the same degree d.
+<hline> 
+
+#### Question 4
+
+a. A simple, connected graph has 7 vertices, all having the same degree d.
 State the possible values of d and for each value also give the number of edges
 in the corresponding graph.
-\item  Another simple, connected graph has 6 vertices, all having the same degree, n.\\ Draw such a graph when n = 3 and state the other possible values of n.
-\end{enumerate}
+b.  Another simple, connected graph has 6 vertices, all having the same degree, n. 
+Draw such a graph when n = 3 and state the other possible values of n.
 
-\end{document}

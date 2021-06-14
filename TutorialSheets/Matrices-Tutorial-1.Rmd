@@ -29,21 +29,21 @@ B = \left(
 \right)
 \]
 
-#### Questions 
+#### Question 1
 
-[(a)] Show that \textbf{AB} and \textbf{BA} are not equal. [3 Marks]
-[(b)] Find matrices C, D and E such that
+a. Show that \textbf{AB} and \textbf{BA} are not equal. [3 Marks]
+b. Find matrices C, D and E such that
 
-[(i)] \textbf{B} + \textbf{C} = \textbf{A}
-[(ii)] \textbf{BD} = \textbf{B}
-[(iii)] \textbf{B} - \textbf{E} = \textbf{A}. [3 Marks]
-
-
-[(c)]
+i.\textbf{B} + \textbf{C} = \textbf{A}
+ii \textbf{BD} = \textbf{B}
+iii. \textbf{B} - \textbf{E} = \textbf{A}. [3 Marks]
 
 
-[(i)] Write down the augmented matrix for the following system of equations.
-[(ii)] Use Gaussian elimination to solve the system. 
+#### Question 2
+
+
+a. Write down the augmented matrix for the following system of equations.
+b. Use Gaussian elimination to solve the system. 
 
 \[2x + y - z = 2\]
 \[x - y + z = 4\]
