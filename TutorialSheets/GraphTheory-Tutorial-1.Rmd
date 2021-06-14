@@ -1,0 +1,73 @@
+
+Graph Theory - Worksheets {data-navmenu="Section 4"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+
+
+### Work Sheet 1
+
+
+#### Question 1
+
+a.  Let G be a graph and let v be a vertex of G. Say what is meant by the degree
+of v. 
+b.  A graph is called k-regular if each of its vertices has degree k. Construct an
+example of:
+
+\item[(i)] a 2-regular graph with 5 vertices, 
+\item[(ii)] a 3-regular graph with 6 vertices. 
+
+c. State, without proving, a result connecting the degrees of the vertices of
+a graph G with the number of its edges.
+d. Use the result in part (c) to find the number of edges of a 3-regular graph with 10
+vertices
+d. Explain why it is not possible to construct a 3-regular graph with 9 vertices. 
+
+
+
+
+#### Question 2
+
+
+
+Draw the graph \textbf{G}, which has the vertices $v_1$,$v_2$,$v_3$,$\ldots$,$v_7$, and the adjacency list:
+
+
+
+ [$v_1$]: $v_2$,$v_4$
+ [$v_2$]: $v_1$,$v_3$
+ [$v_3$]: $v_2$,$v_4$
+\item[$v_4$]: $v_1$,$v_3$,$v_5$
+\item[$v_5$]: $v_4$,$v_6$
+\item[$v_6$]: $v_5$,$v_7$
+\item[$v_7$]: $v_5$,$v_6$
+
+<hline> 
+%Draw the graph \textbf{G}.
+
+
+\subsection*{Question 3}
+Given the following definitions for simple, connected graphs:
+
+\item $K_n$ is a graph on $n$ vertices where each pair of vertices is connected by an edge;
+\item $C_n$ is the graph with vertices $v_1, v_2, v_3, \dots, v_n$ and edges $\{v_1,v_2\}, \{v_2,v_3\}, \dots\{v_n, v_1\}$;
+\item $W_n$ is the graph obtained from $C_n$ by adding an extra vertex,$v_{n+1}$, and edges
+from this to each of the original vertices in $C_n$.
+
+Draw $K_4$, $C_4$, and $W_4$. 
+
+
+
+%----------------------------- %
+\subsection*{Question 4}
+\begin{enumerate}[(a)]
+\item A simple, connected graph has 7 vertices, all having the same degree d.
+State the possible values of d and for each value also give the number of edges
+in the corresponding graph.
+\item  Another simple, connected graph has 6 vertices, all having the same degree, n.\\ Draw such a graph when n = 3 and state the other possible values of n.
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,351 @@
+
+\item Express the following decimal numbers as binary numbers.
+
+
+\item[i)] $(73)_{10}$
+\item[ii)] $(15)_{10}$
+\item[iii)] $(22)_{10}$
+
+<hline> 
+
+All three answers are among the following options.
+
+
+a.$(10110)_{2}$ %22
+b.$(1111)_{2}$ %15
+c. $(1001001)_{2}$ %73
+d. $(1000010)_{2}$ %64
+
+<hline> 
+%---------------------------%
+\item Express the following binary numbers as decimal numbers
+
+
+\item[(i)] $101$
+\item[(ii)] $1101$
+\item[(iii)] $11011$
+\item[(iv)] $100101$
+
+<hline> 
+
+
+\item Express the following binary numbers as decimal numbers.
+
+
+a.$(101010)_{2}$
+b.$(10101)_{2}$
+c. $(111010)_{2}$
+d. $(11010)_{2}$
+
+<hline> 
+\item Express the following binary numbers as decimal numbers.
+
+
+a.$(110.10101)_{2}$
+b.$(101.0111)_{2}$
+c. $(111.01)_{2}$
+d. $(110.1101)_{2}$
+
+<hline> 
+
+
+%---------------------------%
+\item Express the following decimal numbers as binary numbers
+
+
+\item[(i)] 6
+\item[(ii)] 15
+\item[(iii)] 37
+\item[(iv)] 77
+
+<hline> 
+
+\item Express the following decimal numbers as binary numbers.
+
+
+a.$(27.4375)_{10}$%
+b.$(5.625)_{10}$
+c. $(13.125)_{10}$
+d. $(11.1875)_{10}$
+
+<hline> 
+
+\item Perform the following binary additions.
+
+
+a.$(110101)_{2}$ + $(1010111)_{2}$
+b.$(1010101)_{2}$ + $(101010)_{2}$
+c. $(11001010)_{2}$ + $(10110101)_{2}$
+d. $(1011001)_{2}$ + $(111010)_{2}$
+
+<hline> 
+
+
+%http://www.csgnetwork.com/binaddsubcalc.html
+%(See section 1.1.3 of the text)
+
+\item Perform the following binary additions.
+
+
+a.$(110101)_{2}$ + $(1010111)_{2}$
+b.$(1010101)_{2}$ + $(101010)_{2}$
+c. $(11001010)_{2}$ + $(10110101)_{2}$
+d. $(1011001)_{2}$ + $(111010)_{2}$
+
+<hline> 
+
+\item Perform the following binary subtractions.
+
+
+a.$(110101)_{2}$ - $(1010111)_{2}$
+b.$(1010101)_{2}$ - $(101010)_{2}$
+c. $(11001010)_{2}$ - $(10110101)_{2}$
+d. $(1011001)_{2}$ - $(111010)_{2}$
+
+<hline> 
+
+
+
+\item Perform the following binary multiplications.
+
+
+a.$(1001)_{2}\times( 1000)_{2}$% 9 by 8
+b.$(101)_{2}\times(1101)_{2}$ % 5 by 11
+c. $(111)_{2}\times(1111)_{2}$ % 7 by 15
+d. $(10000)_{2}\times(11001)_{2}$%16 by 25
+
+<hline> 
+
+%-------------%-------------%-------------%----------------
+\item 
+
+Perform the following binary subtractions.
+
+
+a.$(110101)_{2}$ - $(1010111)_{2}$
+b.$(1010101)_{2}$ - $(101010)_{2}$
+c. $(11001010)_{2}$ - $(10110101)_{2}$
+d. $(1011001)_{2}$ - $(111010)_{2}$
+
+<hline> 
+
+
+
+
+%-------------%-------------%-------------%----------------
+\item Perform the following binary subtractions.
+
+
+\item[(i)] 110 - 10
+\item[(ii)] 101 - 11
+\item[(iii)] 1001 - 11
+\item[(iv)] 10001 - 100 
+\item[(v)] 101001 - 1101
+\item[(vi)] 11010101-1101
+
+<hline> 
+
+%-------------%-------------%-------------%----------------
+\item 
+
+Perform the binary subtractions using both the bit-borrowing method and the two's complement method.
+
+\item $(1001)_2 -(111)_2$
+\item $(110000)_2 -(10111)_2$
+
+
+
+\item Perform the following binary multiplications.
+
+
+a.$(1001)_{2}\times( 1000)_{2}$% 9 by 8
+b.$(101)_{2}\times(1101)_{2}$ % 5 by 11
+c. $(111)_{2}\times(1111)_{2}$ % 7 by 15
+d. $(10000)_{2}\times(11001)_{2}$%16 by 25
+
+ <hline> 
+
+
+
+\item Perform the following binary multiplications.
+%
+%
+%a.$(1001000)_{2} \div ( 1000)_{2}$
+%b.$(101101)_{2} \div (1001)_{2}$
+%c. $(1001011000)_{2} \div (101000)_{2}$
+%d. $(1100000)_{2} \div (10000)_{2}$
+%
+%<hline> 
+
+
+\item Which of the following binary numbers is the result of this binary division: $(10)_{2} \times ( 1101)_{2}$. % % (2) /(13)
+
+
+a.$(11010)_{2}$ %26
+b.$(11100)_{2}$ %28
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(101010)_{2} \times( 111 )_{2}$. % (4) /(6)
+
+
+a.$(11000)_{2}$ %24
+b.$(11001)_{2}$ %25
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(1001110)_{2}\times ( 1101 )_{2}$. % (9) /(3)
+
+
+a.$(11000)_{2}$ %24
+b.$(11001)_{2}$ %25
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+
+\item Which of the following binary numbers is the result of this binary division: $(111001)_{2} \div ( 10011)_{2}$. % (57) /(19)
+
+
+a.$(10)_2$ %2
+b.$(11)_{2}$ %3
+c. $(100)_{2}$ %4
+d. $(101)_{2}$ %5
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(101010)_{2} \div ( 111 )_{2}$. % (42) /(7)
+
+
+a.$(11)_2$ %3
+b.$(100)_{2}$ %4
+c. $(101)_{2}$ %5
+d. $(110)_{2}$ %6
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(1001110)_{2} \div ( 1101 )_{2}$. % (78) /(13)
+
+
+
+a.$(100)_{2}$ %4
+b.$(110)_{2}$ %6
+c. $(111)_{2}$ %7
+d. $(1001)_2$ %9
+
+<hline> 
+
+
+\item Which of the following binary numbers is the result of this binary division: $(10)_{2} \times ( 1101)_{2}$. % % (2) /(13)
+
+
+a.$(11010)_{2}$ %26
+b.$(11100)_{2}$ %28
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(101010)_{2} \times( 111 )_{2}$. % (4) /(6)
+
+
+a.$(11000)_{2}$ %24
+b.$(11001)_{2}$ %25
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(1001110)_{2}\times ( 1101 )_{2}$. % (9) /(3)
+
+
+a.$(11000)_{2}$ %24
+b.$(11001)_{2}$ %25
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+
+%----------------------------------------------------------------%
+
+
+
+
+\item Which of the following binary numbers is the result of this binary division: $(111001)_{2} \div ( 10011)_{2}$. % (57) /(19)
+
+
+a.$(10)_2$ %2
+b.$(11)_{2}$ %3
+c. $(100)_{2}$ %4
+d. $(101)_{2}$ %5
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(101010)_{2} \div ( 111 )_{2}$. % (42) /(7)
+
+
+a.$(11)_2$ %3
+b.$(100)_{2}$ %4
+c. $(101)_{2}$ %5
+d. $(110)_{2}$ %6
+
+<hline> 
+\item Which of the following binary numbers is the result of this binary division: $(1001110)_{2} \div ( 1101 )_{2}$. % (78) /(13)
+
+
+
+a.$(100)_{2}$ %4
+b.$(110)_{2}$ %6
+c. $(111)_{2}$ %7
+d. $(1001)_2$ %9
+
+<hline> 
+
+
+
+\item Which of the following binary numbers is the result of this binary division: $(10)_{2} \times ( 1101)_{2}$. % % (2) /(13)
+
+
+a.$(11010)_{2}$ %26
+b.$(11100)_{2}$ %28
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+
+\item Which of the following binary numbers is the result of this binary division: $(101010)_{2} \times( 111 )_{2}$. % (4) /(6)
+
+
+a.$(11000)_{2}$ %24
+b.$(11001)_{2}$ %25
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+
+\item Which of the following binary numbers is the result of this binary division: $(1001110)_{2}\times ( 1101 )_{2}$. % (9) /(3)
+
+
+a.$(11000)_{2}$ %24
+b.$(11001)_{2}$ %25
+c. $(10101)_{2}$ %21
+d. $(11011)_2$ %27
+
+<hline> 
+
+\item Perform the following binary divisions.
+
+
+a.$(1001000)_{2} \div ( 1000)_{2}$
+b.$(101101)_{2} \div (1001)_{2}$
+c. $(1001011000)_{2} \div (101000)_{2}$
+d. $(1100000)_{2} \div (10000)_{2}$
+
+<hline> 
+
+
+
+\end{enumerate}
+
+%http://www.csgnetwork.com/binaddsubcalc.html
+%(See section 1.1.3 of the text)
+
+ 
+\end{document}

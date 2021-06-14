@@ -23,3 +23,93 @@ Farm has 5 chickens: Amy, Beth, Carol, Daisy and Eve, with the following relatio
 * Daisy is dominant over Eve, Amy and Beth
 * Eve is dominant over Amy.
 
+
+Suppose $A = \{1,2,3,4\}$. Consider the following relation in A
+
+\[ \{  (1,1),(2,2),(2,3),(3,2),(4,2),(4,4)\} \]
+
+Draw the direct graph of $A$. Based on the Digraph of $A$ discuss whether or not a relation that could be depicted by the digraph could be described as the following, justifying your answer.
+
+
+
+a.  Symmetric
+b.  Reflexive 
+c. Transitive
+d. Antisymmetric
+
+<hline> 
+%---------------- %
+\item Let S be a set and R be a relation on S. Explain what it means to say that R
+is
+
+
+a.  reflexive,
+b.  symmetric,
+c. transitive,
+d. anti-symmetric,
+e. an equivalence relation,
+f. a partial order,
+g. an order. 
+
+<hline> 
+
+<hline>
+
+#### Question 1
+Determine which of the following relations $ x R y$ are reflexive, transitive, symmetric, or antisymmetric on the following - there may be more than one characteristic. 
+
+ 
+a.  $x = y$
+b.  $x < y$
+c. $x^2 = y^2$
+d. $x \geq y$
+
+
+<hline>
+
+#### Question 2
+Given a flock of chickens, between any two chickens one of them is
+dominant. A relation, R, is defined between chicken x and chicken y as xRy if x is
+dominant over y. This gives what is known as a pecking order to the flock. Home
+Farm has 5 chickens: Amy, Beth, Carol, Daisy and Eve, with the following relations:
+
+
+\item Amy is dominant over Beth and Carol
+\item Beth is dominant over Eve and Carol
+\item Carol is dominant over Eve and Daisy
+\item Daisy is dominant over Eve, Amy and Beth
+\item Eve is dominant over Amy.
+
+
+<hline>
+
+#### Question 3
+
+For $a, b \in Z$ define a R b to mean that a divides b.
+
+
+a.  State whether or not R is reflexive.
+b.  State whether or not R is symmetric.
+c. State whether or not R is transitive.
+
+% Solution: 
+% 
+% 
+% a.   Since 0 does not divide 0, therefore R is not reflexive.
+% b.  2 divides 4 so 2 R 4. But 4 does not divide 2, so 4 R 2. Thus, R is not symmetric.
+% c.  To see that R is transitive, let a, b, c be integers. Suppose that a R b and b R c. Thus,
+% a divides b and b divides c so there exist integers k and l such that b = ak and c = bl. This
+% gives c = bl = (ak)l = a(kl). Therefore, a divides c so a R c
+% 
+
+<hline>
+
+#### Question 4
+
+Given the set $S =\{g,e,r,b,i,l\}$.
+
+a.  Describe how each subset of $S$ can be represented by using a 6 digit binary string
+b.  Write down the string corresponding to the subset $\{g,r,l\}$ and the subset corresponding to the string 010101.
+c. What is the total number of subsets of S?
+
+

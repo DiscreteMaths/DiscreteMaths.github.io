@@ -92,6 +92,68 @@ Write the contrapositive of each of the following statements:
 *  If the four sides are not equal, then the quadrilateral is not a square.
 
 
+Let $n \in \{1,2,3,4,5,6,7, 8 ,9\}$ and let $p,q$ be the following propositions concerning the integer n.
+
+
+\item[p]: $n$ is even
+\item[q]: $n < 5$.
+
+
+Find the values of n for which each of the following compound statements is
+true.
+
+
+a.  $\neg p$
+b.  $p \wedge q$
+c. $\neg p \vee q$
+d. $ p \otimes q$.
+
+<hline> 
+
+
+
+
+\item 
+Let $n = \{1, 2,3,4, 5,6,7, 8, 9\}$ and let $p$ and  $q$ be the following propositions concerning the integer $n$.
+
+\item p: n is even, 
+\item q: $n\geq 5$.
+
+By drawing up the appropriate truth table ﬁnd the truth set for each of the
+propositions $p \vee \neg q$ and $ \neg q \rightarrow p$
+
+%--------------------------------------------------- %
+
+
+
+\item 
+Let p, q be the following propositions:
+
+\item p : this apple is red, 
+\item q : this apple is ripe.
+
+
+Express the following statements in words as simply as you can:
+
+a.  $p \rightarrow q$
+b.  $p \wedge \neg q$.
+
+
+ 
+Express the following statements symbolically:
+
+c. This apple is neither red nor ripe.
+d. If this apple is not red it is not ripe.
+
+
+%--------------------------------------------------- %
+
+\item Let p and q be propositions.
+
+a.   Construct the truth table for $p \rightarrow q$. 
+b.  Use truth tables to prove that $\neg q \rightarrow \neg p$ = $p \rightarrow q$. 
+
+
 
 
 ### Logic Networks
@@ -126,4 +188,15 @@ Construct a logic network that accepts as input p and q, which may independently
 gives as final input $\neg(p \wedge \not q)$ (i.e. $\equiv p \rightarrow q$).\\
 
 
+
+    \item Use \textbf{Truth Tables} to prove that the following statements are equivalent to one another.
+\[(p \vee q) \wedge \neg q \qquad \equiv \qquad  p\wedge \neg q.\]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item 
+Construct a logic network that accepts as input $p$ and $q$, which may independently have the value 0 or 1, and
+gives as final input $(p \wedge  q) \vee \neg q$ (i.e. $\equiv p \rightarrow q$).
+
+
+
+\textbf{Important} Label each of the gates appropriately and label the diagram with a symblic expression for the output after each gate.
 
