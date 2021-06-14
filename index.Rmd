@@ -98,11 +98,16 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 ```{r child="sourcefiles/Logic-IntroductionToLogic.Rmd"}
 ```
 
+```{r child="TutorialSheets/Logic-Tutorial-1.Rmd"}
+```
+
+
 Functions {data-navmenu="Section 3"}
 =====================================
 
 Column {.tabset}
 -------------------------------------------------
+
 ### Functions
 
 * <a href ="https://www.youtube.com/watch?v=/-3hd821alPI">Functions (2005 Q4 Part A)  </a>
@@ -141,10 +146,22 @@ Column {.tabset}
 ```{r child="sourcefiles/Graphs-Trees.Rmd"}
 ```
 
+
+
+
+
 ```{r child="sourcefiles/Graphs-BinarySearchTrees.Rmd"}
 ```
 
 ```{r child="sourcefiles/RelationsDigraphs-Introduction.Rmd"}
+```
+
+
+```{r child="TutorialSheets/Trees-Tutorial-1.Rmd"}
+```
+
+
+```{r child="TutorialSheets/Digraphs-Tutorial-1.Rmd"}
 ```
 
 
@@ -155,10 +172,20 @@ Column {.tabset}
 ```{r child="sourcefiles/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
 ```
 
+```{r child="sourcefiles/SequenceSeries-Progressions.Rmd"}
+```
+
+
 ```{r child="sourcefiles/SequenceSeries-FiniteSeries.Rmd"}
 ```
 
+
+
+
 ```{r child="sourcefiles/SequenceSeries-TelescopingSeries.Rmd"}
+```
+
+```{r child="sourcefiles/SequenceSeries-RecurrenceRelations.Rmd"}
 ```
 
 
@@ -167,9 +194,15 @@ Column {.tabset}
 
 
 
+```{r child="sourcefiles/SequenceSeries-RatioTests.Rmd"}
+```
 
 
 ```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
+```
+
+
+```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}
 ```
 
 

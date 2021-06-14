@@ -3334,6 +3334,22 @@ Cardinality
 </tr>
 </tbody>
 </table>
+<div id="intersection" class="section level4">
+<h4>Intersection</h4>
+<ul>
+<li><p>Intersection of two sets describes the elements that are members of both the specified Sets</p></li>
+<li><p>The intersection is denoted <span class="math inline">\(\mathcal{A\cap B}\)</span> <span class="math display">\[ \mathcal{A\cap B} = \{2\}\]</span></p></li>
+<li><p>only one element is a member of both A and B.</p></li>
+</ul>
+</div>
+<div id="set-difference" class="section level4">
+<h4>Set Difference</h4>
+<ul>
+<li><p>The Set Difference of A with regard to B are list of elements of A not contained by B.</p></li>
+<li><p>The complements are denoted <span class="math inline">\(\mathcal{A-B}\)</span> and <span class="math inline">\(\mathcal{B-A}\)</span> <span class="math display">\[ \mathcal{A-B} = \{1,3,5,7\}, \]</span></p></li>
+</ul>
+<p><span class="math display">\[ \mathcal{B-A} = \{4,6,8\}, \]</span></p>
+</div>
 </div>
 <div id="set-specification" class="section level3">
 <h3>Set Specification</h3>
@@ -3384,6 +3400,26 @@ BUILDER METHOD
 <h4>Sets containing Sets</h4>
 <p>Sets can of course be elements of other sets; for example we can form the set <span class="math inline">\(G = \{A,B,C,D,E\}\)</span>, whose five elements are the sets we considered earlier. Then, for instance, <span class="math inline">\(A\in G\)</span>. (Note that this is very different from saying <span class="math inline">\(A\subseteq G\)</span>)</p>
 </div>
+</div>
+<div id="de-morgans-laws" class="section level3">
+<h3>De Morgan’s Laws</h3>
+<p>In set theory and Boolean algebra, De Morgan’s Laws are often stated as “Union and intersection interchange under complementation” which can be formally expressed as:</p>
+<span class="math display">\[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]</span> <span class="math display">\[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]</span> where:
+<p><hline></p>
+<p>In propositional logic and boolean algebra,  are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.</p>
+<p>The rules can be verbalized as:</p>
+<ul>
+<li>The negation of a conjunction is the disjunction of the negations.</li>
+<li>The negation of a disjunction is the conjunction of the negations. or informally as:</li>
+</ul>
+and also,
+<p>The rules can be expressed in formal language with two propositions P and Q as: <span class="math display">\[ \neg(P\land Q)\iff(\neg P)\lor(\neg Q)\]</span> <span class="math display">\[\neg(P\lor Q)\iff(\neg P)\land(\neg Q)\]</span> where:</p>
+<ul>
+<li><span class="math inline">\(\neg\)</span> is the negation operator (NOT)</li>
+<li>$$ is the conjunction operator (AND)</li>
+<li><span class="math inline">\(\vee\)</span> is the disjunction operator (OR)</li>
+<li><span class="math inline">\(\leftarrow \rightarrow\)</span> is a metalogical symbol meaning “can be replaced in a logical proof with”</li>
+</ul>
 </div>
 <div id="number-sets" class="section level3">
 <h3>Number Sets</h3>
@@ -3483,9 +3519,88 @@ Truth Tables
 </div>
 </div>
 </div>
+<div id="logic---worksheets" class="section level1" data-navmenu="Section 2">
+<h1 data-navmenu="Section 2">Logic - Worksheets</h1>
+<div id="column-11" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1-1" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="question-1-4" class="section level4">
+<h4>Question 1</h4>
+<p>Let <span class="math inline">\(n \in \{1,2,3,4,5,6,7, 8 ,9\}\)</span> and let <span class="math inline">\(p,q\)</span> be the following propositions concerning the integer n.</p>
+<p>Find the values of n for which each of the following compound statements is true.</p>
+<p>[(i)] <span class="math inline">\(\neg p\)</span> [(ii)] <span class="math inline">\(p \wedge q\)</span> [(iii)] <span class="math inline">\(\neg p \vee q\)</span> [(iv)] $ p q$.</p>
+</div>
+<div id="question-2-3" class="section level4">
+<h4>Question 2</h4>
+<p>Let p and q be propositions.</p>
+<p>[(i)] Construct the truth table for <span class="math inline">\(p \rightarrow q\)</span>. [(ii)] Use truth tables to prove that <span class="math inline">\(\neg q \rightarrow \neg p\)</span> = <span class="math inline">\(p \rightarrow q\)</span>.</p>
+<p>[(c)] Let <span class="math inline">\(p\)</span>, <span class="math inline">\(q\)</span> be the following propositions:</p>
+<p><a href="$n$%20is%20even">p</a> : this apple is red, <a href="$n%20%3C%205$.">q</a> : this apple is ripe.</p>
+<p>Express the following statements in words as simply as you can.</p>
+<p>[(i)] <span class="math inline">\(p \rightarrow q\)</span> \ [(ii)] <span class="math inline">\(p \wedge \neg q\)</span>.\</p>
+</div>
+<div id="question-3-1" class="section level4">
+<h4>Question 3</h4>
+<p>Let <span class="math inline">\(S = \{10,11,12,13,14,15,16,17,18,19\}\)</span> and let p, q be the following propositions concerning the integer <span class="math inline">\(n \in S\)</span>.</p>
+<ul>
+<li>p: n is a multiple of two. (i.,18e. <span class="math inline">\(\{10,12,14,16,18\}\)</span>)</li>
+<li>q: n is a multiple of three. {i.e. <span class="math inline">\(\{12,15,18\}\)</span>}</li>
+</ul>
+<p>For each of the following compound statements find the sets of values n for which it is true.</p>
+<ul>
+<li><p><span class="math inline">\(p \vee q\)</span> : (p or q : 10 12 14 15 16 18)</p></li>
+<li><p><span class="math inline">\(p \wedge q\)</span>: (p and q: 12 18)</p></li>
+<li><p>$ p q$: (not-p or q, but not both)</p></li>
+<li><p>$p $ not-p = <span class="math inline">\(\{ 11 13 15 17 19\}\)</span></p></li>
+<li><p><span class="math inline">\(\neg p \vee q\)</span> not-p or q <span class="math inline">\(\{11 12 13 15 17 18 19\}\)</span></p></li>
+<li><p><span class="math inline">\(\neg p \wedge q\)</span> not-p and q ${15} $</p></li>
+<li><p>$ p q$ = <span class="math inline">\(\{11, 12, 13, 17, 18, 19\}\)</span></p></li>
+</ul>
+</div>
+<div id="question-4-1" class="section level4">
+<h4>Question 4</h4>
+<p>Write the contrapositive of each of the following statements:</p>
+<ul>
+<li>If n= 12, then n is divisible by 3.</li>
+<li>If n=5, then n is positive.</li>
+<li>If the quadrilateral is square, then four sides are equal.</li>
+</ul>
+<p></p>
+<ul>
+<li>If n is not divisible by 3, then n is not equal to 12.</li>
+<li>If n is not positive, then n is not equal to 5.</li>
+<li>If the four sides are not equal, then the quadrilateral is not a square.</li>
+</ul>
+</div>
+</div>
+<div id="logic-networks-1" class="section level3">
+<h3>Logic Networks</h3>
+<div id="question-1-5" class="section level4">
+<h4>Question 1</h4>
+<p>Construct a logic network that accepts as input p and q, which may independently have the value 0 or 1, and gives as final input <span class="math inline">\(\neg(p \wedge \not q)\)</span> (i.e. <span class="math inline">\(\equiv p \rightarrow q\)</span>).\</p>
+<p></p>
+<ul>
+<li>AND</li>
+<li>OR</li>
+<li>NOT</li>
+</ul>
+</div>
+<div id="question-2-4" class="section level4">
+<h4>Question 2</h4>
+<p>Construct a logic network that accepts as input p and q, which may independently have the value 0 or 1, and gives as final input <span class="math inline">\((p \wedge q) \vee \neg q\)</span> (i.e. <span class="math inline">\(\equiv p \rightarrow q\)</span>).</p>
+<p> Label each of the gates appropriately and label the diagram with a symblic expression for the output after each gate.</p>
+</div>
+<div id="question-3-2" class="section level4">
+<h4>Question 3</h4>
+<p>Construct a logic network that accepts as input p and q, which may independently have the value 0 or 1, and gives as final input <span class="math inline">\(\neg(p \wedge \not q)\)</span> (i.e. <span class="math inline">\(\equiv p \rightarrow q\)</span>).\</p>
+</div>
+</div>
+</div>
+</div>
 <div id="functions" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Functions</h1>
-<div id="column-11" class="section level2 tabset">
+<div id="column-12" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="functions-1" class="section level3">
 <h3>Functions</h3>
@@ -3507,7 +3622,7 @@ Truth Tables
 </div>
 <div id="mathematical-functions" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Mathematical Functions</h1>
-<div id="column-12" class="section level2 tabset">
+<div id="column-13" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="logarithms" class="section level3">
 <h3>Logarithms</h3>
@@ -3538,7 +3653,7 @@ Truth Tables
 </div>
 <div id="invertible-functions-1" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Invertible Functions</h1>
-<div id="column-13" class="section level2 tabset">
+<div id="column-14" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="invertible-functions-2" class="section level3">
 <h3>Invertible Functions</h3>
@@ -3547,7 +3662,7 @@ Truth Tables
 </div>
 <div id="graph-theory" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Graph Theory</h1>
-<div id="column-14" class="section level2 tabset">
+<div id="column-15" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="graph-theory-1" class="section level3">
 <h3>Graph Theory</h3>
@@ -3598,6 +3713,18 @@ Truth Tables
 <li><p><a href="https://www.youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory </a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=/pms38inEdzg">Adjacency List: Using an adjacency list to construct a graph.</a></p></li>
 </ul>
+</div>
+</div>
+<div id="degree-sequences" class="section level3">
+<h3>Degree Sequences</h3>
+<div id="density-and-average-degree" class="section level4">
+<h4>Density and Average Degree</h4>
+<p>The density of a graph G = (V,E) measures how many edges are in set E compared to the maximum possible number of edges between vertices in set V. Density is calculated as follows:</p>
+<ul>
+<li>An undirected graph has no loops and can have at most |V| * (|V| − 1) / 2 edges, so the density of an undirected graph is 2 * |E| / (|V| * (|V| − 1)).</li>
+<li>A directed graph has no loops and can have at most |V| * (|V| − 1) edges, so the density of a directed graph is |E| / (|V| * (|V| − 1))</li>
+</ul>
+<p>The average degree of a graph G is another measure of how many edges are in set E compared to number of vertices in set V. Because each edge is incident to two vertices and counts in the degree of both vertices, the average degree of an undirected graph is 2*|E|/|V|.</p>
 </div>
 </div>
 <div id="types-of-graphs" class="section level3">
@@ -3675,7 +3802,7 @@ Euler’s Formula
 </div>
 <div id="isomorphic-graphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Isomorphic Graphs</h1>
-<div id="column-15" class="section level2 tabset">
+<div id="column-16" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="isomorphic-graphs-1" class="section level3">
 <h3>Isomorphic Graphs</h3>
@@ -3713,7 +3840,7 @@ Isomorphic Graphs: Videos
 </div>
 <div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Paths and Cycles in Graphs</h1>
-<div id="column-16" class="section level2 tabset">
+<div id="column-17" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="paths-and-cycles-in-graphs-1" class="section level3">
 <h3>Paths and Cycles in Graphs</h3>
@@ -3728,7 +3855,7 @@ Isomorphic Graphs: Videos
 </div>
 <div id="trees" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Trees</h1>
-<div id="column-17" class="section level2 tabset">
+<div id="column-18" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-to-trees" class="section level3">
 <h3>Introduction to Trees</h3>
@@ -3803,7 +3930,7 @@ Binary Search Trees
 </div>
 <div id="binary-search-trees" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Binary Search Trees</h1>
-<div id="column-18" class="section level2 tabset">
+<div id="column-19" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="binary-search-trees-1" class="section level3">
 <h3>Binary Search Trees</h3>
@@ -3836,7 +3963,7 @@ Binary Search Trees
 </div>
 <div id="relations-and-digraphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Relations and Digraphs</h1>
-<div id="column-19" class="section level2 tabset">
+<div id="column-20" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="digraphs-and-relations" class="section level4">
 <h4>Digraphs and Relations</h4>
@@ -3850,6 +3977,31 @@ Binary Search Trees
 <li><p>If <span class="math inline">\((a, b) \notin R\)</span>, we say that <span class="math inline">\(a\)</span> is not related to <span class="math inline">\(b\)</span> and write <span class="math inline">\(aRb\)</span>. CHECK</p></li>
 <li><p>If <span class="math inline">\(R\)</span> is a relation from a set <span class="math inline">\(A\)</span> to itself then we say that ``<span class="math inline">\(R\)</span> is a relation on <span class="math inline">\(A\)</span>&quot;.</p></li>
 </ul>
+</div>
+<div id="relations-1" class="section level3">
+<h3>Relations</h3>
+<p>Let R be an equivalence relation defined on a set S and let x 2 S. Then the equivalence class of x is the subset of S containing all elements of S which are related to x.</p>
+<p>We denote this by [x]. Thus <span class="math display">\[[x] = {y 2 S : yRx}\]</span>.</p>
+<div id="types-of-relations" class="section level4">
+<h4>Types of Relations</h4>
+Antisymmetric
+Symmetric
+Reflexive
+<p>Transitive</p>
+</div>
+<div id="theorem-1.3" class="section level4">
+<h4>Theorem 1.3</h4>
+Let R be an equivalence relation on a set S. Then:
+<p>Solution:</p>
+Since 0 does not divide 0, therefore R is not re?exive.
+2 divides 4 so 2 R 4. But 4 does not divide 2, so 4 R 2. Thus, R is not symmetric.
+<p>To see that R is transitive, let a, b, c be integers. Suppose that a R b and b R c. Thus, a divides b and b divides c so there exist integers k and l such that b = ak and c = bl. This gives c = bl = (ak)l = a(kl). Therefore, a divides c so a R c</p>
+<p><hline></p>
+</div>
+<div id="anti-symmetfric-relations" class="section level4">
+<h4>Anti-Symmetfric Relations</h4>
+<p>We say that a relation R on a set S is anti-symmetric if for all x, y 2 S such that xRy and yRx, we have x = y. Thus R is  if and only if the relationship digraph of R has no directed cycles of length two.</p>
+</div>
 </div>
 <div id="videos-4" class="section level3">
 <h3>Videos</h3>
@@ -3867,9 +4019,44 @@ Binary Search Trees
 </div>
 </div>
 </div>
+<div id="trees---worksheets" class="section level1" data-navmenu="Section 4">
+<h1 data-navmenu="Section 4">Trees - Worksheets</h1>
+<div id="column-21" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1-2" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="question-1-6" class="section level4">
+<h4>Question 1</h4>
+<p>[(a)] What properties must a graph satisfy in order for it to be a tree? [2 Marks] [(b)] Design a balanced binary search tree for an ordered list of 15 records. Label the records <span class="math inline">\(1,2, \ldots , 15\)</span> in your tree. [4 Marks]</p>
+<p>[(c)] A binary search tree is designed to store an ordered list of 50000 records, numbered <span class="math inline">\(1,2,3\ldots 50000\)</span> at its internal nodes.</p>
+<p>[(i)] Draw levels 0, 1 and 2 of this tree, showing which number record is stored at the root and at each of the nodes at level 1 and 2, making it clear which records are at each level. [(ii)] What is the maximum number of comparisons that would have to be made in order to locate an existing record from the list of 50000?</p>
+</div>
+</div>
+</div>
+</div>
+<div id="digraphs-and-relations---worksheets" class="section level1" data-navmenu="Section 4">
+<h1 data-navmenu="Section 4">Digraphs and Relations - Worksheets</h1>
+<div id="column-22" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1-3" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="question-1-7" class="section level4">
+<h4>Question 1</h4>
+<p>Given a flock of chickens, between any two chickens one of them is dominant. A relation, R, is defined between chicken x and chicken y as xRy if x is dominant over y. This gives what is known as a pecking order to the flock. Home Farm has 5 chickens: Amy, Beth, Carol, Daisy and Eve, with the following relations:</p>
+<ul>
+<li>Amy is dominant over Beth and Carol</li>
+<li>Beth is dominant over Eve and Carol</li>
+<li>Carol is dominant over Eve and Daisy</li>
+<li>Daisy is dominant over Eve, Amy and Beth</li>
+<li>Eve is dominant over Amy.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 <div id="sequences-and-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Sequences and Series</h1>
-<div id="column-20" class="section level2 tabset">
+<div id="column-23" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
@@ -3949,9 +4136,119 @@ Binary Search Trees
 </div>
 </div>
 </div>
+<div id="progressions" class="section level1" data-navmenu="Section 5">
+<h1 data-navmenu="Section 5">Progressions</h1>
+<div id="column-24" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="aritmetic-progressions" class="section level3">
+<h3>Aritmetic Progressions</h3>
+<p>An arithmetic progression (AP) or arithmetic sequence is a sequence of numbers such that the difference between the consecutive terms is constant. For instance, the sequence <span class="math inline">\(5, 7, 9, 11, 13, 15 \ldots\)</span> is an arithmetic progression with common difference of 2.</p>
+<p>If the initial term of an arithmetic progression is <span class="math inline">\(a_{1}\)</span> and the common difference of successive members is d, then the <span class="math inline">\(n-\)</span>th term of the sequence (<span class="math inline">\(a_{n}\)</span>) is given by: <span class="math display">\[ a_{n}=a_{1}+(n-1)d, \]</span> and in general <span class="math display">\[ a_{n}=a_{m}+(n-m)d.\]</span></p>
+A finite portion of an arithmetic progression is called a
+<p>and sometimes just called an arithmetic progression. The sum of a finite arithmetic progression is called an arithmetic series.</p>
+<p>The behavior of the arithmetic progression depends on the common difference d. If the common difference is:</p>
+Positive, the members (terms) will grow towards positive infinity.
+<p>Negative, the members (terms) will grow towards negative infinity.</p>
+<div id="summation-of-an-arithmetic-progression" class="section level4">
+<h4>Summation of an Arithmetic Progression</h4>
+<p>The sum of the members of a finite arithmetic progression is called an arithmetic series. For example, consider the sum: <span class="math display">\[2+5+8+11+14\]</span> This sum can be found quickly by taking the number n of terms being added (here 5), multiplying by the sum of the first and last number in the progression (here 2 + 14 = 16), and dividing by 2: <span class="math display">\[{\frac  {n(a_{1}+a_{n})}{2}}\]</span></p>
+<p>In the case above, this gives: <span class="math display">\[2+5+8+11+14={\frac  {5(2+14)}{2}}={\frac  {5\times 16}{2}}=40.\]</span> This formula works for any real numbers <span class="math inline">\(a_{1}\)</span> and <span class="math inline">\(a_{n}\)</span>. For example: <span class="math display">\[\left(-{\frac  {3}{2}}\right)+\left(-{\frac  {1}{2}}\right)+{\frac  {1}{2}}={\frac  {3\left(-{\frac  {3}{2}}+{\frac  {1}{2}}\right)}{2}}=-{\frac  {3}{2}}.\]</span></p>
+<ul>
+<li><h3 id="geometric-progression">Geometric Progression</h3>
+<p>A geometric progression, also known as a geometric sequence, is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the .</p></li>
+<li><p>For example, the sequence <span class="math inline">\(2, 6, 18, 54, \ldots\)</span> is a geometric progression with common ratio 3.</p></li>
+<li><p>Similarly <span class="math inline">\(10, 5, 2.5, 1.25, \ldots\)</span> is a geometric sequence with common ratio 1/2.</p></li>
+<li><p>Examples of a geometric sequence are powers <span class="math inline">\(r_k\)</span> of a fixed number r, such as 2k and 3k. The general form of a geometric sequence is <span class="math display">\[a,\ ar,\ ar^{2},\ ar^{3},\ ar^{4},\ \ldots \]</span> where <span class="math inline">\(r \neq 0\)</span> is the common ratio and <span class="math inline">\(a\)</span> is a , equal to the sequence’s start value.</p></li>
+</ul>
+</div>
+<div id="summations-of-geometric-progressions" class="section level4">
+<h4>Summations of Geometric Progressions</h4>
+<p>A summation of a geometric progression, a , is the sum of the numbers in a geometric progression. For example: <span class="math display">\[2+10+50+250=2+2\times 5+2\times 5^{2}+2\times 5^{3}.\,\]</span></p>
+<ul>
+<li>Letting <span class="math inline">\(a\)</span> be the first term (here 2), <span class="math inline">\(m\)</span> be the number of terms (here 4), and r be the constant that each term is multiplied by to get the next term (here 5), the sum is given by: <span class="math display">\[{\frac  {a(1-r^{m})}{1-r}}\]</span> In the example above, this gives: <span class="math display">\[2+10+50+250={\frac  {2(1-5^{4})}{1-5}}={\frac  {-1248}{-4}}=312.\]</span></li>
+</ul>
+<div style="page-break-after: always;"></div>
+A sequence is any succession of numbers.
+A general sequence is denoted by <span class="math display">\[ u_1, u_2, \ldots , u_n, \ldots \]</span> in which <span class="math inline">\(u_1\)</span> is the first term, <span class="math inline">\(u_2\)</span> is the second term and <span class="math inline">\(u_n\)</span> is the <span class="math inline">\(n\)</span>-th term in the sequence.
+If the sequence goes on forever it is called an , otherwise it is called a .
+<p>A sequence usually has a rule, which is a way to find the value of each term.</p>
+</div>
+</div>
+<div id="examples-of-sequences" class="section level3">
+<h3>Examples of Sequences</h3>
+<span class="math inline">\(\{1, 2, 3, 4 ,\ldots\}\)</span> is a very simple sequence (and it is an infinite sequence)
+<span class="math inline">\(\{20, 25, 30, 35, \ldots \}\)</span> is also an infinite sequence
+<p><span class="math inline">\(\{1, 3, 5, 7\}\)</span> is the sequence of the first 4 odd numbers (and is a finite sequence)</p>
+<div id="sequences-recursive-formulas" class="section level4">
+<h4>Sequences: Recursive Formulas</h4>
+Often the rule for evaluating the current term in the sequence depends on the values of one or more previous terms.
+In such cases, these rules are called .
+Recursive Rules also have initial values that allow the terms to be evaluated.
+<p>The rule defining the  sequence is a recursive formula.</p>
+</div>
+</div>
+<div id="fibonnacci-sequences" class="section level3">
+<h3>Fibonnacci Sequences</h3>
+<p><span class="math display">\[ u_n = u_{n-1} + u_{n-2} \qquad \mbox{ for } n \geq 3 ,\; u_1=0,\;u_2=1 \]</span></p>
+<p>The first few terms of the Fibonnaci Sequence looks like this: <span class="math display">\[ 1, 1, 2, 3, 5, 8, \ldots\]</span></p>
+</div>
+<div id="fibonnacci-numbers" class="section level3">
+<h3>Fibonnacci Numbers</h3>
+<p><span class="math display">\[ F_{n} = F_{n-1} + F_{n-2} \mbox{ For }\]</span></p>
+<p>{Fibonnacci Numbers}</p>
+<p><span class="math display">\[ F_{n} = F_{n-1} + F_{n-2} \mbox{ For }\]</span></p>
+<p>=</p>
+<div style="page-break-after: always;"></div>
+<div id="learning-outcomes" class="section level4">
+<h4>Learning Outcomes}</h4>
+
+</div>
+</div>
+<div id="sequences-and-series-2" class="section level3">
+<h3>Sequences and Series}</h3>
+In this chapter we’ll be taking a look at sequences and (infinite) series.
+Actually, this chapter will deal almost exclusively with series.
+However, we also need to understand some of the basics of sequences in order to properly deal with series.<br />
+
+<p>We will therefore, spend a little time on sequences as well.</p>
+Series is one of those topics that many students don’t find all that useful.
+To be honest, many students will never see series outside of their calculus class.
+<p>However, series do play an important role in the field of ordinary differential equations and without series large portions of the field of partial differential equations would not be possible.</p>
+<p>In other words, series is an important topic even if you won’t ever see any of the applications. Most of the applications are beyond the scope of most Calculus courses and tend to occur in classes that many students don’t take. So, as you go through this material keep in mind that these do have applications even if we won’t really be covering many of them in this class.</p>
+<p>Here is a list of topics in this section</p>
+</div>
+<div id="series-2" class="section level3">
+<h3>Series</h3>
+A series is the sum of the terms of a sequence. <span class="math display">\[ S_n = u_1 + u_2 + u_3+ \ldots +u_n\]</span>
+A series is usuall expressed in terms pf .
+<p>It is useful to remember the following, particularl in the context of proof by induction. <span class="math display">\[S_1 = u_1\]</span> <span class="math display">\[S_{n+1} = S_n + u_{n+1}\]</span></p>
+<ul>
+<li>: A series is the sum of a sequence. For a given sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span> the terms in the corresponding  <span class="math inline">\(s_n\)</span> are given by <span class="math display">\[\begin{align*}
+s_0&amp;=a_0
+s_1&amp;=a_0+a_1
+s_2&amp;=a_0+a_1+a_2
+s_3&amp;=a_0+a_1+a_2+a_3,\quad \text{etc}
+\end{align*}\]</span> The general term <span class="math inline">\(s_n\)</span>, which is the <span class="math inline">\(n^{th}\)</span> term in the series, is given by <span class="math display">\[\begin{equation*}
+s_n=a_0+a_1+a_2+\cdots+a_{n-1}+a_n
+\end{equation*}\]</span> Note that</li>
+</ul>
+Every series is itself another sequence. Therefore a series can have all the properties of sequences; boundedness, limits, etc.
+Every sequence <span class="math inline">\(a_n\)</span> has a corresponding series <span class="math inline">\(s_n\)</span>.
+<p>Every series <span class="math inline">\(s_n\)</span> has a corresponding sequence <span class="math inline">\(a_n=s_n-s_{n-1}\)</span>.</p>
+<ul>
+<li> Let <span class="math inline">\(a_n=n^2\)</span>, So that the terms in the sequence are <span class="math inline">\(0,1,4,9,16,25,\ldots\)</span> <span class="math display">\[\begin{align*}
+  s_0&amp;=0
+  s_1&amp;=0+1=1
+  s_2&amp;=0+1+4=5
+  s_3&amp;=0+1+4+9=14,\quad \text{etc}
+\end{align*}\]</span></li>
+</ul>
+</div>
+</div>
+</div>
 <div id="finite-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Finite Series</h1>
-<div id="column-21" class="section level2 tabset">
+<div id="column-25" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="finite-series-and-sigma-notation" class="section level3">
 <h3>Finite Series and Sigma Notation</h3>
@@ -3996,7 +4293,7 @@ Step 2
 <p><span class="math display">\[ \sum^{i=50}_{i=1} (i+1)  = 1275 + 50 = 1325 \]</span></p>
 <p><span class="math display">\[ \sum^{i=100}_{i=51} (i+1) = \sum^{i=100}_{i=1} (i+1)  - \sum^{i=50}_{i=1}(i+1)   \]</span></p>
 <p><span class="math display">\[ \sum^{i=100}_{i=51} (i+1)  = 5150 - 1325 =\boldsymbol{3825} \]</span></p>
-<div id="series-2" class="section level4">
+<div id="series-3" class="section level4">
 <h4>Series</h4>
 <ul>
 <li>Evaluating the Sum of a Series – <a href="http://youtube.com/watch?v=/NhUBAYcfY_A">HERE</a></li>
@@ -4021,7 +4318,7 @@ Step 2
 </div>
 <div id="telescoping-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Telescoping Series</h1>
-<div id="column-22" class="section level2 tabset">
+<div id="column-26" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="telescoping-series-1" class="section level3">
 <h3>Telescoping Series</h3>
@@ -4044,9 +4341,71 @@ Step 2
 </div>
 </div>
 </div>
+<div id="recurrence-relation" class="section level1" data-navmenu="Section 5">
+<h1 data-navmenu="Section 5">Recurrence Relation</h1>
+<div id="column-27" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="recurrence-relation-1" class="section level3">
+<h3>Recurrence Relation</h3>
+<div id="recurrence-relations" class="section level4">
+<h4>Recurrence Relations</h4>
+<p>In mathematics, a recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: each further term of the sequence is defined as a function of the preceding terms. The term difference equation sometimes (and for the purposes of this article) refers to a specific type of recurrence relation. However, “difference equation” is frequently used to refer to any recurrence relation.</p>
+<p>Let the sequence <span class="math inline">\(u_n\)</span> be defined by the recurrence relation: <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> \  for <span class="math inline">\(n=1,2,3,\ldots\)</span>. \ Initial Condition: <span class="math inline">\(u_1=1\)</span>.\ Calculate <span class="math inline">\(u_2\)</span>, <span class="math inline">\(u_3\)</span>, <span class="math inline">\(u_4\)</span> and <span class="math inline">\(u_5\)</span>, showing all your workings.</p>
+<p>Starting with <span class="math inline">\(n=1\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(1)+1} = u_{1} + 2\times 1, \]</span> <span class="math display">\[ u_{2} = 1 + 2, \]</span> <span class="math display">\[ u_{2} = 3. \]</span></p>
+<p>With <span class="math inline">\(n=2\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(2)+1} = u_{2} + 2\times 2, \]</span> <span class="math display">\[ u_{3} = 3 + 4, \]</span> <span class="math display">\[ u_{3} = 7. \]</span></p>
+<p>With <span class="math inline">\(n=3\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(3)+1} = u_{3} + 2\times 3, \]</span> <span class="math display">\[ u_{4} = 7 + 6, \]</span> <span class="math display">\[ u_{4} = 13. \]</span></p>
+<p>With <span class="math inline">\(n=4\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(4)+1} = u_{4} + 2\times 4, \]</span> <span class="math display">\[ u_{5} = 13 + 8, \]</span> <span class="math display">\[ u_{5} = 21. \]</span></p>
+<p>The first five elements of the sequence are as follows: <span class="math display">\[ \{1,3,7,13,21, \ldots\}
+\]</span></p>
+%———————————————————————————————-%
+<p>A recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given:</p>
+<p>each further term of the sequence is defined as a function of the preceding terms. The term difference equation sometimes refers to a specific type of recurrence relation.</p>
+<p>However, “difference equation” is frequently used to refer to any recurrence relation.</p>
+</div>
+<div id="worked-example" class="section level4">
+<h4>Worked Example</h4>
+<p>Recurrence Relations} </p>
+<ul>
+<li><p>Consider the sequence given by <span class="math display">\[ 1, 4, 7, 10, 13, \ldots\]</span></p></li>
+<li><p>State a recurrence relation which expresses the nth term, <span class="math inline">\(u_n\)</span> , in terms of the<span class="math inline">\((n - 1)\)</span>th term, <span class="math inline">\(u_{n-1}\)</span>,</p></li>
+<li><p>State a recurrence relation which expresses the nth term, <span class="math inline">\(u_n\)</span> , in terms of the first term <span class="math inline">\(u_1\)</span>.</p></li>
+<li><p><span class="math inline">\(u_1\)</span> = 1 , <span class="math inline">\(u_2\)</span> = 4, <span class="math inline">\(u_3\)</span> = 7 etc</p></li>
+<li><p>Difference in successive terms is 3.</p></li>
+<li><p>Therefore we can say <span class="math display">\[ u_n = u_{n-1} + 3 \]</span></p></li>
+<li><p>Difference between <span class="math inline">\(u_2\)</span> and <span class="math inline">\(u_1\)</span> is 3 (i.e. <span class="math inline">\(1 \times 3\)</span>).</p></li>
+<li><p>Difference between <span class="math inline">\(u_3\)</span> and <span class="math inline">\(u_1\)</span> is 6 (i.e. <span class="math inline">\(2 \times 3\)</span>)</p></li>
+<li><p>Difference between <span class="math inline">\(u_4\)</span> and <span class="math inline">\(u_1\)</span> is 9 (i.e. <span class="math inline">\(3 \times 3\)</span>)</p></li>
+<li><p>In general the difference between <span class="math inline">\(u_n\)</span> and <span class="math inline">\(u_1\)</span> is <span class="math inline">\((n-1)\times 3\)</span>. <span class="math display">\[ u_{n} = u_1 + 3 \times (n-1) \]</span> <span class="math display">\[ u_{n} = 1 + (3n-3) = 3n-2\]</span></p></li>
+<li><p>Equivalently <span class="math display">\[ u_{n+1} = u_1 + 3n = 3n+1\]</span></p></li>
+<li><p>Another sequence is defined by the recurrence relation <span class="math display">\[ u_n = u_{n-1} + 2n-1 \]</span> and <span class="math inline">\(u_1\)</span> = 1.</p></li>
+<li><p>Calculate <span class="math inline">\(u_2\)</span> , <span class="math inline">\(u_3\)</span> , <span class="math inline">\(u_4\)</span> and <span class="math inline">\(u_5\)</span> .</p></li>
+<li><p>(Answers 1,4,9,16,25)</p></li>
+</ul>
+<p><span class="math display">\[\begin{array}{|c|c|c|c|}
+n    &amp; u_{n-1} &amp; 2n-1 &amp; u_n \\ \hline
+2      &amp; 1         &amp;  3   &amp; u_2 = 4 \\ \hline
+3      &amp; 4         &amp;  5   &amp; u_3 = 9 \\ \hline
+4      &amp; 9         &amp;  7   &amp; u_4 = 16 \\ \hline
+5      &amp; 16        &amp;  9   &amp; u_5 = 25 \\ \hline
+\end{array}\]</span></p>
+</div>
+</div>
+<div id="recurrence-relations-proof-by-induction" class="section level3">
+<h3>Recurrence Relations : Proof by Induction</h3>
+A sequence is determined by the recurrence relation <span class="math inline">\(u_{n+1} = 3u_n+2\)</span> and initial term <span class="math inline">\(u_1 =2\)</span>.
+<p>Prove by induction the following statement, for all <span class="math inline">\(n \in \mathbb{Z^{+}}\)</span>. <span class="math display">\[ u_n=3^n-1\]</span></p>
+<p></p>
+<p>Demonstrate the expression is valid for <span class="math inline">\(n=1\)</span> ( i.e. <span class="math inline">\(u_1\)</span> = 2). <span class="math display">\[ u_n=3^n-1  \]</span> <span class="math display">\[ u_1=3^1-1 \]</span> <span class="math display">\[ u_1=3 -1 = 2 \]</span></p>
+<p></p>
+<p>Demonstrate the expression is valid for <span class="math inline">\(n=k\)</span> . <span class="math display">\[ u_k=3^k-1 \]</span></p>
+<p></p>
+<p>Demonstrate the expression is valid for <span class="math inline">\(n=k+1\)</span> . <span class="math display">\[ u_{k+1}=3^{k+1}-1 \]</span> <span class="math display">\[ u_{k+1}=3.3^{k}-1 \]</span> <span class="math display">\[ u_{k+1}=(1+2).3^{k}-1 \]</span> <span class="math display">\[ u_{k+1}=3^{k} + 2.3^{k}-1 \]</span></p>
+</div>
+</div>
+</div>
 <div id="proof-by-induction" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Proof By Induction</h1>
-<div id="column-23" class="section level2">
+<div id="column-28" class="section level2">
 <h2>Column</h2>
 <div id="proof-by-induction-1" class="section level3">
 <h3>Proof by Induction</h3>
@@ -4071,11 +4430,64 @@ Step 2
 </ul>
 </div>
 </div>
+<div id="infinite-series" class="section level3">
+<h3>Infinite Series</h3>
+<p>An infinite series is a series whose terms are summed indefinitely. For an infinite sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span>, the corresponding infinite series <span class="math inline">\(s_\infty\)</span> is written <span class="math display">\[
+  s_\infty=\sum_{n=0}^{\infty}a_n=a_0+a_1+a_2+a_3+a_4+a_5+\cdots
+\]</span> Formally, an infinite series can be expressed as the limit of the series as <span class="math inline">\(n\to \infty\)</span> <span class="math display">\[
+  s_\infty = \lim_{n \to \infty} s_n = \lim_{n \to \infty} \sum_{k=0}^n a_k 
+\]</span> For any particular series, this limit may or may not exist. If it does exist, then <span class="math inline">\(s_\infty\)</span> is defined and the infinite series is . If the limit does not exist then <span class="math inline">\(s_\infty\)</span> is not defined and the infinite series is .</p>
+<p>\ The infinite series <span class="math display">\[
+  s_\infty = 1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\frac{1}{32}+\cdots = 2
+\]</span> Letting <span class="math inline">\(a_n=\left(\frac{1}{2}\right)^n\)</span>, <span class="math inline">\(s_\infty\)</span> is the limit of the sequence <span class="math inline">\(s_n=\sum_{k=0}^{n} \left(\frac{1}{2}\right)^k\)</span>. Applying the formula for the sum of a geometric series gives <span class="math display">\[\begin{align*}
+  s_n = \sum_{k=0}^{n} \frac{1}{2^k} = \frac{1- \left( \frac{1}{2} \right)^{n+1} }{1-\frac{1}{2}} = 2 \left[ 1-\frac{1}{2^{n+1}} \right]
+\end{align*}\]</span> And so applying the definition of the infinite series gives. <span class="math display">\[
+  s_\infty=\lim_{n \to \infty} s_n = \lim_{n \to \infty} 2 \left[ 1- \frac{1}{2^{n+1}} \right]= 2 \left[ 1-0 \right] = 2
+\]</span>\ A  condition for the convergence of an infinite series is that the terms in the sequence <span class="math inline">\(a_n \to 0\)</span> as <span class="math inline">\(n \to \infty\)</span>. However, this condition is not  to ensure convergence.</p>
+<p>Consider the  <span class="math inline">\(a_n=1/n\)</span> and the corresponding infinite  <span class="math inline">\(\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}\)</span>. This series is divergent. To see this compare the following <span class="math inline">\(2\)</span> infinite series <span class="math display">\[\begin{align*}
+  &amp;1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\frac{1}{9}+\cdots+\frac{1}{16}+\frac{1}{17}\cdots\\
+  &gt;&amp;1+\frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{16}+\frac{1}{32}\cdots\\
+  = &amp; 1+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\cdots
+\end{align*}\]</span> The first series is the harmonic series and the terms in the second series are less than or equal to the corresponding terms in the harmonic series. However, the second series diverges as it is the sum of an infinite number of <span class="math inline">\(1/2\)</span> terms. So the harmonic series is always greater than a series which diverges, and so the harmonic series itself is divergent.</p>
+<p>So even though the terms <span class="math inline">\(a_n \to 0\)</span>, the addition of an infinite number of them can still cause a series to diverge as $n $. A better test for whether a series converges is needed.</p>
+</div>
+<div id="ratio-test" class="section level3">
+<h3>Ratio Test</h3>
+<p>To determine whether an infinite series is convergent, the ratio test can be applied. The test examines the ratio of successive terms in the sequence as <span class="math inline">\(n \to \infty\)</span>. If this ratio has a limit, the sequences behaves like a geometric sequence for large <span class="math inline">\(n\)</span>, and so if the ratio is less than <span class="math inline">\(1\)</span>, the series will be convergent.</p>
+Formally, given a sequence <span class="math inline">\(a_n\)</span> and the corresponding infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^\infty a_n\)</span>. Let <span class="math display">\[
+  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|
+\]</span> If this limit <span class="math inline">\(R\)</span> exists, then
+<p>\ Let <span class="math inline">\(a_n=\dfrac{1}{n!}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{1}{n!} = 1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}+\cdots\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{1}{(n+1)!}\)</span> <span class="math display">\[
+  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{1}{(n+1)!}\cdot \frac{n!}{1}\right|=\left| \frac{n!}{(n+1)!}\right|=\left| \frac{1}{n+1}\right|=\frac{1}{n+1}
+\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
+  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{1}{n+1}=0
+\]</span> So <span class="math inline">\(R=0\)</span> meaning that <span class="math inline">\(R&lt;1\)</span>, and therefore the infinite series $ _{n=0}^{} $ is convergent.</p>
+<p>\ Let <span class="math inline">\(a_n=\dfrac{2^n}{n^2}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{2^{n+1}}{(n+1)^2}\)</span> <span class="math display">\[
+  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{2^{n+1}}{(n+1)^2}\cdot \frac{n^2}{2^n}\right|=\left| \frac{2^{n+1}}{2^n}\cdot\frac{n^2}{(n+1)^2}\right|=2 \left(\frac{n}{n+1}\right)^2
+\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
+  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} 2 \left(\frac{n}{n+1}\right)^2=\lim_{n \to \infty} 2 \left(\frac{1}{1+\frac{1}{n}}\right)^2=2\left(\frac{1}{1+0}\right)^2=2
+\]</span> So <span class="math inline">\(R=2\)</span> meaning <span class="math inline">\(R&gt;1\)</span>, and therefore the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span> is divergent.</p>
+</div>
+<div id="functions-defined-by-infinite-series" class="section level3">
+<h3>Functions Defined by Infinite Series</h3>
+<p>Convergent infinite series are often used to define functions. The  <span class="math inline">\(y=e^x=\text{exp}(x)\)</span> is defined as <span class="math display">\[\begin{equation}
+\label{eq:exp_def_taylor}
+  \text{exp}(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!}=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\cdots
+\end{equation}\]</span> The ratio test can be used to show that this infinite series is convergent for all values of <span class="math inline">\(x\)</span>. Here, the sequence terms are <span class="math inline">\(a_n=\dfrac{x^n}{n!}\)</span>, so <span class="math inline">\(a_{n+1}=\dfrac{x^{n+1}}{(n+1)!}\)</span>, and <span class="math display">\[
+  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{x^{n+1}}{(n+1)!}\cdot \frac{n!}{x^n}\right|=\left| \frac{x^{n+1}}{x^n}\cdot\frac{n!}{(n+1)!}\right|=\left|x \frac{1}{n+1}\right| = \frac{|x|}{n+1}
+\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
+  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{|x|}{n+1}=0
+\]</span> So <span class="math inline">\(R&lt;1\)</span> and the series is convergent for all <span class="math inline">\(x\)</span>.</p>
+<p>The infinite series can be used to approximate <span class="math inline">\(e^x\)</span> to as many decimal places desired. To do this, use the sequence terms to evaluate the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{x^k}{k!}\)</span>. This is best done using a table similar to the one below.</p>
+For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three decimal places, the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{(0.3)^k}{k!}\)</span> must be computed until the desired accuracy is reached. %
+<p>\end{center} The series can be summed indefinitely but in practice some kind of stopping condition is needed. A heuristic stopping condition can be used; for example, we can stop when the terms <span class="math inline">\(a_n\)</span> become small enough, or when the digits of <span class="math inline">\(s_n\)</span> appear to have converged to enough decimal places. The first condition assumes that the terms <span class="math inline">\(a_n\)</span> never become large again, and the second condition may have problems if the terms <span class="math inline">\(a_n\)</span> alternate around <span class="math inline">\(0\)</span>. However, in practice, we can stop if the series appears to have converged after a few iterations.</p>
+<p>In this case, to <span class="math inline">\(3\)</span> decimal places <span class="math inline">\(e^{0.3} \cong 1.349\)</span>. A more accurate estimate would be <span class="math inline">\(e^{0.3}\cong 1.34985880757600310398\)</span>.</p>
+</div>
 </div>
 </div>
 <div id="convergence-testing" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Convergence Testing</h1>
-<div id="column-24" class="section level2 tabset">
+<div id="column-29" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="convergence-tests" class="section level3">
 <h3>Convergence Tests</h3>
@@ -4087,7 +4499,7 @@ Step 2
 <li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
 </ul>
 </div>
-<div id="ratio-test" class="section level3">
+<div id="ratio-test-1" class="section level3">
 <h3>Ratio Test</h3>
 <ul>
 <li>Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs">HERE</a></li>
@@ -4112,9 +4524,43 @@ Step 2
 </div>
 </div>
 </div>
+<div id="digraphs-and-relations---worksheets-1" class="section level1" data-navmenu="Section 5">
+<h1 data-navmenu="Section 5">Digraphs and Relations - Worksheets</h1>
+<div id="column-30" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1-4" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="question-1-8" class="section level4">
+<h4>Question 1</h4>
+<p></p>
+Let <span class="math inline">\(s_n = 1 + 3 + 5 + \ldots + (2n-1)\)</span> for <span class="math inline">\(n \in Z^{+}\)</span>.\ 
+<p>: Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sum\)</span> notation. <span class="math display">\[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n \in Z^{+}\]</span></p>
+<p>: Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sum\)</span> notation. <span class="math display">\[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n \in Z^{+}\]</span></p>
+<p>{</p>
+<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span> }</p>
+</div>
+<div id="question-2-5" class="section level4">
+<h4>Question 2</h4>
+<p>: Calculate <span class="math inline">\(s_1\)</span>, <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
+<p>{</p>
+<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span> }</p>
+</div>
+<div id="question-3-3" class="section level4">
+<h4>Question 3</h4>
+<p>: Calculate <span class="math inline">\(s_1\)</span>, <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
+<p>{</p>
+<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span> }</p>
+</div>
+<div id="question-4-2" class="section level4">
+<h4>Question 4</h4>
+<p>: Find a recurrence relation which expresses <span class="math inline">\(s_{n+1}\)</span> in terms of <span class="math inline">\(s_n\)</span>.</p>
+</div>
+</div>
+</div>
+</div>
 <div id="probability" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Probability</h1>
-<div id="column-25" class="section level2 tabset">
+<div id="column-31" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="basics-of-probability" class="section level3">
 <h3>Basics of Probability</h3>
@@ -4126,7 +4572,7 @@ Step 2
 </div>
 <div id="counting-problems" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Counting Problems</h1>
-<div id="column-26" class="section level2 tabset">
+<div id="column-32" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="counting-problems-1" class="section level3">
 <h3>Counting Problems</h3>
@@ -4167,9 +4613,24 @@ Combinations
 </div>
 <div id="permutations" class="section level3">
 <h3>Permutations</h3>
+<div id="permutation" class="section level4">
+<h4>Permutation</h4>
+Suppose we have a set of  items.
+From that set, we select  items.
+<p>The number of  lists of  items chosen from a set of  items is</p>
+<p><span class="math display">\[\frac{n!}{n-k!}\]</span></p>
+<p><span class="math display">\[ {n \choose r} = \frac{n!}{(n-r)! r!} \]</span></p>
+<p><span class="math display">\[ {6 \choose 3} = \frac{6!}{(6-3)! 3!} = \frac{6!}{3! \times 3!}\]</span></p>
+<p><span class="math display">\[ \frac{6!}{3! \times 3!} = \frac{6 \times 5 \times 4 \times 3!}{3! \times 3!} = \frac{120}{6} = 120\]</span> \end{itemize}</p>
 <ul>
-<li>A permutation of a set is, loosely speaking, an arrangement of its members into a sequence or linear order, or if the set is already ordered, a rearrangement of its elements.</li>
-<li>The word “permutation” also refers to the act or process of changing the linear order of an ordered set.</li>
+<li><p><span class="math inline">\({6 \choose 2} = 15\)</span></p></li>
+<li><p><span class="math inline">\({5 \choose 2} = 10\)</span><br />
+</p></li>
+<li><p><span class="math inline">\({4 \choose 0} = 1\)</span><br />
+</p></li>
+<li><p><span class="math inline">\({4 \choose 3} = 4\)</span></p></li>
+<li><p>A permutation of a set is, loosely speaking, an arrangement of its members into a sequence or linear order, or if the set is already ordered, a rearrangement of its elements.</p></li>
+<li><p>The word “permutation” also refers to the act or process of changing the linear order of an ordered set.</p></li>
 </ul>
 <h5>
 Videos
@@ -4184,9 +4645,10 @@ Videos
 </div>
 </div>
 </div>
+</div>
 <div id="matrices" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Matrices</h1>
-<div id="column-27" class="section level2 tabset">
+<div id="column-33" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-1" class="section level3">
 <h3>Introduction</h3>
@@ -4339,17 +4801,17 @@ a_{31} &amp; a_{32} \\
 </div>
 <div id="systems-of-linear-equations" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Systems of Linear Equations</h1>
-<div id="column-28" class="section level2 tabset">
+<div id="column-34" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 </div>
 </div>
 <div id="matrices---worksheets" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Matrices - Worksheets</h1>
-<div id="column-29" class="section level2 tabset">
+<div id="column-35" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="work-sheet-1-1" class="section level3">
+<div id="work-sheet-1-5" class="section level3">
 <h3>Work Sheet 1</h3>
-<div id="question-1-4" class="section level4">
+<div id="question-1-9" class="section level4">
 <h4>Question 1</h4>
 <p>Consider the following matrices  and  which are given as</p>
 <p><span class="math display">\[ A = \left(

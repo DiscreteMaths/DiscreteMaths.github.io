@@ -1,0 +1,144 @@
+Recurrence Relation {data-navmenu="Section 5"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+
+### Recurrence Relation
+
+#### Recurrence Relations 
+
+In mathematics, a recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: each further term of the sequence is defined as a function of the preceding terms.
+The term difference equation sometimes (and for the purposes of this article) refers to a specific type of recurrence relation. However, "difference equation" is frequently used to refer to any recurrence relation.
+
+
+
+
+Let the sequence $u_n$ be defined by the recurrence relation:
+\[ u_{n+1} = u_n + 2n, \]
+\\ \bigskip
+for $n=1,2,3,\ldots$. \\ \bigskip Initial Condition: $u_1=1$.\\ \bigskip Calculate $u_2$, $u_3$, $u_4$ and $u_5$, showing all your workings.
+
+Starting with $n=1$,
+\[ u_{n+1} = u_n + 2n, \]
+\[ u_{(1)+1} = u_{1} + 2\times 1, \]
+\[ u_{2} = 1 + 2, \]
+\[ u_{2} = 3. \]
+
+With $n=2$,
+\[ u_{n+1} = u_n + 2n, \]
+\[ u_{(2)+1} = u_{2} + 2\times 2, \]
+\[ u_{3} = 3 + 4, \]
+\[ u_{3} = 7. \]
+
+With $n=3$,
+\[ u_{n+1} = u_n + 2n, \]
+\[ u_{(3)+1} = u_{3} + 2\times 3, \]
+\[ u_{4} = 7 + 6, \]
+\[ u_{4} = 13. \]
+
+With $n=4$,
+\[ u_{n+1} = u_n + 2n, \]
+\[ u_{(4)+1} = u_{4} + 2\times 4, \]
+\[ u_{5} = 13 + 8, \]
+\[ u_{5} = 21. \]
+
+The first five elements of the sequence are as follows:
+\[ \{1,3,7,13,21, \ldots\}
+\]
+
+
+%----------------------------------------------------------------------------------------------%
+\section{Recurrence Relation}
+
+
+A recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: 
+
+each further term of the sequence is defined as a function of the preceding terms.
+The term difference equation sometimes refers to a specific type of recurrence relation. 
+
+However, "difference equation" is frequently used to refer to any recurrence relation.
+
+
+#### Worked Example 
+
+Recurrence Relations}
+\textit{CIS102 2004 Question 7 2 Marks}
+
+
+
+*  Consider the sequence given by \[ 1, 4, 7, 10, 13, \ldots\]
+*  State a recurrence relation which expresses the nth term, $u_n$
+, in terms of the$(n - 1)$th term, $u_{n-1}$, 
+*  State a recurrence relation which expresses the nth term, $u_n$
+, in terms of the first term $u_1$.
+
+
+
+*  $u_1$ = 1 , $u_2$ = 4, $u_3$ = 7 etc 
+*  Difference in successive terms is 3.
+*  Therefore we can say 
+\[ u_n = u_{n-1} + 3 \]
+
+
+
+*  Difference between $u_2$ and $u_1$ is 3 (i.e. $1 \times 3$).
+*  Difference between $u_3$ and $u_1$ is 6 (i.e. $2 \times 3$)
+*  Difference between $u_4$ and $u_1$ is 9 (i.e. $3 \times 3$)
+*  In general the difference between $u_n$ and $u_1$ is $(n-1)\times 3$.
+\[ u_{n} = u_1 + 3 \times (n-1) \]
+\[ u_{n} = 1 + (3n-3) = 3n-2\]
+*  Equivalently
+\[ u_{n+1} = u_1 + 3n = 3n+1\]
+
+
+
+*  Another sequence is defined by the recurrence relation 
+\[ u_n = u_{n-1} + 2n-1 \] and
+$u_1$ = 1.
+*  Calculate $u_2$ , $u_3$ , $u_4$  and $u_5$ .
+*  (Answers 1,4,9,16,25)
+
+
+\[\begin{array}{|c|c|c|c|}
+n    & u_{n-1} & 2n-1 & u_n \\ \hline
+2      & 1         &  3   & u_2 = 4 \\ \hline
+3      & 4         &  5   & u_3 = 9 \\ \hline
+4      & 9         &  7   & u_4 = 16 \\ \hline
+5      & 16        &  9   & u_5 = 25 \\ \hline
+\end{array}\]
+
+
+### Recurrence Relations : Proof by Induction
+
+
+
+\item A sequence is determined by the recurrence relation $u_{n+1} = 3u_n+2$ and initial term $u_1 =2$.
+\item Prove by induction the following statement, for all $n \in \mathbb{Z^{+}}$.
+\[ u_n=3^n-1\]
+
+
+\textbf{Step 1 : Base Step}
+
+\item Demonstrate the expression is valid for $n=1$ ( i.e. $u_1$ = 2).
+\[ u_n=3^n-1  \]
+\[ u_1=3^1-1 \]
+\[ u_1=3 -1 = 2 \]
+
+
+\textbf{Step 2 : Induction Hypothesis}
+
+\item Demonstrate the expression is valid for $n=k$ .
+\[ u_k=3^k-1 \]
+
+
+
+\textbf{Step 3 : Induction Step}
+
+\item Demonstrate the expression is valid for $n=k+1$ .
+\[ u_{k+1}=3^{k+1}-1 \]
+\[ u_{k+1}=3.3^{k}-1 \]
+\[ u_{k+1}=(1+2).3^{k}-1 \]
+\[ u_{k+1}=3^{k} + 2.3^{k}-1 \]
+

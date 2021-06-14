@@ -1,0 +1,27 @@
+
+Trees - Worksheets {data-navmenu="Section 4"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+
+
+### Work Sheet 1
+
+#### Question 1
+
+
+
+[(a)] What properties must a graph satisfy in order for it to be a tree? [2 Marks]
+[(b)] Design a balanced binary search tree for an ordered list of 15 records.
+Label the records $1,2, \ldots , 15$ in your tree. [4 Marks]
+
+[(c)] A binary search tree is designed to store an ordered list of 50000 records,
+numbered $1,2,3\ldots 50000$ at its internal nodes.
+
+[(i)] Draw levels 0, 1 and 2 of this tree, showing which number record is stored
+at the root and at each of the nodes at level 1 and 2, making it clear
+which records are at each level.
+[(ii)] What is the maximum number of comparisons that would have to be
+made in order to locate an existing record from the list of 50000? 

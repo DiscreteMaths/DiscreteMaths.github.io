@@ -1,0 +1,25 @@
+
+Digraphs and Relations - Worksheets {data-navmenu="Section 4"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+
+
+### Work Sheet 1
+
+#### Question 1
+
+
+Given a flock of chickens, between any two chickens one of them is
+dominant. A relation, R, is defined between chicken x and chicken y as xRy if x is
+dominant over y. This gives what is known as a pecking order to the flock. Home
+Farm has 5 chickens: Amy, Beth, Carol, Daisy and Eve, with the following relations:
+
+* Amy is dominant over Beth and Carol
+* Beth is dominant over Eve and Carol
+* Carol is dominant over Eve and Daisy
+* Daisy is dominant over Eve, Amy and Beth
+* Eve is dominant over Amy.
+

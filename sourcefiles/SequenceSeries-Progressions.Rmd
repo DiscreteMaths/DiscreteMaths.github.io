@@ -1,0 +1,269 @@
+Progressions {data-navmenu="Section 5"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+### Aritmetic Progressions
+
+An arithmetic progression (AP) or arithmetic sequence is a sequence of numbers such that the difference between the consecutive terms is constant. For instance, the sequence $5, 7, 9, 11, 13, 15 \ldots$ is an arithmetic progression with common difference of 2.
+
+
+
+
+If the initial term of an arithmetic progression is $a_{1}$ and the common difference of successive members is d, then the $n-$th term of the sequence ($a_{n}$) is given by:
+\[ a_{n}=a_{1}+(n-1)d, \] 
+and in general
+\[ a_{n}=a_{m}+(n-m)d.\]
+
+
+
+A finite portion of an arithmetic progression is called a \subsubsection{finite arithmetic progression} and sometimes just called an arithmetic progression. The sum of a finite arithmetic progression is called an arithmetic series.
+
+
+
+The behavior of the arithmetic progression depends on the common difference d. If the common difference is:
+
+\item Positive, the members (terms) will grow towards positive infinity.
+\item Negative, the members (terms) will grow towards negative infinity.
+
+
+
+
+#### Summation of an Arithmetic Progression
+The sum of the members of a finite arithmetic progression is called an arithmetic series. For example, consider the sum:
+\[2+5+8+11+14\]
+This sum can be found quickly by taking the number n of terms being added (here 5), multiplying by the sum of the first and last number in the progression (here 2 + 14 = 16), and dividing by 2:
+\[{\frac  {n(a_{1}+a_{n})}{2}}\]
+
+
+\medskip
+In the case above, this gives:
+\[2+5+8+11+14={\frac  {5(2+14)}{2}}={\frac  {5\times 16}{2}}=40.\]
+This formula works for any real numbers $a_{1}$ and $a_{n}$. For example:
+\[\left(-{\frac  {3}{2}}\right)+\left(-{\frac  {1}{2}}\right)+{\frac  {1}{2}}={\frac  {3\left(-{\frac  {3}{2}}+{\frac  {1}{2}}\right)}{2}}=-{\frac  {3}{2}}.\]
+
+-
+### Geometric Progression
+A geometric progression, also known as a geometric sequence, is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the \textit{\textbf{common ratio}}. 
+
+* For example, the sequence $2, 6, 18, 54, \ldots$ is a geometric progression with common ratio 3. 
+
+* Similarly $10, 5, 2.5, 1.25, \ldots$ is a geometric sequence with common ratio 1/2.
+
+
+
+
+
+
+* Examples of a geometric sequence are powers $r_k$ of a fixed number r, such as 2k and 3k. The general form of a geometric sequence is
+\[a,\ ar,\ ar^{2},\ ar^{3},\ ar^{4},\ \ldots \]
+where $r \neq 0$ is the common ratio and $a$ is a \textit{\textbf{scale factor}}, equal to the sequence's start value.
+
+
+#### Summations of Geometric Progressions
+A summation of a geometric progression, a \textit{\textbf{geometric series}}, is the sum of the numbers in a geometric progression. For example:
+\[2+10+50+250=2+2\times 5+2\times 5^{2}+2\times 5^{3}.\,\]
+
+-
+\medskip
+Letting $a$ be the first term (here 2), $m$ be the number of terms (here 4), and r be the constant that each term is multiplied by to get the next term (here 5), the sum is given by:
+\[{\frac  {a(1-r^{m})}{1-r}}\]
+In the example above, this gives:
+\[2+10+50+250={\frac  {2(1-5^{4})}{1-5}}={\frac  {-1248}{-4}}=312.\]
+
+\newpage
+
+
+
+
+
+
+
+\item A sequence is any succession of numbers. 
+\item A general sequence is denoted by
+\[ u_1, u_2, \ldots , u_n, \ldots \]
+in which $u_1$ is the first term, $u_2$ is the second term and $u_n$ is the $n$-th 
+term in the sequence.
+\item If the sequence goes on forever it is called an \textbf{infinite sequence},
+otherwise it is called a \textbf{finite sequence}.
+\item A sequence usually has a rule, which is a way to find the value of each term.
+
+
+### Examples of Sequences
+
+\item $\{1, 2, 3, 4 ,\ldots\}$ is a very simple sequence (and it is an infinite sequence)
+\item $\{20, 25, 30, 35, \ldots \}$ is also an infinite sequence
+\item $\{1, 3, 5, 7\}$ is the sequence of the first 4 odd numbers (and is a finite sequence)
+
+
+
+
+#### Sequences: Recursive Formulas
+
+\item Often the rule for evaluating the current term in the sequence depends on the values of one or more previous terms.
+\item In such cases, these rules are called \textbf{recursive formulas}.
+\item Recursive Rules also have initial values that allow the terms to be evaluated.
+\item The rule defining the \textit{Fibonacci} sequence is a recursive formula.
+
+
+
+### Fibonnacci Sequences
+
+
+
+\[ u_n = u_{n-1} + u_{n-2} \qquad \mbox{ for } n \geq 3 ,\; u_1=0,\;u_2=1 \]
+
+
+The first few terms of the Fibonnaci Sequence looks like this:
+\[ 1, 1, 2, 3, 5, 8, \ldots\]
+
+\bigskip
+
+### Fibonnacci Numbers
+
+\[ F_{n} = F_{n-1} + F_{n-2} \mbox{ For }\]
+
+
+
+{Fibonnacci Numbers}
+
+\[ F_{n} = F_{n-1} + F_{n-2} \mbox{ For }\]
+
+=
+
+\newpage
+
+
+#### Learning Outcomes}
+\begin{description}
+\item[3a] Sum arithmetic, geometric and telescoping series; 
+\item[3b] test series for convergence; 
+\item[3c] find the Maclaurin series of a function; 
+\item[3d] manipulate power series; 
+\item[3e] use l'Hopital's rule. 
+\item[3f] Integrate standard functions using substitution and parts; 
+\item[3g] Apply to calculation of areas and volumes. 
+\end{description}
+
+
+### Sequences and Series}
+
+
+
+\item In this chapter we’ll be taking a look at sequences and (infinite) series. 
+\item Actually, this chapter will deal almost exclusively with series. 
+\item However, we also need to understand some of the basics of sequences in order to properly deal with series.  
+\item We will therefore, spend a little time on sequences as well.
+
+
+
+
+\item  Series is one of those topics that many students don’t find all that useful. \item To be honest, many students will never see series outside of their calculus class. \item However, series do play an important role in the field of ordinary differential equations and without series large portions of the field of partial differential equations would not be possible.
+
+
+
+
+In other words, series is an important topic even if you won’t ever see any of the applications.  Most of the applications are beyond the scope of most Calculus courses and tend to occur in classes that many students don’t take.  So, as you go through this material keep in mind that these do have applications even if we won’t really be covering many of them in this class.
+ 
+
+
+
+Here is a list of topics in this section
+ 
+\begin{description}
+\item[Sequences ] We will start the chapter off with a brief discussion of sequences.  This section will focus on the basic terminology and convergence of sequences
+ 
+\item[More on Sequences]  Here we will take a quick look about monotonic and bounded sequences.
+ 
+\item[Series]  The Basics  In this section we will discuss some of the basics of infinite series.
+\end{description}
+
+
+
+\begin{description}
+\item[Series Convergence/Divergence]  Most of this chapter will be about the convergence/divergence of a series so we will give the basic ideas and definitions in this section.
+ 
+\item[Special Series]  We will look at the Geometric Series, Telescoping Series, and Harmonic Series in this section.
+ 
+\item[Integral Test]  Using the Integral Test to determine if a series converges or diverges.
+\end{description}
+
+\medskip
+
+\begin{description}
+\item[Comparison Test/Limit Comparison Test]  Using the Comparison Test and Limit Comparison Tests to determine if a series converges or diverges.
+ 
+\item[Alternating Series Test]  Using the Alternating Series Test to determine if a series converges or diverges.
+ 
+\item[Absolute Convergence]  A brief discussion on absolute convergence and how it differs from convergence.
+ 
+\item[Ratio Test]  Using the Ratio Test to determine if a series converges or diverges.
+\end{description}
+
+\medskip
+
+\begin{description}
+\item[Root Test]  Using the Root Test to determine if a series converges or diverges.
+ 
+\item[Strategy for Series]  A set of general guidelines to use when deciding which test to use.
+ 
+\item[Estimating the Value of a Series]  Here we will look at estimating the value of an infinite series.
+ 
+\item[Power Series]  An introduction to power series and some of the basic concepts.
+
+\end{description}
+
+
+
+\begin{description}
+\item[Power Series and Functions]  In this section we will start looking at how to find a power series representation of a function.
+ 
+\item[Taylor Series]  Here we will discuss how to find the Taylor/Maclaurin Series for a function.
+ 
+\item[Applications of Series]  In this section we will take a quick look at a couple of applications of series.
+ 
+\item[Binomial Series]  A brief look at binomial series.
+\end{description}
+
+### Series
+
+
+
+
+\item A series is the sum of the terms of a sequence. 
+\[ S_n = u_1 + u_2 + u_3+ \ldots +u_n\]
+\item A series is usuall expressed in terms pf \textbf{sigma notation}.
+\item It is useful to remember the following, particularl in the context of proof by induction.
+\[S_1 = u_1\]
+\[S_{n+1} = S_n + u_{n+1}\]
+
+
+
+
+
+* \textbf{Series}: A series is the sum of a sequence. For a given sequence $a_0,a_1,a_2,a_3,\ldots,a_n,\ldots$ the terms in the corresponding \emph{series} $s_n$ are given by
+\begin{align*}
+  s_0&=a_0
+  s_1&=a_0+a_1
+  s_2&=a_0+a_1+a_2
+  s_3&=a_0+a_1+a_2+a_3,\quad \text{etc}
+\end{align*}
+The general term $s_n$, which is the $n^{th}$ term in the series, is given by
+\begin{equation*}
+  s_n=a_0+a_1+a_2+\cdots+a_{n-1}+a_n
+\end{equation*}
+Note that
+
+\item Every series is itself another sequence. Therefore a series can have all the properties of sequences; boundedness, limits, etc.
+\item Every sequence $a_n$ has a corresponding series $s_n$.
+\item Every series $s_n$ has a corresponding sequence $a_n=s_n-s_{n-1}$.
+
+*  \textbf{Example}
+Let $a_n=n^2$, So that the terms in the sequence are $0,1,4,9,16,25,\ldots$
+\begin{align*}
+  s_0&=0
+  s_1&=0+1=1
+  s_2&=0+1+4=5
+  s_3&=0+1+4+9=14,\quad \text{etc}
+\end{align*}

@@ -74,6 +74,20 @@ Graphs are classified according to their complexity, the number of edges allowed
 * <a href="https://www.youtube.com/watch?v=/pms38inEdzg">Adjacency List: Using an adjacency list to construct a graph.</a>
 
 
+### Degree Sequences
+
+#### Density and Average Degree
+
+The density of a graph G = (V,E) measures how many edges are in set E compared to the maximum possible number of edges between vertices in set V. Density is calculated as follows:
+
+
+*  An undirected graph has no loops and can have at most |V| * (|V| − 1) / 2 edges, so the density of an undirected graph is 2 * |E| / (|V| * (|V| − 1)).
+*  A directed graph has no loops and can have at most |V| * (|V| − 1) edges, so the density of a directed graph is |E| / (|V| * (|V| − 1))
+
+The average degree of a graph G is another measure of how many edges are in set E compared to number of vertices in set V. Because each edge is incident to two vertices and counts in the degree of both vertices, the average degree of an undirected graph is 2*|E|/|V|.
+
+
+
 ### Types of Graphs 
 
 <h5>Directed Graphs</h5>

@@ -39,6 +39,29 @@ Column {.tabset}
 ||  Relative Difference |||
 
 
+
+#### Intersection
+
+
+*  Intersection of two sets describes the elements that are members of both the specified Sets
+
+*  The intersection is denoted $\mathcal{A\cap B}$ 
+\[ \mathcal{A\cap B} = \{2\}\]
+
+*  only one element is a member of both A and B.
+
+
+#### Set Difference
+
+
+*  The Set Difference of A with regard to B are list of elements of A not contained by B.
+
+*  The complements are denoted $\mathcal{A-B}$ and $\mathcal{B-A}$
+\[ \mathcal{A-B} = \{1,3,5,7\}, \]
+
+\[ \mathcal{B-A} = \{4,6,8\}, \]
+
+
 ### Set Specification
 
 
@@ -114,6 +137,50 @@ Sets can of course be elements of other sets; for example we can form the set $G
 
 
 
+### De Morgan's Laws
+
+\subsubsection{Set theory and Boolean algebra}
+In set theory and Boolean algebra, De Morgan's Laws are often stated as "Union and intersection interchange under complementation" which can be formally expressed as:
+
+\[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]
+\[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]
+where:
+\begin{itemize}
+\item $\overline{A}$ is the negation of A, the overline being written above the terms to be negated
+\item $\cap$ is the intersection operator (AND)
+\item $\cup$ is the union operator (OR)
+\end{itemize}
+
+<hline>
+
+In propositional logic and boolean algebra, \textbf{De Morgan's laws} are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
+
+The rules can be verbalized as:
+
+
+* The negation of a conjunction is the disjunction of the negations.
+* The negation of a disjunction is the conjunction of the negations.
+or informally as:
+
+\begin{center}
+\textbf{``not (A and B)" is the same as "(not A) or (not B)"
+}
+\end{center}
+
+and also,
+\begin{center}
+\textbf{``not (A or B)" is the same as "(not A) and (not B)"
+}
+\end{center}
+The rules can be expressed in formal language with two propositions P and Q as:
+\[ \neg(P\land Q)\iff(\neg P)\lor(\neg Q)\]
+\[\neg(P\lor Q)\iff(\neg P)\land(\neg Q)\]
+where:
+
+* $\neg$ is the negation operator (NOT)
+* $\wedge $ is the conjunction operator (AND)
+* $\vee$ is the disjunction operator (OR)
+* $\leftarrow \rightarrow$ is a metalogical symbol meaning "can be replaced in a logical proof with"
 
 
 

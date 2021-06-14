@@ -13,6 +13,8 @@ Column {.tabset}
 * $p \vee q $ One of the propositions is true, or both (Logical State : OR)
 * $p \otimes q$ Only one of the propositions is true (Logical State : exclusive OR (i.e XOR)
 
+
+
 ### Logic 
 
 Propositions, The negations of a proposition, Compound Statements, Truth tables
