@@ -119,17 +119,17 @@ n    & u_{n-1} & 2n-1 & u_n \\ \hline
 \[ u_n=3^n-1\]
 
 
-\textbf{Step 1 : Base Step}
+#### Step 1 : Base Step
 
-\item Demonstrate the expression is valid for $n=1$ ( i.e. $u_1$ = 2).
+Demonstrate the expression is valid for $n=1$ ( i.e. $u_1$ = 2).
 \[ u_n=3^n-1  \]
 \[ u_1=3^1-1 \]
 \[ u_1=3 -1 = 2 \]
 
 
-\textbf{Step 2 : Induction Hypothesis}
+#### Step 2 : Induction Hypothesis
 
-\item Demonstrate the expression is valid for $n=k$ .
+Demonstrate the expression is valid for $n=k$ .
 \[ u_k=3^k-1 \]
 
 
