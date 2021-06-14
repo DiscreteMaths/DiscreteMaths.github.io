@@ -28,6 +28,71 @@ Column{.tabset}
 
 Binary addition, binary subtraction, binary multiplication and binary division are the four types of arithmetic operations that occur in the binary arithmetic. 
 
+### Binary Addition}
+
+\textbf{Rules of Binary Addition}
+\begin{itemize}
+*  0 + 0 = 0
+*  0 + 1 = 1
+*  1 + 0 = 1
+*  1 + 1 = 0 \\ (and carry 1 to the next more significant bit)
+*  1 + 1 + 1 = 1 \\ (and carry 1 to the next more significant bit)
+
+Add the following pairs of binary numbers.
+\vspace{0.3cm}
+\begin{enumerate}
+*  $111_{(2)} + 1110_{(2)}$ 
+\vspace{0.3cm}
+*  $11010_{(2)} + 1100_{(2)}$
+\vspace{0.3cm}
+*  $10011_{(2)} + 111110_{(2)}$
+\end{enumerate}
+
+
+*  Align the numbers you wish to add from the right hand side.
+*  Start with the two numbers in the far right column, and work towards the left-hand side.
+
+*  (For ease of use, we add a zero to have the same number of digits
+)
+\end{itemize}
+
+\[ 0 1 1 1\]
+\[ 1 1 1 0\]
+
+
+\textbf{Question 1 : $111_{(2)} + 1110_{(2)}$}
+
+\[ 0 1 1 1\]
+\[ 1 1 1 0\]
+
+
+
+\textbf{Answer : $111_{(2)} + 1110_{(2)} = 10101_{(2)}	$}
+
+
+\textbf{Question 2 : $11010_{(2)} + 1100_{(2)}$}
+
+\[ 11010\]
+\[ 01100\]
+
+
+
+\textbf{Answer : $11010_{(2)} + 1100_{(2)} = 100110_{(2)}	$}
+
+
+\textbf{Question 3 : $10011_{(2)} + 111110_{(2)}$}
+
+\[ 010011\]
+\[ 111110\]
+
+
+
+
+\textbf{Answer : $10011_{(2)} + 111110_{(2)} = 1010001_{(2)}$}
+
+
+
+
 #### Tutorial Questions
 
 * <a href="https://youtube.com/watch?v=/qhdgu7LXLX8">Addition of Binary Numbers Example 1</a>

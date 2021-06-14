@@ -54,6 +54,7 @@ which the number of digits before and after the decimal point is set, called fix
 * In general, floating-point representations are slower and less accurate than fixed-point representations, but they can handle a larger range of numbers.
 
 
+
 Rational and Irrational Numbers {data-navmenu="Section 1"}
 ==============================================================
 

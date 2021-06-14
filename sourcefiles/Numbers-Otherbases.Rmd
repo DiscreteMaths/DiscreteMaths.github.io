@@ -1,0 +1,29 @@
+
+Other Number Bases {data-navmenu="Section 1"}
+==================================
+
+Column{.tabset}
+-------------------------------------------------
+
+### Octal Numbers
+
+<h5> Octal Numbers</h5>
+
+
+Using the method of repeated division, or otherwise, convert the 
+decimal number 4768 to base 8, showing all your workings.
+
+
+\begin{center}
+\begin{tabular}{|c||c|c|c||l c|}
+\hline
+4768	&	596	&	596	&	0	& \textit{$(0 \times 8)$}&	0	\\ \hline
+596	&	74.5	&	74	&	0.5	&$(0.5 \times 8)$&	4	\\ \hline
+74	&	9.25	&	9	&	0.25	&$(0.25 \times 8)$&	2	\\ \hline
+9	&	1.125	&	1	&	0.125	&$(0.125 \times 8)$&	1	\\ \hline
+1	&	0.125	&	0	&	0.125	&$(0.125 \times 8)$&	1	\\ \hline
+\end{tabular} 
+\end{center}
+
+\textbf{Answer :  11240}
+

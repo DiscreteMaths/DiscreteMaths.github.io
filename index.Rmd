@@ -85,6 +85,11 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 ```{r child="sourcefiles/Numbers-ConversionTable.Rmd"}
 ```
 
+```{r child="sourcefiles/Numbers-Otherbases.Rmd"}
+```
+
+```{r child="TutorialSheets/Numbers-Tutorial-1.Rmd"}
+```
 
 
 ```{r child="sourcefiles/Set-IntroductionToSet.Rmd"}
@@ -191,6 +196,11 @@ Column {.tabset}
 
 ```{r child="sourcefiles/Matrices-IntroductionToMatrices.Rmd"}
 ```
+
+
+```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}
+```
+
 
 
 

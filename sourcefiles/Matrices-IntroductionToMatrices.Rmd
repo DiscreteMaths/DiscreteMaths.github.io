@@ -36,6 +36,24 @@ An $m \times n$ (read ‘m by n’) matrix is an arrangement of numbers (or alge
 * The identity matrices In and their properties
 * Interpreting powers of the adiacency matrix of a graph/digraph
 
+### The Identity Matrix 
+
+The identity matrix or unit matrix of size n is the $n\times n$  square matrix with ones on the main diagonal and zeros elsewhere. It is denoted by $I_n$, or simply by I if the size is immaterial or can be trivially determined by the context. 
+
+\[
+I_{1}={\begin{bmatrix}1\end{bmatrix}},\ I_{2}={\begin{bmatrix}1&0\\0&1\end{bmatrix}},\ I_{3}={\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix}},\ \cdots ,\ I_{n}={\begin{bmatrix}1&0&\cdots &0\\0&1&\cdots &0\\\vdots &\vdots &\ddots &\vdots \\0&0&\cdots &1\end{bmatrix}}
+\]
+
+* When A is a square matrix (i.e. $n\times n$), it is a property of matrix multiplication that
+\[I_{N}A=AI_{n}=A.\,\]
+
+* When A is $m\times n$, it is a property of matrix multiplication that
+\[I_{m}A=AI_{n}=A.\,\]
+
+* The Identity matrix itself is invertible, being its own inverse.
+
+* The Identity matrix is symmetrix, which is to say, it is it's own tranpose.
+
 
 ### Adding and Substracting Matrices
 
@@ -92,6 +110,43 @@ $${\displaystyle {\begin{aligned}|A|={\begin{vmatrix}a&b\\c&d\end{vmatrix}}=ad-b
 Similarly, for a 3 × 3 matrix A, its determinant is
 
 $${\displaystyle {\begin{aligned}|A|={\begin{vmatrix}a&b&c\\d&e&f\\g&h&i\end{vmatrix}}&=a\,{\begin{vmatrix}e&f\\h&i\end{vmatrix}}-b\,{\begin{vmatrix}d&f\\g&i\end{vmatrix}}+c\,{\begin{vmatrix}d&e\\g&h\end{vmatrix}}\\[3pt]&=aei+bfg+cdh-ceg-bdi-afh.\end{aligned}}}$$
+
+#### Determinant of a $3 \times 3$ matrix
+\[ |A| = a_{11} \left|\begin{array}{cc}
+a_{22} & a_{23} \\
+a_{32} & a_{33} \\
+\end{array}  right| - a_{12} \left| \begin{array}{cc}
+a_{21} & a_{23} \\
+a_{31} & a_{33} \\
+\end{array} right| + a_{13} \left|\begin{array}{cc}
+a_{21} & a_{22} \\
+a_{31} & a_{32} \\
+\end{array}  right| \]
+
+
+
+### Reduced Row Echelon Form
+
+Specifically, a matrix is in row echelon form if
+
+* All nonzero rows (rows with at least one nonzero element) are above any rows of all zeroes (all zero rows, if any, belong at the bottom of the matrix).
+* The leading coefficient (the first nonzero number from the left, also called the pivot) of a nonzero row is always strictly to the right of the leading coefficient of the row above it.
+* All entries in a column below a leading entry are zeroes (implied by the first two criteria).[1]
+
+\[\left[ \begin{array}{ccccc}
+1 & a_0 & a_1 & a_2 & a_3 \\
+0 & 0 & 1 & a_4 & a_5 \\
+0 & 0 & 0 & 1 & a_6
+\end{array} \right]\]
+
+
+### Fundamental Theorem of Linear Algebra
+
+* The rank of a matrix is $n$.
+* The determinant of the matrix is not zero.
+* The matrix is invertible.
+* The rows are linearly independent
+* There exists a solution to a set of Linear equation based on the matrix
 
 
 ### Tutorials

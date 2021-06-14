@@ -5,13 +5,26 @@ body{
 }
 /* Headers */
 h1,h2,h3{
-  font-size: 24pt;
+  font-size: 28pt;
 }
 h4,h5,h6{
   font-size: 20pt;
   font-weight: bold;
 }
 
+div {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+}
+
+nav li {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+}
 
 .container {
   display: flex;
@@ -22,7 +35,7 @@ h4,h5,h6{
   width: 50%;
   height: 50%;
 
-  border-radius: 0px;
+  border-radius: 3px;
   background-color: hsl(0, 0%, 96%);
 }
 

@@ -1,0 +1,24 @@
+
+
+% \item The Fibonacci sequence $f_n$ is defined recursively by the rule
+%   \begin{equation*}
+%     \begin{cases}
+%       f_0&=0\\
+%       f_1&=1\\
+%       f_n&=a_{n-1}+a_{n-2}
+%     \end{cases}
+%   \end{equation*}
+
+%   \begin{enumerate}
+%   \item
+%     Write a program to evaluate the Fibonacci sequence and hence evaluate $f_{50}$.
+%   \item
+%     Let the sequence $g_n$ be defined as the ratio
+%     \begin{equation*}
+%       g_n = \frac{f_{n+1}}{f_n}
+%     \end{equation*}
+%     Write a program to evaluate the first $50$ terms of the sequence $g_n$.
+%   \item
+%     Assumming that the sequence $g_n$ has a limit $\phi$, find this limit.
+%   \end{enumerate}
+

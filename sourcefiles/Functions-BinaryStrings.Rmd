@@ -1,0 +1,82 @@
+### Binary Strings and Functions
+
+Let $S$ be the set of all 4 bit binary strings. 
+
+The function $f : S \rightarrow \mathbb{Z}$
+is defined by the rule:
+\[f(x) = \mbox{the number of zeros in x}\]
+for each binary string $x \in S$.\\
+Find:
+
+1. the number of elements in the domain
+2. $f(1000)$
+3. the set of pre-images of 1
+4. the range of $f$.
+
+
+
+#### Binary Strings and Functions
+
+
+\textbf{Part 1}: Find the number of all elements in the domain.\\
+
+
+In this question, the domain is $S$
+$S$ is the set of all 4 bit binary strings. 
+\begin{center}
+{
+
+1010 \; 1101 \; 0101\; ... \\
+0010 \; 1001 \; 1110\; ... \\
+}
+\end{center}
+There are $2^4$ 4-bit binary strings.
+\[ 2^4 = \boldsymbol{16}\]
+
+\frametitle{Binary Strings and Functions}
+
+
+\textbf{Part 2}: Find $f(1000)$
+
+\begin{itemize}
+Recall
+\[f(x) = \mbox{the number of zeros in x}\]
+How many zeros in the binary string 1000? 
+\[f(1000) =3\]
+\end{itemize}
+
+
+
+%-------------------------------------- %
+
+\frametitle{Binary Strings and Functions}
+
+
+\textbf{Part 3}: Find the set of pre-images of 1.
+
+\begin{itemize}
+Find all the 4-bit binary strings with only one zero.
+
+\[\{1110, \; 1101, \; 1011,\; 0111\; \}\] 
+
+\end{itemize}
+
+%-------------------------------------- %
+
+\frametitle{Binary Strings and Functions}
+
+
+\textbf{Part 4}: Find the range of $f$.
+
+\begin{itemize}
+What is minimum and maximum numbers of 0s in a 4-bit binary string
+There can be no 0s or as many as 4.
+$f(1111) = 0$ and $f(0000) = 4$
+The range of $f$ is therefore
+ 
+\[\{0,1,2,3,4\}\] 
+
+\end{itemize}
+
+%-------------------------------------- %
+\end{document}
