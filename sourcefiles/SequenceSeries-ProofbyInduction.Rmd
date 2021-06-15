@@ -2,8 +2,42 @@
 Proof By Induction {data-navmenu="Section 5"}
 =====================================
 
-Column
+Column {.tabset}
 ----------------------------------
+
+### Recurrence Relations : Proof by Induction
+
+
+* A sequence is determined by the recurrence relation $u_{n+1} = 3u_n+2$ and initial term $u_1 =2$.
+* Prove by induction the following statement, for all $n \in \mathbb{Z^{+}}$.
+\[ u_n=3^n-1\]
+
+
+#### Step 1 : Base Step
+
+Demonstrate the expression is valid for $n=1$ ( i.e. $u_1$ = 2).
+\[ u_n=3^n-1  \]
+\[ u_1=3^1-1 \]
+\[ u_1=3 -1 = 2 \]
+
+
+#### Step 2 : Induction Hypothesis
+
+Demonstrate the expression is valid for $n=k$ .
+\[ u_k=3^k-1 \]
+
+
+
+#### Step 3 : Induction Step
+
+Demonstrate the expression is valid for $n=k+1$ .
+
+\[ u_{k+1}=3^{k+1}-1 \]
+\[ u_{k+1}=3.3^{k}-1 \]
+\[ u_{k+1}=(1+2).3^{k}-1 \]
+\[ u_{k+1}=3^{k} + 2.3^{k}-1 \]
+
+
 
 ### Proof by Induction
 

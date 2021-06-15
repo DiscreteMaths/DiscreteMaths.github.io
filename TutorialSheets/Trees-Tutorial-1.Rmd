@@ -10,17 +10,19 @@ Column {.tabset}
 
 #### Question 1
 
-Let G be a graph. What two properties must G satisfy in order to be a tree?
+Let $G$ be a graph. What two properties must $G$ satisfy in order to be a tree?
 
 
 #### Question 2
 
 a. How many edges are in the spanning tree $T$ ?
+
 b. What is the sum of the degree sequence of $T$?
+
 c. Write down all the possible degree sequences for the spanning tree $T$.
 
 
-includegraphics[]{images/trees/edges_spinning_tree.jpg.png}
+(images/Graphs/edges_spinning_tree.jpg.png)
 
 #### Question 3 
 
@@ -49,23 +51,25 @@ c. What does it mean to say that a node of $v$ is an external node?
 
 #### Question 1
 
+a.  What properties must a graph satisfy in order for it to be a tree? 
 
+b.  Design a balanced binary search tree for an ordered list of 15 records.
+Label the records $1,2, \ldots , 15$ in your tree. 
 
-[(a)] What properties must a graph satisfy in order for it to be a tree? [2 Marks]
-[(b)] Design a balanced binary search tree for an ordered list of 15 records.
-Label the records $1,2, \ldots , 15$ in your tree. [4 Marks]
+#### Question 2
 
-[(c)] A binary search tree is designed to store an ordered list of 50000 records,
+A binary search tree is designed to store an ordered list of 50000 records,
 numbered $1,2,3\ldots 50000$ at its internal nodes.
 
-[(i)] Draw levels 0, 1 and 2 of this tree, showing which number record is stored
+a.  Draw levels 0, 1 and 2 of this tree, showing which number record is stored
 at the root and at each of the nodes at level 1 and 2, making it clear
 which records are at each level.
-[(ii)] What is the maximum number of comparisons that would have to be
+
+b.  What is the maximum number of comparisons that would have to be
 made in order to locate an existing record from the list of 50000? 
 
 
-#### Question 2
+#### Question 3
 Suppose a database, comprised of 30,000 internal nodes, is structured as a Binary Search Tree.
 
 a. What is the key (number) of the Root node?
@@ -81,10 +85,11 @@ e. How many nodes are the between the root (level 0) and level 7.
 
 f. What is the maximum number of searchs in this database?
 
-#### Question 3
+#### Question 4
 
 A binary search tree is designed to store an ordered list of 6000 records at its internal nodes.
 
 a.  Find which record is stored at the root (level 0) of the tree and at each
 of the nodes at level 1.
+
 b.   What is the height of the tree?

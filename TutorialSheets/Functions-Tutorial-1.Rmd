@@ -1,0 +1,115 @@
+
+Exercises: Functions {data-navmenu="Section 3"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+
+
+### Work Sheet 1
+
+
+
+#### Exercise 1
+
+http://www.analyzemath.com/college_algebra/problems_5.html
+Let X = {1, 2, 3, 4} and Y={A,B,C,D}. Determine whether each relation is a function, with X -> Y.
+
+
+(a) f = {(2, C), (1, D), (2, A), (3,B), (4, D)}
+
+No:  Two different ordered pairs (2, C) and (2, A) in f have the same number 2 as their first coordinate
+
+Let X = {1, 2, 3, 4}. Determine whether the following relation on X is a function.
+
+(b) g = {(3, A), (4, B), (1, C)}
+
+No The element 2 does not appear as the first coordinate in any ordered pair in g.
+
+#### Exercise 2
+
+Complete the following table for the functions 
+
+\item $g(x) = \mbox{log}_3x$,
+\item $h(x) =\sqrt[3]{x}$.
+ 
+\[
+\begin{array}{|c||c|c|c|c|c|c|}
+\hline $x$ &  \phantom{p}1\phantom{p}&  &  &  & 81 &  \\ 
+\hline \phantom{p} $g(x)$ \phantom{p}&  & \phantom{p}1\phantom{p} & \phantom{p}2\phantom{p} &  &  &  \phantom{p}5\phantom{p} \\ 
+\hline \phantom{p}$h(x)$ \phantom{p}&  &  &  &  3.00 & \phantom{p}\phantom{p}\phantom{p}  &  \\ 
+\hline 
+\end{array}
+\]
+
+Express your answers to 2 decimal places only.
+
+
+ 
+ 
+\[
+\begin{array}{|c||c|c|c|c|c|c|}
+\hline $x$ & 1	&	3	&	9	&	27	&	81	&	243	\\ \hline
+\phantom{p} $g(x)$ \phantom{p}&0	&	1	&	2	&	3	&	4	&	5	\\ \hline
+\phantom{p}$h(x)$ \phantom{p}&  1.00	&	1.44	&	2.08	&	3.00	&	4.33	&	6.24	\\ \hline
+\end{tabular} 
+\end{array}
+\]
+
+
+#### Exercise 3
+
+The function $f : \mathbb{Z} \rightarrow \mathbb{Z}$ is defined by the rule:
+\[f(x) = |x + 1| \]
+What is the range of this function?
+
+
+
+Is this function ``onto" ?
+
+
+
+Is this function ``one-to-one" ?
+
+
+
+Is this function invertible ?
+
+
+#### Exercise 4
+ 
+Compute the Logarithm of the following
+
+a. $\mbox{log}_2(8)$
+b. $\mbox{log}_2(\sqrt{128})$
+c. $\mbox{log}_2(64)$
+d. $\mbox{log}_5(125)$ +   $\mbox{log}_3(729)$
+e. $\mbox{log}_2(64/4)$
+
+
+#### Exercise 5
+
+Evaluate the following expression.
+\[ \mbox{Log}_4 64 + \mbox{Log}_5 625 + \mbox{Log}_9 3 \] 
+
+#### Exercise 6
+
+State the range and domain of the following function
+\[ F(x) = \lfloor x-1 \rfloor \]
+
+
+### Work Sheet 2
+
+Let $S$ be the set of all 4 bit binary strings. 
+
+The function $f : S \rightarrow \mathbb{Z}$
+is defined by the rule:
+\[f(x) = \mbox{the number of zeros in x}\]
+for each binary string $x \in S$.
+Find:
+
+a. the number of elements in the domain
+b. $f(1000)$
+c. the set of pre-images of 1
+d. the range of $f$.

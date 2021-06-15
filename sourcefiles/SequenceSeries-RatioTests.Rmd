@@ -1,3 +1,12 @@
+
+Ratio Test {data-navmenu="Section 5"}
+=====================================
+
+Column {.tabset}
+----------------------------------
+
+
+
 ### Infinite Series
 
 An infinite series is a series whose terms are summed indefinitely. For an infinite sequence $a_0,a_1,a_2,a_3,\ldots,a_n,\ldots$, the corresponding infinite series $s_\infty$ is written
@@ -26,11 +35,13 @@ And so applying the definition of the infinite series gives.
 A \emph{necessary} condition for the convergence of an infinite series is that the terms in the sequence $a_n \to 0$ as $n \to \infty$. However, this condition is not \emph{sufficient} to ensure convergence.
 
 Consider the \emph{harmonic sequence} $a_n=1/n$ and the corresponding infinite \emph{harmonic series} $\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}$. This series is divergent. To see this compare the following $2$ infinite series
-\begin{align*}
+\[\begin{align*}
   &1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\frac{1}{9}+\cdots+\frac{1}{16}+\frac{1}{17}\cdots\\
   >&1+\frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{16}+\frac{1}{32}\cdots\\
   = & 1+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\cdots
 \end{align*}
+\]
+
 The first series is the harmonic series and the terms in the second series are less than or equal to the corresponding terms in the harmonic series. However, the second series diverges as it is the sum of an infinite number of $1/2$ terms. So the harmonic series is always greater than a series which diverges, and so the harmonic series itself is divergent.
 
 So even though the terms $a_n \to 0$, the addition of an infinite number of them can still cause a series to diverge as $n \to \infty $. A better test for whether a series converges is needed.

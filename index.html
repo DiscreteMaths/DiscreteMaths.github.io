@@ -3758,13 +3758,12 @@ p : this apple is red,
 <li><a href="https://www.youtube.com/watch?v=/IXs5CTQnBU4">Floor Functions Exercise HD </a></li>
 </ul>
 </div>
-<div id="invertible-functions" class="section level3">
-<h3>Invertible Functions</h3>
-<p>Necessary Conditions for Invertibility of a Function</p>
-<ul>
-<li>The function must be one-to-one</li>
-<li>The fucntion must be onto.</li>
-</ul>
+<div id="cartesian-product" class="section level3">
+<h3>Cartesian Product</h3>
+<p><span class="math inline">\(X \times Y\)</span></p>
+<p><span class="math inline">\(X = \{1,2,3\}\)</span></p>
+<p><span class="math inline">\(Y = \{a,b,c\}\)</span></p>
+<p><span class="math inline">\(X \times Y = \{ (1,a) , (1,b) , (1,c) , (2,a), (2,b) ,(2,c), (3,a),(3,b),(3,c) \}\)</span> <span class="math inline">\(Y \times X = \{ (a,1) , (a,2) , (a,3) , (b,1), (b,2) ,(b,3), (c,1),(c,2),(c,3) \}\)</span></p>
 </div>
 </div>
 </div>
@@ -3774,15 +3773,98 @@ p : this apple is red,
 <h2 class="tabset">Column</h2>
 <div id="logarithms" class="section level3">
 <h3>Logarithms</h3>
+<p>% <a href="http://www.purplemath.com/modules/logs2.htm" class="uri">http://www.purplemath.com/modules/logs2.htm</a></p>
+<p>The Relationship: “log_b(x) = y” means the same thing as “b y = x”. Logarithms are really exponents (powers); they’re just written differently.</p>
+<ul>
+<li><p>logb(b) = 1, for any base b, because b1 = b.</p></li>
+<li><p>logb(1) = 0, for any base b, because b0 = 1.</p></li>
+<li><p>logb(a) is undefined if a is negative.</p></li>
+<li><p>logb(0) is undefined for any base b.</p></li>
+<li><p>logb(bn) = n, for any base b.</p></li>
+<li><p><span class="math inline">\(a^x = y\)</span> <span class="math inline">\(log_a(y) = x\)</span></p></li>
+<li><p><span class="math inline">\(e^x = y\)</span> <span class="math inline">\(ln(y)=x\)</span></p></li>
+<li><p><span class="math inline">\(log_a(x\times y) = log_a(x) + log_a(y)\)</span></p></li>
+<li><p><span class="math inline">\(log_a(\frac{x}{y}) = log_a(x) - log_a(y)\)</span></p></li>
+<li><p><span class="math inline">\(log_a(\frac{1}{x}) = - log_a(x)\)</span></p></li>
+<li><p><span class="math inline">\(log_a(a) = 1\)</span></p></li>
+<li><p><span class="math inline">\(log_a(1) = 0\)</span></p></li>
+</ul>
+<div id="expressing-logarithms" class="section level4">
+<h4>Expressing Logarithms</h4>
+<p>Convert <span class="math inline">\(6^3 = 216\)</span> to the equivalent logarithmic expression.</p>
+<p>To convert, the base (that is, the 6)remains the same, but the 3 and the 216 switch sides. This gives me:</p>
+<p><span class="math display">\[log_6(216) = 3   \]</span></p>
+<p>Convert <span class="math inline">\(log_4(1024) = 5\)</span> to the equivalent exponential expression.</p>
+<p>To convert, the base (that is, the 4) remains the same, but the 1024 and the 5 switch sides. This gives me:</p>
+<p><span class="math display">\[4^5 = 1024\]</span></p>
+</div>
 </div>
 <div id="rules-of-logarithms" class="section level3">
 <h3>Rules of Logarithms</h3>
+<div id="laws-of-logarithms" class="section level4">
+<h4>Laws of Logarithms</h4>
+<ul>
+<li>Law 1 : Multiplcation of Logarithms <span class="math display">\[ Log(a) \times Log(b) = Log(a+b) \]</span></li>
+<li>Law 2 : Division of Logarithms <span class="math display">\[ \frac{Log(a)}{Log(b)} = Log(a-b) \]</span></li>
+<li>Law 3 : Powers of Logarithms <span class="math display">\[ Log(a^b) = b \times Log(a) \]</span></li>
+</ul>
+</div>
+<div id="laws-for-logarithms" class="section level4">
+<h4>Laws for Logarithms</h4>
+<p>The following laws are very useful for working with logarithms.</p>
+<ul>
+<li><span class="math inline">\(\mbox{log}_b(X)\)</span> + <span class="math inline">\(\mbox{log}_b(Y)\)</span> = <span class="math inline">\(\mbox{log}_b(X\times Y)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_b(X)\)</span> - <span class="math inline">\(\mbox{log}_b(Y)\)</span> = <span class="math inline">\(\mbox{log}_b(X / Y)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_b(X^Y)\)</span>= <span class="math inline">\(Y \mbox{log}_b(X)\)</span></li>
+</ul>
+</div>
+<div id="using-the-laws" class="section level4">
+<h4>Using the Laws</h4>
+<ol style="list-style-type: decimal">
+<li><p>Multiplication inside the log can be turned into addition outside the log, and vice versa. <span class="math display">\[\mbox{log}_b(mn) = \mbox{log}_b(m) + \mbox{log}_b(n)\]</span></p></li>
+<li><p>Division inside the log can be turned into subtraction outside the log, and vice versa. <span class="math display">\[\mbox{log}_b(m/n) = \mbox{log}_b(m) – \mbox{log}_b(n)\]</span></p></li>
+<li><p>An exponent on everything inside a log can be moved out front as a multiplier, and vice versa. <span class="math display">\[mbox{log}_b(m^n) = n \times \mbox{log}_b(m)\]</span></p></li>
+</ol>
+</div>
+</div>
+<div id="change-of-base" class="section level3">
+<h3>Change of Base</h3>
+<p><span class="math display">\[ Log_b(x) = \frac{1}{Log_x(b)}  \]</span></p>
+<p><span class="math display">\[ Log_b(x) = \frac{Log_a(b)}{Log_a(b)}  \]</span></p>
+<div id="worked-example" class="section level4">
+<h4>Worked Example</h4>
+<p><span class="math display">\[ log_3(x) + 3 log_x(3) = 4  \]</span></p>
+<p><span class="math display">\[ \left(log_3(x)\right)^2 + 3  = 4 log_3(x)  \]</span></p>
+<p><span class="math display">\[ log_3(x) + 3 log_x(3) = 4  \]</span></p>
+<p><span class="math display">\[ \left(log_3(x)\right)^2 - 4 log_3(x) + 3  = 0  \]</span></p>
+</div>
 </div>
 <div id="exponents" class="section level3">
 <h3>Exponents</h3>
+<p><span class="math display">\[ e^a \times e^b = e^{a+b}\]</span></p>
+<p><span class="math display">\[ (e^a )^b = e^{ab}\]</span></p>
 </div>
 <div id="absolute-value-sign-functions" class="section level3">
 <h3>Absolute Value &amp; Sign Functions</h3>
+</div>
+<div id="special-mathematical-functions" class="section level3">
+<h3>Special Mathematical Functions</h3>
+<div id="mathematical-operators" class="section level4">
+<h4>Mathematical Operators</h4>
+<ul>
+<li>Root Functions (i.e. the Square Root function)</li>
+<li>The Floor and Ceiling functions</li>
+<li>The Absolute Value functions</li>
+</ul>
+</div>
+<div id="notation" class="section level4">
+<h4>Notation</h4>
+<ul>
+<li>Absolute Value Function <span class="math inline">\(| x |\)</span></li>
+<li>Ceiling Function <span class="math inline">\(\lceil x \rceil\)</span></li>
+<li>Floor Function $x $</li>
+</ul>
+</div>
 <div id="absolute-value-function" class="section level4">
 <h4>Absolute Value Function</h4>
 <ul>
@@ -3799,18 +3881,135 @@ p : this apple is red,
 </div>
 </div>
 </div>
-<div id="invertible-functions-1" class="section level1" data-navmenu="Section 3">
+<div id="invertible-functions" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Invertible Functions</h1>
 <div id="column-15" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="invertible-functions-2" class="section level3">
+<div id="invertible-functions-1" class="section level3">
 <h3>Invertible Functions</h3>
+<p>Necessary Conditions for Invertibility of a Function</p>
+<ul>
+<li><p>The function must be one-to-one</p></li>
+<li><p>The fucntion must be onto.</p></li>
+<li><p>A function is <strong><em>onto</em></strong> if is range is equal to its codomain.</p></li>
+<li><p>A function is <strong><em>one-to-one</em></strong> if no two distinct elements of the domain have the same image.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="big-o-notation" class="section level1" data-navmenu="Section 3">
+<h1 data-navmenu="Section 3">Big <span class="math inline">\(O\)</span> notation</h1>
+<div id="column-16" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="big-o-notation-1" class="section level3">
+<h3>Big <span class="math inline">\(O\)</span> notation</h3>
+<p>The upper bound of the complexity of an algorithm.</p>
+<p>% <a href="http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o" class="uri">http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o</a> % <a href="http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html" class="uri">http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html</a></p>
+<p>Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.</p>
+</div>
+<div id="big-o-notation---examples" class="section level3">
+<h3>Big O notation - Examples</h3>
+<p>Here are some common orders of growth along with descriptions and examples where possible.</p>
+<div id="o1" class="section level4">
+<h4>O(1)</h4>
+<p>O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.</p>
+</div>
+<div id="on" class="section level4">
+<h4>O(N)</h4>
+<p><span class="math inline">\(O(N)\)</span> describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. The example below also demonstrates how Big O favours the worst-case performance scenario; a matching string could be found during any iteration of the for loop and the function would return early, but Big O notation will always assume the upper limit where the algorithm will perform the maximum number of iterations.</p>
+</div>
+<div id="on2" class="section level4">
+<h4><span class="math inline">\(O(N^2)\)</span></h4>
+<p><span class="math inline">\(O(N^2)\)</span> represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. Deeper nested iterations will result in <span class="math inline">\(O(N^3)\)</span>, <span class="math inline">\(O(N^4)\)</span> etc.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="exercises-functions" class="section level1" data-navmenu="Section 3">
+<h1 data-navmenu="Section 3">Exercises: Functions</h1>
+<div id="column-17" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1-2" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="exercise-1" class="section level4">
+<h4>Exercise 1</h4>
+<p><a href="http://www.analyzemath.com/college_algebra/problems_5.html" class="uri">http://www.analyzemath.com/college_algebra/problems_5.html</a> Let X = {1, 2, 3, 4} and Y={A,B,C,D}. Determine whether each relation is a function, with X -&gt; Y.</p>
+<ol style="list-style-type: lower-alpha">
+<li>f = {(2, C), (1, D), (2, A), (3,B), (4, D)}</li>
+</ol>
+<p>No: Two different ordered pairs (2, C) and (2, A) in f have the same number 2 as their first coordinate</p>
+<p>Let X = {1, 2, 3, 4}. Determine whether the following relation on X is a function.</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>g = {(3, A), (4, B), (1, C)}</li>
+</ol>
+<p>No The element 2 does not appear as the first coordinate in any ordered pair in g.</p>
+</div>
+<div id="exercise-2" class="section level4">
+<h4>Exercise 2</h4>
+<p>Complete the following table for the functions</p>
+<span class="math inline">\(g(x) = \mbox{log}_3x\)</span>,
+<p><span class="math inline">\(h(x) =\sqrt[3]{x}\)</span>.</p>
+<p><span class="math display">\[
+\begin{array}{|c||c|c|c|c|c|c|}
+\hline $x$ &amp;  \phantom{p}1\phantom{p}&amp;  &amp;  &amp;  &amp; 81 &amp;  \\ 
+\hline \phantom{p} $g(x)$ \phantom{p}&amp;  &amp; \phantom{p}1\phantom{p} &amp; \phantom{p}2\phantom{p} &amp;  &amp;  &amp;  \phantom{p}5\phantom{p} \\ 
+\hline \phantom{p}$h(x)$ \phantom{p}&amp;  &amp;  &amp;  &amp;  3.00 &amp; \phantom{p}\phantom{p}\phantom{p}  &amp;  \\ 
+\hline 
+\end{array}
+\]</span></p>
+<p>Express your answers to 2 decimal places only.</p>
+<p><span class="math display">\[
+\begin{array}{|c||c|c|c|c|c|c|}
+\hline $x$ &amp; 1  &amp;   3   &amp;   9   &amp;   27  &amp;   81  &amp;   243 \\ \hline
+\phantom{p} $g(x)$ \phantom{p}&amp;0    &amp;   1   &amp;   2   &amp;   3   &amp;   4   &amp;   5   \\ \hline
+\phantom{p}$h(x)$ \phantom{p}&amp;  1.00    &amp;   1.44    &amp;   2.08    &amp;   3.00    &amp;   4.33    &amp;   6.24    \\ \hline
+\end{tabular} 
+\end{array}
+\]</span></p>
+</div>
+<div id="exercise-3" class="section level4">
+<h4>Exercise 3</h4>
+<p>The function <span class="math inline">\(f : \mathbb{Z} \rightarrow \mathbb{Z}\)</span> is defined by the rule: <span class="math display">\[f(x) = |x + 1| \]</span> What is the range of this function?</p>
+<p>Is this function ``onto&quot; ?</p>
+<p>Is this function ``one-to-one&quot; ?</p>
+<p>Is this function invertible ?</p>
+</div>
+<div id="exercise-4" class="section level4">
+<h4>Exercise 4</h4>
+<p>Compute the Logarithm of the following</p>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(\mbox{log}_2(8)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_2(\sqrt{128})\)</span></li>
+<li><span class="math inline">\(\mbox{log}_2(64)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_5(125)\)</span> + <span class="math inline">\(\mbox{log}_3(729)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_2(64/4)\)</span></li>
+</ol>
+</div>
+<div id="exercise-5" class="section level4">
+<h4>Exercise 5</h4>
+<p>Evaluate the following expression. <span class="math display">\[ \mbox{Log}_4 64 + \mbox{Log}_5 625 + \mbox{Log}_9 3 \]</span></p>
+</div>
+<div id="exercise-6" class="section level4">
+<h4>Exercise 6</h4>
+<p>State the range and domain of the following function <span class="math display">\[ F(x) = \lfloor x-1 \rfloor \]</span></p>
+</div>
+</div>
+<div id="work-sheet-2" class="section level3">
+<h3>Work Sheet 2</h3>
+<p>Let <span class="math inline">\(S\)</span> be the set of all 4 bit binary strings.</p>
+<p>The function <span class="math inline">\(f : S \rightarrow \mathbb{Z}\)</span> is defined by the rule: <span class="math display">\[f(x) = \mbox{the number of zeros in x}\]</span> for each binary string <span class="math inline">\(x \in S\)</span>. Find:</p>
+<ol style="list-style-type: lower-alpha">
+<li>the number of elements in the domain</li>
+<li><span class="math inline">\(f(1000)\)</span></li>
+<li>the set of pre-images of 1</li>
+<li>the range of <span class="math inline">\(f\)</span>.</li>
+</ol>
 </div>
 </div>
 </div>
 <div id="graph-theory" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Graph Theory</h1>
-<div id="column-16" class="section level2 tabset">
+<div id="column-18" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="graph-theory-1" class="section level3">
 <h3>Graph Theory</h3>
@@ -3950,7 +4149,7 @@ Euler’s Formula
 </div>
 <div id="isomorphic-graphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Isomorphic Graphs</h1>
-<div id="column-17" class="section level2 tabset">
+<div id="column-19" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="isomorphic-graphs-1" class="section level3">
 <h3>Isomorphic Graphs</h3>
@@ -3988,7 +4187,7 @@ Isomorphic Graphs: Videos
 </div>
 <div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Paths and Cycles in Graphs</h1>
-<div id="column-18" class="section level2 tabset">
+<div id="column-20" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="paths-and-cycles-in-graphs-1" class="section level3">
 <h3>Paths and Cycles in Graphs</h3>
@@ -4003,7 +4202,7 @@ Isomorphic Graphs: Videos
 </div>
 <div id="trees" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Trees</h1>
-<div id="column-19" class="section level2 tabset">
+<div id="column-21" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-to-trees" class="section level3">
 <h3>Introduction to Trees</h3>
@@ -4078,7 +4277,7 @@ Binary Search Trees
 </div>
 <div id="binary-search-trees" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Binary Search Trees</h1>
-<div id="column-20" class="section level2 tabset">
+<div id="column-22" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="binary-search-trees-1" class="section level3">
 <h3>Binary Search Trees</h3>
@@ -4111,7 +4310,7 @@ Binary Search Trees
 </div>
 <div id="relations-and-digraphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Relations and Digraphs</h1>
-<div id="column-21" class="section level2 tabset">
+<div id="column-23" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="digraphs-and-relations" class="section level4">
 <h4>Digraphs and Relations</h4>
@@ -4169,9 +4368,9 @@ Since 0 does not divide 0, therefore R is not re?exive.
 </div>
 <div id="graph-theory---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Graph Theory - Worksheets</h1>
-<div id="column-22" class="section level2 tabset">
+<div id="column-24" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="work-sheet-1-2" class="section level3">
+<div id="work-sheet-1-3" class="section level3">
 <h3>Work Sheet 1</h3>
 <div id="question-1-7" class="section level4">
 <h4>Question 1</h4>
@@ -4215,22 +4414,22 @@ Since 0 does not divide 0, therefore R is not re?exive.
 </div>
 <div id="trees---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Trees - Worksheets</h1>
-<div id="column-23" class="section level2 tabset">
+<div id="column-25" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="worksheets-1-1" class="section level3">
 <h3>Worksheets 1</h3>
 <div id="question-1-8" class="section level4">
 <h4>Question 1</h4>
-<p>Let G be a graph. What two properties must G satisfy in order to be a tree?</p>
+<p>Let <span class="math inline">\(G\)</span> be a graph. What two properties must <span class="math inline">\(G\)</span> satisfy in order to be a tree?</p>
 </div>
 <div id="question-2-7" class="section level4">
 <h4>Question 2</h4>
 <ol style="list-style-type: lower-alpha">
-<li>How many edges are in the spanning tree <span class="math inline">\(T\)</span> ?</li>
-<li>What is the sum of the degree sequence of <span class="math inline">\(T\)</span>?</li>
-<li>Write down all the possible degree sequences for the spanning tree <span class="math inline">\(T\)</span>.</li>
+<li><p>How many edges are in the spanning tree <span class="math inline">\(T\)</span> ?</p></li>
+<li><p>What is the sum of the degree sequence of <span class="math inline">\(T\)</span>?</p></li>
+<li><p>Write down all the possible degree sequences for the spanning tree <span class="math inline">\(T\)</span>.</p></li>
 </ol>
-<p>includegraphics[]{images/trees/edges_spinning_tree.jpg.png}</p>
+<p>(images/Graphs/edges_spinning_tree.jpg.png)</p>
 </div>
 <div id="question-3-5" class="section level4">
 <h4>Question 3</h4>
@@ -4250,16 +4449,25 @@ Since 0 does not divide 0, therefore R is not re?exive.
 </ol>
 </div>
 </div>
-<div id="work-sheet-2" class="section level3">
+<div id="work-sheet-2-1" class="section level3">
 <h3>Work Sheet 2</h3>
 <div id="question-1-9" class="section level4">
 <h4>Question 1</h4>
-<p>[(a)] What properties must a graph satisfy in order for it to be a tree? [2 Marks] [(b)] Design a balanced binary search tree for an ordered list of 15 records. Label the records <span class="math inline">\(1,2, \ldots , 15\)</span> in your tree. [4 Marks]</p>
-<p>[(c)] A binary search tree is designed to store an ordered list of 50000 records, numbered <span class="math inline">\(1,2,3\ldots 50000\)</span> at its internal nodes.</p>
-<p>[(i)] Draw levels 0, 1 and 2 of this tree, showing which number record is stored at the root and at each of the nodes at level 1 and 2, making it clear which records are at each level. [(ii)] What is the maximum number of comparisons that would have to be made in order to locate an existing record from the list of 50000?</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>What properties must a graph satisfy in order for it to be a tree?</p></li>
+<li><p>Design a balanced binary search tree for an ordered list of 15 records. Label the records <span class="math inline">\(1,2, \ldots , 15\)</span> in your tree.</p></li>
+</ol>
 </div>
 <div id="question-2-8" class="section level4">
 <h4>Question 2</h4>
+<p>A binary search tree is designed to store an ordered list of 50000 records, numbered <span class="math inline">\(1,2,3\ldots 50000\)</span> at its internal nodes.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Draw levels 0, 1 and 2 of this tree, showing which number record is stored at the root and at each of the nodes at level 1 and 2, making it clear which records are at each level.</p></li>
+<li><p>What is the maximum number of comparisons that would have to be made in order to locate an existing record from the list of 50000?</p></li>
+</ol>
+</div>
+<div id="question-3-6" class="section level4">
+<h4>Question 3</h4>
 <p>Suppose a database, comprised of 30,000 internal nodes, is structured as a Binary Search Tree.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>What is the key (number) of the Root node?</p></li>
@@ -4270,12 +4478,12 @@ Since 0 does not divide 0, therefore R is not re?exive.
 <li><p>What is the maximum number of searchs in this database?</p></li>
 </ol>
 </div>
-<div id="question-3-6" class="section level4">
-<h4>Question 3</h4>
+<div id="question-4-6" class="section level4">
+<h4>Question 4</h4>
 <p>A binary search tree is designed to store an ordered list of 6000 records at its internal nodes.</p>
 <ol style="list-style-type: lower-alpha">
-<li>Find which record is stored at the root (level 0) of the tree and at each of the nodes at level 1.</li>
-<li>What is the height of the tree?</li>
+<li><p>Find which record is stored at the root (level 0) of the tree and at each of the nodes at level 1.</p></li>
+<li><p>What is the height of the tree?</p></li>
 </ol>
 </div>
 </div>
@@ -4283,9 +4491,9 @@ Since 0 does not divide 0, therefore R is not re?exive.
 </div>
 <div id="digraphs-and-relations---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Digraphs and Relations - Worksheets</h1>
-<div id="column-24" class="section level2 tabset">
+<div id="column-26" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="work-sheet-1-3" class="section level3">
+<div id="work-sheet-1-4" class="section level3">
 <h3>Work Sheet 1</h3>
 <div id="question-1-10" class="section level4">
 <h4>Question 1</h4>
@@ -4352,7 +4560,7 @@ Daisy is dominant over Eve, Amy and Beth
 <p>% Solution: % % % a. Since 0 does not divide 0, therefore R is not reflexive. % b. 2 divides 4 so 2 R 4. But 4 does not divide 2, so 4 R 2. Thus, R is not symmetric. % c. To see that R is transitive, let a, b, c be integers. Suppose that a R b and b R c. Thus, % a divides b and b divides c so there exist integers k and l such that b = ak and c = bl. This % gives c = bl = (ak)l = a(kl). Therefore, a divides c so a R c %</p>
 <p><hline></p>
 </div>
-<div id="question-4-6" class="section level4">
+<div id="question-4-7" class="section level4">
 <h4>Question 4</h4>
 <p>Given the set <span class="math inline">\(S =\{g,e,r,b,i,l\}\)</span>.</p>
 <ol style="list-style-type: lower-alpha">
@@ -4366,7 +4574,7 @@ Daisy is dominant over Eve, Amy and Beth
 </div>
 <div id="sequences-and-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Sequences and Series</h1>
-<div id="column-25" class="section level2 tabset">
+<div id="column-27" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
@@ -4448,8 +4656,39 @@ Daisy is dominant over Eve, Amy and Beth
 </div>
 <div id="progressions" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Progressions</h1>
-<div id="column-26" class="section level2 tabset">
+<div id="column-28" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
+<div id="introduction-1" class="section level3">
+<h3>Introduction</h3>
+<p>In this chapter we’ll be taking a look at sequences and (infinite) series. Actually, this chapter will deal almost exclusively with series. However, we also need to understand some of the basics of sequences in order to properly deal with series.<br />
+We will therefore, spend a little time on sequences as well.</p>
+<p>Series is one of those topics that many students don’t find all that useful. To be honest, many students will never see series outside of their calculus class. However, series do play an important role in the field of ordinary differential equations and without series large portions of the field of partial differential equations would not be possible.</p>
+<div id="learning-outcomes" class="section level4">
+<h4>Learning Outcomes</h4>
+<p>[a] Sum arithmetic, geometric and telescoping series; [b] test series for convergence; [c] find the Maclaurin series of a function; [d] manipulate power series; [e] use l’Hopital’s rule. [f] Integrate standard functions using substitution and parts; [g] Apply to calculation of areas and volumes.</p>
+<p>In other words, series is an important topic even if you won’t ever see any of the applications. Most of the applications are beyond the scope of most Calculus courses and tend to occur in classes that many students don’t take. So, as you go through this material keep in mind that these do have applications even if we won’t really be covering many of them in this class.</p>
+<p>Here is a list of topics in this section</p>
+\begin{description}
+<p>We will start the chapter off with a brief discussion of sequences. This section will focus on the basic terminology and convergence of sequences</p>
+<p>Here we will take a quick look about monotonic and bounded sequences.</p>
+<p>The Basics In this section we will discuss some of the basics of infinite series.</p>
+<p>Most of this chapter will be about the convergence/divergence of a series so we will give the basic ideas and definitions in this section.</p>
+<p>We will look at the Geometric Series, Telescoping Series, and Harmonic Series in this section.</p>
+<p>Using the Integral Test to determine if a series converges or diverges.</p>
+<p>Using the Comparison Test and Limit Comparison Tests to determine if a series converges or diverges.</p>
+<p>Using the Alternating Series Test to determine if a series converges or diverges.</p>
+<p>A brief discussion on absolute convergence and how it differs from convergence.</p>
+<p>Using the Ratio Test to determine if a series converges or diverges.</p>
+<p>Using the Root Test to determine if a series converges or diverges.</p>
+<p>A set of general guidelines to use when deciding which test to use.</p>
+<p>Here we will look at estimating the value of an infinite series.</p>
+<p>An introduction to power series and some of the basic concepts.</p>
+<p>In this section we will start looking at how to find a power series representation of a function.</p>
+<p>Here we will discuss how to find the Taylor/Maclaurin Series for a function.</p>
+<p>In this section we will take a quick look at a couple of applications of series.</p>
+<p>A brief look at binomial series.</p>
+</div>
+</div>
 <div id="aritmetic-progressions" class="section level3">
 <h3>Aritmetic Progressions</h3>
 <p>An arithmetic progression (AP) or arithmetic sequence is a sequence of numbers such that the difference between the consecutive terms is constant. For instance, the sequence <span class="math inline">\(5, 7, 9, 11, 13, 15 \ldots\)</span> is an arithmetic progression with common difference of 2.</p>
@@ -4463,32 +4702,35 @@ Positive, the members (terms) will grow towards positive infinity.
 <h4>Summation of an Arithmetic Progression</h4>
 <p>The sum of the members of a finite arithmetic progression is called an arithmetic series. For example, consider the sum: <span class="math display">\[2+5+8+11+14\]</span> This sum can be found quickly by taking the number n of terms being added (here 5), multiplying by the sum of the first and last number in the progression (here 2 + 14 = 16), and dividing by 2: <span class="math display">\[{\frac  {n(a_{1}+a_{n})}{2}}\]</span></p>
 <p>In the case above, this gives: <span class="math display">\[2+5+8+11+14={\frac  {5(2+14)}{2}}={\frac  {5\times 16}{2}}=40.\]</span> This formula works for any real numbers <span class="math inline">\(a_{1}\)</span> and <span class="math inline">\(a_{n}\)</span>. For example: <span class="math display">\[\left(-{\frac  {3}{2}}\right)+\left(-{\frac  {1}{2}}\right)+{\frac  {1}{2}}={\frac  {3\left(-{\frac  {3}{2}}+{\frac  {1}{2}}\right)}{2}}=-{\frac  {3}{2}}.\]</span></p>
+</div>
+</div>
+<div id="geometric-progression" class="section level3">
+<h3>Geometric Progression</h3>
+<p>A geometric progression, also known as a geometric sequence, is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the .</p>
 <ul>
-<li><h3 id="geometric-progression">Geometric Progression</h3>
-<p>A geometric progression, also known as a geometric sequence, is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the .</p></li>
 <li><p>For example, the sequence <span class="math inline">\(2, 6, 18, 54, \ldots\)</span> is a geometric progression with common ratio 3.</p></li>
 <li><p>Similarly <span class="math inline">\(10, 5, 2.5, 1.25, \ldots\)</span> is a geometric sequence with common ratio 1/2.</p></li>
 <li><p>Examples of a geometric sequence are powers <span class="math inline">\(r_k\)</span> of a fixed number r, such as 2k and 3k. The general form of a geometric sequence is <span class="math display">\[a,\ ar,\ ar^{2},\ ar^{3},\ ar^{4},\ \ldots \]</span> where <span class="math inline">\(r \neq 0\)</span> is the common ratio and <span class="math inline">\(a\)</span> is a , equal to the sequence’s start value.</p></li>
 </ul>
-</div>
 <div id="summations-of-geometric-progressions" class="section level4">
 <h4>Summations of Geometric Progressions</h4>
 <p>A summation of a geometric progression, a , is the sum of the numbers in a geometric progression. For example: <span class="math display">\[2+10+50+250=2+2\times 5+2\times 5^{2}+2\times 5^{3}.\,\]</span></p>
+<p>Letting <span class="math inline">\(a\)</span> be the first term (here 2), <span class="math inline">\(m\)</span> be the number of terms (here 4), and r be the constant that each term is multiplied by to get the next term (here 5), the sum is given by: <span class="math display">\[{\frac  {a(1-r^{m})}{1-r}}\]</span> In the example above, this gives: <span class="math display">\[2+10+50+250={\frac  {2(1-5^{4})}{1-5}}={\frac  {-1248}{-4}}=312.\]</span></p>
 <ul>
-<li>Letting <span class="math inline">\(a\)</span> be the first term (here 2), <span class="math inline">\(m\)</span> be the number of terms (here 4), and r be the constant that each term is multiplied by to get the next term (here 5), the sum is given by: <span class="math display">\[{\frac  {a(1-r^{m})}{1-r}}\]</span> In the example above, this gives: <span class="math display">\[2+10+50+250={\frac  {2(1-5^{4})}{1-5}}={\frac  {-1248}{-4}}=312.\]</span></li>
+<li>A sequence is any succession of numbers.</li>
+<li>A general sequence is denoted by <span class="math display">\[ u_1, u_2, \ldots , u_n, \ldots \]</span> in which <span class="math inline">\(u_1\)</span> is the first term, <span class="math inline">\(u_2\)</span> is the second term and <span class="math inline">\(u_n\)</span> is the <span class="math inline">\(n\)</span>-th term in the sequence.</li>
+<li>If the sequence goes on forever it is called an , otherwise it is called a .</li>
+<li>A sequence usually has a rule, which is a way to find the value of each term.</li>
 </ul>
-<div style="page-break-after: always;"></div>
-A sequence is any succession of numbers.
-A general sequence is denoted by <span class="math display">\[ u_1, u_2, \ldots , u_n, \ldots \]</span> in which <span class="math inline">\(u_1\)</span> is the first term, <span class="math inline">\(u_2\)</span> is the second term and <span class="math inline">\(u_n\)</span> is the <span class="math inline">\(n\)</span>-th term in the sequence.
-If the sequence goes on forever it is called an , otherwise it is called a .
-<p>A sequence usually has a rule, which is a way to find the value of each term.</p>
 </div>
+<div id="examples-of-sequences" class="section level4">
+<h4>Examples of Sequences</h4>
+<ul>
+<li><span class="math inline">\(\{1, 2, 3, 4 ,\ldots\}\)</span> is a very simple sequence (and it is an infinite sequence)</li>
+<li><span class="math inline">\(\{20, 25, 30, 35, \ldots \}\)</span> is also an infinite sequence</li>
+<li><span class="math inline">\(\{1, 3, 5, 7\}\)</span> is the sequence of the first 4 odd numbers (and is a finite sequence)</li>
+</ul>
 </div>
-<div id="examples-of-sequences" class="section level3">
-<h3>Examples of Sequences</h3>
-<span class="math inline">\(\{1, 2, 3, 4 ,\ldots\}\)</span> is a very simple sequence (and it is an infinite sequence)
-<span class="math inline">\(\{20, 25, 30, 35, \ldots \}\)</span> is also an infinite sequence
-<p><span class="math inline">\(\{1, 3, 5, 7\}\)</span> is the sequence of the first 4 odd numbers (and is a finite sequence)</p>
 <div id="sequences-recursive-formulas" class="section level4">
 <h4>Sequences: Recursive Formulas</h4>
 Often the rule for evaluating the current term in the sequence depends on the values of one or more previous terms.
@@ -4501,64 +4743,48 @@ Recursive Rules also have initial values that allow the terms to be evaluated.
 <h3>Fibonnacci Sequences</h3>
 <p><span class="math display">\[ u_n = u_{n-1} + u_{n-2} \qquad \mbox{ for } n \geq 3 ,\; u_1=0,\;u_2=1 \]</span></p>
 <p>The first few terms of the Fibonnaci Sequence looks like this: <span class="math display">\[ 1, 1, 2, 3, 5, 8, \ldots\]</span></p>
-</div>
-<div id="fibonnacci-numbers" class="section level3">
-<h3>Fibonnacci Numbers</h3>
+<div id="fibonnacci-numbers" class="section level4">
+<h4>Fibonnacci Numbers</h4>
 <p><span class="math display">\[ F_{n} = F_{n-1} + F_{n-2} \mbox{ For }\]</span></p>
-<p>{Fibonnacci Numbers}</p>
 <p><span class="math display">\[ F_{n} = F_{n-1} + F_{n-2} \mbox{ For }\]</span></p>
-<p>=</p>
-<div style="page-break-after: always;"></div>
-<div id="learning-outcomes" class="section level4">
-<h4>Learning Outcomes}</h4>
-
 </div>
-</div>
-<div id="sequences-and-series-2" class="section level3">
-<h3>Sequences and Series}</h3>
-In this chapter we’ll be taking a look at sequences and (infinite) series.
-Actually, this chapter will deal almost exclusively with series.
-However, we also need to understand some of the basics of sequences in order to properly deal with series.<br />
-
-<p>We will therefore, spend a little time on sequences as well.</p>
-Series is one of those topics that many students don’t find all that useful.
-To be honest, many students will never see series outside of their calculus class.
-<p>However, series do play an important role in the field of ordinary differential equations and without series large portions of the field of partial differential equations would not be possible.</p>
-<p>In other words, series is an important topic even if you won’t ever see any of the applications. Most of the applications are beyond the scope of most Calculus courses and tend to occur in classes that many students don’t take. So, as you go through this material keep in mind that these do have applications even if we won’t really be covering many of them in this class.</p>
-<p>Here is a list of topics in this section</p>
 </div>
 <div id="series-2" class="section level3">
 <h3>Series</h3>
 A series is the sum of the terms of a sequence. <span class="math display">\[ S_n = u_1 + u_2 + u_3+ \ldots +u_n\]</span>
 A series is usuall expressed in terms pf .
 <p>It is useful to remember the following, particularl in the context of proof by induction. <span class="math display">\[S_1 = u_1\]</span> <span class="math display">\[S_{n+1} = S_n + u_{n+1}\]</span></p>
-<ul>
-<li>: A series is the sum of a sequence. For a given sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span> the terms in the corresponding  <span class="math inline">\(s_n\)</span> are given by <span class="math display">\[\begin{align*}
-s_0&amp;=a_0
-s_1&amp;=a_0+a_1
-s_2&amp;=a_0+a_1+a_2
-s_3&amp;=a_0+a_1+a_2+a_3,\quad \text{etc}
-\end{align*}\]</span> The general term <span class="math inline">\(s_n\)</span>, which is the <span class="math inline">\(n^{th}\)</span> term in the series, is given by <span class="math display">\[\begin{equation*}
-s_n=a_0+a_1+a_2+\cdots+a_{n-1}+a_n
-\end{equation*}\]</span> Note that</li>
-</ul>
+<div id="series-3" class="section level4">
+<h4>Series:</h4>
+<p>A series is the sum of a sequence. For a given sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span> the terms in the corresponding  <span class="math inline">\(s_n\)</span> are given by</p>
+<p><span class="math display">\[\begin{align*}
+  s_0&amp;=a_0
+  s_1&amp;=a_0+a_1
+  s_2&amp;=a_0+a_1+a_2
+  s_3&amp;=a_0+a_1+a_2+a_3,\quad \text{etc}
+\end{align*}\]</span></p>
+<p>The general term <span class="math inline">\(s_n\)</span>, which is the <span class="math inline">\(n^{th}\)</span> term in the series, is given by <span class="math display">\[\begin{equation*}
+  s_n=a_0+a_1+a_2+\cdots+a_{n-1}+a_n
+\end{equation*}\]</span> Note that</p>
 Every series is itself another sequence. Therefore a series can have all the properties of sequences; boundedness, limits, etc.
 Every sequence <span class="math inline">\(a_n\)</span> has a corresponding series <span class="math inline">\(s_n\)</span>.
 <p>Every series <span class="math inline">\(s_n\)</span> has a corresponding sequence <span class="math inline">\(a_n=s_n-s_{n-1}\)</span>.</p>
 <ul>
-<li> Let <span class="math inline">\(a_n=n^2\)</span>, So that the terms in the sequence are <span class="math inline">\(0,1,4,9,16,25,\ldots\)</span> <span class="math display">\[\begin{align*}
+<li> Let <span class="math inline">\(a_n=n^2\)</span>, So that the terms in the sequence are <span class="math inline">\(0,1,4,9,16,25,\ldots\)</span></li>
+</ul>
+<p><span class="math display">\[\begin{align*}
   s_0&amp;=0
   s_1&amp;=0+1=1
   s_2&amp;=0+1+4=5
   s_3&amp;=0+1+4+9=14,\quad \text{etc}
-\end{align*}\]</span></li>
-</ul>
+\end{align*}\]</span></p>
+</div>
 </div>
 </div>
 </div>
 <div id="finite-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Finite Series</h1>
-<div id="column-27" class="section level2 tabset">
+<div id="column-29" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="finite-series-and-sigma-notation" class="section level3">
 <h3>Finite Series and Sigma Notation</h3>
@@ -4603,7 +4829,7 @@ Step 2
 <p><span class="math display">\[ \sum^{i=50}_{i=1} (i+1)  = 1275 + 50 = 1325 \]</span></p>
 <p><span class="math display">\[ \sum^{i=100}_{i=51} (i+1) = \sum^{i=100}_{i=1} (i+1)  - \sum^{i=50}_{i=1}(i+1)   \]</span></p>
 <p><span class="math display">\[ \sum^{i=100}_{i=51} (i+1)  = 5150 - 1325 =\boldsymbol{3825} \]</span></p>
-<div id="series-3" class="section level4">
+<div id="series-4" class="section level4">
 <h4>Series</h4>
 <ul>
 <li>Evaluating the Sum of a Series – <a href="http://youtube.com/watch?v=/NhUBAYcfY_A">HERE</a></li>
@@ -4628,7 +4854,7 @@ Step 2
 </div>
 <div id="telescoping-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Telescoping Series</h1>
-<div id="column-28" class="section level2 tabset">
+<div id="column-30" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="telescoping-series-1" class="section level3">
 <h3>Telescoping Series</h3>
@@ -4653,28 +4879,33 @@ Step 2
 </div>
 <div id="recurrence-relation" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Recurrence Relation</h1>
-<div id="column-29" class="section level2 tabset">
+<div id="column-31" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="recurrence-relation-1" class="section level3">
 <h3>Recurrence Relation</h3>
 <div id="recurrence-relations" class="section level4">
 <h4>Recurrence Relations</h4>
 <p>In mathematics, a recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: each further term of the sequence is defined as a function of the preceding terms. The term difference equation sometimes (and for the purposes of this article) refers to a specific type of recurrence relation. However, “difference equation” is frequently used to refer to any recurrence relation.</p>
-<p>Let the sequence <span class="math inline">\(u_n\)</span> be defined by the recurrence relation: <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> \  for <span class="math inline">\(n=1,2,3,\ldots\)</span>. \ Initial Condition: <span class="math inline">\(u_1=1\)</span>.\ Calculate <span class="math inline">\(u_2\)</span>, <span class="math inline">\(u_3\)</span>, <span class="math inline">\(u_4\)</span> and <span class="math inline">\(u_5\)</span>, showing all your workings.</p>
+<p>Let the sequence <span class="math inline">\(u_n\)</span> be defined by the recurrence relation: <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span></p>
+<p>for <span class="math inline">\(n=1,2,3,\ldots\)</span>. \ Initial Condition: <span class="math inline">\(u_1=1\)</span>.</p>
+<p>Calculate <span class="math inline">\(u_2\)</span>, <span class="math inline">\(u_3\)</span>, <span class="math inline">\(u_4\)</span> and <span class="math inline">\(u_5\)</span>, showing all your workings.</p>
 <p>Starting with <span class="math inline">\(n=1\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(1)+1} = u_{1} + 2\times 1, \]</span> <span class="math display">\[ u_{2} = 1 + 2, \]</span> <span class="math display">\[ u_{2} = 3. \]</span></p>
 <p>With <span class="math inline">\(n=2\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(2)+1} = u_{2} + 2\times 2, \]</span> <span class="math display">\[ u_{3} = 3 + 4, \]</span> <span class="math display">\[ u_{3} = 7. \]</span></p>
 <p>With <span class="math inline">\(n=3\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(3)+1} = u_{3} + 2\times 3, \]</span> <span class="math display">\[ u_{4} = 7 + 6, \]</span> <span class="math display">\[ u_{4} = 13. \]</span></p>
 <p>With <span class="math inline">\(n=4\)</span>, <span class="math display">\[ u_{n+1} = u_n + 2n, \]</span> <span class="math display">\[ u_{(4)+1} = u_{4} + 2\times 4, \]</span> <span class="math display">\[ u_{5} = 13 + 8, \]</span> <span class="math display">\[ u_{5} = 21. \]</span></p>
 <p>The first five elements of the sequence are as follows: <span class="math display">\[ \{1,3,7,13,21, \ldots\}
 \]</span></p>
-%———————————————————————————————-%
+</div>
+</div>
+<div id="recurrence-relation-2" class="section level3">
+<h3>Recurrence Relation</h3>
 <p>A recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given:</p>
 <p>each further term of the sequence is defined as a function of the preceding terms. The term difference equation sometimes refers to a specific type of recurrence relation.</p>
 <p>However, “difference equation” is frequently used to refer to any recurrence relation.</p>
-</div>
-<div id="worked-example" class="section level4">
+<div id="worked-example-1" class="section level4">
 <h4>Worked Example</h4>
-<p>Recurrence Relations} </p>
+<p>Recurrence Relations</p>
+<p></p>
 <ul>
 <li><p>Consider the sequence given by <span class="math display">\[ 1, 4, 7, 10, 13, \ldots\]</span></p></li>
 <li><p>State a recurrence relation which expresses the nth term, <span class="math inline">\(u_n\)</span> , in terms of the<span class="math inline">\((n - 1)\)</span>th term, <span class="math inline">\(u_{n-1}\)</span>,</p></li>
@@ -4700,10 +4931,18 @@ n    &amp; u_{n-1} &amp; 2n-1 &amp; u_n \\ \hline
 \end{array}\]</span></p>
 </div>
 </div>
+</div>
+</div>
+<div id="proof-by-induction" class="section level1" data-navmenu="Section 5">
+<h1 data-navmenu="Section 5">Proof By Induction</h1>
+<div id="column-32" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
 <div id="recurrence-relations-proof-by-induction" class="section level3">
 <h3>Recurrence Relations : Proof by Induction</h3>
-A sequence is determined by the recurrence relation <span class="math inline">\(u_{n+1} = 3u_n+2\)</span> and initial term <span class="math inline">\(u_1 =2\)</span>.
-<p>Prove by induction the following statement, for all <span class="math inline">\(n \in \mathbb{Z^{+}}\)</span>. <span class="math display">\[ u_n=3^n-1\]</span></p>
+<ul>
+<li>A sequence is determined by the recurrence relation <span class="math inline">\(u_{n+1} = 3u_n+2\)</span> and initial term <span class="math inline">\(u_1 =2\)</span>.</li>
+<li>Prove by induction the following statement, for all <span class="math inline">\(n \in \mathbb{Z^{+}}\)</span>. <span class="math display">\[ u_n=3^n-1\]</span></li>
+</ul>
 <div id="step-1-base-step" class="section level4">
 <h4>Step 1 : Base Step</h4>
 <p>Demonstrate the expression is valid for <span class="math inline">\(n=1\)</span> ( i.e. <span class="math inline">\(u_1\)</span> = 2). <span class="math display">\[ u_n=3^n-1  \]</span> <span class="math display">\[ u_1=3^1-1 \]</span> <span class="math display">\[ u_1=3 -1 = 2 \]</span></p>
@@ -4711,16 +4950,13 @@ A sequence is determined by the recurrence relation <span class="math inline">\(
 <div id="step-2-induction-hypothesis" class="section level4">
 <h4>Step 2 : Induction Hypothesis</h4>
 <p>Demonstrate the expression is valid for <span class="math inline">\(n=k\)</span> . <span class="math display">\[ u_k=3^k-1 \]</span></p>
-<p></p>
-<p>Demonstrate the expression is valid for <span class="math inline">\(n=k+1\)</span> . <span class="math display">\[ u_{k+1}=3^{k+1}-1 \]</span> <span class="math display">\[ u_{k+1}=3.3^{k}-1 \]</span> <span class="math display">\[ u_{k+1}=(1+2).3^{k}-1 \]</span> <span class="math display">\[ u_{k+1}=3^{k} + 2.3^{k}-1 \]</span></p>
+</div>
+<div id="step-3-induction-step" class="section level4">
+<h4>Step 3 : Induction Step</h4>
+<p>Demonstrate the expression is valid for <span class="math inline">\(n=k+1\)</span> .</p>
+<p><span class="math display">\[ u_{k+1}=3^{k+1}-1 \]</span> <span class="math display">\[ u_{k+1}=3.3^{k}-1 \]</span> <span class="math display">\[ u_{k+1}=(1+2).3^{k}-1 \]</span> <span class="math display">\[ u_{k+1}=3^{k} + 2.3^{k}-1 \]</span></p>
 </div>
 </div>
-</div>
-</div>
-<div id="proof-by-induction" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Proof By Induction</h1>
-<div id="column-30" class="section level2">
-<h2>Column</h2>
 <div id="proof-by-induction-1" class="section level3">
 <h3>Proof by Induction</h3>
 <ul>
@@ -4744,6 +4980,12 @@ A sequence is determined by the recurrence relation <span class="math inline">\(
 </ul>
 </div>
 </div>
+</div>
+</div>
+<div id="ratio-test" class="section level1" data-navmenu="Section 5">
+<h1 data-navmenu="Section 5">Ratio Test</h1>
+<div id="column-33" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
 <div id="infinite-series" class="section level3">
 <h3>Infinite Series</h3>
 <p>An infinite series is a series whose terms are summed indefinitely. For an infinite sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span>, the corresponding infinite series <span class="math inline">\(s_\infty\)</span> is written <span class="math display">\[
@@ -4762,10 +5004,12 @@ A sequence is determined by the recurrence relation <span class="math inline">\(
   &amp;1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\frac{1}{9}+\cdots+\frac{1}{16}+\frac{1}{17}\cdots\\
   &gt;&amp;1+\frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{16}+\frac{1}{32}\cdots\\
   = &amp; 1+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\cdots
-\end{align*}\]</span> The first series is the harmonic series and the terms in the second series are less than or equal to the corresponding terms in the harmonic series. However, the second series diverges as it is the sum of an infinite number of <span class="math inline">\(1/2\)</span> terms. So the harmonic series is always greater than a series which diverges, and so the harmonic series itself is divergent.</p>
+\end{align*}
+\]</span></p>
+<p>The first series is the harmonic series and the terms in the second series are less than or equal to the corresponding terms in the harmonic series. However, the second series diverges as it is the sum of an infinite number of <span class="math inline">\(1/2\)</span> terms. So the harmonic series is always greater than a series which diverges, and so the harmonic series itself is divergent.</p>
 <p>So even though the terms <span class="math inline">\(a_n \to 0\)</span>, the addition of an infinite number of them can still cause a series to diverge as $n $. A better test for whether a series converges is needed.</p>
 </div>
-<div id="ratio-test" class="section level3">
+<div id="ratio-test-1" class="section level3">
 <h3>Ratio Test</h3>
 <p>To determine whether an infinite series is convergent, the ratio test can be applied. The test examines the ratio of successive terms in the sequence as <span class="math inline">\(n \to \infty\)</span>. If this ratio has a limit, the sequences behaves like a geometric sequence for large <span class="math inline">\(n\)</span>, and so if the ratio is less than <span class="math inline">\(1\)</span>, the series will be convergent.</p>
 Formally, given a sequence <span class="math inline">\(a_n\)</span> and the corresponding infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^\infty a_n\)</span>. Let <span class="math display">\[
@@ -4801,7 +5045,7 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 </div>
 <div id="convergence-testing" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Convergence Testing</h1>
-<div id="column-31" class="section level2 tabset">
+<div id="column-34" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="convergence-tests" class="section level3">
 <h3>Convergence Tests</h3>
@@ -4813,7 +5057,7 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 <li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
 </ul>
 </div>
-<div id="ratio-test-1" class="section level3">
+<div id="ratio-test-2" class="section level3">
 <h3>Ratio Test</h3>
 <ul>
 <li>Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs">HERE</a></li>
@@ -4838,46 +5082,81 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 </div>
 </div>
 </div>
-<div id="digraphs-and-relations---worksheets-1" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Digraphs and Relations - Worksheets</h1>
-<div id="column-32" class="section level2 tabset">
+<div id="exercises-series-and-summations" class="section level1" data-navmenu="Section 5">
+<h1 data-navmenu="Section 5">Exercises: Series and Summations</h1>
+<div id="column-35" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="work-sheet-1-4" class="section level3">
+<div id="work-sheet-1-5" class="section level3">
 <h3>Work Sheet 1</h3>
 <div id="question-1-12" class="section level4">
 <h4>Question 1</h4>
-<p></p>
-Let <span class="math inline">\(s_n = 1 + 3 + 5 + \ldots + (2n-1)\)</span> for <span class="math inline">\(n \in Z^{+}\)</span>.\ 
+<p>Let <span class="math inline">\(s_n = 1 + 3 + 5 + \ldots + (2n-1)\)</span> for <span class="math inline">\(n \in Z^{+}\)</span>.\</p>
+<p>Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sigma\)</span> notation.</p>
+<p>Calculate <span class="math inline">\(s_1\)</span> , <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
+<p>Find a recurrence relation which expresses <span class="math inline">\(s_{n+1}\)</span> in terms of <span class="math inline">\(s_n\)</span>.</p>
 <p>: Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sum\)</span> notation. <span class="math display">\[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n \in Z^{+}\]</span></p>
 <p>: Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sum\)</span> notation. <span class="math display">\[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n \in Z^{+}\]</span></p>
-<p>{</p>
-<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span> }</p>
+<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span></p>
 </div>
 <div id="question-2-10" class="section level4">
 <h4>Question 2</h4>
-<p>: Calculate <span class="math inline">\(s_1\)</span>, <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
-<p>{</p>
-<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span> }</p>
+<p>Calculate <span class="math inline">\(s_1\)</span>, <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
+<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span></p>
 </div>
 <div id="question-3-8" class="section level4">
 <h4>Question 3</h4>
-<p>: Calculate <span class="math inline">\(s_1\)</span>, <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
-<p>{</p>
-<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span> }</p>
+<p>Calculate <span class="math inline">\(s_1\)</span>, <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
+<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span></p>
 </div>
-<div id="question-4-7" class="section level4">
+<div id="question-4-8" class="section level4">
 <h4>Question 4</h4>
-<p>: Find a recurrence relation which expresses <span class="math inline">\(s_{n+1}\)</span> in terms of <span class="math inline">\(s_n\)</span>.</p>
+<p>Find a recurrence relation which expresses <span class="math inline">\(s_{n+1}\)</span> in terms of <span class="math inline">\(s_n\)</span>.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="probability" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Probability</h1>
-<div id="column-33" class="section level2 tabset">
+<div id="column-36" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
+<div id="introduction-2" class="section level3">
+<h3>Introduction</h3>
+<p>Probability theory provides a mathematical model for the study of randomness and uncertainty.</p>
+<p>Many important decisions, whether from business, government, science, recreation or even one’s personal life must be made with incomplete information or some degree of uncertainty. Hence, a formalized study of uncertain or random outcomes occupies an important role in modern society. In situations where one of any number of possible outcomes may occur, the mathematical model of probability theory offers methods for quantifying the likelihoods associated with those outcomes. Probability also provides tools which allow us to move beyond simply describing the information contained within a set of data (descriptive statistics) to actually inferring further information from that data (inferential statistics).</p>
+<p>Many of the early attempts to model likelihood arose from games of chance.</p>
+</div>
 <div id="basics-of-probability" class="section level3">
 <h3>Basics of Probability</h3>
+<div id="experiments" class="section level4">
+<h4>Experiments</h4>
+<p>An experiment is any action or process whose outcome is subject to uncertainty or randomness.</p>
+<p>Here the term experiment is used in a wider sense than its usual connotation with controlled laboratory situations. Further clarification on experiments will be given later, but for now the following examples of experiments will suffice:</p>
+<ul>
+<li>observing whether or not a commercial product is defective.</li>
+<li>tossing a coin one or more times or selecting a card from a card deck.</li>
+<li>conducting a survey.</li>
+<li>measuring the wind speed or rainfall in a particular area.</li>
+</ul>
+<p>Assuming that an experiment can be repeated under identical conditions, then each repetition of an experiment is called a <strong><em>trial</em></strong>.</p>
+</div>
+<div id="sample-space" class="section level4">
+<h4>Sample Space</h4>
+<p>The sample space, <span class="math inline">\(\Omega\)</span> , is the non-empty set whose elements are all possible outcomes of an experiment. Without an assignment of a sample space and without knowing its size, no conclusions could be made about the probabilities of outcomes, or collections of outcomes. It is common to refer to a sample space by the labels {S}S, <span class="math inline">\(\Omega\)</span> , or {U}U (for “universal set”). An Outcome <span class="math inline">\(\Omega\)</span> may be a state of nature, a possibility, an experimental result and the like. Any instance or execution of a real-world situation modeled by a probability space must produce exactly one outcome. If outcomes of different trials of an experiment differ in any way that matters, they are considered distinct outcomes. Which differences matter depends on the kind of analysis we wish to perform: This leads to different choices of a sample space. A common example consists of a random experiment involving a single coin toss. Here, it seems appropriate to define the sample space as the set {={{},{}}}{={{},{}}}.</p>
+</div>
+<div id="events" class="section level4">
+<h4>Events</h4>
+<p>Since individual outcomes might be of little practical use, more complex events are used to characterize groups of outcomes.</p>
+<p>An event is any subset of zero or more outcomes contained in a given sample space. A simple event consists of exactly one outcome and a compound event consists of more than one outcome. For example, when tossing a single coin <span class="math inline">\({\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}\)</span>, possible events are {{}}{}, {{H}}{{H}}, {{T}}{{T}}, and {{H,T}}{{H,T}}.</p>
+<p>The collection of all such events is a σ-algebra <span class="math inline">\({\mathcal {F}}\)</span>. Intuitively, the probability of each of these sets is the chance that one of the events in the set will happen; <span class="math inline">\({\displaystyle P(\{{\text{H}}\})}\)</span> is the chance of tossing a head, <span class="math inline">\({\displaystyle P(\{{\text{H}},{\text{T}}\})}\)</span> is the chance of the coin landing either heads or tails, and {P({})}{P({})} is the probability of the coin landing neither heads nor tails, etc. An event is said to have happened or occurred during an experiment when the outcome of the experiment is an element of the event.</p>
+<p>Since the same outcome may be a member of many events, it is possible for many events to have happened given a single outcome. For example, when the trial consists of throwing two dice, the set of all outcomes with a sum of 7 pips may constitute an event, whereas outcomes with an odd number of pips may constitute another event. If the outcome is the element of the elementary event of two pips on the first die and five on the second, then both of the events, “7 pips” and “odd number of pips”, are said to have occurred. Modeling events as sets of outcomes in a sample space <span class="math inline">\(\Omega\)</span> allows us to leverage all of the regular set operations:</p>
+<p>Given two events <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>:</p>
+<ul>
+<li>The null subset <span class="math inline">\({\displaystyle \emptyset }\)</span> in a sample space <span class="math inline">\(\Omega\)</span> is called an impossible event.</li>
+<li>The union of two events <span class="math inline">\({\displaystyle A\cup B}\)</span> consists of all outcomes that are in <span class="math inline">\(A\)</span> or in <span class="math inline">\(B\)</span> or in both,</li>
+<li>The intersection {AB}AB consists of all outcomes that are both in <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>.</li>
+<li>The complement <span class="math inline">\({\displaystyle A^{c}}\)</span> of an event <span class="math inline">\(A\)</span> in a sample space <span class="math inline">\(\Omega\)</span> consists of all outcomes not in <span class="math inline">\(A\)</span>, but in <span class="math inline">\(\Omega\)</span> , i.e. <span class="math inline">\({\displaystyle A\cup A^{c}=\Omega }\)</span>.</li>
+</ul>
+</div>
 </div>
 <div id="rules-of-probability" class="section level3">
 <h3>Rules of Probability</h3>
@@ -4886,7 +5165,7 @@ Let <span class="math inline">\(s_n = 1 + 3 + 5 + \ldots + (2n-1)\)</span> for <
 </div>
 <div id="counting-problems" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Counting Problems</h1>
-<div id="column-34" class="section level2 tabset">
+<div id="column-37" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="counting-problems-1" class="section level3">
 <h3>Counting Problems</h3>
@@ -4962,9 +5241,9 @@ Videos
 </div>
 <div id="matrices" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Matrices</h1>
-<div id="column-35" class="section level2 tabset">
+<div id="column-38" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="introduction-1" class="section level3">
+<div id="introduction-3" class="section level3">
 <h3>Introduction</h3>
 <p>In mathematics, a matrix (plural matrices ) is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are commonly written in box brackets.</p>
 <p>An <span class="math inline">\(m \times n\)</span> (read ‘m by n’) matrix is an arrangement of numbers (or algebraic expressions ) in <span class="math inline">\(m\)</span> rows and <span class="math inline">\(n\)</span> columns. Each number in a given matrix is called an element or entry. A zero matrix has all its elements equal to zero.</p>
@@ -4996,21 +5275,13 @@ Videos
 <li>Interpreting powers of the adiacency matrix of a graph/digraph</li>
 </ul>
 </div>
-<div id="the-identity-matrix" class="section level3">
-<h3>The Identity Matrix</h3>
-<p>The identity matrix or unit matrix of size n is the <span class="math inline">\(n\times n\)</span> square matrix with ones on the main diagonal and zeros elsewhere. It is denoted by <span class="math inline">\(I_n\)</span>, or simply by I if the size is immaterial or can be trivially determined by the context.</p>
-<p><span class="math display">\[
-I_{1}={\begin{bmatrix}1\end{bmatrix}},\ I_{2}={\begin{bmatrix}1&amp;0\\0&amp;1\end{bmatrix}},\ I_{3}={\begin{bmatrix}1&amp;0&amp;0\\0&amp;1&amp;0\\0&amp;0&amp;1\end{bmatrix}},\ \cdots ,\ I_{n}={\begin{bmatrix}1&amp;0&amp;\cdots &amp;0\\0&amp;1&amp;\cdots &amp;0\\\vdots &amp;\vdots &amp;\ddots &amp;\vdots \\0&amp;0&amp;\cdots &amp;1\end{bmatrix}}
-\]</span></p>
-<ul>
-<li><p>When A is a square matrix (i.e. <span class="math inline">\(n\times n\)</span>), it is a property of matrix multiplication that <span class="math display">\[I_{N}A=AI_{n}=A.\,\]</span></p></li>
-<li><p>When A is <span class="math inline">\(m\times n\)</span>, it is a property of matrix multiplication that <span class="math display">\[I_{m}A=AI_{n}=A.\,\]</span></p></li>
-<li><p>The Identity matrix itself is invertible, being its own inverse.</p></li>
-<li><p>The Identity matrix is symmetrix, which is to say, it is it’s own tranpose.</p></li>
-</ul>
+<div id="matrix-operations" class="section level3">
+<h3>Matrix Operations</h3>
+<div id="commutativity-and-associativity" class="section level4">
+<h4>Commutativity and Associativity</h4>
+<p>Matrices of the same size can be added or subtracted element by element.</p>
+<p><span class="math display">\[ A \times B \neq B \times A \]</span></p>
 </div>
-<div id="adding-and-substracting-matrices" class="section level3">
-<h3>Adding and Substracting Matrices</h3>
 </div>
 <div id="matrix-multiplication" class="section level3">
 <h3>Matrix Multiplication</h3>
@@ -5058,43 +5329,54 @@ c_2 &amp; d_2
 <p>In the case of a 2 × 2 matrix the determinant can be defined as</p>
 <p><span class="math display">\[{\displaystyle {\begin{aligned}|A|={\begin{vmatrix}a&amp;b\\c&amp;d\end{vmatrix}}=ad-bc.\end{aligned}}}\]</span> Similarly, for a 3 × 3 matrix A, its determinant is</p>
 <p><span class="math display">\[{\displaystyle {\begin{aligned}|A|={\begin{vmatrix}a&amp;b&amp;c\\d&amp;e&amp;f\\g&amp;h&amp;i\end{vmatrix}}&amp;=a\,{\begin{vmatrix}e&amp;f\\h&amp;i\end{vmatrix}}-b\,{\begin{vmatrix}d&amp;f\\g&amp;i\end{vmatrix}}+c\,{\begin{vmatrix}d&amp;e\\g&amp;h\end{vmatrix}}\\[3pt]&amp;=aei+bfg+cdh-ceg-bdi-afh.\end{aligned}}}\]</span></p>
-<div id="determinant-of-a-3-times-3-matrix" class="section level4">
-<h4>Determinant of a <span class="math inline">\(3 \times 3\)</span> matrix</h4>
-<p><span class="math display">\[ |A| = a_{11} \left|\begin{array}{cc}
-a_{22} &amp; a_{23} \\
-a_{32} &amp; a_{33} \\
-\end{array}  right| - a_{12} \left| \begin{array}{cc}
-a_{21} &amp; a_{23} \\
-a_{31} &amp; a_{33} \\
-\end{array} right| + a_{13} \left|\begin{array}{cc}
-a_{21} &amp; a_{22} \\
-a_{31} &amp; a_{32} \\
-\end{array}  right| \]</span></p>
 </div>
-</div>
-<div id="reduced-row-echelon-form" class="section level3">
-<h3>Reduced Row Echelon Form</h3>
-<p>Specifically, a matrix is in row echelon form if</p>
+<div id="terminology" class="section level3">
+<h3>Terminology</h3>
+<div id="order-of-a-matrix" class="section level4">
+<h4>Order of a Matrix</h4>
+<p>Consider the following matrix <span class="math inline">\(A\)</span> <span class="math display">\[A =  
+\right(\begin{array}{ccc}
+6 &amp; 3 &amp; 2 \\
+4 &amp; 7 &amp; 5 \\
+\end{array}\left)
+\]</span></p>
 <ul>
-<li>All nonzero rows (rows with at least one nonzero element) are above any rows of all zeroes (all zero rows, if any, belong at the bottom of the matrix).</li>
-<li>The leading coefficient (the first nonzero number from the left, also called the pivot) of a nonzero row is always strictly to the right of the leading coefficient of the row above it.</li>
-<li>All entries in a column below a leading entry are zeroes (implied by the first two criteria).[1]</li>
+<li><span class="math inline">\(A\)</span> has 2 rows and 3 columns.</li>
+<li>We would say A is a <span class="math inline">\(2 \times 3\)</span> matrix.</li>
 </ul>
-<p><span class="math display">\[\left[ \begin{array}{ccccc}
-1 &amp; a_0 &amp; a_1 &amp; a_2 &amp; a_3 \\
-0 &amp; 0 &amp; 1 &amp; a_4 &amp; a_5 \\
-0 &amp; 0 &amp; 0 &amp; 1 &amp; a_6
-\end{array} \right]\]</span></p>
 </div>
-<div id="fundamental-theorem-of-linear-algebra" class="section level3">
-<h3>Fundamental Theorem of Linear Algebra</h3>
+<div id="square-matrices" class="section level4">
+<h4>Square Matrices</h4>
+<p>A square matrix is a matrix with the same number of rows and columns. An <span class="math inline">\(n\times n\)</span> matrix is known as a square matrix of order n. Any two square matrices of the same order can be added and multiplied.</p>
+</div>
+<div id="diagonal-and-triangular-matrices" class="section level4">
+<h4>Diagonal and triangular matrices</h4>
+<p>If all entries of A below the main diagonal are zero, A is called an upper triangular matrix. Similarly if all entries of A above the main diagonal are zero, A is called a lower triangular matrix. If all entries outside the main diagonal are zero, A is called a diagonal matrix.</p>
+</div>
+<div id="the-identity-matrix" class="section level4">
+<h4>The Identity Matrix</h4>
+<p>The identity matrix or unit matrix of size n is the <span class="math inline">\(n\times n\)</span> square matrix with ones on the main diagonal and zeros elsewhere. It is denoted by <span class="math inline">\(I_n\)</span>, or simply by I if the size is immaterial or can be trivially determined by the context.</p>
+<p><span class="math display">\[
+I_{1}={\begin{bmatrix}1\end{bmatrix}},\ I_{2}={\begin{bmatrix}1&amp;0\\0&amp;1\end{bmatrix}},\ I_{3}={\begin{bmatrix}1&amp;0&amp;0\\0&amp;1&amp;0\\0&amp;0&amp;1\end{bmatrix}},\ \cdots ,\ I_{n}={\begin{bmatrix}1&amp;0&amp;\cdots &amp;0\\0&amp;1&amp;\cdots &amp;0\\\vdots &amp;\vdots &amp;\ddots &amp;\vdots \\0&amp;0&amp;\cdots &amp;1\end{bmatrix}}
+\]</span></p>
 <ul>
-<li>The rank of a matrix is <span class="math inline">\(n\)</span>.</li>
-<li>The determinant of the matrix is not zero.</li>
-<li>The matrix is invertible.</li>
-<li>The rows are linearly independent</li>
-<li>There exists a solution to a set of Linear equation based on the matrix</li>
+<li><p>When A is a square matrix (i.e. <span class="math inline">\(n\times n\)</span>), it is a property of matrix multiplication that <span class="math display">\[I_{N}A=AI_{n}=A.\,\]</span></p></li>
+<li><p>When A is <span class="math inline">\(m\times n\)</span>, it is a property of matrix multiplication that <span class="math display">\[I_{m}A=AI_{n}=A.\,\]</span></p></li>
+<li><p>The Identity matrix itself is invertible, being its own inverse.</p></li>
+<li><p>The Identity matrix is symmetrix, which is to say, it is it’s own tranpose.</p></li>
 </ul>
+<p><span class="math display">\[ 
+\right(\begin{array}{ccc}
+1 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 1 \\
+\end{array}\left)
+\]</span></p>
+</div>
+<div id="tranpose-of-a-matrix" class="section level4">
+<h4>Tranpose of a Matrix</h4>
+<p>A <strong><em>symmetric</em></strong> matrix is a matrix that is identical to it’s tranpose.</p>
+</div>
 </div>
 <div id="tutorials-1" class="section level3">
 <h3>Tutorials</h3>
@@ -5113,21 +5395,188 @@ a_{31} &amp; a_{32} \\
 </div>
 </div>
 </div>
+<div id="linear-algebra" class="section level1" data-navmenu="Section 6">
+<h1 data-navmenu="Section 6">Linear Algebra</h1>
+<div id="column-39" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="introduction-4" class="section level3">
+<h3>Introduction</h3>
+<p>Linear algebra is the branch of mathematics concerning linear equations such as: linear maps such as: and their representations in vector spaces and through matrices. Linear algebra is central to almost all areas of mathematics.</p>
+</div>
+<div id="reduced-row-echelon-form" class="section level3">
+<h3>Reduced Row Echelon Form</h3>
+<p>Specifically, a matrix is in row echelon form if</p>
+<ul>
+<li>All nonzero rows (rows with at least one nonzero element) are above any rows of all zeroes (all zero rows, if any, belong at the bottom of the matrix).</li>
+<li>The leading coefficient (the first nonzero number from the left, also called the pivot) of a nonzero row is always strictly to the right of the leading coefficient of the row above it.</li>
+<li>All entries in a column below a leading entry are zeroes (implied by the first two criteria).[1]</li>
+</ul>
+<p><span class="math display">\[\left[ \begin{array}{ccccc}
+1 &amp; a_0 &amp; a_1 &amp; a_2 &amp; a_3 \\
+0 &amp; 0 &amp; 1 &amp; a_4 &amp; a_5 \\
+0 &amp; 0 &amp; 0 &amp; 1 &amp; a_6
+\end{array} \right]\]</span></p>
+<div id="worked-example-2" class="section level4">
+<h4>Worked Example</h4>
+<p><span class="math display">\[
+{\begin{array}{ccccc}
+1&amp;2 &amp; 6  &amp;3 &amp; 5
+\\  0&amp;1&amp;4 &amp;0 &amp; 6
+\\  0&amp;1&amp;2 &amp;1 &amp; 7
+\\  0&amp;0&amp;1 &amp;1 &amp; 7
+\end{array}}
+\]</span></p>
+<p><span class="math display">\[
+{\begin{array}{ccccc}
+1&amp;1 &amp; 6  &amp;8 &amp; 5
+\\  0&amp;2&amp;6 &amp;0 &amp; 6
+\\  0&amp;0&amp;1 &amp;1 &amp; 7
+\\  0&amp;0&amp;0 &amp;1 &amp; 7
+\end{array}}
+\]</span></p>
+<p><span class="math display">\[
+{\begin{array}{ccccc}
+1&amp;1 &amp; 6  &amp;8 &amp; 5
+\\  0&amp;1&amp;6 &amp;0 &amp; 6
+\\  0&amp;0&amp;0 &amp;1 &amp; 7
+\\  0&amp;0&amp;1 &amp;1 &amp; 7
+\end{array}}
+\]</span></p>
+[ {
+<span class="math display">\[\begin{array}{ccccc}
+1&amp;1 &amp; 6  &amp;8 &amp; 5
+\\  0&amp;1&amp;6 &amp;0 &amp; 6
+\\  0&amp;0&amp;0 &amp;0 &amp; 1
+
+\end{array}\]</span>
+<p>} ] }</p>
+</div>
+</div>
+<div id="fundamental-theorem-of-linear-algebra" class="section level3">
+<h3>Fundamental Theorem of Linear Algebra</h3>
+<ul>
+<li>The rank of a matrix is <span class="math inline">\(n\)</span>.</li>
+<li>The determinant of the matrix is not zero.</li>
+<li>The matrix is invertible.</li>
+<li>The rows are linearly independent</li>
+<li>There exists a solution to a set of Linear equation based on the matrix</li>
+</ul>
+</div>
+<div id="diagonalization" class="section level3">
+<h3>Diagonalization</h3>
+<p><span class="math display">\[ A = PDP^{-1} \]</span></p>
+<p>By extension <span class="math display">\[ D = P^{-1}AP\]</span></p>
+</div>
+</div>
+</div>
 <div id="systems-of-linear-equations" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Systems of Linear Equations</h1>
-<div id="column-36" class="section level2 tabset">
+<div id="column-40" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
+<div id="augmented-matrices" class="section level3">
+<h3>Augmented Matrices</h3>
+<p>Given the matrices <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, where</p>
+<p><span class="math display">\[A =
+  \begin{bmatrix}
+    1 &amp; 3 &amp; 2 \\
+    2 &amp; 0 &amp; 1 \\
+    5 &amp; 2 &amp; 2
+  \end{bmatrix}
+, \quad
+B =
+  \begin{bmatrix}
+    4 \\
+    3 \\
+    1
+  \end{bmatrix},\]</span></p>
+<p>the augmented matrix (<span class="math inline">\(A|B\)</span>) is written as</p>
+<p><span class="math display">\[(A|B)=
+  \left[\begin{array}{ccc|c}
+    1 &amp; 3 &amp; 2 &amp; 4 \\
+    2 &amp; 0 &amp; 1 &amp; 3 \\
+    5 &amp; 2 &amp; 2 &amp; 1
+  \end{array}\right].\]</span></p>
+</div>
+<div id="systems-of-linear-equations-1" class="section level3">
+<h3>Systems of Linear Equations</h3>
+<p><span class="math display">\[ \begin{bmatrix}
+a_{11} &amp; a_{12} &amp; a_{13} \\
+a_{21} &amp; a_{22} &amp; a_{23} \\
+a_{31} &amp; a_{32} &amp; a_{33} \\ 
+\end{bmatrix}
+\begin{bmatrix}
+x_{1} \\
+x_{2} \\
+x_{3} \\\end{bmatrix} = \begin{bmatrix}
+b_{1} \\
+b_{2} \\
+b_{3} \\ \end{bmatrix}\]</span></p>
+<p><span class="math display">\[ a_{11}x_{1} + a_{12}x_{2} + a_{13}x_{3} = b_1 \\
+a_{21}x_{1} + a_{22}x_{2} + a_{23}x_{3} = b_2 \\
+a_{31}x_{1} + a_{32}x_{2} + a_{33}x_{3} = b_3 \\ \]</span></p>
+</div>
+</div>
+</div>
+<div id="counting-problems---worksheets" class="section level1" data-navmenu="Section 6">
+<h1 data-navmenu="Section 6">Counting Problems - Worksheets</h1>
+<div id="column-41" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1-6" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="question-1-13" class="section level4">
+<h4>Question 1</h4>
+<p><span class="math display">\[ {n \choose k} = \frac{n!}{k! \times (n-k)!} \]</span> Evaluate the following:</p>
+<pre><code>\item[1] ${5 \choose 2}$
+\item[2] ${5 \choose 0}$
+\item[3] ${6 \choose 3}$
+\item[4] ${6 \choose 6}$
+\item[5] ${10 \choose 1}$
+\item[6] ${10 \choose 9}$</code></pre>
+</div>
+<div id="question-2-11" class="section level4">
+<h4>Question 2</h4>
+<p>In how many ways can a group of four people be selected from three men and four women? In how many of these groups are there more women than men?</p>
+</div>
+<div id="question-3-9" class="section level4">
+<h4>Question 3</h4>
+<p>In how many ways can a group of five be selected from ten people How many groups can be selected if two particular people from the ten can not be selected in the same group?\</p>
+</div>
+<div id="question-4-9" class="section level4">
+<h4>Question 4</h4>
+<p>The Venn Diagram shows the number of elements in each subset of set <span class="math inline">\(S\)</span>. If <span class="math inline">\(P(A) = 3/10\)</span> and <span class="math inline">\(P(B) = 1/2\)</span>, find the values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span></p>
+</div>
+<div id="question-5-1" class="section level4">
+<h4>Question 5</h4>
+<p>How many different four digit numners greater than 5000 can be formed from the digits  if each digit can only be used once in any given number. How many of these numbers are odd?</p>
+</div>
+<div id="question-6-1" class="section level4">
+<h4>Question 6</h4>
+<p>The code to open a combination lock is an ordered sequence of four digits chosen from the set <span class="math inline">\(\{1, 2, 3, 4, 5, 6, 7\}\)</span>. How many different codes are possible</p>
+<ol style="list-style-type: lower-alpha">
+<li>if repetition is allowed?</li>
+<li>if repetition is not allowed? [2 Marks]</li>
+</ol>
+</div>
+<div id="question-7-1" class="section level4">
+<h4>Question 7</h4>
+<p>Twelve balls numbered <span class="math inline">\(\{1,2,3, \ldots ,12\}\)</span> are placed in a container and three balls are drawn at random without replacement. How many different selections of three balls are possible, if the order of selection is not important? [2 Marks]</p>
+</div>
+<div id="question-8" class="section level4">
+<h4>Question 8</h4>
+<p>In the experiment described in part (b), let <span class="math inline">\(A\)</span> be the event that the number on each ball drawn is at most 5. Let <span class="math inline">\(B\)</span> be the event that the number on each ball drawn is odd. Calculate the probability of each of the events <span class="math inline">\(A\)</span> , <span class="math inline">\(B\)</span>, <span class="math inline">\(A \cup B\)</span> and <span class="math inline">\(A \cap B\)</span>. [6 Marks]</p>
+</div>
+</div>
 </div>
 </div>
 <div id="matrices---worksheets" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Matrices - Worksheets</h1>
-<div id="column-37" class="section level2 tabset">
+<div id="column-42" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="work-sheet-1-5" class="section level3">
+<div id="work-sheet-1-7" class="section level3">
 <h3>Work Sheet 1</h3>
-<div id="question-1-13" class="section level4">
+<div id="question-1-14" class="section level4">
 <h4>Question 1</h4>
-<p>Consider the following matrices  and  which are given as</p>
+<p>Consider the following matrices $A} and $B} which are given as</p>
 <p><span class="math display">\[ A = \left(
   \begin{array}{ccc}
 0 &amp; 2 &amp; 1 \\
@@ -5144,12 +5593,97 @@ B = \left(
 \right)
 \]</span></p>
 </div>
-<div id="questions" class="section level4">
-<h4>Questions</h4>
-<p>[(a)] Show that  and  are not equal. [3 Marks] [(b)] Find matrices C, D and E such that</p>
-<p>[(i)]  +  =  [(ii)]  =  [(iii)]  -  = . [3 Marks]</p>
-<p>[(c)]</p>
-<p>[(i)] Write down the augmented matrix for the following system of equations. [(ii)] Use Gaussian elimination to solve the system.</p>
+<div id="question-1-15" class="section level4">
+<h4>Question 1</h4>
+<ol style="list-style-type: lower-alpha">
+<li><p>Show that <span class="math inline">\(AB\)</span> and <span class="math inline">\(BA\)</span> are not equal.</p></li>
+<li><p>Find matrices <span class="math inline">\(C\)</span>, <span class="math inline">\(D\)</span> and <span class="math inline">\(E\)</span> such that</p></li>
+<li><p><span class="math inline">\(B\)</span> + <span class="math inline">\(C\)</span> = <span class="math inline">\(A\)</span></p></li>
+</ol>
+<ol start="2" style="list-style-type: lower-roman">
+<li><p><span class="math inline">\(BD\)</span> = <span class="math inline">\(B\)</span></p></li>
+<li><p><span class="math inline">\(B\)</span> - <span class="math inline">\(E\)</span> = <span class="math inline">\(A\)</span>.</p></li>
+</ol>
+</div>
+<div id="question-2-12" class="section level4">
+<h4>Question 2</h4>
+<ol style="list-style-type: lower-alpha">
+<li><p>Write down the augmented matrix for the following system of equations.</p></li>
+<li><p>Use Gaussian elimination to solve the system.</p></li>
+</ol>
+</div>
+</div>
+<div id="worksheet-2" class="section level3">
+<h3>Worksheet 2</h3>
+<div id="question-1-16" class="section level4">
+<h4>Question 1</h4>
+<p>For the vectors given below, evaluate the following expressions where it is possible. <span class="math display">\[
+\vec{u}=\left[ \begin{array}{c} 1 \\ 2 \\ 3 \end{array}\right],
+\vec{v}=\left[ \begin{array}{c} -1 \\ 0 \\ 4 \end{array}\right],
+\vec{x}=\left[ \begin{array}{c} 3 \\ 4 \end{array}\right],
+\vec{y}=\left[ \begin{array}{c} -4 \\ 3 \end{array}\right],
+\vec{w}=\left[ \begin{array}{c} 1 \\ 0\\ 2 \\ -5 \end{array}\right],
+\vec{z}=\left[ \begin{array}{c} 2 \\ 2 \\ 2 \\ 3 \end{array}\right]
+\]</span></p>
+<ul>
+<li><span class="math inline">\(2\vec{u} + 3\vec{v}\)</span></li>
+<li><span class="math inline">\(3\vec{u} - \vec{v}\)</span></li>
+<li><span class="math inline">\(\vec{x} + 3\vec{v}\)</span></li>
+<li><span class="math inline">\(2\vec{z} - \vec{w}\)</span></li>
+<li><span class="math inline">\(\vec{u}+\vec{x}\)</span></li>
+<li><span class="math inline">\(\vec{v}+\vec{w}\)</span></li>
+<li><span class="math inline">\(\vec{u}\cdot \vec{v}\)</span></li>
+<li><span class="math inline">\(\left(2\vec{u}\right)\cdot \left(3\vec{v}\right)\)</span></li>
+<li><span class="math inline">\(\vec{x}\cdot \vec{y}\)</span></li>
+<li><span class="math inline">\(\vec{w} \cdot \vec{z}\)</span></li>
+<li><span class="math inline">\(\vec{w} \cdot (\vec{z}+\vec{w})\)</span></li>
+<li><span class="math inline">\(|\vec{x}|\)</span></li>
+<li><span class="math inline">\(|\vec{w}|\)</span></li>
+<li><span class="math inline">\(|\vec{y}|+|\vec{w}|\)</span></li>
+</ul>
+</div>
+<div id="question-2-13" class="section level4">
+<h4>Question 2</h4>
+<p>Calculate the angles between the pairs <span class="math inline">\(\vec{u},\vec{v}\)</span>, <span class="math inline">\(\vec{x},\vec{y}\)</span>, and <span class="math inline">\(\vec{w},\vec{z}\)</span> from the previous question. Give your answers in both radians and degrees.</p>
+</div>
+<div id="question-3-10" class="section level4">
+<h4>Question 3</h4>
+<p>For the matrices below, evaluate the following expressions where it is possible. <span class="math display">\[
+A=\left[ \begin{array}{cc} 1  &amp; 2 \\ 3 &amp; 4 \end{array}\right],
+B=\left[ \begin{array}{cc} -2  &amp; 0 \\ 1 &amp; -7 \end{array}\right],
+C=\left[ \begin{array}{ccc} 3  &amp; 2 &amp; -2 \\ 4 &amp; 8 &amp; 2 \end{array}\right],
+D=\left[ \begin{array}{ccc} 3  &amp; 2 &amp; -2 \\ 4 &amp; 8 &amp; 2 \end{array}\right],
+\]</span> <span class="math display">\[
+E=\left[ \begin{array}{ccc} 1  &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \\ 7 &amp; 8 &amp; 9 \end{array}\right],
+F=\left[ \begin{array}{ccc} -1  &amp; 0 &amp; 2 \\ 3 &amp; 4 &amp; 1 \\  3 &amp; 1 &amp; 0 \end{array}\right],
+\]</span> %——————-% <span class="math display">\[
+G=\left[ \begin{array}{cc}3 &amp; 4 \\1 &amp; 2 \\2 &amp;-1 \\ \end{array}\right],
+H=\left[ \begin{array}{ccc}3 &amp; 4 &amp; 3\\1 &amp; 2 &amp; 2\\ \end{array}\right],
+I=\left[ \begin{array}{ccc}2 &amp; 2 &amp; 1\\ \end{array}\right],
+\]</span></p>
+<p><span class="math display">\[
+J=\left[ \begin{array}{c}
+3\\
+1\\
+1\\ \end{array}\right],
+K=\left[ \begin{array}{ccc}
+2 &amp; 1 &amp; 3\\1 &amp; 2 &amp; 2\\2 &amp; 1 &amp; 0\\\end{array}\right], 
+\]</span></p>
+<ul>
+<li><span class="math inline">\(2A+3B\)</span></li>
+<li><span class="math inline">\(3C-D\)</span></li>
+<li><span class="math inline">\(8A+4C\)</span></li>
+<li><span class="math inline">\(2000A+3000B\)</span></li>
+<li><span class="math inline">\(E-F\)</span></li>
+<li><span class="math inline">\(A\vec{x}\)</span></li>
+<li><span class="math inline">\(B\vec{x}\)</span></li>
+<li><span class="math inline">\(A\vec{y}+B\vec{x}\)</span></li>
+<li><span class="math inline">\(A\vec{u}\)</span></li>
+<li><span class="math inline">\(C\vec{x}\)</span></li>
+<li><span class="math inline">\(C\vec{w}\)</span></li>
+<li><span class="math inline">\(E\vec{u}\)</span></li>
+<li><span class="math inline">\(E\vec{w}-\vec{F}\vec{w}\)</span></li>
+</ul>
 <p><span class="math display">\[2x + y - z = 2\]</span> <span class="math display">\[x - y + z = 4\]</span> <span class="math display">\[x + 2y + 2z = 10\]</span></p>
 </div>
 </div>

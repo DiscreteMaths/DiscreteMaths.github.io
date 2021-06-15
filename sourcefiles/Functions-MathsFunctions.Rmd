@@ -6,11 +6,138 @@ Column {.tabset}
 
 ### Logarithms
 
+% http://www.purplemath.com/modules/logs2.htm
+
+
+
+The Relationship: "log_b(x) = y" means the same thing as "b y = x".
+Logarithms are really exponents (powers); they're just written differently.
+
+
+*  logb(b) = 1, for any base b, because b1 = b.
+*  logb(1) = 0, for any base b, because b0 = 1.
+*  logb(a) is undefined if a is negative.
+*  logb(0) is undefined for any base b.
+*  logb(bn) = n, for any base b.
+
+
+
+*   $a^x = y$  $log_a(y) = x$
+
+*   $e^x = y$  $ln(y)=x$
+
+*   $log_a(x\times y) = log_a(x) + log_a(y)$
+
+*   $log_a(\frac{x}{y}) = log_a(x) - log_a(y)$
+
+*   $log_a(\frac{1}{x}) = - log_a(x)$
+
+*   $log_a(a) = 1$
+
+*   $log_a(1) = 0$
+
+
+
+
+#### Expressing Logarithms
+
+Convert $6^3 = 216$ to the equivalent logarithmic expression.
+
+To convert, the base (that is, the 6)remains the same, but the 3 and the 216 switch sides. This gives me:
+
+\[log_6(216) = 3   \]
+
+
+
+Convert $log_4(1024) = 5$ to the equivalent exponential expression.
+
+To convert, the base (that is, the 4) remains the same, but the 1024 and the 5 switch sides. This gives me:
+
+\[4^5 = 1024\]
+
+
 ### Rules of Logarithms
+
+
+
+#### Laws of Logarithms
+
+
+* Law 1 : Multiplcation of Logarithms
+\[ Log(a) \times Log(b) = Log(a+b) \]
+* Law 2 : Division of Logarithms
+\[ \frac{Log(a)}{Log(b)} = Log(a-b) \]
+* Law 3 : Powers of Logarithms
+\[ Log(a^b) = b \times Log(a) \]
+
+#### Laws for Logarithms
+
+The following laws are very useful for working with logarithms.
+
+*   $\mbox{log}_b(X)$ + $\mbox{log}_b(Y)$ = $\mbox{log}_b(X\times Y)$
+*   $\mbox{log}_b(X)$ - $\mbox{log}_b(Y)$ = $\mbox{log}_b(X / Y)$
+*   $\mbox{log}_b(X^Y)$= $Y \mbox{log}_b(X)$
+
+
+#### Using the Laws
+
+1. Multiplication inside the log can be turned into addition outside the log, and vice versa.
+\[\mbox{log}_b(mn) = \mbox{log}_b(m) + \mbox{log}_b(n)\]
+
+2. Division inside the log can be turned into subtraction outside the log, and vice versa.
+\[\mbox{log}_b(m/n) = \mbox{log}_b(m) – \mbox{log}_b(n)\]
+
+3. An exponent on everything inside a log can be moved out front as a multiplier, and vice versa.
+\[mbox{log}_b(m^n) = n \times \mbox{log}_b(m)\]
+
+### Change of Base
+
+\[ Log_b(x) = \frac{1}{Log_x(b)}  \]
+
+\[ Log_b(x) = \frac{Log_a(b)}{Log_a(b)}  \]
+
+
+
+#### Worked Example 
+
+\[ log_3(x) + 3 log_x(3) = 4  \]
+
+
+\[ \left(log_3(x)\right)^2 + 3  = 4 log_3(x)  \]
+
+
+\[ log_3(x) + 3 log_x(3) = 4  \]
+
+\[ \left(log_3(x)\right)^2 - 4 log_3(x) + 3  = 0  \]
+
+
 
 ### Exponents
 
+\[ e^a \times e^b = e^{a+b}\]
+
+\[ (e^a )^b = e^{ab}\]
+
 ### Absolute Value & Sign Functions
+
+
+### Special Mathematical Functions
+
+#### Mathematical Operators
+
+*  Root Functions (i.e. the Square Root function)
+*  The Floor and Ceiling functions
+*  The Absolute Value functions
+
+
+
+#### Notation 
+
+*  Absolute Value Function $| x |$
+*  Ceiling Function $\lceil x \rceil$
+*  Floor Function  $\lfloor x \rfloor $
+
+
 
 #### Absolute Value Function 
 

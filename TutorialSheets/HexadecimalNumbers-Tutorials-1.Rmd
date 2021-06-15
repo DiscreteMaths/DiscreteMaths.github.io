@@ -8,6 +8,32 @@ d. What is the next highest hexadecimal number?
 
 
 
+
+
+### Part C: Number Bases - Hexadecimal}
+\begin{enumerate}
+
+\item Answer the following questions about the hexadecimal number systems
+
+(a) How many characters are used in the hexadecimal system?
+(b) What is highest hexadecimal number that can be written with two characters? (c) What is the equivalent number in decimal form?
+(d) What is the next highest hexadecimal number?
+
+
+
+\item Which of the following are not valid hexadecimal numbers?
+  
+    
+    (a) $73$
+    (b) $A5G$
+    (c) $11011$
+    (d) $EEF	$
+    
+  
+
+
+  
+  
 \item Which of the following are not valid hexadecimal numbers?
 
 
@@ -127,10 +153,23 @@ Compute the equivalent in each of the following forms:
 \item[(ii)] hexadecimal number
 \item[(iii)] binary number
 
-%---------------------------%
+\item Express the following decimal numbers as a hexadecimal number.
+  
+    
+    (a) $(73)_{10}$
+    (b) $(15)_{10}$
+    (c) $(22)_{10}$
+    (d) $(121)_{10}$
+    
+  
 
 
-
-\end{enumerate}
-\end{document}
+\item Compute the following hexadecimal calculations.
+  
+    
+    (a) $5D2+A30$
+    (b) $702+ABA$
+    (c) $101+111$
+    (d) $210+2A1$
+    
 

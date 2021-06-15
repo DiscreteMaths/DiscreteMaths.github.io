@@ -1,0 +1,53 @@
+
+Systems of Linear Equations {data-navmenu="Section 6"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+
+### Augmented Matrices
+Given the matrices $A$ and $B$, where
+
+\[A =
+  \begin{bmatrix}
+    1 & 3 & 2 \\
+    2 & 0 & 1 \\
+    5 & 2 & 2
+  \end{bmatrix}
+, \quad
+B =
+  \begin{bmatrix}
+    4 \\
+    3 \\
+    1
+  \end{bmatrix},\]
+
+the augmented matrix ($A|B$) is written as
+
+\[(A|B)=
+  \left[\begin{array}{ccc|c}
+    1 & 3 & 2 & 4 \\
+    2 & 0 & 1 & 3 \\
+    5 & 2 & 2 & 1
+  \end{array}\right].\]
+
+
+### Systems of Linear Equations
+
+\[ \begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33} \\ 
+\end{bmatrix}
+\begin{bmatrix}
+x_{1} \\
+x_{2} \\
+x_{3} \\\end{bmatrix} = \begin{bmatrix}
+b_{1} \\
+b_{2} \\
+b_{3} \\ \end{bmatrix}\]
+
+\[ a_{11}x_{1} + a_{12}x_{2} + a_{13}x_{3} = b_1 \\
+a_{21}x_{1} + a_{22}x_{2} + a_{23}x_{3} = b_2 \\
+a_{31}x_{1} + a_{32}x_{2} + a_{33}x_{3} = b_3 \\ \]

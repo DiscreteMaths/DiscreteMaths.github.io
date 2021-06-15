@@ -1,0 +1,38 @@
+Big $O$ notation {data-navmenu="Section 3"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+
+### Big $O$ notation
+
+The upper bound of the complexity of an algorithm. 
+
+% http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o
+% http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html
+
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. 
+Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the 
+space used (e.g. in memory or on disk) by an algorithm.
+
+
+
+### Big O notation - Examples 
+Here are some common orders of growth along with descriptions and examples where possible.
+
+#### O(1)
+O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.
+
+#### O(N)
+$O(N)$ describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. 
+The example below also demonstrates how Big O favours the worst-case performance scenario; a matching string could be found during any 
+iteration of the for loop and the function would return early, but Big O notation will always assume the upper limit where the algorithm 
+will perform the maximum number of iterations.
+
+#### $O(N^2)$
+
+$O(N^2)$ represents an algorithm whose performance is directly proportional to the square of the size of the input data set. 
+This is common with algorithms that involve nested iterations over the data set. 
+Deeper nested iterations will result in $O(N^3)$, $O(N^4)$ etc.
+

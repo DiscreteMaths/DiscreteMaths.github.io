@@ -1,0 +1,87 @@
+Linear Algebra {data-navmenu="Section 6"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Introduction
+
+Linear algebra is the branch of mathematics concerning linear equations such as: linear maps such as: and their representations in vector spaces and through matrices. Linear algebra is central to almost all areas of mathematics.
+
+
+### Reduced Row Echelon Form
+
+Specifically, a matrix is in row echelon form if
+
+* All nonzero rows (rows with at least one nonzero element) are above any rows of all zeroes (all zero rows, if any, belong at the bottom of the matrix).
+* The leading coefficient (the first nonzero number from the left, also called the pivot) of a nonzero row is always strictly to the right of the leading coefficient of the row above it.
+* All entries in a column below a leading entry are zeroes (implied by the first two criteria).[1]
+
+\[\left[ \begin{array}{ccccc}
+1 & a_0 & a_1 & a_2 & a_3 \\
+0 & 0 & 1 & a_4 & a_5 \\
+0 & 0 & 0 & 1 & a_6
+\end{array} \right]\]
+
+#### Worked Example
+
+
+
+
+\[
+{\begin{array}{ccccc}
+1&2 & 6  &3 & 5
+\\  0&1&4 &0 & 6
+\\  0&1&2 &1 & 7
+\\  0&0&1 &1 & 7
+\end{array}}
+\]
+
+
+\[
+{\begin{array}{ccccc}
+1&1 & 6  &8 & 5
+\\  0&2&6 &0 & 6
+\\  0&0&1 &1 & 7
+\\  0&0&0 &1 & 7
+\end{array}}
+\]
+
+
+\[
+{\begin{array}{ccccc}
+1&1 & 6  &8 & 5
+\\  0&1&6 &0 & 6
+\\  0&0&0 &1 & 7
+\\  0&0&1 &1 & 7
+\end{array}}
+\]
+
+
+\[
+{\begin{array}{ccccc}
+1&1 & 6  &8 & 5
+\\  0&1&6 &0 & 6
+\\  0&0&0 &0 & 1
+
+\end{array}}
+\]
+}
+
+
+
+
+### Fundamental Theorem of Linear Algebra
+
+* The rank of a matrix is $n$.
+* The determinant of the matrix is not zero.
+* The matrix is invertible.
+* The rows are linearly independent
+* There exists a solution to a set of Linear equation based on the matrix
+
+
+### Diagonalization
+\[ A = PDP^{-1} \]
+
+By extension
+\[ D = P^{-1}AP\]

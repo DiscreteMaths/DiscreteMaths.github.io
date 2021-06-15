@@ -95,6 +95,13 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 ```{r child="sourcefiles/Set-IntroductionToSet.Rmd"}
 ```
 
+
+
+```{r child="sourcefiles/Set-SetOperations.Rmd"}
+```
+
+
+
 ```{r child="sourcefiles/Logic-IntroductionToLogic.Rmd"}
 ```
 
@@ -119,12 +126,19 @@ Column {.tabset}
 * <a href ="https://www.youtube.com/watch?v=/cR5b2zWOa0w">Functions (2003 Q4 Part B) </a>
 * <a href ="https://www.youtube.com/watch?v=/IXs5CTQnBU4">Floor Functions Exercise HD	</a>
 
-### Invertible Functions
 
-Necessary Conditions for Invertibility of a Function
 
-* The function must be one-to-one
-* The fucntion must be onto.
+### Cartesian Product
+
+$X \times Y$
+
+$X = \{1,2,3\}$
+
+$Y = \{a,b,c\}$
+
+
+$X \times Y = \{ (1,a) , (1,b) , (1,c) , (2,a), (2,b) ,(2,c), (3,a),(3,b),(3,c) \}$ 
+$Y \times X = \{ (a,1) , (a,2) , (a,3) , (b,1), (b,2) ,(b,3), (c,1),(c,2),(c,3) \}$ 
 
  
 ```{r child="sourcefiles/Functions-MathsFunctions.Rmd"}
@@ -139,7 +153,24 @@ Column {.tabset}
 
 ### Invertible Functions
 
+Necessary Conditions for Invertibility of a Function
 
+* The function must be one-to-one
+* The fucntion must be onto.
+
+
+
+
+* A function is ***onto*** if is range is equal to its codomain.
+
+* A function is ***one-to-one*** if no two distinct elements of the domain have the same image.
+
+
+```{r child="sourcefiles/Functions-O-Notation.Rmd"}
+```
+
+```{r child="TutorialSheets/Functions-Tutorial-1.Rmd"}
+```
 
 
 
@@ -211,35 +242,26 @@ Column {.tabset}
 ```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
 ```
 
-
 ```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}
 ```
 
-
-
-
-Probability {data-navmenu="Section 6"}
-=====================================
-
-Column {.tabset}
--------------------------------------------------
-
-### Basics of Probability
-
-
-### Rules of Probability
-
-
+```{r child="sourcefiles/Probability.Rmd"}
+```
 
 ```{r child="sourcefiles/CountingProblems.Rmd"}
 ```
 
-   
-
-
 ```{r child="sourcefiles/Matrices-IntroductionToMatrices.Rmd"}
 ```
 
+```{r child="sourcefiles/Matrices-LinearAlgebra.Rmd"}
+```
+
+```{r child="sourcefiles/Matrices-LinearEquations.Rmd"}
+```
+
+```{r child="TutorialSheets/CountingProblems-Tutorial-1.Rmd"}
+```
 
 ```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}
 ```

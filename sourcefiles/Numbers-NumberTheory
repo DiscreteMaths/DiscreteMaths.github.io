@@ -1,0 +1,499 @@
+
+
+
+\section{Special sets of numbers}
+\smallskip 
+It is convenient to denote certain key sets of numbers by a standard letter.
+Definition 2.2 
+The symbol Z is used to denote the set of integers," 
+ denotes the set of positive integers; 
+ R denotes the set of real numbers;
+Q denotes the set of rational numbers {the letter Q stands for “quotient”).
+\smallskip 
+% %
+\smallskip 
+Of these sets, we can specify the set of positive integers and the set of integers by the listing method
+using elipses, as follows:
+\[Z^{+} = {1,2,s,...}\]
+\[2 = {o,1,-1,2,-2,3,-2,...}\]
+Note that Z includes 0 and the negative whole numbers as well as the positive ones. Similarly,
+$\mathbb{R}$ contains O and the negative reals and Q contains 0 and the negative rationals, as well as the
+positive ones.
+
+
+%=====================================================%
+#### Some Important Sets}
+
+*  N : the set of all natural numbers = {1,2,3,4,.....}
+*  Z : the set of all integers = $\{.....,-3,-2,-1,0,1,2,3,.....\}$
+*  Z+ : the set of all positive integers
+*  Q : the set of all rational numbers
+*  R : the set of all real numbers
+*  W : the set of all whole numbers
+
+
+
+#### Number Sets
+The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as \textit{{blackboard font}}.
+
+*  $\mathbb{N}$ Natural Numbers ($0,1,2,3$) 
+(Not used in the CIS102 Syllabus)
+*  $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
+
+($\ast$] $\mathbb{Z}^{+}$ Positive Integers
+($\ast$] $\mathbb{Z}^{-}$ Negative Integers
+
+*  $\mathbb{Q}$ Rational Numbers
+*  $\mathbb{R}$ Real Numbers
+
+
+
+{Set Operations}
+Let $U = \{1,2,\ldots, 9\}$ be the universal set, and let
+
+*  A = $\{1, 2, 3, 4, 5\}$,  
+*  B = $\{4, 5, 6, 7\}$,  
+*  C = $\{5, 6, 7, 8, 9\}$
+*  D = $\{1, 3, 5, 7, 9\}$,
+*  E = $\{2, 4, 6, 8\}$,
+*  F = $\{1, 5, 9\}$.
+
+
+
+Find: 
+
+((a) A $\cup$ B and A $\cap$ B, 
+((b) C $\cup$ D and C $\cap$ D, 
+((c) E $\cup$ F and E $\cap$ F.
+
+
+
+Find: 
+
+((a) A $\cup$ B and A $\cap$ B, 
+*  A = $\{1, 2, 3, 4, 5\}$  
+*  B = $\{4, 5, 6, 7\}$  
+
+
+
+
+
+
+Find: 
+
+((b) C $\cup$ D and C $\cap$ D,  
+*  C = $\{5, 6, 7, 8, 9\}$
+*  D = $\{1, 3, 5, 7, 9\}$
+
+
+Find: 
+
+((c) E $\cup$ F and E $\cap$ F. 
+*  E = $\{2, 4, 6, 8\}$
+
+*  F = $\{1, 5, 9\}$
+
+
+
+
+
+
+{Finite Sets}
+
+- \vspace{-1.2cm}
+Determine which of the following sets are finite:
+
+((a) Set of Prime numbers %infinite.
+
+((b) Set of two digit Prime numbers %infinite.
+%((a) Lines parallel to the x axis. 
+
+((c) Letters in the English alphabet.
+
+((d) Integers which are multiples of 5.
+
+%((c) Letters of the English alphabet
+((e) Days of the week % finite sets.
+%((e) The number of grains of rice in a ton of the grain
+
+
+
+
+Given the set {A} is constructed as follows 
+\[ [\{a, b\}, \{c\}, \{d, e, f \} ]. \]
+
+
+((a) List the elements of {A}. 
+((b) Find the cardinality of {A} : $n(\boldsymbol{A})$. 
+((c) Find the power set of {A}.
+
+
+
+\[\boldsymbol{A} = [\{a, b\}, \{c\},\{d, e, f \}]. \]
+
+((a) List the elements of {A}. 
+
+
+
+\[\boldsymbol{A} = [\{a, b\}, \{c\},\{d, e, f \}]. \]
+
+((b) Find the cardinality of {A} : $n(\boldsymbol{A})$. 
+
+
+
+\[\boldsymbol{A} = [\{a, b\}, \{c\},\{d, e, f \}]. \]
+
+((c) Find the power set of {A}. 
+
+
+
+Consider the set {A}, which is a subset of the the universal set of real numbers $\mathbb{R}$
+ \[\boldsymbol{A} = \{4, \sqrt{2}, 2/3, -2.5, -5, 33, \sqrt{9}, \pi \}\]
+Using formal set notation, write the sets of:
+
+((a) natural numbers in {A}
+((b) integers in {A}
+((c) rational numbers in {A}
+((d) irrational numbers in {A}
+
+
+% %
+
+%0 Reveals
+
+
+\[\boldsymbol{A} = \{4,\; \sqrt{2},\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9},\; \pi \}\]
+
+
+((a) natural numbers in {A}\\
+\phantom{Answer: $\{4,\; 33,\; \sqrt{9}\}$}
+((b) integers in {A}\\
+\phantom{Answer: $\{4,\; -5, 33,\; \sqrt{9}\}$}
+((c) rational numbers in {A}\\
+\phantom{Answer: $\{4,\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9}\}$}
+((d) irrational numbers in {A}\\
+\phantom{Answer: $\{\sqrt{2},\; \pi\}$}
+
+
+
+
+\[\boldsymbol{A} = \{4,\; \sqrt{2},\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9},\; \pi \}\]
+
+
+((a) natural numbers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; 33,\; \sqrt{9}\}$
+((b) integers in {A}\\
+\phantom{Answer: $\{4,\; -5, 33,\; \sqrt{9}\}$}
+((c) rational numbers in {A}\\
+\phantom{Answer: $\{4,\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9}\}$}
+((d) irrational numbers in {A}\\
+\phantom{Answer: $\{\sqrt{2},\; \pi\}$}
+
+
+
+
+\[\boldsymbol{A} = \{4,\; \sqrt{2},\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9},\; \pi \}\]
+
+
+((a) natural numbers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; 33,\; \sqrt{9}\}$
+((b) integers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; -5,\; 33,\; \sqrt{9}\}$
+((c) rational numbers in {A}\\
+\phantom{Answer: $\{4,\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9}\}$}
+((d) irrational numbers in {A}\\
+\phantom{Answer: $\{\sqrt{2},\; \pi\}$}
+
+
+
+
+
+
+\[\boldsymbol{A} = \{4,\; \sqrt{2},\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9},\; \pi \}\]
+
+
+((a) natural numbers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; 33,\; \sqrt{9}\}$
+((b) integers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; -5,\; 33,\; \sqrt{9}\}$
+((c) rational numbers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9}\}$
+((d) irrational numbers in {A}\\
+\phantom{Answer: $\{\sqrt{2},\; \pi\}$}
+
+
+
+
+\[\boldsymbol{A} = \{4,\; \sqrt{2},\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9},\; \pi \}\]
+
+
+((a) natural numbers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; 33,\; \sqrt{9}\}$
+((b) integers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; -5,\; 33,\; \sqrt{9}\}$
+((c) rational numbers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{4,\; 2/3,\; -2.5,\; -5,\; 33,\; \sqrt{9}\}$
+((d) irrational numbers in {A}\\
+\hspace{1cm} \textit{Answer}: $\{\sqrt{2},\; \pi\}$
+
+
+
+
+
+
+#### Number Sets}
+
+
+{Blackboard Bold Typeface}
+
+
+*  Conventionally the symbols for numbers sets are written in a special typeface, known as {blackboard bold}.
+*  Examples : $\mathbb{N}$, $\mathbb{Z}$ and $\mathbb{R}$.
+
+
+
+
+
+{Natural Numbers} ($\mathbb{N}$)
+
+*  The whole numbers from 1 upwards. 
+
+*  The set of natural numbers is 
+\[\{1,2,3,4,5,6,\ldots\} \]
+*  In some branches of mathematics, $0$ might be counted as a natural number.
+\[\{0,1,2,3,4,5,6,\ldots\} \]
+
+
+
+
+
+#### Number Sets}
+
+
+ 
+{Integers} ($\mathbb{Z}$)
+
+*  The integers are all the whole numbers, all the negative whole numbers and zero.
+
+*  The set of integers is 
+\[\{\ldots,-4,-3,-2,-1,\;0,\;1,\;2,\;3,\ldots\} \]
+*  The notation $\mathbb{Z}$ is from the German word for numbers: \textit{Zahlen}. 
+*  All natural numbers are integers.
+\[ \mathbb{Q}  \subset \mathbb{Z}\]
+
+
+
+
+
+#### Number Sets}
+
+
+{Integers} ($\mathbb{Z}$)
+
+*  Natural numbers may also be referred to as positive integers, denoted $\mathbb{Z}^{+}$. \\(note the superscript)
+*  Negative integers are denoted $\mathbb{Z}^{-}$.
+\[\{\ldots,-4,-3,-2,-1\}\]
+
+
+
+
+
+#### Number Sets}
+
+
+{Integers} ($\mathbb{Z}$)
+
+*  0 is neither positive nor negative. The following set of non-negative numbers \[\{0,1,2,3,4,5,6,\ldots\} \] might be denoted $0 \cup \mathbb{Z}^{+}$
+*  $\cup$ is the mathematical symbol for {union}.
+
+
+
+
+#### Number Sets}
+
+
+{Rational Numbers} ($\mathbb{Q}$)
+
+*  Rational numbers, also known as quotients, are numbers you can make by dividing one integer by another (but not dividing by zero). 
+*  If a number can be expressed as one integer divided by another, it is a rational number.
+\[ \mathbb{Q} = \left\{\; \frac{p}{q} \;\bigg| p \in \mathbb{Z},\; q \in \mathbb{Z},\; q \neq 0  \;   \right\}   \]
+
+
+  
+
+#### Number Sets}
+
+
+{Rational Numbers} ($\mathbb{Q}$)
+
+*  All integers are rational numbers 
+\[ \mathbb{Z}  \subset \mathbb{Q}\]
+(and by extension all natural numbers are rational numbers too)
+*  Examples of rational numbers
+\[ 9500,\;7,\; \frac{1}{2} ,\; \frac{3}{7},\; -2.6 ,\; 0.001\] 
+
+
+  
+
+#### Number Sets}
+
+
+{Irrational Numbers} 
+
+*  A number that can not be written as the ratio of two integers is known as an irrational number.
+*  Two famous examples of irrational numbers are $\pi$ and $\sqrt{2}$. 
+\[\pi = 3.141592\ldots\]
+\[\sqrt{2} = 1.41421\ldots\]
+
+
+
+
+{Real Numbers} ($\mathbb{R}$)
+
+*  Irrational numbers are types of real numbers.
+*  Rational numbers are real numbers too.
+\[ \mathbb{Q}  \subset \mathbb{R}\]
+
+*  A real number is simply any point anywhere on the number line.
+
+
+
+
+{Real Numbers} ($\mathbb{R}$)
+
+*  There are numbers that are not real numbers, for example {imaginary numbers}, but we will not cover them in this presentation.
+
+
+
+
+
+
+{Natural Numbers} ($\mathbb{N}$)
+
+*  The whole numbers from 1 upwards. 
+
+*  The set of natural numbers is 
+\[\{1,2,3,4,5,6,\ldots\} \]
+*  In some branches of mathematics, $0$ might be counted as a natural number.
+\[\{0,1,2,3,4,5,6,\ldots\} \]
+
+
+
+{Integers} ($\mathbb{Z}$)
+
+*  Natural numbers may also be referred to as positive integers, denoted $\mathbb{Z}^{+}$. \\(note the superscript)
+*  Negative integers are denoted $\mathbb{Z}^{-}$.
+\[\{\ldots,-4,-3,-2,-1\}\]
+
+
+
+{Integers} ($\mathbb{Z}$)
+
+*  0 is neither positive nor negative. The following set of non-negative numbers \[\{0,1,2,3,4,5,6,\ldots\} \] might be denoted $0 \cup \mathbb{Z}^{+}$
+*  $\cup$ is the mathematical symbol for {union}.
+
+
+
+
+
+{Rational Numbers} ($\mathbb{Q}$)
+
+*  Rational numbers, also known as quotients, are numbers you can make by dividing one integer by another (but not dividing by zero). 
+*  If a number can be expressed as one integer divided by another, it is a rational number.
+\[ \mathbb{Q} = \left\{\; \frac{p}{q} \;\bigg| p \in \mathbb{Z},\; q \in \mathbb{Z},\; q \neq 0  \;   \right\}   \]
+
+
+{Rational Numbers} ($\mathbb{Q}$)
+
+*  All integers are rational numbers 
+\[ \mathbb{Z}  \subset \mathbb{Q}\]
+(and by extension all natural numbers are rational numbers too)
+*  Examples of rational numbers
+\[ 9500,\;7,\; \frac{1}{2} ,\; \frac{3}{7},\; -2.6 ,\; 0.001\] 
+
+
+
+#### Real Numbers} ($\mathbb{R}$)
+
+*  There are numbers that are not real numbers, for example {imaginary numbers}, but we will not cover them in this presentation.
+
+
+% *  The Fibonacci sequence $f_n$ is defined recursively by the rule
+%   \begin{equation*}
+%     \begin{cases}
+%       f_0&=0\\
+%       f_1&=1\\
+%       f_n&=a_{n-1}+a_{n-2}
+%     \end{cases}
+%   \end{equation*}
+
+%   \begin{enumerate}
+%   * 
+%     Write a program to evaluate the Fibonacci sequence and hence evaluate $f_{50}$.
+%   * 
+%     Let the sequence $g_n$ be defined as the ratio
+%     \begin{equation*}
+%       g_n = \frac{f_{n+1}}{f_n}
+%     \end{equation*}
+%     Write a program to evaluate the first $50$ terms of the sequence $g_n$.
+%   * 
+%     Assumming that the sequence $g_n$ has a limit $\phi$, find this limit.
+%   
+
+
+
+%{Irrational Numbers}
+
+Given x is the irrational positive number $\sqrt{2}$ :
+
+
+((i) Express $x^8$ in binary notation.
+((ii) Is $x^8$ a rational number?
+((iii) Write
+$\left( \frac{1}{x} \right)^3$
+ in the form $2^y$ where $y \in \mathbb{Q}$.
+
+
+ 
+
+% %
+
+%{Irrational Numbers}
+
+{Part (i)} Express $x^8$ in binary notation\\
+
+
+*  $(\sqrt{2})^8 = 2^4  = 16$
+*  The binary equivalent of 16 is 1000.
+
+
+% %
+
+%{Irrational Numbers}
+
+{Part (ii)} Is $x^8$ a rational number?\\
+
+\[x^8 =16 \]
+
+Yes 16 is an integer and therefore also a rational number.
+\[x^8 \in \mathbb{Q}\]
+
+
+
+
+
+
+%{Irrational Numbers}
+
+{Part (iii)}  Write
+$\left( \frac{1}{x} \right)^3$
+ in the form $2^y$ where $y \in \mathbb{Q}$.
+
+\[ \left( \frac{1}{x} \right)^3 = \left( \frac{1}{\sqrt{2}} \right)^3\]
+\[\left(  \frac{1}{\sqrt{2}} \right)^3 = \left(2^{-1/2} \right)^3\]
+\[ \left(2^{-1/2} \right)^3 = 2^{-3/2}\]
+\[y = \frac{-3}{2} \]
+
+
+\end{document}
+
