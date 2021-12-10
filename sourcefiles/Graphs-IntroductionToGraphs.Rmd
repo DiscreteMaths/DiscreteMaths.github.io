@@ -23,42 +23,34 @@ Graphs are classified according to their complexity, the number of edges allowed
 * <a  href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> 
 * <a title="Weighted Graphs " href="http://youtube.com/watch?v=/MurOpIGCmhQ" >Weighted Graphs</a> [6:02]
 * <a title="Degree Sequence of a Graph" href="https://www.youtube.com/watch?v=D-W7VdUQBto" >Degree Sequence of a Graph</a>
-* <a title="Complete Graphs" href="http://youtube.com/watch?v=/wvoEtJOht9g" >Complete Graphs</a>
-* <a title="Regular Graphs" href="http://youtube.com/watch?v=/W757kOQvDww" >Regular Graphs</a>
-* <a title="Adjacency List" href="http://youtube.com/watch?v=/pms38inEdzg" >Adjacency List:</a> Using an adjacency list to construct a graph.
-* <a title="Adjacency List" href="http://youtube.com/watch?v=/imYq0rFJlHc" >Adjacency List</a> ( Worked Example)
-
-* <a title="Non-Isomorphic Graphs" href="http://youtube.com/watch?v=/U-7kcP6AZX8" >Non-Isomorphic Graphs</a> [4:01]
-
-* <a href="http://youtube.com/watch?v=/PIGyXIWeqZg" >Walks and Paths in Graphs</a> [9.20]
-* <a  href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]
-
 
 ### Graph Theory Terms
 
 
 #### Graph Theory 
 
+*Eulerian Paths and Cycles*
 
-*  <a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a>  – 2010 Question [4:58]
-*  <a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> [9:20]
-*  <a href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> [11:22]
-*  <a title="Weighted Graphs " href="http://youtube.com/watch?v=/MurOpIGCmhQ" >Weighted Graphs</a> [6:02]
+*  <a href="https://youtu.be/DFAxYeO-baU">Video</a> 
+
+
+
+* <a title="Complete Graphs" href="http://youtube.com/watch?v=/wvoEtJOht9g" >Complete Graphs</a>
+* <a title="Regular Graphs" href="https://youtu.be/Tvf3FqUGJqo" >Regular Graphs</a>
+* <a title="Adjacency List" href="http://youtube.com/watch?v=/pms38inEdzg" >Adjacency List:</a> Using an adjacency list to construct a graph.
+* <a title="Adjacency List" href="http://youtube.com/watch?v=/imYq0rFJlHc" >Adjacency List</a> ( Worked Example)
+
+
+
+* <a  href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]
 
 
 
 
 * <a href="https://www.youtube.com/watch?v=/s1f3nCOOzz8"></a>
-* <a href="https://www.youtube.com/watch?v=/imYq0rFJlHc">Adjacency List ( Worked Example)</a>
-
-
-* <a href="https://www.youtube.com/watch?v=/D-W7VdUQBto">Degree Sequence of a Graph</a>
-* <a href="https://www.youtube.com/watch?v=/wvoEtJOht9g">Complete Graphs</a>
 
 
 
-
-* <a href="https://www.youtube.com/watch?v=/W757kOQvDww">Regular Graphs</a>
 
 
 
@@ -71,7 +63,6 @@ Graphs are classified according to their complexity, the number of edges allowed
 
 * <a href="https://www.youtube.com/watch?v=/E4GNXq9dUO0">Eulers Formula for Planar Graphs [5:42]</a>
 * <a href="https://www.youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory </a>
-* <a href="https://www.youtube.com/watch?v=/pms38inEdzg">Adjacency List: Using an adjacency list to construct a graph.</a>
 
 
 ### Degree Sequences
@@ -198,6 +189,6 @@ Column{.tabset}
 ### Paths and Cycles in Graphs
 
 * <a title="Paths and Cycles in Graph Theory" href="http://youtube.com/watch?v=/baEtZGjpDLk" >Paths and Cycles in Graph Theory</a>
-* <a  href="https://www.youtube.com/watch?v=DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a> 
+* <a  href="https://youtu.be/DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a> 
 * <a href="https://www.youtube.com/watch?v=/PIGyXIWeqZg">Walks and Paths in Graphs</a>
 * <a href= "https://youtube.com/watch?v=/5bpRc0FJNnM"> Paths and Cycles in Graph Theory </a>

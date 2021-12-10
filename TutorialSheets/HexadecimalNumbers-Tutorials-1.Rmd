@@ -3,46 +3,28 @@
 \item Answer the following questions about the hexadecimal number systems
 
 a.  How many characters are used in the hexadecimal system?
-b.  What is highest hexadecimal number that can be written with two characters? c. What is the equivalent number in decimal form?
+
+b.  What is highest hexadecimal number that can be written with two characters? 
+
+c. What is the equivalent number in decimal form?
+
 d. What is the next highest hexadecimal number?
 
 
 
 
 
-### Part C: Number Bases - Hexadecimal}
-\begin{enumerate}
-
-\item Answer the following questions about the hexadecimal number systems
-
-(a) How many characters are used in the hexadecimal system?
-(b) What is highest hexadecimal number that can be written with two characters? (c) What is the equivalent number in decimal form?
-(d) What is the next highest hexadecimal number?
-
-
-
 \item Which of the following are not valid hexadecimal numbers?
   
-    
-    (a) $73$
-    (b) $A5G$
-    (c) $11011$
-    (d) $EEF	$
-    
-  
-
-
-  
-  
-\item Which of the following are not valid hexadecimal numbers?
-
-
 a.  $73$
-b.  $A5G$
-c. $11011$
-d. $EEF$
 
-<hline> 
+b.  $A5G$
+
+c.  $11011$
+
+d.  $EEF	$
+    
+  
 
 \item Express the following decimal numbers as a hexadecimal number.
 
@@ -68,26 +50,6 @@ d. $210+2A1$
 
 
 
-
-	\item Answer the following questions about the hexadecimal number systems
-	
-		\item[a)] How many characters are used in the hexadecimal system?
-		\item[b)] What is highest hexadecimal number that can be written with two characters? \item[c)] What is the equivalent number in decimal form?
-		\item[d)] What is the next highest hexadecimal number?
-	
-	
-	
-	\item Which of the following are not valid hexadecimal numbers?
-	
-		
-			\item[a)] $73$
-			\item[b)] $A5G$
-			\item[c)] $11011$
-			\item[d)] $EEF	$
-		
-	<hline> 
-%-----------------------------------
-
 \item Express the following decimal number as a hexadecimal number
 
 \[44321\]
@@ -108,35 +70,9 @@ What is the next highest hexadecimal number?
 
 % \[FF = 255\] % Remark 
 
-%-----------------------------------
-
-
 
 
 	
-	\item Express the following decimal numbers as a hexadecimal number.
-	
-		
-			\item[a)] $(73)_{10}$
-			\item[b)] $(15)_{10}$
-			\item[c)] $(22)_{10}$
-			\item[d)] $(121)_{10}$
-		
-	<hline> 
-	
-	
-	\item Compute the following hexadecimal calculations.
-	
-		
-			\item[a)] $5D2+A30$
-			\item[b)] $702+ABA$
-\item[c)] $101+111$
-			\item[d)] $210+2A1$
-		
-	<hline> 
-	
-\item 
-%------------------------------------------------------------------------%
 
 \item[(i)] Calculate the decimal equivalent of the hexadecimal number $(A2F.D)_{16}$
 \item[(ii)] Working in base 2, compute the following binary additions, showing all you workings
@@ -152,24 +88,4 @@ Compute the equivalent in each of the following forms:
 \item[(i)] decimal number
 \item[(ii)] hexadecimal number
 \item[(iii)] binary number
-
-\item Express the following decimal numbers as a hexadecimal number.
-  
-    
-    (a) $(73)_{10}$
-    (b) $(15)_{10}$
-    (c) $(22)_{10}$
-    (d) $(121)_{10}$
-    
-  
-
-
-\item Compute the following hexadecimal calculations.
-  
-    
-    (a) $5D2+A30$
-    (b) $702+ABA$
-    (c) $101+111$
-    (d) $210+2A1$
-    
 

@@ -61,7 +61,20 @@ Calculate $s_1$, $s_2$ and $s_3$.
 \item[$s_2$]
 \item[$s_3$]
 
+
+
 #### Question 4
+
+Find the sum of the following geometric series
+\[ 3 + 6 + 12 + 24 + \ldots + 3072 \]
+
+<h5> Solution</h5>
+
+* <a href="https://youtu.be/q6cYD8Ohgno">Solution to this exercise</a>
+
+### Worksheet 2
+
+#### Question 1
 
 Find a recurrence relation which expresses $s_{n+1}$ in terms of $s_n$.
 

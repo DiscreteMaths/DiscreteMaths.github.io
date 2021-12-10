@@ -3293,64 +3293,6 @@ Cardinality
 <li>The number of distinct elements in a finite set is called its cardinality.</li>
 </ul>
 </div>
-<div id="set-theory-operations" class="section level3">
-<h3>Set Theory Operations</h3>
-<ul>
-<li>The Universal Set <span class="math inline">\(\mathcal{U}\)</span></li>
-</ul>
-<table>
-<thead>
-<tr class="header">
-<th align="right"></th>
-<th align="right">Operation</th>
-<th align="right">Notation</th>
-<th align="right"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right"></td>
-<td align="right">Union</td>
-<td align="right"><span class="math inline">\(A \cup B\)</span></td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="right">Intersection</td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right"></td>
-<td align="right">Set Difference</td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="right">Relative Difference</td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-</tbody>
-</table>
-<div id="intersection" class="section level4">
-<h4>Intersection</h4>
-<ul>
-<li><p>Intersection of two sets describes the elements that are members of both the specified Sets</p></li>
-<li><p>The intersection is denoted <span class="math inline">\(\mathcal{A\cap B}\)</span> <span class="math display">\[ \mathcal{A\cap B} = \{2\}\]</span></p></li>
-<li><p>only one element is a member of both A and B.</p></li>
-</ul>
-</div>
-<div id="set-difference" class="section level4">
-<h4>Set Difference</h4>
-<ul>
-<li><p>The Set Difference of A with regard to B are list of elements of A not contained by B.</p></li>
-<li><p>The complements are denoted <span class="math inline">\(\mathcal{A-B}\)</span> and <span class="math inline">\(\mathcal{B-A}\)</span> <span class="math display">\[ \mathcal{A-B} = \{1,3,5,7\}, \]</span></p></li>
-</ul>
-<p><span class="math display">\[ \mathcal{B-A} = \{4,6,8\}, \]</span></p>
-</div>
-</div>
 <div id="set-specification" class="section level3">
 <h3>Set Specification</h3>
 <h5>
@@ -3404,7 +3346,10 @@ BUILDER METHOD
 <div id="de-morgans-laws" class="section level3">
 <h3>De Morgan’s Laws</h3>
 <p>In set theory and Boolean algebra, De Morgan’s Laws are often stated as “Union and intersection interchange under complementation” which can be formally expressed as:</p>
-<span class="math display">\[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]</span> <span class="math display">\[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]</span> where:
+<p><span class="math display">\[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]</span> <span class="math display">\[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]</span> where:</p>
+<span class="math inline">\(\overline{A}\)</span> is the negation of A, the overline being written above the terms to be negated
+<span class="math inline">\(\cap\)</span> is the intersection operator (AND)
+<p><span class="math inline">\(\cup\)</span> is the union operator (OR)</p>
 <p><hline></p>
 <p>In propositional logic and boolean algebra,  are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.</p>
 <p>The rules can be verbalized as:</p>
@@ -3444,18 +3389,366 @@ and also,
 <li><p><span class="math inline">\(\mathbb{R}^{-}\)</span> Set of all negative real numbers</p></li>
 </ul>
 </div>
+<div id="elements-of-a-set" class="section level4">
+<h4>Elements of a Set</h4>
+<ul>
+<li><p>Sets are comprised of members, which are often called {elements}.</p></li>
+<li><p>If a particular value (<span class="math inline">\(k\)</span>) is an element of set <span class="math inline">\(A\)</span>, then we would write this as <span class="math display">\[k \in A \]</span></p></li>
+<li><p>If a single value <span class="math inline">\(k\)</span> is not an element of set <span class="math inline">\(A\)</span>, then we write <span class="math display">\[k \notin A \]</span></p></li>
+</ul>
+</div>
+<div id="subsets" class="section level4">
+<h4>Subsets</h4>
+<p>Given two sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, the set <span class="math inline">\(A\)</span> is a {subset} of set <span class="math inline">\(B\)</span> if every element of <span class="math inline">\(A\)</span> is also an element of <span class="math inline">\(B\)</span>.</p>
+<p>We write this mathematically as <span class="math display">\[A \subseteq B \]</span></p>
+<p>Sets are denoted with curly braces, even if they contain only one element.</p>
+</div>
+<div id="subsets-1" class="section level4">
+<h4>Subsets</h4>
+<p>Suppose we have the set <span class="math inline">\(A\)</span> comprised of the following elements <span class="math display">\[ A =\{3,5,7,9\}\]</span> The value <span class="math inline">\(5\)</span> is an element of <span class="math inline">\(A\)</span> <span class="math display">\[  5 \in A \]</span></p>
+<p>The single element set ${5} $ is a subset of <span class="math inline">\(A\)</span>. <span class="math display">\[ \{5\} \subseteq A\]</span></p>
+</div>
+</div>
+<div id="elements-of-a-set-1" class="section level3">
+<h3>Elements of a Set</h3>
+<p>A set is defined completely by its elements. Formally, sets X and Y are the same set if they have the same elements; that is, if every element of X is also an element of Y, and vice versa. For example, suppose we define:</p>
+<p><span class="math display">\[ F = \{x | \mbox{(x is an integer)} \mbox{ and } 0 &lt; x &lt; 4)\}  \]</span> %Then F=A. The definition also makes it clear that {1,2,3} = (3,2,1} = {1,1,2,3,2}. Note also that if X and Y are both empty, then they are equal, justifying referring to “the” empty set.</p>
+<p>The equivalence of empty sets has a {} consequence for some theories of the metaphysics of properties that define the property of being x as simply the set of all x, then if the two properties are uninstantiated or coextensive they are equivalent - under this theory, because there are no unicorns and there are no pixies, the property of being a unicorn and being a pixie are the same - but if there were a unicorns and pixies, we could tell them apart.</p>
+<p>For a set {A} having an element {x} , the following are all used synonymously:</p>
+<ul>
+<li>{x} is a member of {A}</li>
+<li>{x} is contained in {A}</li>
+<li>{x} is included in {A}</li>
+<li>{x} is an element of the set {A}</li>
+<li>{A} contains {x}</li>
+<li>{A} includes {x}</li>
+</ul>
+<div id="elements-and-subsets-1" class="section level4">
+<h4>Elements and subsets</h4>
+<p>The <span class="math inline">\(\in\)</span> sign indicates set membership. If x is an element (or “member”) of a set X, we write $ X$; e.g. <span class="math inline">\(3\in A\)</span>. (We may also say <code>X contains x&quot; and</code>A contains 3&quot;)</p>
+<p>A very important notion is that of a subset. X is a subset of Y, written <span class="math inline">\(X \subseteq Y\)</span> (sometimes simply as<span class="math inline">\(X \subset Y\)</span>), if every element of X is also an element of Y. From before <span class="math inline">\(C\subseteq A \subseteq E\)</span>.</p>
+</div>
+<div id="proper-subset" class="section level4">
+<h4>Proper Subset}</h4>
+<p>The term “proper subset” can be defined as “subset of but not equal to”. A Set X is a proper subset of set Y (Written as X⊂YX⊂Y) if every element of X is an element of set Y and <span class="math inline">\(|X|&lt;|Y|\)</span>.</p>
+</div>
+<div id="sets-containing-sets-1" class="section level4">
+<h4>Sets containing Sets</h4>
+<p>Sets can of course be elements of other sets; for example we can form the set <span class="math inline">\(G = \{A,B,C,D,E\}\)</span>, whose five elements are the sets we considered earlier. Then, for instance, <span class="math inline">\(A\in G\)</span>. (Note that this is very different from saying <span class="math inline">\(A\subseteq G\)</span>)</p>
+<p>%The tilde (~) is as usual used for negation; e.g. <span class="math inline">\(\tilde(A\in B)\)</span>.</p>
+</div>
+<div id="equivalent-sets" class="section level4">
+<h4>Equivalent Sets</h4>
+<p>If both of the following two statements are {true}, <span class="math display">\[\mbox{1)  } A \subseteq B \]</span> <span class="math display">\[\mbox{2)  } B \subseteq A \]</span></p>
+<p>then <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are {equivalent sets}.</p>
+</div>
+<div id="non-comparable-sets" class="section level4">
+<h4>Non-Comparable Sets}</h4>
+<p>If both of the following two statements are {false}, <span class="math display">\[\mbox{1)  } A \subseteq B \]</span> <span class="math display">\[\mbox{2)  } B \subseteq A \]</span></p>
+<p>then <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> are said to be said to be {noncomparable sets}.</p>
+<p>Shade in the following areas on Venn diagrams.</p>
+<p>((a) <span class="math inline">\(A^\prime\; \cup\; B\)</span></p>
+<p>((b) <span class="math inline">\(A \cap\; B^\prime\;\)</span></p>
+<p>((c) <span class="math inline">\((A \cap\; B)^\prime\;\)</span></p>
+<p>((d) <span class="math inline">\(A^\prime\; \cup\; B^\prime\;\)</span></p>
+<p>((e) <span class="math inline">\((A \cup\; B)^\prime\;\)</span></p>
+<p>((f) <span class="math inline">\(A^\prime\; \cap\; B^\prime\;\)</span></p>
+}  <span class="math display">\[(a) \;\; A^\prime \; \cup\; B\]</span>
+%– % } %Question 2  <span class="math display">\[(b) \;\; A \cap\; B^\prime\;\]</span>
+%– % } %Question 3  <span class="math display">\[(c) \;\; (A \cap \; B)^\prime\;\]</span>
+%– % } %Question 4  <span class="math display">\[(d) \;\; A^\prime\; \cup\; B^\prime; \]</span>
+%– % } %Question 5  <span class="math display">\[(e) \;\; (A \cup\; B)^\prime;\]</span>
+%– % } %Question 6  <span class="math display">\[(f) \;\; A^\prime\; \cap\; B^\prime\;\]</span>
+</div>
+</div>
+<div id="types-of-sets" class="section level3">
+<h3>Types of Sets</h3>
+<p>Sets can be classified into many types. Some of which are finite, infinite, subset, universal, proper, singleton set, etc.</p>
+<div id="the-universal-set-and-the-empty-set" class="section level4">
+<h4>The Universal Set and the Empty Set}</h4>
+<ul>
+<li>The first is the {}, typically denoted <span class="math inline">\(U\)</span>. This set is all of the elements that we may choose from.</li>
+</ul>
+<p>This set may be different from one setting to the next.</p>
+<ul>
+<li><p>For example one universal set may be the set of all real numbers, denoted <span class="math inline">\(\mathbb{R}\)</span>, whereas for another problem the universal set may be the whole numbers <span class="math inline">\(\{0, 1, 2,\ldots\}\)</span>.</p></li>
+<li><p>The other set that requires consideration is called the .</p></li>
+</ul>
+<p>The empty set is the unique set is the set with no elements. We write this as <span class="math inline">\(\{ \}\)</span> and denote this set by <span class="math inline">\(\emptyset\)</span>.</p>
+</div>
+<div id="finite-set" class="section level4">
+<h4>Finite Set}</h4>
+<p>A set which contains a definite number of elements is called a finite set.</p>
+<p><span class="math display">\[S=\{x|x \in N and 70 &gt;x&gt;50\}\]</span></p>
+</div>
+<div id="infinite-set" class="section level4">
+<h4>Infinite Set</h4>
+<p>A set which contains infinite number of elements is called an infinite set.</p>
+<p><span class="math display">\[S={x|x\in N  and x&gt;10}\]</span> #### Subset A set X is a subset of set Y (Written as <span class="math inline">\(X \subseteq Y\)</span>) if every element of X is an element of set Y.</p>
+<p>Example 1 − Let, <span class="math inline">\(X={1,2,3,4,5,6}\)</span> and Y={1,2}Y={1,2}. Here set Y is a subset of set X as all the elements of set Y is in set X.</p>
+<p>Hence, we can write <span class="math inline">\(Y\subseteq X\)</span>.</p>
+<p>Example 2 − Let, <span class="math inline">\(X={1,2,3}\)</span> and <span class="math inline">\(Y={1,2,3}\)</span>. Here set Y is a subset (Not a proper subset) of set X as all the elements of set Y is in set X. Hence, we can write <span class="math inline">\(Y\subseteqX\)</span>.</p>
+</div>
+<div id="example" class="section level4">
+<h4>Example</h4>
+<p>Let, <span class="math inline">\(X={1,2,3,4,5,6}\)</span> and <span class="math inline">\(Y={1,2}\)</span>. Here set <span class="math inline">\(Y \subset X\)</span> since all elements in <span class="math inline">\(Y\)</span> are contained in <span class="math inline">\(X\)</span> too and <span class="math inline">\(X\)</span> has at least one element is more than set YY.</p>
+</div>
+<div id="universal-set" class="section level4">
+<h4>Universal Set</h4>
+<p>It is a collection of all elements in a particular context or application. All the sets in that context or application are essentially subsets of this universal set. Universal sets are represented as <span class="math inline">\(U\)</span>.</p>
+</div>
+<div id="example-1" class="section level4">
+<h4>Example</h4>
+<p>We may define <span class="math inline">\(U\)</span> as the set of all animals on earth. In this case, set of all mammals is a subset of <span class="math inline">\(U\)</span>, set of all fishes is a subset of <span class="math inline">\(U\)</span>, set of all insects is a subset of <span class="math inline">\(U\)</span>, and so on.</p>
+</div>
+<div id="empty-set-or-null-set" class="section level4">
+<h4>Empty Set or Null Set</h4>
+<p>An empty set contains no elements. It is denoted by <span class="math inline">\(\varnothing\)</span>. As the number of elements in an empty set is finite, empty set is a finite set. The cardinality of empty set or null set is zero.</p>
+</div>
+<div id="example-sxxin-n-mbox-and-7x8varnothing" class="section level4">
+<h4>Example} <span class="math display">\[S={x|x\in N \mbox{ and }7&lt;x&lt;8}=\varnothing\]</span></h4>
+<p>Another set which has a special letter to denote it is the set containing no elements. This is called the empty or null set and denoted by the symbol (D. Example 2.6 The set of integers m such that m2 = 5 is the empty set.</p>
+</div>
+<div id="singleton-set-or-unit-set" class="section level4">
+<h4>Singleton Set or Unit Set}</h4>
+<p>Singleton set or unit set contains only one element. A singleton set is denoted by {s}{s}.</p>
+</div>
+<div id="example-sxxin-n-7x9-8" class="section level4">
+<h4>Example} <span class="math inline">\(S={x|x\in N, 7&lt;x&lt;9} = {8}\)</span></h4>
+</div>
+<div id="equal-set" class="section level4">
+<h4>Equal Set}</h4>
+<p>If two sets contain the same elements they are said to be equal.</p>
+<p>If A={1,2,6}A={1,2,6} and B={6,1,2}B={6,1,2}, they are equal as every element of set A is an element of set B and every element of set B is an element of set A.</p>
+<p>If the cardinalities of two sets are same, they are called equivalent sets.</p>
+</div>
+<div id="example-if-a126a126-and-b161722b161722-they-are-equivalent-as-cardinality-of-a-is-equal-to-the-cardinality-of-b.-i.e.-ab3ab3" class="section level4">
+<h4>Example} If A={1,2,6}A={1,2,6} and B={16,17,22}B={16,17,22}, they are equivalent as cardinality of A is equal to the cardinality of B. i.e. |A|=|B|=3|A|=|B|=3</h4>
+</div>
+<div id="overlapping-set" class="section level4">
+<h4>Overlapping Set}</h4>
+<p>Two sets that have at least one common element are called overlapping sets.</p>
+<p>In case of overlapping sets −</p>
+<p><span class="math display">\[n(A\cupB)=n(A)+n(B)−n(A\cap B)\]</span> <span class="math display">\[n(A\cupB)=n(A−B)+n(B−A)+n(A\cap B)\]</span> <span class="math display">\[n(A)=n(A−B)+n(A\cap B)\]</span> <span class="math display">\[n(B)=n(B−A)+n(A\cap B)\]</span></p>
+</div>
+<div id="example-let-a126-and-b61242.-there-is-a-common-element-6-hence-these-sets-are-overlapping-sets." class="section level4">
+<h4>Example} Let, <span class="math inline">\(A={1,2,6}\)</span> and <span class="math inline">\(B={6,12,42}\)</span>. There is a common element ‘6’, hence these sets are overlapping sets.</h4>
+<p>Two sets A and B are called disjoint sets if they do not have even one element in common. Therefore, disjoint sets have the following properties −</p>
+<p><span class="math display">\[n(A\cap B)=\varnothing\]</span> <span class="math display">\[n(A\cup B)=n(A)+n(B)\]</span> #### Example} Let, A={1,2,6}A={1,2,6} and B={7,9,14}B={7,9,14}, there is not a single common element, hence these sets are overlapping sets.</p>
+<p>%-% #### Complement and universal set}</p>
+<p>The universal set (if it exists), usually denoted U, is a set of which everything conceivable is a member. In pure set theory, normally sets are the only objects considered (unlike here, where we have also considered numbers, colours and books, for example); in this case U would be the set of all sets. (Non-set objects, where they are allowed, are called ‘urelemente’ and are discussed below.)</p>
+<p>In the presence of a universal set we can define X′, the complement of X, to be <span class="math inline">\(U−X\)</span>. X′ contains everything in the universe apart from the elements of X. We could alternatively have defined it as</p>
+<p><span class="math display">\[X′ = \{x | \tilde (x\in X)\}\]</span> and U as the complement of the empty set.</p>
+<p>{Equal and Equivalent Sets}</p>
+<p>%%-  Difference between equal sets and equivalent sets</p>
+<ul>
+<li><p>Consider the sets {A} and {B} <span class="math display">\[ \boldsymbol{A} = \{ 1,2,3,4,5,6 \} \]</span> <span class="math display">\[ \boldsymbol{B} = \{1,2,3,4,5,6 \} \]</span></p></li>
+<li><p>{A} and {B} are  sets because  their elements are precisely the .</p></li>
+</ul>
+</div>
+<div id="equal-and-equivalent-sets" class="section level4">
+<h4>Equal and Equivalent Sets</h4>
+<p>Difference between equal sets and equivalent sets</p>
+<ul>
+<li><p>Consider the sets {C} and {D} <span class="math display">\[ \boldsymbol{C} = \{a,b,c,d,e,f\} \]</span> <span class="math display">\[ \boldsymbol{D} = \{3,4,5,6,7,8\} \]</span></p></li>
+<li><p>{C} and {D} are  sets because the cardinality of both the sets is the same (i.e. 6.)</p></li>
+<li><p>However {C} and {D} are not equal, as they are comprised of different elements.</p></li>
+<li><p>Necessarily all equal sets are equivalent sets.</p></li>
+<li><p>But are equivalent sets equal sets?</p></li>
+<li><p>No, because equivalent sets are sets that have the  cardinality but equal sets are sets that all their elements are precisely the .</p></li>
+</ul>
+</div>
+<div id="example-2" class="section level4">
+<h4>Example}:</h4>
+<ul>
+<li>{X}={p,q,r} and {Y}={1,2,3} are equivalent sets</li>
+<li>{E} ={m,n,o,p} and {F}={m,n,o,p} are equal and equivalent sets</li>
+</ul>
+</div>
+</div>
+<div id="ordered-lists" class="section level3">
+<h3>Ordered Lists</h3>
+<p>If we consider “the songs on my iPod” as a familiar example of a set, then “a playlist on my iPod” is the corresponding example of an ordered list. Key properties of ordered lists include:</p>
+<ul>
+<li>Order of elements in an ordered list is relevant.</li>
+<li>Repetition of elements in an ordered list is relevant.</li>
+</ul>
+<p>Explicit notion for writing ordered lists is similar to that for sets; however, we use parentheses instead of curly braces. For example:</p>
+<ul>
+<li>(1,2) is an ordered list that is different than (2,1)</li>
+<li>(1,1) is an ordered list that is different than (1)</li>
+</ul>
+<p>From now on, expressions with parentheses “( , , , )” and expressions with curly braces “{ , , , }” have very distinct meanings!</p>
+<p>The length of an ordered list is, intuitively speaking, just like the number of songs in a playlist. For example:</p>
+<ul>
+<li>The length of (1,10) is 2</li>
+<li>The length of (1,1,2,2) is 4 An ordered pair is an ordered list of length two. We will use ordered pairs very often in our study of the Web; we will use longer ordered lists less often. Also, we will never attempt to define the cardinality of an ordered list. Sets have cardinality. Ordered lists have length.</li>
+</ul>
+<p>Any element in an ordered list can itself be an ordered list or a set. Any object in a set can be a set or an ordered list.</p>
+<p>For example: {(1,2),(3,4)} is a set of two elements, each of which is an ordered pair. One of the elements of the set is (1,2) and the other element of the set is (3,4). ({1,2},{3},{2,4}) is an ordered list of sets. The first element of the list is the set {1,2}; the second element of the list is the set {3}; the third element of the list is the set {2,4}.</p>
+</div>
+<div id="power-sets" class="section level3">
+<h3>Power Sets}</h3>
+<div id="worked-example" class="section level4">
+<h4>Worked Example}</h4>
+<p>Consider the set <span class="math inline">\(Z\)</span>: <span class="math display">\[ Z = \{ a,b,c\}  \]</span></p>
+<ul>
+<li>[Q1] How many sets are in the power set of <span class="math inline">\(Z\)</span>?</li>
+<li>[Q2] Write out the power set of <span class="math inline">\(Z\)</span>.</li>
+<li>[Q3] How many elements are in each element set?</li>
+</ul>
+<p>%-% #### Solutions to Worked Example}</p>
+<ul>
+<li><p>[Q1] There are 3 elements in <span class="math inline">\(Z\)</span>. So there is <span class="math inline">\(2^3 = 8\)</span> element sets contained in the power set.</p></li>
+<li><p>[Q2] Write out the power set of <span class="math inline">\(Z\)</span>. <span class="math display">\[ \mathcal{P}(Z) = \{ \{0\}, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\} \]</span></p></li>
+<li><p>[Q3]</p></li>
+<li><p>[*] One element set is the null set - i.e. containing no elements * [<span class="math inline">\(\bullet\)</span>] Three element sets have only elements * [<span class="math inline">\(\bullet\)</span>] Three element sets have two elements * [<span class="math inline">\(\bullet\)</span>] One element set contains all three elements * [<span class="math inline">\(\bullet\)</span>] 1+3+3+1=8</p></li>
+</ul>
+</div>
+<div id="exercise" class="section level4">
+<h4>Exercise}</h4>
+<p>For the set <span class="math inline">\(Y = \{u,v,w,x\}\)</span> , answer the questions from the previous exercise</p>
+</div>
+<div id="partitioning-of-a-set" class="section level4">
+<h4>Partitioning of a Set</h4>
+<p>Partition of a set, say S, is a collection of n disjoint subsets, say <span class="math inline">\(P1,P2 \ldots Pn\)</span> that satisfies the following three conditions :</p>
+<ul>
+<li><span class="math inline">\(Pi\)</span> does not contain the empty set.</li>
+</ul>
+<p><span class="math inline">\([Pi \neq {\varnothing} for all 0&lt;i\leq n]\)</span> * The union of the subsets must equal the entire original set.</p>
+<p><span class="math display">\[P1 \cup P2 \cup \ldots \cup Pn=S\]</span> * The Intersection of any two distinct sets is empty.</p>
+<p><span class="math display">\[Pa \cap Pb={\varnothing}, for a\neq b where n\geq a,b\geq 0\]</span></p>
+<p>%-%</p>
+<p>Let <span class="math inline">\(S={a,b,c,d,e,f,g,h}\)</span></p>
+<ul>
+<li>One probable partitioning is <span class="math inline">\({a},{b,c,d},{e,f,g,h}\)</span></li>
+<li>Another probable partitioning is <span class="math inline">\({a,b},{c,d},{e,f,g,h}\)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="set-operations" class="section level1" data-navmenu="Section 2">
+<h1 data-navmenu="Section 2">Set Operations</h1>
+<div id="column-10" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="set-theory-operations" class="section level3">
+<h3>Set Theory Operations</h3>
+<ul>
+<li>The Universal Set <span class="math inline">\(\mathcal{U}\)</span></li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="right"></th>
+<th align="right">Operation</th>
+<th align="right">Notation</th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right"></td>
+<td align="right">Union</td>
+<td align="right"><span class="math inline">\(A \cup B\)</span></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="right"></td>
+<td align="right">Intersection</td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="right"></td>
+<td align="right">Set Difference</td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="right"></td>
+<td align="right">Relative Difference</td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="intersection" class="section level3">
+<h3>Intersection</h3>
+<ul>
+<li><p>Intersection of two sets describes the elements that are members of both the specified Sets</p></li>
+<li><p>The intersection is denoted <span class="math inline">\(\mathcal{A\cap B}\)</span> <span class="math display">\[ \mathcal{A\cap B} = \{2\}\]</span></p></li>
+<li><p>only one element is a member of both A and B.</p></li>
+</ul>
+</div>
+<div id="relative-difference" class="section level3">
+<h3>Relative Difference</h3>
+<p>$ A B$</p>
+<div id="set-difference" class="section level4">
+<h4>Set difference</h4>
+<p>The difference X minus Y, written X-Y or <span class="math inline">\(X\|Y\)</span>, contains all those elements in X that are not also in Y. For example, E-A contains all integers greater than 3. A-B is just A; red, green and blue were not elements of A, so no difference is made by excluding them.</p>
+</div>
+<div id="set-difference-1" class="section level4">
+<h4>Set Difference</h4>
+<ul>
+<li><p>The Set Difference of A with regard to B are list of elements of A not contained by B.</p></li>
+<li><p>The complements are denoted <span class="math inline">\(\mathcal{A-B}\)</span> and <span class="math inline">\(\mathcal{B-A}\)</span> <span class="math display">\[ \mathcal{A-B} = \{1,3,5,7\}, \]</span></p></li>
+</ul>
+<p><span class="math display">\[ \mathcal{B-A} = \{4,6,8\}, \]</span></p>
+</div>
+<div id="set-difference-relative-complement" class="section level4">
+<h4>Set Difference/ Relative Complement</h4>
+<p>The set difference of sets A and B (denoted by <span class="math inline">\(A–B\)</span>) is the set of elements which are only in A but not in B. Hence, <span class="math inline">\(A-B={x|x \in A AND x \notin B}\)</span>. Example: If <span class="math inline">\(A={10,11,12,13}\)</span> and <span class="math inline">\(B={13,14,15}\)</span>, then <span class="math inline">\((A-B)={10,11,12}\)</span> and <span class="math inline">\((B-A)={14,15}\)</span>. Here, we can see (A-B)?(B-A)(A-B)?(B-A) Set Difference</p>
+</div>
 </div>
 <div id="power-set" class="section level3">
 <h3>Power set</h3>
 <p>The power set of X, <span class="math inline">\(P(X)\)</span>, is the set whose elements are all the subsets of X. Thus <span class="math display">\[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]</span>. The power set of the empty set <span class="math inline">\(P(\{\})\)</span> = <span class="math inline">\(\{\{\}\}\)</span>.</p>
 <p>Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set.</p>
+<div id="power-set-1" class="section level4">
+<h4>Power Set</h4>
+<p>Power set of a set S is the set of all subsets of S including the empty set. The cardinality of a power set of a set S of cardinality n is <span class="math inline">\(2^n\)</span>. Power set is denoted as <span class="math inline">\(P(S)\)</span>.</p>
+<p>Example</p>
+<p>For a set <span class="math inline">\(S={a,b,c,d}\)</span> let us calculate the subsets</p>
+<ul>
+<li>Subsets with 0 elements : <span class="math inline">\(\{ \varnothing\}\)</span> (the empty set)</li>
+<li>Subsets with 1 element : {a},{b},{c},{d}</li>
+<li>Subsets with 2 elements : {a,b},{a,c},{a,d},{b,c},{b,d},{c,d}</li>
+<li>Subsets with 3 elements : {a,b,c},{a,b,d},{a,c,d},{b,c,d}</li>
+<li>Subsets with 4 elements : {a,b,c,d}</li>
+</ul>
+<p>Hence, <span class="math display">\[P(S)=
+{{\varnothing},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}\]</span> <span class="math display">\[|P(S)|=2^4=16\]</span> Note: The power set of an empty set is also an empty set.</p>
+<p><span class="math inline">\(|P({\varnothing})|=2^0=1\)</span></p>
+</div>
+<div id="power-set-2" class="section level4">
+<h4>Power set</h4>
+<p>The power set of X, <span class="math inline">\(P(X)\)</span>, is the set whose elements are all the subsets of X. Thus <span class="math display">\[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}.\]</span> The power set of the empty set <span class="math inline">\(P(\{\})\)</span> = <span class="math inline">\(\{\{\}\}\)</span>.</p>
+<p>Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set.</p>
+</div>
+<div id="power-sets-1" class="section level4">
+<h4>Power Sets</h4>
+<ul>
+<li><p>Consider the set A where $ A = {w,x,y,z}$</p></li>
+<li><p>There are 4 elements in set A.</p></li>
+<li><p>The power set of A contains 16 element data sets.</p></li>
+</ul>
+<p><span class="math display">\[  \mathcal{P}(A) = \{\{ x \}, \{ y \} \{\{ x,y \}, \{ w,y \}\}  \]</span></p>
+<ul>
+<li>(i.e. 1 null set, 4 single element sets, 6 two -elements sets, 4 three element set and 1 four element set.)</li>
+</ul>
+</div>
+</div>
+<div id="cartesian-product" class="section level3">
+<h3>Cartesian Product</h3>
 <p>In set theory, the Cartesian product of two sets A and B, denoted A × B, is the set of all ordered pairs (a, b) where a is in A and b is in B. Cartesian Product is the multiplication of two sets to form the set of all ordered pairs. The first element of the ordered pair belong to first set and second pair belong the second set.</p>
 </div>
 </div>
 </div>
 <div id="logic" class="section level1" data-navmenu="Section 2">
 <h1 data-navmenu="Section 2">Logic</h1>
-<div id="column-10" class="section level2 tabset">
+<div id="column-11" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="logical-operations" class="section level3">
 <h3>Logical Operations</h3>
@@ -3521,7 +3814,7 @@ Truth Tables
 </div>
 <div id="set-theory---worksheets" class="section level1" data-navmenu="Section 2">
 <h1 data-navmenu="Section 2">Set Theory - Worksheets</h1>
-<div id="column-11" class="section level2 tabset">
+<div id="column-12" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="worksheets-1" class="section level3">
 <h3>Worksheets 1</h3>
@@ -3630,7 +3923,7 @@ Truth Tables
 </div>
 <div id="logic---worksheets" class="section level1" data-navmenu="Section 2">
 <h1 data-navmenu="Section 2">Logic - Worksheets</h1>
-<div id="column-12" class="section level2 tabset">
+<div id="column-13" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1-1" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -3748,7 +4041,7 @@ p : this apple is red,
 </div>
 <div id="functions" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Functions</h1>
-<div id="column-13" class="section level2 tabset">
+<div id="column-14" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="functions-1" class="section level3">
 <h3>Functions</h3>
@@ -3758,7 +4051,7 @@ p : this apple is red,
 <li><a href="https://www.youtube.com/watch?v=/IXs5CTQnBU4">Floor Functions Exercise HD </a></li>
 </ul>
 </div>
-<div id="cartesian-product" class="section level3">
+<div id="cartesian-product-1" class="section level3">
 <h3>Cartesian Product</h3>
 <p><span class="math inline">\(X \times Y\)</span></p>
 <p><span class="math inline">\(X = \{1,2,3\}\)</span></p>
@@ -3769,7 +4062,7 @@ p : this apple is red,
 </div>
 <div id="mathematical-functions" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Mathematical Functions</h1>
-<div id="column-14" class="section level2 tabset">
+<div id="column-15" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="logarithms" class="section level3">
 <h3>Logarithms</h3>
@@ -3831,7 +4124,7 @@ p : this apple is red,
 <h3>Change of Base</h3>
 <p><span class="math display">\[ Log_b(x) = \frac{1}{Log_x(b)}  \]</span></p>
 <p><span class="math display">\[ Log_b(x) = \frac{Log_a(b)}{Log_a(b)}  \]</span></p>
-<div id="worked-example" class="section level4">
+<div id="worked-example-1" class="section level4">
 <h4>Worked Example</h4>
 <p><span class="math display">\[ log_3(x) + 3 log_x(3) = 4  \]</span></p>
 <p><span class="math display">\[ \left(log_3(x)\right)^2 + 3  = 4 log_3(x)  \]</span></p>
@@ -3883,7 +4176,7 @@ p : this apple is red,
 </div>
 <div id="invertible-functions" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Invertible Functions</h1>
-<div id="column-15" class="section level2 tabset">
+<div id="column-16" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="invertible-functions-1" class="section level3">
 <h3>Invertible Functions</h3>
@@ -3899,7 +4192,7 @@ p : this apple is red,
 </div>
 <div id="big-o-notation" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Big <span class="math inline">\(O\)</span> notation</h1>
-<div id="column-16" class="section level2 tabset">
+<div id="column-17" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="big-o-notation-1" class="section level3">
 <h3>Big <span class="math inline">\(O\)</span> notation</h3>
@@ -3927,7 +4220,7 @@ p : this apple is red,
 </div>
 <div id="exercises-functions" class="section level1" data-navmenu="Section 3">
 <h1 data-navmenu="Section 3">Exercises: Functions</h1>
-<div id="column-17" class="section level2 tabset">
+<div id="column-18" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1-2" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -4009,7 +4302,7 @@ p : this apple is red,
 </div>
 <div id="graph-theory" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Graph Theory</h1>
-<div id="column-18" class="section level2 tabset">
+<div id="column-19" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="graph-theory-1" class="section level3">
 <h3>Graph Theory</h3>
@@ -4031,34 +4324,25 @@ p : this apple is red,
 <li><p><a href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a></p></li>
 <li><p><a title="Weighted Graphs " href="http://youtube.com/watch?v=/MurOpIGCmhQ">Weighted Graphs</a> [6:02]</p></li>
 <li><p><a title="Degree Sequence of a Graph" href="https://www.youtube.com/watch?v=D-W7VdUQBto">Degree Sequence of a Graph</a></p></li>
-<li><p><a title="Complete Graphs" href="http://youtube.com/watch?v=/wvoEtJOht9g">Complete Graphs</a></p></li>
-<li><p><a title="Regular Graphs" href="http://youtube.com/watch?v=/W757kOQvDww">Regular Graphs</a></p></li>
-<li><p><a title="Adjacency List" href="http://youtube.com/watch?v=/pms38inEdzg">Adjacency List:</a> Using an adjacency list to construct a graph.</p></li>
-<li><p><a title="Adjacency List" href="http://youtube.com/watch?v=/imYq0rFJlHc">Adjacency List</a> ( Worked Example)</p></li>
-<li><p><a title="Non-Isomorphic Graphs" href="http://youtube.com/watch?v=/U-7kcP6AZX8">Non-Isomorphic Graphs</a> [4:01]</p></li>
-<li><p><a href="http://youtube.com/watch?v=/PIGyXIWeqZg">Walks and Paths in Graphs</a> [9.20]</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]</p></li>
 </ul>
 </div>
 <div id="graph-theory-terms" class="section level3">
 <h3>Graph Theory Terms</h3>
 <div id="graph-theory-2" class="section level4">
 <h4>Graph Theory</h4>
+<p><em>Eulerian Paths and Cycles</em></p>
 <ul>
-<li><p><a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a> – 2010 Question [4:58]</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a> [9:20]</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a> [11:22]</p></li>
-<li><p><a title="Weighted Graphs " href="http://youtube.com/watch?v=/MurOpIGCmhQ">Weighted Graphs</a> [6:02]</p></li>
+<li><p><a href="https://youtu.be/DFAxYeO-baU">Video</a></p></li>
+<li><p><a title="Complete Graphs" href="http://youtube.com/watch?v=/wvoEtJOht9g">Complete Graphs</a></p></li>
+<li><p><a title="Regular Graphs" href="https://youtu.be/Tvf3FqUGJqo">Regular Graphs</a></p></li>
+<li><p><a title="Adjacency List" href="http://youtube.com/watch?v=/pms38inEdzg">Adjacency List:</a> Using an adjacency list to construct a graph.</p></li>
+<li><p><a title="Adjacency List" href="http://youtube.com/watch?v=/imYq0rFJlHc">Adjacency List</a> ( Worked Example)</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]</p></li>
 <li><p><a href="https://www.youtube.com/watch?v=/s1f3nCOOzz8"></a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=/imYq0rFJlHc">Adjacency List ( Worked Example)</a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=/D-W7VdUQBto">Degree Sequence of a Graph</a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=/wvoEtJOht9g">Complete Graphs</a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=/W757kOQvDww">Regular Graphs</a></p></li>
 <li><p><a href="https://youtube.com/watch?v=/OFvd4eFOgGA"> Using Adjacency Lists in Graph Theory </a></p></li>
 <li><p><a href="https://youtube.com/watch?v=/nSpla9Opu4s"> Important Graph Theory Terms </a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=/E4GNXq9dUO0">Eulers Formula for Planar Graphs [5:42]</a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory </a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=/pms38inEdzg">Adjacency List: Using an adjacency list to construct a graph.</a></p></li>
 </ul>
 </div>
 </div>
@@ -4149,7 +4433,7 @@ Euler’s Formula
 </div>
 <div id="isomorphic-graphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Isomorphic Graphs</h1>
-<div id="column-19" class="section level2 tabset">
+<div id="column-20" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="isomorphic-graphs-1" class="section level3">
 <h3>Isomorphic Graphs</h3>
@@ -4187,13 +4471,13 @@ Isomorphic Graphs: Videos
 </div>
 <div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Paths and Cycles in Graphs</h1>
-<div id="column-20" class="section level2 tabset">
+<div id="column-21" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="paths-and-cycles-in-graphs-1" class="section level3">
 <h3>Paths and Cycles in Graphs</h3>
 <ul>
 <li><a title="Paths and Cycles in Graph Theory" href="http://youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory</a></li>
-<li><a href="https://www.youtube.com/watch?v=DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a></li>
+<li><a href="https://youtu.be/DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a></li>
 <li><a href="https://www.youtube.com/watch?v=/PIGyXIWeqZg">Walks and Paths in Graphs</a></li>
 <li><a href="https://youtube.com/watch?v=/5bpRc0FJNnM"> Paths and Cycles in Graph Theory </a></li>
 </ul>
@@ -4202,7 +4486,7 @@ Isomorphic Graphs: Videos
 </div>
 <div id="trees" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Trees</h1>
-<div id="column-21" class="section level2 tabset">
+<div id="column-22" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-to-trees" class="section level3">
 <h3>Introduction to Trees</h3>
@@ -4277,7 +4561,7 @@ Binary Search Trees
 </div>
 <div id="binary-search-trees" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Binary Search Trees</h1>
-<div id="column-22" class="section level2 tabset">
+<div id="column-23" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="binary-search-trees-1" class="section level3">
 <h3>Binary Search Trees</h3>
@@ -4310,7 +4594,7 @@ Binary Search Trees
 </div>
 <div id="relations-and-digraphs" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Relations and Digraphs</h1>
-<div id="column-23" class="section level2 tabset">
+<div id="column-24" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="digraphs-and-relations" class="section level4">
 <h4>Digraphs and Relations</h4>
@@ -4368,7 +4652,7 @@ Since 0 does not divide 0, therefore R is not re?exive.
 </div>
 <div id="graph-theory---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Graph Theory - Worksheets</h1>
-<div id="column-24" class="section level2 tabset">
+<div id="column-25" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1-3" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -4414,7 +4698,7 @@ Since 0 does not divide 0, therefore R is not re?exive.
 </div>
 <div id="trees---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Trees - Worksheets</h1>
-<div id="column-25" class="section level2 tabset">
+<div id="column-26" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="worksheets-1-1" class="section level3">
 <h3>Worksheets 1</h3>
@@ -4491,7 +4775,7 @@ Since 0 does not divide 0, therefore R is not re?exive.
 </div>
 <div id="digraphs-and-relations---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Digraphs and Relations - Worksheets</h1>
-<div id="column-26" class="section level2 tabset">
+<div id="column-27" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1-4" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -4574,7 +4858,7 @@ Daisy is dominant over Eve, Amy and Beth
 </div>
 <div id="sequences-and-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Sequences and Series</h1>
-<div id="column-27" class="section level2 tabset">
+<div id="column-28" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
@@ -4656,7 +4940,7 @@ Daisy is dominant over Eve, Amy and Beth
 </div>
 <div id="progressions" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Progressions</h1>
-<div id="column-28" class="section level2 tabset">
+<div id="column-29" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-1" class="section level3">
 <h3>Introduction</h3>
@@ -4784,7 +5068,7 @@ Every sequence <span class="math inline">\(a_n\)</span> has a corresponding seri
 </div>
 <div id="finite-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Finite Series</h1>
-<div id="column-29" class="section level2 tabset">
+<div id="column-30" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="finite-series-and-sigma-notation" class="section level3">
 <h3>Finite Series and Sigma Notation</h3>
@@ -4854,7 +5138,7 @@ Step 2
 </div>
 <div id="telescoping-series" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Telescoping Series</h1>
-<div id="column-30" class="section level2 tabset">
+<div id="column-31" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="telescoping-series-1" class="section level3">
 <h3>Telescoping Series</h3>
@@ -4879,7 +5163,7 @@ Step 2
 </div>
 <div id="recurrence-relation" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Recurrence Relation</h1>
-<div id="column-31" class="section level2 tabset">
+<div id="column-32" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="recurrence-relation-1" class="section level3">
 <h3>Recurrence Relation</h3>
@@ -4902,7 +5186,7 @@ Step 2
 <p>A recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given:</p>
 <p>each further term of the sequence is defined as a function of the preceding terms. The term difference equation sometimes refers to a specific type of recurrence relation.</p>
 <p>However, “difference equation” is frequently used to refer to any recurrence relation.</p>
-<div id="worked-example-1" class="section level4">
+<div id="worked-example-2" class="section level4">
 <h4>Worked Example</h4>
 <p>Recurrence Relations</p>
 <p></p>
@@ -4935,7 +5219,7 @@ n    &amp; u_{n-1} &amp; 2n-1 &amp; u_n \\ \hline
 </div>
 <div id="proof-by-induction" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Proof By Induction</h1>
-<div id="column-32" class="section level2 tabset">
+<div id="column-33" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="recurrence-relations-proof-by-induction" class="section level3">
 <h3>Recurrence Relations : Proof by Induction</h3>
@@ -4984,7 +5268,7 @@ n    &amp; u_{n-1} &amp; 2n-1 &amp; u_n \\ \hline
 </div>
 <div id="ratio-test" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Ratio Test</h1>
-<div id="column-33" class="section level2 tabset">
+<div id="column-34" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="infinite-series" class="section level3">
 <h3>Infinite Series</h3>
@@ -5045,7 +5329,7 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 </div>
 <div id="convergence-testing" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Convergence Testing</h1>
-<div id="column-34" class="section level2 tabset">
+<div id="column-35" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="convergence-tests" class="section level3">
 <h3>Convergence Tests</h3>
@@ -5084,7 +5368,7 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 </div>
 <div id="exercises-series-and-summations" class="section level1" data-navmenu="Section 5">
 <h1 data-navmenu="Section 5">Exercises: Series and Summations</h1>
-<div id="column-35" class="section level2 tabset">
+<div id="column-36" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1-5" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -5110,6 +5394,19 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 </div>
 <div id="question-4-8" class="section level4">
 <h4>Question 4</h4>
+<p>Find the sum of the following geometric series <span class="math display">\[ 3 + 6 + 12 + 24 + \ldots + 3072 \]</span></p>
+<h5>
+Solution
+</h5>
+<ul>
+<li><a href="https://youtu.be/q6cYD8Ohgno">Solution to this exercise</a></li>
+</ul>
+</div>
+</div>
+<div id="worksheet-2" class="section level3">
+<h3>Worksheet 2</h3>
+<div id="question-1-13" class="section level4">
+<h4>Question 1</h4>
 <p>Find a recurrence relation which expresses <span class="math inline">\(s_{n+1}\)</span> in terms of <span class="math inline">\(s_n\)</span>.</p>
 </div>
 </div>
@@ -5117,7 +5414,7 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 </div>
 <div id="probability" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Probability</h1>
-<div id="column-36" class="section level2 tabset">
+<div id="column-37" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-2" class="section level3">
 <h3>Introduction</h3>
@@ -5165,7 +5462,7 @@ For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three d
 </div>
 <div id="counting-problems" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Counting Problems</h1>
-<div id="column-37" class="section level2 tabset">
+<div id="column-38" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="counting-problems-1" class="section level3">
 <h3>Counting Problems</h3>
@@ -5241,7 +5538,7 @@ Videos
 </div>
 <div id="matrices" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Matrices</h1>
-<div id="column-38" class="section level2 tabset">
+<div id="column-39" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-3" class="section level3">
 <h3>Introduction</h3>
@@ -5301,7 +5598,7 @@ c_2 &amp; d_2
 (a_1 \times c_1) + (a_2 \times c_2) &amp; (a_1 \times d_1) + (a_2 \times d_2) \\ 
 (b_1 \times c_1) + (b_2 \times c_2) &amp; (b_1 \times d_1) + (b_2 \times d_2)
 \end{array} \right) \]</span></p>
-<div id="example" class="section level4">
+<div id="example-3" class="section level4">
 <h4>Example</h4>
 <p><span class="math display">\[ \left(
 \begin{array}{cc}
@@ -5397,7 +5694,7 @@ I_{1}={\begin{bmatrix}1\end{bmatrix}},\ I_{2}={\begin{bmatrix}1&amp;0\\0&amp;1\e
 </div>
 <div id="linear-algebra" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Linear Algebra</h1>
-<div id="column-39" class="section level2 tabset">
+<div id="column-40" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-4" class="section level3">
 <h3>Introduction</h3>
@@ -5416,7 +5713,7 @@ I_{1}={\begin{bmatrix}1\end{bmatrix}},\ I_{2}={\begin{bmatrix}1&amp;0\\0&amp;1\e
 0 &amp; 0 &amp; 1 &amp; a_4 &amp; a_5 \\
 0 &amp; 0 &amp; 0 &amp; 1 &amp; a_6
 \end{array} \right]\]</span></p>
-<div id="worked-example-2" class="section level4">
+<div id="worked-example-3" class="section level4">
 <h4>Worked Example</h4>
 <p><span class="math display">\[
 {\begin{array}{ccccc}
@@ -5471,7 +5768,7 @@ I_{1}={\begin{bmatrix}1\end{bmatrix}},\ I_{2}={\begin{bmatrix}1&amp;0\\0&amp;1\e
 </div>
 <div id="systems-of-linear-equations" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Systems of Linear Equations</h1>
-<div id="column-40" class="section level2 tabset">
+<div id="column-41" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="augmented-matrices" class="section level3">
 <h3>Augmented Matrices</h3>
@@ -5519,11 +5816,11 @@ a_{31}x_{1} + a_{32}x_{2} + a_{33}x_{3} = b_3 \\ \]</span></p>
 </div>
 <div id="counting-problems---worksheets" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Counting Problems - Worksheets</h1>
-<div id="column-41" class="section level2 tabset">
+<div id="column-42" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1-6" class="section level3">
 <h3>Work Sheet 1</h3>
-<div id="question-1-13" class="section level4">
+<div id="question-1-14" class="section level4">
 <h4>Question 1</h4>
 <p><span class="math display">\[ {n \choose k} = \frac{n!}{k! \times (n-k)!} \]</span> Evaluate the following:</p>
 <pre><code>\item[1] ${5 \choose 2}$
@@ -5570,11 +5867,11 @@ a_{31}x_{1} + a_{32}x_{2} + a_{33}x_{3} = b_3 \\ \]</span></p>
 </div>
 <div id="matrices---worksheets" class="section level1" data-navmenu="Section 6">
 <h1 data-navmenu="Section 6">Matrices - Worksheets</h1>
-<div id="column-42" class="section level2 tabset">
+<div id="column-43" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1-7" class="section level3">
 <h3>Work Sheet 1</h3>
-<div id="question-1-14" class="section level4">
+<div id="question-1-15" class="section level4">
 <h4>Question 1</h4>
 <p>Consider the following matrices $A} and $B} which are given as</p>
 <p><span class="math display">\[ A = \left(
@@ -5592,9 +5889,9 @@ B = \left(
 \end{array}
 \right)
 \]</span></p>
-</div>
-<div id="question-1-15" class="section level4">
-<h4>Question 1</h4>
+<h5>
+Questions
+</h5>
 <ol style="list-style-type: lower-alpha">
 <li><p>Show that <span class="math inline">\(AB\)</span> and <span class="math inline">\(BA\)</span> are not equal.</p></li>
 <li><p>Find matrices <span class="math inline">\(C\)</span>, <span class="math inline">\(D\)</span> and <span class="math inline">\(E\)</span> such that</p></li>
@@ -5604,16 +5901,121 @@ B = \left(
 <li><p><span class="math inline">\(BD\)</span> = <span class="math inline">\(B\)</span></p></li>
 <li><p><span class="math inline">\(B\)</span> - <span class="math inline">\(E\)</span> = <span class="math inline">\(A\)</span>.</p></li>
 </ol>
+<p><hline></p>
 </div>
 <div id="question-2-12" class="section level4">
 <h4>Question 2</h4>
+<p><span class="math display">\[A = \begin{bmatrix}
+-4 &amp; 3 \\
+2 &amp; 1 \\
+\end{bmatrix} , \qquad
+B = \begin{bmatrix}
+4 &amp; -2 \\
+1 &amp; 3 \\
+\end{bmatrix}, \qquad
+C = \begin{bmatrix}
+-4 &amp; 0 &amp; 5 \\
+1 &amp; -3 &amp; 2\\
+\end{bmatrix}
+\]</span></p>
+<ol style="list-style-type: lower-roman">
+<li><p>Calculate <span class="math inline">\(2BC\)</span></p></li>
+<li><p>Calculate <span class="math inline">\((A+B)C\)</span></p></li>
+</ol>
+<ul>
+<li><a href="https://youtu.be/z1aIiH4bE4k">Solution to this exercise</a></li>
+</ul>
+<p><hline></p>
+</div>
+<div id="question-3-10" class="section level4">
+<h4>Question 3</h4>
+<p><span class="math display">\[A = \begin{bmatrix}
+1 &amp; 3 \\
+-2 &amp; 4 \\
+\end{bmatrix} , \qquad
+B = \begin{bmatrix}
+2 &amp; -3 &amp; 7 \\
+1 &amp; 0 &amp; 2 \\
+\end{bmatrix}, \qquad
+C = \begin{bmatrix}
+1 &amp; - 2 \\
+4 &amp; 3 \\
+0 &amp; 5 \\
+\end{bmatrix}
+\]</span></p>
+<ol style="list-style-type: decimal">
+<li>Calculate <span class="math inline">\(A+BC\)</span></li>
+<li>Calculate <span class="math inline">\(CB\)</span></li>
+</ol>
+<h5>
+Solution
+</h5>
+<ul>
+<li><a href="https://youtu.be/FtyNlZIsiXg">Solution to this exercise (Part 1)</a></li>
+<li><a href="https://youtu.be/Xwg6VB_ooHk">Solution to this exercise (Part 2)</a></li>
+</ul>
+</div>
+<div id="question-4-10" class="section level4">
+<h4>Question 4</h4>
 <ol style="list-style-type: lower-alpha">
 <li><p>Write down the augmented matrix for the following system of equations.</p></li>
 <li><p>Use Gaussian elimination to solve the system.</p></li>
 </ol>
+<p>
+</div>
+<div id="question-5-2" class="section level4">
+<h4>Question 5</h4>
+<p>Calculate the following if possible: <span class="math inline">\(AB\)</span>,<span class="math inline">\(BA\)</span>, <span class="math inline">\(AC\)</span> and <span class="math inline">\(C^{T}\)</span> <span class="math display">\[A = \begin{bmatrix}
+2 &amp; 2 \\
+3 &amp; 6 \\
+\end{bmatrix} , \qquad
+B = \begin{bmatrix}
+-1 &amp; 3 \\
+2 &amp; -2 \\
+\end{bmatrix}, \qquad
+C = \begin{bmatrix}
+2 &amp; - 2 \\
+1 &amp; 4 \\
+1 &amp; 1 \\
+\end{bmatrix}
+\]</span></p>
+<h5>
+Solution
+</h5>
+<ul>
+<li><a href="https://youtu.be/tdVrjFFq1A8">Solution to this exercise</a></li>
+</ul>
+<p>
+</div>
+<div id="question-6-2" class="section level4">
+<h4>Question 6</h4>
+<p>Given the matrices</p>
+<p><span class="math display">\[A = \begin{bmatrix}
+0 &amp; 2 &amp; 3 \\
+2 &amp; 3 &amp; 1
+2 &amp; 1 &amp; 3 \\
+\end{bmatrix} \mbox{ and }
+B = \begin{bmatrix}
+2  \\
+4  \\
+2  \\
+\end{bmatrix}
+\]</span></p>
+<ol style="list-style-type: decimal">
+<li><p>Calculate <span class="math inline">\(AB\)</span>.</p></li>
+<li><p>Find a matrix <span class="math inline">\(X\)</span> such that <span class="math inline">\(AX = B\)</span></p></li>
+<li><p>Find a matrix <span class="math inline">\(Y\)</span> such that <span class="math inline">\(AY = A\)</span></p></li>
+</ol>
+<h5>
+Solution
+</h5>
+<ul>
+<li><a href="https://youtu.be/Jj_7KiXJb64">Solution to this exercise</a></li>
+</ul>
+<p>
 </div>
 </div>
-<div id="worksheet-2" class="section level3">
+<div id="worksheet-2-1" class="section level3">
 <h3>Worksheet 2</h3>
 <div id="question-1-16" class="section level4">
 <h4>Question 1</h4>
@@ -5646,7 +6048,7 @@ B = \left(
 <h4>Question 2</h4>
 <p>Calculate the angles between the pairs <span class="math inline">\(\vec{u},\vec{v}\)</span>, <span class="math inline">\(\vec{x},\vec{y}\)</span>, and <span class="math inline">\(\vec{w},\vec{z}\)</span> from the previous question. Give your answers in both radians and degrees.</p>
 </div>
-<div id="question-3-10" class="section level4">
+<div id="question-3-11" class="section level4">
 <h4>Question 3</h4>
 <p>For the matrices below, evaluate the following expressions where it is possible. <span class="math display">\[
 A=\left[ \begin{array}{cc} 1  &amp; 2 \\ 3 &amp; 4 \end{array}\right],
