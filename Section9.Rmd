@@ -1,0 +1,59 @@
+---
+title: "Discrete Mathematics - Section 8"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Sequences and Series
+
+<a href="index.html">Back to main page</a>
+
+
+<h3>Section 9</h3>
+
+
+
+
+
+
+
+```{r child="sourcefiles/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
+```
+
+```{r child="sourcefiles/SequenceSeries-Progressions.Rmd"}
+```
+
+
+```{r child="sourcefiles/SequenceSeries-FiniteSeries.Rmd"}
+```
+
+
+
+
+```{r child="sourcefiles/SequenceSeries-TelescopingSeries.Rmd"}
+```
+
+```{r child="sourcefiles/SequenceSeries-RecurrenceRelations.Rmd"}
+```
+
+
+
+```{r child="sourcefiles/SequenceSeries-ProofbyInduction.Rmd"}
+```
+
+```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}
+```

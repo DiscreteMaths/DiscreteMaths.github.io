@@ -1,0 +1,42 @@
+---
+title: "Discrete Mathematics - Section 11"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Probability and Counting Problems
+
+<a href="index.html">Back to main page</a>
+
+
+<h3>Probability and Counting Problems</h3>
+
+
+
+
+```{r child="sourcefiles/Probability.Rmd"}
+```
+
+```{r child="sourcefiles/CountingProblems.Rmd"}
+```
+
+
+```{r child="TutorialSheets/CountingProblems-Tutorial-1.Rmd"}
+```
+
+
+

@@ -1,0 +1,45 @@
+---
+title: "Discrete Mathematics - Section 7"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Graph Theory
+
+<a href="index.html">Back to main page</a>
+
+
+<h3>Graph Theory</h3>
+
+
+
+
+
+
+```{r child="sourcefiles/Graphs-IntroductionToGraphs.Rmd"}
+```
+
+```{r child="sourcefiles/Graphs-Trees.Rmd"}
+```
+
+
+```{r child="TutorialSheets/GraphTheory-Tutorial-1.Rmd"}
+```
+
+```{r child="TutorialSheets/Trees-Tutorial-1.Rmd"}
+```
+

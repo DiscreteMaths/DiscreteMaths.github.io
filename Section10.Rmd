@@ -1,0 +1,37 @@
+---
+title: "Discrete Mathematics - Section 10"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Convergence and Ration Tests
+
+<a href="index.html">Back to main page</a>
+
+
+<h3>Convergence and Ration Tests</h3>
+
+
+
+
+```{r child="sourcefiles/SequenceSeries-RatioTests.Rmd"}
+```
+
+
+```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
+```
+

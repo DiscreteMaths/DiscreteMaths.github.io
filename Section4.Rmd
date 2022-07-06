@@ -1,0 +1,36 @@
+---
+title: "Discrete Mathematics - Section 4"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Logic and Logic Networks
+
+<a href="index.html">Back to main page</a>
+
+
+<h3>Section 4</h3>
+
+```{r child="sourcefiles/Logic-IntroductionToLogic.Rmd"}
+```
+
+
+
+
+
+```{r child="TutorialSheets/Logic-Tutorial-1.Rmd"}
+```

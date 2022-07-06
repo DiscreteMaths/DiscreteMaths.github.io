@@ -1,0 +1,35 @@
+---
+title: "Discrete Mathematics - Section 3"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Set Theory
+
+<a href="index.html">Back to main page</a>
+
+
+<h3>Section 3</h3>
+
+
+```{r child="sourcefiles/Set-IntroductionToSet.Rmd"}
+```
+
+
+
+```{r child="sourcefiles/Set-SetOperations.Rmd"}
+```

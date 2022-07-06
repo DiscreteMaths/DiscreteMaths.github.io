@@ -1,0 +1,47 @@
+---
+title: "Discrete Mathematics"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Contents
+
+
+<h3>Section 12</h3>
+
+
+* Introduction to Matrices
+
+* Systems of Linear Equations
+
+
+
+```{r child="sourcefiles/Matrices-IntroductionToMatrices.Rmd"}
+```
+
+```{r child="sourcefiles/Matrices-LinearAlgebra.Rmd"}
+```
+
+```{r child="sourcefiles/Matrices-LinearEquations.Rmd"}
+```
+
+```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}
+```
+
+
+
+

@@ -22,19 +22,24 @@ Column {.tabset}
 
 || Section | Conponents ||
 |--------|:-----:|:---------------------|----------|
-| | **Section 1**| Introduction to Numbers, Numbers Systems, Binary Numbers, Hexadecimal Numbers, Octal Numbers | |
-| | **Section 2**| Set Theory, Logic, Logic Networks | |
-| | **Section 3**| Functions, Mathematical Functions, Invertible Functions, O-Notation| |
-| | **Section 4**| Graph Theory, Trees, Binary Search Trees| |
-| | **Section 5**| Sequences and Series, Telescoping Series, Finite Series, Proof by Induction, Convergence and Ratio Tests||
-| | **Section 6**| Probability, Counting Problems, Matrices, Systems of Linear Equations||
+| | **Section 1**| Introduction to Numbers and Numbers Systems,  | |
+| | **Section 2**| Binary Numbers, Hexadecimal Numbers, Octal Numbers | |
+| | **Section 3**| <a href="Section3.html"> Set Theory</a> ||
+| | **Section 4**| <a href="Section4.html"> Logic & Logic Networks </a> ||
+| | **Section 5**| Functions, Mathematical Functions, | |
+| | **Section 6**| Invertible Functions & O-Notation| |
+| | **Section 7**| <a href="Section11.html">Graph Theory, Trees, Binary Search Trees</a>| |
+| | **Section 9**| <a href="Section9.html">Sequences and Series, with Telescoping Series</a> ||
+| | **Section 10**| <a href="Section11.html">Proof by Induction, Convergence and Ratio Tests</a>||
+| | **Section 11**| <a href="Section11.html"> Probability and Counting Problems</a>||
+| | **Section 12**| <a href="Section12.html"> Matrices and  Systems of Linear Equations</a> ||
 
 ### Discrete mathematics
 
 
 Discrete mathematics is the common name for the fields of mathematics most generally useful in theoretical computer science. This includes computability theory, computational complexity theory, and information theory. 
 
-*  \textbf{Computability theory} examines the limitations of various theoretical models of the computer, including the most powerful known model - the Turing machine. 
+*  **Computability theory** examines the limitations of various theoretical models of the computer, including the most powerful known model - the Turing machine. 
 
 *  \textbf{Complexity theory} is the study of tractability by computer; some problems, although theoretically soluble by computer, are so expensive in terms of time or space that solving them is likely to remain practically unfeasible, even with rapid advance of computer hardware. 
 
@@ -92,26 +97,9 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 ```
 
 
-```{r child="sourcefiles/Set-IntroductionToSet.Rmd"}
-```
-
-
-
-```{r child="sourcefiles/Set-SetOperations.Rmd"}
-```
-
-
-
-```{r child="sourcefiles/Logic-IntroductionToLogic.Rmd"}
-```
-
 ```{r child="TutorialSheets/Set-Theory-Tutorial-1.Rmd"}
 ```
 
-
-
-```{r child="TutorialSheets/Logic-Tutorial-1.Rmd"}
-```
 
 
 Functions {data-navmenu="Section 3"}
@@ -176,16 +164,6 @@ Necessary Conditions for Invertibility of a Function
 
 
 
-```{r child="sourcefiles/Graphs-IntroductionToGraphs.Rmd"}
-```
-
-```{r child="sourcefiles/Graphs-Trees.Rmd"}
-```
-
-
-
-
-
 ```{r child="sourcefiles/Graphs-BinarySearchTrees.Rmd"}
 ```
 
@@ -193,81 +171,9 @@ Necessary Conditions for Invertibility of a Function
 ```
 
 
-```{r child="TutorialSheets/GraphTheory-Tutorial-1.Rmd"}
-```
 
-
-
-```{r child="TutorialSheets/Trees-Tutorial-1.Rmd"}
-```
 
 
 ```{r child="TutorialSheets/Digraphs-Tutorial-1.Rmd"}
 ```
-
-
-
-
-
-
-```{r child="sourcefiles/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
-```
-
-```{r child="sourcefiles/SequenceSeries-Progressions.Rmd"}
-```
-
-
-```{r child="sourcefiles/SequenceSeries-FiniteSeries.Rmd"}
-```
-
-
-
-
-```{r child="sourcefiles/SequenceSeries-TelescopingSeries.Rmd"}
-```
-
-```{r child="sourcefiles/SequenceSeries-RecurrenceRelations.Rmd"}
-```
-
-
-```{r child="sourcefiles/SequenceSeries-ProofbyInduction.Rmd"}
-```
-
-
-
-```{r child="sourcefiles/SequenceSeries-RatioTests.Rmd"}
-```
-
-
-```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
-```
-
-```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}
-```
-
-```{r child="sourcefiles/Probability.Rmd"}
-```
-
-```{r child="sourcefiles/CountingProblems.Rmd"}
-```
-
-```{r child="sourcefiles/Matrices-IntroductionToMatrices.Rmd"}
-```
-
-```{r child="sourcefiles/Matrices-LinearAlgebra.Rmd"}
-```
-
-```{r child="sourcefiles/Matrices-LinearEquations.Rmd"}
-```
-
-```{r child="TutorialSheets/CountingProblems-Tutorial-1.Rmd"}
-```
-
-```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}
-```
-
-
-
-
-
 
