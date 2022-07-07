@@ -26,11 +26,12 @@ Column {.tabset}
 | | **Section 2**| Binary Numbers, Hexadecimal Numbers, Octal Numbers | |
 | | **Section 3**| <a href="Section3.html"> Set Theory</a> ||
 | | **Section 4**| <a href="Section4.html"> Logic & Logic Networks </a> ||
-| | **Section 5**| Functions, Mathematical Functions, | |
-| | **Section 6**| Invertible Functions & O-Notation| |
-| | **Section 7**| <a href="Section11.html">Graph Theory, Trees, Binary Search Trees</a>| |
+| | **Section 5**| Functions 1: Mathematical Functions, | |
+| | **Section 6**| Functions 2: Invertible Functions & O-Notation| |
+| | **Section 7**| <a href="Section7.html">Graph Theory, Trees, Binary Search Trees</a>| |
+| | **Section 8**| <a href="Section8.html">Digraphs and Relations</a>| |
 | | **Section 9**| <a href="Section9.html">Sequences and Series, with Telescoping Series</a> ||
-| | **Section 10**| <a href="Section11.html">Proof by Induction, Convergence and Ratio Tests</a>||
+| | **Section 10**| <a href="Section10.html">Proof by Induction, Convergence and Ratio Tests</a>||
 | | **Section 11**| <a href="Section11.html"> Probability and Counting Problems</a>||
 | | **Section 12**| <a href="Section12.html"> Matrices and  Systems of Linear Equations</a> ||
 
@@ -41,9 +42,9 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 
 *  **Computability theory** examines the limitations of various theoretical models of the computer, including the most powerful known model - the Turing machine. 
 
-*  \textbf{Complexity theory} is the study of tractability by computer; some problems, although theoretically soluble by computer, are so expensive in terms of time or space that solving them is likely to remain practically unfeasible, even with rapid advance of computer hardware. 
+*  **Complexity theory** is the study of tractability by computer; some problems, although theoretically soluble by computer, are so expensive in terms of time or space that solving them is likely to remain practically unfeasible, even with rapid advance of computer hardware. 
 
-*  Finally, \textbf{information theory} is concerned with the amount of data that can be stored on a given medium, and hence concepts such as compression and entropy.
+*  Finally, **information theory** is concerned with the amount of data that can be stored on a given medium, and hence concepts such as compression and entropy.
 
 ```{r child="sourcefiles/Numbers-IntroductionToNumbers.Rmd"}
 ```
@@ -167,13 +168,4 @@ Necessary Conditions for Invertibility of a Function
 ```{r child="sourcefiles/Graphs-BinarySearchTrees.Rmd"}
 ```
 
-```{r child="sourcefiles/RelationsDigraphs-Introduction.Rmd"}
-```
-
-
-
-
-
-```{r child="TutorialSheets/Digraphs-Tutorial-1.Rmd"}
-```
 

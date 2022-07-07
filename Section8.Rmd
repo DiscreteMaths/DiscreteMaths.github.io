@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 4"
+title: "Discrete Mathematics - Section 8"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -18,19 +18,20 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
-### Logic and Logic Networks
+### Graph Theory
 
 <a href="index.html">Back to main page</a>
 
 
-<h3>Section 4</h3>
+<h3>Digraphs and Relations</h3>
 
-```{r child="Section_04/Logic-IntroductionToLogic.Rmd"}
+
+```{r child="sourcefiles/RelationsDigraphs-Introduction.Rmd"}
 ```
 
 
 
 
 
-```{r child="Section_04/Logic-Tutorial-1.Rmd"}
+```{r child="TutorialSheets/Digraphs-Tutorial-1.Rmd"}
 ```

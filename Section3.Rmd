@@ -23,13 +23,94 @@ Column {.tabset}
 <a href="index.html">Back to main page</a>
 
 
-<h3>Section 3</h3>
+<h3>Set Theory</h3>
+
+* Set theory is used throughout mathematics. It is used as a foundation for many sub-fields of mathematics. In the areas pertaining to statistics, it is particularly used in probability. 
+* Much of the concepts in probability are derived from the consequences of set theory. 
+* Indeed, one way to state the axioms of probability involves set theory.
 
 
-```{r child="sourcefiles/Set-IntroductionToSet.Rmd"}
+### Specifying Sets
+
+
+<h3>NOTATIONS FOR A SET:</h3>
+
+A set can be represented by two methods:
+1.ROSTER METHOD
+2.BUILDER METHOD
+
+#### ROSTER METHOD:
+
+In this method the elements of a set are separated by commas and are enclosed within curly brackets { }. For example:
+
+* A = {1, 2, 3, 4, 5, 6} is a set of numbers.
+
+* $B = \{Albert, Brianna, Carmel, David, Edward\}$ is a set of names.
+
+* $C = \{a, e, i, o, u\}$ is a set of vowels.
+
+* D = {apple, banana, guava, orange, pear} is a set of fruits.
+
+Listing the elements in this way is called Roster method. In this method, it is not necessary for the elements to be listed in a particular order. The elements of the set can be written just plainly, separated by commas and in any order.
+
+<p> 
+#### BUILDER METHOD:
+
+This method is also called Property method. In Builder method, a set is represented by stating all the properties which are satisfied by the elements of that particular set only.
+
+For example:
+
+If A is a set of elements less than 0, then in Builder method it will be written as
+
+A = {x: x < 0}, this statement is read as "the set of all x such that x is less than 0"
+
+If A is a set of all real numbers less than 7, then in Builder method it is written as A = {x   R: x < 7}
+
+Similarly,
+
+* A = {2i: i is an integer} is a set of all even integers.
+
+* A = {x   R: x ? 2} is a set of all real numbers except 2.
+
+* A = {x   R: x > 3 and x < 7} is a set of real numbers greater than 3 but less than 7.
+
+* A = {x   Z: x > 6} is a set of integers greater than 6.
+
+* $A = {x   Z: 2x + 1}$ is a set of all odd integers.
+
+
+
+### Subsets and Elements of Sets
+
+<h3> Subsets and Elements of Sets </h3>
+
+#### Elements of a Set
+
+*  Sets are comprised of members, which are often called ***elements***. 
+*  If a particular value ($k$) is an element of set $A$, then we would write this as
+\[k \in A \]
+
+*  If a single value $k$ is not an element of set $A$, then we write
+\[k \notin A \]
+
+
+
+#### Proper Subsets
+Given two sets $A$ and $B$, the set $A$ is a \textbf{proper subset} of set $B$ if every element of $A$ is also an element of $B$, but there are elements of set $B$ that are not in set $A$.
+
+
+We write this mathematically as
+\[A \subset B \]
+
+
+```{r child="Section_03/Set-IntroductionToSet.Rmd"}
 ```
 
 
 
-```{r child="sourcefiles/Set-SetOperations.Rmd"}
+```{r child="Section_03/Set-SetOperations.Rmd"}
 ```
+
+```{r child="Section_03/Set-Theory-Tutorial-1.Rmd"}
+```
+
