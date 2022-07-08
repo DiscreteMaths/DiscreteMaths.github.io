@@ -1,5 +1,5 @@
 
-Hexadecimal Numbers {data-navmenu="Section 1"}
+Hexadecimal Numbers {data-navmenu="Hexadecimal Numbers"}
 ==================================
 
 Column {.tabset}

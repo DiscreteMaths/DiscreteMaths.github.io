@@ -1,0 +1,53 @@
+Functions {data-navmenu="Section 3"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Functions
+
+* <a href ="https://www.youtube.com/watch?v=/-3hd821alPI">Functions (2005 Q4 Part A)  </a>
+* <a href ="https://www.youtube.com/watch?v=/cR5b2zWOa0w">Functions (2003 Q4 Part B) </a>
+* <a href ="https://www.youtube.com/watch?v=/IXs5CTQnBU4">Floor Functions Exercise HD	</a>
+
+
+
+### Cartesian Product
+
+$X \times Y$
+
+$X = \{1,2,3\}$
+
+$Y = \{a,b,c\}$
+
+
+$X \times Y = \{ (1,a) , (1,b) , (1,c) , (2,a), (2,b) ,(2,c), (3,a),(3,b),(3,c) \}$ 
+$Y \times X = \{ (a,1) , (a,2) , (a,3) , (b,1), (b,2) ,(b,3), (c,1),(c,2),(c,3) \}$ 
+
+
+
+
+Invertible Functions {data-navmenu="Section 3"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Invertible Functions
+
+Necessary Conditions for Invertibility of a Function
+
+* The function must be one-to-one
+* The fucntion must be onto.
+
+
+
+
+* A function is ***onto*** if is range is equal to its codomain.
+
+* A function is ***one-to-one*** if no two distinct elements of the domain have the same image.
+
+
+```{r child="Section_06/Functions-O-Notation.Rmd"}
+```
+

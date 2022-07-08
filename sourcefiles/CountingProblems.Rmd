@@ -1,4 +1,4 @@
-Counting Problems {data-navmenu="Section 6"}
+Counting Problems {data-navmenu="Counting Problems"}
 ==================================
 
 Column {.tabset}
@@ -41,11 +41,9 @@ In this section we look at counting problems, including combinations and permuta
 
 #### Permutation 
 
-
-
-\item Suppose we have a set of \textbf{n} items.
-\item From that set, we select \textbf{k} items.
-\item The number of \textbf{ordered} lists of \textbf{k} items chosen from a set of \textbf{n} items is
+* Suppose we have a set of \textbf{n} items.
+* From that set, we select \textbf{k} items.
+* The number of \textbf{ordered} lists of \textbf{k} items chosen from a set of \textbf{n} items is
 
 \[\frac{n!}{n-k!}\]
 
@@ -68,7 +66,7 @@ In this section we look at counting problems, including combinations and permuta
 
 * A permutation of a set is, loosely speaking, an arrangement of its members into a sequence or linear order, or if the set is already ordered, a rearrangement of its elements.
 * The word "permutation" also refers to the act or process of changing the linear order of an ordered set.
-
+<p>
 <h5>Videos</h5>
 * <a href= "https://youtube.com/watch?v=/722AHPX0Pss">  Augmented Matrices ( Discrete Mathematics ) </a>
 * <a href= "https://youtube.com/watch?v=/Ud0HSKw_V3g"> Permutations - Ordered Subsets  </a>

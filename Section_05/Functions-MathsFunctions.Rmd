@@ -1,4 +1,4 @@
-Mathematical Functions{data-navmenu="Logarithms"}
+Mathematical Functions{data-navmenu="Section 3"}
 =====================================
 
 Column {.tabset}
@@ -6,19 +6,19 @@ Column {.tabset}
 
 ### logarithms
 
-< !-- % http://www.purplemath.com/modules/logs2.htm -->
+% http://www.purplemath.com/modules/logs2.htm
 
 
 
-The Relationship: "$\log_b(x) = y$" means the same thing as "b y = x".
+The Relationship: "\log_b(x) = y" means the same thing as "b y = x".
 logarithms are really exponents (powers); they're just written differently.
 
 
-*  $\log_b(b) = 1$, for any base b, because b1 = b.
-*  $\log_b(1) = 0$, for any base b, because b0 = 1.
-*  $\log_b(a)$ is undefined if a is negative.
-*  $\log_b(0)$ is undefined for any base b.
-*  $\log_b(b^n) = n$, for any base b.
+*  \logb(b) = 1, for any base b, because b1 = b.
+*  \logb(1) = 0, for any base b, because b0 = 1.
+*  \logb(a) is undefined if a is negative.
+*  \logb(0) is undefined for any base b.
+*  \logb(bn) = n, for any base b.
 
 
 
@@ -118,3 +118,34 @@ The following laws are very useful for working with logarithms.
 
 \[ (e^a )^b = e^{ab}\]
 
+### Absolute Value & Sign Functions
+
+
+### Special Mathematical Functions
+
+#### Mathematical Operators
+
+*  Root Functions (i.e. the Square Root function)
+*  The Floor and Ceiling functions
+*  The Absolute Value functions
+
+
+
+#### Notation 
+
+*  Absolute Value Function $| x |$
+*  Ceiling Function $\lceil x \rceil$
+*  Floor Function  $\lfloor x \rfloor $
+
+
+
+#### Absolute Value Function 
+
+*  The absolute value of some real number $x$ is denoted $|x|$.
+*  If the number is positive, the asbolute value is the same number.
+*  If the number is negative, the asbolute value is the number without the minus sign.
+*  $|2|=2$
+*  $|-2| = 2$
+
+
+### Tutorials

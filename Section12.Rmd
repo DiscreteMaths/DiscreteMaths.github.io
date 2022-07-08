@@ -29,14 +29,14 @@ Column {.tabset}
 * Systems of Linear Equations
 
 
-
-```{r child="sourcefiles/Matrices-IntroductionToMatrices.Rmd"}
+  
+```{r child="Section_12/Matrices-IntroductionToMatrices.Rmd"}
 ```
 
-```{r child="sourcefiles/Matrices-LinearAlgebra.Rmd"}
+```{r child="Section_12/Matrices-LinearAlgebra.Rmd"}
 ```
 
-```{r child="sourcefiles/Matrices-LinearEquations.Rmd"}
+```{r child="Section_12/Matrices-LinearEquations.Rmd"}
 ```
 
 ```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}

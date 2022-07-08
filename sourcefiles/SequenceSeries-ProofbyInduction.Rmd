@@ -7,6 +7,9 @@ Column {.tabset}
 
 ### Recurrence Relations : Proof by Induction
 
+<h3>Recurrence Relations : Proof by Induction</h3>
+
+#### Worked Example
 
 * A sequence is determined by the recurrence relation $u_{n+1} = 3u_n+2$ and initial term $u_1 =2$.
 * Prove by induction the following statement, for all $n \in \mathbb{Z^{+}}$.

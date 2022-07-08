@@ -1,0 +1,58 @@
+---
+title: "Discrete Mathematics - Section 5"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Functions 
+
+<a href="index.html">Back to main page</a>
+
+<h3>Section 5: Functions (Part 1)</h3>
+
+
+
+* Introduction to Functions
+* Mathematical Functions and Special Functions
+
+### Laws of Logarithms
+
+
+
+Here we
+assume x and y are positive real numbers.
+
+
+1. $\log_a(xy) = loga(x) + \log_a(y)$
+
+2. $loga(x/y)= loga(x) - loga(y)$
+
+3. $\log_a (x^r) = r \log_a(x)$ for any real number r.
+
+
+
+
+ 
+```{r child="Section_05/Functions-MathsFunctions.Rmd"}
+```
+
+```{r child="Section_05/Functions-MathsFunctions.Rmd"}
+```
+
+```{r child="TutorialSheets/Functions-Tutorial-1.Rmd"}
+```
+
