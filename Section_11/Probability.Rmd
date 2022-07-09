@@ -1,4 +1,4 @@
-Probability {data-navmenu="Section 6"}
+Probability {data-navmenu="Probability"}
 =====================================
 
 Column {.tabset}
@@ -32,20 +32,28 @@ The sample space, $\Omega$ , is the non-empty set whose elements are all possibl
 
 #### Events
 Since individual outcomes might be of little practical use, more complex events are used to characterize groups of outcomes. 
-
+<p>
 An event is any subset of zero or more outcomes contained in a given sample space. A simple event consists of exactly one outcome and a compound event consists of more than one outcome. For example, when tossing a single coin ${\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}$, possible events are {\displaystyle \{\}}\{\}, {\displaystyle \{H\}}{\displaystyle \{H\}}, {\displaystyle \{T\}}{\displaystyle \{T\}}, and {\displaystyle \{H,T\}}{\displaystyle \{H,T\}}. 
+<p>
 
-
-The collection of all such events is a σ-algebra ${\mathcal {F}}$. Intuitively, the probability of each of these sets is the chance that one of the events in the set will happen; ${\displaystyle P(\{{\text{H}}\})}$ is the chance of tossing a head, ${\displaystyle P(\{{\text{H}},{\text{T}}\})}$ is the chance of the coin landing either heads or tails, and {\displaystyle P(\{\})}{\displaystyle P(\{\})} is the probability of the coin landing neither heads nor tails, etc. An event is said to have happened or occurred during an experiment when the outcome of the experiment is an element of the event. 
-
-Since the same outcome may be a member of many events, it is possible for many events to have happened given a single outcome. For example, when the trial consists of throwing two dice, the set of all outcomes with a sum of 7 pips may constitute an event, whereas outcomes with an odd number of pips may constitute another event. If the outcome is the element of the elementary event of two pips on the first die and five on the second, then both of the events, "7 pips" and "odd number of pips", are said to have occurred. Modeling events as sets of outcomes in a sample space $\Omega$  allows us to leverage all of the regular set operations:
-
+* The collection of all such events is a σ-algebra ${\mathcal {F}}$. Intuitively, the probability of each of these sets is the chance that one of the events in the set will happen; ${\displaystyle P(\{{\text{H}}\})}$ is the chance of tossing a head, ${\displaystyle P(\{{\text{H}},{\text{T}}\})}$ is the chance of the coin landing either heads or tails, and {\displaystyle P(\{\})}{\displaystyle P(\{\})} is the probability of the coin landing neither heads nor tails, etc. An event is said to have happened or occurred during an experiment when the outcome of the experiment is an element of the event. 
+<p>
+* Since the same outcome may be a member of many events, it is possible for many events to have happened given a single outcome. For example, when the trial consists of throwing two dice, the set of all outcomes with a sum of 7 pips may constitute an event, whereas outcomes with an odd number of pips may constitute another event. 
+<p>
+* If the outcome is the element of the elementary event of two pips on the first die and five on the second, then both of the events, "7 pips" and "odd number of pips", are said to have occurred. Modeling events as sets of outcomes in a sample space $\Omega$  allows us to leverage all of the regular set operations:
+<p>
 Given two events $A$ and $B$:
 
 * The null subset ${\displaystyle \emptyset }$ in a sample space $\Omega$  is called an impossible event.
 * The union of two events ${\displaystyle A\cup B}$ consists of all outcomes that are in $A$ or in $B$ or in both,
 * The intersection {\displaystyle A\cap B}A\cap B consists of all outcomes that are both in $A$ and $B$.
 * The complement ${\displaystyle A^{c}}$ of an event $A$ in a sample space $\Omega$  consists of all outcomes not in $A$, but in $\Omega$ , i.e. ${\displaystyle A\cup A^{c}=\Omega }$.
+
+Rules of Probability {data-navmenu="Probability"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
 
 
 ### Rules of Probability

@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+Discrete Mathematics {data-navmenu="Graphs"}
 =====================================
 
 Column {.tabset}
@@ -30,10 +30,19 @@ Column {.tabset}
 
 
 
-```{r child="sourcefiles/Graphs-IntroductionToGraphs.Rmd"}
+```{r child="Section_07/Graphs-IntroductionToGraphs.Rmd"}
 ```
 
-```{r child="sourcefiles/Graphs-Trees.Rmd"}
+
+
+```{r child="Section_07/Graphs-Connectivity.Rmd"}
+```
+
+```{r child="Section_07/Graphs-IsomorphicGraphs.Rmd"}
+```
+
+
+```{r child="Section_07/Graphs-Trees.Rmd"}
 ```
 
 

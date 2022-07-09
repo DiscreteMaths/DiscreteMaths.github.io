@@ -2597,8 +2597,8 @@ window.FlexDashboardComponents.push({
 
 <div id="dashboard-container">
 
-<div id="discrete-mathematics" class="section level1" data-navmenu="Introduction">
-<h1 data-navmenu="Introduction">Discrete Mathematics</h1>
+<div id="discrete-mathematics" class="section level1" data-navmenu="Graphs">
+<h1 data-navmenu="Graphs">Discrete Mathematics</h1>
 <div id="column" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="graph-theory" class="section level3">
@@ -2607,20 +2607,6 @@ window.FlexDashboardComponents.push({
 <h3>
 Graph Theory
 </h3>
-<ul>
-<li>
-Group theory studies the algebraic structures known as <strong>groups</strong>.
-</li>
-<li>
-The concept of a group is central to abstract algebra: other well-known algebraic structures, such as rings, fields, and vector spaces, can all be seen as groups endowed with additional operations and axioms.
-</li>
-<li>
-Groups recur throughout mathematics, and the methods of group theory have influenced many parts of algebra.
-</li>
-<li>
-Linear algebraic groups and Lie groups are two branches of group theory that have experienced advances and have become subject areas in their own right.
-</li>
-</ul>
 </div>
 </div>
 </div>
@@ -2637,6 +2623,20 @@ Linear algebraic groups and Lie groups are two branches of group theory that hav
 <li><a href="https://youtube.com/watch?v=/Zww1ioTZqYY">Introduction to Graph Theory - Part 2</a></li>
 <li><a href="https://youtube.com/watch?v=/czci9ecaStY">Introduction to Graph Theory - Part 3</a></li>
 </ul>
+<div id="what-is-graph-theory" class="section level4">
+<h4>What is Graph Theory?</h4>
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called , can be connected by lines or arcs, called .
+<p>
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions (for example, up or down) are assigned to edges.
+<p>
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called vertices, can be connected by lines or arcs, called edges. Graphs in this context differ from the more familiar coordinate plots that portray mathematical relations and functions.
+<p>
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions (for example, up or down) are assigned to edges. Various sets of rules result in specific properties that can be stated as theorems.
+<p>
+Graph theory has proven useful in the design of integrated circuits ( IC s) for computers and other electronic devices. These components, more often called chip s, contain complex, layered microcircuits that can be represented as sets of points interconnected by lines or arcs.
+<p>
+<p>Using graph theory, engineers develop chips with maximum component density and minimum total interconnecting conductor length. This is important for optimizing processing speed and electrical efficiency.</p>
+</div>
 </div>
 <div id="videos" class="section level3">
 <h3>Videos</h3>
@@ -2669,6 +2669,23 @@ Linear algebraic groups and Lie groups are two branches of group theory that hav
 <li><p><a href="https://www.youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory </a></p></li>
 </ul>
 </div>
+</div>
+<div id="adjacency" class="section level3">
+<h3>Adjacency</h3>
+<ul>
+<li><p>An  representation of a graph is a collection of unordered lists, one for each vertex in the graph. Each list describes the set of neighbors of its vertex.</p></li>
+<li><p>An  is a means of representing which vertices (or nodes) of a graph are adjacent to which other vertices. Another matrix representation for a graph is the incidence matrix.</p></li>
+</ul>
+</div>
+<div id="isomorphism" class="section level3">
+<h3>Isomorphism</h3>
+<ul>
+<li>They have a different number of connected components</li>
+<li>They have a different number of vertices</li>
+<li>They have different degrees sequences</li>
+<li>They have a different number of paths of any given length</li>
+<li>They have a different number of cycles of any length.</li>
+</ul>
 </div>
 <div id="degree-sequences" class="section level3">
 <h3>Degree Sequences</h3>
@@ -2755,9 +2772,59 @@ Euler’s Formula
 </div>
 </div>
 </div>
-<div id="isomorphic-graphs" class="section level1" data-navmenu="Section 4">
-<h1 data-navmenu="Section 4">Isomorphic Graphs</h1>
+<div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Graphy Theory">
+<h1 data-navmenu="Graphy Theory">Paths and Cycles in Graphs</h1>
 <div id="column-2" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="paths-and-cycles-in-graphs-1" class="section level3">
+<h3>Paths and Cycles in Graphs</h3>
+<ul>
+<li><a title="Paths and Cycles in Graph Theory" href="http://youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory</a></li>
+<li><a href="https://youtu.be/DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a></li>
+<li><a href="https://www.youtube.com/watch?v=/PIGyXIWeqZg">Walks and Paths in Graphs</a></li>
+<li><a href="https://youtube.com/watch?v=/5bpRc0FJNnM"> Paths and Cycles in Graph Theory </a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="connectivity" class="section level1" data-navmenu="Graphs">
+<h1 data-navmenu="Graphs">Connectivity</h1>
+<div id="column-3" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="graph-connectivity" class="section level3">
+<h3>Graph Connectivity</h3>
+<h4>
+Connectivity
+</h4>
+<p>Whether or not it is possible to traverse a graph from one vertex to another is dependent on how connected a graph is. Definition of Connectedness[edit] If there is a u-v path in G, then we say that u and v are connected If there is a u-v path for every pair of vertices u and v in G, then we say that G is connected</p>
+<div id="theorems-on-connectedness" class="section level4">
+<h4>Theorems on Connectedness</h4>
+<p>Theorem: Let G be a graph of order at least 3. If there are distinct vertices u and v in G so that G-u and G-v are both connected, then G is also connected. Proof: Let w be a G vertex, which is different from both u and v. We want to prove connectedness, i.e., that for every pair (x,y) of vertices in G, there is an x-y walk in G. We may consider three (partly overlapping) cases:</p>
+<ul>
+<li>If neither x nor y is u, then there is an x-y walk in G-u, and this also is an x-y walk in G.</li>
+<li>If neither x nor y is v, then there is an x-y walk in G-v, and this also is an x-y walk in G.</li>
+<li>If <span class="math inline">\({x,y} = {u,v}\)</span>, then employ the first two cases in order to see that there is a u-w walk and a w-v walk. Combining them indeed yields a u-v walk.</li>
+</ul>
+</div>
+<div id="vertex-and-edge-connectivity" class="section level4">
+<h4>Vertex and Edge Connectivity</h4>
+<p>A graph G is called k-connected if for every S ⊆ V ( G ) {SV(G)} , and | S | &lt; k {|S|&lt;k} , G − S {G-S} is connected, and | G | &gt; k {|G|&gt;k} . Similarly, a graph G is called ℓ {} edge-connected if for every S ⊆ E ( G ) {SE(G)} , and | S | &lt; ℓ {|S|&lt;} , G − S {G-S} is connected, and | G | &gt; 1 {|G|&gt;1} . The connectivity of G is the greatest k such that G is k-connected, and is denoted by κ ( G ) {(G)} . Relatedly, the edge-connectivity of G is the greatest ℓ {} such that G is ℓ {} edge-connected, and is denoted by λ ( G ) {(G)} .</p>
+</div>
+<div id="theorems-on-connectivityedit" class="section level4">
+<h4>Theorems on Connectivity[edit]</h4>
+<p>Theorem: Let G be a k-connected graph. Then, ∀ i ∈ N , 0 ≤ i ≤ k {i ,0ik} , G is i-connected. Proof: Since G is k-connected, for all S ⊆ V ( G ) , | S | &lt; k {SV(G),|S|&lt;k} , G − S {G-S} is connected. Then, since i ≤ k {ik} , for all S ⊆ V ( G ) , | S | &lt; i ≤ k {SV(G),|S|&lt;ik} , G − S {G-S} is also connected.</p>
+<p>Theorem: Let G be a nontrivial graph. Then, λ ( G ) ≤ δ ( G ) {(G)(G)} . Proof: Take v a vertex of degree δ ( G ) {(G)} in G. Then, removing all edges in G that are incident with v disconnects v from the rest of the graph, provided that | G | &gt; δ ( G ) + 1 {|G|&gt;(G)+1} . Therefore, G cannot be δ ( G ) {(G)} edge-connected, and so λ ( G ) ≤ δ ( G ) {(G)(G)} .</p>
+</div>
+<div id="exercise-connectivity" class="section level4">
+<h4>Exercise: Connectivity</h4>
+<p>If G is ℓ {} edge-connected, show that G is also i edge-connected ∀ i ∈ N , 0 ≤ i ≤ ℓ {i ,0i} .</p>
+</div>
+</div>
+</div>
+</div>
+<div id="isomorphic-graphs" class="section level1" data-navmenu="Isomorphic Graphs ">
+<h1 data-navmenu="Isomorphic Graphs ">Isomorphic Graphs</h1>
+<div id="column-4" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="isomorphic-graphs-1" class="section level3">
 <h3>Isomorphic Graphs</h3>
@@ -2793,24 +2860,9 @@ Isomorphic Graphs: Videos
 </div>
 </div>
 </div>
-<div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Section 4">
-<h1 data-navmenu="Section 4">Paths and Cycles in Graphs</h1>
-<div id="column-3" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="paths-and-cycles-in-graphs-1" class="section level3">
-<h3>Paths and Cycles in Graphs</h3>
-<ul>
-<li><a title="Paths and Cycles in Graph Theory" href="http://youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory</a></li>
-<li><a href="https://youtu.be/DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a></li>
-<li><a href="https://www.youtube.com/watch?v=/PIGyXIWeqZg">Walks and Paths in Graphs</a></li>
-<li><a href="https://youtube.com/watch?v=/5bpRc0FJNnM"> Paths and Cycles in Graph Theory </a></li>
-</ul>
-</div>
-</div>
-</div>
 <div id="trees" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Trees</h1>
-<div id="column-4" class="section level2 tabset">
+<div id="column-5" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-to-trees" class="section level3">
 <h3>Introduction to Trees</h3>
@@ -2885,7 +2937,7 @@ Binary Search Trees
 </div>
 <div id="graph-theory---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Graph Theory - Worksheets</h1>
-<div id="column-5" class="section level2 tabset">
+<div id="column-6" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -2931,7 +2983,7 @@ Binary Search Trees
 </div>
 <div id="trees---worksheets" class="section level1" data-navmenu="Section 4">
 <h1 data-navmenu="Section 4">Trees - Worksheets</h1>
-<div id="column-6" class="section level2 tabset">
+<div id="column-7" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="worksheets-1" class="section level3">
 <h3>Worksheets 1</h3>

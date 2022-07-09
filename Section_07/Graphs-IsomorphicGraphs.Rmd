@@ -1,0 +1,34 @@
+
+Isomorphic Graphs {data-navmenu="Isomorphic Graphs "}
+====================================
+
+Column{.tabset}
+----------------------------------------------
+
+
+
+### Isomorphic Graphs
+
+<h5> Isomorphic Graphs</h5>
+* The two graphs have different numbers of vertices.
+* The two graphs have different numbers of edges.
+* One graph has parallel edges and the other does not.
+* One graph has a loop and the other does not.
+* One graph has a vertice of degree k (for example) and the other does not.
+* One graph is connected and the other is not.
+* One graph has a cycle and the other has not.
+
+* They have a different number of connected components
+* They have a different number of vertices
+* They have different degrees sequences
+* They have a different number of paths of any given length
+* They have a different number of cycles of any length.
+
+### Videos 
+
+<h5> Isomorphic Graphs: Videos </h5>
+
+* <a href="https://www.youtube.com/watch?v=/xcOrrJGxzu8">Isomorphic Graphs [5:16]</a>
+* <a href="https://www.youtube.com/watch?v=/U-7kcP6AZX8">Non-Isomorphic Graphs [4:01]</a>
+* <a href="https://www.youtube.com/watch?v=Xq8o-z1DsUA">Isomorphic Graphs – Example 1</a> [8:29]
+* <a href="https://www.youtube.com/watch?v=KejZccQTDF8">Isomorphic Graphs – Example 2</a> [ 3:40]

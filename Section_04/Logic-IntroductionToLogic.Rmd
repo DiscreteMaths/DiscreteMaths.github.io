@@ -22,6 +22,28 @@ Propositions, The negations of a proposition, Compound Statements, Truth tables
 * <a href = "https://www.youtube.com/watch?v=/YK6tzrBYS14"> Logic 2003 Propositions</a>
 * <a href = "https://www.youtube.com/watch?v=/SNah7Lai_Lo"> Logic 2007 Propositions </a>
 
+### logical implication
+
+
+#### logical implication
+
+%- http://whatis.techtarget.com/definition/logical-implication
+
+Logical implication is a type of relationship between two statements or sentences. The relation translates verbally into "logically implies" or "if/then" and is symbolized by a double-lined arrow pointing toward the right ( $\rightarrow$). If A and B represent statements, then $A\rightarrow B$ means "A implies B" or "If A, then B." The word "implies" is used in the strongest possible sense.
+
+
+As an example of logical implication, suppose the sentences A and B are assigned as follows:
+
+* A = The sky is overcast.
+* B = The sun is not visible.
+
+In this instance, A B is a true statement (assuming we are at the surface of the earth, below the cloud layer.) However, the statement B A is not necessarily true; it might be a clear night. Logical implication does not work both ways. However, the sense of logical implication is reversed if both statements are negated. That is,
+
+$$(A \rightarrow B)  \equiv (-B \rightarrow -A)$$
+
+Using the above sentences as examples, we can say that if the sun is visible, then the sky is not overcast. This is always true. In fact, the two statements A B and -B -A are logically equivalent.
+
+
 
 
 * <a href = "https://www.youtube.com/watch?v=/s1f3nCOOzz8">  HERE </a>
@@ -54,7 +76,17 @@ Propositions, The negations of a proposition, Compound Statements, Truth tables
 * <a href = "https://www.youtube.com/watch?v=/FT9ocP-L6Mc"> Conditional Connectives :  p implies q </a>
 * <a href = "https://www.youtube.com/watch?v=/dnem1E71TI4"> Logic 2001 Implication Connective</a>
 
+Logic Networks {data-navmenu="Logic Networks"}
+====================================
+
+Column {.tabset}
+-------------------------------
+
+
+
 ### Logic Networks
+
+#### Logical Operations
 
 * <a href = "https://www.youtube.com/watch?v=/DtkPULIOlWQ"> Logic Networks: (Example 1)</a>
 * <a href = "https://www.youtube.com/watch?v=/NzFMJwUR82k"> Logic Networks: (Example 2)</a>

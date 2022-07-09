@@ -14,6 +14,23 @@ Graphs are classified according to their complexity, the number of edges allowed
 * <a href="https://youtube.com/watch?v=/Zww1ioTZqYY">Introduction to Graph Theory - Part 2</a>
 * <a href="https://youtube.com/watch?v=/czci9ecaStY">Introduction to Graph Theory - Part 3</a>
 
+
+#### What is Graph Theory?
+
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called \textit{\textbf{vertices}}, can be connected by lines or arcs, called \textit{\textbf{edges}}.
+<p>
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions (for example, up or down) are assigned to edges. 
+<p>
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called vertices, can be connected by lines or arcs, called edges. Graphs in this context differ from the more familiar coordinate plots that portray mathematical relations and functions.
+<p>
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions (for example, up or down) are assigned to edges. Various sets of rules result in specific properties that can be stated as theorems.
+<p>
+Graph theory has proven useful in the design of integrated circuits ( IC s) for computers and other electronic devices. These components, more often called chip s, contain complex, layered microcircuits that can be represented as sets of points interconnected by lines or arcs. 
+<p>
+Using graph theory, engineers develop chips with maximum component density and minimum total interconnecting conductor length. This is important for optimizing processing speed and electrical efficiency.
+
+
+
 ### Videos
 
 * <a href="https://www.youtube.com/watch?v=uKG60xxdBU8">Important Graph Theory Terms</a>  
@@ -63,6 +80,26 @@ Graphs are classified according to their complexity, the number of edges allowed
 
 * <a href="https://www.youtube.com/watch?v=/E4GNXq9dUO0">Eulers Formula for Planar Graphs [5:42]</a>
 * <a href="https://www.youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory </a>
+
+
+
+
+### Adjacency
+
+
+*  An \textit{\textbf{adjacency list}} representation of a graph is a collection of unordered lists, one for each vertex in the graph. Each list describes the set of neighbors of its vertex.
+
+*  An \textit{\textbf{adjacency matrix}} is a means of representing which vertices (or nodes) of a graph are adjacent to which other vertices. Another matrix representation for a graph is the incidence matrix.
+
+
+
+### Isomorphism
+
+*  They have a different number of connected components
+*  They have a different number of vertices
+*  They have different degrees sequences
+*  They have a different number of paths of any given length
+*  They have a different number of cycles of any length.
 
 
 ### Degree Sequences
@@ -145,42 +182,8 @@ Then $V - E + R = 2$.
 * <a href="https://youtube.com/watch?v=/am9SWRz9OnU">Planar Graphs - Degrees of the Outregion	</a>
 
 
-Isomorphic Graphs {data-navmenu="Section 4"}
-====================================
 
-Column{.tabset}
-----------------------------------------------
-
-
-
-### Isomorphic Graphs
-
-<h5> Isomorphic Graphs</h5>
-* The two graphs have different numbers of vertices.
-* The two graphs have different numbers of edges.
-* One graph has parallel edges and the other does not.
-* One graph has a loop and the other does not.
-* One graph has a vertice of degree k (for example) and the other does not.
-* One graph is connected and the other is not.
-* One graph has a cycle and the other has not.
-
-* They have a different number of connected components
-* They have a different number of vertices
-* They have different degrees sequences
-* They have a different number of paths of any given length
-* They have a different number of cycles of any length.
-
-### Videos 
-
-<h5> Isomorphic Graphs: Videos </h5>
-
-* <a href="https://www.youtube.com/watch?v=/xcOrrJGxzu8">Isomorphic Graphs [5:16]</a>
-* <a href="https://www.youtube.com/watch?v=/U-7kcP6AZX8">Non-Isomorphic Graphs [4:01]</a>
-* <a href="https://www.youtube.com/watch?v=Xq8o-z1DsUA">Isomorphic Graphs – Example 1</a> [8:29]
-* <a href="https://www.youtube.com/watch?v=KejZccQTDF8">Isomorphic Graphs – Example 2</a> [ 3:40]
-
-
-Paths and Cycles in Graphs {data-navmenu="Section 4"}
+Paths and Cycles in Graphs {data-navmenu="Graphy Theory"}
 ====================================
 
 Column{.tabset}

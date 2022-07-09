@@ -41,9 +41,9 @@ In this section we look at counting problems, including combinations and permuta
 
 #### Permutation 
 
-* Suppose we have a set of \textbf{n} items.
-* From that set, we select \textbf{k} items.
-* The number of \textbf{ordered} lists of \textbf{k} items chosen from a set of \textbf{n} items is
+* Suppose we have a set of $n$ items.
+* From that set, we select $k$ items.
+* The number of ***ordered*** lists of $k$ items chosen from a set of $n$ items is
 
 \[\frac{n!}{n-k!}\]
 
