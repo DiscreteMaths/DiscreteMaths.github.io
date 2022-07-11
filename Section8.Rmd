@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 8"
+title: "Discrete Mathematics - Section 7"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+Discrete Mathematics {data-navmenu="Graphs"}
 =====================================
 
 Column {.tabset}
@@ -23,15 +23,32 @@ Column {.tabset}
 <a href="index.html">Back to main page</a>
 
 
-<h3>Digraphs and Relations</h3>
+<h3>Graph Theory</h3>
 
 
-```{r child="sourcefiles/RelationsDigraphs-Introduction.Rmd"}
+
+
+
+
+```{r child="Section_07/Graphs-IntroductionToGraphs.Rmd"}
 ```
 
 
 
-
-
-```{r child="TutorialSheets/Digraphs-Tutorial-1.Rmd"}
+```{r child="Section_07/Graphs-Connectivity.Rmd"}
 ```
+
+```{r child="Section_07/Graphs-IsomorphicGraphs.Rmd"}
+```
+
+
+```{r child="Section_07/Graphs-Trees.Rmd"}
+```
+
+
+```{r child="TutorialSheets/GraphTheory-Tutorial-1.Rmd"}
+```
+
+```{r child="TutorialSheets/Trees-Tutorial-1.Rmd"}
+```
+

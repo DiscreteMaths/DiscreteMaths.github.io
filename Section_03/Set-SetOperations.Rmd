@@ -1,4 +1,4 @@
-Set Operations {data-navmenu="Section 2"}
+Set Operations {data-navmenu="Set Theory"}
 ====================================
 
 Column {.tabset}
@@ -33,6 +33,8 @@ Column {.tabset}
 
 ### Relative Difference
 
+<h4> Relative Difference</h4>
+
 $ A \oplus B$
 
 
@@ -61,6 +63,8 @@ Example: If $A={10,11,12,13}$ and $B={13,14,15}$, then $(A-B)={10,11,12}$ and $(
 
 ### Power set
 
+<h4> Power Set </h4>
+
 The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]. The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
 
 Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
@@ -70,7 +74,8 @@ Note that in both cases the cardinality of the power set is strictly greater tha
 #### Power Set
 Power set of a set S is the set of all subsets of S including the empty set. The cardinality of a power set of a set S of cardinality n is $2^n$. Power set is denoted as $P(S)$.
 
-Example 
+<p>
+#### Example 
 
 For a set $S={a,b,c,d}$ let us calculate the subsets 
 
@@ -93,7 +98,7 @@ $|P({\varnothing})|=2^0=1$
 #### Power set
 
 The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}.\] The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
-
+<p>
 Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
 
 #### Power Sets
@@ -115,5 +120,8 @@ Note that in both cases the cardinality of the power set is strictly greater tha
 
 ### Cartesian Product
 
-In set theory, the Cartesian product of two sets A and B, denoted A × B, is the set of all ordered pairs (a, b) where a is in A and b is in B.
-Cartesian Product is the multiplication of two sets to form the set of all ordered pairs. The first element of the ordered pair belong to first set and second pair belong the second set. 
+<h4>Cartesian Product</h4>
+
+* In set theory, the Cartesian product of two sets A and B, denoted $A \times B$, is the set of all ordered pairs (a, b) where $a$ is in $A$ and $b$ is in $B$.
+* Cartesian Product is the multiplication of two sets to form the set of all ordered pairs.
+* The first element of the ordered pair belong to first set and second pair belong the second set. 

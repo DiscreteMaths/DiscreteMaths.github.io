@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 10"
+title: "Discrete Mathematics - Section 11"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -18,20 +18,25 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
-### Graph Theory
+### Probability and Counting Problems
 
 <a href="index.html">Back to main page</a>
 
 
-<h3>Digraphs and Relations</h3>
+<h3>Probability and Counting Problems</h3>
 
 
-```{r child="sourcefiles/RelationsDigraphs-Introduction.Rmd"}
+
+
+```{r child="Section_11/Probability.Rmd"}
+```
+
+```{r child="Section_11/CountingProblems.Rmd"}
+```
+
+
+```{r child="TutorialSheets/CountingProblems-Tutorial-1.Rmd"}
 ```
 
 
 
-
-
-```{r child="TutorialSheets/Digraphs-Tutorial-1.Rmd"}
-```

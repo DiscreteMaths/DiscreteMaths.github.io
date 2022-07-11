@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 11"
+title: "Discrete Mathematics - Section 8"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -18,25 +18,42 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
-### Probability and Counting Problems
+### Sequences and Series
 
 <a href="index.html">Back to main page</a>
 
 
-<h3>Probability and Counting Problems</h3>
+<h3>Section 9</h3>
 
 
 
 
-```{r child="Section_11/Probability.Rmd"}
+
+
+
+```{r child="sourcefiles/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
 ```
 
-```{r child="Section_11/CountingProblems.Rmd"}
+```{r child="sourcefiles/SequenceSeries-Progressions.Rmd"}
 ```
 
 
-```{r child="TutorialSheets/CountingProblems-Tutorial-1.Rmd"}
+```{r child="sourcefiles/SequenceSeries-FiniteSeries.Rmd"}
 ```
 
 
 
+
+```{r child="sourcefiles/SequenceSeries-TelescopingSeries.Rmd"}
+```
+
+```{r child="sourcefiles/SequenceSeries-RecurrenceRelations.Rmd"}
+```
+
+
+
+```{r child="sourcefiles/SequenceSeries-ProofbyInduction.Rmd"}
+```
+
+```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}
+```

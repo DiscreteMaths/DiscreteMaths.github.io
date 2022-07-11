@@ -26,14 +26,17 @@ Column {.tabset}
 | | **Section 2**| Binary Numbers, Hexadecimal Numbers, Octal Numbers | |
 | | **Section 3**| <a href="Section3.html"> Set Theory</a> ||
 | | **Section 4**| <a href="Section4.html"> Logic & Logic Networks </a> ||
-| | **Section 5**| Functions 1: Mathematical Functions, | |
-| | **Section 6**| Functions 2: Invertible Functions & O-Notation| |
-| | **Section 7**| <a href="Section7.html">Graph Theory, Trees, Binary Search Trees</a>| |
-| | **Section 8**| <a href="Section8.html">Digraphs and Relations</a>| |
-| | **Section 9**| <a href="Section9.html">Sequences and Series, with Telescoping Series</a> ||
-| | **Section 10**| <a href="Section10.html">Proof by Induction, Convergence and Ratio Tests</a>||
-| | **Section 11**| <a href="Section11.html"> Probability and Counting Problems</a>||
-| | **Section 12**| <a href="Section12.html"> Matrices and  Systems of Linear Equations</a> ||
+| | **Section 5**| Functions 1: Mathematical Functions | |
+| | **Section 6**| Functions 2: Invertible Functions | |
+| | **Section 7**| Functions 3: O-Notation| |
+| | **Section 8**| <a href="Section8.html">Graph Theory</a>| |
+| | **Section 9**| <a href="Section9.html"> Trees, Binary Search Trees</a>||
+| | **Section 10**| <a href="Section10.html">Digraphs and Relation</a> ||
+| | **Section 11**| <a href="Section11.html">Sequences and Series, with Telescoping Series</a> ||
+| | **Section 12**| <a href="Section12.html">Proof by Induction, Convergence and Ratio Tests</a>||
+| | **Section 13**| <a href="Section13.html">Probability and Counting Problems</a>||
+| | **Section 14**| <a href="Section14.html">Matrices and  Systems of Linear Equations</a> ||
+
 
 ### Discrete mathematics
 

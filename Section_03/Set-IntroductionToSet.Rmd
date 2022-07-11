@@ -1,4 +1,4 @@
-Set Theory {data-navmenu="Section 2"}
+Set Theory {data-navmenu="Set Theory"}
 ====================================
 
 Column {.tabset}
@@ -100,54 +100,6 @@ A very important notion is that of a subset. X is a subset of Y, written $X \sub
 
 
 Sets can of course be elements of other sets; for example we can form the set $G = \{A,B,C,D,E\}$, whose five elements are the sets we considered earlier. Then, for instance, $A\in G$. (Note that this is very different from saying $A\subseteq G$)
-
-
-
-
-### De Morgan's Laws
-
-\subsubsection{Set theory and Boolean algebra}
-In set theory and Boolean algebra, De Morgan's Laws are often stated as "Union and intersection interchange under complementation" which can be formally expressed as:
-
-\[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]
-\[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]
-where:
-
-\item $\overline{A}$ is the negation of A, the overline being written above the terms to be negated
-\item $\cap$ is the intersection operator (AND)
-\item $\cup$ is the union operator (OR)
-
-
-<hline>
-
-In propositional logic and boolean algebra, \textbf{De Morgan's laws} are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
-
-The rules can be verbalized as:
-
-
-* The negation of a conjunction is the disjunction of the negations.
-* The negation of a disjunction is the conjunction of the negations.
-or informally as:
-
-\begin{center}
-\textbf{``not (A and B)" is the same as "(not A) or (not B)"
-}
-\end{center}
-
-and also,
-\begin{center}
-\textbf{``not (A or B)" is the same as "(not A) and (not B)"
-}
-\end{center}
-The rules can be expressed in formal language with two propositions P and Q as:
-\[ \neg(P\land Q)\iff(\neg P)\lor(\neg Q)\]
-\[\neg(P\lor Q)\iff(\neg P)\land(\neg Q)\]
-where:
-
-* $\neg$ is the negation operator (NOT)
-* $\wedge $ is the conjunction operator (AND)
-* $\vee$ is the disjunction operator (OR)
-* $\leftarrow \rightarrow$ is a metalogical symbol meaning "can be replaced in a logical proof with"
 
 
 
@@ -408,7 +360,9 @@ We may define $U$ as the set of all animals on earth. In this case, set of all m
 #### Empty Set or Null Set
 An empty set contains no elements. It is denoted by $\varnothing$. As the number of elements in an empty set is finite, empty set is a finite set. The cardinality of empty set or null set is zero.
 
-#### Example} \[S={x|x\in N \mbox{ and }7<x<8}=\varnothing\]
+#### Example
+
+\[S={x|x\in N \mbox{ and }7<x<8}=\varnothing\]
 
 
 
@@ -419,21 +373,30 @@ Example 2.6 The set of integers m such that m2 = 5 is the empty set.
 
 
 
-#### Singleton Set or Unit Set}
+#### Singleton Set or Unit Set
+
 Singleton set or unit set contains only one element. A singleton set is denoted by {s}{s}.
 
-#### Example} $S={x|x\in N, 7<x<9} = {8}$
+#### Example
 
-#### Equal Set}
+$S={x|x\in N, 7<x<9} = {8}$
+
+#### Equal Set
 If two sets contain the same elements they are said to be equal.
 
-\subsubsection*{Example} If A={1,2,6}A={1,2,6} and B={6,1,2}B={6,1,2}, they are equal as every element of set A is an element of set B and every element of set B is an element of set A.
+\subsubsection*{Example} 
 
-\section{Equivalent Set}
+If A={1,2,6}A={1,2,6} and B={6,1,2}B={6,1,2}, they are equal as every element of set A is an element of set B and every element of set B is an element of set A.
+
+#### Equivalent Set
 If the cardinalities of two sets are same, they are called equivalent sets.
 
-#### Example} If A={1,2,6}A={1,2,6} and B={16,17,22}B={16,17,22}, they are equivalent as cardinality of A is equal to the cardinality of B. i.e. |A|=|B|=3|A|=|B|=3
-#### Overlapping Set}
+#### Example
+
+If A={1,2,6}A={1,2,6} and B={16,17,22}B={16,17,22}, they are equivalent as cardinality of A is equal to the cardinality of B. i.e. |A|=|B|=3|A|=|B|=3
+
+#### Overlapping Set
+
 Two sets that have at least one common element are called overlapping sets.
 
 In case of overlapping sets −
@@ -443,20 +406,26 @@ In case of overlapping sets −
 \[n(A)=n(A−B)+n(A\cap B)\]
 \[n(B)=n(B−A)+n(A\cap B)\]
 
-#### Example} Let, $A={1,2,6}$ and $B={6,12,42}$. There is a common element ‘6’, hence these sets are overlapping sets.
+#### Example
 
-\section{Disjoint Set}
-Two sets A and B are called disjoint sets if they do not have even one element in common. Therefore, disjoint sets have the following properties −
+Let, $A={1,2,6}$ and $B={6,12,42}$. There is a common element ‘6’, hence these sets are overlapping sets.
+
+### Disjoint Set
+
+Two sets A and B are called disjoint sets if they do not have even one element in common. 
+Therefore, disjoint sets have the following properties −
 
 \[n(A\cap B)=\varnothing\]
 \[n(A\cup B)=n(A)+n(B)\]
-#### Example} Let, A={1,2,6}A={1,2,6} and B={7,9,14}B={7,9,14}, there is not a single common element, hence these sets are overlapping sets.
+#### Example 
+
+Let, A={1,2,6}A={1,2,6} and B={7,9,14}B={7,9,14}, there is not a single common element, hence these sets are overlapping sets.
 
 
 
 
-%-%
-#### Complement and universal set}
+
+#### Complement and universal set
 
 The universal set (if it exists), usually denoted U, is a set of which everything conceivable is a member. In pure set theory, normally sets are the only objects considered (unlike here, where we have also considered numbers, colours and books, for example); in this case U would be the set of all sets. (Non-set objects, where they are allowed, are called 'urelemente' and are discussed below.)
 
@@ -467,7 +436,8 @@ and U as the complement of the empty set.
 
 {Equal and Equivalent Sets}
 
-%%- \vspace{-1cm}
+<p>
+
 Difference between equal sets and equivalent sets
 
 
@@ -504,13 +474,15 @@ because the cardinality of both the sets is the same (i.e. 6.)
 their elements are precisely the \textit{{same}}. 
 
 
-#### Example}:
- *  {X}=\{p,q,r\} and {Y}=\{1,2,3\} are equivalent sets 
+#### Example:
+
+*  {X}=\{p,q,r\} and {Y}=\{1,2,3\} are equivalent sets 
 *  {E} =\{m,n,o,p\}
 and {F}=\{m,n,o,p\} are equal and equivalent sets
 
 
 ### Ordered Lists 
+
 If we consider "the songs on my iPod" as a familiar example of a set, then "a playlist on my iPod" is the corresponding example of an ordered list. Key properties of ordered lists include:
 
 *  Order of elements in an ordered list is relevant.
@@ -543,8 +515,17 @@ For example:
 {(1,2),(3,4)} is a set of two elements, each of which is an ordered pair. One of the elements of the set is (1,2) and the other element of the set is (3,4).
 ({1,2},{3},{2,4}) is an ordered list of sets. The first element of the list is the set {1,2}; the second element of the list is the set {3}; the third element of the list is the set {2,4}.
 
-### Power Sets}
-#### Worked Example}
+Power Sets {data-navmenu="Set Theory"}
+====================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+
+### Power Sets
+
+#### Worked Example
+
 Consider the set $Z$:
 \[ Z = \{ a,b,c\}  \]
 
@@ -552,11 +533,8 @@ Consider the set $Z$:
 * [Q2] Write out the power set of $Z$. 
 * [Q3] How many elements are in each element set?
 
-%-%
-#### Solutions to Worked Example}
 
-
-
+#### Solutions to Worked Example
 
 * [Q1] There are 3 elements in $Z$. So there is $2^3 = 8$ element sets contained in the power set.
 
@@ -566,12 +544,15 @@ Consider the set $Z$:
 * [Q3]
 
 * [*] One element set is the null set - i.e. containing no
-elements * [$\bullet$] Three element sets have only elements * [$\bullet$]
-Three element sets have two elements * [$\bullet$] One element set
-contains all three elements * [$\bullet$] 1+3+3+1=8
+elements 
+
+* [$\bullet$] Three element sets have only elements 
+* [$\bullet$] Three element sets have two elements 
+* [$\bullet$] One element set contains all three elements 
+* [$\bullet$] 1+3+3+1=8
 
 
-#### Exercise}
+#### Exercise
 For the set $Y = \{u,v,w,x\}$ , answer the questions from the
 previous exercise
 
@@ -592,16 +573,67 @@ Partition of a set, say S, is a collection of n disjoint subsets, say $P1,P2 \ld
 \[Pa \cap Pb={\varnothing}, for a\neq b where n\geq a,b\geq 0\]
 
 
-%-%
-
-
-
-\subsubsection*{Example}
+#### Example
 
 Let $S={a,b,c,d,e,f,g,h}$
 
 *  One probable partitioning is ${a},{b,c,d},{e,f,g,h}$
 *  Another probable partitioning is ${a,b},{c,d},{e,f,g,h}$
+
+
+
+
+De Morgan's Laws {data-navmenu="Set Theory"}
+====================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+### De Morgan's Laws
+
+\subsubsection{Set theory and Boolean algebra}
+In set theory and Boolean algebra, De Morgan's Laws are often stated as "Union and intersection interchange under complementation" which can be formally expressed as:
+
+\[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]
+\[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]
+where:
+
+\item $\overline{A}$ is the negation of A, the overline being written above the terms to be negated
+\item $\cap$ is the intersection operator (AND)
+\item $\cup$ is the union operator (OR)
+
+
+<hline>
+
+In propositional logic and boolean algebra, \textbf{De Morgan's laws} are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
+
+The rules can be verbalized as:
+
+
+* The negation of a conjunction is the disjunction of the negations.
+* The negation of a disjunction is the conjunction of the negations.
+or informally as:
+
+\begin{center}
+\textbf{``not (A and B)" is the same as "(not A) or (not B)"
+}
+\end{center}
+
+and also,
+\begin{center}
+\textbf{``not (A or B)" is the same as "(not A) and (not B)"
+}
+\end{center}
+The rules can be expressed in formal language with two propositions P and Q as:
+\[ \neg(P\land Q)\iff(\neg P)\lor(\neg Q)\]
+\[\neg(P\lor Q)\iff(\neg P)\land(\neg Q)\]
+where:
+
+* $\neg$ is the negation operator (NOT)
+* $\wedge $ is the conjunction operator (AND)
+* $\vee$ is the disjunction operator (OR)
+* $\leftarrow \rightarrow$ is a metalogical symbol meaning "can be replaced in a logical proof with"
+
 
 
 

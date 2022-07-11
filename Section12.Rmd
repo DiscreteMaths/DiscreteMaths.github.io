@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics"
+title: "Discrete Mathematics - Section 10"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -18,30 +18,20 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
-### Contents
+### Convergence and Ration Tests
+
+<a href="index.html">Back to main page</a>
 
 
-<h3>Section 12</h3>
+<h3>Convergence and Ration Tests</h3>
 
 
-* Introduction to Matrices
-
-* Systems of Linear Equations
 
 
-  
-```{r child="Section_12/Matrices-IntroductionToMatrices.Rmd"}
-```
-
-```{r child="Section_12/Matrices-LinearAlgebra.Rmd"}
-```
-
-```{r child="Section_12/Matrices-LinearEquations.Rmd"}
-```
-
-```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}
+```{r child="sourcefiles/SequenceSeries-RatioTests.Rmd"}
 ```
 
 
-
+```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
+```
 
