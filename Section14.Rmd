@@ -20,8 +20,9 @@ Column {.tabset}
 
 ### Contents
 
+<a href="index.html">Back to main page</a>
 
-<h3>Section 12</h3>
+<h3>Section 14</h3>
 
 
 * Introduction to Matrices
@@ -30,13 +31,13 @@ Column {.tabset}
 
 
   
-```{r child="Section_12/Matrices-IntroductionToMatrices.Rmd"}
+```{r child="Section_14/Matrices-IntroductionToMatrices.Rmd"}
 ```
 
-```{r child="Section_12/Matrices-LinearAlgebra.Rmd"}
+```{r child="Section_14/Matrices-LinearAlgebra.Rmd"}
 ```
 
-```{r child="Section_12/Matrices-LinearEquations.Rmd"}
+```{r child="Section_14/Matrices-LinearEquations.Rmd"}
 ```
 
 ```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}

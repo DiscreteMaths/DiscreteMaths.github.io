@@ -1,11 +1,90 @@
+---
+title: "Discrete Mathematics - Section 6"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
 Functions {data-navmenu="Section 3"}
 =====================================
 
 Column {.tabset}
 -------------------------------------------------
 
-### Functions
+### Ordered Pairs
 
+https://math24.net/cartesian-product-sets.html
+
+Ordered Pairs
+In sets, the order of elements is not important. For example, the sets {2, 3} and {3, 2} are equal to each other. However, there are many instances in mathematics where the order of elements is essential. So, for example, the pairs of numbers with coordinates (2, 3) and (3, 2) represent different points on the plane. This leads to the concept of ordered pairs.
+
+An ordered pair is defined as a set of two objects together with an order associated with them. Ordered pairs are usually written in parentheses (as opposed to curly braces, which are used for writing sets).
+
+In the ordered pair  the element  is called the first entry or first component, and  is called the second entry or second component of the pair.
+
+Two ordered pairs  and  are equal if and only if  and  In general,
+
+The equality  is possible only if 
+
+### Tuples
+The concept of ordered pair can be extended to more than two elements. An ordered tuple is a set of  objects together with an order associated with them. Tuples are usually denoted by  The element   is called the  entry or component, and  is called the length of the tuple.
+
+Similarly to ordered pairs, the order in which elements appear in a tuple is important. Two tuples of the same length  and  are said to be equal if and only if  for all  So the following tuples are not equal to each other:
+
+Unlike sets, tuples may contain a certain element more than once:
+
+Ordered pairs are sometimes referred as tuples.
+
+### Cartesian Product of Two Sets
+Suppose that  and  are non-empty sets. The Cartesian product of two sets  and  denoted  is the set of all possible ordered pairs  where  and 
+
+The Cartesian product is also known as the cross product.
+
+The figure below shows the Cartesian product of the sets  and 
+
+Cartesian product of two sets A={1,2,3} and B={x,y}.
+Figure 1.
+It consists of  ordered pairs:
+
+Similarly, we can find the Cartesian product 
+
+As you can see from this example, the Cartesian products  and  do not contain exactly the same ordered pairs. So, in general, 
+
+If  then  is called the Cartesian square of the set  and is denoted by 
+
+#### Cartesian Product of Several Sets
+Cartesian products may also be defined on more than two sets.
+
+Let  be  non-empty sets. The Cartesian product  is defined as the set of all possible ordered tuples  where  and 
+
+If  then  is called the  Cartesian power of the set  and is denoted by 
+
+#### Properties
+
+Some Properties of Cartesian Product
+The Cartesian product is non-commutative:
+ if only 
+ if either  or 
+The Cartesian product is non-associative:
+Distributive property over set intersection:
+Distributive property over set union:
+Distributive property over set difference:
+If  then  for any set 
+Cardinality of Cartesian Product
+The сardinality of a Cartesian product of two sets is equal to the product of the cardinalities of the sets:
+
+Similarly,
+
+See solved problems on Page 2.
+
+### Videos
 * <a href ="https://www.youtube.com/watch?v=/-3hd821alPI">Functions (2005 Q4 Part A)  </a>
 * <a href ="https://www.youtube.com/watch?v=/cR5b2zWOa0w">Functions (2003 Q4 Part B) </a>
 * <a href ="https://www.youtube.com/watch?v=/IXs5CTQnBU4">Floor Functions Exercise HD	</a>
@@ -48,6 +127,4 @@ Necessary Conditions for Invertibility of a Function
 * A function is ***one-to-one*** if no two distinct elements of the domain have the same image.
 
 
-```{r child="Section_06/Functions-O-Notation.Rmd"}
-```
 

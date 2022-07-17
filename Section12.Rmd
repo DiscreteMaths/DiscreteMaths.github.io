@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 10"
+title: "Discrete Mathematics - Section 12"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -28,10 +28,10 @@ Column {.tabset}
 
 
 
-```{r child="sourcefiles/SequenceSeries-RatioTests.Rmd"}
+```{r child="Section_12/SequenceSeries-RatioTests.Rmd"}
 ```
 
 
-```{r child="sourcefiles/SequenceSeries-ConvergenceTests.Rmd"}
+```{r child="Section_12/SequenceSeries-ConvergenceTests.Rmd"}
 ```
 

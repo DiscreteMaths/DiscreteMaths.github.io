@@ -31,28 +31,28 @@ Column {.tabset}
 
 
 
-```{r child="sourcefiles/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
+```{r child="Section_11/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
 ```
 
-```{r child="sourcefiles/SequenceSeries-Progressions.Rmd"}
-```
-
-
-```{r child="sourcefiles/SequenceSeries-FiniteSeries.Rmd"}
+```{r child="Section_11/SequenceSeries-Progressions.Rmd"}
 ```
 
 
-
-
-```{r child="sourcefiles/SequenceSeries-TelescopingSeries.Rmd"}
-```
-
-```{r child="sourcefiles/SequenceSeries-RecurrenceRelations.Rmd"}
+```{r child="Section_11/SequenceSeries-FiniteSeries.Rmd"}
 ```
 
 
 
-```{r child="sourcefiles/SequenceSeries-ProofbyInduction.Rmd"}
+
+```{r child="Section_11/SequenceSeries-TelescopingSeries.Rmd"}
+```
+
+```{r child="Section_11/SequenceSeries-RecurrenceRelations.Rmd"}
+```
+
+
+
+```{r child="Section_11/SequenceSeries-ProofbyInduction.Rmd"}
 ```
 
 ```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}

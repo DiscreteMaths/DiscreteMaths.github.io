@@ -8,9 +8,9 @@
 
 
 
-<title>Discrete Mathematics - Section 10</title>
+<title>Discrete Mathematics - Section 7</title>
 
-<meta property="og:title" content="Discrete Mathematics - Section 10" />
+<meta property="og:title" content="Discrete Mathematics - Section 7" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -790,7 +790,7 @@ html, body {
   
 </span>
 <span class="navbar-brand">
-  Discrete Mathematics - Section 10
+  Discrete Mathematics - Section 7
   <span class="navbar-author">
         </span>
 </span>
@@ -2597,116 +2597,197 @@ window.FlexDashboardComponents.push({
 
 <div id="dashboard-container">
 
-<div id="discrete-mathematics" class="section level1" data-navmenu="Introduction">
-<h1 data-navmenu="Introduction">Discrete Mathematics</h1>
+<div id="trees" class="section level1" data-navmenu="Trees">
+<h1 data-navmenu="Trees">Trees</h1>
 <div id="column" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="convergence-and-ration-tests" class="section level3">
-<h3>Convergence and Ration Tests</h3>
+<div id="trees-1" class="section level3">
+<h3>Trees</h3>
 <p><a href="index.html">Back to main page</a></p>
 <h3>
-Convergence and Ration Tests
+Section 9: Trees
 </h3>
+<p>In graph theory, a tree is an undirected graph in which any two vertices are connected by exactly one path, or equivalently a connected acyclic undirected graph.</p>
+</div>
+<div id="spanning-trees" class="section level3">
+<h3>Spanning Trees</h3>
+<div id="spanning-trees-1" class="section level4">
+<h4>Spanning Trees</h4>
+<p>Let G be a connected graph, then the sub-graph H of G is called a spanning tree of G if −</p>
+<ul>
+<li>H is a tree</li>
+<li>H contains all vertices of G. A spanning tree T of an undirected graph G is a subgraph that includes all of the vertices of G.</li>
+</ul>
+</div>
+</div>
+<div id="kirchoffs-theorem" class="section level3">
+<h3>Kirchoff’s Theorem</h3>
+<p>Kirchoff’s theorem is useful in finding the number of spanning trees that can be formed from a connected graph.</p>
+<div id="example" class="section level4">
+<h4>Example</h4>
+<p>Kirchoff’s Theorem The matrix ‘A’ be filled as, if there is an edge between two vertices, then it should be given as ‘1’, else ‘0’.</p>
+<p>A=∣∣∣∣∣∣∣0abcda0111b1001c1001d1110∣∣∣∣∣∣∣=∣∣∣∣∣∣0111100110011110∣∣∣∣∣∣ By using kirchoff’s theorem, it should be changed as replacing the principle diagonal values with the degree of vertices and all other elements with -1.A</p>
+<p>=∣∣∣∣∣∣3−1−1−1−120−1−102−1−1−1−13∣∣∣∣∣∣=M M=∣∣∣∣∣∣3−1−1−1−120−1−102−1−1−1−13∣∣∣∣∣∣=8 Cofactorofm1=∣∣∣∣20−102−1−1−13∣∣∣∣</p>
+<p>Thus, the number of spanning trees = 8.</p>
 </div>
 </div>
 </div>
-<div id="ratio-test" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Ratio Test</h1>
+</div>
+<div id="trees-2" class="section level1" data-navmenu="Trees">
+<h1 data-navmenu="Trees">Trees</h1>
 <div id="column-1" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="infinite-series" class="section level3">
-<h3>Infinite Series</h3>
-<p>An infinite series is a series whose terms are summed indefinitely. For an infinite sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span>, the corresponding infinite series <span class="math inline">\(s_\infty\)</span> is written <span class="math display">\[
-  s_\infty=\sum_{n=0}^{\infty}a_n=a_0+a_1+a_2+a_3+a_4+a_5+\cdots
-\]</span> Formally, an infinite series can be expressed as the limit of the series as <span class="math inline">\(n\to \infty\)</span> <span class="math display">\[
-  s_\infty = \lim_{n \to \infty} s_n = \lim_{n \to \infty} \sum_{k=0}^n a_k 
-\]</span> For any particular series, this limit may or may not exist. If it does exist, then <span class="math inline">\(s_\infty\)</span> is defined and the infinite series is . If the limit does not exist then <span class="math inline">\(s_\infty\)</span> is not defined and the infinite series is .</p>
-<p>\ The infinite series <span class="math display">\[
-  s_\infty = 1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\frac{1}{32}+\cdots = 2
-\]</span> Letting <span class="math inline">\(a_n=\left(\frac{1}{2}\right)^n\)</span>, <span class="math inline">\(s_\infty\)</span> is the limit of the sequence <span class="math inline">\(s_n=\sum_{k=0}^{n} \left(\frac{1}{2}\right)^k\)</span>. Applying the formula for the sum of a geometric series gives <span class="math display">\[\begin{align*}
-  s_n = \sum_{k=0}^{n} \frac{1}{2^k} = \frac{1- \left( \frac{1}{2} \right)^{n+1} }{1-\frac{1}{2}} = 2 \left[ 1-\frac{1}{2^{n+1}} \right]
-\end{align*}\]</span> And so applying the definition of the infinite series gives. <span class="math display">\[
-  s_\infty=\lim_{n \to \infty} s_n = \lim_{n \to \infty} 2 \left[ 1- \frac{1}{2^{n+1}} \right]= 2 \left[ 1-0 \right] = 2
-\]</span>\ A  condition for the convergence of an infinite series is that the terms in the sequence <span class="math inline">\(a_n \to 0\)</span> as <span class="math inline">\(n \to \infty\)</span>. However, this condition is not  to ensure convergence.</p>
-<p>Consider the  <span class="math inline">\(a_n=1/n\)</span> and the corresponding infinite  <span class="math inline">\(\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}\)</span>. This series is divergent. To see this compare the following <span class="math inline">\(2\)</span> infinite series <span class="math display">\[\begin{align*}
-  &amp;1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\frac{1}{9}+\cdots+\frac{1}{16}+\frac{1}{17}\cdots\\
-  &gt;&amp;1+\frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{16}+\frac{1}{32}\cdots\\
-  = &amp; 1+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\cdots
-\end{align*}
-\]</span></p>
-<p>The first series is the harmonic series and the terms in the second series are less than or equal to the corresponding terms in the harmonic series. However, the second series diverges as it is the sum of an infinite number of <span class="math inline">\(1/2\)</span> terms. So the harmonic series is always greater than a series which diverges, and so the harmonic series itself is divergent.</p>
-<p>So even though the terms <span class="math inline">\(a_n \to 0\)</span>, the addition of an infinite number of them can still cause a series to diverge as $n $. A better test for whether a series converges is needed.</p>
+<div id="tree" class="section level3">
+<h3>Tree</h3>
+<ul>
+<li><p>A connected acyclic graph is called a tree. In other words, a connected graph with no cycles is called a tree.</p></li>
+<li><p>The edges of a tree are known as branches. Elements of trees are called their nodes.</p></li>
+<li><p>The nodes without child nodes are called leaf nodes.</p></li>
+<li><p>A tree with ‘n’ vertices has ‘n-1’ edges. If it has one more edge extra than ‘n-1’, then the extra edge should obviously has to pair up with two vertices which leads to form a cycle.</p></li>
+<li><p>Then, it becomes a cyclic graph which is a violation for the tree graph.</p></li>
+</ul>
 </div>
-<div id="ratio-test-1" class="section level3">
-<h3>Ratio Test</h3>
-<p>To determine whether an infinite series is convergent, the ratio test can be applied. The test examines the ratio of successive terms in the sequence as <span class="math inline">\(n \to \infty\)</span>. If this ratio has a limit, the sequences behaves like a geometric sequence for large <span class="math inline">\(n\)</span>, and so if the ratio is less than <span class="math inline">\(1\)</span>, the series will be convergent.</p>
-Formally, given a sequence <span class="math inline">\(a_n\)</span> and the corresponding infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^\infty a_n\)</span>. Let <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|
-\]</span> If this limit <span class="math inline">\(R\)</span> exists, then
-<p>\ Let <span class="math inline">\(a_n=\dfrac{1}{n!}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{1}{n!} = 1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}+\cdots\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{1}{(n+1)!}\)</span> <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{1}{(n+1)!}\cdot \frac{n!}{1}\right|=\left| \frac{n!}{(n+1)!}\right|=\left| \frac{1}{n+1}\right|=\frac{1}{n+1}
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{1}{n+1}=0
-\]</span> So <span class="math inline">\(R=0\)</span> meaning that <span class="math inline">\(R&lt;1\)</span>, and therefore the infinite series $ _{n=0}^{} $ is convergent.</p>
-<p>\ Let <span class="math inline">\(a_n=\dfrac{2^n}{n^2}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{2^{n+1}}{(n+1)^2}\)</span> <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{2^{n+1}}{(n+1)^2}\cdot \frac{n^2}{2^n}\right|=\left| \frac{2^{n+1}}{2^n}\cdot\frac{n^2}{(n+1)^2}\right|=2 \left(\frac{n}{n+1}\right)^2
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} 2 \left(\frac{n}{n+1}\right)^2=\lim_{n \to \infty} 2 \left(\frac{1}{1+\frac{1}{n}}\right)^2=2\left(\frac{1}{1+0}\right)^2=2
-\]</span> So <span class="math inline">\(R=2\)</span> meaning <span class="math inline">\(R&gt;1\)</span>, and therefore the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span> is divergent.</p>
+<div id="spanning-trees-2" class="section level3">
+<h3>Spanning Trees</h3>
+<p>A spanning tree <span class="math inline">\(T\)</span> of a connected, undirected graph <span class="math inline">\(G\)</span> is a tree composed of all the vertices and some (or perhaps all) of the edges of <span class="math inline">\(G\)</span>.</p>
+<p>Informally, a spanning tree of <span class="math inline">\(G\)</span> is a selection of edges of <span class="math inline">\(G\)</span> that form a tree spanning every vertex.</p>
+<p>That is, every vertex lies in the tree, but no cycles (or loops) are formed. On the other hand, every bridge of <span class="math inline">\(G\)</span> must belong to <span class="math inline">\(T\)</span>.</p>
 </div>
-<div id="functions-defined-by-infinite-series" class="section level3">
-<h3>Functions Defined by Infinite Series</h3>
-<p>Convergent infinite series are often used to define functions. The  <span class="math inline">\(y=e^x=\text{exp}(x)\)</span> is defined as <span class="math display">\[\begin{equation}
-\label{eq:exp_def_taylor}
-  \text{exp}(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!}=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\cdots
-\end{equation}\]</span> The ratio test can be used to show that this infinite series is convergent for all values of <span class="math inline">\(x\)</span>. Here, the sequence terms are <span class="math inline">\(a_n=\dfrac{x^n}{n!}\)</span>, so <span class="math inline">\(a_{n+1}=\dfrac{x^{n+1}}{(n+1)!}\)</span>, and <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{x^{n+1}}{(n+1)!}\cdot \frac{n!}{x^n}\right|=\left| \frac{x^{n+1}}{x^n}\cdot\frac{n!}{(n+1)!}\right|=\left|x \frac{1}{n+1}\right| = \frac{|x|}{n+1}
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{|x|}{n+1}=0
-\]</span> So <span class="math inline">\(R&lt;1\)</span> and the series is convergent for all <span class="math inline">\(x\)</span>.</p>
-<p>The infinite series can be used to approximate <span class="math inline">\(e^x\)</span> to as many decimal places desired. To do this, use the sequence terms to evaluate the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{x^k}{k!}\)</span>. This is best done using a table similar to the one below.</p>
-For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three decimal places, the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{(0.3)^k}{k!}\)</span> must be computed until the desired accuracy is reached. %
-<p>\end{center} The series can be summed indefinitely but in practice some kind of stopping condition is needed. A heuristic stopping condition can be used; for example, we can stop when the terms <span class="math inline">\(a_n\)</span> become small enough, or when the digits of <span class="math inline">\(s_n\)</span> appear to have converged to enough decimal places. The first condition assumes that the terms <span class="math inline">\(a_n\)</span> never become large again, and the second condition may have problems if the terms <span class="math inline">\(a_n\)</span> alternate around <span class="math inline">\(0\)</span>. However, in practice, we can stop if the series appears to have converged after a few iterations.</p>
-<p>In this case, to <span class="math inline">\(3\)</span> decimal places <span class="math inline">\(e^{0.3} \cong 1.349\)</span>. A more accurate estimate would be <span class="math inline">\(e^{0.3}\cong 1.34985880757600310398\)</span>.</p>
+<div id="spanning-trees-3" class="section level3">
+<h3>Spanning Trees</h3>
+<p>A spanning tree <span class="math inline">\(T\)</span> of a connected, undirected graph <span class="math inline">\(G\)</span> is a tree composed of all the vertices and some (or perhaps all) of the edges of <span class="math inline">\(G\)</span>.</p>
+<p>Informally, a spanning tree of <span class="math inline">\(G\)</span> is a selection of edges of <span class="math inline">\(G\)</span> that form a tree spanning every vertex. That is, every vertex lies in the tree, but no cycles (or loops) are formed. On the other hand, every bridge of <span class="math inline">\(G\)</span> must belong to <span class="math inline">\(T\)</span>.</p>
+<p>A spanning tree of a connected graph <span class="math inline">\(G\)</span> can also be defined as a maximal set of edges of <span class="math inline">\(G\)</span> that contains no cycle, or as a minimal set of edges that connect all vertices.</p>
+<div id="subgraphs" class="section level4">
+<h4>Subgraphs</h4>
+<p>We say that a graph H is a subgraph of a graph G if its vertices are a subset of the vertex set of G, its edges are a subset of the edge set of G, and each edge of H has the same end-vertices in G and H.</p>
+</div>
+<div id="definition" class="section level4">
+<h4>Definition</h4>
+<p>If H is a subgraph of G such that <span class="math inline">\(V(H) = V (G)\)</span>, then H is called a spanning subgraph of G. If H is a spanning subgraph which is also a tree, then H is said to be a spanning tree of G.</p>
 </div>
 </div>
+<div id="traversals" class="section level3">
+<h3>Traversals</h3>
+<p>A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal. We will consider several traversal algorithms with we group in the following two kinds</p>
+<ul>
+<li>depth-first traversal</li>
+<li>breadth-first traversal</li>
+</ul>
+<p>There are three different types of depth-first traversals, :</p>
+<ul>
+<li>Pre-Order traversal - visit the parent first and then left and right children;</li>
+<li>In-Order traversal - visit the left child, then the parent and the right child;</li>
+<li>Post-Order traversal - visit left child, then the right child and then the parent;</li>
+</ul>
 </div>
-<div id="convergence-testing" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Convergence Testing</h1>
+<div id="trees-3" class="section level3">
+<h3>Trees</h3>
+<ul>
+<li><p><a href="https://youtube.com/watch?v=/U98IToj6-iM">Spanning Trees - Worked Example </a></p></li>
+<li><p><a href="//www.youtube.com/watch?v=/TzLswrllE7E"> Spanning Trees - </a></p></li>
+<li><p><a href="//www.youtube.com/watch?v=/ueEOrbbB6Uw"> Trees 2006 Isomorphic Trees</a></p></li>
+<li><p><a href="//www.youtube.com/watch?v=/wVtE00YodYs"> Spanning Trees - (Example 1)[10.55]</a></p></li>
+<li><p><a href="//www.youtube.com/watch?v=/1Nb1I8nfyx4"> Spanning Trees - (Example 2)[7.06]</a></p></li>
+<li><p><a href="//www.youtube.com/watch?v=/tm8Ew3Vyj40"> Spanning Trees - (Example 3)[9:35]</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="binary-search-trees" class="section level1" data-navmenu="Trees">
+<h1 data-navmenu="Trees">Binary Search Trees</h1>
 <div id="column-2" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="convergence-tests" class="section level3">
-<h3>Convergence Tests</h3>
+<div id="binary-search-trees-1" class="section level3">
+<h3>Binary Search Trees</h3>
+<h4>
+Binary Search Trees
+</h4>
+<p>We extend the concept of linked data structures to structure containing nodes with more than one self-referenced field. A binary tree is made of nodes, where each node contains a “left” reference, a “right” reference, and a data element. The topmost node in the tree is called the root.</p>
+<p>Every node (excluding a root) in a tree is connected by a directed edge from exactly one other node. This node is called a <strong><em>parent</em></strong>. On the other hand, each node can be connected to arbitrary number of nodes, called children. Nodes with no children are called leaves, or external nodes. Nodes which are not leaves are called internal nodes. Nodes with the same parent are called siblings.</p>
+<p>More tree terminology:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
-<li><a href="http://youtu.be/ojL-Vtek2Mo">Ratio Test Exercise </a></li>
-<li><a href="https://youtu.be/LWYiiY1rOqg">Convergence Test</a>(3:13)</li>
-<li><a href="https://youtu.be/Ka8OawOt_-w">Ratio Test Exercise </a></li>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
+<li>The <strong><em>depth</em></strong> of a node is the number of edges from the root to the node.</li>
+<li>The <strong><em>height</em></strong> of a node is the number of edges from the node to the deepest leaf.</li>
+<li>The <strong><em>height</em></strong> of a tree is a height of the root.</li>
 </ul>
 </div>
-<div id="ratio-test-2" class="section level3">
-<h3>Ratio Test</h3>
-<ul>
-<li>Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs">HERE</a></li>
-<li>Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68">HERE</a></li>
-<li>Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0">HERE</a></li>
-<li>Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo">HERE</a></li>
-<li>Maclaurin Series Worked Example <a href="https://youtu.be/tc-Zelm9bWA">HERE</a></li>
-<li><a href="https://www.youtube.com/watch?v=Ka8OawOt_-w">Simple Ratio Test Exercise </a></li>
-<li><a href="https://www.youtube.com/watch?v=quK-JQ5EQOE">The Ratio Test</a></li>
-<li>Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg">HERE</a>(3:13)</li>
-<li>Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w">HERE</a>[5:19]</li>
-</ul>
 </div>
-<div id="series-expansions" class="section level3">
-<h3>Series Expansions</h3>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
-<li><a href="http://youtu.be/ojL-Vtek2Mo">Ratio Test Exercise</a></li>
-<li><a href="https://www.youtube.com/watch?v=ItK4oTbuuOo">Important Taylor Series Expansions </a></li>
-<li><a href="https://www.youtube.com/watch?v=tc-Zelm9bWA">Maclaurin Series Worked Example</a></li>
-</ul>
+</div>
+<div id="trees---worksheets" class="section level1" data-navmenu="Section 4">
+<h1 data-navmenu="Section 4">Trees - Worksheets</h1>
+<div id="column-3" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="worksheets-1" class="section level3">
+<h3>Worksheets 1</h3>
+<div id="question-1" class="section level4">
+<h4>Question 1</h4>
+<p>Let <span class="math inline">\(G\)</span> be a graph. What two properties must <span class="math inline">\(G\)</span> satisfy in order to be a tree?</p>
+</div>
+<div id="question-2" class="section level4">
+<h4>Question 2</h4>
+<ol style="list-style-type: lower-alpha">
+<li><p>How many edges are in the spanning tree <span class="math inline">\(T\)</span> ?</p></li>
+<li><p>What is the sum of the degree sequence of <span class="math inline">\(T\)</span>?</p></li>
+<li><p>Write down all the possible degree sequences for the spanning tree <span class="math inline">\(T\)</span>.</p></li>
+</ol>
+<p>(images/Graphs/edges_spinning_tree.jpg.png)</p>
+</div>
+<div id="question-3" class="section level4">
+<h4>Question 3</h4>
+<p>Draw the tree <span class="math inline">\(T\)</span> with <span class="math inline">\(V(T) = \{v_1,v_2,v_3,v_4,v_5,v_6\}\)</span> and <span class="math inline">\(E(T)= \{v_1v_3, v_2v_3, v_3v_4,v_4v_5,v_4v_6\}\)</span>.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Construct all the non-isomorphic tree on seven vertices which may be obtained by adding a new vertex of degree one to <span class="math inline">\(T\)</span>.</p></li>
+<li><p>Explain briefly why the trees you obtained are not isomorphic to each other.</p></li>
+</ol>
+</div>
+<div id="question-4" class="section level4">
+<h4>Question 4</h4>
+<p>Let <span class="math inline">\(T\)</span> be a rooted tree with root r.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Explain how the nodes of <span class="math inline">\(T\)</span> are partitioned into levels.</li>
+<li>What does it mean to say that <span class="math inline">\(T\)</span> has height <span class="math inline">\(h\)</span>?</li>
+<li>What does it mean to say that a node of <span class="math inline">\(v\)</span> is an external node?</li>
+</ol>
+</div>
+</div>
+<div id="work-sheet-2" class="section level3">
+<h3>Work Sheet 2</h3>
+<div id="question-1-1" class="section level4">
+<h4>Question 1</h4>
+<ol style="list-style-type: lower-alpha">
+<li><p>What properties must a graph satisfy in order for it to be a tree?</p></li>
+<li><p>Design a balanced binary search tree for an ordered list of 15 records. Label the records <span class="math inline">\(1,2, \ldots , 15\)</span> in your tree.</p></li>
+</ol>
+</div>
+<div id="question-2-1" class="section level4">
+<h4>Question 2</h4>
+<p>A binary search tree is designed to store an ordered list of 50000 records, numbered <span class="math inline">\(1,2,3\ldots 50000\)</span> at its internal nodes.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Draw levels 0, 1 and 2 of this tree, showing which number record is stored at the root and at each of the nodes at level 1 and 2, making it clear which records are at each level.</p></li>
+<li><p>What is the maximum number of comparisons that would have to be made in order to locate an existing record from the list of 50000?</p></li>
+</ol>
+</div>
+<div id="question-3-1" class="section level4">
+<h4>Question 3</h4>
+<p>Suppose a database, comprised of 30,000 internal nodes, is structured as a Binary Search Tree.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>What is the key (number) of the Root node?</p></li>
+<li><p>What are the keys of the nodes at level 1?</p></li>
+<li><p>For the nodes at level1, how many subtrees are there?</p></li>
+<li><p>State which nodes are in the substrees of the level 1 nodes?</p></li>
+<li><p>How many nodes are the between the root (level 0) and level 7. (Hint: use a summation theorem)</p></li>
+<li><p>What is the maximum number of searchs in this database?</p></li>
+</ol>
+</div>
+<div id="question-4-1" class="section level4">
+<h4>Question 4</h4>
+<p>A binary search tree is designed to store an ordered list of 6000 records at its internal nodes.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Find which record is stored at the root (level 0) of the tree and at each of the nodes at level 1.</p></li>
+<li><p>What is the height of the tree?</p></li>
+</ol>
+</div>
 </div>
 </div>
 </div>

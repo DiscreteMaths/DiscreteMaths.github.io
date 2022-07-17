@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 11"
+title: "Discrete Mathematics - Section 13"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -28,10 +28,10 @@ Column {.tabset}
 
 
 
-```{r child="Section_11/Probability.Rmd"}
+```{r child="Section_13/Probability.Rmd"}
 ```
 
-```{r child="Section_11/CountingProblems.Rmd"}
+```{r child="Section_13/CountingProblems.Rmd"}
 ```
 
 

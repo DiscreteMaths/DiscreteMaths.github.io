@@ -8,9 +8,9 @@
 
 
 
-<title>Discrete Mathematics - Section 10</title>
+<title>Discrete Mathematics - Section 7</title>
 
-<meta property="og:title" content="Discrete Mathematics - Section 10" />
+<meta property="og:title" content="Discrete Mathematics - Section 7" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -790,7 +790,7 @@ html, body {
   
 </span>
 <span class="navbar-brand">
-  Discrete Mathematics - Section 10
+  Discrete Mathematics - Section 7
   <span class="navbar-author">
         </span>
 </span>
@@ -2597,116 +2597,312 @@ window.FlexDashboardComponents.push({
 
 <div id="dashboard-container">
 
-<div id="discrete-mathematics" class="section level1" data-navmenu="Introduction">
-<h1 data-navmenu="Introduction">Discrete Mathematics</h1>
+<div id="discrete-mathematics" class="section level1" data-navmenu="Graphs">
+<h1 data-navmenu="Graphs">Discrete Mathematics</h1>
 <div id="column" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="convergence-and-ration-tests" class="section level3">
-<h3>Convergence and Ration Tests</h3>
+<div id="graph-theory" class="section level3">
+<h3>Graph Theory</h3>
 <p><a href="index.html">Back to main page</a></p>
 <h3>
-Convergence and Ration Tests
+Graph Theory
 </h3>
 </div>
 </div>
 </div>
-<div id="ratio-test" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Ratio Test</h1>
+<div id="graph-theory-1" class="section level1" data-navmenu="Section 4">
+<h1 data-navmenu="Section 4">Graph Theory</h1>
 <div id="column-1" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="infinite-series" class="section level3">
-<h3>Infinite Series</h3>
-<p>An infinite series is a series whose terms are summed indefinitely. For an infinite sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span>, the corresponding infinite series <span class="math inline">\(s_\infty\)</span> is written <span class="math display">\[
-  s_\infty=\sum_{n=0}^{\infty}a_n=a_0+a_1+a_2+a_3+a_4+a_5+\cdots
-\]</span> Formally, an infinite series can be expressed as the limit of the series as <span class="math inline">\(n\to \infty\)</span> <span class="math display">\[
-  s_\infty = \lim_{n \to \infty} s_n = \lim_{n \to \infty} \sum_{k=0}^n a_k 
-\]</span> For any particular series, this limit may or may not exist. If it does exist, then <span class="math inline">\(s_\infty\)</span> is defined and the infinite series is . If the limit does not exist then <span class="math inline">\(s_\infty\)</span> is not defined and the infinite series is .</p>
-<p>\ The infinite series <span class="math display">\[
-  s_\infty = 1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\frac{1}{32}+\cdots = 2
-\]</span> Letting <span class="math inline">\(a_n=\left(\frac{1}{2}\right)^n\)</span>, <span class="math inline">\(s_\infty\)</span> is the limit of the sequence <span class="math inline">\(s_n=\sum_{k=0}^{n} \left(\frac{1}{2}\right)^k\)</span>. Applying the formula for the sum of a geometric series gives <span class="math display">\[\begin{align*}
-  s_n = \sum_{k=0}^{n} \frac{1}{2^k} = \frac{1- \left( \frac{1}{2} \right)^{n+1} }{1-\frac{1}{2}} = 2 \left[ 1-\frac{1}{2^{n+1}} \right]
-\end{align*}\]</span> And so applying the definition of the infinite series gives. <span class="math display">\[
-  s_\infty=\lim_{n \to \infty} s_n = \lim_{n \to \infty} 2 \left[ 1- \frac{1}{2^{n+1}} \right]= 2 \left[ 1-0 \right] = 2
-\]</span>\ A  condition for the convergence of an infinite series is that the terms in the sequence <span class="math inline">\(a_n \to 0\)</span> as <span class="math inline">\(n \to \infty\)</span>. However, this condition is not  to ensure convergence.</p>
-<p>Consider the  <span class="math inline">\(a_n=1/n\)</span> and the corresponding infinite  <span class="math inline">\(\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}\)</span>. This series is divergent. To see this compare the following <span class="math inline">\(2\)</span> infinite series <span class="math display">\[\begin{align*}
-  &amp;1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\frac{1}{9}+\cdots+\frac{1}{16}+\frac{1}{17}\cdots\\
-  &gt;&amp;1+\frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{16}+\frac{1}{32}\cdots\\
-  = &amp; 1+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\cdots
-\end{align*}
-\]</span></p>
-<p>The first series is the harmonic series and the terms in the second series are less than or equal to the corresponding terms in the harmonic series. However, the second series diverges as it is the sum of an infinite number of <span class="math inline">\(1/2\)</span> terms. So the harmonic series is always greater than a series which diverges, and so the harmonic series itself is divergent.</p>
-<p>So even though the terms <span class="math inline">\(a_n \to 0\)</span>, the addition of an infinite number of them can still cause a series to diverge as $n $. A better test for whether a series converges is needed.</p>
-</div>
-<div id="ratio-test-1" class="section level3">
-<h3>Ratio Test</h3>
-<p>To determine whether an infinite series is convergent, the ratio test can be applied. The test examines the ratio of successive terms in the sequence as <span class="math inline">\(n \to \infty\)</span>. If this ratio has a limit, the sequences behaves like a geometric sequence for large <span class="math inline">\(n\)</span>, and so if the ratio is less than <span class="math inline">\(1\)</span>, the series will be convergent.</p>
-Formally, given a sequence <span class="math inline">\(a_n\)</span> and the corresponding infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^\infty a_n\)</span>. Let <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|
-\]</span> If this limit <span class="math inline">\(R\)</span> exists, then
-<p>\ Let <span class="math inline">\(a_n=\dfrac{1}{n!}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{1}{n!} = 1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}+\cdots\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{1}{(n+1)!}\)</span> <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{1}{(n+1)!}\cdot \frac{n!}{1}\right|=\left| \frac{n!}{(n+1)!}\right|=\left| \frac{1}{n+1}\right|=\frac{1}{n+1}
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{1}{n+1}=0
-\]</span> So <span class="math inline">\(R=0\)</span> meaning that <span class="math inline">\(R&lt;1\)</span>, and therefore the infinite series $ _{n=0}^{} $ is convergent.</p>
-<p>\ Let <span class="math inline">\(a_n=\dfrac{2^n}{n^2}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{2^{n+1}}{(n+1)^2}\)</span> <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{2^{n+1}}{(n+1)^2}\cdot \frac{n^2}{2^n}\right|=\left| \frac{2^{n+1}}{2^n}\cdot\frac{n^2}{(n+1)^2}\right|=2 \left(\frac{n}{n+1}\right)^2
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} 2 \left(\frac{n}{n+1}\right)^2=\lim_{n \to \infty} 2 \left(\frac{1}{1+\frac{1}{n}}\right)^2=2\left(\frac{1}{1+0}\right)^2=2
-\]</span> So <span class="math inline">\(R=2\)</span> meaning <span class="math inline">\(R&gt;1\)</span>, and therefore the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span> is divergent.</p>
-</div>
-<div id="functions-defined-by-infinite-series" class="section level3">
-<h3>Functions Defined by Infinite Series</h3>
-<p>Convergent infinite series are often used to define functions. The  <span class="math inline">\(y=e^x=\text{exp}(x)\)</span> is defined as <span class="math display">\[\begin{equation}
-\label{eq:exp_def_taylor}
-  \text{exp}(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!}=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\cdots
-\end{equation}\]</span> The ratio test can be used to show that this infinite series is convergent for all values of <span class="math inline">\(x\)</span>. Here, the sequence terms are <span class="math inline">\(a_n=\dfrac{x^n}{n!}\)</span>, so <span class="math inline">\(a_{n+1}=\dfrac{x^{n+1}}{(n+1)!}\)</span>, and <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{x^{n+1}}{(n+1)!}\cdot \frac{n!}{x^n}\right|=\left| \frac{x^{n+1}}{x^n}\cdot\frac{n!}{(n+1)!}\right|=\left|x \frac{1}{n+1}\right| = \frac{|x|}{n+1}
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{|x|}{n+1}=0
-\]</span> So <span class="math inline">\(R&lt;1\)</span> and the series is convergent for all <span class="math inline">\(x\)</span>.</p>
-<p>The infinite series can be used to approximate <span class="math inline">\(e^x\)</span> to as many decimal places desired. To do this, use the sequence terms to evaluate the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{x^k}{k!}\)</span>. This is best done using a table similar to the one below.</p>
-For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three decimal places, the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{(0.3)^k}{k!}\)</span> must be computed until the desired accuracy is reached. %
-<p>\end{center} The series can be summed indefinitely but in practice some kind of stopping condition is needed. A heuristic stopping condition can be used; for example, we can stop when the terms <span class="math inline">\(a_n\)</span> become small enough, or when the digits of <span class="math inline">\(s_n\)</span> appear to have converged to enough decimal places. The first condition assumes that the terms <span class="math inline">\(a_n\)</span> never become large again, and the second condition may have problems if the terms <span class="math inline">\(a_n\)</span> alternate around <span class="math inline">\(0\)</span>. However, in practice, we can stop if the series appears to have converged after a few iterations.</p>
-<p>In this case, to <span class="math inline">\(3\)</span> decimal places <span class="math inline">\(e^{0.3} \cong 1.349\)</span>. A more accurate estimate would be <span class="math inline">\(e^{0.3}\cong 1.34985880757600310398\)</span>.</p>
+<div id="graph-theory-2" class="section level3">
+<h3>Graph Theory</h3>
+<p>Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called <strong><em>vertices</em></strong>, can be connected by lines, called <strong><em>edges</em></strong>.</p>
+<p>Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions are assigned to edges.</p>
+<ul>
+<li><a href="https://youtube.com/watch?v=/CtBgIx-g2xs">Introduction to Graph Theory - Part 1</a></li>
+<li><a href="https://youtube.com/watch?v=/Zww1ioTZqYY">Introduction to Graph Theory - Part 2</a></li>
+<li><a href="https://youtube.com/watch?v=/czci9ecaStY">Introduction to Graph Theory - Part 3</a></li>
+</ul>
+<div id="what-is-graph-theory" class="section level4">
+<h4>What is Graph Theory?</h4>
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called , can be connected by lines or arcs, called .
+<p>
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions (for example, up or down) are assigned to edges.
+<p>
+Graph theory is the study of points and lines. In particular, it involves the ways in which sets of points, called vertices, can be connected by lines or arcs, called edges. Graphs in this context differ from the more familiar coordinate plots that portray mathematical relations and functions.
+<p>
+Graphs are classified according to their complexity, the number of edges allowed between any two vertices, and whether or not directions (for example, up or down) are assigned to edges. Various sets of rules result in specific properties that can be stated as theorems.
+<p>
+Graph theory has proven useful in the design of integrated circuits ( IC s) for computers and other electronic devices. These components, more often called chip s, contain complex, layered microcircuits that can be represented as sets of points interconnected by lines or arcs.
+<p>
+<p>Using graph theory, engineers develop chips with maximum component density and minimum total interconnecting conductor length. This is important for optimizing processing speed and electrical efficiency.</p>
 </div>
 </div>
+<div id="videos" class="section level3">
+<h3>Videos</h3>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=uKG60xxdBU8">Important Graph Theory Terms</a><br />
+</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=6eg9V-LzCFQ">Basic definitions</a> – 2010 Question</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=MNoXLskj93k">Graph Theory – Walks and Paths</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=u5_r_GOd7NM">Traversable and Eulerian Graphs</a></p></li>
+<li><p><a title="Weighted Graphs " href="http://youtube.com/watch?v=/MurOpIGCmhQ">Weighted Graphs</a> [6:02]</p></li>
+<li><p><a title="Degree Sequence of a Graph" href="https://www.youtube.com/watch?v=D-W7VdUQBto">Degree Sequence of a Graph</a></p></li>
+</ul>
 </div>
-<div id="convergence-testing" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Convergence Testing</h1>
+<div id="graph-theory-terms" class="section level3">
+<h3>Graph Theory Terms</h3>
+<div id="graph-theory-3" class="section level4">
+<h4>Graph Theory</h4>
+<p><em>Eulerian Paths and Cycles</em></p>
+<ul>
+<li><p><a href="https://youtu.be/DFAxYeO-baU">Video</a></p></li>
+<li><p><a title="Complete Graphs" href="http://youtube.com/watch?v=/wvoEtJOht9g">Complete Graphs</a></p></li>
+<li><p><a title="Regular Graphs" href="https://youtu.be/Tvf3FqUGJqo">Regular Graphs</a></p></li>
+<li><p><a title="Adjacency List" href="http://youtube.com/watch?v=/pms38inEdzg">Adjacency List:</a> Using an adjacency list to construct a graph.</p></li>
+<li><p><a title="Adjacency List" href="http://youtube.com/watch?v=/imYq0rFJlHc">Adjacency List</a> ( Worked Example)</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=E4GNXq9dUO0">Eulers Formula for Planar Graphs</a> [5:42]</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=/s1f3nCOOzz8"></a></p></li>
+<li><p><a href="https://youtube.com/watch?v=/OFvd4eFOgGA"> Using Adjacency Lists in Graph Theory </a></p></li>
+<li><p><a href="https://youtube.com/watch?v=/nSpla9Opu4s"> Important Graph Theory Terms </a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=/E4GNXq9dUO0">Eulers Formula for Planar Graphs [5:42]</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory </a></p></li>
+</ul>
+</div>
+</div>
+<div id="adjacency" class="section level3">
+<h3>Adjacency</h3>
+<ul>
+<li><p>An  representation of a graph is a collection of unordered lists, one for each vertex in the graph. Each list describes the set of neighbors of its vertex.</p></li>
+<li><p>An  is a means of representing which vertices (or nodes) of a graph are adjacent to which other vertices. Another matrix representation for a graph is the incidence matrix.</p></li>
+</ul>
+</div>
+<div id="isomorphism" class="section level3">
+<h3>Isomorphism</h3>
+<ul>
+<li>They have a different number of connected components</li>
+<li>They have a different number of vertices</li>
+<li>They have different degrees sequences</li>
+<li>They have a different number of paths of any given length</li>
+<li>They have a different number of cycles of any length.</li>
+</ul>
+</div>
+<div id="degree-sequences" class="section level3">
+<h3>Degree Sequences</h3>
+<div id="density-and-average-degree" class="section level4">
+<h4>Density and Average Degree</h4>
+<p>The density of a graph G = (V,E) measures how many edges are in set E compared to the maximum possible number of edges between vertices in set V. Density is calculated as follows:</p>
+<ul>
+<li>An undirected graph has no loops and can have at most |V| * (|V| − 1) / 2 edges, so the density of an undirected graph is 2 * |E| / (|V| * (|V| − 1)).</li>
+<li>A directed graph has no loops and can have at most |V| * (|V| − 1) edges, so the density of a directed graph is |E| / (|V| * (|V| − 1))</li>
+</ul>
+<p>The average degree of a graph G is another measure of how many edges are in set E compared to number of vertices in set V. Because each edge is incident to two vertices and counts in the degree of both vertices, the average degree of an undirected graph is 2*|E|/|V|.</p>
+</div>
+</div>
+<div id="types-of-graphs" class="section level3">
+<h3>Types of Graphs</h3>
+<h5>
+Directed Graphs
+</h5>
+<p>A directed graph is a graph where the arcs are one-directional, that is an arc between two nodes only indicates the possibility of moving from one node to the other, but not in the opposite direction. The arcs will usually be drawn as arrows to indicate the direction. An example of a potential use for a directed graph would be a graph which tracks possible states that a computer could be in; there may be a way for a computer in one state to reach a subsequent state, but no way to return from the second state to the first.</p>
+<h5>
+Weighted graph
+</h5>
+<p>A weighted graph is a graph where there is some ‘cost’ associated with each arc. Usually, a little number will appear directly adjacent to every arc to express this price. A typical use of a weighted graph would be planning routes between locations on a map where the ‘cost’ associated with the arc would be the distance between the two locations.</p>
+<h5>
+Trees
+</h5>
+<p>A tree is a special graph which is connected (every node can be reached from every other node by following one or more arcs) and for which the number of arcs is exactly one fewer than the number of nodes. A tree is usually drawn with one node (called the ‘root node’) at the top of the diagram, and then ‘growing’ downwards with arcs and nodes getting further and further from the root. In this way, nodes can be grouped in terms of their distance from the root. Every node (aside from the root) is referred to as the ‘child’ of the node to which it is connected and which is one step closer to the root. This node is also called the ‘parent’ node of the child. Every node has at most one parent but can have any number of children. Nodes without any children are commonly called ‘leaf nodes’. A typical use of a tree would be a decision problem where the answer to a question determines the next question and set of possible answers.</p>
+<h5>
+Planar Graphs
+</h5>
+<p>A planar graph is a graph that can be drawn in the plane such that there are no edge crossings.</p>
+<h5>
+Characterization
+</h5>
+<p>The planar graphs can be characterized by a theorem first proven by Kazimierz Kuratowski in 1930, which states that the planar graphs are exactly those graphs G such that <span class="math inline">\(K_5 \not \preceq G\)</span> and <span class="math inline">\(K_{3,3&lt;/h5&gt; \not \preceq G\)</span> .</p>
+<h5>
+Types of Graph Layouts
+</h5>
+<ol style="list-style-type: decimal">
+<li>Bipartite Graphs</li>
+<li>Path Graphs</li>
+<li>Cycle Graphs</li>
+<li>Null Graphs</li>
+</ol>
+<h5>
+Bipartite Graphs
+</h5>
+<ul>
+<li>A bipartite graph is a graph whose vertex-set can be split into two sets in such a way that each edge of the graph joins a vertex in first set to a vertex in second set.</li>
+</ul>
+<h5>
+Path Graphs
+</h5>
+<ul>
+<li>A path graph is a graph consisting of a single path.</li>
+<li>The path graph with n vertices is denoted by <span class="math inline">\(P_n\)</span>.</li>
+</ul>
+<h5>
+Cycle Graphs
+</h5>
+<ul>
+<li>A cycle graph is a graph consisting of a single cycle.</li>
+<li>The cycle graph with n vertices is denoted by <span class="math inline">\(C_n\)</span>.</li>
+</ul>
+<h5>
+Null Graphs
+</h5>
+<ul>
+<li>A null graphs is a graph containing no edges. * The null graph with n vertices is denoted by <span class="math inline">\(N_n\)</span>.</li>
+</ul>
+<p>There are various types of graphs depending upon the number of vertices, number of edges, interconnectivity, and their overall structure. We will discuss only a certain few important types of graphs in this chapter.</p>
+</div>
+<div id="planar-graphs" class="section level3">
+<h3>Planar Graphs</h3>
+<h5>
+Euler’s Formula
+</h5>
+<p>Let <span class="math inline">\(G\)</span> be a connected planar graph, and let V, E and R denote, respectively, the numbers of vertices, edges, and regions in a plane drawing of G. Then <span class="math inline">\(V - E + R = 2\)</span>.</p>
+<ul>
+<li><a href="https://youtube.com/watch?v=/U98IToj6-iM">Complete Graphs - Worked Example </a></li>
+<li><a href="https://youtube.com/watch?v=/nf0V6aKQlIo">Regular Graphs Worked Example </a></li>
+<li><a href="https://youtube.com/watch?v=/am9SWRz9OnU">Planar Graphs - Degrees of the Outregion </a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Graphy Theory">
+<h1 data-navmenu="Graphy Theory">Paths and Cycles in Graphs</h1>
 <div id="column-2" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="convergence-tests" class="section level3">
-<h3>Convergence Tests</h3>
+<div id="paths-and-cycles-in-graphs-1" class="section level3">
+<h3>Paths and Cycles in Graphs</h3>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
-<li><a href="http://youtu.be/ojL-Vtek2Mo">Ratio Test Exercise </a></li>
-<li><a href="https://youtu.be/LWYiiY1rOqg">Convergence Test</a>(3:13)</li>
-<li><a href="https://youtu.be/Ka8OawOt_-w">Ratio Test Exercise </a></li>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
+<li><a title="Paths and Cycles in Graph Theory" href="http://youtube.com/watch?v=/baEtZGjpDLk">Paths and Cycles in Graph Theory</a></li>
+<li><a href="https://youtu.be/DFAxYeO-baU">Eulerian Paths and Cycles in Graph Theory</a></li>
+<li><a href="https://www.youtube.com/watch?v=/PIGyXIWeqZg">Walks and Paths in Graphs</a></li>
+<li><a href="https://youtube.com/watch?v=/5bpRc0FJNnM"> Paths and Cycles in Graph Theory </a></li>
 </ul>
 </div>
-<div id="ratio-test-2" class="section level3">
-<h3>Ratio Test</h3>
+</div>
+</div>
+<div id="connectivity" class="section level1" data-navmenu="Graphs">
+<h1 data-navmenu="Graphs">Connectivity</h1>
+<div id="column-3" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="graph-connectivity" class="section level3">
+<h3>Graph Connectivity</h3>
+<h4>
+Connectivity
+</h4>
+<p>Whether or not it is possible to traverse a graph from one vertex to another is dependent on how connected a graph is. Definition of Connectedness[edit] If there is a u-v path in G, then we say that u and v are connected If there is a u-v path for every pair of vertices u and v in G, then we say that G is connected</p>
+<div id="theorems-on-connectedness" class="section level4">
+<h4>Theorems on Connectedness</h4>
+<p>Theorem: Let G be a graph of order at least 3. If there are distinct vertices u and v in G so that G-u and G-v are both connected, then G is also connected. Proof: Let w be a G vertex, which is different from both u and v. We want to prove connectedness, i.e., that for every pair (x,y) of vertices in G, there is an x-y walk in G. We may consider three (partly overlapping) cases:</p>
 <ul>
-<li>Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs">HERE</a></li>
-<li>Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68">HERE</a></li>
-<li>Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0">HERE</a></li>
-<li>Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo">HERE</a></li>
-<li>Maclaurin Series Worked Example <a href="https://youtu.be/tc-Zelm9bWA">HERE</a></li>
-<li><a href="https://www.youtube.com/watch?v=Ka8OawOt_-w">Simple Ratio Test Exercise </a></li>
-<li><a href="https://www.youtube.com/watch?v=quK-JQ5EQOE">The Ratio Test</a></li>
-<li>Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg">HERE</a>(3:13)</li>
-<li>Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w">HERE</a>[5:19]</li>
+<li>If neither x nor y is u, then there is an x-y walk in G-u, and this also is an x-y walk in G.</li>
+<li>If neither x nor y is v, then there is an x-y walk in G-v, and this also is an x-y walk in G.</li>
+<li>If <span class="math inline">\({x,y} = {u,v}\)</span>, then employ the first two cases in order to see that there is a u-w walk and a w-v walk. Combining them indeed yields a u-v walk.</li>
 </ul>
 </div>
-<div id="series-expansions" class="section level3">
-<h3>Series Expansions</h3>
+<div id="vertex-and-edge-connectivity" class="section level4">
+<h4>Vertex and Edge Connectivity</h4>
+<p>A graph G is called k-connected if for every S ⊆ V ( G ) {SV(G)} , and | S | &lt; k {|S|&lt;k} , G − S {G-S} is connected, and | G | &gt; k {|G|&gt;k} . Similarly, a graph G is called ℓ {} edge-connected if for every S ⊆ E ( G ) {SE(G)} , and | S | &lt; ℓ {|S|&lt;} , G − S {G-S} is connected, and | G | &gt; 1 {|G|&gt;1} . The connectivity of G is the greatest k such that G is k-connected, and is denoted by κ ( G ) {(G)} . Relatedly, the edge-connectivity of G is the greatest ℓ {} such that G is ℓ {} edge-connected, and is denoted by λ ( G ) {(G)} .</p>
+</div>
+<div id="theorems-on-connectivityedit" class="section level4">
+<h4>Theorems on Connectivity[edit]</h4>
+<p>Theorem: Let G be a k-connected graph. Then, ∀ i ∈ N , 0 ≤ i ≤ k {i ,0ik} , G is i-connected. Proof: Since G is k-connected, for all S ⊆ V ( G ) , | S | &lt; k {SV(G),|S|&lt;k} , G − S {G-S} is connected. Then, since i ≤ k {ik} , for all S ⊆ V ( G ) , | S | &lt; i ≤ k {SV(G),|S|&lt;ik} , G − S {G-S} is also connected.</p>
+<p>Theorem: Let G be a nontrivial graph. Then, λ ( G ) ≤ δ ( G ) {(G)(G)} . Proof: Take v a vertex of degree δ ( G ) {(G)} in G. Then, removing all edges in G that are incident with v disconnects v from the rest of the graph, provided that | G | &gt; δ ( G ) + 1 {|G|&gt;(G)+1} . Therefore, G cannot be δ ( G ) {(G)} edge-connected, and so λ ( G ) ≤ δ ( G ) {(G)(G)} .</p>
+</div>
+<div id="exercise-connectivity" class="section level4">
+<h4>Exercise: Connectivity</h4>
+<p>If G is ℓ {} edge-connected, show that G is also i edge-connected ∀ i ∈ N , 0 ≤ i ≤ ℓ {i ,0i} .</p>
+</div>
+</div>
+</div>
+</div>
+<div id="isomorphic-graphs" class="section level1" data-navmenu="Isomorphic Graphs ">
+<h1 data-navmenu="Isomorphic Graphs ">Isomorphic Graphs</h1>
+<div id="column-4" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="isomorphic-graphs-1" class="section level3">
+<h3>Isomorphic Graphs</h3>
+<h5>
+Isomorphic Graphs
+</h5>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
-<li><a href="http://youtu.be/ojL-Vtek2Mo">Ratio Test Exercise</a></li>
-<li><a href="https://www.youtube.com/watch?v=ItK4oTbuuOo">Important Taylor Series Expansions </a></li>
-<li><a href="https://www.youtube.com/watch?v=tc-Zelm9bWA">Maclaurin Series Worked Example</a></li>
+<li><p>The two graphs have different numbers of vertices.</p></li>
+<li><p>The two graphs have different numbers of edges.</p></li>
+<li><p>One graph has parallel edges and the other does not.</p></li>
+<li><p>One graph has a loop and the other does not.</p></li>
+<li><p>One graph has a vertice of degree k (for example) and the other does not.</p></li>
+<li><p>One graph is connected and the other is not.</p></li>
+<li><p>One graph has a cycle and the other has not.</p></li>
+<li><p>They have a different number of connected components</p></li>
+<li><p>They have a different number of vertices</p></li>
+<li><p>They have different degrees sequences</p></li>
+<li><p>They have a different number of paths of any given length</p></li>
+<li><p>They have a different number of cycles of any length.</p></li>
 </ul>
+</div>
+<div id="videos-1" class="section level3">
+<h3>Videos</h3>
+<h5>
+Isomorphic Graphs: Videos
+</h5>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=/xcOrrJGxzu8">Isomorphic Graphs [5:16]</a></li>
+<li><a href="https://www.youtube.com/watch?v=/U-7kcP6AZX8">Non-Isomorphic Graphs [4:01]</a></li>
+<li><a href="https://www.youtube.com/watch?v=Xq8o-z1DsUA">Isomorphic Graphs – Example 1</a> [8:29]</li>
+<li><a href="https://www.youtube.com/watch?v=KejZccQTDF8">Isomorphic Graphs – Example 2</a> [ 3:40]</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="graph-theory---worksheets" class="section level1" data-navmenu="Section 4">
+<h1 data-navmenu="Section 4">Graph Theory - Worksheets</h1>
+<div id="column-5" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="question-1" class="section level4">
+<h4>Question 1</h4>
+<ol style="list-style-type: lower-alpha">
+<li><p>Let G be a graph and let v be a vertex of G. Say what is meant by the degree of v.</p></li>
+<li><p>A graph is called k-regular if each of its vertices has degree k. Construct an example of:</p></li>
+<li><p>a 2-regular graph with 5 vertices,</p></li>
+</ol>
+<ol start="2" style="list-style-type: lower-roman">
+<li><p>a 3-regular graph with 6 vertices.</p></li>
+<li><p>State, without proving, a result connecting the degrees of the vertices of a graph G with the number of its edges.</p></li>
+<li><p>Use the result in part (c) to find the number of edges of a 3-regular graph with 10 vertices</p></li>
+<li><p>Explain why it is not possible to construct a 3-regular graph with 9 vertices.</p></li>
+</ol>
+</div>
+<div id="question-2" class="section level4">
+<h4>Question 2</h4>
+<p>Draw the graph , which has the vertices <span class="math inline">\(v_1\)</span>,<span class="math inline">\(v_2\)</span>,<span class="math inline">\(v_3\)</span>,<span class="math inline">\(\ldots\)</span>,<span class="math inline">\(v_7\)</span>, and the adjacency list:</p>
+<p><hline></p>
+</div>
+<div id="question-3" class="section level4">
+<h4>Question 3</h4>
+<p>Given the following definitions for simple, connected graphs:</p>
+<ul>
+<li><span class="math inline">\(K_n\)</span> is a graph on <span class="math inline">\(n\)</span> vertices where each pair of vertices is connected by an edge;</li>
+<li><span class="math inline">\(C_n\)</span> is the graph with vertices <span class="math inline">\(v_1, v_2, v_3, \dots, v_n\)</span> and edges <span class="math inline">\(\{v_1,v_2\}, \{v_2,v_3\}, \dots\{v_n, v_1\}\)</span>;</li>
+<li><span class="math inline">\(W_n\)</span> is the graph obtained from <span class="math inline">\(C_n\)</span> by adding an extra vertex,<span class="math inline">\(v_{n+1}\)</span>, and edges from this to each of the original vertices in <span class="math inline">\(C_n\)</span>.</li>
+</ul>
+<p>Draw <span class="math inline">\(K_4\)</span>, <span class="math inline">\(C_4\)</span>, and <span class="math inline">\(W_4\)</span>.</p>
+<p><hline></p>
+</div>
+<div id="question-4" class="section level4">
+<h4>Question 4</h4>
+<ol style="list-style-type: lower-alpha">
+<li>A simple, connected graph has 7 vertices, all having the same degree d. State the possible values of d and for each value also give the number of edges in the corresponding graph.</li>
+<li>Another simple, connected graph has 6 vertices, all having the same degree, n.  Draw such a graph when n = 3 and state the other possible values of n.</li>
+</ol>
+</div>
 </div>
 </div>
 </div>

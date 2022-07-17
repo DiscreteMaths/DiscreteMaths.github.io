@@ -1,0 +1,66 @@
+---
+title: "Discrete Mathematics - Section 9"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+Trees {data-navmenu="Trees"}
+=====================================
+
+Column {.tabset}
+-------------------------------------------------
+
+### Trees 
+<a href="index.html">Back to main page</a>
+
+
+<h3>Section 9: Trees</h3>
+
+In graph theory, a tree is an undirected graph in which any two vertices are connected by exactly one path, or equivalently a connected acyclic undirected graph.
+
+
+### Spanning Trees
+
+#### Spanning Trees
+Let G be a connected graph, then the sub-graph H of G is called a spanning tree of G if −
+
+* H is a tree
+* H contains all vertices of G.
+A spanning tree T of an undirected graph G is a subgraph that includes all of the vertices of G.
+
+### Kirchoff’s Theorem
+Kirchoff’s theorem is useful in finding the number of spanning trees that can be formed from a connected graph.
+
+#### Example
+
+Kirchoff’s Theorem
+The matrix ‘A’ be filled as, if there is an edge between two vertices, then it should be given as ‘1’, else ‘0’.
+
+A=∣∣∣∣∣∣∣0abcda0111b1001c1001d1110∣∣∣∣∣∣∣=∣∣∣∣∣∣0111100110011110∣∣∣∣∣∣
+By using kirchoff's theorem, it should be changed as replacing the principle diagonal values with the degree of vertices and all other elements with -1.A
+
+=∣∣∣∣∣∣3−1−1−1−120−1−102−1−1−1−13∣∣∣∣∣∣=M
+M=∣∣∣∣∣∣3−1−1−1−120−1−102−1−1−1−13∣∣∣∣∣∣=8
+Cofactorofm1=∣∣∣∣20−102−1−1−13∣∣∣∣
+
+Thus, the number of spanning trees = 8.
+
+```{r child="Section_09/Graphs-Trees.Rmd"}
+```
+
+```{r child="Section_09/BinarySearchTrees.Rmd"}
+```
+
+
+```{r child="TutorialSheets/Trees-Tutorial-1.Rmd"}
+```
+

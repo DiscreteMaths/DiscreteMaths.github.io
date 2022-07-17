@@ -8,9 +8,9 @@
 
 
 
-<title>Discrete Mathematics - Section 10</title>
+<title>Discrete Mathematics - Section 5</title>
 
-<meta property="og:title" content="Discrete Mathematics - Section 10" />
+<meta property="og:title" content="Discrete Mathematics - Section 5" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -790,7 +790,7 @@ html, body {
   
 </span>
 <span class="navbar-brand">
-  Discrete Mathematics - Section 10
+  Discrete Mathematics - Section 5
   <span class="navbar-author">
         </span>
 </span>
@@ -2601,112 +2601,335 @@ window.FlexDashboardComponents.push({
 <h1 data-navmenu="Introduction">Discrete Mathematics</h1>
 <div id="column" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="convergence-and-ration-tests" class="section level3">
-<h3>Convergence and Ration Tests</h3>
+<div id="functions" class="section level3">
+<h3>Functions</h3>
 <p><a href="index.html">Back to main page</a></p>
 <h3>
-Convergence and Ration Tests
+Section 5: Functions (Part 1)
 </h3>
+<ul>
+<li>Introduction to Functions</li>
+<li>Mathematical Functions and Special Functions</li>
+</ul>
+</div>
+<div id="laws-of-logarithms" class="section level3">
+<h3>Laws of Logarithms</h3>
+<p>Here we assume x and y are positive real numbers.</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(\log_a(xy) = loga(x) + \log_a(y)\)</span></p></li>
+<li><p><span class="math inline">\(loga(x/y)= loga(x) - loga(y)\)</span></p></li>
+<li><p><span class="math inline">\(\log_a (x^r) = r \log_a(x)\)</span> for any real number r.</p></li>
+</ol>
 </div>
 </div>
 </div>
-<div id="ratio-test" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Ratio Test</h1>
+<div id="mathematical-functions" class="section level1" data-navmenu="Section 3">
+<h1 data-navmenu="Section 3">Mathematical Functions</h1>
 <div id="column-1" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="infinite-series" class="section level3">
-<h3>Infinite Series</h3>
-<p>An infinite series is a series whose terms are summed indefinitely. For an infinite sequence <span class="math inline">\(a_0,a_1,a_2,a_3,\ldots,a_n,\ldots\)</span>, the corresponding infinite series <span class="math inline">\(s_\infty\)</span> is written <span class="math display">\[
-  s_\infty=\sum_{n=0}^{\infty}a_n=a_0+a_1+a_2+a_3+a_4+a_5+\cdots
-\]</span> Formally, an infinite series can be expressed as the limit of the series as <span class="math inline">\(n\to \infty\)</span> <span class="math display">\[
-  s_\infty = \lim_{n \to \infty} s_n = \lim_{n \to \infty} \sum_{k=0}^n a_k 
-\]</span> For any particular series, this limit may or may not exist. If it does exist, then <span class="math inline">\(s_\infty\)</span> is defined and the infinite series is . If the limit does not exist then <span class="math inline">\(s_\infty\)</span> is not defined and the infinite series is .</p>
-<p>\ The infinite series <span class="math display">\[
-  s_\infty = 1+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\frac{1}{16}+\frac{1}{32}+\cdots = 2
-\]</span> Letting <span class="math inline">\(a_n=\left(\frac{1}{2}\right)^n\)</span>, <span class="math inline">\(s_\infty\)</span> is the limit of the sequence <span class="math inline">\(s_n=\sum_{k=0}^{n} \left(\frac{1}{2}\right)^k\)</span>. Applying the formula for the sum of a geometric series gives <span class="math display">\[\begin{align*}
-  s_n = \sum_{k=0}^{n} \frac{1}{2^k} = \frac{1- \left( \frac{1}{2} \right)^{n+1} }{1-\frac{1}{2}} = 2 \left[ 1-\frac{1}{2^{n+1}} \right]
-\end{align*}\]</span> And so applying the definition of the infinite series gives. <span class="math display">\[
-  s_\infty=\lim_{n \to \infty} s_n = \lim_{n \to \infty} 2 \left[ 1- \frac{1}{2^{n+1}} \right]= 2 \left[ 1-0 \right] = 2
-\]</span>\ A  condition for the convergence of an infinite series is that the terms in the sequence <span class="math inline">\(a_n \to 0\)</span> as <span class="math inline">\(n \to \infty\)</span>. However, this condition is not  to ensure convergence.</p>
-<p>Consider the  <span class="math inline">\(a_n=1/n\)</span> and the corresponding infinite  <span class="math inline">\(\displaystyle \sum_{n=1}^{\infty} \frac{1}{n}\)</span>. This series is divergent. To see this compare the following <span class="math inline">\(2\)</span> infinite series <span class="math display">\[\begin{align*}
-  &amp;1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\frac{1}{9}+\cdots+\frac{1}{16}+\frac{1}{17}\cdots\\
-  &gt;&amp;1+\frac{1}{2}+\frac{1}{4}+\frac{1}{4}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{16}+\cdots+\frac{1}{16}+\frac{1}{32}\cdots\\
-  = &amp; 1+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\frac{1}{2}+\cdots
-\end{align*}
-\]</span></p>
-<p>The first series is the harmonic series and the terms in the second series are less than or equal to the corresponding terms in the harmonic series. However, the second series diverges as it is the sum of an infinite number of <span class="math inline">\(1/2\)</span> terms. So the harmonic series is always greater than a series which diverges, and so the harmonic series itself is divergent.</p>
-<p>So even though the terms <span class="math inline">\(a_n \to 0\)</span>, the addition of an infinite number of them can still cause a series to diverge as $n $. A better test for whether a series converges is needed.</p>
-</div>
-<div id="ratio-test-1" class="section level3">
-<h3>Ratio Test</h3>
-<p>To determine whether an infinite series is convergent, the ratio test can be applied. The test examines the ratio of successive terms in the sequence as <span class="math inline">\(n \to \infty\)</span>. If this ratio has a limit, the sequences behaves like a geometric sequence for large <span class="math inline">\(n\)</span>, and so if the ratio is less than <span class="math inline">\(1\)</span>, the series will be convergent.</p>
-Formally, given a sequence <span class="math inline">\(a_n\)</span> and the corresponding infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^\infty a_n\)</span>. Let <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|
-\]</span> If this limit <span class="math inline">\(R\)</span> exists, then
-<p>\ Let <span class="math inline">\(a_n=\dfrac{1}{n!}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{1}{n!} = 1+1+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}+\cdots\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{1}{(n+1)!}\)</span> <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{1}{(n+1)!}\cdot \frac{n!}{1}\right|=\left| \frac{n!}{(n+1)!}\right|=\left| \frac{1}{n+1}\right|=\frac{1}{n+1}
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{1}{n+1}=0
-\]</span> So <span class="math inline">\(R=0\)</span> meaning that <span class="math inline">\(R&lt;1\)</span>, and therefore the infinite series $ _{n=0}^{} $ is convergent.</p>
-<p>\ Let <span class="math inline">\(a_n=\dfrac{2^n}{n^2}\)</span>, and consider the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span>. Since <span class="math inline">\(a_{n+1}=\dfrac{2^{n+1}}{(n+1)^2}\)</span> <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{2^{n+1}}{(n+1)^2}\cdot \frac{n^2}{2^n}\right|=\left| \frac{2^{n+1}}{2^n}\cdot\frac{n^2}{(n+1)^2}\right|=2 \left(\frac{n}{n+1}\right)^2
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} 2 \left(\frac{n}{n+1}\right)^2=\lim_{n \to \infty} 2 \left(\frac{1}{1+\frac{1}{n}}\right)^2=2\left(\frac{1}{1+0}\right)^2=2
-\]</span> So <span class="math inline">\(R=2\)</span> meaning <span class="math inline">\(R&gt;1\)</span>, and therefore the infinite series <span class="math inline">\(\displaystyle \sum_{n=0}^{\infty} \frac{2^n}{n^2}\)</span> is divergent.</p>
-</div>
-<div id="functions-defined-by-infinite-series" class="section level3">
-<h3>Functions Defined by Infinite Series</h3>
-<p>Convergent infinite series are often used to define functions. The  <span class="math inline">\(y=e^x=\text{exp}(x)\)</span> is defined as <span class="math display">\[\begin{equation}
-\label{eq:exp_def_taylor}
-  \text{exp}(x) = \sum_{n=0}^{\infty} \frac{x^n}{n!}=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\cdots
-\end{equation}\]</span> The ratio test can be used to show that this infinite series is convergent for all values of <span class="math inline">\(x\)</span>. Here, the sequence terms are <span class="math inline">\(a_n=\dfrac{x^n}{n!}\)</span>, so <span class="math inline">\(a_{n+1}=\dfrac{x^{n+1}}{(n+1)!}\)</span>, and <span class="math display">\[
-  \left| \frac{a_{n+1}}{a_n}\right|=\left| \frac{x^{n+1}}{(n+1)!}\cdot \frac{n!}{x^n}\right|=\left| \frac{x^{n+1}}{x^n}\cdot\frac{n!}{(n+1)!}\right|=\left|x \frac{1}{n+1}\right| = \frac{|x|}{n+1}
-\]</span> So to evaluate <span class="math inline">\(R\)</span>, <span class="math display">\[
-  R=\lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|=\lim_{n \to \infty} \frac{|x|}{n+1}=0
-\]</span> So <span class="math inline">\(R&lt;1\)</span> and the series is convergent for all <span class="math inline">\(x\)</span>.</p>
-<p>The infinite series can be used to approximate <span class="math inline">\(e^x\)</span> to as many decimal places desired. To do this, use the sequence terms to evaluate the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{x^k}{k!}\)</span>. This is best done using a table similar to the one below.</p>
-For example, to evaluate <span class="math inline">\(e^{0.3}\)</span> to three decimal places, the terms in the series <span class="math inline">\(\displaystyle s_n=\sum_{k=0}^{n} \frac{(0.3)^k}{k!}\)</span> must be computed until the desired accuracy is reached. %
-<p>\end{center} The series can be summed indefinitely but in practice some kind of stopping condition is needed. A heuristic stopping condition can be used; for example, we can stop when the terms <span class="math inline">\(a_n\)</span> become small enough, or when the digits of <span class="math inline">\(s_n\)</span> appear to have converged to enough decimal places. The first condition assumes that the terms <span class="math inline">\(a_n\)</span> never become large again, and the second condition may have problems if the terms <span class="math inline">\(a_n\)</span> alternate around <span class="math inline">\(0\)</span>. However, in practice, we can stop if the series appears to have converged after a few iterations.</p>
-<p>In this case, to <span class="math inline">\(3\)</span> decimal places <span class="math inline">\(e^{0.3} \cong 1.349\)</span>. A more accurate estimate would be <span class="math inline">\(e^{0.3}\cong 1.34985880757600310398\)</span>.</p>
+<div id="logarithms" class="section level3">
+<h3>logarithms</h3>
+<p>% <a href="http://www.purplemath.com/modules/logs2.htm" class="uri">http://www.purplemath.com/modules/logs2.htm</a></p>
+<p>The Relationship: &quot;_b(x) = y&quot; means the same thing as “b y = x”. logarithms are really exponents (powers); they’re just written differently.</p>
+<ul>
+<li><p>(b) = 1, for any base b, because b1 = b.</p></li>
+<li><p>(1) = 0, for any base b, because b0 = 1.</p></li>
+<li><p>(a) is undefined if a is negative.</p></li>
+<li><p>(0) is undefined for any base b.</p></li>
+<li><p>(bn) = n, for any base b.</p></li>
+<li><p><span class="math inline">\(a^x = y\)</span> <span class="math inline">\(\log_a(y) = x\)</span></p></li>
+<li><p><span class="math inline">\(e^x = y\)</span> <span class="math inline">\(ln(y)=x\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(x\times y) = \log_a(x) + \log_a(y)\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(\frac{x}{y}) = \log_a(x) - \log_a(y)\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(\frac{1}{x}) = - \log_a(x)\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(a) = 1\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(1) = 0\)</span></p></li>
+</ul>
+<div id="expressing-logarithms" class="section level4">
+<h4>Expressing logarithms</h4>
+<p>Convert <span class="math inline">\(6^3 = 216\)</span> to the equivalent logarithmic expression.</p>
+<p>To convert, the base (that is, the 6)remains the same, but the 3 and the 216 switch sides. This gives me:</p>
+<p><span class="math display">\[\log_6(216) = 3   \]</span></p>
+<p>Convert <span class="math inline">\(\log_4(1024) = 5\)</span> to the equivalent exponential expression.</p>
+<p>To convert, the base (that is, the 4) remains the same, but the 1024 and the 5 switch sides. This gives me:</p>
+<p><span class="math display">\[4^5 = 1024\]</span></p>
 </div>
 </div>
+<div id="rules-of-logarithms" class="section level3">
+<h3>Rules of logarithms</h3>
+<div id="laws-of-logarithms-1" class="section level4">
+<h4>Laws of logarithms</h4>
+<ul>
+<li>Law 1 : Multiplcation of logarithms <span class="math display">\[ \log(a) \times \log(b) = \log(a+b) \]</span></li>
+<li>Law 2 : Division of logarithms <span class="math display">\[ \frac{\log(a)}{\log(b)} = \log(a-b) \]</span></li>
+<li>Law 3 : Powers of logarithms <span class="math display">\[ \log(a^b) = b \times \log(a) \]</span></li>
+</ul>
 </div>
-<div id="convergence-testing" class="section level1" data-navmenu="Section 5">
-<h1 data-navmenu="Section 5">Convergence Testing</h1>
+<div id="laws-for-logarithms" class="section level4">
+<h4>Laws for logarithms</h4>
+<p>The following laws are very useful for working with logarithms.</p>
+<ul>
+<li><span class="math inline">\(\mbox{\log}_b(X)\)</span> + <span class="math inline">\(\mbox{\log}_b(Y)\)</span> = <span class="math inline">\(\mbox{\log}_b(X\times Y)\)</span></li>
+<li><span class="math inline">\(\mbox{\log}_b(X)\)</span> - <span class="math inline">\(\mbox{\log}_b(Y)\)</span> = <span class="math inline">\(\mbox{\log}_b(X / Y)\)</span></li>
+<li><span class="math inline">\(\mbox{\log}_b(X^Y)\)</span>= <span class="math inline">\(Y \mbox{\log}_b(X)\)</span></li>
+</ul>
+</div>
+<div id="using-the-laws" class="section level4">
+<h4>Using the Laws</h4>
+<ol style="list-style-type: decimal">
+<li><p>Multiplication inside the can be turned into addition outside the , and vice versa. <span class="math display">\[\mbox{\log}_b(mn) = \mbox{\log}_b(m) + \mbox{\log}_b(n)\]</span></p></li>
+<li><p>Division inside the can be turned into subtraction outside the , and vice versa. <span class="math display">\[\mbox{\log}_b(m/n) = \mbox{\log}_b(m) – \mbox{\log}_b(n)\]</span></p></li>
+<li><p>An exponent on everything inside a can be moved out front as a multiplier, and vice versa. <span class="math display">\[mbox{\log}_b(m^n) = n \times \mbox{\log}_b(m)\]</span></p></li>
+</ol>
+</div>
+</div>
+<div id="change-of-base" class="section level3">
+<h3>Change of Base</h3>
+<p><span class="math display">\[ \log_b(x) = \frac{1}{\log_x(b)}  \]</span></p>
+<p><span class="math display">\[ \log_b(x) = \frac{\log_a(b)}{\log_a(b)}  \]</span></p>
+<div id="worked-example" class="section level4">
+<h4>Worked Example</h4>
+<p><span class="math display">\[ \log_3(x) + 3 \log_x(3) = 4  \]</span></p>
+<p><span class="math display">\[ \left(\log_3(x)\right)^2 + 3  = 4 \log_3(x)  \]</span></p>
+<p><span class="math display">\[ \log_3(x) + 3 \log_x(3) = 4  \]</span></p>
+<p><span class="math display">\[ \left(\log_3(x)\right)^2 - 4 \log_3(x) + 3  = 0  \]</span></p>
+</div>
+</div>
+<div id="exponents" class="section level3">
+<h3>Exponents</h3>
+<p><span class="math display">\[ e^a \times e^b = e^{a+b}\]</span></p>
+<p><span class="math display">\[ (e^a )^b = e^{ab}\]</span></p>
+</div>
+<div id="absolute-value-sign-functions" class="section level3">
+<h3>Absolute Value &amp; Sign Functions</h3>
+</div>
+<div id="special-mathematical-functions" class="section level3">
+<h3>Special Mathematical Functions</h3>
+<div id="mathematical-operators" class="section level4">
+<h4>Mathematical Operators</h4>
+<ul>
+<li>Root Functions (i.e. the Square Root function)</li>
+<li>The Floor and Ceiling functions</li>
+<li>The Absolute Value functions</li>
+</ul>
+</div>
+<div id="notation" class="section level4">
+<h4>Notation</h4>
+<ul>
+<li>Absolute Value Function <span class="math inline">\(| x |\)</span></li>
+<li>Ceiling Function <span class="math inline">\(\lceil x \rceil\)</span></li>
+<li>Floor Function $x $</li>
+</ul>
+</div>
+<div id="absolute-value-function" class="section level4">
+<h4>Absolute Value Function</h4>
+<ul>
+<li>The absolute value of some real number <span class="math inline">\(x\)</span> is denoted <span class="math inline">\(|x|\)</span>.</li>
+<li>If the number is positive, the asbolute value is the same number.</li>
+<li>If the number is negative, the asbolute value is the number without the minus sign.</li>
+<li><span class="math inline">\(|2|=2\)</span></li>
+<li><span class="math inline">\(|-2| = 2\)</span></li>
+</ul>
+</div>
+</div>
+<div id="tutorials" class="section level3">
+<h3>Tutorials</h3>
+</div>
+</div>
+</div>
+<div id="mathematical-functions-1" class="section level1" data-navmenu="Section 3">
+<h1 data-navmenu="Section 3">Mathematical Functions</h1>
 <div id="column-2" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="convergence-tests" class="section level3">
-<h3>Convergence Tests</h3>
+<div id="logarithms-1" class="section level3">
+<h3>logarithms</h3>
+<p>% <a href="http://www.purplemath.com/modules/logs2.htm" class="uri">http://www.purplemath.com/modules/logs2.htm</a></p>
+<p>The Relationship: &quot;_b(x) = y&quot; means the same thing as “b y = x”. logarithms are really exponents (powers); they’re just written differently.</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
-<li><a href="http://youtu.be/ojL-Vtek2Mo">Ratio Test Exercise </a></li>
-<li><a href="https://youtu.be/LWYiiY1rOqg">Convergence Test</a>(3:13)</li>
-<li><a href="https://youtu.be/Ka8OawOt_-w">Ratio Test Exercise </a></li>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
+<li><p>(b) = 1, for any base b, because b1 = b.</p></li>
+<li><p>(1) = 0, for any base b, because b0 = 1.</p></li>
+<li><p>(a) is undefined if a is negative.</p></li>
+<li><p>(0) is undefined for any base b.</p></li>
+<li><p>(bn) = n, for any base b.</p></li>
+<li><p><span class="math inline">\(a^x = y\)</span> <span class="math inline">\(\log_a(y) = x\)</span></p></li>
+<li><p><span class="math inline">\(e^x = y\)</span> <span class="math inline">\(ln(y)=x\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(x\times y) = \log_a(x) + \log_a(y)\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(\frac{x}{y}) = \log_a(x) - \log_a(y)\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(\frac{1}{x}) = - \log_a(x)\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(a) = 1\)</span></p></li>
+<li><p><span class="math inline">\(\log_a(1) = 0\)</span></p></li>
+</ul>
+<div id="expressing-logarithms-1" class="section level4">
+<h4>Expressing logarithms</h4>
+<p>Convert <span class="math inline">\(6^3 = 216\)</span> to the equivalent logarithmic expression.</p>
+<p>To convert, the base (that is, the 6)remains the same, but the 3 and the 216 switch sides. This gives me:</p>
+<p><span class="math display">\[\log_6(216) = 3   \]</span></p>
+<p>Convert <span class="math inline">\(\log_4(1024) = 5\)</span> to the equivalent exponential expression.</p>
+<p>To convert, the base (that is, the 4) remains the same, but the 1024 and the 5 switch sides. This gives me:</p>
+<p><span class="math display">\[4^5 = 1024\]</span></p>
+</div>
+</div>
+<div id="rules-of-logarithms-1" class="section level3">
+<h3>Rules of logarithms</h3>
+<div id="laws-of-logarithms-2" class="section level4">
+<h4>Laws of logarithms</h4>
+<ul>
+<li>Law 1 : Multiplcation of logarithms <span class="math display">\[ \log(a) \times \log(b) = \log(a+b) \]</span></li>
+<li>Law 2 : Division of logarithms <span class="math display">\[ \frac{\log(a)}{\log(b)} = \log(a-b) \]</span></li>
+<li>Law 3 : Powers of logarithms <span class="math display">\[ \log(a^b) = b \times \log(a) \]</span></li>
 </ul>
 </div>
-<div id="ratio-test-2" class="section level3">
-<h3>Ratio Test</h3>
+<div id="laws-for-logarithms-1" class="section level4">
+<h4>Laws for logarithms</h4>
+<p>The following laws are very useful for working with logarithms.</p>
 <ul>
-<li>Ratio Test (2015 Exam Question) - <a href="https://youtu.be/TApQUje2kWs">HERE</a></li>
-<li>Ratio Test for Convergence (2011 Q4) - <a href="https://youtu.be/u5grewDLe68">HERE</a></li>
-<li>Ratio Test (2009 Exam Question) - <a href="https://youtu.be/0sjwarDSa-0">HERE</a></li>
-<li>Important Taylor Series Expansions <a href="https://youtu.be/ItK4oTbuuOo">HERE</a></li>
-<li>Maclaurin Series Worked Example <a href="https://youtu.be/tc-Zelm9bWA">HERE</a></li>
-<li><a href="https://www.youtube.com/watch?v=Ka8OawOt_-w">Simple Ratio Test Exercise </a></li>
-<li><a href="https://www.youtube.com/watch?v=quK-JQ5EQOE">The Ratio Test</a></li>
-<li>Convergence Test- <a href="https://youtu.be/LWYiiY1rOqg">HERE</a>(3:13)</li>
-<li>Ratio Test Exercise – <a href="https://youtu.be/Ka8OawOt_-w">HERE</a>[5:19]</li>
+<li><span class="math inline">\(\mbox{\log}_b(X)\)</span> + <span class="math inline">\(\mbox{\log}_b(Y)\)</span> = <span class="math inline">\(\mbox{\log}_b(X\times Y)\)</span></li>
+<li><span class="math inline">\(\mbox{\log}_b(X)\)</span> - <span class="math inline">\(\mbox{\log}_b(Y)\)</span> = <span class="math inline">\(\mbox{\log}_b(X / Y)\)</span></li>
+<li><span class="math inline">\(\mbox{\log}_b(X^Y)\)</span>= <span class="math inline">\(Y \mbox{\log}_b(X)\)</span></li>
 </ul>
 </div>
-<div id="series-expansions" class="section level3">
-<h3>Series Expansions</h3>
+<div id="using-the-laws-1" class="section level4">
+<h4>Using the Laws</h4>
+<ol style="list-style-type: decimal">
+<li><p>Multiplication inside the can be turned into addition outside the , and vice versa. <span class="math display">\[\mbox{\log}_b(mn) = \mbox{\log}_b(m) + \mbox{\log}_b(n)\]</span></p></li>
+<li><p>Division inside the can be turned into subtraction outside the , and vice versa. <span class="math display">\[\mbox{\log}_b(m/n) = \mbox{\log}_b(m) – \mbox{\log}_b(n)\]</span></p></li>
+<li><p>An exponent on everything inside a can be moved out front as a multiplier, and vice versa. <span class="math display">\[mbox{\log}_b(m^n) = n \times \mbox{\log}_b(m)\]</span></p></li>
+</ol>
+</div>
+</div>
+<div id="change-of-base-1" class="section level3">
+<h3>Change of Base</h3>
+<p><span class="math display">\[ \log_b(x) = \frac{1}{\log_x(b)}  \]</span></p>
+<p><span class="math display">\[ \log_b(x) = \frac{\log_a(b)}{\log_a(b)}  \]</span></p>
+<div id="worked-example-1" class="section level4">
+<h4>Worked Example</h4>
+<p><span class="math display">\[ \log_3(x) + 3 \log_x(3) = 4  \]</span></p>
+<p><span class="math display">\[ \left(\log_3(x)\right)^2 + 3  = 4 \log_3(x)  \]</span></p>
+<p><span class="math display">\[ \log_3(x) + 3 \log_x(3) = 4  \]</span></p>
+<p><span class="math display">\[ \left(\log_3(x)\right)^2 - 4 \log_3(x) + 3  = 0  \]</span></p>
+</div>
+</div>
+<div id="exponents-1" class="section level3">
+<h3>Exponents</h3>
+<p><span class="math display">\[ e^a \times e^b = e^{a+b}\]</span></p>
+<p><span class="math display">\[ (e^a )^b = e^{ab}\]</span></p>
+</div>
+<div id="absolute-value-sign-functions-1" class="section level3">
+<h3>Absolute Value &amp; Sign Functions</h3>
+</div>
+<div id="special-mathematical-functions-1" class="section level3">
+<h3>Special Mathematical Functions</h3>
+<div id="mathematical-operators-1" class="section level4">
+<h4>Mathematical Operators</h4>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=1owq4xezLng">Convergence Test</a></li>
-<li><a href="http://youtu.be/ojL-Vtek2Mo">Ratio Test Exercise</a></li>
-<li><a href="https://www.youtube.com/watch?v=ItK4oTbuuOo">Important Taylor Series Expansions </a></li>
-<li><a href="https://www.youtube.com/watch?v=tc-Zelm9bWA">Maclaurin Series Worked Example</a></li>
+<li>Root Functions (i.e. the Square Root function)</li>
+<li>The Floor and Ceiling functions</li>
+<li>The Absolute Value functions</li>
 </ul>
+</div>
+<div id="notation-1" class="section level4">
+<h4>Notation</h4>
+<ul>
+<li>Absolute Value Function <span class="math inline">\(| x |\)</span></li>
+<li>Ceiling Function <span class="math inline">\(\lceil x \rceil\)</span></li>
+<li>Floor Function $x $</li>
+</ul>
+</div>
+<div id="absolute-value-function-1" class="section level4">
+<h4>Absolute Value Function</h4>
+<ul>
+<li>The absolute value of some real number <span class="math inline">\(x\)</span> is denoted <span class="math inline">\(|x|\)</span>.</li>
+<li>If the number is positive, the asbolute value is the same number.</li>
+<li>If the number is negative, the asbolute value is the number without the minus sign.</li>
+<li><span class="math inline">\(|2|=2\)</span></li>
+<li><span class="math inline">\(|-2| = 2\)</span></li>
+</ul>
+</div>
+</div>
+<div id="tutorials-1" class="section level3">
+<h3>Tutorials</h3>
+</div>
+</div>
+</div>
+<div id="exercises-functions" class="section level1" data-navmenu="Section 3">
+<h1 data-navmenu="Section 3">Exercises: Functions</h1>
+<div id="column-3" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="work-sheet-1" class="section level3">
+<h3>Work Sheet 1</h3>
+<div id="exercise-1" class="section level4">
+<h4>Exercise 1</h4>
+<p><a href="http://www.analyzemath.com/college_algebra/problems_5.html" class="uri">http://www.analyzemath.com/college_algebra/problems_5.html</a> Let X = {1, 2, 3, 4} and Y={A,B,C,D}. Determine whether each relation is a function, with X -&gt; Y.</p>
+<ol style="list-style-type: lower-alpha">
+<li>f = {(2, C), (1, D), (2, A), (3,B), (4, D)}</li>
+</ol>
+<p>No: Two different ordered pairs (2, C) and (2, A) in f have the same number 2 as their first coordinate</p>
+<p>Let X = {1, 2, 3, 4}. Determine whether the following relation on X is a function.</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>g = {(3, A), (4, B), (1, C)}</li>
+</ol>
+<p>No The element 2 does not appear as the first coordinate in any ordered pair in g.</p>
+</div>
+<div id="exercise-2" class="section level4">
+<h4>Exercise 2</h4>
+<p>Complete the following table for the functions</p>
+<span class="math inline">\(g(x) = \mbox{log}_3x\)</span>,
+<p><span class="math inline">\(h(x) =\sqrt[3]{x}\)</span>.</p>
+<p><span class="math display">\[
+\begin{array}{|c||c|c|c|c|c|c|}
+\hline $x$ &amp;  \phantom{p}1\phantom{p}&amp;  &amp;  &amp;  &amp; 81 &amp;  \\ 
+\hline \phantom{p} $g(x)$ \phantom{p}&amp;  &amp; \phantom{p}1\phantom{p} &amp; \phantom{p}2\phantom{p} &amp;  &amp;  &amp;  \phantom{p}5\phantom{p} \\ 
+\hline \phantom{p}$h(x)$ \phantom{p}&amp;  &amp;  &amp;  &amp;  3.00 &amp; \phantom{p}\phantom{p}\phantom{p}  &amp;  \\ 
+\hline 
+\end{array}
+\]</span></p>
+<p>Express your answers to 2 decimal places only.</p>
+<p><span class="math display">\[
+\begin{array}{|c||c|c|c|c|c|c|}
+\hline $x$ &amp; 1  &amp;   3   &amp;   9   &amp;   27  &amp;   81  &amp;   243 \\ \hline
+\phantom{p} $g(x)$ \phantom{p}&amp;0    &amp;   1   &amp;   2   &amp;   3   &amp;   4   &amp;   5   \\ \hline
+\phantom{p}$h(x)$ \phantom{p}&amp;  1.00    &amp;   1.44    &amp;   2.08    &amp;   3.00    &amp;   4.33    &amp;   6.24    \\ \hline
+\end{tabular} 
+\end{array}
+\]</span></p>
+</div>
+<div id="exercise-3" class="section level4">
+<h4>Exercise 3</h4>
+<p>The function <span class="math inline">\(f : \mathbb{Z} \rightarrow \mathbb{Z}\)</span> is defined by the rule: <span class="math display">\[f(x) = |x + 1| \]</span> What is the range of this function?</p>
+<p>Is this function ``onto&quot; ?</p>
+<p>Is this function ``one-to-one&quot; ?</p>
+<p>Is this function invertible ?</p>
+</div>
+<div id="exercise-4" class="section level4">
+<h4>Exercise 4</h4>
+<p>Compute the Logarithm of the following</p>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(\mbox{log}_2(8)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_2(\sqrt{128})\)</span></li>
+<li><span class="math inline">\(\mbox{log}_2(64)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_5(125)\)</span> + <span class="math inline">\(\mbox{log}_3(729)\)</span></li>
+<li><span class="math inline">\(\mbox{log}_2(64/4)\)</span></li>
+</ol>
+</div>
+<div id="exercise-5" class="section level4">
+<h4>Exercise 5</h4>
+<p>Evaluate the following expression. <span class="math display">\[ \mbox{Log}_4 64 + \mbox{Log}_5 625 + \mbox{Log}_9 3 \]</span></p>
+</div>
+<div id="exercise-6" class="section level4">
+<h4>Exercise 6</h4>
+<p>State the range and domain of the following function <span class="math display">\[ F(x) = \lfloor x-1 \rfloor \]</span></p>
+</div>
+</div>
+<div id="work-sheet-2" class="section level3">
+<h3>Work Sheet 2</h3>
+<p>Let <span class="math inline">\(S\)</span> be the set of all 4 bit binary strings.</p>
+<p>The function <span class="math inline">\(f : S \rightarrow \mathbb{Z}\)</span> is defined by the rule: <span class="math display">\[f(x) = \mbox{the number of zeros in x}\]</span> for each binary string <span class="math inline">\(x \in S\)</span>. Find:</p>
+<ol style="list-style-type: lower-alpha">
+<li>the number of elements in the domain</li>
+<li><span class="math inline">\(f(1000)\)</span></li>
+<li>the set of pre-images of 1</li>
+<li>the range of <span class="math inline">\(f\)</span>.</li>
+</ol>
 </div>
 </div>
 </div>
