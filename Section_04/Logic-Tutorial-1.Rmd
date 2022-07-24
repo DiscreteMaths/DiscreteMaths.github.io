@@ -110,11 +110,10 @@ c. $\neg p \vee q$
 d. $ p \otimes q$.
 
 ---------------------------------
+---------------------------------
 
+#### Exercise 
 
-
-
-\item 
 Let $n = \{1, 2,3,4, 5,6,7, 8, 9\}$ and let $p$ and  $q$ be the following propositions concerning the integer $n$.
 
 * p: n is even, 
@@ -125,13 +124,11 @@ propositions $p \vee \neg q$ and $ \neg q \rightarrow p$
 
 ---------------------------------
 
-
-
-\item 
+#### Exercise 
 Let p, q be the following propositions:
 
-\item p : this apple is red, 
-\item q : this apple is ripe.
+$p$ : this apple is red, 
+$q$ : this apple is ripe.
 
 
 Express the following statements in words as simply as you can:
@@ -149,7 +146,9 @@ d. If this apple is not red it is not ripe.
 
 ---------------------------------
 
-\item Let p and q be propositions.
+#### Question
+
+Let p and q be propositions.
 
 a.   Construct the truth table for $p \rightarrow q$. 
 b.  Use truth tables to prove that $\neg q \rightarrow \neg p$ = $p \rightarrow q$. 

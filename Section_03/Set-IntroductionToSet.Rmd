@@ -611,9 +611,9 @@ where:
 
 The rules can be verbalized as:
 
-
 * The negation of a conjunction is the disjunction of the negations.
 * The negation of a disjunction is the conjunction of the negations.
+
 or informally as:
 
 \textbf{``not (A and B)" is the same as "(not A) or (not B)"
@@ -622,10 +622,9 @@ or informally as:
 
 and also,
 
-\begin{center}
-\textbf{``not (A or B)" is the same as "(not A) and (not B)"
-}
-\end{center}
+
+***``not (A or B)" is the same as "(not A) and (not B)"***
+
 
 The rules can be expressed in formal language with two propositions P and Q as:
 \[ \neg(P\land Q)\iff(\neg P)\lor(\neg Q)\]

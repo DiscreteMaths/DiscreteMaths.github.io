@@ -6,13 +6,18 @@ Column {.tabset}
 
 ### Introduction
 
+<h4> Sequences and Series</h4>
 
  In this chapter we’ll be taking a look at sequences and (infinite) series. 
  Actually, this chapter will deal almost exclusively with series. 
  However, we also need to understand some of the basics of sequences in order to properly deal with series.  
  We will therefore, spend a little time on sequences as well.
 
-Series is one of those topics that many students don’t find all that useful.  To be honest, many students will never see series outside of their calculus class.  However, series do play an important role in the field of ordinary differential equations and without series large portions of the field of partial differential equations would not be possible.
+Series is one of those topics that many students don’t find all that useful.  To be honest, many students will never see series outside of their calculus class.  
+
+<p>
+
+However, series do play an important role in the field of ordinary differential equations and without series large portions of the field of partial differential equations would not be possible.
 
 #### Learning Outcomes
 
@@ -37,45 +42,45 @@ In other words, series is an important topic even if you won’t ever see any of
 Here is a list of topics in this section
  
 \begin{description}
-\item[Sequences ] We will start the chapter off with a brief discussion of sequences.  This section will focus on the basic terminology and convergence of sequences
+* [Sequences ] We will start the chapter off with a brief discussion of sequences.  This section will focus on the basic terminology and convergence of sequences
  
-\item[More on Sequences]  Here we will take a quick look about monotonic and bounded sequences.
+* [More on Sequences]  Here we will take a quick look about monotonic and bounded sequences.
  
-\item[Series]  The Basics  In this section we will discuss some of the basics of infinite series.
+* [Series]  The Basics  In this section we will discuss some of the basics of infinite series.
 
 
-\item[Series Convergence/Divergence]  Most of this chapter will be about the convergence/divergence of a series so we will give the basic ideas and definitions in this section.
+* [Series Convergence/Divergence]  Most of this chapter will be about the convergence/divergence of a series so we will give the basic ideas and definitions in this section.
  
-\item[Special Series]  We will look at the Geometric Series, Telescoping Series, and Harmonic Series in this section.
+* [Special Series]  We will look at the Geometric Series, Telescoping Series, and Harmonic Series in this section.
  
-\item[Integral Test]  Using the Integral Test to determine if a series converges or diverges.
+* [Integral Test]  Using the Integral Test to determine if a series converges or diverges.
 
 
-\item[Comparison Test/Limit Comparison Test]  Using the Comparison Test and Limit Comparison Tests to determine if a series converges or diverges.
+* [Comparison Test/Limit Comparison Test]  Using the Comparison Test and Limit Comparison Tests to determine if a series converges or diverges.
  
-\item[Alternating Series Test]  Using the Alternating Series Test to determine if a series converges or diverges.
+* [Alternating Series Test]  Using the Alternating Series Test to determine if a series converges or diverges.
  
-\item[Absolute Convergence]  A brief discussion on absolute convergence and how it differs from convergence.
+* [Absolute Convergence]  A brief discussion on absolute convergence and how it differs from convergence.
  
-\item[Ratio Test]  Using the Ratio Test to determine if a series converges or diverges.
+* [Ratio Test]  Using the Ratio Test to determine if a series converges or diverges.
 
-\item[Root Test]  Using the Root Test to determine if a series converges or diverges.
+* [Root Test]  Using the Root Test to determine if a series converges or diverges.
  
-\item[Strategy for Series]  A set of general guidelines to use when deciding which test to use.
+* [Strategy for Series]  A set of general guidelines to use when deciding which test to use.
  
-\item[Estimating the Value of a Series]  Here we will look at estimating the value of an infinite series.
+* [Estimating the Value of a Series]  Here we will look at estimating the value of an infinite series.
  
-\item[Power Series]  An introduction to power series and some of the basic concepts.
+* [Power Series]  An introduction to power series and some of the basic concepts.
 
 
 
-\item[Power Series and Functions]  In this section we will start looking at how to find a power series representation of a function.
+* [Power Series and Functions]  In this section we will start looking at how to find a power series representation of a function.
  
-\item[Taylor Series]  Here we will discuss how to find the Taylor/Maclaurin Series for a function.
+* [Taylor Series]  Here we will discuss how to find the Taylor/Maclaurin Series for a function.
  
-\item[Applications of Series]  In this section we will take a quick look at a couple of applications of series.
+* [Applications of Series]  In this section we will take a quick look at a couple of applications of series.
  
-\item[Binomial Series]  A brief look at binomial series.
+* [Binomial Series]  A brief look at binomial series.
 
 
 
@@ -93,14 +98,14 @@ and in general
 
 
 
-A finite portion of an arithmetic progression is called a \subsubsection{finite arithmetic progression} and sometimes just called an arithmetic progression. The sum of a finite arithmetic progression is called an arithmetic series.
+A finite portion of an arithmetic progression is called a ***finite arithmetic progression*** and sometimes just called an arithmetic progression. The sum of a finite arithmetic progression is called an arithmetic series.
 
 
 
 The behavior of the arithmetic progression depends on the common difference d. If the common difference is:
 
-\item Positive, the members (terms) will grow towards positive infinity.
-\item Negative, the members (terms) will grow towards negative infinity.
+*  Positive, the members (terms) will grow towards positive infinity.
+*  Negative, the members (terms) will grow towards negative infinity.
 
 
 
@@ -120,7 +125,7 @@ This formula works for any real numbers $a_{1}$ and $a_{n}$. For example:
 
 
 ### Geometric Progression
-A geometric progression, also known as a geometric sequence, is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the \textit{\textbf{common ratio}}. 
+A geometric progression, also known as a geometric sequence, is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the ***common ratio***. 
 
 * For example, the sequence $2, 6, 18, 54, \ldots$ is a geometric progression with common ratio 3. 
 
@@ -137,7 +142,7 @@ where $r \neq 0$ is the common ratio and $a$ is a \textit{\textbf{scale factor}}
 
 
 #### Summations of Geometric Progressions
-A summation of a geometric progression, a \textit{\textbf{geometric series}}, is the sum of the numbers in a geometric progression. For example:
+A summation of a geometric progression, a ***geometric series***, is the sum of the numbers in a geometric progression. For example:
 \[2+10+50+250=2+2\times 5+2\times 5^{2}+2\times 5^{3}.\,\]
 
 
@@ -158,8 +163,8 @@ In the example above, this gives:
 \[ u_1, u_2, \ldots , u_n, \ldots \]
 in which $u_1$ is the first term, $u_2$ is the second term and $u_n$ is the $n$-th 
 term in the sequence.
-*  If the sequence goes on forever it is called an \textbf{infinite sequence},
-otherwise it is called a \textbf{finite sequence}.
+*  If the sequence goes on forever it is called an ***infinite sequence***,
+otherwise it is called a ***finite sequence***.
 *  A sequence usually has a rule, which is a way to find the value of each term.
 
 
@@ -174,10 +179,10 @@ otherwise it is called a \textbf{finite sequence}.
 
 #### Sequences: Recursive Formulas
 
-\item Often the rule for evaluating the current term in the sequence depends on the values of one or more previous terms.
-\item In such cases, these rules are called \textbf{recursive formulas}.
-\item Recursive Rules also have initial values that allow the terms to be evaluated.
-\item The rule defining the \textit{Fibonacci} sequence is a recursive formula.
+*  Often the rule for evaluating the current term in the sequence depends on the values of one or more previous terms.
+*  In such cases, these rules are called ***recursive formulas***.
+*  Recursive Rules also have initial values that allow the terms to be evaluated.
+*  The rule defining the ***Fibonacci Sequence*** is a recursive formula.
 
 
 
@@ -210,10 +215,10 @@ The first few terms of the Fibonnaci Sequence looks like this:
 
 
 
-\item A series is the sum of the terms of a sequence. 
+*  A series is the sum of the terms of a sequence. 
 \[ S_n = u_1 + u_2 + u_3+ \ldots +u_n\]
-\item A series is usuall expressed in terms pf \textbf{sigma notation}.
-\item It is useful to remember the following, particularl in the context of proof by induction.
+*  A series is usuall expressed in terms of ***sigma notation***.
+*  It is useful to remember the following, particularl in the context of proof by induction.
 \[S_1 = u_1\]
 \[S_{n+1} = S_n + u_{n+1}\]
 
@@ -222,24 +227,24 @@ The first few terms of the Fibonnaci Sequence looks like this:
 
 #### Series: 
 
-A series is the sum of a sequence. For a given sequence $a_0,a_1,a_2,a_3,\ldots,a_n,\ldots$ the terms in the corresponding \emph{series} $s_n$ are given by
+A series is the sum of a sequence. For a given sequence $a_0,a_1,a_2,a_3,\ldots,a_n,\ldots$ the terms in the corresponding **series** $s_n$ are given by
 
+\[
 \begin{align*}
   s_0&=a_0
   s_1&=a_0+a_1
   s_2&=a_0+a_1+a_2
   s_3&=a_0+a_1+a_2+a_3,\quad \text{etc}
 \end{align*}
+\]
 
 The general term $s_n$, which is the $n^{th}$ term in the series, is given by
-\begin{equation*}
-  s_n=a_0+a_1+a_2+\cdots+a_{n-1}+a_n
-\end{equation*}
+$$  s_n=a_0+a_1+a_2+\cdots+a_{n-1}+a_n$$
 Note that
 
-\item Every series is itself another sequence. Therefore a series can have all the properties of sequences; boundedness, limits, etc.
-\item Every sequence $a_n$ has a corresponding series $s_n$.
-\item Every series $s_n$ has a corresponding sequence $a_n=s_n-s_{n-1}$.
+*  Every series is itself another sequence. Therefore a series can have all the properties of sequences; boundedness, limits, etc.
+*  Every sequence $a_n$ has a corresponding series $s_n$.
+*  Every series $s_n$ has a corresponding sequence $a_n=s_n-s_{n-1}$.
 
 *  \textbf{Example}
 Let $a_n=n^2$, So that the terms in the sequence are $0,1,4,9,16,25,\ldots$

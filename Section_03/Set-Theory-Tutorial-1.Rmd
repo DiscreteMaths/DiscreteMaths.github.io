@@ -1,11 +1,11 @@
 
-Set Theory - Worksheets {data-navmenu="Section 2"}
+Set Theory - Worksheets {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
 -----------------------------
 
-### Worksheets 1
+### Set Theory - Worksheet 1
 
 #### Question 1
 
@@ -93,9 +93,9 @@ b. $\{ 2m :  m \in Z \mbox{ and }5 \leq m \leq 10 \}$
 c. $\{ 2^t :  t \in Z \mbox{ and } 0 \leq t \leq 5 \}$
 
 
-<hline>
+### Set Theory - Worksheet 2
 
-#### Question 7
+#### Question 1
 
 Let $A$ and $B$ be subsets of universal set $U$. Use the membership rule to prove that
 \[(A^\prime  \cap B)^\prime = A \cup B^\prime\]
@@ -121,7 +121,7 @@ f. $A^\prime\; \cap\; B^\prime\;$
 
 <hline> 
 
-The following sets have been defined using the \textbf{Building Method} of notation. Re-write them by listing \textbf{some} of the elements.
+The following sets have been defined using the **Building Method** of notation. Re-write them by listing \textbf{some} of the elements.
 
 * $\{p | p$ is a capital city, p is in Europe$\}$
 

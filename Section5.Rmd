@@ -32,7 +32,7 @@ Column {.tabset}
 ### Laws of Logarithms
 
 
-### Laws of Logarithms
+#### Laws of Logarithms
 
 
 

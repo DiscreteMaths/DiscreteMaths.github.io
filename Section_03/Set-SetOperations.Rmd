@@ -41,7 +41,8 @@ $ A \oplus B$
 
 #### Set difference
 
-The difference X minus Y, written X-Y or $X\|Y$, contains all those elements in X that are not also in Y. For example, E-A contains all integers greater than 3. 
+* The difference ***X minus Y***, written X-Y or $X\|Y$, contains all those elements in X that are not also in Y. 
+* For example, $E-A$ contains all integers greater than 3. 
 A-B is just A; red, green and blue were not elements of A, so no difference is made by excluding them.
 
 

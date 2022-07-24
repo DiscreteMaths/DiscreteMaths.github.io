@@ -1,4 +1,4 @@
-Mathematical Functions{data-navmenu="Section 3"}
+Mathematical Functions{data-navmenu="Functions"}
 =====================================
 
 Column {.tabset}
