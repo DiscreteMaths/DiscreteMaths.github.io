@@ -32,6 +32,18 @@ Column {.tabset}
 ### Laws of Logarithms
 
 
+### Laws of Logarithms
+
+
+
+Here we
+assume x and y are positive real numbers.
+1. $loga(xy) = loga(x) + loga(y)$
+2. $loga(x/y)= loga(x) - loga(y)$
+3. $loga (x^r) = r loga(x)$ for any real number r.
+
+
+
 
 Here we
 assume x and y are positive real numbers.

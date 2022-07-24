@@ -57,6 +57,10 @@ Thus, the number of spanning trees = 8.
 ```{r child="Section_09/Graphs-Trees.Rmd"}
 ```
 
+
+```{r child="sourcefiles/Graphs-BinarySearchTrees.Rmd"}
+```
+
 ```{r child="Section_09/BinarySearchTrees.Rmd"}
 ```
 

@@ -6,6 +6,7 @@ Column {.tabset}
 
 ### Conversion Table
 
+<h4> Converstion Table</h4>
 
 |Decimal | Binary  | Hexadecimal | Octal | Binary with 4 digits  | |
 |-----:|-----:|-----:|-----:|:--------:|:-----------:|

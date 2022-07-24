@@ -14,7 +14,7 @@ Column {.tabset}
 
 * The nodes without child nodes are called leaf nodes.
 
-* A tree with ‘n’ vertices has ‘n-1’ edges. If it has one more edge extra than ‘n-1’, then the extra edge should obviously has to pair up with two vertices which leads to form a cycle. 
+* A tree with ‘n’ vertices has ‘n-1’ edges. If it has one more edge extra than ‘$n-1$’, then the extra edge should obviously has to pair up with two vertices which leads to form a cycle. 
 
 * Then, it becomes a cyclic graph which is a violation for the tree graph.
 
@@ -49,6 +49,7 @@ If H is a subgraph of G such that $V(H) = V (G)$, then H is called a spanning su
 
 ### Traversals
 
+<h4> Traversals </h4>
 A traversal is a process that visits all the nodes in the tree. Since a tree is a nonlinear data structure, there is no unique traversal. We will consider several traversal algorithms with we group in the following two kinds
 
 * depth-first traversal
@@ -61,8 +62,10 @@ There are three different types of depth-first traversals, :
 * In-Order traversal - visit the left child, then the parent and the right child;
 * Post-Order traversal - visit left child, then the right child and then the parent;
 
-### Trees
+### Videos
 
+
+<h4> Vides</h4>
 * <a href="https://youtube.com/watch?v=/U98IToj6-iM">Spanning Trees - Worked Example	</a>
 
 

@@ -15,6 +15,33 @@ Column {.tabset}
 *  The Floor and Ceiling functions
 *  The Absolute Value functions
 
+### Floor and ceiling functions
+
+#### Floor function
+
+Ceiling function
+
+* In mathematics and computer science, the floor function is the function that takes as input a real number x, and gives as output the greatest integer less than or equal to x, denoted floor(x) or ⌊x⌋.
+
+* Similarly, the ceiling function maps x to the least integer greater than or equal to x, denoted ceil(x) or ⌈x⌉.[1]
+
+* For example, ⌊2.4⌋ = 2, ⌊−2.4⌋ = −3, ⌈2.4⌉ = 3, and ⌈−2.4⌉ = −2.
+
+* The integral part or integer part of x, often denoted [x] is usually defined as the ⌊x⌋ if x is nonnegative, and ⌈x⌉ otherwise.[citation needed] For example, [2.4] = 2 and [−2.4] = −2. 
+
+* The operation of truncation generalizes this to a specified number of digits: truncation to zero significant digits is the same as the integer part.
+
+* Some authors define the integer part as the floor regardless of the sign of x, using a variety of notations for this.[2]
+
+* For n an integer, ⌊n⌋ = ⌈n⌉ = [n] = n.
+
+#### Examples
+x	Floor ⌊x⌋	Ceiling ⌈x⌉	Fractional part {x}
+2	2	2	0
+2.4	2	3	0.4
+2.9	2	3	0.9
+−2.7	−3	−2	0.3
+−2	−2	−2	0
 
 
 #### Notation 

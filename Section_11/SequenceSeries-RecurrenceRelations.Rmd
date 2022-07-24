@@ -9,8 +9,9 @@ Column {.tabset}
 
 #### Recurrence Relations 
 
-In mathematics, a recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: each further term of the sequence is defined as a function of the preceding terms.
-The term difference equation sometimes (and for the purposes of this article) refers to a specific type of recurrence relation. However, "difference equation" is frequently used to refer to any recurrence relation.
+* In mathematics, a recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: each further term of the sequence is defined as a function of the preceding terms.
+<p>
+* The term difference equation sometimes (and for the purposes of this article) refers to a specific type of recurrence relation. However, "difference equation" is frequently used to refer to any recurrence relation.
 
 
 
@@ -53,28 +54,27 @@ The first five elements of the sequence are as follows:
 
 ### Recurrence Relation
 
+<h4>Recurrence Relation</h4>
 
-A recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: 
-
+* A recurrence relation is an equation that recursively defines a sequence, once one or more initial terms are given: 
 each further term of the sequence is defined as a function of the preceding terms.
-The term difference equation sometimes refers to a specific type of recurrence relation. 
+* The term difference equation sometimes refers to a specific type of recurrence relation. 
 
-However, "difference equation" is frequently used to refer to any recurrence relation.
+* However, "difference equation" is frequently used to refer to any recurrence relation.
 
+------------------------
 
 #### Worked Example 
 
 Recurrence Relations
 
-\textit{CIS102 2004 Question 7 2 Marks}
+***CIS102 2004 Question 7 2 Marks***
 
 
 
 *  Consider the sequence given by \[ 1, 4, 7, 10, 13, \ldots\]
-*  State a recurrence relation which expresses the nth term, $u_n$
-, in terms of the$(n - 1)$th term, $u_{n-1}$, 
-*  State a recurrence relation which expresses the nth term, $u_n$
-, in terms of the first term $u_1$.
+*  State a recurrence relation which expresses the nth term, $u_n$, in terms of the$(n - 1)$th term, $u_{n-1}$, 
+*  State a recurrence relation which expresses the nth term, $u_n$, in terms of the first term $u_1$.
 
 
 
@@ -112,3 +112,4 @@ n    & u_{n-1} & 2n-1 & u_n \\ \hline
 5      & 16        &  9   & u_5 = 25 \\ \hline
 \end{array}\]
 
+-------------------------

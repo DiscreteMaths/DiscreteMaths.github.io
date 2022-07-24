@@ -18,6 +18,13 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
+### Binary Numbers
+
+<h4> Binary Numbers</h4>
+
+A binary number is a number expressed in the base-2 numeral system or binary numeral system, a method of mathematical expression which uses only two symbols: typically "0" (zero) and "1" (one).
+
+
 ### Functions 
 
 
@@ -26,16 +33,6 @@ Column {.tabset}
 
 * Introduction to Functions
 * Mathematical Functions and Special Functions
-
-### Laws of Logarithms
-
-
-
-Here we
-assume x and y are positive real numbers.
-1. $loga(xy) = loga(x) + loga(y)$
-2. $loga(x/y)= loga(x) - loga(y)$
-3. $loga (x^r) = r loga(x)$ for any real number r.
 
 
 <h3>Section 4</h3>

@@ -9,7 +9,7 @@ Column {.tabset}
 
 ### Cartesian Product
 
-A \textbf{Cartesian product} is a mathematical operation which returns a set (or product set) from multiple sets. 
+A ***Cartesian product*** is a mathematical operation which returns a set (or product set) from multiple sets. 
  
 That is, for sets A and B, the Cartesian product $A \times B$ is the set of all ordered pairs $(a, b)$ where $a \in A$ and $b \in B$.
 
@@ -18,22 +18,27 @@ That is, for sets A and B, the Cartesian product $A \times B$ is the set of all 
 
 
 
-In mathematics, a power series (in one variable) is an infinite series of the form
+* In mathematics, a power series (in one variable) is an infinite series of the form
 \[f(x) = \sum_{n=0}^\infty a_n \left( x-c \right)^n = a_0 + a_1 (x-c)^1 + a_2 (x-c)^2 + a_3 (x-c)^3 + \cdots\]
-where an represents the coefficient of the nth term, c is a constant, and x varies around c (for this reason one sometimes speaks of the series as being centered at c). This series usually arises as the Taylor series of some known function.
+where an represents the coefficient of the nth term, c is a constant, and x varies around c (for this reason one sometimes speaks of the series as being centered at c).
+* This series usually arises as the Taylor series of some known function.
 
-In many situations c is equal to zero, for instance when considering a Maclaurin series. In such cases, the power series takes the simpler form
+* In many situations c is equal to zero, for instance when considering a Maclaurin series. 
+* In such cases, the power series takes the simpler form
 
 \[f(x) = \sum_{n=0}^\infty a_n x^n = a_0 + a_1 x + a_2 x^2 + a_3 x^3 + \cdots.\]
 
 
 
 ### Sigma Notation
+
+<h4> Sigma Notation</h4>
 Instead of writing out a long sum for every term in a series, the greek letter Sigma is used to denote such sums. For a sum over a range or terms $a_p$ to $a_q$, with $p<q$ let
 $$
   \sum_{k=p}^{q}a_k = a_p+a_{p+1}+a_{p+2}+a_{p+3}+\cdots+a_{q-1}+a_q
 $$
-The sum is over the variable $k$ which ranges from the lower bound $p$, increasing in steps of $1$, until it reaches the upper bound $q$. The Sigma denotes that all the terms are to be added together. With this, the general term $s_n$ in the sequence is written
+* The sum is over the variable $k$ which ranges from the lower bound $p$, increasing in steps of $1$, until it reaches the upper bound $q$. 
+* The Sigma denotes that all the terms are to be added together. With this, the general term $s_n$ in the sequence is written
 \begin{multicols}{2}
 $\qquad \qquad s_n=\displaystyle \sum_{k=0}^n a_k$
 
@@ -87,11 +92,12 @@ If $a_n$ and $b_n$ are sequences, and $c$ is a constant then,
 
 ### Arithmetic Series 
 
-And \emph{arithmetic sequence} $a_n$ is a sequences whose terms increase by a constant difference $d$ at each step. And a \emph{arithmetic series} $s_n$ is the sum of an arithmetic sequence. Formally
+And \emph{arithmetic sequence} $a_n$ is a sequences whose terms increase by a constant difference $d$ at each step. And a ***arithmetic series*** $s_n$ is the sum of an arithmetic sequence. Formally
 $$
   a_n=a_0+nd, \qquad s_n=\sum_{k=0}^n \left( a_0 + nd \right)
 $$
-* \textbf{Example:}
+#### Example:
+
 Let $a_n=10+3n$.
 \[
 \begin{array}{c|c|c|c|c|c|c|c|c}
@@ -137,16 +143,19 @@ Column {.tabset}
 
 #### Boundedness
 A sequence is said to be \emph{bounded} if there exists some finite number $M$ such that $|a_n|<M$ for every $n$. A sequence for which no such $M$ exists is said to be \emph{unbounded}.
-#### Strictly Positive/Negative}
+
+#### Strictly Positive/Negative
 A sequence is \emph{strictly positive} if $a_n > 0$ for all $n$.
 A sequence is \emph{strictly negative} if $a_n < 0$ for all $n$.
-#### Equivalence}
+
+#### Equivalence
 Two sequences $a_n$ and $b_n$ are \emph{equivalent} if $a_n = b_n$ for all $n$.
 \textbf{Increasing/Decreasing}
 A sequence is \emph{increasing} if $a_{n+1} > a_n$ for all $n$
 A sequence is \emph{decreasing} if $a_{n+1} < a_n$ for all $n$
 
-For strictly positive sequences, these conditions mean respectively that $\frac{a_{n+1}}{a_n} > 1$ and $\frac{a_{n+1}}{a_n} < 1$. Therefore, to test whether a sequence is increasing or decreasing, the ratio $\frac{a_{n+1}}{a_n}$ must be evaluated.
+For strictly positive sequences, these conditions mean respectively that $\frac{a_{n+1}}{a_n} > 1$ and $\frac{a_{n+1}}{a_n} < 1$. 
+Therefore, to test whether a sequence is increasing or decreasing, the ratio $\frac{a_{n+1}}{a_n}$ must be evaluated.
 
 ####  Example:
 To test whether the sequence $a_n=n$ is increasing or decreasing.
@@ -155,8 +164,10 @@ $$
 $$
 as $n+1 >n$. Therefore the sequence $a_n=n$ is increasing.
 
-####  Example:}
+####  Example:
+
 To test whether the sequence $a_n=\frac{n+2}{n+1}$ is increasing or decreasing.
+
 \begin{align*}
   &a_n=\frac{n+2}{n+1},\quad a_{n+1}=\frac{n+3}{n+2},
   &\Rightarrow \frac{a_{n+1}}{a_n}=\frac{\frac{n+3}{n+2}}{\frac{n+2}{n+1}}= \frac{n+3}{n+2}\cdot \frac{n+1}{n+2} = \frac{n^2+4n+3}{n^2+4n+4} = \frac{n^2+4n+3}{\left(n^2+4n+3\right)+1}=\frac{x}{x+1}<1 

@@ -8,12 +8,14 @@ Column {.tabset}
 ### Finite Series and Sigma Notation
 Mathematical notation uses a symbol that compactly represents summation of many similar terms: the summation symbol, $\sum$, an enlarged form of the upright capital Greek letter *Sigma*. 
 
-This is defined as:
+* This is defined as:
 \[\sum_{i=m}^n a_i = a_m + a_{m+1} + a_{m+2} +\cdots+ a_{n-1} + a_n. \]
-Where, i represents the index of summation; ai is an indexed variable representing each successive term in the series; m is the lower bound of summation, and n is the upper bound of summation. The "i = m" under the summation symbol means that the index i starts out equal to m. The index, i, is incremented by 1 for each successive term, stopping when i = n.
-Here is an example showing the summation of exponential terms (all terms to the power of 2):
+Where, i represents the index of summation; $a_i$ is an indexed variable representing each successive term in the series; $m$ is the lower bound of summation, and $n$ is the upper bound of summation. The "i = m" under the summation symbol means that the index i starts out equal to m. 
+* The index, $i$, is incremented by 1 for each successive term, stopping when $i = n$.
+
+* Here is an example showing the summation of exponential terms (all terms to the power of 2):
 \[\sum_{i=3}^6 i^2 = 3^2+4^2+5^2+6^2 = 86.\]
-Informal writing sometimes omits the definition of the index and bounds of summation when these are clear from context, as in:
+* Informal writing sometimes omits the definition of the index and bounds of summation when these are clear from context, as in:
 \[\sum a_i^2 = \sum_{i=1}^n a_i^2.\]
 
 
@@ -40,20 +42,26 @@ Suppose $n=100$ and $m=50$
 
 \[ \sum^{i=100}_{i=1} u_{i} = \sum^{i=50}_{i=1} u_{i} + \sum^{i=100}_{i=51} u_{i}\]
 
-\textbf{Example}
+#### Example
+
 Evaluate the following expression:
 \[ \sum^{i=100}_{i=51} (i+1) \]
 
 
 ***Step 1*** Evaluate this expression using the identities (notice the lower bound)
+
 \[ \sum^{i=100}_{i=1} (i+1) \]
+
 ***Step 2*** From the outcome of step 1, subtract the following
 \[ \sum^{i=50}_{i=1} (i+1) \]
 
 
 
 
-<h5>Step 1</h5> Evaluate the following expression using the identities. In this step $n=100$
+<h5>Step 1</h5> 
+
+Evaluate the following expression using the identities. In this step $n=100$
+
 \[ \sum^{i=100}_{i=1} (i+1)  = \sum^{i=100}_{i=1} i  +  \sum^{i=100}_{i=1} 1  \]
 
 1. First term \[\sum^{i=100}_{i=1} i  = \frac{100\times(100+1)}{2}  = 5050\]
@@ -97,6 +105,6 @@ Evaluate the following expression using the identities. In this step $n=50$
 
     
 * <a href="https://www.youtube.com/watch?v=/NhUBAYcfY_A">Evaluating the Sum of a Series</a>
-*  <a href="https://www.youtube.com/watch?v=O8y3OInkTsg" >Sigma Notation</a> (6:49 Minutes)
-*  Finite Series – <a title="Sequences and Series : Finite Series " href="https://www.youtube.com/watch?v=HQ-nWl6Xfn4" >HERE</a> (4:40 Minutes)
+*  <a href="https://www.youtube.com/watch?v=O8y3OInkTsg" >Sigma Notation</a> (6:49 Minutes)
+*  Finite Series – <a title="Sequences and Series : Finite Series " href="https://www.youtube.com/watch?v=HQ-nWl6Xfn4" >HERE</a> (4:40 Minutes)
 *  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> ( 3:12 Minutes)

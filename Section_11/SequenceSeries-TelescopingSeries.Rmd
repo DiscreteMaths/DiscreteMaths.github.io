@@ -1,4 +1,4 @@
-Telescoping Series {data-navmenu="Section 5"}
+Telescoping Series {data-navmenu="Telescoping Series"}
 =====================================
 
 Column {.tabset}
@@ -21,10 +21,10 @@ Column {.tabset}
 	
 #### Videos
 
-*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Introduction to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences – Part 1</a> [4:09]
+*  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Introduction to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences – Part 1</a> [4:09]
 *  <a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction to Sequences – Part 3</a> [8:27]
 *  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Evaluating Sequence Values</a>
 
-*  Exam Question <a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and Series 2003 proof by induction</a>
+*  Exam Question <a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and Series 2003 proof by induction</a>
 
 

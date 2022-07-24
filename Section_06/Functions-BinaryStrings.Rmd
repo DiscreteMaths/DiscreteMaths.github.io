@@ -18,7 +18,7 @@ Find:
 #### Binary Strings and Functions
 
 
-\textbf{Part 1}: Find the number of all elements in the domain.\\
+\textbf{Part 1}: Find the number of all elements in the domain
 
 
 In this question, the domain is $S$
@@ -33,7 +33,7 @@ $S$ is the set of all 4 bit binary strings.
 There are $2^4$ 4-bit binary strings.
 \[ 2^4 = \boldsymbol{16}\]
 
-\frametitle{Binary Strings and Functions}
+#### Binary Strings and Functions
 
 
 \textbf{Part 2}: Find $f(1000)$
@@ -59,12 +59,7 @@ Find all the 4-bit binary strings with only one zero.
 
 \[\{1110, \; 1101, \; 1011,\; 0111\; \}\] 
 
-\end{itemize}
-
-%-------------------------------------- %
-
-\frametitle{Binary Strings and Functions}
-
+<p>
 
 \textbf{Part 4}: Find the range of $f$.
 
@@ -75,8 +70,3 @@ $f(1111) = 0$ and $f(0000) = 4$
 The range of $f$ is therefore
  
 \[\{0,1,2,3,4\}\] 
-
-\end{itemize}
-
-%-------------------------------------- %
-\end{document}

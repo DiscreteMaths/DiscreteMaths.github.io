@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 8"
+title: "Discrete Mathematics - Section 11"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -23,7 +23,7 @@ Column {.tabset}
 <a href="index.html">Back to main page</a>
 
 
-<h3>Section 9</h3>
+<h3>Section 11</h3>
 
 
 

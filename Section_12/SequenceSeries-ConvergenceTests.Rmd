@@ -1,4 +1,4 @@
-Convergence Testing {data-navmenu="Section 5"}
+Convergence Testing {data-navmenu="Convergence Testing"}
 =========================================
 
 Column {.tabset}

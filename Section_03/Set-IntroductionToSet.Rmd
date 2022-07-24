@@ -591,21 +591,23 @@ Column {.tabset}
 
 ### De Morgan's Laws
 
-\subsubsection{Set theory and Boolean algebra}
+#### Set theory and Boolean algebra
+
 In set theory and Boolean algebra, De Morgan's Laws are often stated as "Union and intersection interchange under complementation" which can be formally expressed as:
 
 \[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]
 \[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]
 where:
 
-\item $\overline{A}$ is the negation of A, the overline being written above the terms to be negated
-\item $\cap$ is the intersection operator (AND)
-\item $\cup$ is the union operator (OR)
+* $\overline{A}$ is the negation of A, the overline being written above the terms to be negated
+* $\cap$ is the intersection operator (AND)
+* $\cup$ is the union operator (OR)
 
 
 <hline>
 
-In propositional logic and boolean algebra, \textbf{De Morgan's laws} are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
+* In propositional logic and boolean algebra, ***De Morgan's laws*** are a pair of transformation rules that are both valid rules of inference. 
+* The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
 
 The rules can be verbalized as:
 
@@ -614,16 +616,17 @@ The rules can be verbalized as:
 * The negation of a disjunction is the conjunction of the negations.
 or informally as:
 
-\begin{center}
 \textbf{``not (A and B)" is the same as "(not A) or (not B)"
 }
 \end{center}
 
 and also,
+
 \begin{center}
 \textbf{``not (A or B)" is the same as "(not A) and (not B)"
 }
 \end{center}
+
 The rules can be expressed in formal language with two propositions P and Q as:
 \[ \neg(P\land Q)\iff(\neg P)\lor(\neg Q)\]
 \[\neg(P\lor Q)\iff(\neg P)\land(\neg Q)\]

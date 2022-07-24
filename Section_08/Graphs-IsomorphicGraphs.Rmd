@@ -10,11 +10,12 @@ Column{.tabset}
 ### Isomorphic Graphs
 
 <h5> Isomorphic Graphs</h5>
+
 * The two graphs have different numbers of vertices.
 * The two graphs have different numbers of edges.
 * One graph has parallel edges and the other does not.
 * One graph has a loop and the other does not.
-* One graph has a vertice of degree k (for example) and the other does not.
+* One graph has a vertice of degree $k$ (for example) and the other does not.
 * One graph is connected and the other is not.
 * One graph has a cycle and the other has not.
 

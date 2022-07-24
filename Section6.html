@@ -2601,8 +2601,46 @@ window.FlexDashboardComponents.push({
 <h1 data-navmenu="Section 3">Functions</h1>
 <div id="column" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="functions-1" class="section level3">
-<h3>Functions</h3>
+<div id="ordered-pairs" class="section level3">
+<h3>Ordered Pairs</h3>
+<p><a href="https://math24.net/cartesian-product-sets.html" class="uri">https://math24.net/cartesian-product-sets.html</a></p>
+<p>Ordered Pairs In sets, the order of elements is not important. For example, the sets {2, 3} and {3, 2} are equal to each other. However, there are many instances in mathematics where the order of elements is essential. So, for example, the pairs of numbers with coordinates (2, 3) and (3, 2) represent different points on the plane. This leads to the concept of ordered pairs.</p>
+<p>An ordered pair is defined as a set of two objects together with an order associated with them. Ordered pairs are usually written in parentheses (as opposed to curly braces, which are used for writing sets).</p>
+<p>In the ordered pair the element is called the first entry or first component, and is called the second entry or second component of the pair.</p>
+<p>Two ordered pairs and are equal if and only if and In general,</p>
+<p>The equality is possible only if</p>
+</div>
+<div id="tuples" class="section level3">
+<h3>Tuples</h3>
+<p>The concept of ordered pair can be extended to more than two elements. An ordered tuple is a set of objects together with an order associated with them. Tuples are usually denoted by The element is called the entry or component, and is called the length of the tuple.</p>
+<p>Similarly to ordered pairs, the order in which elements appear in a tuple is important. Two tuples of the same length and are said to be equal if and only if for all So the following tuples are not equal to each other:</p>
+<p>Unlike sets, tuples may contain a certain element more than once:</p>
+<p>Ordered pairs are sometimes referred as tuples.</p>
+</div>
+<div id="cartesian-product-of-two-sets" class="section level3">
+<h3>Cartesian Product of Two Sets</h3>
+<p>Suppose that and are non-empty sets. The Cartesian product of two sets and denoted is the set of all possible ordered pairs where and</p>
+<p>The Cartesian product is also known as the cross product.</p>
+<p>The figure below shows the Cartesian product of the sets and</p>
+<p>Cartesian product of two sets A={1,2,3} and B={x,y}. Figure 1. It consists of ordered pairs:</p>
+<p>Similarly, we can find the Cartesian product</p>
+<p>As you can see from this example, the Cartesian products and do not contain exactly the same ordered pairs. So, in general,</p>
+<p>If then is called the Cartesian square of the set and is denoted by</p>
+<div id="cartesian-product-of-several-sets" class="section level4">
+<h4>Cartesian Product of Several Sets</h4>
+<p>Cartesian products may also be defined on more than two sets.</p>
+<p>Let be non-empty sets. The Cartesian product is defined as the set of all possible ordered tuples where and</p>
+<p>If then is called the Cartesian power of the set and is denoted by</p>
+</div>
+<div id="properties" class="section level4">
+<h4>Properties</h4>
+<p>Some Properties of Cartesian Product The Cartesian product is non-commutative: if only if either or The Cartesian product is non-associative: Distributive property over set intersection: Distributive property over set union: Distributive property over set difference: If then for any set Cardinality of Cartesian Product The сardinality of a Cartesian product of two sets is equal to the product of the cardinalities of the sets:</p>
+<p>Similarly,</p>
+<p>See solved problems on Page 2.</p>
+</div>
+</div>
+<div id="videos" class="section level3">
+<h3>Videos</h3>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=/-3hd821alPI">Functions (2005 Q4 Part A) </a></li>
 <li><a href="https://www.youtube.com/watch?v=/cR5b2zWOa0w">Functions (2003 Q4 Part B) </a></li>
@@ -2631,34 +2669,6 @@ window.FlexDashboardComponents.push({
 <li><p>A function is <strong><em>onto</em></strong> if is range is equal to its codomain.</p></li>
 <li><p>A function is <strong><em>one-to-one</em></strong> if no two distinct elements of the domain have the same image.</p></li>
 </ul>
-</div>
-</div>
-</div>
-<div id="big-o-notation" class="section level1" data-navmenu="Section 3">
-<h1 data-navmenu="Section 3">Big <span class="math inline">\(O\)</span> notation</h1>
-<div id="column-2" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="big-o-notation-1" class="section level3">
-<h3>Big <span class="math inline">\(O\)</span> notation</h3>
-<p>The upper bound of the complexity of an algorithm.</p>
-<p>% <a href="http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o" class="uri">http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o</a> % <a href="http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html" class="uri">http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html</a></p>
-<p>Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.</p>
-</div>
-<div id="big-o-notation---examples" class="section level3">
-<h3>Big O notation - Examples</h3>
-<p>Here are some common orders of growth along with descriptions and examples where possible.</p>
-<div id="o1" class="section level4">
-<h4>O(1)</h4>
-<p>O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.</p>
-</div>
-<div id="on" class="section level4">
-<h4>O(N)</h4>
-<p><span class="math inline">\(O(N)\)</span> describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. The example below also demonstrates how Big O favours the worst-case performance scenario; a matching string could be found during any iteration of the for loop and the function would return early, but Big O notation will always assume the upper limit where the algorithm will perform the maximum number of iterations.</p>
-</div>
-<div id="on2" class="section level4">
-<h4><span class="math inline">\(O(N^2)\)</span></h4>
-<p><span class="math inline">\(O(N^2)\)</span> represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. Deeper nested iterations will result in <span class="math inline">\(O(N^3)\)</span>, <span class="math inline">\(O(N^4)\)</span> etc.</p>
-</div>
 </div>
 </div>
 </div>

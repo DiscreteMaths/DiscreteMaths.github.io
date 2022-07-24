@@ -22,14 +22,14 @@ Column {.tabset}
 
 || Section | Conponents ||
 |--------|:-----:|:---------------------|----------|
-| | **Section 1**| Introduction to Numbers and Numbers Systems,  | |
-| | **Section 2**| Binary Numbers, Hexadecimal Numbers, Octal Numbers | |
+| | **Section 1**| <a href="Section1.html"> Introduction to Numbers and Numbers Systems</a>  | |
+| | **Section 2**| <a href="Section2.html"> Binary Numbers, Hexadecimal Numbers, Octal Numbers </a> | |
 | | **Section 3**| <a href="Section3.html"> Set Theory</a> ||
 | | **Section 4**| <a href="Section4.html"> Logic & Logic Networks </a> ||
-| | **Section 5**| Functions 1: Mathematical Functions | |
-| | **Section 6**| Functions 2: Invertible Functions | |
-| | **Section 7**| Functions 3: O-Notation| |
-| | **Section 8**| <a href="Section8.html">Graph Theory</a>| |
+| | **Section 5**| <a href="Section5.html"> Functions 1: Mathematical Functions </a> | |
+| | **Section 6**| <a href="Section6.html"> Functions 2: Invertible Functions </a>| |
+| | **Section 7**| <a href="Section7.html"> Functions 3: O-Notation </a>| |
+| | **Section 8**| <a href="Section8.html"> Graph Theory</a>| |
 | | **Section 9**| <a href="Section9.html"> Trees, Binary Search Trees</a>||
 | | **Section 10**| <a href="Section10.html">Digraphs and Relation</a> ||
 | | **Section 11**| <a href="Section11.html">Sequences and Series, with Telescoping Series</a> ||
@@ -49,49 +49,8 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 
 *  Finally, **information theory** is concerned with the amount of data that can be stored on a given medium, and hence concepts such as compression and entropy.
 
-```{r child="sourcefiles/Numbers-IntroductionToNumbers.Rmd"}
-```
-
-
-### Part 1. Number Bases
-
-*  Numbers in Base 10
-*  The binary system
-*  Calculating in the binary system
-*  The Hexadecimal system
-*  Converting decimal integers into other bases
-
-
-### Part 2. Rational Numbers
-
-*  Factor, multiples and primes
-*  Representing fractions
-*  Decimal fractions
-*  Fractions in bases other than 10
-
-
-### Part 3. Real Numbers
-
-*  Irrational numbers
-*  Inequality symbols
-*  Floating-point notation
-
-
-* <a href="https://www.youtube.com/watch?v=/9NAmHx3pAxk" >Number Sets: Natural Numbers, Integers, Rational Numbers and Real Numbers.</a>
-* <a href="https://www.youtube.com/watch?v=/lu7uhe903TY" >Irrational Numbers: Exercise involving irrational numbers.</a>
-* <a href="https://www.youtube.com/watch?v=/WnXnVADCXuQ" >Rational and Irrational Numbers</a>
-
-* <a href="https://www.youtube.com/watch?v=/mhHAJOQQ8kM" >Repeating Decimals</a>
-* <a href="https://www.youtube.com/watch?v=/99qV28WmzH4" >Repeating Decimals</a>
-* <a href="https://www.youtube.com/watch?v=/sIowD1XjFJ8" >Repeating Decimals</a>
 
 
 
-
-
-
-
-```{r child="sourcefiles/Graphs-BinarySearchTrees.Rmd"}
-```
 
 

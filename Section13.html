@@ -2616,6 +2616,9 @@ Probability and Counting Problems
 <h2 class="tabset">Column</h2>
 <div id="introduction" class="section level3">
 <h3>Introduction</h3>
+<h4>
+Probability
+</h4>
 <p>Probability theory provides a mathematical model for the study of randomness and uncertainty.</p>
 <p>Many important decisions, whether from business, government, science, recreation or even one’s personal life must be made with incomplete information or some degree of uncertainty. Hence, a formalized study of uncertain or random outcomes occupies an important role in modern society. In situations where one of any number of possible outcomes may occur, the mathematical model of probability theory offers methods for quantifying the likelihoods associated with those outcomes. Probability also provides tools which allow us to move beyond simply describing the information contained within a set of data (descriptive statistics) to actually inferring further information from that data (inferential statistics).</p>
 <p>Many of the early attempts to model likelihood arose from games of chance.</p>
@@ -2636,7 +2639,18 @@ Probability and Counting Problems
 </div>
 <div id="sample-space" class="section level4">
 <h4>Sample Space</h4>
-<p>The sample space, <span class="math inline">\(\Omega\)</span> , is the non-empty set whose elements are all possible outcomes of an experiment. Without an assignment of a sample space and without knowing its size, no conclusions could be made about the probabilities of outcomes, or collections of outcomes. It is common to refer to a sample space by the labels {S}S, <span class="math inline">\(\Omega\)</span> , or {U}U (for “universal set”). An Outcome <span class="math inline">\(\Omega\)</span> may be a state of nature, a possibility, an experimental result and the like. Any instance or execution of a real-world situation modeled by a probability space must produce exactly one outcome. If outcomes of different trials of an experiment differ in any way that matters, they are considered distinct outcomes. Which differences matter depends on the kind of analysis we wish to perform: This leads to different choices of a sample space. A common example consists of a random experiment involving a single coin toss. Here, it seems appropriate to define the sample space as the set {={{},{}}}{={{},{}}}.</p>
+<ul>
+<li>The sample space, <span class="math inline">\({\displaystyle \Omega }\)</span>, is the non-empty set whose elements are all possible outcomes of an experiment.</li>
+<li>Without an assignment of a sample space and without knowing its size, no conclusions could be made about the probabilities of outcomes, or collections of outcomes.</li>
+<li>It is common to refer to a sample space by the labels {S}S, <span class="math inline">\({\displaystyle \Omega }\)</span> , or <span class="math inline">\({\displaystyle U}\)</span> (for “universal set”).</li>
+<li>An Outcome <span class="math inline">\({\displaystyle \Omega }\)</span> may be a state of nature, a possibility, an experimental result and the like.</li>
+<li>Any instance or execution of a real-world situation modeled by a probability space must produce exactly one outcome.</li>
+<li>If outcomes of different trials of an experiment differ in any way that matters, they are considered distinct outcomes.</li>
+<li>Which differences matter depends on the kind of analysis we wish to perform: This leads to different choices of a sample space.</li>
+<li>A common example consists of a random experiment involving a single coin toss.</li>
+<li>Here, it seems appropriate to define the sample space as the set</li>
+</ul>
+<p><span class="math inline">\({\displaystyle \Omega }=\{{\text{H}},{\text{T}}\}}{\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}.\)</span></p>
 </div>
 <div id="events" class="section level4">
 <h4>Events</h4>
@@ -2645,7 +2659,8 @@ Since individual outcomes might be of little practical use, more complex events 
 An event is any subset of zero or more outcomes contained in a given sample space. A simple event consists of exactly one outcome and a compound event consists of more than one outcome. For example, when tossing a single coin <span class="math inline">\({\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}\)</span>, possible events are {{}}{}, {{H}}{{H}}, {{T}}{{T}}, and {{H,T}}{{H,T}}.
 <p>
 <ul>
-<li><p>The collection of all such events is a σ-algebra <span class="math inline">\({\mathcal {F}}\)</span>. Intuitively, the probability of each of these sets is the chance that one of the events in the set will happen; <span class="math inline">\({\displaystyle P(\{{\text{H}}\})}\)</span> is the chance of tossing a head, <span class="math inline">\({\displaystyle P(\{{\text{H}},{\text{T}}\})}\)</span> is the chance of the coin landing either heads or tails, and {P({})}{P({})} is the probability of the coin landing neither heads nor tails, etc. An event is said to have happened or occurred during an experiment when the outcome of the experiment is an element of the event.</p>
+<li><p>The collection of all such events is a σ-algebra <span class="math inline">\({\mathcal {F}}\)</span>. Intuitively, the probability of each of these sets is the chance that one of the events in the set will happen; <span class="math inline">\({\displaystyle P(\{{\text{H}}\})}\)</span> is the chance of tossing a head, <span class="math inline">\({\displaystyle P(\{{\text{H}},{\text{T}}\})}\)</span> is the chance of the coin landing either heads or tails, and {P({})}{P({})} is the probability of the coin landing neither heads nor tails, etc.</p></li>
+<li><p>An event is said to have happened or occurred during an experiment when the outcome of the experiment is an element of the event.</p>
 <p></li>
 <li><p>Since the same outcome may be a member of many events, it is possible for many events to have happened given a single outcome. For example, when the trial consists of throwing two dice, the set of all outcomes with a sum of 7 pips may constitute an event, whereas outcomes with an odd number of pips may constitute another event.</p>
 <p></li>

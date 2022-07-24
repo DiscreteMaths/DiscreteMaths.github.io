@@ -43,10 +43,11 @@ Let p and q be propositions.
 
 Express the following statements in words as simply as you can. 
 
-[(i)] $p \rightarrow q$ \\
-[(ii)] $p \wedge \neg q$.\\
+[(i)] $p \rightarrow q$ 
+[(ii)] $p \wedge \neg q$.
 
-
+------------------------------------
+<p>
 
 #### Question 3 
 
@@ -72,8 +73,8 @@ For each of the following compound statements find the sets of values n for whic
 
 
 
-
-
+----------------------------------------------------
+<p>
 
 #### Question 4
 
@@ -85,7 +86,7 @@ Write the contrapositive of each of the following statements:
 *  If the quadrilateral is square, then four sides are equal.
 
 
-\textbf{Solutions}
+#### Solutions
 
 *  If n is not divisible by 3, then n is not equal to 12.
 *  If n is not positive, then n is not equal to 5.
@@ -95,8 +96,8 @@ Write the contrapositive of each of the following statements:
 Let $n \in \{1,2,3,4,5,6,7, 8 ,9\}$ and let $p,q$ be the following propositions concerning the integer n.
 
 
-\item[p]: $n$ is even
-\item[q]: $n < 5$.
+* $p$: $n$ is even
+* $q$: $n < 5$.
 
 
 Find the values of n for which each of the following compound statements is
@@ -108,7 +109,7 @@ b.  $p \wedge q$
 c. $\neg p \vee q$
 d. $ p \otimes q$.
 
-<hline> 
+---------------------------------
 
 
 
@@ -116,13 +117,13 @@ d. $ p \otimes q$.
 \item 
 Let $n = \{1, 2,3,4, 5,6,7, 8, 9\}$ and let $p$ and  $q$ be the following propositions concerning the integer $n$.
 
-\item p: n is even, 
-\item q: $n\geq 5$.
+* p: n is even, 
+* q: $n\geq 5$.
 
 By drawing up the appropriate truth table ﬁnd the truth set for each of the
 propositions $p \vee \neg q$ and $ \neg q \rightarrow p$
 
-%--------------------------------------------------- %
+---------------------------------
 
 
 
@@ -146,7 +147,7 @@ c. This apple is neither red nor ripe.
 d. If this apple is not red it is not ripe.
 
 
-%--------------------------------------------------- %
+---------------------------------
 
 \item Let p and q be propositions.
 
@@ -155,6 +156,7 @@ b.  Use truth tables to prove that $\neg q \rightarrow \neg p$ = $p \rightarrow 
 
 
 
+---------------------------------
 
 ### Logic Networks
 
@@ -164,7 +166,7 @@ Construct a logic network that accepts as input p and q, which may independently
 gives as final input $\neg(p \wedge \not q)$ (i.e. $\equiv p \rightarrow q$).\\
 
 
-\textbf{Logic Gates}
+#### Logic Gates
 
 *  AND
 *  OR
@@ -174,29 +176,29 @@ gives as final input $\neg(p \wedge \not q)$ (i.e. $\equiv p \rightarrow q$).\\
 
 
 #### Question 2 
+
 Construct a logic network that accepts as input p and q, which may independently have the value 0 or 1, and
 gives as final input $(p \wedge  q) \vee \neg q$ (i.e. $\equiv p \rightarrow q$).
 
 
-
-\textbf{Important} Label each of the gates appropriately and label the diagram with a symblic expression for the output after each gate.
+***Important*** Label each of the gates appropriately and label the diagram with a symblic expression for the output after each gate.
 
 
 #### Question 3
 
 Construct a logic network that accepts as input p and q, which may independently have the value 0 or 1, and
-gives as final input $\neg(p \wedge \not q)$ (i.e. $\equiv p \rightarrow q$).\\
+gives as final input $\neg(p \wedge \not q)$ (i.e. $\equiv p \rightarrow q$).
 
+* Use \textbf{Truth Tables} to prove that the following statements are equivalent to one another.
 
-
-    \item Use \textbf{Truth Tables} to prove that the following statements are equivalent to one another.
 \[(p \vee q) \wedge \neg q \qquad \equiv \qquad  p\wedge \neg q.\]
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 
+
+----------------
+
 Construct a logic network that accepts as input $p$ and $q$, which may independently have the value 0 or 1, and
 gives as final input $(p \wedge  q) \vee \neg q$ (i.e. $\equiv p \rightarrow q$).
 
 
 
-\textbf{Important} Label each of the gates appropriately and label the diagram with a symblic expression for the output after each gate.
+***Important*** Label each of the gates appropriately and label the diagram with a symblic expression for the output after each gate.
 

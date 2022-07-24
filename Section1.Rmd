@@ -1,0 +1,59 @@
+---
+title: "Discrete Mathematics - Section 1"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+
+### Part 1. Number Bases
+
+*  Numbers in Base 10
+*  The binary system
+*  Calculating in the binary system
+*  The Hexadecimal system
+*  Converting decimal integers into other bases
+
+
+### Part 2. Rational Numbers
+
+*  Factor, multiples and primes
+*  Representing fractions
+*  Decimal fractions
+*  Fractions in bases other than 10
+
+
+### Part 3. Real Numbers
+
+*  Irrational numbers
+*  Inequality symbols
+*  Floating-point notation
+
+
+* <a href="https://www.youtube.com/watch?v=/9NAmHx3pAxk" >Number Sets: Natural Numbers, Integers, Rational Numbers and Real Numbers.</a>
+* <a href="https://www.youtube.com/watch?v=/lu7uhe903TY" >Irrational Numbers: Exercise involving irrational numbers.</a>
+* <a href="https://www.youtube.com/watch?v=/WnXnVADCXuQ" >Rational and Irrational Numbers</a>
+
+* <a href="https://www.youtube.com/watch?v=/mhHAJOQQ8kM" >Repeating Decimals</a>
+* <a href="https://www.youtube.com/watch?v=/99qV28WmzH4" >Repeating Decimals</a>
+* <a href="https://www.youtube.com/watch?v=/sIowD1XjFJ8" >Repeating Decimals</a>
+
+
+
+```{r child="sourcefiles/Numbers-IntroductionToNumbers.Rmd"}
+```
+
+
