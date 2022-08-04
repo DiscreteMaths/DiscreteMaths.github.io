@@ -1,5 +1,5 @@
 
-Isomorphic Graphs {data-navmenu="Isomorphic Graphs "}
+Isomorphic Graphs {data-navmenu="Isomorphic Graphs"}
 ====================================
 
 Column{.tabset}

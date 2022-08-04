@@ -1,4 +1,4 @@
-Finite Series {data-navmenu="Section 5"}
+Finite Series {data-navmenu="Series"}
 =====================================
 
 Column {.tabset}
@@ -6,6 +6,9 @@ Column {.tabset}
 
 
 ### Finite Series and Sigma Notation
+
+<h4>Finite Series and Sigma Notation</h4>
+
 Mathematical notation uses a symbol that compactly represents summation of many similar terms: the summation symbol, $\sum$, an enlarged form of the upright capital Greek letter *Sigma*. 
 
 * This is defined as:

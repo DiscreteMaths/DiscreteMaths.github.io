@@ -8,9 +8,9 @@
 
 
 
-<title>Discrete Mathematics - Section 13</title>
+<title>Discrete Mathematics</title>
 
-<meta property="og:title" content="Discrete Mathematics - Section 13" />
+<meta property="og:title" content="Discrete Mathematics" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -790,7 +790,7 @@ html, body {
   
 </span>
 <span class="navbar-brand">
-  Discrete Mathematics - Section 13
+  Discrete Mathematics
   <span class="navbar-author">
         </span>
 </span>
@@ -2601,229 +2601,26 @@ window.FlexDashboardComponents.push({
 <h1 data-navmenu="Introduction">Discrete Mathematics</h1>
 <div id="column" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="probability-and-counting-problems" class="section level3">
-<h3>Probability and Counting Problems</h3>
+<div id="contents" class="section level3">
+<h3>Contents</h3>
 <p><a href="index.html">Back to main page</a></p>
 <h3>
-Probability and Counting Problems
+Group Theory
 </h3>
-<p>A counting problem is the task of finding the number of elements of some set with a particular property. Such counting problems are usually encountered in <strong><em>combinatorics</em></strong>.</p>
-</div>
-</div>
-</div>
-<div id="probability" class="section level1" data-navmenu="Probability">
-<h1 data-navmenu="Probability">Probability</h1>
-<div id="column-1" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="introduction" class="section level3">
-<h3>Introduction</h3>
-<h4>
-Probability
-</h4>
-<p>Probability theory provides a mathematical model for the study of randomness and uncertainty.</p>
-<p>Many important decisions, whether from business, government, science, recreation or even one’s personal life must be made with incomplete information or some degree of uncertainty. Hence, a formalized study of uncertain or random outcomes occupies an important role in modern society. In situations where one of any number of possible outcomes may occur, the mathematical model of probability theory offers methods for quantifying the likelihoods associated with those outcomes. Probability also provides tools which allow us to move beyond simply describing the information contained within a set of data (descriptive statistics) to actually inferring further information from that data (inferential statistics).</p>
-<p>Many of the early attempts to model likelihood arose from games of chance.</p>
-</div>
-<div id="basics-of-probability" class="section level3">
-<h3>Basics of Probability</h3>
-<div id="experiments" class="section level4">
-<h4>Experiments</h4>
-<p>An experiment is any action or process whose outcome is subject to uncertainty or randomness.</p>
-<p>Here the term experiment is used in a wider sense than its usual connotation with controlled laboratory situations. Further clarification on experiments will be given later, but for now the following examples of experiments will suffice:</p>
 <ul>
-<li>observing whether or not a commercial product is defective.</li>
-<li>tossing a coin one or more times or selecting a card from a card deck.</li>
-<li>conducting a survey.</li>
-<li>measuring the wind speed or rainfall in a particular area.</li>
+<li>
+Group theory studies the algebraic structures known as <strong>groups</strong>.
+</li>
+<li>
+The concept of a group is central to abstract algebra: other well-known algebraic structures, such as rings, fields, and vector spaces, can all be seen as groups endowed with additional operations and axioms.
+</li>
+<li>
+Groups recur throughout mathematics, and the methods of group theory have influenced many parts of algebra.
+</li>
+<li>
+Linear algebraic groups and Lie groups are two branches of group theory that have experienced advances and have become subject areas in their own right.
+</li>
 </ul>
-<p>Assuming that an experiment can be repeated under identical conditions, then each repetition of an experiment is called a <strong><em>trial</em></strong>.</p>
-</div>
-<div id="sample-space" class="section level4">
-<h4>Sample Space</h4>
-<ul>
-<li>The sample space, <span class="math inline">\({\displaystyle \Omega }\)</span>, is the non-empty set whose elements are all possible outcomes of an experiment.</li>
-<li>Without an assignment of a sample space and without knowing its size, no conclusions could be made about the probabilities of outcomes, or collections of outcomes.</li>
-<li>It is common to refer to a sample space by the labels <span class="math inline">\({\displaystyle S}\)</span>, <span class="math inline">\({\displaystyle \Omega }\)</span> , or <span class="math inline">\({\displaystyle U}\)</span> (for “universal set”).</li>
-<li>An Outcome <span class="math inline">\({\displaystyle \Omega }\)</span> may be a state of nature, a possibility, an experimental result and the like.</li>
-<li>Any instance or execution of a real-world situation modeled by a probability space must produce exactly one outcome.</li>
-<li>If outcomes of different trials of an experiment differ in any way that matters, they are considered distinct outcomes.</li>
-<li>Which differences matter depends on the kind of analysis we wish to perform: This leads to different choices of a sample space.</li>
-<li>A common example consists of a random experiment involving a single coin toss.</li>
-<li>Here, it seems appropriate to define the sample space as the set</li>
-</ul>
-<p><span class="math inline">\({\displaystyle \Omega }=\{{\text{H}},{\text{T}}\}}{\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}.\)</span></p>
-</div>
-<div id="events" class="section level4">
-<h4>Events</h4>
-Since individual outcomes might be of little practical use, more complex events are used to characterize groups of outcomes.
-<p>
-An event is any subset of zero or more outcomes contained in a given sample space. A simple event consists of exactly one outcome and a compound event consists of more than one outcome. For example, when tossing a single coin <span class="math inline">\({\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}\)</span>, possible events are {{}}{}, {{H}}{{H}}, {{T}}{{T}}, and {{H,T}}{{H,T}}.
-<p>
-<ul>
-<li>The collection of all such events is a σ-algebra <span class="math inline">\({\mathcal {F}}\)</span>. Intuitively, the probability of each of these sets is the chance that one of the events in the set will happen; <span class="math inline">\({\displaystyle P(\{{\text{H}}\})}\)</span> is the chance of tossing a head, <span class="math inline">\({\displaystyle P(\{{\text{H}},{\text{T}}\})}\)</span> is the chance of the coin landing either heads or tails, and {P({})}{P({})} is the probability of the coin landing neither heads nor tails, etc.</li>
-<li>An event is said to have happened or occurred during an experiment when the outcome of the experiment is an element of the event.
-<p></li>
-<li>Since the same outcome may be a member of many events, it is possible for many events to have happened given a single outcome.</li>
-</ul>
-<p>
-For example, when the trial consists of throwing two dice, the set of all outcomes with a sum of 7 pips may constitute an event, whereas outcomes with an odd number of pips may constitute another event.
-<p>
-<ul>
-<li><p>If the outcome is the element of the elementary event of two pips on the first die and five on the second, then both of the events, “7 pips” and “odd number of pips”, are said to have occurred. Modeling events as sets of outcomes in a sample space <span class="math inline">\(\Omega\)</span> allows us to leverage all of the regular set operations:</p>
-<p>
-<p>Given two events <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>:</p></li>
-<li><p>The null subset <span class="math inline">\({\displaystyle \emptyset }\)</span> in a sample space <span class="math inline">\(\Omega\)</span> is called an impossible event.</p></li>
-<li><p>The union of two events <span class="math inline">\({\displaystyle A\cup B}\)</span> consists of all outcomes that are in <span class="math inline">\(A\)</span> or in <span class="math inline">\(B\)</span> or in both,</p></li>
-<li><p>The intersection {AB}AB consists of all outcomes that are both in <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>.</p></li>
-<li><p>The complement <span class="math inline">\({\displaystyle A^{c}}\)</span> of an event <span class="math inline">\(A\)</span> in a sample space <span class="math inline">\(\Omega\)</span> consists of all outcomes not in <span class="math inline">\(A\)</span>, but in <span class="math inline">\(\Omega\)</span> , i.e. <span class="math inline">\({\displaystyle A\cup A^{c}=\Omega }\)</span>.</p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div id="rules-of-probability" class="section level1" data-navmenu="Probability">
-<h1 data-navmenu="Probability">Rules of Probability</h1>
-<div id="column-2" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="rules-of-probability-1" class="section level3">
-<h3>Rules of Probability</h3>
-</div>
-</div>
-</div>
-<div id="counting-problems" class="section level1" data-navmenu="Counting Problems">
-<h1 data-navmenu="Counting Problems">Counting Problems</h1>
-<div id="column-3" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="counting-problems-1" class="section level3">
-<h3>Counting Problems</h3>
-<h5>
-Counting Problems
-</h5>
-<p>In this section we look at counting problems, including combinations and permutations.</p>
-<div id="videos" class="section level4">
-<h4>Videos</h4>
-<ul>
-<li>Counting Problems - <a href="https://www.youtube.com/watch?v=9QVx6yXzfEM">HERE</a></li>
-<li>Binomial Coefficients - <a href="https://youtube.com/watch?v=/S74rTbwKIDY">HERE</a></li>
-<li>Probability and Combinations (The Hypergeometric Distribution) - <a href="https://www.youtube.com/edit?o=U&amp;video_id=BdkSlLgd5dc">HERE</a>(12:49)</li>
-</ul>
-</div>
-</div>
-<div id="binomial-coefficients" class="section level3">
-<h3>Binomial Coefficients</h3>
-<h5>
-Binomial Coefficients
-</h5>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=/O2Xg1BdqQBM"> Binomial Coefficients - Proof of Identities 1</a></li>
-<li><a href="https://www.youtube.com/watch?v=/XXoUYJbESCY"> Binomial Coefficients - Proof of Identities 2</a></li>
-<li><a href="https://www.youtube.com/watch?v=/O8P0te8s-ms"> Binomial Coefficients - Examples</a> /</li>
-<li><a href="https://www.youtube.com/watch?v=/ytvlX_-VrF8"> Binomial Coefficients - Proof of Identities 3</a></li>
-<li><a href="https://www.youtube.com/watch?v=/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a></li>
-</ul>
-</div>
-<div id="combinations" class="section level3">
-<h3>Combinations</h3>
-<h5>
-Combinations
-</h5>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=/oWlmy3W92u4"> Permutations and Combinations</a></li>
-</ul>
-</div>
-<div id="permutations" class="section level3">
-<h3>Permutations</h3>
-<div id="permutation" class="section level4">
-<h4>Permutation</h4>
-<ul>
-<li>Suppose we have a set of <span class="math inline">\(n\)</span> items.</li>
-<li>From that set, we select <span class="math inline">\(k\)</span> items.</li>
-<li>The number of <strong><em>ordered</em></strong> lists of <span class="math inline">\(k\)</span> items chosen from a set of <span class="math inline">\(n\)</span> items is</li>
-</ul>
-<p><span class="math display">\[\frac{n!}{n-k!}\]</span></p>
-<p><span class="math display">\[ {n \choose r} = \frac{n!}{(n-r)! r!} \]</span></p>
-<p><span class="math display">\[ {6 \choose 3} = \frac{6!}{(6-3)! 3!} = \frac{6!}{3! \times 3!}\]</span></p>
-<p><span class="math display">\[ \frac{6!}{3! \times 3!} = \frac{6 \times 5 \times 4 \times 3!}{3! \times 3!} = \frac{120}{6} = 120\]</span> \end{itemize}</p>
-<ul>
-<li><p><span class="math inline">\({6 \choose 2} = 15\)</span></p></li>
-<li><p><span class="math inline">\({5 \choose 2} = 10\)</span><br />
-</p></li>
-<li><p><span class="math inline">\({4 \choose 0} = 1\)</span><br />
-</p></li>
-<li><p><span class="math inline">\({4 \choose 3} = 4\)</span></p></li>
-<li><p>A permutation of a set is, loosely speaking, an arrangement of its members into a sequence or linear order, or if the set is already ordered, a rearrangement of its elements.</p></li>
-<li><p>The word “permutation” also refers to the act or process of changing the linear order of an ordered set.</p>
-<p>
-<h5>
-<p>Videos</p>
-</h5></li>
-<li><p><a href="https://youtube.com/watch?v=/722AHPX0Pss"> Augmented Matrices ( Discrete Mathematics ) </a></p></li>
-<li><p><a href="https://youtube.com/watch?v=/Ud0HSKw_V3g"> Permutations - Ordered Subsets </a></p></li>
-<li><p><a href="https://youtube.com/watch?v=/lHjeyvgC0kI"> Permutations - Worked Example 2 </a></p></li>
-<li><p><a href="https://youtube.com/watch?v=/Oiqj0qsNKM4"> Permutations - Worked Example 1 </a></p></li>
-<li><p><a href="https://youtube.com/watch?v=/ifTP8pGWRsM"> Discrete Mathematics - Anagrams as Permutations </a></p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div id="counting-problems---worksheets" class="section level1" data-navmenu="Exercises">
-<h1 data-navmenu="Exercises">Counting Problems - Worksheets</h1>
-<div id="column-4" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="work-sheet-1" class="section level3">
-<h3>Work Sheet 1</h3>
-<div id="question-1" class="section level4">
-<h4>Question 1</h4>
-<p><span class="math display">\[ {n \choose k} = \frac{n!}{k! \times (n-k)!} \]</span> Evaluate the following:</p>
-<ul>
-<li>[1] <span class="math inline">\({5 \choose 2}\)</span></li>
-<li>[2] <span class="math inline">\({5 \choose 0}\)</span></li>
-<li>[3] <span class="math inline">\({6 \choose 3}\)</span></li>
-<li>[4] <span class="math inline">\({6 \choose 6}\)</span></li>
-<li>[5] <span class="math inline">\({10 \choose 1}\)</span></li>
-<li>[6] <span class="math inline">\({10 \choose 9}\)</span></li>
-</ul>
-</div>
-<div id="question-2" class="section level4">
-<h4>Question 2</h4>
-<p>In how many ways can a group of four people be selected from three men and four women? In how many of these groups are there more women than men?</p>
-</div>
-<div id="question-3" class="section level4">
-<h4>Question 3</h4>
-<p>In how many ways can a group of five be selected from ten people How many groups can be selected if two particular people from the ten can not be selected in the same group?\</p>
-</div>
-<div id="question-4" class="section level4">
-<h4>Question 4</h4>
-<p>The Venn Diagram shows the number of elements in each subset of set <span class="math inline">\(S\)</span>. If <span class="math inline">\(P(A) = 3/10\)</span> and <span class="math inline">\(P(B) = 1/2\)</span>, find the values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span></p>
-</div>
-<div id="question-5" class="section level4">
-<h4>Question 5</h4>
-<ul>
-<li>How many different four digit numners greater than 5000 can be formed from the digits <strong><em>2,4,5,8,9</em></strong> if each digit can only be used once in any given number.</li>
-<li>How many of these numbers are odd?</li>
-</ul>
-</div>
-<div id="question-6" class="section level4">
-<h4>Question 6</h4>
-<p>The code to open a combination lock is an ordered sequence of four digits chosen from the set <span class="math inline">\(\{1, 2, 3, 4, 5, 6, 7\}\)</span>. How many different codes are possible</p>
-<ol style="list-style-type: lower-alpha">
-<li>if repetition is allowed?</li>
-<li>if repetition is not allowed?</li>
-</ol>
-</div>
-<div id="question-7" class="section level4">
-<h4>Question 7</h4>
-<p>Twelve balls numbered <span class="math inline">\(\{1,2,3, \ldots ,12\}\)</span> are placed in a container and three balls are drawn at random without replacement. How many different selections of three balls are possible, if the order of selection is not important?</p>
-</div>
-<div id="question-8" class="section level4">
-<h4>Question 8</h4>
-<ul>
-<li>In the experiment described in part (b), let <span class="math inline">\(A\)</span> be the event that the number on each ball drawn is at most 5.</li>
-<li>Let <span class="math inline">\(B\)</span> be the event that the number on each ball drawn is odd.</li>
-<li>Calculate the probability of each of the events <span class="math inline">\(A\)</span> , <span class="math inline">\(B\)</span>, <span class="math inline">\(A \cup B\)</span> and <span class="math inline">\(A \cap B\)</span>.</li>
-</ul>
-</div>
 </div>
 </div>
 </div>

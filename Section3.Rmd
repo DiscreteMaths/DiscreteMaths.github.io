@@ -70,9 +70,9 @@ Similarly,
 
 * A = {2i: i is an integer} is a set of all even integers.
 
-* A = {x   R: x ? 2} is a set of all real numbers except 2.
+* $A = {x   R: x ? 2}$ is a set of all real numbers except 2.
 
-* A = {x   R: x > 3 and x < 7} is a set of real numbers greater than 3 but less than 7.
+* $A = \{x   R: x > 3 and x < 7\}$ is a set of real numbers greater than 3 but less than 7.
 
 * A = {x   Z: x > 6} is a set of integers greater than 6.
 
@@ -96,7 +96,7 @@ Similarly,
 
 
 #### Proper Subsets
-Given two sets $A$ and $B$, the set $A$ is a \textbf{proper subset} of set $B$ if every element of $A$ is also an element of $B$, but there are elements of set $B$ that are not in set $A$.
+Given two sets $A$ and $B$, the set $A$ is a ***proper subset*** of set $B$ if every element of $A$ is also an element of $B$, but there are elements of set $B$ that are not in set $A$.
 
 
 We write this mathematically as

@@ -1,4 +1,4 @@
-Counting Problems - Worksheets {data-navmenu="Section 6"}
+Counting Problems - Worksheets {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
@@ -22,6 +22,7 @@ Evaluate the following:
 * [6] ${10 \choose 9}$
 
 #### Question 2
+
 
 In how many ways can a group of four people be selected from three men and four women?
 In how many of these groups are there more women than men?

@@ -25,6 +25,8 @@ Column {.tabset}
 
 <h3>Digraphs and Relations</h3>
 
+A directed graph, also called a digraph, is a graph in which the edges have a direction. 
+This is usually indicated with an arrow on the edge; more formally, if $v$ and $w$ are vertices, an edge is an unordered pair ${v,w}$, while a directed edge, called an arc, is an ordered pair (v,w) or (w,v).
 
 ```{r child="sourcefiles/RelationsDigraphs-Introduction.Rmd"}
 ```

@@ -1,5 +1,5 @@
 
-Graph Theory - Worksheets {data-navmenu="Section 4"}
+Graph Theory - Worksheets {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
@@ -28,6 +28,7 @@ d. Explain why it is not possible to construct a 3-regular graph with 9 vertices
 
 
 
+---------------------------------------------------------------------------
 
 #### Question 2
 
@@ -45,7 +46,8 @@ Draw the graph \textbf{G}, which has the vertices $v_1$,$v_2$,$v_3$,$\ldots$,$v_
  [$v_6$]: $v_5$,$v_7$
  [$v_7$]: $v_5$,$v_6$
 
-<hline> 
+
+---------------------------------------------------------------------------
 
 #### Question 3
 
@@ -59,8 +61,7 @@ from this to each of the original vertices in $C_n$.
 Draw $K_4$, $C_4$, and $W_4$. 
 
 
-
-<hline> 
+---------------------------------------------------------------------------
 
 #### Question 4
 

@@ -1,4 +1,4 @@
-Progressions {data-navmenu="Section 5"}
+Progressions {data-navmenu="Series"}
 ==================================
 
 Column {.tabset}
@@ -40,8 +40,7 @@ In other words, series is an important topic even if you won’t ever see any of
 
 
 Here is a list of topics in this section
- 
-\begin{description}
+
 * [Sequences ] We will start the chapter off with a brief discussion of sequences.  This section will focus on the basic terminology and convergence of sequences
  
 * [More on Sequences]  Here we will take a quick look about monotonic and bounded sequences.
@@ -116,15 +115,16 @@ The sum of the members of a finite arithmetic progression is called an arithmeti
 This sum can be found quickly by taking the number n of terms being added (here 5), multiplying by the sum of the first and last number in the progression (here 2 + 14 = 16), and dividing by 2:
 \[{\frac  {n(a_{1}+a_{n})}{2}}\]
 
-
-\medskip
+<p>
 In the case above, this gives:
 \[2+5+8+11+14={\frac  {5(2+14)}{2}}={\frac  {5\times 16}{2}}=40.\]
 This formula works for any real numbers $a_{1}$ and $a_{n}$. For example:
 \[\left(-{\frac  {3}{2}}\right)+\left(-{\frac  {1}{2}}\right)+{\frac  {1}{2}}={\frac  {3\left(-{\frac  {3}{2}}+{\frac  {1}{2}}\right)}{2}}=-{\frac  {3}{2}}.\]
 
 
+
 ### Geometric Progression
+#### Geometric Progression
 A geometric progression, also known as a geometric sequence, is a sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the ***common ratio***. 
 
 * For example, the sequence $2, 6, 18, 54, \ldots$ is a geometric progression with common ratio 3. 
@@ -187,7 +187,7 @@ otherwise it is called a ***finite sequence***.
 
 
 ### Fibonnacci Sequences
-
+#### Fibonnacci Numbers
 
 
 \[ u_n = u_{n-1} + u_{n-2} \qquad \mbox{ for } n \geq 3 ,\; u_1=0,\;u_2=1 \]
@@ -197,7 +197,7 @@ The first few terms of the Fibonnaci Sequence looks like this:
 \[ 1, 1, 2, 3, 5, 8, \ldots\]
 
 
-#### Fibonnacci Numbers
+#### Formulation of Fibonnacci Numbers
 
 \[ F_{n} = F_{n-1} + F_{n-2} \mbox{ For }\]
 
@@ -212,13 +212,13 @@ The first few terms of the Fibonnaci Sequence looks like this:
 
 ### Series
 
-
+#### Series ###
 
 
 *  A series is the sum of the terms of a sequence. 
 \[ S_n = u_1 + u_2 + u_3+ \ldots +u_n\]
 *  A series is usuall expressed in terms of ***sigma notation***.
-*  It is useful to remember the following, particularl in the context of proof by induction.
+*  It is useful to remember the following, particularly in the context of proof by induction.
 \[S_1 = u_1\]
 \[S_{n+1} = S_n + u_{n+1}\]
 
@@ -246,7 +246,7 @@ Note that
 *  Every sequence $a_n$ has a corresponding series $s_n$.
 *  Every series $s_n$ has a corresponding sequence $a_n=s_n-s_{n-1}$.
 
-*  \textbf{Example}
+#### Example
 Let $a_n=n^2$, So that the terms in the sequence are $0,1,4,9,16,25,\ldots$
 
 \[\begin{align*}
@@ -256,3 +256,4 @@ Let $a_n=n^2$, So that the terms in the sequence are $0,1,4,9,16,25,\ldots$
   s_3&=0+1+4+9=14,\quad \text{etc}
 \end{align*}\]
 
+<p>

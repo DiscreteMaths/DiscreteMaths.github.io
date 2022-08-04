@@ -1,5 +1,5 @@
 
-Systems of Linear Equations {data-navmenu="Section 6"}
+Systems of Linear Equations {data-navmenu="Linear Equations"}
 ==================================
 
 Column {.tabset}

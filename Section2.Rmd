@@ -18,24 +18,19 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
-### Binary Numbers
+### Binary Numbers and Hexadecimal Numbers
+
+<a href="index.html">Back to main page</a>
 
 <h4> Binary Numbers</h4>
 
 A binary number is a number expressed in the base-2 numeral system or binary numeral system, a method of mathematical expression which uses only two symbols: typically "0" (zero) and "1" (one).
 
 
-### Functions 
 
 
-<a href="index.html">Back to main page</a>
 
-
-* Introduction to Functions
-* Mathematical Functions and Special Functions
-
-
-<h3>Section 4</h3>
+<h3>Hexadecimal Numbers</h3>
 
 ```{r child="Section_02/Numbers-BinaryNumbers.Rmd"}
 ```
@@ -43,11 +38,13 @@ A binary number is a number expressed in the base-2 numeral system or binary num
 ```{r child="Section_02/Numbers-Hexadecimal.Rmd"}
 ```
 
-```{r child="Section_02/Numbers-ConversionTable.Rmd"}
-```
 
 ```{r child="Section_02/Numbers-Otherbases.Rmd"}
 ```
+
+```{r child="Section_02/Numbers-ConversionTable.Rmd"}
+```
+
 
 ```{r child="TutorialSheets/Numbers-Tutorial-1.Rmd"}
 ```

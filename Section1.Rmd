@@ -18,6 +18,64 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
+### Real Numbers
+
+<a href="index.html">Back to main page</a>
+
+
+<h4> Real Numbers</h4>
+
+<! -- https://www.cuemath.com/numbers/real-numbers/ -->
+
+#### Real Numbers
+Any number that can be found in the real world is a real number. We find numbers everywhere around us. Natural numbers are used for counting objects, rational numbers are used for representing fractions, irrational numbers are used for calculating the square root of a number, integers for measuring temperature, and so on. 
+
+<p>
+These different types of numbers make a collection of real numbers. In this lesson, we will learn all about real numbers and their important properties.
+
+#### What are Real Numbers?
+Any number that we can think of, except complex numbers, is a real number. The set of real numbers, which is denoted by R, is the union of the set of rational numbers (Q) and the set of irrational numbers ( 
+¯¯¯¯
+Q
+). So, we can write the set of real numbers as, R = Q ∪ 
+¯¯¯¯
+Q
+. This indicates that real numbers include natural numbers, whole numbers, integers, rational numbers, and irrational numbers. 
+
+For example, 3, 0, 1.5, 3/2, √5, and so on are real numbers.
+
+
+Types of Real Numbers
+We know that real numbers include rational numbers and irrational numbers. Thus, there does not exist any real number that is neither rational nor irrational. It simply means that if we pick up any number from R, it is either rational or irrational.
+
+Rational Numbers
+
+Any number which can be defined in the form of a fraction p/q is called a rational number. The numerator in the fraction is represented as 'p' and the denominator as 'q', where 'q' is not equal to zero. A rational number can be a natural number, a whole number, a decimal, or an integer. For example, 1/2, -2/3, 0.5, 0.333 are rational numbers.
+
+#### Irrational Numbers
+
+Irrational numbers are the set of real numbers that cannot be expressed in the form of a fraction p/q where 'p' and 'q' are integers and the denominator 'q' is not equal to zero (q≠0.). For example, π (pi) is an irrational number. π = 3.14159265...In this case, the decimal value never ends at any point. Therefore, numbers like √2, -√7, and so on are irrational numbers.
+
+#### Symbol of Real Numbers
+Real numbers are represented by the symbol R. Here is a list of the symbols of the other types of numbers.
+
+N - Natural numbers
+W - Whole numbers
+Z - Integers
+Q - Rational numbers
+¯¯¯¯
+Q
+ - Irrational numbers
+
+#### Subsets of Real Numbers
+All numbers except complex numbers are real numbers. Therefore, real numbers have the following five subsets:
+
+* Natural numbers: All positive counting numbers make the set of natural numbers, $N = {1, 2, 3, ...}$
+* Whole numbers: The set of natural numbers along with 0 represents the set of whole numbers. W = {0, 1, 2, 3, ..}
+* Integers: All positive counting numbers, negative numbers, and zero make up the set of integers. Z = {..., -3, -2, -1, 0, 1, 2, 3, ...}
+* Rational numbers: Numbers that can be written in the form of a fraction p/q, where 'p' and 'q' are integers and 'q' is not equal to zero are rational numbers. Q = {-3, 0, -6, 5/6, 3.23}
+* Irrational numbers: The numbers that are square roots of positive rational numbers, cube roots of rational numbers, etc., such as √2, come under the set of irrational numbers. ( 
+¯
 
 ### Part 1. Number Bases
 
@@ -34,6 +92,16 @@ Column {.tabset}
 *  Representing fractions
 *  Decimal fractions
 *  Fractions in bases other than 10
+
+
+#### Repeating Decimals
+
+
+A repeating decimal, also called a recurring decimal, is a number whose decimal representation eventually becomes periodic (i.e., the same sequence of digits repeats indefinitely). The repeating portion of a decimal expansion is conventionally denoted with a ***vinculum*** so, for example,
+
+$$ 
+1⁄7 = 0.\overline{142857} = 0.1428571428571428571...$$
+The minimum number of digits that repeats in such a number is known as the decimal period.
 
 
 ### Part 3. Real Numbers

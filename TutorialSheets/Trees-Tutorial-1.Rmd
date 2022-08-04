@@ -1,5 +1,5 @@
 
-Trees - Worksheets {data-navmenu="Section 4"}
+Trees - Worksheets {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}

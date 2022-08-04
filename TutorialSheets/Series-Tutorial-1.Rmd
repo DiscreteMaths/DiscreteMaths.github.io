@@ -1,5 +1,5 @@
 
-Exercises: Series and Summations {data-navmenu="Section 5"}
+Exercises: Series and Summations {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
@@ -17,11 +17,11 @@ Column {.tabset}
 
 Let $s_n = 1 + 3 + 5 + \ldots + (2n-1)$ for $n \in Z^{+}$.\\
 
-\item[1.] Express $s_n$ using $\sigma$ notation.
+[1.] Express $s_n$ using $\sigma$ notation.
 
-\item[2.] Calculate $s_1$ , $s_2$ and $s_3$.
+[2.] Calculate $s_1$ , $s_2$ and $s_3$.
 
-\item[3.] Find a recurrence relation which expresses $s_{n+1}$ in terms of $s_n$.
+[3.] Find a recurrence relation which expresses $s_{n+1}$ in terms of $s_n$.
 
 
 
@@ -57,9 +57,9 @@ Calculate $s_1$, $s_2$ and $s_3$.
 \[  \sum^{k=n}_{k=1} (2k-1) \]
 
 
-\item[$s_1$]
-\item[$s_2$]
-\item[$s_3$]
+[$s_1$]
+[$s_2$]
+[$s_3$]
 
 
 

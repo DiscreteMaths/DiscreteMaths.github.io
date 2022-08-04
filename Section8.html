@@ -2610,8 +2610,8 @@ Graph Theory
 </div>
 </div>
 </div>
-<div id="graph-theory-1" class="section level1" data-navmenu="Section 4">
-<h1 data-navmenu="Section 4">Graph Theory</h1>
+<div id="graph-theory-1" class="section level1" data-navmenu="Graph Theory">
+<h1 data-navmenu="Graph Theory">Graph Theory</h1>
 <div id="column-1" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="graph-theory-2" class="section level3">
@@ -2699,7 +2699,13 @@ Graph theory has proven useful in the design of integrated circuits ( IC s) for 
 <p>The average degree of a graph G is another measure of how many edges are in set E compared to number of vertices in set V. Because each edge is incident to two vertices and counts in the degree of both vertices, the average degree of an undirected graph is 2*|E|/|V|.</p>
 </div>
 </div>
-<div id="types-of-graphs" class="section level3">
+</div>
+</div>
+<div id="types-of-graphs" class="section level1" data-navmenu="Graph Theory">
+<h1 data-navmenu="Graph Theory">Types of Graphs</h1>
+<div id="column-2" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="types-of-graphs-1" class="section level3">
 <h3>Types of Graphs</h3>
 <h5>
 Directed Graphs
@@ -2772,9 +2778,9 @@ Euler’s Formula
 </div>
 </div>
 </div>
-<div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Graphy Theory">
-<h1 data-navmenu="Graphy Theory">Paths and Cycles in Graphs</h1>
-<div id="column-2" class="section level2 tabset">
+<div id="paths-and-cycles-in-graphs" class="section level1" data-navmenu="Graph Theory">
+<h1 data-navmenu="Graph Theory">Paths and Cycles in Graphs</h1>
+<div id="column-3" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="paths-and-cycles-in-graphs-1" class="section level3">
 <h3>Paths and Cycles in Graphs</h3>
@@ -2789,14 +2795,21 @@ Euler’s Formula
 </div>
 <div id="connectivity" class="section level1" data-navmenu="Graphs">
 <h1 data-navmenu="Graphs">Connectivity</h1>
-<div id="column-3" class="section level2 tabset">
+<div id="column-4" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="graph-connectivity" class="section level3">
 <h3>Graph Connectivity</h3>
 <h4>
 Connectivity
 </h4>
-<p>Whether or not it is possible to traverse a graph from one vertex to another is dependent on how connected a graph is. Definition of Connectedness[edit] If there is a u-v path in G, then we say that u and v are connected If there is a u-v path for every pair of vertices u and v in G, then we say that G is connected</p>
+<p>Whether or not it is possible to traverse a graph from one vertex to another is dependent on how connected a graph is.</p>
+<div id="definition-of-connectedness" class="section level4">
+<h4>Definition of Connectedness</h4>
+<ul>
+<li>If there is a u-v path in G, then we say that u and v are connected</li>
+<li>If there is a u-v path for every pair of vertices u and v in G, then we say that <span class="math inline">\(G\)</span> is connected</li>
+</ul>
+</div>
 <div id="theorems-on-connectedness" class="section level4">
 <h4>Theorems on Connectedness</h4>
 <p>Theorem: Let G be a graph of order at least 3. If there are distinct vertices u and v in G so that G-u and G-v are both connected, then G is also connected. Proof: Let w be a G vertex, which is different from both u and v. We want to prove connectedness, i.e., that for every pair (x,y) of vertices in G, there is an x-y walk in G. We may consider three (partly overlapping) cases:</p>
@@ -2808,23 +2821,32 @@ Connectivity
 </div>
 <div id="vertex-and-edge-connectivity" class="section level4">
 <h4>Vertex and Edge Connectivity</h4>
-<p>A graph G is called k-connected if for every S ⊆ V ( G ) {SV(G)} , and | S | &lt; k {|S|&lt;k} , G − S {G-S} is connected, and | G | &gt; k {|G|&gt;k} . Similarly, a graph G is called ℓ {} edge-connected if for every S ⊆ E ( G ) {SE(G)} , and | S | &lt; ℓ {|S|&lt;} , G − S {G-S} is connected, and | G | &gt; 1 {|G|&gt;1} . The connectivity of G is the greatest k such that G is k-connected, and is denoted by κ ( G ) {(G)} . Relatedly, the edge-connectivity of G is the greatest ℓ {} such that G is ℓ {} edge-connected, and is denoted by λ ( G ) {(G)} .</p>
+<p>A graph G is called k-connected if for every <span class="math inline">\({\displaystyle S\subseteq V(G)}\)</span>, and ${|S|&lt;k} $, <span class="math inline">\({\displaystyle G-S}\)</span> is connected, and <span class="math inline">\({\displaystyle |G|&gt;k}\)</span>.</p>
+<p>Similarly, a graph G is called $ℓ {} $ edge-connected if for every <span class="math inline">\({\displaystyle S\subseteq E(G)}\)</span> , and $ {|S|&lt;} $ , G − S {G-S} is connected, and ${|G|&gt;1} $ . The connectivity of G is the greatest k such that G is k-connected, and is denoted by ${(G)} $ . Relatedly, the edge-connectivity of G is the greatest ℓ {} such that G is ℓ {} edge-connected, and is denoted by <span class="math inline">\({\displaystyle \lambda (G)}\)</span>.</p>
 </div>
 <div id="theorems-on-connectivityedit" class="section level4">
 <h4>Theorems on Connectivity[edit]</h4>
-<p>Theorem: Let G be a k-connected graph. Then, ∀ i ∈ N , 0 ≤ i ≤ k {i ,0ik} , G is i-connected. Proof: Since G is k-connected, for all S ⊆ V ( G ) , | S | &lt; k {SV(G),|S|&lt;k} , G − S {G-S} is connected. Then, since i ≤ k {ik} , for all S ⊆ V ( G ) , | S | &lt; i ≤ k {SV(G),|S|&lt;ik} , G − S {G-S} is also connected.</p>
-<p>Theorem: Let G be a nontrivial graph. Then, λ ( G ) ≤ δ ( G ) {(G)(G)} . Proof: Take v a vertex of degree δ ( G ) {(G)} in G. Then, removing all edges in G that are incident with v disconnects v from the rest of the graph, provided that | G | &gt; δ ( G ) + 1 {|G|&gt;(G)+1} . Therefore, G cannot be δ ( G ) {(G)} edge-connected, and so λ ( G ) ≤ δ ( G ) {(G)(G)} .</p>
+<p>Theorem: Let G be a k-connected graph. Then, ∀ i ∈ N , 0 ≤ i ≤ k {i ,0ik} , G is i-connected. Proof: Since G is k-connected, for all <span class="math inline">\({\displaystyle S\subseteq V(G),|S|&lt;k}\)</span>, <span class="math inline">\({\displaystyle G-S}\)</span> is connected. Then, since <span class="math inline">\({\displaystyle i\leq k}\)</span> , for all ${SV(G),|S|&lt;ik} $ , G − S {G-S} is also connected.</p>
+<p>Theorem: Let G be a nontrivial graph. Then, <span class="math inline">\({\displaystyle \lambda (G)\leq \delta (G)}\)</span>.</p>
+</div>
+<div id="proof" class="section level4">
+<h4>Proof:</h4>
+<ul>
+<li>Take v a vertex of degree <span class="math inline">\({\displaystyle \delta (G)}\)</span> in <span class="math inline">\(G\)</span>.</li>
+<li>Then, removing all edges in G that are incident with v disconnects v from the rest of the graph, provided that <span class="math inline">\({\displaystyle |G|&gt;\delta (G)+1}\)</span>.</li>
+<li>Therefore, G cannot be <span class="math inline">\({\displaystyle \delta (G)}\)</span> edge-connected, and so <span class="math inline">\({\displaystyle \lambda (G)\leq \delta (G)}\)</span>.</li>
+</ul>
 </div>
 <div id="exercise-connectivity" class="section level4">
 <h4>Exercise: Connectivity</h4>
-<p>If G is ℓ {} edge-connected, show that G is also i edge-connected ∀ i ∈ N , 0 ≤ i ≤ ℓ {i ,0i} .</p>
+<p>If G is $ {} $ edge-connected, show that G is also i edge-connected <span class="math inline">\({\displaystyle \forall i\in \mathbb {N} ,0\leq i\leq \ell }\)</span> .</p>
 </div>
 </div>
 </div>
 </div>
-<div id="isomorphic-graphs" class="section level1" data-navmenu="Isomorphic Graphs ">
-<h1 data-navmenu="Isomorphic Graphs ">Isomorphic Graphs</h1>
-<div id="column-4" class="section level2 tabset">
+<div id="isomorphic-graphs" class="section level1" data-navmenu="Isomorphic Graphs">
+<h1 data-navmenu="Isomorphic Graphs">Isomorphic Graphs</h1>
+<div id="column-5" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="isomorphic-graphs-1" class="section level3">
 <h3>Isomorphic Graphs</h3>
@@ -2860,9 +2882,9 @@ Isomorphic Graphs: Videos
 </div>
 </div>
 </div>
-<div id="graph-theory---worksheets" class="section level1" data-navmenu="Section 4">
-<h1 data-navmenu="Section 4">Graph Theory - Worksheets</h1>
-<div id="column-5" class="section level2 tabset">
+<div id="graph-theory---worksheets" class="section level1" data-navmenu="Exercises">
+<h1 data-navmenu="Exercises">Graph Theory - Worksheets</h1>
+<div id="column-6" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -2879,11 +2901,12 @@ Isomorphic Graphs: Videos
 <li><p>Use the result in part (c) to find the number of edges of a 3-regular graph with 10 vertices</p></li>
 <li><p>Explain why it is not possible to construct a 3-regular graph with 9 vertices.</p></li>
 </ol>
+<hr />
 </div>
 <div id="question-2" class="section level4">
 <h4>Question 2</h4>
 <p>Draw the graph , which has the vertices <span class="math inline">\(v_1\)</span>,<span class="math inline">\(v_2\)</span>,<span class="math inline">\(v_3\)</span>,<span class="math inline">\(\ldots\)</span>,<span class="math inline">\(v_7\)</span>, and the adjacency list:</p>
-<p><hline></p>
+<hr />
 </div>
 <div id="question-3" class="section level4">
 <h4>Question 3</h4>
@@ -2894,7 +2917,7 @@ Isomorphic Graphs: Videos
 <li><span class="math inline">\(W_n\)</span> is the graph obtained from <span class="math inline">\(C_n\)</span> by adding an extra vertex,<span class="math inline">\(v_{n+1}\)</span>, and edges from this to each of the original vertices in <span class="math inline">\(C_n\)</span>.</li>
 </ul>
 <p>Draw <span class="math inline">\(K_4\)</span>, <span class="math inline">\(C_4\)</span>, and <span class="math inline">\(W_4\)</span>.</p>
-<p><hline></p>
+<hr />
 </div>
 <div id="question-4" class="section level4">
 <h4>Question 4</h4>

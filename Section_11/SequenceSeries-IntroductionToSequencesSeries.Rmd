@@ -1,4 +1,4 @@
-Sequences and Series {data-navmenu="Section 5"}
+Sequences and Series {data-navmenu="Sequences and Series"}
 =====================================
 
 Column {.tabset}
@@ -70,7 +70,7 @@ Column {.tabset}
 
 *  Sequences – <a href="http://youtu.be/dZpq0JV_5vI" >HERE</a>
 *  Sequences Value Determination – <a href="http://youtu.be/Q8AeZu2g6nk" >HERE</a> (2:24 Minutes)
-*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" >HERE </a> (7:00)
+*  Arithmetic Progressions - <a href="https://www.youtube.com/watch?v=wGzpAfUTJTw" >Here </a> (7:00)
 
 
 
@@ -80,8 +80,8 @@ Column {.tabset}
 
 *  Sigma Notation - <a href="https://youtu.be/D8zZ7nr80r8" >Here</a> [6:49]
 *  Finite Series – <a title="Sequences and Series : Finite Series " href="http://youtu.be/lwjpA522bnY" >HERE</a> (4:40 Minutes)
-*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> ( 3:12 Minutes)
-*  Geometric Series - <a href="https://www.youtube.com/watch?v=sAm0PHazpvQ" >HERE</a>  - [14:41]
+*  Evaluating the Sum of a Series – <a href="http://youtu.be/NhUBAYcfY_A" >HERE</a> (3:12 Minutes)
+*  Geometric Series - <a href="https://www.youtube.com/watch?v=sAm0PHazpvQ" >HERE</a>  - (14:41 Minutes)
 *  <a href="https://www.youtube.com/watch?v=XVyyGuMtyPo">Geometric Summation Exercise</a>
 
 

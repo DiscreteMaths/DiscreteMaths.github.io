@@ -1,3 +1,29 @@
+---
+title: "Discrete Mathematics"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: united
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+Discrete Mathematics {data-navmenu="Introduction"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Contents
+
+<a href="index.html">Back to main page</a>
+
+<h3>Group Theory</h3>
+
 <ul>
 	<li>Group theory studies the algebraic structures known as <strong>groups</strong>.</li>
 	<li>The concept of a group is central to abstract algebra: other well-known algebraic structures, such as rings, fields, and vector spaces, can all be seen as groups endowed with additional operations and axioms.</li>

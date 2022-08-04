@@ -1,6 +1,6 @@
 
 
-Sigma Notation {data-navmenu="Section 5"}
+Sigma Notation {data-navmenu="Series"}
 ==================================
 
 Column {.tabset}
@@ -44,8 +44,6 @@ $\qquad \qquad s_n=\displaystyle \sum_{k=0}^n a_k$
 
 
 or $\ s_n=\displaystyle \sum_{k=1}^n a_k\quad $ if $a_0$ is not defined.
-\end{multicols}
-\pagebreak
 
 * \textbf{Example:} Sum of first $n$ integers
 $$
@@ -80,8 +78,7 @@ Instead of having to perform the summation for each $s_n$, a formula for the sum
   $$
     2s_n = (n+1)n, \qquad \Rightarrow s_n=\frac{n(n+1)}{2}, \qquad \text{and so } \sum_{k=0}^n k=\frac{n(n+1)}{2}
   $$
-\end{proof}
-\end{thm*}
+
 
 * \textbf{Other Series Theorems}
 If $a_n$ and $b_n$ are sequences, and $c$ is a constant then,
@@ -107,21 +104,20 @@ $s_n$ & $10$ & $23$ & $39$ & $58$ & $80$ & $105$ & $133$ & $164$
 \end{array}
 \]
 Instead of having to sum up every term in an arithmetic series, a formula for the $n^{th}$ term in the series can be derived.
-\begin{thm*}
+
   For an arithmetic series
   $$
     s_n = (n+1)\left(a_0 + \frac{n}{2} d\right)
   $$
-\begin{proof}
+
 This can be proved by using the theorems on the previous page, in particular using the formula for the sum of the first $n$ integers.
-  \begin{align*}
+\[
+\begin{align*}
     s_n=\sum_{k=0}^n a_k = \sum_{k=0}^n a_0+kd &= \sum_{k=0}^n a_0+\sum_{k=0}^n kd
     &= (n+1)a_0+d\sum_{k=0}^n k
     &= (n+1)a_0+d\frac{n(n+1)}{2}= \frac{(n+1)}{2} \left( 2a_0+nd\right)
   \end{align*}
-\end{proof}
-\end{thm*}
-
+\]
 * \textbf{Example:} For $a_n=10+3n$, the formula gives
 $$
   s_7=(7+1) \left( 10+\dfrac{7}{2} \cdot 3 \right) = 8 \left(  \dfrac{41}{2} \right) = 164
@@ -133,7 +129,7 @@ Which matches what was calculated for $s_7$ in the table above. Using the formul
 \end{align*}
 
 
-Properties of Sequences {data-navmenu="Section 5"}
+Properties of Sequences {data-navmenu="Sequences"}
 ==================================
 
 Column {.tabset}
@@ -150,7 +146,8 @@ A sequence is \emph{strictly negative} if $a_n < 0$ for all $n$.
 
 #### Equivalence
 Two sequences $a_n$ and $b_n$ are \emph{equivalent} if $a_n = b_n$ for all $n$.
-\textbf{Increasing/Decreasing}
+
+#### Increasing/Decreasing
 A sequence is \emph{increasing} if $a_{n+1} > a_n$ for all $n$
 A sequence is \emph{decreasing} if $a_{n+1} < a_n$ for all $n$
 
@@ -167,9 +164,10 @@ as $n+1 >n$. Therefore the sequence $a_n=n$ is increasing.
 ####  Example:
 
 To test whether the sequence $a_n=\frac{n+2}{n+1}$ is increasing or decreasing.
-
+\[
 \begin{align*}
   &a_n=\frac{n+2}{n+1},\quad a_{n+1}=\frac{n+3}{n+2},
   &\Rightarrow \frac{a_{n+1}}{a_n}=\frac{\frac{n+3}{n+2}}{\frac{n+2}{n+1}}= \frac{n+3}{n+2}\cdot \frac{n+1}{n+2} = \frac{n^2+4n+3}{n^2+4n+4} = \frac{n^2+4n+3}{\left(n^2+4n+3\right)+1}=\frac{x}{x+1}<1 
 \end{align*}
+\]
 where $x=n^2+4n+2$. Therefore $\frac{a_{n+1}}{a_n}<1$ and so the sequence is decreasing.

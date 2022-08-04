@@ -1,10 +1,12 @@
-Binary Search Trees {data-navmenu="Section 4"}
+Binary Search Trees {data-navmenu="Binary Search Trees"}
 =====================================
 
 Column {.tabset}
 -------------------------------------------------
 
 ### Binary Search Trees
+
+<h4>Binary Search Trees</h4>
 
 A binary search tree (BST), sometimes also called an ordered or sorted binary tree, is a node-based binary tree data structure which has the following properties:
 
@@ -18,7 +20,7 @@ A binary search tree (BST), sometimes also called an ordered or sorted binary tr
 
 
 ### Tutorial Questions
-
+<h4> Tutorial Questions</h4>
 * <a href="https://youtu.be/cLCXxY7-HwQ">Binary Search Trees - Worked Example 1	</a>
 * <a href="https://youtu.be/wlgoyD9G4Pg">Binary Search Trees - Worked Example 2	</a>
 * <a href="https://youtu.be/JXJeRQ5XGdA">Binary Search Trees - Worked Example 3 </a>		

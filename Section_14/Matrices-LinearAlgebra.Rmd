@@ -1,4 +1,4 @@
-Linear Algebra {data-navmenu="Section 6"}
+Linear Algebra {data-navmenu="Matrices"}
 =====================================
 
 Column {.tabset}

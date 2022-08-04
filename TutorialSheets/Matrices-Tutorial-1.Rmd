@@ -1,5 +1,5 @@
 
-Matrices - Worksheets {data-navmenu="Section 6"}
+Matrices - Worksheets {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
@@ -10,7 +10,7 @@ Column {.tabset}
 ### Work Sheet 1
 
 #### Question 1
-Consider the following matrices $A} and $B} which are given as
+Consider the following matrices $A$ and $B$ which are given as
 
 
 \[ A = \left(
@@ -41,7 +41,7 @@ b. Find matrices $C$, $D$ and $E$ such that
 
   iii.    $B$ - $E$ = $A$. 
 
-<hline>
+---------------------------------------------------------------------------
 
 #### Question 2
 
@@ -65,7 +65,8 @@ ii. Calculate $(A+B)C$
 
 * <a href="https://youtu.be/z1aIiH4bE4k">Solution to this exercise</a>
 
-<hline>
+
+---------------------------------------------------------------------------
 
 #### Question 3
 
@@ -194,6 +195,8 @@ For the vectors given below, evaluate the following expressions where it is poss
 
 Calculate the angles between the pairs $\vec{u},\vec{v}$, $\vec{x},\vec{y}$, and $\vec{w},\vec{z}$ from the previous question. Give your answers in both radians and degrees.
 
+
+---------------------------------------------------------------------------
 
 #### Question 3
 

@@ -1,5 +1,5 @@
 
-Binary Numbers {data-navmenu="Section 1"}
+Binary Numbers {data-navmenu="Exercises"}
 =====================================
 
 Column {.tabset}
@@ -94,7 +94,7 @@ d. 77
 
 <hline> 
 
-\item Express the following decimal numbers as binary numbers.
+Express the following decimal numbers as binary numbers.
 
 
 a.$(27.4375)_{10}$%
@@ -117,7 +117,7 @@ d. $(1011001)_{2}$ + $(111010)_{2}$
 
 
 
-### Part B: Number Systems - Binary Arithmetic
+#### Part B: Number Systems - Binary Arithmetic
 
 
 Perform the following binary subtractions.

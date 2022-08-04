@@ -11,7 +11,7 @@ Whether or not it is possible to traverse a graph from one vertex to another is 
 
 #### Definition of Connectedness
 * If there is a u-v path in G, then we say that u and v are connected
-* If there is a u-v path for every pair of vertices u and v in G, then we say that G is connected
+* If there is a u-v path for every pair of vertices u and v in G, then we say that $G$ is connected
 
 #### Theorems on Connectedness
 Theorem: Let G be a graph of order at least 3. If there are distinct vertices u and v in G so that G-u and G-v are both connected, then G is also connected. 
@@ -22,13 +22,9 @@ Proof: Let w be a G vertex, which is different from both u and v. We want to pro
 * If ${x,y} = {u,v}$, then employ the first two cases in order to see that there is a u-w walk and a w-v walk. Combining them indeed yields a u-v walk.
 
 #### Vertex and Edge Connectivity
-A graph G is called k-connected if for every ${\displaystyle S\subseteq V(G)}$ 
-, and ${\displaystyle |S|<k} $
-, 
-G − S {\displaystyle G-S} 
- is connected, and ${\displaystyle |G|>k}$. 
-Similarly, a graph G is called $ℓ {\displaystyle \ell } $
- edge-connected if for every 
+A graph G is called k-connected if for every ${\displaystyle S\subseteq V(G)}$, and ${\displaystyle |S|<k} $, ${\displaystyle G-S}$ is connected, and ${\displaystyle |G|>k}$. 
+ 
+Similarly, a graph G is called $ℓ {\displaystyle \ell } $ edge-connected if for every 
 ${\displaystyle S\subseteq E(G)}$
 , and $ {\displaystyle |S|<\ell } $
 , 
@@ -41,36 +37,27 @@ Relatedly, the edge-connectivity of G is the greatest
 ℓ {\displaystyle \ell } 
  such that G is 
 ℓ {\displaystyle \ell } 
- edge-connected, and is denoted by 
-λ ( G ) {\displaystyle \lambda (G)} 
-. 
+ edge-connected, and is denoted by ${\displaystyle \lambda (G)}$. 
 
 #### Theorems on Connectivity[edit]
 Theorem: Let G be a k-connected graph. Then, 
 ∀ i ∈ N , 0 ≤ i ≤ k {\displaystyle \forall i\in \mathbb {N} ,0\leq i\leq k} 
 , G is i-connected. 
-Proof: Since G is k-connected, for all 
-S ⊆ V ( G ) , | S | < k {\displaystyle S\subseteq V(G),|S|<k} 
-, 
-G − S {\displaystyle G-S} 
- is connected. Then, since 
-i ≤ k {\displaystyle i\leq k} 
-, for all 
+Proof: Since G is k-connected, for all ${\displaystyle S\subseteq V(G),|S|<k}$, 
+${\displaystyle G-S}$ is connected. Then, since 
+${\displaystyle i\leq k}$ , for all 
 ${\displaystyle S\subseteq V(G),|S|<i\leq k} $
 , 
 G − S {\displaystyle G-S} 
  is also connected. 
 
-Theorem: Let G be a nontrivial graph. Then, 
-λ ( G ) ≤ δ ( G ) {\displaystyle \lambda (G)\leq \delta (G)} 
-. 
+Theorem: Let G be a nontrivial graph. Then, ${\displaystyle \lambda (G)\leq \delta (G)}$.
+
 #### Proof: 
 * Take v a vertex of degree ${\displaystyle \delta (G)}$ in $G$. 
 * Then, removing all edges in G that are incident with v disconnects v from the rest of the graph, provided that 
 ${\displaystyle |G|>\delta (G)+1}$. 
-* Therefore, G cannot be 
-δ ( G ) {\displaystyle \delta (G)} 
- edge-connected, and so ${\displaystyle \lambda (G)\leq \delta (G)}$. 
+* Therefore, G cannot be ${\displaystyle \delta (G)}$ edge-connected, and so ${\displaystyle \lambda (G)\leq \delta (G)}$. 
 
 #### Exercise: Connectivity
 If G is $ {\displaystyle \ell } $

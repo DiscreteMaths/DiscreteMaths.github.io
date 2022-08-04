@@ -1,4 +1,4 @@
-Graph Theory {data-navmenu="Section 4"}
+Graph Theory {data-navmenu="Graph Theory"}
 ====================================
 
 Column{.tabset}
@@ -115,6 +115,12 @@ The density of a graph G = (V,E) measures how many edges are in set E compared t
 The average degree of a graph G is another measure of how many edges are in set E compared to number of vertices in set V. Because each edge is incident to two vertices and counts in the degree of both vertices, the average degree of an undirected graph is 2*|E|/|V|.
 
 
+Types of Graphs {data-navmenu="Graph Theory"}
+====================================
+
+Column{.tabset}
+----------------------------------------------
+
 
 ### Types of Graphs 
 
@@ -183,7 +189,7 @@ Then $V - E + R = 2$.
 
 
 
-Paths and Cycles in Graphs {data-navmenu="Graphy Theory"}
+Paths and Cycles in Graphs {data-navmenu="Graph Theory"}
 ====================================
 
 Column{.tabset}

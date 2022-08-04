@@ -25,7 +25,18 @@ Column {.tabset}
 
 <h3>Section 11</h3>
 
+In mathematics, the sequence is a collection or list of numbers that have a logical/sequential order or pattern between them. 
+<p>
+For example, 1, 5, 9, 13, … is a sequence having a difference of 4 between each consecutive next term and each term can be represented in form 1 + 4 * ( n – 1 ) where n is the nth term of the sequence. 
+<p>
+The sequence can be classified into 3 categories:
 
+1. Arithmetic Sequence
+2. Geometric Sequence
+3. Harmonic Sequence
+
+```{r child="Section_11/SequenceSeries-Progressions.Rmd"}
+```
 
 
 
@@ -34,8 +45,6 @@ Column {.tabset}
 ```{r child="Section_11/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
 ```
 
-```{r child="Section_11/SequenceSeries-Progressions.Rmd"}
-```
 
 
 ```{r child="Section_11/SequenceSeries-FiniteSeries.Rmd"}
@@ -44,16 +53,15 @@ Column {.tabset}
 
 
 
-```{r child="Section_11/SequenceSeries-TelescopingSeries.Rmd"}
-```
 
 ```{r child="Section_11/SequenceSeries-RecurrenceRelations.Rmd"}
 ```
 
 
-
-```{r child="Section_11/SequenceSeries-ProofbyInduction.Rmd"}
+```{r child="Section_11/SequenceSeries-TelescopingSeries.Rmd"}
 ```
+
+
 
 ```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}
 ```

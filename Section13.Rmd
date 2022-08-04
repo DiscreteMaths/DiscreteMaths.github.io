@@ -25,6 +25,8 @@ Column {.tabset}
 
 <h3>Probability and Counting Problems</h3>
 
+A counting problem is the task of finding the number of elements of some set with a particular property. Such counting problems are usually encountered in ***combinatorics***.
+
 
 
 

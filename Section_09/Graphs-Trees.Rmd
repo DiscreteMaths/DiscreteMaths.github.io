@@ -8,11 +8,11 @@ Column {.tabset}
 
 ### Tree
 
-* A connected acyclic graph is called a tree. In other words, a connected graph with no cycles is called a tree.
+* A connected acyclic graph is called a ***tree***. In other words, a connected graph with no cycles is called a ***tree***.
 
-* The edges of a tree are known as branches. Elements of trees are called their nodes. 
+* The edges of a tree are known as branches. Elements of trees are called their ***nodes***. 
 
-* The nodes without child nodes are called leaf nodes.
+* The nodes without child nodes are called ***leaf nodes***.
 
 * A tree with ‘n’ vertices has ‘n-1’ edges. If it has one more edge extra than ‘$n-1$’, then the extra edge should obviously has to pair up with two vertices which leads to form a cycle. 
 

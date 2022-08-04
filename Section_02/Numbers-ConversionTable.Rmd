@@ -1,4 +1,4 @@
-Conversion Lookup Table {data-navmenu="Section 1"}
+Conversion Lookup Table {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}

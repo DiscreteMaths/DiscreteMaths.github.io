@@ -1,4 +1,4 @@
-Recurrence Relation {data-navmenu="Section 5"}
+Recurrence Relation {data-navmenu="Progressions"}
 ==================================
 
 Column {.tabset}

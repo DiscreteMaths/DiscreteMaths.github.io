@@ -1,5 +1,5 @@
 
-Digraphs and Relations - Worksheets {data-navmenu="Section 4"}
+Digraphs and Relations - Worksheets {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
@@ -37,9 +37,9 @@ b.  Reflexive
 c. Transitive
 d. Antisymmetric
 
-<hline> 
-%---------------- %
-\item Let S be a set and R be a relation on S. Explain what it means to say that R
+-----------------------------------------------------
+
+* Let S be a set and R be a relation on S. Explain what it means to say that R
 is
 
 
@@ -64,21 +64,21 @@ b.  $x < y$
 c. $x^2 = y^2$
 d. $x \geq y$
 
-
-<hline>
+---------------------------------------------
 
 #### Question 2
+
 Given a flock of chickens, between any two chickens one of them is
 dominant. A relation, R, is defined between chicken x and chicken y as xRy if x is
 dominant over y. This gives what is known as a pecking order to the flock. Home
 Farm has 5 chickens: Amy, Beth, Carol, Daisy and Eve, with the following relations:
 
 
-\item Amy is dominant over Beth and Carol
-\item Beth is dominant over Eve and Carol
-\item Carol is dominant over Eve and Daisy
-\item Daisy is dominant over Eve, Amy and Beth
-\item Eve is dominant over Amy.
+* Amy is dominant over Beth and Carol
+* Beth is dominant over Eve and Carol
+* Carol is dominant over Eve and Daisy
+* Daisy is dominant over Eve, Amy and Beth
+* Eve is dominant over Amy.
 
 
 <hline>
