@@ -2722,6 +2722,59 @@ Binomial Coefficients
 <li><a href="https://www.youtube.com/watch?v=/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a></li>
 </ul>
 </div>
+<div id="couting-problems" class="section level3">
+<h3>Couting Problems</h3>
+</div>
+<div id="pascals-identity" class="section level3">
+<h3>{Pascal’s Identity}</h3>
+<p>Pascal’s identity, first derived by Blaise Pascal in 19th century, states that the number of ways to choose k elements from n elements is equal to the summation of number of ways to choose (k-1) elements from (n-1) elements and the number of ways to choose elements from n-1 elements.</p>
+<p>Mathematically, for any positive integers k and n: <span class="math display">\[ nCk=n−1Ck−1+n−1CknCk=n−1Ck−1+n−1Ck \]</span> Proof −</p>
+<p><span class="math display">\[\begin{eqnarray}
+{ n\choose k} n−1Ck−1+n−1Ck
+n−1Ck−1+n−1Ck
+&amp;=&amp; (n−1)!(k−1)!(n−k)!+(n−1)!k!(n−k−1)! \\
+&amp;=&amp; (n−1)!(k−1)!(n−k)!+(n−1)!k!(n−k−1)!\\
+&amp;=&amp;(n−1)!(kk!(n−k)!+n−kk!(n−k)!)\\
+&amp;=&amp;(n−1)!(kk!(n−k)!+n−kk!(n−k)!)\\
+&amp;=&amp;(n−1)!nk!(n−k)!=(n−1)!nk!(n−k)!\\
+&amp;=&amp; n!k!(n−k)! \\
+&amp;=&amp;n!k!(n−k)!\\
+&amp;=&amp;nCkll\\
+&amp;=&amp;nCk\\
+\end{eqnarray}\]</span></p>
+<div id="pigeonhole-principle" class="section level4">
+<h4>{Pigeonhole Principle}</h4>
+<p>In 1834, German mathematician, Peter Gustav Lejeune Dirichlet, stated a principle which he called the drawer principle. Now, it is known as the pigeonhole principle.</p>
+<p>Pigeonhole Principle states that if there are fewer pigeon holes than total number of pigeons and each pigeon is put in a pigeon hole, then there must be at least one pigeon hole with more than one pigeon. If n pigeons are put into m pigeonholes where n &gt; m, there’s a hole with more than one pigeon.</p>
+</div>
+<div id="examples" class="section level4">
+<h4>{Examples}</h4>
+<p>Ten men are in a room and they are taking part in handshakes. If each person shakes hands at least once and no man shakes the same man’s hand more than once then two men took part in the same number of handshakes.</p>
+<p>There must be at least two people in a class of 30 whose names start with the same alphabet.</p>
+</div>
+</div>
+<div id="the-inclusion-exclusion-principle" class="section level3">
+<h3>{The Inclusion-Exclusion principle}</h3>
+<p>The Inclusion-exclusion principle computes the cardinal number of the union of multiple non-disjoint sets. For two sets A and B, the principle states −</p>
+<p><span class="math display">\[|A∪B|=|A|+|B|−|A∩B||A∪B|=|A|+|B|−|A∩B|\]</span> For three sets A, B and C, the principle states −</p>
+<p><span class="math display">\[|A∪B∪C|=|A|+|B|+|C|−|A∩B|−|A∩C|−|B∩C|+|A∩B∩C||A∪B∪C|=|A|+|B|+|C|−|A∩B|−|A∩C|−|B∩C|+|A∩B∩C|\]</span> The generalized formula -</p>
+<p><span class="math display">\[ |⋃ni=1Ai|=∑1≤i&lt;j&lt;k≤n|Ai∩Aj|+∑1≤i&lt;j&lt;k≤n|Ai∩Aj∩Ak|−⋯+(−1)π−1|A1∩⋯∩A2||⋃i=1nAi|=∑1≤i&lt;j&lt;k≤n|Ai∩Aj|+∑1≤i&lt;j&lt;k≤n|Ai∩Aj∩Ak|−⋯+(−1)π−1|A1∩⋯∩A2|
+\]</span></p>
+<div id="problem-1" class="section level4">
+<h4>Problem 1</h4>
+<p>How many integers from 1 to 50 are multiples of 2 or 3 but not both?</p>
+</div>
+<div id="solution" class="section level4">
+<h4>{Solution}</h4>
+<ul>
+<li><p>From 1 to 100, there are 50/2=2550/2=25 numbers which are multiples of 2.</p></li>
+<li><p>There are 50/3=1650/3=16 numbers which are multiples of 3.</p></li>
+<li><p>There are 50/6=850/6=8 numbers which are multiples of both 2 and 3.</p></li>
+<li><p>So, |A|=25|A|=25, |B|=16|B|=16 and |A∩B|=8|A∩B|=8.</p></li>
+<li><p>|A∪B|=|A|+|B|−|A∩B|=25+16−8=33|A∪B|=|A|+|B|−|A∩B|=25+16−8=33</p></li>
+</ul>
+</div>
+</div>
 <div id="combinations" class="section level3">
 <h3>Combinations</h3>
 <h5>
@@ -2763,13 +2816,287 @@ Combinations
 <li><p><a href="https://youtube.com/watch?v=/Oiqj0qsNKM4"> Permutations - Worked Example 1 </a></p></li>
 <li><p><a href="https://youtube.com/watch?v=/ifTP8pGWRsM"> Discrete Mathematics - Anagrams as Permutations </a></p></li>
 </ul>
+<p>% <a href="http://www.mathsisfun.com/combinatorics/combinations-permutations.html" class="uri">http://www.mathsisfun.com/combinatorics/combinations-permutations.html</a></p>
+<table style="width:75%;">
+<colgroup>
+<col width="75%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">### *{Session 09: Probability}</td>
+</tr>
+<tr class="even">
+<td align="left">[9A.1] Counting Methods [9A.2] Counting using Sets [9A.3] Probability [9A.4] Independent Events</td>
+</tr>
+<tr class="odd">
+<td align="left">[9B.1] Permutation</td>
+</tr>
+<tr class="even">
+<td align="left"><span class="math display">\[ {n \choose r} = \frac{n!}{(n-r)! r!} \]</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span class="math display">\[ {6 \choose 3} = \frac{6!}{(6-3)! 3!} = \frac{6!}{3! \times 3!}\]</span></td>
+</tr>
+<tr class="even">
+<td align="left"><span class="math display">\[ \frac{6!}{3! \times 3!} = \frac{6 \times 5 \times 4 \times 3!}{3! \times 3!} = \frac{120}{6} = 120\]</span></td>
+</tr>
+<tr class="odd">
+<td align="left">%\begin{multicol}{2}</td>
+</tr>
+<tr class="even">
+<td align="left">* <span class="math inline">\({6 \choose 2} = 15\)</span> * <span class="math inline">\({5 \choose 2} = 10\)</span> * <span class="math inline">\({4 \choose 0} = 1\)</span> * <span class="math inline">\({4 \choose 3} = 4\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">%\end{multicol}</td>
+</tr>
+<tr class="even">
+<td align="left">* pairwise disjoint sets * The addition principle</td>
+</tr>
+<tr class="odd">
+<td align="left">#### *{Theorem} <span class="math display">\[ |A \cup B| = |A| + |B| - |A \cap B|  \]</span></td>
+</tr>
+<tr class="even">
+<td align="left">#### *{Probability}</td>
+</tr>
+<tr class="odd">
+<td align="left">[9B.2] The sample space of an experiment (<span class="math inline">\(S\)</span>) [9B.3] The size of a sample space [9B.4] Indepedent Events (9.3.1)</td>
+</tr>
+<tr class="even">
+<td align="left">### *{Combinations}</td>
+</tr>
+<tr class="odd">
+<td align="left">#### *{Formula} <span class="math display">\[ \binom nk  = \frac{n!}{k!(n-k)!} = \frac{n(n-1)\ldots(n-k+1)}{k(k-1)\dots 1},\]</span> which can be written using factorials as whenever <span class="math inline">\(k\leq n\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">#### *{Example 1}</td>
+</tr>
+<tr class="odd">
+<td align="left"><span class="math display">\[ \binom 5 2  = \frac{5!}{2!(5-2)!} = \frac{5.4.3!}{2! .3!} = \frac{5.4}{2.1} = 10\]</span></td>
+</tr>
+<tr class="even">
+<td align="left">#### *{Example 2}</td>
+</tr>
+<tr class="odd">
+<td align="left"><span class="math display">\[ \binom 5 0  = \frac{5!}{0!(5-0)!} = \frac{5!}{0! .5!} = \frac{5!}{2!} = 1\]</span> Recall <span class="math inline">\(0! =1\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">#### Permutations</td>
+</tr>
+<tr class="odd">
+<td align="left">* The notion of permutation relates to the act of permuting (rearranging) objects or values. * Informally, a permutation of a set of objects is an arrangement of those objects into a particular order.</td>
+</tr>
+<tr class="even">
+<td align="left">* For example, there are six permutations of the set <span class="math inline">\(\{1,2,3\}\)</span>, namely (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,1,2), and (3,2,1). * As another example, an anagram of a word is a permutation of its letters.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Permutations where repetition is allowed: <span class="math display">\[ n! \]</span></li>
+<li>Permutations where repetition is not allowed <span class="math display">\[ \frac{n!}{(n-k)!} \]</span></li>
+</ul>
+<table style="width:68%;">
+<colgroup>
+<col width="68%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">### <em>{Session 9 Probability} #### </em>{Binomial Coefficients}</td>
+</tr>
+<tr class="even">
+<td align="left">* factorials <span class="math display">\[ n! = (n)\times (n-1)\times(n-2) \times \ldots \times 1 \]</span></td>
+</tr>
+<tr class="odd">
+<td align="left">* $5! = 5     = 120 $ * <span class="math inline">\(3! = 3 \times 2 \times 1\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">* Zero factorial <span class="math display">\[ 0! =  1 \]</span></td>
+</tr>
+</tbody>
+</table>
+<p>% <span class="math display">\[P(A |B = \frac{P(A \cap B)}{P(B)})\]</span></p>
+<p>The complement rule in Probability</p>
+<p><span class="math inline">\(P(C^{\prime}) = 1- P(C)\)</span></p>
+<p>If the probability of C is <span class="math inline">\(70 \%\)</span> then the probability of <span class="math inline">\(C^{\prime}\)</span> is <span class="math inline">\(30\%\)</span></p>
+</div>
+</div>
+<div id="combinations-and-permutations" class="section level3">
+<h3>*{Combinations and Permutations }</h3>
+<div id="the-factorial-function" class="section level4">
+<h4>*{The factorial function}</h4>
+<p>The factorial function (symbol: !) just means to multiply a series of descending natural numbers. Examples:</p>
+<ul>
+<li><span class="math inline">\(4! = 4 \times 3 \times 2 \times 1 = 24\)</span></li>
+<li><span class="math inline">\(7! = 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 5,040\)</span></li>
+<li><span class="math inline">\(1! = 1\)</span></li>
+<li>$0! = 1 $</li>
+</ul>
+<p>Importantly <span class="math display">\[n! = n \times (n-1)!  = n \times (n-1) \times (n-2)! \]</span> For Example <span class="math display">\[6! = 6 \times 5!  = 6 \times 5 \times 4! \]</span> ### *{Combinations} In mathematical terms, a combination is an subset of items from a larger set such that the order of the items does not matter.</p>
+</div>
+</div>
+<div id="permutations-1" class="section level3">
+<h3>*{Permutations}</h3>
+There are two types of permutation:
+<div id="summary" class="section level4">
+<h4>*{Summary}</h4>
+<ul>
+<li><p>If the order doesn’t matter, it is a Combination.</p></li>
+<li><p>If the order does matter it is a Permutation.</p></li>
+<li><p>Permutations where repetition is allowed: <span class="math display">\[ n! \]</span></p></li>
+<li><p>Permutations where repetition is not allowed [  /]</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="choose-operator" class="section level2">
+<h2>### {Choose Operator}</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">[1] Choose Operator</td>
+</tr>
+<tr class="even">
+<td align="left"><span class="math display">\[ {n \choose k} = \frac{n!}{k! \times (n-k)!} \]</span></td>
+</tr>
+<tr class="odd">
+<td align="left">Evaluate the following:</td>
+</tr>
+<tr class="even">
+<td align="left">\begin{multicols}{3}</td>
+</tr>
+<tr class="odd">
+<td align="left">\begin{enumerate}</td>
+</tr>
+<tr class="even">
+<td align="left">[1] <span class="math inline">\({5 \choose 2}\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">[2] <span class="math inline">\({5 \choose 0}\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">[3] <span class="math inline">\({6 \choose 3}\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">[4] <span class="math inline">\({6 \choose 6}\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">[5] <span class="math inline">\({10 \choose 1}\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">[6] <span class="math inline">\({10 \choose 9}\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">\end{enumerate}</td>
+</tr>
+<tr class="odd">
+<td align="left">\end{multicols}</td>
+</tr>
+</tbody>
+</table>
+<p>%Page 29 [2] In how many ways can a group of four people be selected from three men and four women? In how many of these groups are there more women than men? ———————————————————- %PAGE 66 [3] In how many ways can a group of five be selected from ten people How many groups can be selected if two particular people from the ten can not be selected in the same group?\ \  [4] %<a href="http://www.mathsireland.com/LCHGeneralNotes/PermCombProb/5_5_Prob_MultAnd/Q_5_5_Prob_MultAnd.html" class="uri">http://www.mathsireland.com/LCHGeneralNotes/PermCombProb/5_5_Prob_MultAnd/Q_5_5_Prob_MultAnd.html</a> The Venn Diagram shows the number of elements in each subset of set <span class="math inline">\(S\)</span>. If <span class="math inline">\(P(A) = 3/10\)</span> and <span class="math inline">\(P(B) = 1/2\)</span>, find the values of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> %Page 27 [5] How many different four digit numners greater than 5000 can be formed from the digits  if each digit can only be used once in any given number. How many of these numbers are odd?</p>
+</div>
+<div id="section" class="section level2">
+<h2></h2>
+<div id="permutations-2" class="section level4">
+<h4>{Permutations}</h4>
+<ul>
+<li>In how many permutations are there of counting a subset of k elements, when there are <span class="math inline">\(n\)</span> elements in total.</li>
+<li>The number of permutations of a set of n elements is denoted n! (pronounced n factorial.)</li>
+</ul>
+<table style="width:74%;">
+<colgroup>
+<col width="73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">#### {Permutation Formula} A formula for the number of possible permutations of k objects from a set of n. This is usually written <span class="math inline">\(^nP_k\)</span> .   <span class="math display">\[ ^nP_k = \frac{n!}{(n-k)!} =  n.(n-1).(n-2).\ldots(n-k+1) \]</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">#### {Permutation Formula} \ How many ways can 4 students from a group of 15 be lined up for a photograph?\ </td>
+</tr>
+</tbody>
+</table>
+<p>\ There are <span class="math inline">\(^{15}P_4\)</span> possible permutations of 4 students from a group of 15. <span class="math display">\[ ^{15}P_4 = \frac{15!}{11!} = 15\times 14\times 13\times 12 = 32760 \]</span> There are 32760 different lineups.</p>
+</div>
+</div>
+</div>
+<div id="permutations-3" class="section level1" data-navmenu="Counting Problems">
+<h1 data-navmenu="Counting Problems">Permutations</h1>
+<div id="column-4" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="permutations-4" class="section level3">
+<h3>Permutations</h3>
+<div id="permutations-5" class="section level4">
+<h4>{ Permutations }</h4>
+<ul>
+<li>Given a set of distinct numbers, <span class="math inline">\(\{1, 2, 3, 4, 5, 6\}\)</span>, find all permutations containing 3 numbers. All the permutations have to be in ascending order.</li>
+<li>For example, some correct permutations would be <span class="math inline">\(\{1, 2, 3\}\)</span>, <span class="math inline">\(\{2, 4, 6\}\)</span>, etc.</li>
+<li><span class="math inline">\(\{2, 3, 1\}\)</span> would not be acceptable because it is not in ascending order.</li>
+</ul>
+<table style="width:93%;">
+<colgroup>
+<col width="93%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">#### { Permutations} Given a set of distinct numbers, <span class="math inline">\(\{1, 2, 3, 4 \}\)</span>, find all permutations containing 2 numbers. <span class="math display">\[\{1,2\},\{1,3\},\{1,4\}, \{2,1\}, \{2,3\}, \{2,4\}, \]</span> <span class="math display">\[\{3,1\},\{3,2\},\{3,4\}, \{4,1\}, \{4,2\}, \{4,3\}, \]</span>  When all the permutations have to be in ascending order. <span class="math display">\[\{1,2\},\{1,3\},\{1,4\}, \phantom{\{2,1\}}, \{2,3\}, \{2,4\}, \]</span></td>
+</tr>
+<tr class="even">
+<td align="left"><span class="math display">\[\phantom{\{3,1\},\{3,2\}},\{3,4\}, \phantom{\{4,1\}, \{4,2\}, \{4,3\}}\]</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="permutations-6" class="section level4">
+<h4>{ Permutations}</h4>
+<p><span class="math display">\[\{1,2\},\{1,3\},\{1,4\}, \{2,1\}, \{2,3\}, \{2,4\}, \]</span> <span class="math display">\[\{3,1\},\{3,2\},\{3,4\}, \{4,1\}, \{4,2\}, \{4,3\}, \]</span> <span class="math display">\[ ^4P_2 = \frac{4!}{2!} = 12 \; \]</span>  <span class="math display">\[\{1,2\},\{1,3\},\{1,4\}, \phantom{\{2,1\}}, \{2,3\}, \{2,4\}, \]</span> <span class="math display">\[\phantom{\{3,1\},\{3,2\}},\{3,4\}, \phantom{\{4,1\}, \{4,2\}, \{4,3\}}\]</span> <span class="math display">\[ ^4C_2 = \frac{4!}{2!\times 2!} = 6 \]</span> #### { Permutations} Given a set of distinct numbers, <span class="math inline">\(\{1, 2, 3, 4 \}\)</span>, find all permutations containing 3 numbers. (Strictly ascending permutations in red). <span class="math display">\[\boldsymbol{ extbf{\{1,2,3\}}}, \boldsymbol{ extbf{\{1,2,4\}}}, \{1,3,2\},\boldsymbol{   extbf{\{1,3,4\}}}, \{1,4,2\},\{1,4,3\},  \]</span> <span class="math display">\[\{2,1,3\}, \{2,1,4\}, \{2,3,1\},\boldsymbol{ extbf{\{2,3,4\}}}, \{2,4,1\},\{2,4.3\},  \]</span> <span class="math display">\[\{3,1,2\}, \{3,1,4\}, \{3,2,1\},\{3,2,4\}, \{3,4,1\},\{3,4,2\},  \]</span> <span class="math display">\[\{4,1,2\}, \{4,1,3\}, \{4,2,1\},\{4,3,1\}, \{4,3,1\},\{4,3,2\}   \]</span><br />
+<span class="math display">\[ ^4P_3 = \frac{4!}{1!} = 24 \]</span> <span class="math display">\[ ^4C_3 = \frac{4!}{3!\times 1!} = 4 \]</span> —————————————————————— #### { Permutations}</p>
+<ul>
+<li>In general, when you must select <span class="math inline">\(k\)</span> numbers from <span class="math inline">\(n\)</span>, and those <span class="math inline">\(k\)</span> numbers must be in ascending order, then there are <span class="math inline">\(^nC_k\)</span> ways permutations.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="c_k-n-choose-k-fracnkn-k" class="section level2">
+<h2><span class="math display">\[ ^C_k = {n \choose k} = \frac{n!}{k!(n-k)!} \]</span></h2>
+<div id="permutations-7" class="section level3">
+<h3>{Permutations}</h3>
+<p>{</p>
+<ul>
+<li>Suppose we have a set of  items.</li>
+<li>From that set, we create a subset of  items.</li>
+<li>The  in which items are selected is recorded. (The ordering of selected items is very important.)</li>
+<li>The total number of  of  items chosen from a set of  items is <span class="math display">\[\frac{n!}{n-k!}\]</span></li>
+</ul>
+</div>
+</div>
+<div id="section-1" class="section level2">
+<h2>}</h2>
+</div>
+</div>
+<div id="worked-examples" class="section level1" data-navmenu="Exercises">
+<h1 data-navmenu="Exercises">Worked Examples</h1>
+<div id="column-5" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="counting-problems-2" class="section level3">
+<h3>Counting Problems</h3>
+<div id="problem-2" class="section level4">
+<h4>Problem 2</h4>
+<p>In a group of 50 students 24 like cold drinks and 36 like hot drinks and each student likes at least one of the two drinks. How many like both coffee and tea?</p>
+</div>
+<div id="solution-1" class="section level4">
+<h4>Solution</h4>
+<p>Let X be the set of students who like cold drinks and Y be the set of people who like hot drinks.</p>
+<p>So, |X∪Y|=50|X∪Y|=50, |X|=24|X|=24, |Y|=36|Y|=36 |X∩Y|=|X|+|Y|−|X∪Y|=24+36−50=60−50=10|X∩Y|=|X|+|Y|−|X∪Y|=24+36−50=60−50=10 Hence, there are 10 students who like both tea and coffee.</p>
+<p>% - <a href="https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle#/media/File:Inclusion-exclusion.svg" class="uri">https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle#/media/File:Inclusion-exclusion.svg</a></p>
 </div>
 </div>
 </div>
 </div>
 <div id="counting-problems---worksheets" class="section level1" data-navmenu="Exercises">
 <h1 data-navmenu="Exercises">Counting Problems - Worksheets</h1>
-<div id="column-4" class="section level2 tabset">
+<div id="column-6" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1" class="section level3">
 <h3>Work Sheet 1</h3>

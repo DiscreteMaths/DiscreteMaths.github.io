@@ -149,3 +149,12 @@ The following laws are very useful for working with logarithms.
 
 
 ### Tutorials
+
+#### Exercise 2
+
+
+\[  \frac{\mbox{ln}(2) + \mbox{ln}(2^2) + \mbox{ln}(2^3)  + \mbox{ln}(2^4) + \mbox{ln}(2^5)  }  {\mbox{ln}(4)}  \]
+Useful Rule of Logarithms
+\[  \mbox{ln}(a^b)  = b\cdot \mbox{ln}(a)  \]
+\[  \frac{\mbox{ln}(2) + 2 \cdot \mbox{ln}(2) + 3 \cdot\mbox{ln}(2)  + 4 \cdot \mbox{ln}(2) + 5 \cdot \mbox{ln}(2)  }  {\mbox{ln}(4)}  \]
+--------------------

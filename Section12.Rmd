@@ -26,7 +26,7 @@ Column {.tabset}
 <h3>Convergence and Ration Tests</h3>
 
 
-```{r child="Section_11/SequenceSeries-ProofbyInduction.Rmd"}
+```{r child="Section_12/SequenceSeries-ProofbyInduction.Rmd"}
 ```
 
 ```{r child="Section_12/SequenceSeries-RatioTests.Rmd"}

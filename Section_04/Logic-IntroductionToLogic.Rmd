@@ -1,6 +1,6 @@
 
 
-Logic {data-navmenu="Section 2"}
+Logic {data-navmenu="Logic"}
 ====================================
 
 Column {.tabset}
@@ -8,16 +8,19 @@ Column {.tabset}
 
 ### Logical Operations
 
+<h4>Logical Operations</h4>
+
 * $\neg p$ the negation of proposition $p$.
-* $p \wedge q$ Both propositions p and q are simultaneously true (Logical State AND)
-* $p \vee q $ One of the propositions is true, or both (Logical State : OR)
-* $p \otimes q$ Only one of the propositions is true (Logical State : exclusive OR (i.e XOR)
+* $p \wedge q$ Both propositions p and q are simultaneously true (Logical State ***AND***)
+* $p \vee q $ One of the propositions is true, or both (Logical State : ***OR***)
+* $p \otimes q$ Only one of the propositions is true (Logical State : exclusive OR (i.e ***XOR***)
 
 
 
-### Logic 
+### Propositions 
 
-Propositions, The negations of a proposition, Compound Statements, Truth tables
+<h4>Propositions</h4>
+The negations of a proposition, Compound Statements, Truth tables
 
 * <a href = "https://www.youtube.com/watch?v=/YK6tzrBYS14"> Logic 2003 Propositions</a>
 * <a href = "https://www.youtube.com/watch?v=/SNah7Lai_Lo"> Logic 2007 Propositions </a>
@@ -37,7 +40,9 @@ As an example of logical implication, suppose the sentences A and B are assigned
 * A = The sky is overcast.
 * B = The sun is not visible.
 
-In this instance, A B is a true statement (assuming we are at the surface of the earth, below the cloud layer.) However, the statement B A is not necessarily true; it might be a clear night. Logical implication does not work both ways. However, the sense of logical implication is reversed if both statements are negated. That is,
+In this instance, A B is a true statement (assuming we are at the surface of the earth, below the cloud layer.) However, the statement B A is not necessarily true; it might be a clear night. Logical implication does not work both ways. 
+<p>
+However, the sense of logical implication is reversed if both statements are negated. That is,
 
 $$(A \rightarrow B)  \equiv (-B \rightarrow -A)$$
 
@@ -59,7 +64,7 @@ Using the above sentences as examples, we can say that if the sun is visible, th
 * <a href="https://youtube.com/watch?v=/aQVK6mf4fUw">Logic: Truth Tables -  Worked Example 1</a>
 * <a href="https://youtube.com/watch?v=/nn2QdOEeFBU">Logic: Truth Tables -  Worked Example 2</a>
 * <a href= "https://youtube.com/watch?v=/pvZrpzLzM60"> Logical Proofs -Truth Tables Example  </a>
-
+<p>
 #### Older Videos
 
 * <a href = "https://www.youtube.com/watch?v=/qLP5fnux3RA"> Introduction to Truth Tables</a>

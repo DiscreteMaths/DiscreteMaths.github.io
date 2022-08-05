@@ -883,6 +883,21 @@ c.  $(111)_{2}$ %7
 d.  $(1001)_2$ %9
 
 
+---------------------------------------
+#### *{Question 1}
+
+
+*  When is the positive integer $p$ said to be a prime number?
+*  Express the following hexadecimal number as a decimal number, and as a binary number: \[(A32.8)_{16}\]
+
+*  Convert the following decimal number into base 2, showing all your working: $(253)_{10}$. 
+*  Covert the decimal integer $(407)_{10}$ to binary notation.
+
+*  Showing your working, express the following number 
+\[ 1.024024024024\ldots\]
+as a ration number in its simplest form.
+*  Compute the following $101101_2 + 1101_2$ 
+
 
 
 

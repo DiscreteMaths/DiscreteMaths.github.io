@@ -29,6 +29,74 @@ In this section we look at counting problems, including combinations and permuta
 * <a href ="https://www.youtube.com/watch?v=/ytvlX_-VrF8"> Binomial Coefficients - Proof of Identities 3</a> 
 * <a href ="https://www.youtube.com/watch?v=/ong5YXLf_7Q"> Binomial Coefficients - Team Selection</a>
 
+### Couting Problems
+
+
+### {Pascal's Identity}
+Pascal's identity, first derived by Blaise Pascal in 19th century, states that the number of ways to choose k elements from n elements is equal to the summation of number of ways to choose (k-1) elements from (n-1) elements and the number of ways to choose elements from n-1 elements.
+
+Mathematically, for any positive integers k and n: \[ nCk=n−1Ck−1+n−1CknCk=n−1Ck−1+n−1Ck \]
+Proof −
+
+\[\begin{eqnarray}
+{ n\choose k} n−1Ck−1+n−1Ck
+n−1Ck−1+n−1Ck
+&=& (n−1)!(k−1)!(n−k)!+(n−1)!k!(n−k−1)! \\
+&=& (n−1)!(k−1)!(n−k)!+(n−1)!k!(n−k−1)!\\
+&=&(n−1)!(kk!(n−k)!+n−kk!(n−k)!)\\
+&=&(n−1)!(kk!(n−k)!+n−kk!(n−k)!)\\
+&=&(n−1)!nk!(n−k)!=(n−1)!nk!(n−k)!\\
+&=& n!k!(n−k)! \\
+&=&n!k!(n−k)!\\
+&=&nCkll\\
+&=&nCk\\
+\end{eqnarray}\]
+
+#### {Pigeonhole Principle}
+In 1834, German mathematician, Peter Gustav Lejeune Dirichlet, stated a principle which he called the drawer principle. Now, it is known as the pigeonhole principle.
+
+Pigeonhole Principle states that if there are fewer pigeon holes than total number of pigeons and each pigeon is put in a pigeon hole, then there must be at least one pigeon hole with more than one pigeon. If n pigeons are put into m pigeonholes where n > m, there's a hole with more than one pigeon.
+
+#### {Examples}
+Ten men are in a room and they are taking part in handshakes. If each person shakes hands at least once and no man shakes the same man’s hand more than once then two men took part in the same number of handshakes.
+
+There must be at least two people in a class of 30 whose names start with the same alphabet.
+
+\newpageThe
+### {The Inclusion-Exclusion principle}
+The Inclusion-exclusion principle computes the cardinal number of the union of multiple non-disjoint sets. For two sets A and B, the principle states −
+
+\[|A∪B|=|A|+|B|−|A∩B||A∪B|=|A|+|B|−|A∩B|\]
+For three sets A, B and C, the principle states −
+
+\[|A∪B∪C|=|A|+|B|+|C|−|A∩B|−|A∩C|−|B∩C|+|A∩B∩C||A∪B∪C|=|A|+|B|+|C|−|A∩B|−|A∩C|−|B∩C|+|A∩B∩C|\]
+The generalized formula -
+
+\[ |⋃ni=1Ai|=∑1≤i<j<k≤n|Ai∩Aj|+∑1≤i<j<k≤n|Ai∩Aj∩Ak|−⋯+(−1)π−1|A1∩⋯∩A2||⋃i=1nAi|=∑1≤i<j<k≤n|Ai∩Aj|+∑1≤i<j<k≤n|Ai∩Aj∩Ak|−⋯+(−1)π−1|A1∩⋯∩A2|
+\]
+
+#### Problem 1
+
+How many integers from 1 to 50 are multiples of 2 or 3 but not both?
+
+#### {Solution}
+
+
+* From 1 to 100, there are 50/2=2550/2=25 numbers which are multiples of 2.
+
+* There are 50/3=1650/3=16 numbers which are multiples of 3.
+
+* There are 50/6=850/6=8 numbers which are multiples of both 2 and 3.
+
+* So, |A|=25|A|=25, |B|=16|B|=16 and |A∩B|=8|A∩B|=8.
+
+* |A∪B|=|A|+|B|−|A∩B|=25+16−8=33|A∪B|=|A|+|B|−|A∩B|=25+16−8=33
+
+
+
+
+
+
 
 ### Combinations
 
@@ -74,3 +142,298 @@ In this section we look at counting problems, including combinations and permuta
 * <a href= "https://youtube.com/watch?v=/Oiqj0qsNKM4"> Permutations - Worked Example 1  </a>
 * <a href= "https://youtube.com/watch?v=/ifTP8pGWRsM"> Discrete Mathematics -  Anagrams as Permutations  </a>
 
+
+
+
+
+% http://www.mathsisfun.com/combinatorics/combinations-permutations.html
+
+
+-----------------------------------------------------
+### *{Session 09: Probability}
+
+[9A.1] Counting Methods
+[9A.2] Counting using Sets
+[9A.3] Probability
+[9A.4] Independent Events
+
+
+[9B.1] Permutation
+
+\[ {n \choose r} = \frac{n!}{(n-r)! r!} \]
+
+
+\[ {6 \choose 3} = \frac{6!}{(6-3)! 3!} = \frac{6!}{3! \times 3!}\]
+
+
+\[ \frac{6!}{3! \times 3!} = \frac{6 \times 5 \times 4 \times 3!}{3! \times 3!} = \frac{120}{6} = 120\]
+
+
+%\begin{multicol}{2}
+
+* ${6 \choose 2} = 15$
+* ${5 \choose 2} = 10$  
+* ${4 \choose 0} = 1$  
+* ${4 \choose 3} = 4$  
+
+%\end{multicol}
+
+
+* pairwise disjoint sets
+* The addition principle
+
+#### *{Theorem}
+\[ |A \cup B| = |A| + |B| - |A \cap B|  \]
+
+#### *{Probability}
+
+[9B.2] The sample space of an experiment ($S$)
+[9B.3] The size of a sample space
+[9B.4] Indepedent Events (9.3.1)
+
+
+
+### *{Combinations}
+
+#### *{Formula}
+\[ \binom nk  = \frac{n!}{k!(n-k)!} = \frac{n(n-1)\ldots(n-k+1)}{k(k-1)\dots 1},\]
+which can be written using factorials as  whenever $k\leq n$
+
+#### *{Example 1}
+
+\[ \binom 5 2  = \frac{5!}{2!(5-2)!} = \frac{5.4.3!}{2! .3!} = \frac{5.4}{2.1} = 10\]
+
+#### *{Example 2}
+
+\[ \binom 5 0  = \frac{5!}{0!(5-0)!} = \frac{5!}{0! .5!} = \frac{5!}{2!} = 1\]
+Recall $0! =1$
+
+#### Permutations 
+
+
+* The notion of permutation relates to the act of permuting (rearranging) objects or values. 
+* Informally, a permutation of a set of objects is an arrangement of those objects into a particular order. 
+
+* For example, there are six permutations of the set $\{1,2,3\}$, namely (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,1,2), and (3,2,1). 
+* As another example, an anagram of a word is a permutation of its letters. 
+
+
+
+
+-----------------------------------------------------
+
+
+
+
+* Permutations where repetition is allowed: 
+\[ n! \]
+* Permutations where repetition is not allowed
+\[ \frac{n!}{(n-k)!} \]
+
+
+
+------------------------------------------------
+### *{Session 9 Probability}
+#### *{Binomial Coefficients}
+
+* factorials 
+\[ n! = (n)\times (n-1)\times(n-2) \times \ldots \times 1 \]
+
+* $5! = 5 \times 4 \times 3 \times 2 \times 1 = 120 $
+* $3! = 3 \times 2 \times 1$
+
+* Zero factorial
+\[ 0! =  1 \]
+
+--------------------------------------------
+
+% \[P(A |B = \frac{P(A \cap B)}{P(B)})\]
+
+The complement rule in Probability
+
+$P(C^{\prime}) = 1- P(C)$
+
+ 
+
+If the probability of C is $70 \%$ then the probability of $C^{\prime}$ is $30\%$
+
+### *{Combinations and Permutations }
+#### *{The factorial function}
+The factorial function (symbol: !) just means to multiply a series of descending natural numbers. Examples:
+
+
+* $4! = 4 \times 3 \times 2 \times 1 = 24$
+* $7! = 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 5,040$
+* $1! = 1$
+* $0! = 1 $
+
+Importantly 
+\[n! = n \times (n-1)!  = n \times (n-1) \times (n-2)! \]
+For Example
+\[6! = 6 \times 5!  = 6 \times 5 \times 4! \]
+### *{Combinations}
+In mathematical terms, a combination is an subset of items from a larger set such that the order of the items does not matter.
+
+### *{Permutations}
+There are two types of permutation:
+\begin{enumerate}
+* Repetition is Allowed: such as the lock above. It could be "333".
+* No Repetition: for example the first three people in a running race. You can't be first and second.
+\end{enumerate}
+
+#### *{Summary}
+
+* If the order doesn't matter, it is a Combination.
+* If the order does matter it is a Permutation.
+
+
+
+
+
+* Permutations where repetition is allowed: 
+\[ n! \]
+* Permutations where repetition is not allowed
+\[ \frac{n!}{(n-k)!} /]
+
+### {Choose Operator}
+----------------------------------------------------------
+
+----------------------------------------------------------
+[1] Choose Operator
+\[ {n \choose k} = \frac{n!}{k! \times (n-k)!} \]
+Evaluate the following:
+\begin{multicols}{3}
+\begin{enumerate}
+[1] ${5 \choose 2}$
+[2] ${5 \choose 0}$
+[3] ${6 \choose 3}$
+[4] ${6 \choose 6}$
+[5] ${10 \choose 1}$
+[6] ${10 \choose 9}$
+\end{enumerate}
+  \end{multicols}
+----------------------------------------------------------
+%Page 29
+[2] In how many ways can a group of four people be selected from three men and four women?
+In how many of these groups are there more women than men?
+----------------------------------------------------------
+%PAGE 66
+[3] In how many ways can a group of five be selected from ten people
+How many groups can be selected if two particular people from the ten can not be selected in the same group?\\
+\\
+\textbf{Counting Sets using Venn Diagrams}
+[4] 
+%http://www.mathsireland.com/LCHGeneralNotes/PermCombProb/5_5_Prob_MultAnd/Q_5_5_Prob_MultAnd.html
+The Venn Diagram shows the number of elements in each subset of set $S$.
+If $P(A) = 3/10$ and $P(B) = 1/2$, find the values of $x$ and $y$
+%Page 27
+[5] How many different four digit numners greater than 5000 can be formed from the digits \textbf{2,4,5,8,9} if each digit can only be used once in any given number. How many of these numbers are odd?
+
+\newpage
+----------------------------------------------------
+#### {Permutations}
+
+* In how many permutations are there of counting a subset of k elements, when there are $n$ elements in total.
+* The number of permutations of a set of n elements is denoted n! (pronounced n factorial.)
+
+----------------------------------------------------
+#### {Permutation Formula}
+A formula for the number of possible permutations of k objects from a set of n. This is usually written $^nP_k$ .
+\bigskip
+\textbf{Formula:}	
+\[ ^nP_k = \frac{n!}{(n-k)!} =  n.(n-1).(n-2).\ldots(n-k+1) \]
+----------------------------------------------------
+#### {Permutation Formula}
+\textbf{Example:}\\	
+How many ways can 4 students from a group of 15 be lined up for a photograph?\\
+\bigskip
+-------------
+\textbf{Answer:	}\\
+There are $^{15}P_4$ possible permutations of 4 students from a group of 15.
+\[ ^{15}P_4 = \frac{15!}{11!} = 15\times 14\times 13\times 12 = 32760 \]
+There are 32760 different lineups.
+
+Permutations {data-navmenu="Counting Problems"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+### Permutations
+
+#### { Permutations }
+
+* Given a set of distinct numbers, $\{1, 2, 3, 4, 5, 6\}$, find all permutations containing 3 numbers. All the permutations have to be in ascending order.
+* For example, some correct permutations would be $\{1, 2, 3\}$, $\{2, 4, 6\}$, etc. 
+* $\{2, 3, 1\}$ would not be acceptable because it is not in ascending order.
+
+------------------------------------------------------------------
+#### { Permutations}
+Given a set of distinct numbers, $\{1, 2, 3, 4 \}$, find all permutations containing 2 numbers. 
+ \[\{1,2\},\{1,3\},\{1,4\}, \{2,1\}, \{2,3\}, \{2,4\}, \]
+ \[\{3,1\},\{3,2\},\{3,4\}, \{4,1\}, \{4,2\}, \{4,3\}, \]
+\bigskip
+When all the permutations have to be in ascending order.
+ \[\{1,2\},\{1,3\},\{1,4\}, \phantom{\{2,1\}}, \{2,3\}, \{2,4\}, \]
+ 
+ \[\phantom{\{3,1\},\{3,2\}},\{3,4\}, \phantom{\{4,1\}, \{4,2\}, \{4,3\}}\]
+------------------------------------------------------------------
+
+#### { Permutations}
+\[\{1,2\},\{1,3\},\{1,4\}, \{2,1\}, \{2,3\}, \{2,4\}, \]
+\[\{3,1\},\{3,2\},\{3,4\}, \{4,1\}, \{4,2\}, \{4,3\}, \]
+\[ ^4P_2 = \frac{4!}{2!} = 12 \; \]
+\bigskip
+\[\{1,2\},\{1,3\},\{1,4\}, \phantom{\{2,1\}}, \{2,3\}, \{2,4\}, \]
+\[\phantom{\{3,1\},\{3,2\}},\{3,4\}, \phantom{\{4,1\}, \{4,2\}, \{4,3\}}\]
+\[ ^4C_2 = \frac{4!}{2!\times 2!} = 6 \]
+#### { Permutations}
+Given a set of distinct numbers, $\{1, 2, 3, 4 \}$, find all permutations containing 3 numbers. (Strictly ascending permutations in red). 
+ \[\boldsymbol{	extbf{\{1,2,3\}}}, \boldsymbol{	extbf{\{1,2,4\}}}, \{1,3,2\},\boldsymbol{	extbf{\{1,3,4\}}}, \{1,4,2\},\{1,4,3\},  \]
+ \[\{2,1,3\}, \{2,1,4\}, \{2,3,1\},\boldsymbol{	extbf{\{2,3,4\}}}, \{2,4,1\},\{2,4.3\},  \]
+ \[\{3,1,2\}, \{3,1,4\}, \{3,2,1\},\{3,2,4\}, \{3,4,1\},\{3,4,2\},  \]
+ \[\{4,1,2\}, \{4,1,3\}, \{4,2,1\},\{4,3,1\}, \{4,3,1\},\{4,3,2\}   \]  
+\[ ^4P_3 = \frac{4!}{1!} = 24 \]
+\[ ^4C_3 = \frac{4!}{3!\times 1!} = 4 \]
+------------------------------------------------------------------
+#### { Permutations}
+
+* In general, when you must select $k$ numbers from $n$, and those $k$ numbers must be in ascending order, then there are $^nC_k$ ways permutations.
+
+\[ ^C_k = {n \choose k} = \frac{n!}{k!(n-k)!} \]
+-----------------------------------------------------------------------------
+### {Permutations}
+{
+
+* Suppose we have a set of \textbf{n} items.
+* From that set, we create a subset of \textbf{k} items.
+* The \textbf{order} in which items are selected is recorded. (The ordering of selected items is very important.) 
+* The total number of \textbf{ordered subsets} of \textbf{k} items chosen from a set of \textbf{n} items is
+\[\frac{n!}{n-k!}\]
+
+}
+-----------------------------------------------------------------------------
+
+
+
+Worked Examples {data-navmenu="Exercises"}
+==================================
+
+Column {.tabset}
+-----------------------------
+
+### Counting Problems
+
+#### Problem 2
+
+In a group of 50 students 24 like cold drinks and 36 like hot drinks and each student likes at least one of the two drinks. How many like both coffee and tea?
+
+#### Solution
+
+Let X be the set of students who like cold drinks and Y be the set of people who like hot drinks.
+
+So, |X∪Y|=50|X∪Y|=50, |X|=24|X|=24, |Y|=36|Y|=36
+|X∩Y|=|X|+|Y|−|X∪Y|=24+36−50=60−50=10|X∩Y|=|X|+|Y|−|X∪Y|=24+36−50=60−50=10
+Hence, there are 10 students who like both tea and coffee.
+
+% - https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle#/media/File:Inclusion-exclusion.svg

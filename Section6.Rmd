@@ -18,6 +18,31 @@ Functions {data-navmenu="Section 3"}
 Column {.tabset}
 -------------------------------------------------
 
+
+### Functions
+
+#### *{Session 04:Functions}
+
+* Definitions
+
+
+
+[Domain]
+[Co-domain]
+[Image]
+[Ancestor]
+[Range]
+
+
+#### *{Polynomial Functions (4.1.5)}
+
+
+[Constants] $(P_0)$
+[Linear Functions] $(P_1)$
+[Quadratic Functions] $(P_2)$
+[Cubic Functions] $(P_3)$
+
+-----------------------------------
 ### Ordered Pairs
 
 https://math24.net/cartesian-product-sets.html

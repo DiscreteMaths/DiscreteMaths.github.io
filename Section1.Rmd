@@ -120,6 +120,18 @@ The minimum number of digits that repeats in such a number is known as the decim
 * <a href="https://www.youtube.com/watch?v=/sIowD1XjFJ8" >Repeating Decimals</a>
 
 
+### Floating Point Numbers
+
+<h4>Floating Point Numbers</h4>
+
+
+[mantissa] - the part of a floating-point number which represents the significant digits of that number.
+
+[abscissa]
+
+[radix point]
+
+
 
 ```{r child="sourcefiles/Numbers-IntroductionToNumbers.Rmd"}
 ```

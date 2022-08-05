@@ -158,3 +158,67 @@ f. $A^{c} \cup B^{c}$
 Use membership tables to prove De Morgan's Laws.
 
 
+### Set Specification
+
+
+
+
+#### *{2008  Zone A question 2a}
+$B = \{3n-1 :n \in Z^{+} \}$
+Describe the set B using the listing method
+
+
+* Let $n=1$. Consequently $3(1)-1 =2$
+* Let $n=2$. Likewise $3(2)-1 =5$
+* Let $n=3$. $3(3)-1 = 8 $
+* The repeated differences are 3. The next few values are 11, 14 and 17
+* So by the listing method $B= \{2,5,8,11,14,17,\ldots\}$
+
+
+$A = \{3,5,7,9,ldots \}$
+
+------------------------------------------
+
+Describe the set A using the rules of inclusion method
+
+
+* The repeated differences are 2.
+* We can say the rule has the form $2n+k$
+* For the first value n=1. Therefore $2+k=3$
+* Checking this , for the second value , n=2. Therefore $4+k=5$
+* Clearly k = 1.
+* $A = \{2n+1 :n \in Z^{+} \}$
+* So by the listing method $B= \{2,5,8,11,14,17,\ldots\}$
+
+### Complements
+
+--------------------------------------
+#### *{Worked Example}
+
+Suppose that the Universal Set $\mathcal{U}$ is the set of integers from 1 to 9.
+\[ \mathcal{U} = \{1,2,3,4,5,6,7,8,9\}, \]
+
+and that the set $\mathcal{A}$ contains the prime numbers between 1 to 9 inclusive.
+
+\[ \mathcal{A} = \{1,2,3,5,7\}, \]
+
+and that the set $\mathcal{B}$ contains the even numbers between 1 to 9 inclusive.
+
+\[ \mathcal{B} = \{2,4,6,8\}. \]
+
+
+
+--------------------------------------------------------
+#### Complements
+
+
+* The Complements of A and B are the elements of the universal set not contained in A and B.
+
+* The complements are denoted $\mathcal{A}^{\prime}$ and $\mathcal{B}^{\prime}$
+\[ \mathcal{A}^{\prime} = \{4,6,8,9\}, \]
+\[ \mathcal{B}^{\prime} = \{1,3,5,7,9\}, \]
+
+
+
+
+--------------------------------------------------------

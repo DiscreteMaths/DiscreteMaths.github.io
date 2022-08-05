@@ -2624,21 +2624,32 @@ window.FlexDashboardComponents.push({
 <p>The upper bound of the complexity of an algorithm.</p>
 <p>% <a href="http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o" class="uri">http://stackoverflow.com/questions/487258/plain-english-explanation-of-big-o</a> % <a href="http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html" class="uri">http://www.cs.dartmouth.edu/~dwagn/research/ordernotation.html</a></p>
 <p>Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.</p>
+<p>!(“/images/big-o-notation.png”)[big-o-notation]</p>
+<p>
 </div>
 <div id="big-o-notation---examples" class="section level3">
 <h3>Big O notation - Examples</h3>
 <p>Here are some common orders of growth along with descriptions and examples where possible.</p>
 <div id="o1" class="section level4">
 <h4>O(1)</h4>
-<p>O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.</p>
+<ul>
+<li><span class="math inline">\(O(1)\)</span> describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.</li>
+</ul>
 </div>
 <div id="on" class="section level4">
 <h4>O(N)</h4>
-<p><span class="math inline">\(O(N)\)</span> describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. The example below also demonstrates how Big O favours the worst-case performance scenario; a matching string could be found during any iteration of the for loop and the function would return early, but Big O notation will always assume the upper limit where the algorithm will perform the maximum number of iterations.</p>
+<ul>
+<li><span class="math inline">\(O(N)\)</span> describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set.</li>
+<li>The example below also demonstrates how Big O favours the worst-case performance scenario; a matching string could be found during any iteration of the for loop and the function would return early, but Big O notation will always assume the upper limit where the algorithm will perform the maximum number of iterations.</li>
+</ul>
 </div>
 <div id="on2" class="section level4">
 <h4><span class="math inline">\(O(N^2)\)</span></h4>
-<p><span class="math inline">\(O(N^2)\)</span> represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. Deeper nested iterations will result in <span class="math inline">\(O(N^3)\)</span>, <span class="math inline">\(O(N^4)\)</span> etc.</p>
+<ul>
+<li><span class="math inline">\(O(N^2)\)</span> represents an algorithm whose performance is directly proportional to the square of the size of the input data set.</li>
+<li>This is common with algorithms that involve nested iterations over the data set.</li>
+<li>Deeper nested iterations will result in <span class="math inline">\(O(N^3)\)</span>, <span class="math inline">\(O(N^4)\)</span> etc.</li>
+</ul>
 </div>
 </div>
 </div>

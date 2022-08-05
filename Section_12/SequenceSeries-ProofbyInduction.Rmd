@@ -1,5 +1,5 @@
 
-Proof By Induction {data-navmenu="Section 5"}
+Proof By Induction {data-navmenu="Proof By Induction"}
 =====================================
 
 Column {.tabset}

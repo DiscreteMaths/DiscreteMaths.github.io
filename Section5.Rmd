@@ -57,6 +57,59 @@ assume x and y are positive real numbers.
 
 
 
+---------------------------------------------------------
+#### {Powers}
+
+\[  2^ 4 = 2 \times 2 \times 2 \times 2 = 16 \]
+
+\[  5^ 3 = 5 \times 5 \times 5 =125 \]
+
+#### Special Cases 
+
+Anything to the power of zero is always 1
+
+\[  X^ 0 = 1 \mbox{ for all values of X} \]
+
+Sometimes the power is a negative number.
+
+\[  X^{-Y} = { 1 \over X^Y}  \]
+
+Example 
+\[  2^{-3} = { 1 \over 2^3} = { 1 \over 8}  \]
+
+---------------------------------------------------------
+#### {Exponentials Functions}
+
+\[ e^a \times e^b = e^{a+b}\]
+
+\[ (e^a )^b = e^{ab}\]
+
+
+
+---------------------------------------------------------
+#### {Precision Functions}
+
+
+* Absolute Value Function $| x |$
+* Ceiling Function $\lceil x \rceil$
+* Floor Function  $\lfloor x \rfloor $
+
+%\[ \lfloorx\rfloor\]
+
+ \textbf{Question1.2}: 
+ 
+State the range and domain of the following function
+\[ F(x) = \lfloor x-1 \rfloor \]
+
+
+\subsubsection{Special Cases}
+
+Anything to the power of zero is always 1
+
+\[  X^ 0 = 1 \mbox{ for all values of X} \]
+
+
+
 
  
 ```{r child="Section_05/Functions-MathsFunctions.Rmd"}

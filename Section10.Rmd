@@ -18,12 +18,13 @@ Discrete Mathematics {data-navmenu="Introduction"}
 Column {.tabset}
 --------------------
 
-### Graph Theory
+### Digraphs and Relations
 
 <a href="index.html">Back to main page</a>
 
 
 <h3>Digraphs and Relations</h3>
+
 
 A directed graph, also called a digraph, is a graph in which the edges have a direction. 
 This is usually indicated with an arrow on the edge; more formally, if $v$ and $w$ are vertices, an edge is an unordered pair ${v,w}$, while a directed edge, called an arc, is an ordered pair (v,w) or (w,v).
@@ -33,7 +34,38 @@ This is usually indicated with an arrow on the edge; more formally, if $v$ and $
 
 
 
+Relations {data-navmenu="Relations"}
+=====================================
 
+Column {.tabset}
+--------------------
+
+### Relations
+
+<h4>Types of Relations</h4>
+
+
+#### Transitive Relations
+
+Transitive relations are binary relations defined on a set such that if the first element is related to the second element, and the second element is related to the third element of the set, then the first element must be related to the third element. For example, if for three elements a, b, c in set A, if a = b and b = c, then a = c.
+
+
+#### PArtial Order 
+
+A partial order relation is a homogeneous relation that is transitive and antisymmetric. There are two common sub-definitions for a partial order relation, for reflexive and irreflexive partial order relations, also called "non-strict" and "strict" respectively.
 
 ```{r child="TutorialSheets/Digraphs-Tutorial-1.Rmd"}
 ```
+
+
+
+
+
+### {Discrete Maths : Relations}
+
+#### Example
+
+* Let $A = \{2, 3, 4, 6\}$ and $B = \{4, 6, 9\}$
+* Let R be the relation from A to B defined by \textit{\textbf{xRy}} if $x$
+divides $y$ exactly.
+
