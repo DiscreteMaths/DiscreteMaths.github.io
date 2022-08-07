@@ -94,14 +94,7 @@ All numbers except complex numbers are real numbers. Therefore, real numbers hav
 *  Fractions in bases other than 10
 
 
-#### Repeating Decimals
 
-
-A repeating decimal, also called a recurring decimal, is a number whose decimal representation eventually becomes periodic (i.e., the same sequence of digits repeats indefinitely). The repeating portion of a decimal expansion is conventionally denoted with a ***vinculum*** so, for example,
-
-$$ 
-1⁄7 = 0.\overline{142857} = 0.1428571428571428571...$$
-The minimum number of digits that repeats in such a number is known as the decimal period.
 
 ### Number Sets
 
@@ -147,20 +140,23 @@ The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is kn
 * <a href="https://www.youtube.com/watch?v=/sIowD1XjFJ8" >Repeating Decimals</a>
 
 
-### Floating Point Numbers
+
 
 <h4>Floating Point Numbers</h4>
 
 
 * ***mantissa*** - the part of a floating-point number which represents the significant digits of that number.
 
-[abscissa]
+* ***radix point*** - a radix point or radix character is a symbol used in the display of numbers to separate the integer part of the value from its fractional part. A decimal point is a well-known radix point.
 
-[radix point]
+### Cartestian Coordinates
+
+* ***abscissa***
 
 
 
 ```{r child="sourcefiles/Numbers-IntroductionToNumbers.Rmd"}
 ```
 
-
+```{r child="Section_02/Numbers-RepeatingDecimals.Rmd"}
+```

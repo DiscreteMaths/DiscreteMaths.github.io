@@ -73,6 +73,9 @@ We write this mathematically as
 ```
 
 
+```{r child="Section_03/Set-PowerSets.Rmd"}
+```
+
 ```{r child="Section_03/Set-Theory-Tutorial-1.Rmd"}
 ```
 ```{r child="Section_03/Set-Theory-Tutorial-2.Rmd"}

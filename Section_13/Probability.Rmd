@@ -9,8 +9,10 @@ Column {.tabset}
 <h4> Probability</h4>
 
 Probability theory provides a mathematical model for the study of randomness and uncertainty. 
-
-Many important decisions, whether from business, government, science, recreation or even one's personal life must be made with incomplete information or some degree of uncertainty. Hence, a formalized study of uncertain or random outcomes occupies an important role in modern society. In situations where one of any number of possible outcomes may occur, the mathematical model of probability theory offers methods for quantifying the likelihoods associated with those outcomes. Probability also provides tools which allow us to move beyond simply describing the information contained within a set of data (descriptive statistics) to actually inferring further information from that data (inferential statistics). 
+<p>
+Many important decisions, whether from business, government, science, recreation or even one's personal life must be made with incomplete information or some degree of uncertainty. Hence, a formalized study of uncertain or random outcomes occupies an important role in modern society. In situations where one of any number of possible outcomes may occur, the mathematical model of probability theory offers methods for quantifying the likelihoods associated with those outcomes. 
+<p>
+Probability also provides tools which allow us to move beyond simply describing the information contained within a set of data (descriptive statistics) to actually inferring further information from that data (inferential statistics). 
 
 Many of the early attempts to model likelihood arose from games of chance. 
 
@@ -46,7 +48,7 @@ ${\displaystyle \Omega }=\{{\text{H}},{\text{T}}\}}{\displaystyle \Omega =\{{\te
 #### Events
 Since individual outcomes might be of little practical use, more complex events are used to characterize groups of outcomes. 
 <p>
-An event is any subset of zero or more outcomes contained in a given sample space. A simple event consists of exactly one outcome and a compound event consists of more than one outcome. For example, when tossing a single coin ${\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}$, possible events are {\displaystyle \{\}}\{\}, {\displaystyle \{H\}}{\displaystyle \{H\}}, {\displaystyle \{T\}}{\displaystyle \{T\}}, and {\displaystyle \{H,T\}}{\displaystyle \{H,T\}}. 
+An event is any subset of zero or more outcomes contained in a given sample space. A simple event consists of exactly one outcome and a compound event consists of more than one outcome. For example, when tossing a single coin ${\displaystyle \Omega =\{{\text{H}},{\text{T}}\}}$, possible events are ${\displaystyle \{\}}\{\}, {\displaystyle \{H\}}{\displaystyle \{H\}}, {\displaystyle \{T\}}{\displaystyle \{T\}}$, and ${\displaystyle \{H,T\}}{\displaystyle \{H,T\}}$. 
 <p>
 
 * The collection of all such events is a σ-algebra ${\mathcal {F}}$. Intuitively, the probability of each of these sets is the chance that one of the events in the set will happen; ${\displaystyle P(\{{\text{H}}\})}$ is the chance of tossing a head, ${\displaystyle P(\{{\text{H}},{\text{T}}\})}$ is the chance of the coin landing either heads or tails, and {\displaystyle P(\{\})}{\displaystyle P(\{\})} is the probability of the coin landing neither heads nor tails, etc. 
@@ -77,3 +79,27 @@ Column {.tabset}
 ### Rules of Probability
 
 
+What Are the Rules of Probability in Math?
+
+<p><strong>1. Addition Rule</strong></p>
+
+<p>Whenever an event is the union of two other events, say A and B, then \(P(A \text { or } B)=P(A)+P(B)-P(A \cap B)\)</p>
+
+<p>\(\mathrm{P}(\mathrm{A} \cup \mathrm{B})=\mathrm{P}(\mathrm{A})+\mathrm{P}(\mathrm{B})-\mathrm{P}(\mathrm{A} \cap \mathrm{B})\)</p>
+
+<p><strong>2. Complementary Rule</strong></p>
+
+<p>Whenever an event is the complement of another event, specifically, if A is an event, then P(not A)=1&minus;P(A) or P(A&#39;) = 1 - P(A&#39;).</p>
+
+<p>\(P(A)+P\left(A^{\prime}\right)=1\)</p>
+
+<p><strong>3. Conditional Rule</strong></p>
+
+<p>When event A is already known to have occurred and probability of event B is desired, then P(B, given A)=P(A and B)P(A, given B). It can be vica versa in case of event B.<br />
+\( \mathrm{P}(\mathrm{B} \mid \mathrm{A})=\mathrm{P}(\mathrm{A} \cap \mathrm{B}) \mathrm{P}(\mathrm{A})\)</p>
+
+<p><strong>4. Multiplication Rule</strong></p>
+
+<p>Whenever an event is the intersection of two other events, that is, events A and B need to occur simultaneously. <span style="background-color:null;">Then </span>P(A and B)=P(A)&sdot;P(B)<span style="background-color:null;">.</span></p>
+
+<p>\(\mathrm{P}(\mathrm{A} \cap \mathrm{B})=\mathrm{P}(\mathrm{A}) \cdot \mathrm{P}(\mathrm{B} \mid \mathrm{A})\)</p>

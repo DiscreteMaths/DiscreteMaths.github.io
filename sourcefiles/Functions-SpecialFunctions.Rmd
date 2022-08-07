@@ -7,6 +7,59 @@ Column {.tabset}
 ### Absolute Value & Sign Functions
 
 
+#### Absolute Value Function 
+
+* The absolute value in maths is defined as the value which describes the distance of a number on the number line from 0 without taking into consideration which direction from zero the number lies. 
+* The absolute value of a number can never have negative values.
+* The absolute value of some real number $x$ is denoted $|x|$.
+* If the number is positive, the asbolute value is the same number.
+* If the number is negative, the asbolute value is the number without the minus sign.
+
+#### Examples
+
+*  $|2|=2$
+*  $|-2| = 2$
+
+--------------------
+
+#### Notation 
+
+*  Absolute Value Function $| x |$
+*  Ceiling Function $\lceil x \rceil$
+*  Floor Function  $\lfloor x \rfloor $
+
+
+### Worked Examples
+#### Solved Examples
+1. Find the value of $2|5x-1|$ if x = -2
+
+Solution: 
+
+\[\begin{eqnarray*}
+2 |5x-1| &=& 2| 5(-2)-1|\\
+ &=& 2|-10-1|\\
+ &=& 2|-11|\\
+ &=& 2|11|\\
+ &=& 22\\
+\end{eqnarray*}\]
+
+
+2. Find the absolute  value of 2| p-2| = 16
+
+Solution: 
+\[\begin{eqnarray*}
+2| p- 2| &=&  16\\
+ &=&  16/2\\
+ &=&  8\\
+\end{eqnarray*}\]
+
+
+
+$p - 2 = 8$ or $p - 2 = - 8$
+
+$p = 10 + 2$ or $p = - 8 + 2$
+
+$p = 12$ or $-6$
 ### Special Mathematical Functions
 
 #### Mathematical Operators
@@ -17,21 +70,6 @@ Column {.tabset}
 
 
 
-#### Notation 
-
-*  Absolute Value Function $| x |$
-*  Ceiling Function $\lceil x \rceil$
-*  Floor Function  $\lfloor x \rfloor $
 
 
 
-#### Absolute Value Function 
-
-*  The absolute value of some real number $x$ is denoted $|x|$.
-*  If the number is positive, the asbolute value is the same number.
-*  If the number is negative, the asbolute value is the number without the minus sign.
-*  $|2|=2$
-*  $|-2| = 2$
-
-
-### Tutorials

@@ -1,0 +1,67 @@
+Power Sets {data-navmenu="Set Theory"}
+====================================
+
+Column {.tabset}
+-------------------------------------------------------------
+
+
+
+### Set Theory Operations
+
+
+
+### Power set
+
+<h4> Power Set </h4>
+
+The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]. The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
+
+Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
+
+
+
+#### Power Set
+Power set of a set S is the set of all subsets of S including the empty set. The cardinality of a power set of a set S of cardinality n is $2^n$. Power set is denoted as $P(S)$.
+
+<p>
+#### Example 
+
+For a set $S={a,b,c,d}$ let us calculate the subsets 
+
+
+*  Subsets with 0 elements : $\{ \varnothing\}$ (the empty set)
+*  Subsets with 1 element : {a},{b},{c},{d}
+*  Subsets with 2 elements : {a,b},{a,c},{a,d},{b,c},{b,d},{c,d}
+*  Subsets with 3 elements : {a,b,c},{a,b,d},{a,c,d},{b,c,d}
+*  Subsets with 4 elements : {a,b,c,d}
+
+
+Hence, \[P(S)=
+{{\varnothing},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}\]
+\[|P(S)|=2^4=16\]
+Note: The power set of an empty set is also an empty set.
+
+$|P({\varnothing})|=2^0=1$
+ 
+
+#### Power set
+
+The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}.\] The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
+<p>
+Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
+
+#### Power Sets
+
+
+
+*  Consider the set A where $ A = \{w,x,y,z\}$
+*  There are 4 elements in set A.
+
+*  The power set of A contains 16 element data sets.
+
+ \[  \mathcal{P}(A) = \{\{ x \}, \{ y \} \{\{ x,y \}, \{ w,y \}\}  \]
+
+*  (i.e. 1 null set, 4 single element sets, 6 two -elements sets, 4 three element set and 1 four element set.)
+
+
+

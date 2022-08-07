@@ -45,7 +45,8 @@ way that can support a wide range of values.
 
 * The numbers are, in general, represented approximately to a fixed number of significant digits (the mantissa) and scaled using an exponent. 
 
-* In essence, computers are integer machines and are capable of representing real numbers only by using complex codes. The most popular code for representing real numbers is called the IEEE Floating-Point Standard .
+* In essence, computers are integer machines and are capable of representing real numbers only by using complex codes. 
+The most popular code for representing real numbers is called the ***IEEE Floating-Point Standard*** .
 The term floating point is derived from the fact that there is no fixed number of digits before and after the decimal point; that is, the decimal point can float. 
 
 * There are also representations in 
@@ -92,23 +93,23 @@ You can tell if it is Rational or Irrational by trying to write the number as a 
 *  <a title="Number Sets" href="http://youtu.be/9NAmHx3pAxk" >Number Sets</a>Natural Numbers, Integers, Rational Numbers and Real Numbers.
 *  <a title="Irrational Numbers" href="http://youtu.be/lu7uhe903TY" >Irrational Numbers</a>: Exercise involving irrational numbers.
 *  <a title="Rational Numbers" href="http://youtu.be/WnXnVADCXuQ" >Rational and Irrational Numbers</a>[4:16] (New Video)
-*  <a title="Repeating Decimals" href="http://youtu.be/mhHAJOQQ8kM" >Repeating Decimals</a>(video 1)
-*  <a title="Repeating Decimal" href="http://youtu.be/99qV28WmzH4" >Repeating Decimal </a>[3:37](Video 2)
 
 ### Fractional Numbers
-<div class="tag-box tag-box-v1 margin-bottom-20">
-	<p><span class="dropcap">I</span>f we want a definition, we can start by saying that fractional numbers are numbers that represent one or more parts of a unit that has been divided in equal parts.</p>
-	<img class="img-responsive" style="margin:10px auto;" src="images/faq/fraction.png" alt="fractional number" />
-	<p>The fractional numbers are figured out by two whole numbers (<b>the fraction terms</b>) that are separated by a horizontal line (<b>the fraction line</b>). The number above the line (<b>the numerator</b>) can be every whole number and the number below the line (<b>the denominator</b>) should be different from zero. Here are some examples of some kinds of fractions:</p>
-	<ul>
-		<li>Proper Fraction: the number is inferior to the denominator, for instance `3/4` ;</li>
-		<li>Improper fraction: the numerator is superior to the denominator, for instance `9/2` ;</li>
-		<li>Mixed Fraction or Mixed Numeral:  it is composed of a whole part and a fractional one, for instance `2 1/3` ;</li>
-		<li>Equivalent  Fractions: fractions that keep on the same proportion of another fraction, for instance: `5/2 = 10/4` ;</li>
-		<li>Irreducible Fraction: it cannot be simplified, for instance:  `4/3` ;</li>
-		<li>Decimal Fraction: the denominator is a power whose base is  10 (10,100,1000,...), for instance `8/100` ;</li>
-	</ul>
-	<h2>Is every number written as a fraction a fractional number?</h2>
-	<p>It may seem weird, but the answer is <b>No</b>. First of all because the definition tells us that fractional numbers are numbers that represent one or more parts of the whole. So, for instance, the number `10/2`, which is written as a fraction is not a fractional number, since it figures out number `5` and this one is not part of a whole. The number `sqrt 2 / 3` is also written as a fraction, but it is not a fractional number since the numerator is not a whole number.</p>
+<h4>Fractional Numbers</h4>
+If we want a definition, we can start by saying that fractional numbers are numbers that represent one or more parts of a unit that has been divided in equal parts.</p>
+<p>The fractional numbers are figured out by two whole numbers (<b>the fraction terms</b>) that are separated by a horizontal line (<b>the fraction line</b>). 
+<p>
+The number above the line (<b>the numerator</b>) can be every whole number and the number below the line (<b>the denominator</b>) should be different from zero. Here are some examples of some kinds of fractions:
+
+* Proper Fraction: the number is inferior to the denominator, for instance `3/4` ;
+* Improper fraction: the numerator is superior to the denominator, for instance `9/2` ;
+* Mixed Fraction or Mixed Numeral:  it is composed of a whole part and a fractional one, for instance `2 1/3` ;
+* Equivalent  Fractions: fractions that keep on the same proportion of another fraction, for instance: `5/2 = 10/4` ;
+* Irreducible Fraction: it cannot be simplified, for instance:  `4/3` ;
+* Decimal Fraction: the denominator is a power whose base is  10 (10,100,1000,...), for instance `8/100` ;
+
+<h5>Is every number written as a fraction a fractional number?</h5>
+<p>It may seem weird, but the answer is <b>No</b>. First of all because the definition tells us that fractional numbers are numbers that represent one or more parts of the whole. So, for instance, the number `10/2`, which is written as a fraction is not a fractional number, since it figures out number `5` and this one is not part of a whole.
+
+The number `sqrt 2 / 3` is also written as a fraction, but it is not a fractional number since the numerator is not a whole number.</p>
 		
-	</div>

@@ -7,16 +7,10 @@ Column {.tabset}
 
 ### Set Theory - Worksheet 2
 
+#### Set Specification
 
+*** 2008  Zone A question 2a***
 
-
-
-### Set Specification
-
-
-
-
-#### *{2008  Zone A question 2a}
 $B = \{3n-1 :n \in Z^{+} \}$
 Describe the set B using the listing method
 

@@ -10,13 +10,16 @@ Column {.tabset}
 
 *  The Universal Set $\mathcal{U}$
 
-|| Operation | Notation |
-|--------------------:|----------:|----------:| --------------------:| 
-|| Union| $A \cup B$ | ||
-||Intersection |||
-|| Set Difference |||
-||  Relative Difference |||
 
+\[
+\begin{array}{|l|c|}
+Operation & Notation \\ \hline
+Union & $A \cup B$ \\ \hline
+Intersection & \\ \hline
+Set Difference & \\ \hline
+Relative Difference & \\ \hline
+\end{array}
+\]
 
 
 ### Intersection
@@ -62,59 +65,30 @@ A-B is just A; red, green and blue were not elements of A, so no difference is m
 The set difference of sets A and B (denoted by $A–B$) is the set of elements which are only in A but not in B. Hence, $A-B={x|x \in A AND x \notin B}$.
 Example: If $A={10,11,12,13}$ and $B={13,14,15}$, then $(A-B)={10,11,12}$ and $(B-A)={14,15}$. Here, we can see (A-B)?(B-A)(A-B)?(B-A) Set Difference
 
-### Power set
+### Intersection
 
-<h4> Power Set </h4>
+#### Intersection 
 
-The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]. The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
+* Intersection of two sets describes the elements that are members of both the specified Sets
 
-Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
+* The intersection is denoted $\mathcal{A\cap B}$ 
+\[ \mathcal{A\cap B} = \{2\}\]
 
+* only one element is a member of both A and B.
 
+--------------------------------------------------------
 
-#### Power Set
-Power set of a set S is the set of all subsets of S including the empty set. The cardinality of a power set of a set S of cardinality n is $2^n$. Power set is denoted as $P(S)$.
+### Set Difference 
 
-<p>
-#### Example 
-
-For a set $S={a,b,c,d}$ let us calculate the subsets 
-
-
-*  Subsets with 0 elements : $\{ \varnothing\}$ (the empty set)
-*  Subsets with 1 element : {a},{b},{c},{d}
-*  Subsets with 2 elements : {a,b},{a,c},{a,d},{b,c},{b,d},{c,d}
-*  Subsets with 3 elements : {a,b,c},{a,b,d},{a,c,d},{b,c,d}
-*  Subsets with 4 elements : {a,b,c,d}
+#### Set Difference
 
 
-Hence, \[P(S)=
-{{\varnothing},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}\]
-\[|P(S)|=2^4=16\]
-Note: The power set of an empty set is also an empty set.
+* The Set Difference of A with regard to B are list of elements of A not contained by B.
 
-$|P({\varnothing})|=2^0=1$
- 
+* The complements are denoted $\mathcal{A-B}$ and $\mathcal{B-A}$
+\[ \mathcal{A-B} = \{1,3,5,7\}, \]
 
-#### Power set
-
-The power set of X, $P(X)$, is the set whose elements are all the subsets of X. Thus \[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}.\] The power set of the empty set $P(\{\})$ = $\{\{\}\}$. 
-<p>
-Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set. 
-
-#### Power Sets
-
-
-
-*  Consider the set A where $ A = \{w,x,y,z\}$
-*  There are 4 elements in set A.
-
-*  The power set of A contains 16 element data sets.
-
- \[  \mathcal{P}(A) = \{\{ x \}, \{ y \} \{\{ x,y \}, \{ w,y \}\}  \]
-
-*  (i.e. 1 null set, 4 single element sets, 6 two -elements sets, 4 three element set and 1 four element set.)
-
+\[ \mathcal{B-A} = \{4,6,8\}, \]
 
 
 
@@ -126,30 +100,6 @@ Note that in both cases the cardinality of the power set is strictly greater tha
 * In set theory, the Cartesian product of two sets A and B, denoted $A \times B$, is the set of all ordered pairs (a, b) where $a$ is in $A$ and $b$ is in $B$.
 * Cartesian Product is the multiplication of two sets to form the set of all ordered pairs.
 * The first element of the ordered pair belong to first set and second pair belong the second set. 
-
-
-\subsubsection*{Intersection}
-
-
-* Intersection of two sets describes the elements that are members of both the specified Sets
-
-* The intersection is denoted $\mathcal{A\cap B}$ 
-\[ \mathcal{A\cap B} = \{2\}\]
-
-* only one element is a member of both A and B.
-
---------------------------------------------------------
-
-\subsubsection*{Set Difference}
-
-
-* The Set Difference of A with regard to B are list of elements of A not contained by B.
-
-* The complements are denoted $\mathcal{A-B}$ and $\mathcal{B-A}$
-\[ \mathcal{A-B} = \{1,3,5,7\}, \]
-
-\[ \mathcal{B-A} = \{4,6,8\}, \]
-
 
 
 

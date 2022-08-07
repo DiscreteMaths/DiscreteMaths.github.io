@@ -16,20 +16,20 @@ Column {.tabset}
 <p>For a truth table:</p>
 
 <p>$$\begin{array}{c|c|c|c|c|c|c|c}
-A &amp; B &amp; C &amp; A\cup B &amp; (A\cup B)\setminus C &amp; A\setminus C &amp; B\setminus C &amp; (A\setminus C)\cup (B\setminus C)\\
+A & B & C & A\cup B & (A\cup B)\setminus C & A\setminus C & B\setminus C & (A\setminus C)\cup (B\setminus C)\\
 \hline
 \hline
-0 &amp; 0 &amp; 0 &amp; 0 &amp; 0  &amp; 0 &amp; 0 &amp; 0\\
-0 &amp; 0 &amp; 1 &amp; 0 &amp; 0  &amp; 0 &amp; 0 &amp; 0\\
+0 & 0 & 0 & 0 & 0  & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0  & 0 & 0 & 0\\
 \hline
-0 &amp; 1 &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 1\\
-0 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+0 & 1 & 0 & 1 & 1 & 0 & 1 & 1\\
+0 & 1 & 1 & 1 & 0 & 0 & 0 & 0\\
 \hline
-1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; \color{red}{1}\\
-1 &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+1 & 0 & 0 & 1 & 1 & 1 & 0 & \color{red}{1}\\
+1 & 0 & 1 & 1 & 0 & 0 & 0 & 0\\
 \hline
-1 &amp; 1 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1\\
-1 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0
+1 & 1 & 0 & 1 & 1 & 1 & 1 & 1\\
+1 & 1 & 1 & 1 & 0 & 0 & 0 & 0
 \end{array}$$</p>
 
 

@@ -1,0 +1,25 @@
+Repeating Decimals {data-navmenu="Fractional Numbers"}
+==================================
+
+Column{.tabset}
+-------------------------------------------------
+
+### Repeating Decimals
+
+<h4> Repeating Decimals</h4>
+
+
+
+A repeating decimal, also called a recurring decimal, is a number whose decimal representation eventually becomes periodic (i.e., the same sequence of digits repeats indefinitely). The repeating portion of a decimal expansion is conventionally denoted with a ***vinculum*** so, for example,
+
+$$ 1⁄7 = 0.\overline{142857} = 0.1428571428571428571...$$
+
+The minimum number of digits that repeats in such a number is known as the decimal period.
+
+
+
+#### Repeating Decimals - Videos
+
+*  <a title="Repeating Decimals" href="http://youtu.be/mhHAJOQQ8kM" >Repeating Decimals</a>(video 1)
+*  <a title="Repeating Decimal" href="http://youtu.be/99qV28WmzH4" >Repeating Decimal </a>[3:37](Video 2)
+

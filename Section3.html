@@ -2704,30 +2704,6 @@ BUILDER METHOD
 <h4>Sets containing Sets</h4>
 <p>Sets can of course be elements of other sets; for example we can form the set <span class="math inline">\(G = \{A,B,C,D,E\}\)</span>, whose five elements are the sets we considered earlier. Then, for instance, <span class="math inline">\(A\in G\)</span>. (Note that this is very different from saying <span class="math inline">\(A\subseteq G\)</span>)</p>
 </div>
-</div>
-<div id="number-sets" class="section level3">
-<h3>Number Sets</h3>
-<p>The font that the symbols are written in (i.e. <span class="math inline">\(\mathbb{N}\)</span>, <span class="math inline">\(\mathbb{R}\)</span>) is known as <strong><em>blackboard font</em></strong>.</p>
-<ul>
-<li><span class="math inline">\(\mathbb{N}\)</span> Natural Numbers (<span class="math inline">\(0,1,2,3\)</span>) (Not used in the CIS102 Syllabus)</li>
-<li><span class="math inline">\(\mathbb{Z}\)</span> Integers (<span class="math inline">\(-3,-2,-1,0,1,2,3, \ldots\)</span>) \begin{itemize}</li>
-<li>[<span class="math inline">\(\ast\)</span>] <span class="math inline">\(\mathbb{Z}^{+}\)</span> Positive Integers</li>
-<li>[<span class="math inline">\(\ast\)</span>] <span class="math inline">\(\mathbb{Z}^{-}\)</span> Negative Integers \end{itemize}</li>
-<li><span class="math inline">\(\mathbb{Q}\)</span> Rational Numbers</li>
-<li><span class="math inline">\(\mathbb{R}\)</span> Real Numbers</li>
-</ul>
-<div id="sets-of-numbers" class="section level4">
-<h4>Sets of Numbers</h4>
-<ul>
-<li><p><span class="math inline">\(\mathbb{Z}\)</span> Set of all integers</p></li>
-<li><p><span class="math inline">\(\mathbb{Q}\)</span> Set of all rational numbers</p></li>
-<li><p><span class="math inline">\(\mathbb{R}\)</span> Set of all real numbers</p></li>
-<li><p><span class="math inline">\(\mathbb{Z}^{+}\)</span> Set of all positive integers</p></li>
-<li><p><span class="math inline">\(\mathbb{Z}^{-}\)</span> Set of all negative integers</p></li>
-<li><p><span class="math inline">\(\mathbb{R}^{+}\)</span> Set of all positive real numbers</p></li>
-<li><p><span class="math inline">\(\mathbb{R}^{-}\)</span> Set of all negative real numbers</p></li>
-</ul>
-</div>
 <div id="elements-of-a-set-1" class="section level4">
 <h4>Elements of a Set</h4>
 <ul>
@@ -2768,7 +2744,7 @@ BUILDER METHOD
 <p>A very important notion is that of a subset. X is a subset of Y, written <span class="math inline">\(X \subseteq Y\)</span> (sometimes simply as<span class="math inline">\(X \subset Y\)</span>), if every element of X is also an element of Y. From before <span class="math inline">\(C\subseteq A \subseteq E\)</span>.</p>
 </div>
 <div id="proper-subset" class="section level4">
-<h4>Proper Subset}</h4>
+<h4>Proper Subset</h4>
 <p>The term “proper subset” can be defined as “subset of but not equal to”. A Set X is a proper subset of set Y (Written as X⊂YX⊂Y) if every element of X is an element of set Y and <span class="math inline">\(|X|&lt;|Y|\)</span>.</p>
 </div>
 <div id="sets-containing-sets-1" class="section level4">
@@ -2855,42 +2831,15 @@ NOTATIONS FOR A SET:
 <ul>
 <li>The Universal Set <span class="math inline">\(\mathcal{U}\)</span></li>
 </ul>
-<table>
-<thead>
-<tr class="header">
-<th align="right"></th>
-<th align="right">Operation</th>
-<th align="right">Notation</th>
-<th align="right"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right"></td>
-<td align="right">Union</td>
-<td align="right"><span class="math inline">\(A \cup B\)</span></td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="right">Intersection</td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right"></td>
-<td align="right">Set Difference</td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="right">Relative Difference</td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-</tbody>
-</table>
+<p><span class="math display">\[
+\begin{array}{|l|c|}
+Operation &amp; Notation \\ \hline
+Union &amp; $A \cup B$ \\ \hline
+Intersection &amp; \\ \hline
+Set Difference &amp; \\ \hline
+Relative Difference &amp; \\ \hline
+\end{array}
+\]</span></p>
 </div>
 <div id="intersection" class="section level3">
 <h3>Intersection</h3>
@@ -2926,49 +2875,27 @@ Relative Difference
 <p>The set difference of sets A and B (denoted by <span class="math inline">\(A–B\)</span>) is the set of elements which are only in A but not in B. Hence, <span class="math inline">\(A-B={x|x \in A AND x \notin B}\)</span>. Example: If <span class="math inline">\(A={10,11,12,13}\)</span> and <span class="math inline">\(B={13,14,15}\)</span>, then <span class="math inline">\((A-B)={10,11,12}\)</span> and <span class="math inline">\((B-A)={14,15}\)</span>. Here, we can see (A-B)?(B-A)(A-B)?(B-A) Set Difference</p>
 </div>
 </div>
-<div id="power-set" class="section level3">
-<h3>Power set</h3>
-<h4>
-Power Set
-</h4>
-<p>The power set of X, <span class="math inline">\(P(X)\)</span>, is the set whose elements are all the subsets of X. Thus <span class="math display">\[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]</span>. The power set of the empty set <span class="math inline">\(P(\{\})\)</span> = <span class="math inline">\(\{\{\}\}\)</span>.</p>
-<p>Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set.</p>
-<div id="power-set-1" class="section level4">
-<h4>Power Set</h4>
-<p>Power set of a set S is the set of all subsets of S including the empty set. The cardinality of a power set of a set S of cardinality n is <span class="math inline">\(2^n\)</span>. Power set is denoted as <span class="math inline">\(P(S)\)</span>.</p>
-<p>
-</div>
-<div id="example" class="section level4">
-<h4>Example</h4>
-<p>For a set <span class="math inline">\(S={a,b,c,d}\)</span> let us calculate the subsets</p>
+<div id="intersection-1" class="section level3">
+<h3>Intersection</h3>
+<div id="intersection-2" class="section level4">
+<h4>Intersection</h4>
 <ul>
-<li>Subsets with 0 elements : <span class="math inline">\(\{ \varnothing\}\)</span> (the empty set)</li>
-<li>Subsets with 1 element : {a},{b},{c},{d}</li>
-<li>Subsets with 2 elements : {a,b},{a,c},{a,d},{b,c},{b,d},{c,d}</li>
-<li>Subsets with 3 elements : {a,b,c},{a,b,d},{a,c,d},{b,c,d}</li>
-<li>Subsets with 4 elements : {a,b,c,d}</li>
+<li><p>Intersection of two sets describes the elements that are members of both the specified Sets</p></li>
+<li><p>The intersection is denoted <span class="math inline">\(\mathcal{A\cap B}\)</span> <span class="math display">\[ \mathcal{A\cap B} = \{2\}\]</span></p></li>
+<li><p>only one element is a member of both A and B.</p></li>
 </ul>
-<p>Hence, <span class="math display">\[P(S)=
-{{\varnothing},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}\]</span> <span class="math display">\[|P(S)|=2^4=16\]</span> Note: The power set of an empty set is also an empty set.</p>
-<p><span class="math inline">\(|P({\varnothing})|=2^0=1\)</span></p>
+<hr />
 </div>
-<div id="power-set-2" class="section level4">
-<h4>Power set</h4>
-The power set of X, <span class="math inline">\(P(X)\)</span>, is the set whose elements are all the subsets of X. Thus <span class="math display">\[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}.\]</span> The power set of the empty set <span class="math inline">\(P(\{\})\)</span> = <span class="math inline">\(\{\{\}\}\)</span>.
-<p>
-<p>Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set.</p>
 </div>
-<div id="power-sets" class="section level4">
-<h4>Power Sets</h4>
+<div id="set-difference-2" class="section level3">
+<h3>Set Difference</h3>
+<div id="set-difference-3" class="section level4">
+<h4>Set Difference</h4>
 <ul>
-<li><p>Consider the set A where $ A = {w,x,y,z}$</p></li>
-<li><p>There are 4 elements in set A.</p></li>
-<li><p>The power set of A contains 16 element data sets.</p></li>
+<li><p>The Set Difference of A with regard to B are list of elements of A not contained by B.</p></li>
+<li><p>The complements are denoted <span class="math inline">\(\mathcal{A-B}\)</span> and <span class="math inline">\(\mathcal{B-A}\)</span> <span class="math display">\[ \mathcal{A-B} = \{1,3,5,7\}, \]</span></p></li>
 </ul>
-<p><span class="math display">\[  \mathcal{P}(A) = \{\{ x \}, \{ y \} \{\{ x,y \}, \{ w,y \}\}  \]</span></p>
-<ul>
-<li>(i.e. 1 null set, 4 single element sets, 6 two -elements sets, 4 three element set and 1 four element set.)</li>
-</ul>
+<p><span class="math display">\[ \mathcal{B-A} = \{4,6,8\}, \]</span></p>
 </div>
 </div>
 <div id="cartesian-product" class="section level3">
@@ -2981,17 +2908,6 @@ Cartesian Product
 <li>Cartesian Product is the multiplication of two sets to form the set of all ordered pairs.</li>
 <li>The first element of the ordered pair belong to first set and second pair belong the second set.</li>
 </ul>
-<ul>
-<li><p>Intersection of two sets describes the elements that are members of both the specified Sets</p></li>
-<li><p>The intersection is denoted <span class="math inline">\(\mathcal{A\cap B}\)</span> <span class="math display">\[ \mathcal{A\cap B} = \{2\}\]</span></p></li>
-<li><p>only one element is a member of both A and B.</p></li>
-</ul>
-<hr />
-<ul>
-<li><p>The Set Difference of A with regard to B are list of elements of A not contained by B.</p></li>
-<li><p>The complements are denoted <span class="math inline">\(\mathcal{A-B}\)</span> and <span class="math inline">\(\mathcal{B-A}\)</span> <span class="math display">\[ \mathcal{A-B} = \{1,3,5,7\}, \]</span></p></li>
-</ul>
-<p><span class="math display">\[ \mathcal{B-A} = \{4,6,8\}, \]</span></p>
 </div>
 <div id="question-2" class="section level3">
 <h3>*{Question 2}</h3>
@@ -3028,20 +2944,20 @@ For a truth table:
 </p>
 <p>
 <span class="math display">\[\begin{array}{c|c|c|c|c|c|c|c}
-A &amp;amp; B &amp;amp; C &amp;amp; A\cup B &amp;amp; (A\cup B)\setminus C &amp;amp; A\setminus C &amp;amp; B\setminus C &amp;amp; (A\setminus C)\cup (B\setminus C)\\
+A &amp; B &amp; C &amp; A\cup B &amp; (A\cup B)\setminus C &amp; A\setminus C &amp; B\setminus C &amp; (A\setminus C)\cup (B\setminus C)\\
 \hline
 \hline
-0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0  &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\
-0 &amp;amp; 0 &amp;amp; 1 &amp;amp; 0 &amp;amp; 0  &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0  &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0 &amp; 0  &amp; 0 &amp; 0 &amp; 0\\
 \hline
-0 &amp;amp; 1 &amp;amp; 0 &amp;amp; 1 &amp;amp; 1 &amp;amp; 0 &amp;amp; 1 &amp;amp; 1\\
-0 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\
+0 &amp; 1 &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 1\\
+0 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
 \hline
-1 &amp;amp; 0 &amp;amp; 0 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 0 &amp;amp; \color{red}{1}\\
-1 &amp;amp; 0 &amp;amp; 1 &amp;amp; 1 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\\
+1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; \color{red}{1}\\
+1 &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
 \hline
-1 &amp;amp; 1 &amp;amp; 0 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1\\
-1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 1 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0
+1 &amp; 1 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1\\
+1 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0
 \end{array}\]</span>
 </p>
 <p><span class="math display">\[
@@ -3055,9 +2971,63 @@ A &amp;amp; B &amp;amp; C &amp;amp; A\cup B &amp;amp; (A\cup B)\setminus C &amp;
 </div>
 </div>
 </div>
+<div id="power-sets" class="section level1" data-navmenu="Set Theory">
+<h1 data-navmenu="Set Theory">Power Sets</h1>
+<div id="column-5" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="set-theory-operations-1" class="section level3">
+<h3>Set Theory Operations</h3>
+</div>
+<div id="power-set" class="section level3">
+<h3>Power set</h3>
+<h4>
+Power Set
+</h4>
+<p>The power set of X, <span class="math inline">\(P(X)\)</span>, is the set whose elements are all the subsets of X. Thus <span class="math display">\[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}\]</span>. The power set of the empty set <span class="math inline">\(P(\{\})\)</span> = <span class="math inline">\(\{\{\}\}\)</span>.</p>
+<p>Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set.</p>
+<div id="power-set-1" class="section level4">
+<h4>Power Set</h4>
+<p>Power set of a set S is the set of all subsets of S including the empty set. The cardinality of a power set of a set S of cardinality n is <span class="math inline">\(2^n\)</span>. Power set is denoted as <span class="math inline">\(P(S)\)</span>.</p>
+<p>
+</div>
+<div id="example" class="section level4">
+<h4>Example</h4>
+<p>For a set <span class="math inline">\(S={a,b,c,d}\)</span> let us calculate the subsets</p>
+<ul>
+<li>Subsets with 0 elements : <span class="math inline">\(\{ \varnothing\}\)</span> (the empty set)</li>
+<li>Subsets with 1 element : {a},{b},{c},{d}</li>
+<li>Subsets with 2 elements : {a,b},{a,c},{a,d},{b,c},{b,d},{c,d}</li>
+<li>Subsets with 3 elements : {a,b,c},{a,b,d},{a,c,d},{b,c,d}</li>
+<li>Subsets with 4 elements : {a,b,c,d}</li>
+</ul>
+<p>Hence, <span class="math display">\[P(S)=
+{{\varnothing},{a},{b},{c},{d},{a,b},{a,c},{a,d},{b,c},{b,d},{c,d},{a,b,c},{a,b,d},{a,c,d},{b,c,d},{a,b,c,d}}\]</span> <span class="math display">\[|P(S)|=2^4=16\]</span> Note: The power set of an empty set is also an empty set.</p>
+<p><span class="math inline">\(|P({\varnothing})|=2^0=1\)</span></p>
+</div>
+<div id="power-set-2" class="section level4">
+<h4>Power set</h4>
+The power set of X, <span class="math inline">\(P(X)\)</span>, is the set whose elements are all the subsets of X. Thus <span class="math display">\[P(A) = \{ \{\}, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\}.\]</span> The power set of the empty set <span class="math inline">\(P(\{\})\)</span> = <span class="math inline">\(\{\{\}\}\)</span>.
+<p>
+<p>Note that in both cases the cardinality of the power set is strictly greater than that of base set: No one-to-one correspondence exists between the set and its power set.</p>
+</div>
+<div id="power-sets-1" class="section level4">
+<h4>Power Sets</h4>
+<ul>
+<li><p>Consider the set A where $ A = {w,x,y,z}$</p></li>
+<li><p>There are 4 elements in set A.</p></li>
+<li><p>The power set of A contains 16 element data sets.</p></li>
+</ul>
+<p><span class="math display">\[  \mathcal{P}(A) = \{\{ x \}, \{ y \} \{\{ x,y \}, \{ w,y \}\}  \]</span></p>
+<ul>
+<li>(i.e. 1 null set, 4 single element sets, 6 two -elements sets, 4 three element set and 1 four element set.)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 <div id="set-theory---worksheets" class="section level1" data-navmenu="Exercises">
 <h1 data-navmenu="Exercises">Set Theory - Worksheets</h1>
-<div id="column-5" class="section level2 tabset">
+<div id="column-6" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="set-theory---worksheet-1" class="section level3">
 <h3>Set Theory - Worksheet 1</h3>
@@ -3230,15 +3200,13 @@ A &amp;amp; B &amp;amp; C &amp;amp; A\cup B &amp;amp; (A\cup B)\setminus C &amp;
 </div>
 <div id="set-theory---worksheets-1" class="section level1" data-navmenu="Exercises">
 <h1 data-navmenu="Exercises">Set Theory - Worksheets</h1>
-<div id="column-6" class="section level2 tabset">
+<div id="column-7" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="set-theory---worksheet-2-1" class="section level3">
 <h3>Set Theory - Worksheet 2</h3>
-</div>
-<div id="set-specification-2" class="section level3">
-<h3>Set Specification</h3>
-<div id="zone-a-question-2a-1" class="section level4">
-<h4>*{2008 Zone A question 2a}</h4>
+<div id="set-specification-2" class="section level4">
+<h4>Set Specification</h4>
+<p>*** 2008 Zone A question 2a***</p>
 <p><span class="math inline">\(B = \{3n-1 :n \in Z^{+} \}\)</span> Describe the set B using the listing method</p>
 <ul>
 <li>Let <span class="math inline">\(n=1\)</span>. Consequently <span class="math inline">\(3(1)-1 =2\)</span></li>
