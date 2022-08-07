@@ -65,6 +65,7 @@ Using the above sentences as examples, we can say that if the sun is visible, th
 * <a href="https://youtube.com/watch?v=/nn2QdOEeFBU">Logic: Truth Tables -  Worked Example 2</a>
 * <a href= "https://youtube.com/watch?v=/pvZrpzLzM60"> Logical Proofs -Truth Tables Example  </a>
 <p>
+
 #### Older Videos
 
 * <a href = "https://www.youtube.com/watch?v=/qLP5fnux3RA"> Introduction to Truth Tables</a>
@@ -73,25 +74,3 @@ Using the above sentences as examples, we can say that if the sun is visible, th
 * <a href = "https://www.youtube.com/watch?v=/Z9YVIP7v-Ik"> Proof using Truth Tables</a>
 * <a href = "https://www.youtube.com/watch?v=/4ZSgi6lmd_4"> Logic proof by truth table</a>
 
-### Conditional Connectives
-
-* Truth tables for condition connectives  
-* The contrapositive
-
-* <a href = "https://www.youtube.com/watch?v=/FT9ocP-L6Mc"> Conditional Connectives :  p implies q </a>
-* <a href = "https://www.youtube.com/watch?v=/dnem1E71TI4"> Logic 2001 Implication Connective</a>
-
-Logic Networks {data-navmenu="Logic Networks"}
-====================================
-
-Column {.tabset}
--------------------------------
-
-
-
-### Logic Networks
-
-#### Logical Operations
-
-* <a href = "https://www.youtube.com/watch?v=/DtkPULIOlWQ"> Logic Networks: (Example 1)</a>
-* <a href = "https://www.youtube.com/watch?v=/NzFMJwUR82k"> Logic Networks: (Example 2)</a>

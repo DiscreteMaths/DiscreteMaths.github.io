@@ -16,14 +16,6 @@ Column {.tabset}
 * To avoid confusion with decimal, octal or other numbering systems, hexadecimal numbers are sometimes written with a "h" after or "0x" before the number. For example, 63h and 0x63 mean 63 hexadecimal.
 
 
-### Octal Numbers
-
-
-<h5> Octal Numbers </h5>
-
-* The octal numeral system, or oct for short, is the base-8 number system, and uses the digits 0 to 7.
-* Octal numerals can be made from binary numerals by grouping consecutive binary digits into groups of three (starting from the right). 
-* For example, the binary representation for decimal 74 is 1001010.
 
 ### Videos
 
@@ -33,7 +25,5 @@ Column {.tabset}
 * <a href="https://youtube.com/watch?v=/j3r6EjRRbLw">Converting Hexadecimal Numbers to Base 10 - Worked Example 2	</a>
 * <a href="https://youtube.com/watch?v=/7Ov_Yhj1UL4">Converting Hexadecimal Numbers to Base 10 - Worked Example 3	</a>
 * <a href="https://youtube.com/watch?v=/EU3lFVJa7_I">Converting Hexadecimal Numbers to Base 10 - Worked Example 4	</a>
-* <a href="https://youtube.com/watch?v=/mCAF6zsrDoY">Converting Hexadecimal Numbers To Octal - Worked Example 1	</a>
-* <a href="https://youtube.com/watch?v=/57Hc4Q652R0">Converting Hexadecimal Numbers To Octal - Worked Example 2	</a>
-* <a href="https://youtube.com/watch?v=/lfPXeBH-oN8">Converting Hexadecimal Numbers To Octal - Worked Example 3	</a>
+
 

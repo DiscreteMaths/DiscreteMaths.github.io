@@ -1,0 +1,19 @@
+Binary Multiplication {data-navmenu="Binary Numbers"}
+==================================
+
+Column{.tabset}
+-------------------------------------------------
+
+### Binary Multiplication 
+
+#### Binary Numbers Multiplication
+
+* <a href="https://www.youtube.com/watch?v=/Ai5F0KLyh2Q"> Left Shifting Technique for Binary Multiplication</a>
+
+* <a href="https://www.youtube.com/watch?v=/P_vd1vkafYk">  Binary Subtraction: using Twos Complement</a>
+    
+* <a href="https://www.youtube.com/watch?v=/WfWHdWwITgk"> Binary Multiplication: using Left Shifting</a>
+
+* <a href="https://www.youtube.com/watch?v=/A08P9ZJsLOs"> Relations -Example</a>
+
+* <a href="https://www.youtube.com/watch?v=/-svSPXMGyfs "> Binary Multiplication ( Binary Numbers Tutorial Sheet)		</a>

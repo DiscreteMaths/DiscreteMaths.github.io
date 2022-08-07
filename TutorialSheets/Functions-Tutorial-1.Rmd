@@ -1,5 +1,5 @@
 
-Exercises: Functions {data-navmenu="Section 3"}
+Exercises: Functions {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
@@ -14,7 +14,7 @@ Column {.tabset}
 #### Exercise 1
 
 http://www.analyzemath.com/college_algebra/problems_5.html
-Let X = {1, 2, 3, 4} and Y={A,B,C,D}. Determine whether each relation is a function, with X -> Y.
+Let X = {1, 2, 3, 4} and Y={A,B,C,D}. Determine whether each relation is a function, with $X -> Y$.
 
 
 (a) f = {(2, C), (1, D), (2, A), (3,B), (4, D)}
@@ -31,8 +31,8 @@ No The element 2 does not appear as the first coordinate in any ordered pair in 
 
 Complete the following table for the functions 
 
-\item $g(x) = \mbox{log}_3x$,
-\item $h(x) =\sqrt[3]{x}$.
+* $g(x) = \mbox{log}_3x$,
+* $h(x) =\sqrt[3]{x}$.
  
 \[
 \begin{array}{|c||c|c|c|c|c|c|}
@@ -160,10 +160,12 @@ is defined by the rule:
 \[f(x) = \mbox{the number of zeros in x}\]
 for each binary string $x \in S$.\\
 Find:
-\begin{enumerate}
-* the number of elements in the domain
-* $f(1000)$
-* the set of pre-images of 1
-* the range of $f$.
-\end{enumerate}
+
+a. the number of elements in the domain
+b. $f(1000)$
+c. the set of pre-images of 1
+d. the range of $f$.
+
+------------------
+
 [(c)]

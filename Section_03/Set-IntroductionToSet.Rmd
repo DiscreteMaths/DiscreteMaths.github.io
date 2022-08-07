@@ -105,31 +105,6 @@ Sets can of course be elements of other sets; for example we can form the set $G
 
 
 
-### Number Sets
-
-The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as ***blackboard font***.
-
-*  $\mathbb{N}$ Natural Numbers ($0,1,2,3$) 
-(Not used in the CIS102 Syllabus)
-*  $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
-\begin{itemize}
-* [$\ast$] $\mathbb{Z}^{+}$ Positive Integers
-* [$\ast$] $\mathbb{Z}^{-}$ Negative Integers
-\end{itemize}
-*  $\mathbb{Q}$ Rational Numbers
-*  $\mathbb{R}$ Real Numbers
-
-#### Sets of Numbers
-
-*  $\mathbb{Z}$ Set of all integers
-*  $\mathbb{Q}$ Set of all rational numbers
-*  $\mathbb{R}$ Set of all real numbers
-
-
-*  $\mathbb{Z}^{+}$ Set of all positive integers
-*  $\mathbb{Z}^{-}$ Set of all negative integers
-*  $\mathbb{R}^{+}$ Set of all positive real numbers
-*  $\mathbb{R}^{-}$ Set of all negative real numbers
 
 
 #### Elements of a Set
@@ -189,7 +164,7 @@ The $\in$  sign indicates set membership. If x is an element (or "member") of a 
 
 A very important notion is that of a subset. X is a subset of Y, written $X \subseteq Y$ (sometimes simply as$X \subset Y$), if every element of X is also an element of Y. From before $C\subseteq A \subseteq E$.
 
-#### Proper Subset}
+#### Proper Subset
 The term “proper subset” can be defined as “subset of but not equal to”. A Set X is a proper subset of set Y (Written as X⊂YX⊂Y) if every element of X is an element of set Y and $|X|<|Y|$.
 
 #### Sets containing Sets

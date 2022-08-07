@@ -1,0 +1,17 @@
+Logic Networks {data-navmenu="Logic Networks"}
+====================================
+
+Column {.tabset}
+-------------------------------
+
+
+
+### Logic Networks
+#### AND and OR Gates
+
+!["AND and OR"](Section_04/and-or-logic-gate.JPG)
+
+#### Logical Operations
+
+* <a href = "https://www.youtube.com/watch?v=/DtkPULIOlWQ"> Logic Networks: (Example 1)</a>
+* <a href = "https://www.youtube.com/watch?v=/NzFMJwUR82k"> Logic Networks: (Example 2)</a>

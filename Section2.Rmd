@@ -35,6 +35,16 @@ A binary number is a number expressed in the base-2 numeral system or binary num
 ```{r child="Section_02/Numbers-BinaryNumbers.Rmd"}
 ```
 
+
+```{r child="Section_02/Numbers-BinaryMultiplication.Rmd"}
+```
+
+
+```{r child="Section_02/Numbers-GrayCode.Rmd"}
+```
+
+
+
 ```{r child="Section_02/Numbers-Hexadecimal.Rmd"}
 ```
 
@@ -47,6 +57,15 @@ A binary number is a number expressed in the base-2 numeral system or binary num
 
 
 ```{r child="TutorialSheets/Numbers-Tutorial-1.Rmd"}
+```
+
+```{r child="TutorialSheets/BinaryNumbers-Tutorial-1.Rmd"}
+```
+
+```{r child="TutorialSheets/BinaryNumbers-Tutorial-2.Rmd"}
+```
+
+```{r child="TutorialSheets/HexadecimalNumbers-Tutorials-1.Rmd"}
 ```
 
 

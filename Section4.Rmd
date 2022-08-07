@@ -28,6 +28,11 @@ Column {.tabset}
 ```{r child="Section_04/Logic-IntroductionToLogic.Rmd"}
 ```
 
+```{r child="Section_04/Logic-ConditionalConnectives.Rmd"}
+```
+
+```{r child="Section_04/Logic-LogicNetworks.Rmd"}
+```
 
 
 

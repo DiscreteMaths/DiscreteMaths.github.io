@@ -103,6 +103,33 @@ $$
 1⁄7 = 0.\overline{142857} = 0.1428571428571428571...$$
 The minimum number of digits that repeats in such a number is known as the decimal period.
 
+### Number Sets
+
+<h4> Number Sets (Notation)
+The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is known as ***blackboard font***.
+
+*  $\mathbb{N}$ Natural Numbers ($0,1,2,3$) 
+(Not used in the CIS102 Syllabus)
+*  $\mathbb{Z}$ Integers ($-3,-2,-1,0,1,2,3, \ldots$)
+
+* [$\ast$] $\mathbb{Z}^{+}$ Positive Integers
+* [$\ast$] $\mathbb{Z}^{-}$ Negative Integers
+
+*  $\mathbb{Q}$ Rational Numbers
+*  $\mathbb{R}$ Real Numbers
+
+#### Sets of Numbers
+
+*  $\mathbb{Z}$ Set of all integers
+*  $\mathbb{Q}$ Set of all rational numbers
+*  $\mathbb{R}$ Set of all real numbers
+
+
+*  $\mathbb{Z}^{+}$ Set of all positive integers
+*  $\mathbb{Z}^{-}$ Set of all negative integers
+*  $\mathbb{R}^{+}$ Set of all positive real numbers
+*  $\mathbb{R}^{-}$ Set of all negative real numbers
+
 
 ### Part 3. Real Numbers
 
@@ -125,7 +152,7 @@ The minimum number of digits that repeats in such a number is known as the decim
 <h4>Floating Point Numbers</h4>
 
 
-[mantissa] - the part of a floating-point number which represents the significant digits of that number.
+* ***mantissa*** - the part of a floating-point number which represents the significant digits of that number.
 
 [abscissa]
 

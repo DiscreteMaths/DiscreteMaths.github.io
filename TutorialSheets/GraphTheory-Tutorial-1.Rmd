@@ -1,5 +1,5 @@
 
-Graph Theory - Worksheets {data-navmenu="Exercises"}
+Graph Theory - Worksheet 1 {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}

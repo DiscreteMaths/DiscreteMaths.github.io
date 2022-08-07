@@ -57,6 +57,14 @@ Add the following pairs of binary numbers.
 \[ 1 1 1 0\]
 
 
+Worked Examples {data-navmenu="Binary Numbers"}
+==================================
+
+Column{.tabset}
+-------------------------------------------------
+
+### Worked Examples
+
 #### Question 1 
 
  $111_{(2)} + 1110_{(2)}$}
@@ -117,25 +125,5 @@ $11010_{(2)} + 1100_{(2)}$}
     
 * <a href="https://www.youtube.com/watch?v=/DTO3mS5D2lA">Binary Subtraction using "Two's Complement"</a>
 
-### Binary Numbers Multiplication
-
-* <a href="https://www.youtube.com/watch?v=/Ai5F0KLyh2Q"> Left Shifting Technique for Binary Multiplication</a>
-
-* <a href="https://www.youtube.com/watch?v=/P_vd1vkafYk">  Binary Subtraction: using Twos Complement</a>
-    
-* <a href="https://www.youtube.com/watch?v=/WfWHdWwITgk"> Binary Multiplication: using Left Shifting</a>
-
-* <a href="https://www.youtube.com/watch?v=/A08P9ZJsLOs"> Relations -Example</a>
-
-* <a href="https://www.youtube.com/watch?v=/-svSPXMGyfs "> Binary Multiplication ( Binary Numbers Tutorial Sheet)		</a>
-
-### Gray Code
 
 
-* The reflected binary code (RBC), also known just as reflected binary (RB) or Gray code after Frank Gray, is an ordering of the binary numeral system such that two successive values differ in only one bit (binary digit).
-
-* For example, the representation of the decimal value "1" in binary would normally be "001" and "2" would be "010". 
-
-* In Gray code, these values are represented as "001" and "011". That way, incrementing a value from 1 to 2 requires only one bit to change, instead of two.
-
-* Gray codes are widely used to prevent spurious output from electromechanical switches and to facilitate error correction in digital communications such as digital terrestrial television and some cable TV systems. 

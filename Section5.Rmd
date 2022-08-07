@@ -29,33 +29,6 @@ Column {.tabset}
 * Introduction to Functions
 * Mathematical Functions and Special Functions
 
-### Laws of Logarithms
-
-
-#### Laws of Logarithms
-
-
-
-Here we
-assume x and y are positive real numbers.
-1. $loga(xy) = loga(x) + loga(y)$
-2. $loga(x/y)= loga(x) - loga(y)$
-3. $loga (x^r) = r loga(x)$ for any real number r.
-
-
-
-
-Here we
-assume x and y are positive real numbers.
-
-
-1. $\log_a(xy) = loga(x) + \log_a(y)$
-
-2. $loga(x/y)= loga(x) - loga(y)$
-
-3. $\log_a (x^r) = r \log_a(x)$ for any real number r.
-
-
 
 ---------------------------------------------------------
 #### {Powers}
@@ -86,13 +59,7 @@ Example
 
 
 
----------------------------------------------------------
-#### {Precision Functions}
 
-
-* Absolute Value Function $| x |$
-* Ceiling Function $\lceil x \rceil$
-* Floor Function  $\lfloor x \rfloor $
 
 %\[ \lfloorx\rfloor\]
 
@@ -102,7 +69,7 @@ State the range and domain of the following function
 \[ F(x) = \lfloor x-1 \rfloor \]
 
 
-\subsubsection{Special Cases}
+#### Special Cases
 
 Anything to the power of zero is always 1
 
@@ -115,8 +82,17 @@ Anything to the power of zero is always 1
 ```{r child="Section_05/Functions-MathsFunctions.Rmd"}
 ```
 
-```{r child="Section_05/Functions-MathsFunctions.Rmd"}
+```{r child="Section_05/Functions-SpecialFunctions.Rmd"}
 ```
+
+
+```{r child="Section_05/Functions-PrecisionFunctions.Rmd"}
+```
+
+```{r child="Section_05/Functions-Logarithms.Rmd"}
+```
+
+
 
 ```{r child="TutorialSheets/Functions-Tutorial-1.Rmd"}
 ```

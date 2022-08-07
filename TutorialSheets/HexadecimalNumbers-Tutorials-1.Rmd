@@ -1,6 +1,15 @@
+Hexadecimal Numbers - Worksheet 1 {data-navmenu="Exercises"}
+==================================
+
+Column {.tabset}
+-----------------------------
 
 
-\item Answer the following questions about the hexadecimal number systems
+
+### Work Sheet 1
+
+
+*  Answer the following questions about the hexadecimal number systems
 
 a.  How many characters are used in the hexadecimal system?
 
@@ -14,7 +23,7 @@ d. What is the next highest hexadecimal number?
 
 
 
-\item Which of the following are not valid hexadecimal numbers?
+*  Which of the following are not valid hexadecimal numbers?
   
 a.  $73$
 
@@ -26,7 +35,7 @@ d.  $EEF	$
     
   
 
-\item Express the following decimal numbers as a hexadecimal number.
+*  Express the following decimal numbers as a hexadecimal number.
 
 
 a.  $(73)_{10}$
@@ -38,7 +47,7 @@ d. $(121)_{10}$
 
 
 
-\item Compute the following hexadecimal calculations.
+*  Compute the following hexadecimal calculations.
 
 
 a.  $5D2+A30$
@@ -50,22 +59,21 @@ d. $210+2A1$
 
 
 
-\item Express the following decimal number as a hexadecimal number
+*  Express the following decimal number as a hexadecimal number
 
 \[44321\]
 
+--------------------------------
 
-%-----------------------------------
-
-\item Multiply the following hexadecimal numbers
+*  Multiply the following hexadecimal numbers
 
 \[AA3 \times F\]
 
 
 
-%-----------------------------------
+--------------------------------
 
-\item What is highest hexadecimal number that can be written with two characters, and what is it's equivalent in decimal form?
+*  What is highest hexadecimal number that can be written with two characters, and what is it's equivalent in decimal form?
 What is the next highest hexadecimal number?
 
 % \[FF = 255\] % Remark 
@@ -74,18 +82,18 @@ What is the next highest hexadecimal number?
 
 	
 
-\item[(i)] Calculate the decimal equivalent of the hexadecimal number $(A2F.D)_{16}$
-\item[(ii)] Working in base 2, compute the following binary additions, showing all you workings
+* [(i)] Calculate the decimal equivalent of the hexadecimal number $(A2F.D)_{16}$
+* [(ii)] Working in base 2, compute the following binary additions, showing all you workings
 \[(1110)_2 + (11011)_2 + (1101)_2 \]
-\item[(iv)] Express the recurring decimal $0.727272\ldots$ as a rational number in its simplest form.
+* [(iv)] Express the recurring decimal $0.727272\ldots$ as a rational number in its simplest form.
 
 
 
-\item %Base 5 and Base 8 numbers
+*  %Base 5 and Base 8 numbers
 Suppose 2341 is a base-5 number.
 Compute the equivalent in each of the following forms:
 
-\item[(i)] decimal number
-\item[(ii)] hexadecimal number
-\item[(iii)] binary number
+* [(i)] decimal number
+* [(ii)] hexadecimal number
+* [(iii)] binary number
 
