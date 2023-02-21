@@ -22,6 +22,7 @@ Column {.tabset}
 
 ### Spanning Trees
 
+<h4>Spanning Trees</h4>
 
 A spanning tree $T$ of a connected, undirected graph $G$ is a tree composed of all the vertices and some (or perhaps all) of the edges of $G$. 
 
@@ -30,7 +31,7 @@ Informally, a spanning tree of $G$ is a selection of edges of $G$ that form a tr
 That is, every vertex lies in the tree, but no cycles (or loops) are formed. On the other hand, every bridge of $G$ must belong to $T$.
 
 
-### Spanning Trees
+#### Spanning Trees
 
 A spanning tree $T$ of a connected, undirected graph $G$ is a tree composed of all the vertices and some (or perhaps all) of the edges of $G$. 
 
