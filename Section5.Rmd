@@ -30,6 +30,50 @@ Column {.tabset}
 * Mathematical Functions and Special Functions
 
 
+
+#### In discrete mathematics, several mathematical functions are used to solve problems and analyze structures. Here are some other useful functions:
+
+#### 1. **Modulus Function**:
+The modulus function, denoted as \( f(x) = |x| \), returns the absolute value of \( x \). It's useful in number theory and analyzing distances.
+
+#### 2. **Greatest Common Divisor (GCD)**:
+The GCD of two integers is the largest integer that divides both numbers without leaving a remainder. It’s fundamental in number theory.
+
+#### 3. **Least Common Multiple (LCM)**:
+The LCM of two integers is the smallest positive integer that is divisible by both numbers. It’s commonly used in problems involving synchronization.
+
+#### 4. **Factorial Function**:
+Denoted as \( n! \), the factorial of \( n \) is the product of all positive integers up to \( n \). It’s essential in combinatorics and permutations.
+
+#### 5. **Combination Function**:
+Denoted as \( C(n, k) \) or \( \binom{n}{k} \), it represents the number of ways to choose \( k \) elements from a set of \( n \) elements without regard to order.
+
+#### 6. **Permutation Function**:
+Denoted as \( P(n, k) \), it represents the number of ways to arrange \( k \) elements from a set of \( n \) elements in a specific order.
+
+#### 7. **Logarithm Function**:
+Logarithms, especially base 2 (\( \log_2 \)), are used in analyzing algorithms, particularly for their time complexity.
+
+#### 8. **Exponentiation Function**:
+Exponentiation involves raising a number to a power, which is critical in calculating growth rates, especially in recursive algorithms.
+
+#### 9. **Signum Function**:
+The signum function, denoted as \( \text{sgn}(x) \), extracts the sign of a real number. It’s useful in various mathematical proofs.
+
+#### 10. **Prime Indicator Function**:
+A function that determines whether a number is prime or composite, which is fundamental in number theory.
+
+#### 11. **Step Function (Heaviside Function)**:
+A discontinuous function that is zero for negative inputs and one for positive inputs. It’s used in discrete event simulation and signal processing.
+
+#### 12. **Summation Function**:
+Denoted as \( \sum \), it represents the sum of a sequence of numbers, essential in combinatorial analysis and series.
+
+#### 13. **Product Function**:
+Denoted as \( \prod \), it represents the product of a sequence of numbers, useful in various mathematical and combinatorial contexts.
+
+These functions are integral to discrete mathematics, providing tools to analyze, solve, and understand complex problems. Let me know if you need further details or examples for any of these functions!
+
 ---------------------------------------------------------
 #### {Powers}
 

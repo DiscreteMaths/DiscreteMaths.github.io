@@ -1,19 +1,12 @@
-
 Exercises: Series and Summations {data-navmenu="Exercises"}
 ==================================
 
 Column {.tabset}
 -----------------------------
 
-
-
 ### Work Sheet 1
 
-
 #### Question 1
-
-
-
 
 Let $s_n = 1 + 3 + 5 + \ldots + (2n-1)$ for $n \in Z^{+}$.\\
 
@@ -24,9 +17,8 @@ Let $s_n = 1 + 3 + 5 + \ldots + (2n-1)$ for $n \in Z^{+}$.\\
 [3.] Find a recurrence relation which expresses $s_{n+1}$ in terms of $s_n$.
 
 
-
-
-\textbf{Part 1}: Express $s_n$ using $\sum$ notation.
+#### Part 1: 
+Express $s_n$ using $\sum$ notation.
 \[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n \in Z^{+}\]
 
 
@@ -35,7 +27,7 @@ Let $s_n = 1 + 3 + 5 + \ldots + (2n-1)$ for $n \in Z^{+}$.\\
 
 
 
-\[  \sum^{k=n}_{k=1} (2k-1) \]
+\[ \sum^{k=n}_{k=1} (2k-1) \]
 
 
 #### Question 2
@@ -62,7 +54,6 @@ Calculate $s_1$, $s_2$ and $s_3$.
 [$s_3$]
 
 
-
 #### Question 4
 
 Find the sum of the following geometric series
@@ -79,42 +70,30 @@ Find the sum of the following geometric series
 Find a recurrence relation which expresses $s_{n+1}$ in terms of $s_n$.
 
 
-
-
-
-\textbf{Arithmetic Progressions}
+#### Arithmetic Progressions
 
 \[ S_n  = {n \over 2} \left[ 2a+(n-1)d \right] \]
 
 Recall $a=11$,$d=2$ and $n=21$
-
 
 \[ S_n  = {21 \over 2} \left[ (2.11) +[(21-1)2] \right] \]
 \[ S_n  = 10.5 \left[ 22 + 40 \right]  = 10.5 \times 62\]
 \[ S_n  = 651 \] 
 
 
-
-
-
-
-% HOB book Page 393
-
-
-
+```{r eval=FALSE,echo=FALSE}
+#############################################################################################
+# HOB book Page 393
+```
 
 Find the sum of the arithmetic progression
-{
+
 
 \[ 11 + 13 + 15 + \ldots + 49 + 51 \]
-}
 
 
-
-%%- \vspace{-0.5cm}
 First recall two useful equations for working with arithmetic progressions.\\
-\bigskip
-
+<br>
 
 For the arithmetic sequence $a,(a+d) ,(a+2d), \ldots$
 
@@ -138,10 +117,7 @@ Find the sum of the arithmetic progression
 * The last term is $51$.
 
 
-
-
-%%- 
-
+<br>
 * The last term is $51$.
 * $t_n$ = 51 = [ 11 + (n-1)2 ] 
 * $t_n$ = 51 = 2n + 9
@@ -149,7 +125,7 @@ Find the sum of the arithmetic progression
 
 There are 21 terms in the series.
 
-%%- \vspace{-0.8cm}
+
 \[ S_n  = {n \over 2} \left[ 2a+(n-1)d \right] \]
 
 Recall $a=11$,$d=2$ and $n=21$
@@ -171,36 +147,24 @@ Recall $a=11$,$d=2$ and $n=21$
 
 
 
-### {Summations}
+### Summations
 
-%%- 
 Find $S_n$, the sum of $n$ terms, of the geometric series
 
 \[  2 + \frac{2}{3} + \frac{2}{3^2} + \frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]
-\bigskip
+
 If $S_n$ = 242/81, find the value of $n$.
 
-
-
-
-
-%%- \vspace{-0.5cm}
 \[  2 + \frac{2}{3} + \frac{2}{3^2} + \frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]
 \[ \phantom{ 2 \times \left[ 1 + \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} +  \ldots + \frac{1}{3^{n-1}}   \right]  } \]
 
 
-\textbf{Summation Theorem}
+#### Summation Theorem
 
 \[ \sum^{n}_{r=0} x^r = \frac{x^{n+1}-1}{x-1} \]
 \[ \phantom{k \sum^{n}_{r=0} x^r = k \frac{x^{n+1}-1}{x-1}  } \]
 \phantom{Here $k=2$ and $x = 1/3$ }
 
-
-
-
-
-
-%%- \vspace{-0.5cm}
 \[  2 + \frac{2}{3} + \frac{2}{3^2} + \frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]
 \[  2 \times \left[ 1 + \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} +  \ldots + \frac{1}{3^{n-1}}   \right] \]
 
@@ -210,31 +174,15 @@ If $S_n$ = 242/81, find the value of $n$.
 \[ k  \sum^{n}_{r=0} x^r  =  k \left( \frac{x^{n+1}-1}{x-1} \right) \]
 Here $k=2$ and $x = 1/3$ 
 
-
-
-
-
-%%- \vspace{-0.5cm}
-
 \[ k  \sum^{n}_{r=0} x^r  =  k \left( \frac{x^{n+1}-1}{x-1} \right) \]
 Here $k=2$ and $x = 1/3$ 
 \[  \phantom{ 2  \sum^{n}_{r=0} (1/3)^r  =  2 \left( \frac{(1/3)^{n+1}-1}{(1/3)-1} \right) } \]
 
 
-
-
-
-%%- \vspace{-0.5cm}
-
 \[ k  \sum^{n}_{r=0} x^r  =  k \left( \frac{x^{n+1}-1}{x-1} \right) \]
 Here $k=2$ and $x = 1/3$ 
 \[  2  \sum^{n}_{r=0} (1/3)^r  =  2 \left( \frac{(1/3)^{n+1}-1}{(1/3)-1} \right)  = \frac{242}{81} \]
 
-
-
-
-
-%%- \vspace{-0.5cm}
 \[2 \left( \frac{(1/3)^{n+1}-1}{(1/3)-1} \right)  = \frac{-3}{4} \left[ (1/3)^{n+1}-1 \right]  = \frac{242}{81} \]
 
 \[ \frac{-3}{4} \left[ (1/3)^{n+1}-1 \right]  = \frac{242}{81} \]
@@ -242,12 +190,9 @@ Here $k=2$ and $x = 1/3$
 \[  \left[ (1/3)^{n+1}-1 \right]  =  \frac{-4}{3} \times \frac{242}{81} \]
 
 
+### Geometric Series
 
 
-
-{Geometric Series}
-
-%%- \vspace{-0.5cm}
 \textbf{Important Equations}
 
 * Summation of $n$ terms
@@ -282,11 +227,10 @@ Here $x = 1/3$
 
 \[  2 + \frac{2}{3} + \frac{2}{3^2} + \frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]
 
-----------------------------------------
+```{r eval=FALSE,echo=FALSE}
+# HOB book Page 393
+```
 
-% HOB book Page 393
-----------------------------------
-- {Arithmetic Progressions}
 First recall two useful equations for working with Arithmetic Progressions
 
 For the arithmetic sequence $a,(a+d) ,(a+2d), \ldots$
@@ -298,10 +242,7 @@ For the arithmetic sequence $a,(a+d) ,(a+2d), \ldots$
 
 \[ S_n  = {n \over 2} \left[ 2a+(n-1)d \right] \]
 
-
-----------------------------------
-
-- {Arithmetic Progressions}
+<br>
 
 Find the sum of the arithmetic progression
 {
@@ -313,11 +254,7 @@ Find the sum of the arithmetic progression
 * We need to find out what $n$ (the number of terms) is.
 * The last term is $51$
 
-
-----------------------------------
-
-- {Arithmetic Progressions}
-
+<br>
 
 
 * The last term is $51$.
@@ -326,11 +263,6 @@ Find the sum of the arithmetic progression
 * $n=21$
 
 There are 21 terms in the series.
-
-----------------------------------
-
-- {Arithmetic Progressions}
-
 
 \[ S_n  = {n \over 2} \left[ 2a+(n-1)d \right] \]
 
@@ -341,9 +273,7 @@ Recall $a=11$,$d=2$ and $n=21$
 \[ \phantom{S_n  = 10.5 \left[ 22 + 40 \right]  = 10.5 \times 62}\]
 \[ \phantom{S_n  = 651} \] 
 
-----------------------------------
-
-- {Arithmetic Progressions}
+<br>
 
 
 \[ S_n  = {n \over 2} \left[ 2a+(n-1)d \right] \]
@@ -357,17 +287,12 @@ Recall $a=11$,$d=2$ and $n=21$
 
 
 
-{
-
 \[ S_n = \frac{a(1-r)^n}{1-r} \]
-}
-{
+
 
 \[ \mbox{ when } 0 < r < 1 : S_{\infty} = \frac{a}{1-r} \]
-}
 
-----------------------------------
-- {Geometric Series}{Example 1}
+#### Geometric Series - Example 1
 
 
 \[ \frac{1}{2} + \frac{1}{4} + \frac{1}{8} +  \frac{1}{16} +\ldots  \]

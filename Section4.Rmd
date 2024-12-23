@@ -1,5 +1,6 @@
 ---
-title: "Discrete Mathematics - Section 4"
+title: "Discrete Mathematics 
+- Section 4"
 output: 
   flexdashboard::flex_dashboard:
     theme: united

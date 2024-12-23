@@ -10,93 +10,141 @@ Sure! Here is the amended syllabus for a 16-week Discrete Mathematics course wit
 This course provides an introduction to discrete mathematics with an emphasis on applications in computer science. Topics covered include logic, set theory, combinatorics, graph theory, functions, and discrete probability. These concepts form the foundational mathematical tools necessary for advanced topics in computer science, such as algorithms, data structures, and computer networks.
 
 **Prerequisites**:
+
 - Basic knowledge of high school-level mathematics
+
 - Familiarity with fundamental programming concepts (recommended but not required)
 
 **Course Objectives**:
+
 - Understand and apply fundamental concepts of discrete mathematics
+
 - Develop mathematical reasoning and problem-solving skills
+
 - Apply discrete mathematical techniques to computer science problems
+
 - Enhance the ability to communicate complex mathematical ideas effectively
 
 **Week 1: Introduction to Discrete Mathematics**
+
 - Overview of discrete mathematics and its importance in computer science
+
 - Mathematical reasoning and proof techniques
+
 - Introduction to logic and propositions
 
 **Week 2: Logic and Proofs I**
+
 - Propositional logic and logical connectives
+
 - Predicate logic and quantifiers
 
 **Week 3: Logic and Proofs II**
+
 - Methods of proof: direct, contrapositive, contradiction, and induction
 
 **Week 4: Sets and Relations I**
+
 - Basic set theory: operations, Venn diagrams, and Cartesian products
 
 **Week 5: Sets and Relations II**
+
 - Relations: properties, equivalence relations, and partial orderings
 
 **Week 6: Functions I**
+
 - Definitions and types of functions
+
 - Injective, surjective, bijective functions
 
 **Week 7: Functions II**
+
 - Inverses of functions
+
 - Composition of functions and applications
 
 **Week 8: Combinatorics and Counting I**
+
 - Basic counting principles: addition and multiplication rules
+
 - Permutations and combinations
 
 **Week 9: Combinatorics and Counting II**
+
 - Binomial theorem and Pascal's triangle
+
 - Inclusion-exclusion principle
 
 **Week 10: Advanced Counting Techniques**
+
 - Pigeonhole principle
+
 - Recurrence relations and generating functions
 
 **Week 11: Graph Theory I**
+
 - Introduction to graphs: terminology and types
+
 - Graph representations: adjacency matrix and list
 
 **Week 12: Graph Theory II**
+
 - Graph traversal algorithms: BFS and DFS
+
 - Planar graphs and graph coloring
 
 **Week 13: Advanced Graph Theory**
+
 - Eulerian and Hamiltonian paths and cycles
+
 - Network flows and graph connectivity
 
 **Week 14: Trees and Their Applications**
+
 - Introduction to trees: terminology and properties
+
 - Binary trees and tree traversals
+
 - Spanning trees and minimum spanning trees
 
 **Week 15: Boolean Algebra and Computer Logic**
+
 - Boolean functions and Boolean algebra
+
 - Simplification of Boolean expressions
+
 - Logic gates and digital circuits
 
 **Week 16: Discrete Probability**
+
 - Basic concepts of probability theory
+
 - Conditional probability and Bayes' theorem
+
 - Random variables and probability distributions
 
 **Assessment**:
+
 - Weekly assignments and quizzes
+
 - Midterm exam
+
 - Project/Presentation (instead of a final exam)
 
 **Textbooks and Resources**:
+
 - "Discrete Mathematics and Its Applications" by Kenneth H. Rosen
+
 - "Discrete Mathematics" by Richard Johnsonbaugh
+
 - Online resources and lecture notes
 
 **Instructor Contact**:
+
 - Office hours: [Specify time]
+
 - Email: [Instructor's email]
+
 - Course website: [Provide link]
 
 This syllabus is now spread over 16 weeks and replaces the final exam with a project or presentation for comprehensive assessment. Let me know if you need any further adjustments or have any questions!

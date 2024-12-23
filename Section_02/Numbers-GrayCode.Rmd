@@ -35,52 +35,84 @@ To convert these binary numbers to Gray code, follow the rule where the first bi
 Let's go through each binary number:
 
 1. **000** (Binary)
-   - First bit remains the same: **0**
-   - Second bit: \(0 \oplus 0 = 0\)
-   - Third bit: \(0 \oplus 0 = 0\)
-   - Gray code: **000**
+   
+- First bit remains the same: **0**
+   
+- Second bit: \(0 \oplus 0 = 0\)
+   
+- Third bit: \(0 \oplus 0 = 0\)
+   
+- Gray code: **000**
 
 2. **001** (Binary)
-   - First bit remains the same: **0**
-   - Second bit: \(0 \oplus 0 = 0\)
-   - Third bit: \(0 \oplus 1 = 1\)
-   - Gray code: **001**
+   
+- First bit remains the same: **0**
+   
+- Second bit: \(0 \oplus 0 = 0\)
+   
+- Third bit: \(0 \oplus 1 = 1\)
+   
+- Gray code: **001**
 
 3. **010** (Binary)
-   - First bit remains the same: **0**
-   - Second bit: \(0 \oplus 1 = 1\)
-   - Third bit: \(1 \oplus 0 = 1\)
-   - Gray code: **011**
+   
+- First bit remains the same: **0**
+   
+- Second bit: \(0 \oplus 1 = 1\)
+   
+- Third bit: \(1 \oplus 0 = 1\)
+   
+- Gray code: **011**
 
 4. **011** (Binary)
-   - First bit remains the same: **0**
-   - Second bit: \(0 \oplus 1 = 1\)
-   - Third bit: \(1 \oplus 1 = 0\)
-   - Gray code: **010**
+   
+- First bit remains the same: **0**
+   
+- Second bit: \(0 \oplus 1 = 1\)
+   
+- Third bit: \(1 \oplus 1 = 0\)
+   
+- Gray code: **010**
 
 5. **100** (Binary)
-   - First bit remains the same: **1**
-   - Second bit: \(1 \oplus 0 = 1\)
-   - Third bit: \(1 \oplus 0 = 1\)
-   - Gray code: **110**
+   
+- First bit remains the same: **1**
+   
+- Second bit: \(1 \oplus 0 = 1\)
+   
+- Third bit: \(1 \oplus 0 = 1\)
+   
+- Gray code: **110**
 
 6. **101** (Binary)
-   - First bit remains the same: **1**
-   - Second bit: \(1 \oplus 0 = 1\)
-   - Third bit: \(1 \oplus 1 = 0\)
-   - Gray code: **111**
+   
+- First bit remains the same: **1**
+   
+- Second bit: \(1 \oplus 0 = 1\)
+   
+- Third bit: \(1 \oplus 1 = 0\)
+   
+- Gray code: **111**
 
 7. **110** (Binary)
-   - First bit remains the same: **1**
-   - Second bit: \(1 \oplus 1 = 0\)
-   - Third bit: \(0 \oplus 1 = 1\)
-   - Gray code: **101**
+   
+- First bit remains the same: **1**
+   
+- Second bit: \(1 \oplus 1 = 0\)
+   
+- Third bit: \(0 \oplus 1 = 1\)
+   
+- Gray code: **101**
 
 8. **111** (Binary)
-   - First bit remains the same: **1**
-   - Second bit: \(1 \oplus 1 = 0\)
-   - Third bit: \(0 \oplus 1 = 1\)
-   - Gray code: **100**
+   
+- First bit remains the same: **1**
+   
+- Second bit: \(1 \oplus 1 = 0\)
+   
+- Third bit: \(0 \oplus 1 = 1\)
+   
+- Gray code: **100**
 
 #### Step 3: List the Gray Code Sequence
 Here is the 3-bit Gray code sequence:
