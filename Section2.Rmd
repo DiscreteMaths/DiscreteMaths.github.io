@@ -1,5 +1,6 @@
 ---
-title: "Discrete Mathematics - Section 2"
+title: "Discrete Mathematics 
+- Section 2"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -12,25 +13,29 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
 --------------------
 
-### Binary Numbers and Hexadecimal Numbers
+### Binary Numbers, Hexadecimal Numbers and Octal Numbers
+
 
 <a href="index.html">Back to main page</a>
 
-<h4> Binary Numbers</h4>
+<h3>Abstract: Number Systems in Digital Electronics</h3>
+
+This module section introduces fundamental number systems essential for digital electronics: binary, hexadecimal, octal, and Gray code. Students will explore the binary number system, which forms the basis of computer operations, including its conversion to and from other number systems. Hexadecimal numbers, used for compact representation of binary data, and octal numbers, which provide a straightforward way to read and write binary values, will also be covered. Additionally, the module delves into Gray code, a binary numeral system where two successive values differ in only one bit, crucial for minimizing errors in digital circuits. Through theoretical explanations and practical examples, students will gain a comprehensive understanding of these number systems, their applications, and inter-conversions, laying the groundwork for advanced studies in digital systems and computer engineering.
+
+```{r child="navigate.Rmd"}
+```
+
+### What are Binary Numbers
 
 A binary number is a number expressed in the base-2 numeral system or binary numeral system, a method of mathematical expression which uses only two symbols: typically "0" (zero) and "1" (one).
 
 
-
-
-
-<h3>Hexadecimal Numbers</h3>
 
 ```{r child="Section_02/Numbers-BinaryNumbers.Rmd"}
 ```
@@ -55,6 +60,12 @@ A binary number is a number expressed in the base-2 numeral system or binary num
 ```{r child="Section_02/Numbers-ConversionTable.Rmd"}
 ```
 
+Video List {data-navmenu="Tutorials & Videos"}
+=====================================
+
+### Video List
+
+<h3>Video List</h3>
 
 ```{r child="TutorialSheets/Numbers-Tutorial-1.Rmd"}
 ```

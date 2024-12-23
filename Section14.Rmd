@@ -47,6 +47,13 @@ Column {.tabset}
 ```{r child="Section_14/Matrices-LinearEquations.Rmd"}
 ```
 
+Video List {data-navmenu="Tutorials & Videos"}
+=====================================
+
+### Video List
+
+<h3>Video List</h3>
+
 ```{r child="TutorialSheets/Matrices-Tutorial-1.Rmd"}
 ```
 

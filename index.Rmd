@@ -40,10 +40,11 @@ Column {.tabset}
 
 ### Discrete mathematics
 
-
+<h3>Discrete Maths</h3>
 Discrete mathematics is the common name for the fields of mathematics most generally useful in theoretical computer science. This includes computability theory, computational complexity theory, and information theory. 
 
-*  **Computability theory** examines the limitations of various theoretical models of the computer, including the most powerful known model - the Turing machine. 
+*  **Computability theory** examines the limitations of various theoretical models of the computer, including the most powerful known model 
+- the Turing machine. 
 
 *  **Complexity theory** is the study of tractability by computer; some problems, although theoretically soluble by computer, are so expensive in terms of time or space that solving them is likely to remain practically unfeasible, even with rapid advance of computer hardware. 
 
@@ -51,6 +52,9 @@ Discrete mathematics is the common name for the fields of mathematics most gener
 
 
 
+### Syllabus
 
+```{r child = "Syllabus.Rmd"}
+```
 
 

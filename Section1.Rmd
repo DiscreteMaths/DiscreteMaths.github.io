@@ -25,7 +25,7 @@ Column {.tabset}
 
 <h4> Real Numbers</h4>
 
-```{r eval=FALSE}
+```{r eval=FALSE, echo=FALSE}
 #<! -- https://www.cuemath.com/numbers/real-numbers/ -->
 ```
 
@@ -165,5 +165,13 @@ The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is kn
 ```{r child  = "Section_01/Floating_Point_Notation.Rmd"}
 ```
 
-```{r child="Section_02/Numbers-RepeatingDecimals.Rmd"}
+```{r child="Section_01/Numbers-RepeatingDecimals.Rmd"}
 ```
+
+
+Video List {data-navmenu="Tutorials & Videos"}
+=====================================
+
+### Video List
+
+<h3>Video List</h3>

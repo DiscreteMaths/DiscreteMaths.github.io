@@ -32,10 +32,10 @@ decimal number 4768 to base 8, showing all your workings.
 1	&	0.125	&	0	&	0.125	&$(0.125 \times 8)$&	1	\\ \hline
 \end{array} \]
 
-\textbf{Answer :  11240}
+***Remark: Answer :  11240***
 
 
-### Octal Numbers  - Videos
+### Octal Numbers - Videos
 
 <h5>Tutorial Sheet</h5>
 
