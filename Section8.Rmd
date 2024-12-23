@@ -1,5 +1,5 @@
 ---
-title: "Discrete Mathematics - Section 7"
+title: "Discrete Mathematics - Section 8"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Graphs"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
@@ -25,7 +25,175 @@ Column {.tabset}
 
 <h3>Graph Theory</h3>
 
+**Graph Theory** is a branch of discrete mathematics that studies graphs, which are mathematical structures used to model pairwise relations between objects. A graph consists of vertices (also called nodes) and edges (also called links) that connect pairs of vertices.
 
+**Key Concepts**:
+
+- **Vertices and Edges**: The basic building blocks of a graph.
+
+- **Types of Graphs**: Includes directed, undirected, weighted, and unweighted graphs.
+
+- **Paths and Cycles**: Sequences of vertices where each pair is connected by an edge; cycles return to the starting vertex.
+
+- **Connectivity**: Describes how vertices are connected within a graph.
+
+- **Graph Traversal**: Algorithms like Depth-First Search (DFS) and Breadth-First Search (BFS) used to explore graphs.
+
+- **Graph Coloring**: Assigning colors to vertices so that no two adjacent vertices share the same color.
+
+- **Planar Graphs**: Graphs that can be drawn on a plane without edges crossing.
+
+**Applications**:
+Graph theory is widely applied in computer science (e.g., networking, algorithms), biology (e.g., modeling neural networks), social sciences (e.g., analyzing social networks), and many other fields.
+
+By studying graph theory, one can understand and solve complex problems related to network structures, optimization, and connectivity.
+
+
+
+<h4>Graph Theory</h4>
+
+```{r child = "navigate.Rmd"}
+```
+
+
+Syllabus {data-navmenu="About"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Syllabus
+
+<h3>Graph Theory in Discrete Mathematics</h3>
+
+<h4> Syllabus for Graph Theory Component of a Discrete Mathematics Course</h4>
+
+
+**Course Description**:
+This course covers the fundamentals of graph theory, a critical area in discrete mathematics with extensive applications in computer science, operations research, and network analysis. Students will learn about graph properties, various types of graphs, and algorithms used to solve graph-related problems. Emphasis will be placed on both theoretical understanding and practical applications.
+
+**Prerequisites**:
+
+- Completion of an introductory Discrete Mathematics course
+
+- Basic understanding of mathematical proofs
+
+**Course Objectives**:
+
+- Understand fundamental concepts and terminology of graph theory
+
+- Analyze and solve problems related to various types of graphs
+
+- Apply graph algorithms to practical problems in computer science and related fields
+
+- Develop skills in mathematical reasoning and proof techniques specific to graph theory
+
+---
+
+**Part 1: Introduction to Graph Theory**
+
+- Overview of graph theory and its applications
+
+- Basic definitions: graphs, vertices, edges
+
+- Types of graphs: simple, directed, undirected, weighted
+
+**Part 2: Graph Representations**
+
+- Adjacency matrix
+
+- Adjacency list
+
+- Incidence matrix
+
+- Practical applications of graph representations
+
+**Part 3: Graph Traversals**
+
+- Depth-first search (DFS)
+
+- Breadth-first search (BFS)
+
+- Applications of graph traversals
+
+**Part 4: Connectivity and Components**
+
+- Connected and disconnected graphs
+
+- Strongly connected components
+
+- Weakly connected components
+
+- Applications in network analysis
+
+**Part 5: Eulerian and Hamiltonian Graphs**
+
+- Eulerian paths and circuits
+
+- Hamiltonian paths and cycles
+
+- Algorithms to find Eulerian paths and Hamiltonian cycles
+
+**Part 6: Graph Coloring**
+
+- Vertex coloring
+
+- Chromatic number
+
+- Applications in scheduling and register allocation
+
+**Part 7: Planar Graphs**
+
+- Planarity and Kuratowski's theorem
+
+- Euler's formula for planar graphs
+
+- Graph drawing algorithms
+
+**Part 8: Trees and Spanning Trees**
+
+- Properties of trees
+
+- Minimum spanning tree (MST)
+
+- Kruskal's algorithm
+
+- Prim's algorithm
+
+**Part 9: Network Flows**
+
+- Maximum flow problem
+
+- Ford-Fulkerson algorithm
+
+- Applications in network routing and logistics
+
+**Part 10: Matchings and Coverings**
+
+- Bipartite graphs
+
+- Maximum matching
+- Hall's marriage theorem
+- Vertex cover and edge cover
+
+**Part 11: Advanced Topics in Graph Theory I**
+- Graph isomorphism
+- Automorphisms
+- Cayley's theorem
+
+**Part 12: Advanced Topics in Graph Theory II**
+- Graph spectra and eigenvalues
+- Applications in chemistry and network analysis
+
+**Part 13: Algorithms and Complexity**
+- Computational complexity of graph algorithms
+- NP-complete problems in graph theory
+- Approximation algorithms
+
+**Part 14: Applications of Graph Theory**
+- Graph theory in computer networks
+- Social network analysis
+- Graph theory in biological networks
 
 
 
@@ -42,7 +210,78 @@ Column {.tabset}
 ```
 
 
+### Graph Traversal
 
+<h3>Depth-First Search (DFS) and Breadth-First Search (BFS)</h3>
+
+Depth-First Search (DFS) and Breadth-First Search (BFS) are two fundamental graph traversal algorithms used to explore nodes and edges of a graph. Each algorithm follows a distinct strategy to visit all vertices of a graph.
+
+#### Depth-First Search (DFS)
+
+**DFS Strategy**:
+DFS explores a graph by going as deep as possible along each branch before backtracking. This approach uses a stack (LIFO structure) to keep track of the vertices to be explored.
+
+**DFS Algorithm**:
+1. Start at the root (or any arbitrary node).
+2. Push the starting node onto the stack.
+3. Pop the top node from the stack and mark it as visited.
+4. Push all adjacent unvisited nodes of the current node onto the stack.
+5. Repeat steps 3 and 4 until the stack is empty.
+
+**Example**:
+Consider the following graph:
+```
+A - B - D
+|   |
+C   E
+```
+Starting from vertex `A`, the DFS traversal order would be: `A -> C -> B -> E -> D`.
+
+**Applications of DFS**:
+- Detecting cycles in a graph
+- Topological sorting
+- Solving puzzles like mazes
+- Pathfinding algorithms
+
+#### Breadth-First Search (BFS)
+
+**BFS Strategy**:
+BFS explores a graph level by level, visiting all neighbors of a vertex before moving on to the next level. 
+This approach uses a queue (FIFO structure) to keep track of the vertices to be explored.
+
+**BFS Algorithm**:
+1. Start at the root (or any arbitrary node).
+2. Enqueue the starting node.
+3. Dequeue a node from the front of the queue and mark it as visited.
+4. Enqueue all adjacent unvisited nodes of the current node.
+5. Repeat steps 3 and 4 until the queue is empty.
+
+**Example**:
+Consider the same graph:
+```
+A - B - D
+|   |
+C   E
+```
+Starting from vertex `A`, the BFS traversal order would be: `A -> B -> C -> D -> E`.
+
+**Applications of BFS**:
+- Finding the shortest path in an unweighted graph
+- Level order traversal of a tree
+- Solving problems like the shortest path in a maze
+- Web crawlers and network broadcasting
+
+#### Comparing DFS and BFS
+
+- **DFS** goes deep into a graph, while **BFS** explores each level of a graph.
+
+- **DFS** uses a stack, while **BFS** uses a queue.
+
+- **DFS** can be implemented using recursion or an explicit stack, while **BFS** relies on an explicit queue.
+
+- **BFS** is better for finding the shortest path in an unweighted graph, while **DFS** is useful for tasks like topological sorting and cycle detection.
+
+I hope this gives you a clear understanding of DFS and BFS! Let me know if you need further details or examples.
 
 ```{r child="TutorialSheets/GraphTheory-Tutorial-1.Rmd"}
 ```

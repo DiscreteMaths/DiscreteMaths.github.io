@@ -97,3 +97,5 @@ Anything to the power of zero is always 1
 ```{r child="TutorialSheets/Functions-Tutorial-1.Rmd"}
 ```
 
+```{r child="navigate.Rmd"}
+```

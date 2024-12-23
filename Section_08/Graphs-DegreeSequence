@@ -1,0 +1,26 @@
+In graph theory, the degree sequence of a graph is a list of the degrees of its vertices, usually written in non-increasing order. The degree of a vertex is the number of edges incident to it. 
+
+Essentially, the degree sequence provides a summary of the graph's structure by indicating how many connections (or edges) each vertex (or node) has.
+
+### Example
+
+Consider a simple graph with the following vertices and edges:
+- Vertices: \( V = \{A, B, C, D, E\} \)
+- Edges: \( E = \{(A, B), (A, C), (B, D), (C, D), (D, E)\} \)
+
+The degrees of the vertices are:
+- Vertex \( A \): 2 edges (connected to \( B \) and \( C \))
+- Vertex \( B \): 2 edges (connected to \( A \) and \( D \))
+- Vertex \( C \): 2 edges (connected to \( A \) and \( D \))
+- Vertex \( D \): 3 edges (connected to \( B \), \( C \), and \( E \))
+- Vertex \( E \): 1 edge (connected to \( D \))
+
+The degree sequence is therefore:
+\[ (3, 2, 2, 2, 1) \]
+
+### Significance
+
+- **Graph Realizability**: A sequence of non-negative integers is the degree sequence of some graph if and only if it satisfies certain conditions (like the Erdős–Gallai theorem). This is useful in graph construction and network analysis.
+- **Graph Properties**: The degree sequence can provide insights into various properties of the graph, such as its connectivity, centrality, and potential existence of certain subgraphs.
+
+

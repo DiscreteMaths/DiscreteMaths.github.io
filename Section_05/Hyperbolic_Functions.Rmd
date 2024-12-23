@@ -1,0 +1,36 @@
+Hyperbolic functions, while more commonly associated with calculus and continuous mathematics, can also find applications within discrete mathematics, particularly in areas dealing with graph theory, discrete geometry, and combinatorics.
+
+### Hyperbolic Functions
+Hyperbolic functions are analogs of trigonometric functions, but they relate to hyperbolas instead of circles. The primary hyperbolic functions are:
+
+1. **Hyperbolic Sine (\(\sinh x\))**:
+   \[
+   \sinh x = \frac{e^x - e^{-x}}{2}
+   \]
+
+2. **Hyperbolic Cosine (\(\cosh x\))**:
+   \[
+   \cosh x = \frac{e^x + e^{-x}}{2}
+   \]
+
+3. **Hyperbolic Tangent (\(\tanh x\))**:
+   \[
+   \tanh x = \frac{\sinh x}{\cosh x} = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+   \]
+
+### Properties
+
+These functions have unique properties and identities, similar to trigonometric functions, that can be applied to solve problems in these areas. 
+For example, just as sine and cosine have Pythagorean identities, hyperbolic sine and cosine have the identity:
+\[
+\cosh^2 x - \sinh^2 x = 1
+\]
+
+
+### Applications in Discrete Mathematics
+In discrete mathematics, hyperbolic functions can be useful in various contexts, including:
+
+- **Graph Theory**: Hyperbolic functions can be used to analyze the properties of certain graphs, particularly in the study of network flows and electrical networks.
+- **Discrete Geometry**: Hyperbolic functions are useful in understanding the structure of spaces that have hyperbolic geometry. This is particularly relevant in combinatorial optimization and certain tiling problems.
+- **Recurrence Relations**: Solutions to certain types of recurrence relations can involve hyperbolic functions, especially those that model growth processes or describe algorithms' time complexity.
+

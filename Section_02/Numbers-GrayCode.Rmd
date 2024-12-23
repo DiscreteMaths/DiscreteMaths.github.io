@@ -16,3 +16,77 @@ Column{.tabset}
 * In Gray code, these values are represented as "001" and "011". That way, incrementing a value from 1 to 2 requires only one bit to change, instead of two.
 
 * Gray codes are widely used to prevent spurious output from electromechanical switches and to facilitate error correction in digital communications such as digital terrestrial television and some cable TV systems. 
+
+### Worked Example
+
+Here is an example of generating Gray code, which is a binary numeral system where two successive values differ in only one bit.
+
+<h3> Example: Generate 3-bit Gray Code</h3>
+
+#### Step 1: Understand Binary Representation
+First, list all the 3-bit binary numbers in standard order:
+```
+000, 001, 010, 011, 100, 101, 110, 111
+```
+
+#### Step 2: Generate Gray Code
+To convert these binary numbers to Gray code, follow the rule where the first bit remains the same, and each subsequent bit is obtained by XOR'ing the previous bit with the current bit.
+
+Let's go through each binary number:
+
+1. **000** (Binary)
+   - First bit remains the same: **0**
+   - Second bit: \(0 \oplus 0 = 0\)
+   - Third bit: \(0 \oplus 0 = 0\)
+   - Gray code: **000**
+
+2. **001** (Binary)
+   - First bit remains the same: **0**
+   - Second bit: \(0 \oplus 0 = 0\)
+   - Third bit: \(0 \oplus 1 = 1\)
+   - Gray code: **001**
+
+3. **010** (Binary)
+   - First bit remains the same: **0**
+   - Second bit: \(0 \oplus 1 = 1\)
+   - Third bit: \(1 \oplus 0 = 1\)
+   - Gray code: **011**
+
+4. **011** (Binary)
+   - First bit remains the same: **0**
+   - Second bit: \(0 \oplus 1 = 1\)
+   - Third bit: \(1 \oplus 1 = 0\)
+   - Gray code: **010**
+
+5. **100** (Binary)
+   - First bit remains the same: **1**
+   - Second bit: \(1 \oplus 0 = 1\)
+   - Third bit: \(1 \oplus 0 = 1\)
+   - Gray code: **110**
+
+6. **101** (Binary)
+   - First bit remains the same: **1**
+   - Second bit: \(1 \oplus 0 = 1\)
+   - Third bit: \(1 \oplus 1 = 0\)
+   - Gray code: **111**
+
+7. **110** (Binary)
+   - First bit remains the same: **1**
+   - Second bit: \(1 \oplus 1 = 0\)
+   - Third bit: \(0 \oplus 1 = 1\)
+   - Gray code: **101**
+
+8. **111** (Binary)
+   - First bit remains the same: **1**
+   - Second bit: \(1 \oplus 1 = 0\)
+   - Third bit: \(0 \oplus 1 = 1\)
+   - Gray code: **100**
+
+#### Step 3: List the Gray Code Sequence
+Here is the 3-bit Gray code sequence:
+```
+000, 001, 011, 010, 110, 111, 101, 100
+```
+
+#### Summary
+By following the rule of keeping the first bit the same and XOR'ing subsequent bits, we have successfully converted 3-bit binary numbers into Gray code. This sequence ensures that only one bit changes between consecutive values.

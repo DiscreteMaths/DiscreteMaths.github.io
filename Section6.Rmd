@@ -153,3 +153,5 @@ Necessary Conditions for Invertibility of a Function
 
 
 
+```{r child="navigate.Rmd"}
+```

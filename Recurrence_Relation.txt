@@ -1,0 +1,78 @@
+### Lesson on Recurrence Relations
+
+#### Introduction to Recurrence Relations
+A recurrence relation, also known as a recursive relation, is an equation that defines a sequence of values using recursion. Each term in the sequence is defined as a function of one or more previous terms. Recurrence relations are widely used in computer science, particularly in the analysis of algorithms, and they also appear in various fields such as mathematics and economics.
+
+#### Types of Recurrence Relations
+1. **Linear Recurrence Relations**: Each term is a linear combination of previous terms.
+2. **Homogeneous Recurrence Relations**: The relation does not have any additional terms (like constants or functions of the index).
+3. **Non-Homogeneous Recurrence Relations**: The relation includes additional terms other than linear combinations of previous terms.
+4. **Higher-Order Recurrence Relations**: The relation involves terms further back than the immediate preceding terms.
+
+#### Examples of Recurrence Relations
+1. **Fibonacci Sequence**: 
+\[ F(n) = F(n-1) + F(n-2) \]
+with initial conditions \( F(0) = 0 \) and \( F(1) = 1 \).
+
+2. **Factorial**:
+\[ T(n) = n \cdot T(n-1) \]
+with initial condition \( T(0) = 1 \).
+
+3. **Arithmetic Sequence**:
+\[ a_n = a_{n-1} + d \]
+with a given initial term \( a_1 \).
+
+4. **Geometric Sequence**:
+\[ a_n = r \cdot a_{n-1} \]
+with a given initial term \( a_1 \).
+
+#### Solving Recurrence Relations
+To solve a recurrence relation means to find a closed-form expression (an explicit formula that does not involve recursion) for the sequence. Various methods exist for solving recurrence relations:
+
+1. **Substitution Method**: Guess the form of the solution and use mathematical induction to find the constants.
+2. **Characteristic Equation Method**: Used for linear homogeneous recurrence relations with constant coefficients.
+3. **Iteration Method**: Expand the recurrence relation step by step until a pattern emerges.
+
+#### Example: Solving a Simple Recurrence Relation
+
+**Example 1**: Fibonacci Sequence
+Given:
+\[ F(n) = F(n-1) + F(n-2) \]
+with initial conditions \( F(0) = 0 \) and \( F(1) = 1 \).
+
+**Solution**:
+The characteristic equation for this recurrence relation is:
+\[ x^2 = x + 1 \]
+Solving this quadratic equation, we find the roots:
+\[ x = \frac{1 \pm \sqrt{5}}{2} \]
+These roots are often denoted as \( \alpha = \frac{1 + \sqrt{5}}{2} \) and \( \beta = \frac{1 - \sqrt{5}}{2} \).
+
+The general solution is:
+\[ F(n) = A \alpha^n + B \beta^n \]
+Using the initial conditions to find \( A \) and \( B \):
+\[ F(0) = A \alpha^0 + B \beta^0 = A + B = 0 \]
+\[ F(1) = A \alpha + B \beta = 1 \]
+
+Solving these equations:
+\[ A + B = 0 \]
+\[ A \alpha + B \beta = 1 \]
+We find:
+\[ A = \frac{1}{\sqrt{5}}, \quad B = -\frac{1}{\sqrt{5}} \]
+
+Thus, the closed-form solution is:
+\[ F(n) = \frac{1}{\sqrt{5}} \left( \left( \frac{1 + \sqrt{5}}{2} \right)^n - \left( \frac{1 - \sqrt{5}}{2} \right)^n \right) \]
+
+#### Application in Computer Science
+Recurrence relations are particularly useful in analyzing the time complexity of recursive algorithms.
+
+**Example 2**: Merge Sort
+The time complexity \( T(n) \) of Merge Sort can be described by the recurrence relation:
+\[ T(n) = 2T\left(\frac{n}{2}\right) + O(n) \]
+Using the Master Theorem, we can solve this recurrence relation to find that the time complexity is \( O(n \log n) \).
+
+#### Exercises
+1. Solve the recurrence relation \( a_n = 3a_{n-1} + 2 \) with the initial condition \( a_0 = 4 \).
+2. Determine the closed-form solution for the recurrence relation \( T(n) = 2T(n-1) + 1 \) with \( T(1) = 1 \).
+3. Use the characteristic equation method to solve \( b_n = 5b_{n-1} - 6b_{n-2} \) with initial conditions \( b_0 = 2 \) and \( b_1 = 3 \).
+
+I hope this lesson helps you understand recurrence relations and their applications! Let me know if you have any questions or need further examples.
