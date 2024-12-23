@@ -22,7 +22,7 @@ Column {.tabset}
 
 ### Functions
 
-<a href="index.html">Back to main page</a>
+<a href="index.html">Back to Main Page</a>
 
 
 <h3>Functions</h3>
@@ -202,7 +202,7 @@ Necessary Conditions for Invertibility of a Function
 * A function is ***one-to-one*** if no two distinct elements of the domain have the same image.
 
 
-Tutorial Videos {data-navmenu="Tutorial Videos"}
+Tutorial Videos {data-navmenu="Tutorials and Videos"}
 =====================================
 
 Column {.tabset}

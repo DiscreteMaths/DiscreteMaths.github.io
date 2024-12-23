@@ -36,21 +36,16 @@ Any number that can be found in the real world is a real number. We find numbers
 These different types of numbers make a collection of real numbers. In this lesson, we will learn all about real numbers and their important properties.
 
 #### What are Real Numbers?
-Any number that we can think of, except complex numbers, is a real number. The set of real numbers, which is denoted by R, is the union of the set of rational numbers (Q) and the set of irrational numbers ( 
-¯¯¯¯
-Q
-). So, we can write the set of real numbers as, R = Q ∪ 
-¯¯¯¯
-Q
-. This indicates that real numbers include natural numbers, whole numbers, integers, rational numbers, and irrational numbers. 
+
+Any number that we can think of, except complex numbers, is a real number. The set of real numbers, which is denoted by R, is the union of the set of rational numbers (Q) and the set of irrational numbers (Q). So, we can write the set of real numbers as, R = Q ∪ Q. This indicates that real numbers include natural numbers, whole numbers, integers, rational numbers, and irrational numbers. 
 
 For example, 3, 0, 1.5, 3/2, √5, and so on are real numbers.
 
 
-Types of Real Numbers
+#### Types of Real Numbers
 We know that real numbers include rational numbers and irrational numbers. Thus, there does not exist any real number that is neither rational nor irrational. It simply means that if we pick up any number from R, it is either rational or irrational.
 
-Rational Numbers
+#### Rational Numbers
 
 Any number which can be defined in the form of a fraction p/q is called a rational number. The numerator in the fraction is represented as 'p' and the denominator as 'q', where 'q' is not equal to zero. A rational number can be a natural number, a whole number, a decimal, or an integer. For example, 1/2, -2/3, 0.5, 0.333 are rational numbers.
 
@@ -160,18 +155,19 @@ The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is kn
 ```{r child="Section_01/Introduction_To_Numbers.Rmd"}
 ```
 
+```{r child  = "Section_01/Numbers-FractionalNumbers.Rmd"}
+```
 
 
 ```{r child  = "Section_01/Floating_Point_Notation.Rmd"}
 ```
 
-```{r child="Section_01/Numbers-RepeatingDecimals.Rmd"}
+
+
+
+```{r child  = "Section_01/Scientific_Notation.Rmd"}
 ```
 
+```{r child = "Section_01/Numbers-RepeatingDecimals.Rmd"}
+```
 
-Video List {data-navmenu="Tutorials & Videos"}
-=====================================
-
-### Video List
-
-<h3>Video List</h3>

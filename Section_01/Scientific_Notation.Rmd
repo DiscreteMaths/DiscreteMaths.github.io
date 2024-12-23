@@ -1,0 +1,80 @@
+Repeating Decimals {data-navmenu="Fractional Numbers"}
+==================================
+
+Column{.tabset}
+-------------------------------------------------
+
+### Repeating Decimals
+
+
+**Scientific notation** is a way of expressing very large or very small numbers in a compact and manageable form. It is widely used in science, engineering, and mathematics to make calculations easier and to clearly communicate precise values. Scientific notation represents numbers as a product of a coefficient and a power of 10.
+
+#### Format:
+A number in scientific notation is written as:
+\[ N = M \times 10^E \]
+where:
+- \(N\) is the number being represented.
+- \(M\) is the mantissa (or coefficient), a decimal number greater than or equal to 1 and less than 10.
+- \(10\) is the base.
+- \(E\) is the exponent, an integer that indicates how many times the base (10) should be multiplied or divided.
+
+#### Examples:
+1. **Large Numbers**:
+   - The number 5,200,000 can be written in scientific notation as:
+   \[ 5.2 \times 10^6 \]
+   Here, \(5.2\) is the mantissa, and \(6\) is the exponent indicating the decimal point has been moved 6 places to the left.
+
+2. **Small Numbers**:
+   - The number 0.000042 can be written in scientific notation as:
+   \[ 4.2 \times 10^{-5} \]
+   Here, \(4.2\) is the mantissa, and \(-5\) is the exponent indicating the decimal point has been moved 5 places to the right.
+
+#### Advantages:
+- **Compactness**: Simplifies the representation of very large or very small numbers.
+- **Precision**: Clearly indicates the significant digits in a number.
+- **Ease of Calculation**: Facilitates multiplication and division by dealing with exponents.
+
+#### Applications:
+- **Scientific Research**: For representing measurements, distances (e.g., astronomical distances), and quantities (e.g., Avogadro's number).
+- **Engineering**: For calculations involving large scales or very small dimensions (e.g., nanotechnology).
+- **Mathematics**: For simplifying complex calculations and solving equations involving very large or small numbers.
+
+Scientific notation and floating point notation are both methods for representing real numbers, especially very large or very small ones. While they are related concepts, they have different applications and structures.
+
+#### Scientific Notation:
+- **Format**: Expresses numbers as a product of a coefficient (mantissa) and a power of 10.
+  \[ N = M \times 10^E \]
+  Where \(N\) is the number, \(M\) is the mantissa (a decimal number between 1 and 10), and \(E\) is the exponent (an integer).
+- **Usage**: Commonly used in scientific and mathematical contexts to simplify the representation and manipulation of large or small numbers.
+- **Example**: The number 123,000 can be written as \(1.23 \times 10^5\).
+
+#### Floating Point Notation:
+- **Format**: A more generalized form that can be implemented in computer systems, allowing for the representation of a wide range of values in binary form.
+  \[ N = M \times B^E \]
+  Where \(N\) is the number, \(M\) is the mantissa (represented in binary), \(B\) is the base (usually 2 for binary systems), and \(E\) is the exponent.
+- **Components**:
+  - **Mantissa**: The significant digits of the number, stored in binary.
+  - **Exponent**: Indicates the power of the base (2 in binary systems).
+  - **Sign Bit**: Indicates whether the number is positive or negative.
+- **Standard**: Governed by the IEEE 754 standard, which defines the format for single precision (32-bit) and double precision (64-bit) floating point numbers.
+- **Usage**: Primarily used in computer systems and programming to represent real numbers with a balance between range and precision.
+- **Example**: The number 123.45 in IEEE 754 single precision might be represented with a specific combination of bits for the mantissa, exponent, and sign.
+
+#### Key Differences:
+1. **Representation**:
+   - **Scientific Notation**: Uses base 10 and is represented in decimal form.
+   - **Floating Point Notation**: Often uses base 2 in binary form, suitable for computer systems.
+
+2. **Application**:
+   - **Scientific Notation**: Used in academic, scientific, and everyday contexts for simplifying numbers.
+   - **Floating Point Notation**: Used in digital systems, programming, and computing for efficient number representation and operations.
+
+3. **Format Standardization**:
+   - **Scientific Notation**: Does not have a specific standard like IEEE but follows a general form \( M \times 10^E \).
+   - **Floating Point Notation**: Strictly follows the IEEE 754 standard, defining specific bit allocations for mantissa, exponent, and sign.
+
+#### Conclusion:
+While both scientific and floating point notations serve to represent real numbers efficiently, scientific notation is more suitable for manual calculations and general use, whereas floating point notation is designed for computational efficiency and precision in digital systems.
+
+
+By understanding and utilizing scientific notation, one can effectively manage and communicate precise numerical values in various fields of study and practice. 

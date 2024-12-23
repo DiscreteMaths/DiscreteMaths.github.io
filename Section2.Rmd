@@ -60,7 +60,7 @@ A binary number is a number expressed in the base-2 numeral system or binary num
 ```{r child="Section_02/Numbers-ConversionTable.Rmd"}
 ```
 
-Video List {data-navmenu="Tutorials & Videos"}
+Video List {data-navmenu="Tutorials and Videos"}
 =====================================
 
 ### Video List
