@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
@@ -22,12 +22,19 @@ Column {.tabset}
 
 <a href="index.html">Back to main page</a>
 
-<h3>Section 14</h3>
-
+<h3>Matrices and Linear Eequations</h3>
 
 * Introduction to Matrices
 
 * Systems of Linear Equations
+
+
+
+```{r child = "navigate.Rmd"}
+```
+
+
+
 
 
   

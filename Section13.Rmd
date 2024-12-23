@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
@@ -27,6 +27,10 @@ Column {.tabset}
 
 A counting problem is the task of finding the number of elements of some set with a particular property. Such counting problems are usually encountered in ***combinatorics***.
 
+
+
+```{r child = "navigate.Rmd"}
+```
 
 
 

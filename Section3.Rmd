@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}

@@ -50,8 +50,6 @@ By studying graph theory, one can understand and solve complex problems related 
 
 
 
-<h4>Graph Theory</h4>
-
 ```{r child = "navigate.Rmd"}
 ```
 

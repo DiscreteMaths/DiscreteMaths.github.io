@@ -11,17 +11,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
+
 Column {.tabset}
---------------------
+-------------------------------------------------
 
 ### Sequences and Series
 
 <a href="index.html">Back to main page</a>
-
 
 <h3>Section 11</h3>
 
@@ -36,16 +35,90 @@ The sequence can be classified into 3 categories:
 3. Harmonic Sequence
 
 
+Summation Notation (Sigma Notation) {data-navmenu="Sequences and Series"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Summation Notation (Sigma Notation)
+
+**Summation Notation (Sigma Notation)**
+
+**Introduction**
+
+Summation notation, often represented by the Greek letter sigma (Σ), is a concise way to express the sum of a series of numbers. It is a powerful tool used in various areas of mathematics, including calculus, statistics, and discrete mathematics.
+
+**Basic Structure:**
+
+* **Σ:** The sigma symbol itself, indicating summation.
+* **k:** The index variable. It represents the counter that takes on integer values within a specified range.
+* **k=a:** The lower limit of the summation. The index variable starts from this value.
+* **k=b:** The upper limit of the summation. The index variable increments until it reaches this value.
+* **f(k):** The expression to be summed. This expression may involve the index variable (k).
+
+**Example:**
+
+* **Σ<sub>k=1</sub><sup>5</sup> k** 
+
+This expression represents the sum of the first five natural numbers: 1 + 2 + 3 + 4 + 5.
+
+**Key Concepts:**
+
+* **Index Variable:** The index variable (k in the example above) is a dummy variable. Its name can be changed without altering the meaning of the summation. 
+* **Limits of Summation:** The lower and upper limits of the summation determine the range of values that the index variable takes.
+* **Properties of Summation:**
+    * **Linearity:** 
+        * Σ<sub>k=a</sub><sup>b</sup> [c * f(k)] = c * Σ<sub>k=a</sub><sup>b</sup> f(k) 
+            (where c is a constant)
+        * Σ<sub>k=a</sub><sup>b</sup> [f(k) + g(k)] = Σ<sub>k=a</sub><sup>b</sup> f(k) + Σ<sub>k=a</sub><sup>b</sup> g(k)
+    * **Splitting a Sum:** 
+        * Σ<sub>k=a</sub><sup>b</sup> f(k) = Σ<sub>k=a</sub><sup>m</sup> f(k) + Σ<sub>k=m+1</sub><sup>b</sup> f(k) 
+            (where a ≤ m < b)
+
+**Applications in Computer Science:**
+
+* **Algorithm Analysis:** Summation notation is used to express the time and space complexity of algorithms. For example, the time complexity of nested loops can often be expressed using multiple summations.
+* **Data Structures:** Summation is used in analyzing the performance of data structures like arrays, linked lists, and trees.
+* **Machine Learning:** Summation is fundamental in many machine learning algorithms, such as calculating loss functions, gradients, and probabilities.
+
+**Example in Computer Science:**
+
+* **Time Complexity of Nested Loops:**
+
+<pre><code>
+   for i in range(n):
+       for j in range(i):
+           # some operation
+</code></pre>
+
+The time complexity of this code snippet can be expressed as:
+
+Σ<sub>i=1</sub><sup>n</sup> Σ<sub>j=1</sub><sup>i</sup> 1 = Σ<sub>i=1</sub><sup>n</sup> i = n(n+1)/2 
+
+This demonstrates how summation notation can be used to analyze the number of operations performed by an algorithm.
+
+**Conclusion:**
+
+* Summation notation is a concise and powerful mathematical tool with numerous applications in computer science. 
+* Understanding its basic principles and properties is essential for analyzing algorithms, understanding data structures, and developing efficient solutions to computational problems.
 
 
-----------------------------------------------------------------------------------
-### {Aritmetic Progressions}
+
+Aritmetic Progressions {data-navmenu="Sequence and Series"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Aritmetic Progressions
+
+<h4>Aritmetic Progressions</h4>
 
 An arithmetic progression (AP) or arithmetic sequence is a sequence of numbers such that the difference between the consecutive terms is constant. 
 For instance, the sequence $5, 7, 9, 11, 13, 15 \ldots$ is an arithmetic progression with common difference of 2.
 
-----------------------------------------------------------------------------------
-
+<h4>Definition</h4>
 
 If the initial term of an arithmetic progression is $a_{1}$ and the common difference of successive members is d, then the $n-$th term of the sequence ($a_{n}$) is given by:
 \[ a_{n}=a_{1}+(n-1)d, \] 
@@ -53,9 +126,10 @@ and in general
 \[ a_{n}=a_{m}+(n-m)d.\]
 
 
-----------------------------------------------------------------------------------
+### Finite Series
 
-A finite portion of an arithmetic progression is called a \textbf{finite arithmetic progression} and sometimes just called an arithmetic progression. The sum of a finite arithmetic progression is called an arithmetic series.
+* A finite portion of an arithmetic progression is called a \textbf{finite arithmetic progression} and sometimes just called an arithmetic progression. 
+* The sum of a finite arithmetic progression is called an arithmetic series.
 
 
 ----------------------------------------------------------------------------------
@@ -69,8 +143,7 @@ The behavior of the arithmetic progression depends on the common difference d. I
 
 
 
----------------------------------------------------------------------------------
-\textbf{Summation of an Arithmetic Progression}
+### Summation of an Arithmetic Progression}
 The sum of the members of a finite arithmetic progression is called an arithmetic series. For example, consider the sum:
 \[2+5+8+11+14\]
 This sum can be found quickly by taking the number n of terms being added (here 5), multiplying by the sum of the first and last number in the progression (here 2 + 14 = 16), and dividing by 2:
@@ -84,9 +157,9 @@ This formula works for any real numbers $a_{1}$ and $a_{n}$. For example:
 
 ----------------------------------------------------------------------------------
 
-\textbf{Arithmetic Progressions}
+### Arithmetic Progressions
 
-------1.5cm}
+
 Find the sum of the arithmetic progression
 {
 
@@ -94,15 +167,12 @@ Find the sum of the arithmetic progression
 }
 
 
-----------------------------------
-
-
-\textbf{Arithmetic Progressions}
-
-------0.5cm}
+<br>
 First recall two useful equations for working with arithmetic progressions.\\
-\bigskip
 
+
+
+### Arithmetic Progressions: Example
 
 For the arithmetic sequence $a,(a+d) ,(a+2d), \ldots$
 
@@ -115,10 +185,7 @@ For the arithmetic sequence $a,(a+d) ,(a+2d), \ldots$
 
 
 
-----------------------------------
-
-
-\textbf{Arithmetic Progressions}
+### Arithmetic Progressions: Example
 
 Find the sum of the arithmetic progression
 {

@@ -12,18 +12,22 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
 --------------------
 
-### Convergence and Ration Tests
+### Convergence and Ratio Tests
 
 <a href="index.html">Back to main page</a>
 
 
 <h3>Convergence and Ration Tests</h3>
+
+```{r child = "navigate.Rmd"}
+```
+
 
 
 ```{r child="Section_12/SequenceSeries-ProofbyInduction.Rmd"}
@@ -36,3 +40,10 @@ Column {.tabset}
 ```{r child="Section_12/SequenceSeries-ConvergenceTests.Rmd"}
 ```
 
+Tutorial Videos {data-navmenu="Tutorial Videos"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Tutorial Videos
