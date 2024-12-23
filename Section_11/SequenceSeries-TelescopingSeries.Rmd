@@ -1,4 +1,4 @@
-Telescoping Series {data-navmenu="Telescoping Series"}
+Telescoping Series {data-navmenu = "Series"}
 =====================================
 
 Column {.tabset}
@@ -36,6 +36,7 @@ Column {.tabset}
 is telescoping. 
 
 
+### Telescoping Series
 
 In mathematics, a telescoping series is a series whose partial sums eventually only have a fixed number of terms after cancellation.[1][2] Such a technique is also known as the method of differences.
 For example, the series
@@ -76,7 +77,7 @@ So, the sum of the series, which is the limit of the partial sums, is 1.
 
 <p>
 
-
+#### Convergence
 
 You do have to be careful; not every telescoping series converges. Look at the following series:
 
@@ -102,10 +103,8 @@ and any infinite sum with a constant term diverges.
 
 
 
-
-
 	
-#### Videos
+### Videos
 
 *  <a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820" >Introduction to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences – Part 1</a> [4:09]
 *  <a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction to Sequences – Part 3</a> [8:27]

@@ -1,0 +1,103 @@
+Floating Point Notation {data-navmenu="Fractional Numbers"}
+=====================================
+
+### Floating Point Notation for Numbers
+
+<h3>Floating Point Notation</h3>
+
+Floating point notation is a method used to represent real numbers that can accommodate a wide range of values. This notation is particularly useful in scientific and engineering calculations where extremely large or small numbers are common. Unlike fixed-point notation, which has a fixed number of digits before and after the decimal point, floating point notation can "float" the decimal point, allowing for greater flexibility and precision.
+
+#### Understanding Floating Point Representation
+
+At its core, floating point notation expresses numbers in the form of:
+
+\[ N = M \times B^E \]
+
+where:
+- \(N\) is the number being represented.
+- \(M\) is the mantissa (or significand), representing the significant digits of the number.
+- \(B\) is the base (or radix), typically 2 for binary systems used in computers.
+- \(E\) is the exponent, indicating the power to which the base is raised.
+
+For example, the decimal number 123.45 can be represented in floating point notation as:
+
+\[ 1.2345 \times 10^2 \]
+
+Here, 1.2345 is the mantissa, 10 is the base, and 2 is the exponent.
+
+#### Components of Floating Point Numbers
+
+1. **Mantissa (Significand)**:
+   - The mantissa represents the significant digits of the number.
+   - In binary floating point, it is a string of binary digits.
+
+2. **Exponent**:
+   - The exponent scales the mantissa by the base raised to the power of the exponent.
+   - The exponent can be positive or negative, allowing representation of very large or very small numbers.
+
+3. **Base**:
+   - Commonly, the base is 2 in binary floating point systems used by computers.
+   - Decimal floating point systems use base 10.
+
+4. **Sign Bit**:
+   - Floating point numbers include a sign bit to indicate whether the number is positive or negative.
+
+#### IEEE 754 Standard
+
+The IEEE 754 standard is the most widely used standard for floating point computation. It defines the representation and behavior of floating point numbers in binary and decimal formats.
+
+- **Single Precision** (32-bit):
+  - 1 bit for the sign.
+  - 8 bits for the exponent.
+  - 23 bits for the mantissa.
+
+- **Double Precision** (64-bit):
+  - 1 bit for the sign.
+  - 11 bits for the exponent.
+  - 52 bits for the mantissa.
+
+#### Example: Single Precision Representation
+
+Consider the decimal number -42.75. To represent this in IEEE 754 single precision:
+
+1. **Convert to Binary**:
+   - The integer part: 42 in binary is 101010.
+   - The fractional part: 0.75 in binary is 0.11.
+   - Combined: 101010.11.
+
+2. **Normalize**:
+   - Move the binary point to after the first 1: \(1.0101011 \times 2^5\).
+
+3. **Determine Sign Bit**:
+   - The number is negative, so the sign bit is 1.
+
+4. **Exponent**:
+   - The exponent is 5, but IEEE 754 uses a bias of 127 for single precision.
+   - \(5 + 127 = 132\).
+   - 132 in binary is 10000100.
+
+5. **Mantissa**:
+   - The mantissa is the normalized significant bits: 01010110000000000000000 (23 bits).
+
+The IEEE 754 representation of -42.75 in single precision is:
+
+\[ 1\ 10000100\ 01010110000000000000000 \]
+
+#### Applications and Importance
+
+Floating point notation is crucial in various fields:
+
+- **Scientific Computing**: Handling very large or very small numbers with high precision.
+- **Engineering**: Accurate simulations and calculations.
+- **Graphics**: Precise rendering of images and animations.
+- **Finance**: Managing calculations involving significant decimal places.
+
+#### Challenges and Considerations
+
+- **Precision Limits**: Floating point numbers can only approximate real numbers, leading to rounding errors.
+- **Representation Issues**: Not all decimal numbers can be precisely represented in binary floating point.
+- **Overflow and Underflow**: Large exponents can cause overflow, while very small exponents can cause underflow.
+
+#### Conclusion
+
+Floating point notation provides a flexible and efficient way to represent real numbers in computing. By understanding its structure and limitations, one can effectively utilize this notation in various applications, ensuring accurate and reliable numerical computations. The IEEE 754 standard has standardized this representation, making it an essential tool in modern computing and digital systems.

@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
@@ -25,7 +25,9 @@ Column {.tabset}
 
 <h4> Real Numbers</h4>
 
-<! -- https://www.cuemath.com/numbers/real-numbers/ -->
+```{r eval=FALSE}
+#<! -- https://www.cuemath.com/numbers/real-numbers/ -->
+```
 
 #### Real Numbers
 Any number that can be found in the real world is a real number. We find numbers everywhere around us. Natural numbers are used for counting objects, rational numbers are used for representing fractions, irrational numbers are used for calculating the square root of a number, integers for measuring temperature, and so on. 
@@ -155,7 +157,12 @@ The font that the symbols are written in (i.e. $\mathbb{N}$, $\mathbb{R}$) is kn
 
 
 
-```{r child="sourcefiles/Numbers-IntroductionToNumbers.Rmd"}
+```{r child="Section_01/Introduction_To_Numbers.Rmd"}
+```
+
+
+
+```{r child  = "Section_01/Floating_Point_Notation.Rmd"}
 ```
 
 ```{r child="Section_02/Numbers-RepeatingDecimals.Rmd"}

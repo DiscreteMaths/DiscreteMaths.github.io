@@ -1,0 +1,18 @@
+### Digraphs
+
+A directed graph, or **digraph**, is a type of graph in which edges have a direction, indicating a one-way relationship between two vertices. Each edge in a digraph is represented as an ordered pair \( (u, v) \), where the direction is from vertex \( u \) to vertex \( v \). This contrasts with undirected graphs, where edges do not have a direction.
+
+### Key Features of Digraphs:
+- **Vertices**: The nodes or points in the graph.
+- **Edges**: Directed connections between vertices, also known as arcs.
+- **In-degree**: The number of edges coming into a vertex.
+- **Out-degree**: The number of edges going out from a vertex.
+
+### Applications:
+- **Traffic Networks**: Modeling one-way streets and traffic flow.
+- **Social Networks**: Representing follower-followee relationships.
+- **Web Graphs**: Analyzing web page links and website structure.
+- **Task Scheduling**: Depicting dependencies between tasks in project management.
+
+Digraphs are essential in various fields such as computer science, engineering, and operations research, providing a powerful framework for modeling and analyzing directed relationships and processes.
+

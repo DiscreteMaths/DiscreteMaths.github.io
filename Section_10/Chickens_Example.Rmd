@@ -1,0 +1,46 @@
+To represent the pecking order among the chickens at Home Farm, we can create a directed graph (digraph) where each chicken is a vertex, and a directed edge from chicken \(x\) to chicken \(y\) indicates that \(x\) is dominant over \(y\).
+
+### Pecking Order Digraph
+Here are the vertices and edges based on the given dominance relations:
+
+- **Vertices**: Amy (A), Beth (B), Carol (C), Daisy (D), Eve (E)
+
+- **Edges**:
+  - A -> B
+  - A -> C
+  - B -> E
+  - B -> C
+  - C -> E
+  - C -> D
+  - D -> E
+  - D -> A
+  - D -> B
+  - E -> A
+
+### Adjacency List Representation:
+```
+A: B, C
+B: E, C
+C: E, D
+D: E, A, B
+E: A
+```
+
+### Adjacency Matrix Representation:
+```
+    A B C D E
+A [ 0 1 1 0 0 ]
+B [ 0 0 1 0 1 ]
+C [ 0 0 0 1 1 ]
+D [ 1 1 0 0 1 ]
+E [ 1 0 0 0 0 ]
+```
+
+In this digraph:
+- **Vertex A** (Amy) has outgoing edges to B (Beth) and C (Carol), indicating Amy is dominant over Beth and Carol.
+- **Vertex B** (Beth) has outgoing edges to E (Eve) and C (Carol), indicating Beth is dominant over Eve and Carol.
+- **Vertex C** (Carol) has outgoing edges to E (Eve) and D (Daisy), indicating Carol is dominant over Eve and Daisy.
+- **Vertex D** (Daisy) has outgoing edges to E (Eve), A (Amy), and B (Beth), indicating Daisy is dominant over Eve, Amy, and Beth.
+- **Vertex E** (Eve) has an outgoing edge to A (Amy), indicating Eve is dominant over Amy.
+
+This digraph effectively represents the pecking order among the chickens at Home Farm. If you have any more questions or need further analysis, feel free to ask!

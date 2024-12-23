@@ -38,15 +38,18 @@ library(janitor)
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_accent_inverse(
-  base_color = "#4169e1", #)(
-  background_color = "#E6E6FA",
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color = "#98a869",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "400", "300i"),
   code_font_google   = google_font("Fira Mono")
 )
 ```
 
-# Introduction to Spanning Trees
+# Hexadecimal Numbers
+## Worked Example: Converting to Base 10 (Example 2)
 <br>
 ## Discrete Maths for Computer Science Students
 <br><br><br><br>
