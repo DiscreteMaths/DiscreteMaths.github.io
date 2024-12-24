@@ -2031,7 +2031,7 @@ efficient solutions to computational problems.</li>
 </div>
 </div>
 </div>
-<div id="aritmetic-progressions" class="section level1" data-navmenu="Sequence and Series">
+<div id="aritmetic-progressions" class="section level1" data-navmenu="Sequences and Series">
 <h1>Aritmetic Progressions</h1>
 <div id="column-2" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
@@ -2408,9 +2408,124 @@ example above, this gives: <span class="math display">\[2+10+50+250={\frac  {2(1
 </div>
 </div>
 </div>
+<div id="telescoping-series" class="section level1" data-navmenu="Sequences and Series">
+<h1>Telescoping Series</h1>
+<div id="column-4" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="telescoping-series-1" class="section level3">
+<h3>Telescoping Series</h3>
+<p><strong>Telescoping Series</strong></p>
+<ul>
+<li><p>A telescoping series is a series whose partial sums eventually
+only have a finite number of terms after cancellation.</p></li>
+<li><p>The cancellation technique, with part of each term cancelling
+with part of the next term, is known as the method of
+differences.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping
+Series (Lecture)</a></p></li>
+<li><p>Telescoping Series - Worked Example -
+<a href="http://Telescoping%20Series (Lecture)">HERE</a></p></li>
+<li><p>In mathematics, a telescoping series is a series whose partial
+sums eventually only have a fixed number of terms after
+cancellation.</p></li>
+<li><p>Such a technique is also known as the method of
+differences.</p></li>
+</ul>
+<p>
+<ul>
+<li>A telescoping series does not have a set form, like the geometric
+and p-series do. * A telescoping series is any series where nearly every
+term cancels with a preceeding or following term. * For instance, the
+series</li>
+</ul>
+<p><span class="math display">\[   \sum^{\infty}_{n=1} \frac{1}{n} -
+\frac{1}{n+1} \]</span></p>
+<p>is telescoping.</p>
+</div>
+<div id="telescoping-series-2" class="section level3">
+<h3>Telescoping Series</h3>
+<p>In mathematics, a telescoping series is a series whose partial sums
+eventually only have a fixed number of terms after cancellation.[1][2]
+Such a technique is also known as the method of differences. For
+example, the series <span class="math display">\[\sum_{n=1}^\infty\frac{1}{n(n+1)}\]</span>
+simplifies as <span class="math display">\[\begin{align}
+\sum_{n=1}^\infty \frac{1}{n(n+1)} &amp; {} = \sum_{n=1}^\infty \left(
+\frac{1}{n} - \frac{1}{n+1} \right) \\
+{} &amp; {} = \lim_{N\to\infty} \sum_{n=1}^N \left( \frac{1}{n} -
+\frac{1}{n+1} \right) \\
+{} &amp; {} = \lim_{N\to\infty} \left\lbrack {\left(1 -
+\frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots +
+\left(\frac{1}{N} - \frac{1}{N+1}\right) } \right\rbrack  \\
+{} &amp; {} = \lim_{N\to\infty} \left\lbrack {  1 + \left( - \frac{1}{2}
++ \frac{1}{2}\right) + \left( - \frac{1}{3} + \frac{1}{3}\right) +
+\cdots + \left( - \frac{1}{N} + \frac{1}{N}\right) - \frac{1}{N+1} }
+\right\rbrack = 1.
+\end{align}\]</span></p>
+<p>
+<p>For example, the series <span class="math display">\[\sum_{n=1}^\infty\frac{1}{n(n+1)}\]</span>
+simplifies as <span class="math display">\[\begin{align}
+\sum_{n=1}^\infty \frac{1}{n(n+1)} &amp; {} = \sum_{n=1}^\infty \left(
+\frac{1}{n} - \frac{1}{n+1} \right) \\
+{} &amp; {} = \lim_{N\to\infty} \sum_{n=1}^N \left( \frac{1}{n} -
+\frac{1}{n+1} \right) \\
+{} &amp; {} = \lim_{N\to\infty} \left\lbrack {\left(1 -
+\frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots +
+\left(\frac{1}{N} - \frac{1}{N+1}\right) } \right\rbrack  \\
+{} &amp; {} = \lim_{N\to\infty} \left\lbrack {  1 + \left( - \frac{1}{2}
++ \frac{1}{2}\right) + \left( - \frac{1}{3} + \frac{1}{3}\right) +
+\cdots + \left( - \frac{1}{N} + \frac{1}{N}\right) - \frac{1}{N+1} }
+\right\rbrack = 1.
+\end{align}\]</span></p>
+<p>Look at the partial sums:</p>
+<p><span class="math display">\[   \sum^{n}_{i=1}  \frac{1}{i}  -
+1/(i+1) = (1/1 - 1/2) + (1/2 - 1/3) + \ldots + (1/n -
+1/(n+1))\]</span></p>
+<p><span class="math display">\[= 1 - 1/(n+1)\]</span></p>
+<p>because of cancellation of adjacent terms.</p>
+<p>So, the sum of the series, which is the limit of the partial sums, is
+1.</p>
+<p>
+<div id="convergence" class="section level4">
+<h4>Convergence</h4>
+<p>You do have to be careful; not every telescoping series converges.
+Look at the following series:</p>
+<p><span class="math display">\[   \sum^{\infty}_{i=1} n - (n + 1)
+\]</span></p>
+<p>You might at first think that all of the terms will cancel, and you
+will be left with just 1 as the sum.. But take a look at the partial
+sums:</p>
+<p><span class="math display">\[   \sum^{n}_{i=1} - (i + 1) = (1 - 2) +
+(2 - 3) + \ldots + (n - (n + 1)) =\]</span></p>
+<p><span class="math display">\[1 - (n + 1) =\]</span> <span class="math display">\[-n.\]</span></p>
+<p>
+<p>This sequence does not converge, so the sum does not converge. This
+can be more easily seen if you simplify the expression for the term. You
+find that</p>
+<p><span class="math display">\[   \sum^{\infty}_{i=1} n - (n + 1) =
+\sum^{\infty}_{i=1} -1 \]</span></p>
+<p>and any infinite sum with a constant term diverges.</p>
+</div>
+</div>
+<div id="videos" class="section level3">
+<h3>Videos</h3>
+<ul>
+<li><p><a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820">Introduction
+to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences –
+Part 1</a> [4:09]</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction
+to Sequences – Part 3</a> [8:27]</p></li>
+<li><p><a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820">Evaluating
+Sequence Values</a></p></li>
+<li><p>Exam Question
+<a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and
+Series 2003 proof by induction</a></p></li>
+</ul>
+</div>
+</div>
+</div>
 <div id="sequences-and-series-1" class="section level1" data-navmenu="Sequences and Series">
 <h1>Sequences and Series</h1>
-<div id="column-4" class="section level2 tabset">
+<div id="column-5" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="introduction-1" class="section level3">
 <h3>Introduction</h3>
@@ -2421,7 +2536,7 @@ example above, this gives: <span class="math display">\[2+10+50+250={\frac  {2(1
 <li>Recurrences Relationships (Fibonacci Sequence)</li>
 </ul>
 </div>
-<div id="videos" class="section level3">
+<div id="videos-1" class="section level3">
 <h3>Videos</h3>
 <ul>
 <li><p>Part 1 : Sequences</p></li>
@@ -2532,7 +2647,7 @@ Minutes)</li>
 </div>
 <div id="finite-series-1" class="section level1" data-navmenu="Series">
 <h1>Finite Series</h1>
-<div id="column-5" class="section level2 tabset">
+<div id="column-6" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="finite-series-and-sigma-notation" class="section level3">
 <h3>Finite Series and Sigma Notation</h3>
@@ -2634,7 +2749,7 @@ i  =  50\]</span></li>
 </ul>
 </div>
 </div>
-<div id="videos-1" class="section level3">
+<div id="videos-2" class="section level3">
 <h3>Videos</h3>
 <div id="sigma-notation-and-finite-series" class="section level4">
 <h4>Sigma Notation and Finite Series</h4>
@@ -2659,7 +2774,7 @@ Notation</a> (6:49 Minutes)</p></li>
 </div>
 <div id="recurrence-relation" class="section level1" data-navmenu="Progressions">
 <h1>Recurrence Relation</h1>
-<div id="column-6" class="section level2 tabset">
+<div id="column-7" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="recurrence-relation-1" class="section level3">
 <h3>Recurrence Relation</h3>
@@ -2809,115 +2924,6 @@ r_{n+1}=&amp;r_n \left( 2-D r_n \right)
 </div>
 </div>
 </div>
-<div id="telescoping-series" class="section level1" data-navmenu="Telescoping Series">
-<h1>Telescoping Series</h1>
-<div id="column-7" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="telescoping-series-1" class="section level3">
-<h3>Telescoping Series</h3>
-<p><strong>Telescoping Series</strong></p>
-<ul>
-<li><p>A telescoping series is a series whose partial sums eventually
-only have a finite number of terms after cancellation.</p></li>
-<li><p>The cancellation technique, with part of each term cancelling
-with part of the next term, is known as the method of
-differences.</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=CcYnFbo8-xw">Telescoping
-Series (Lecture)</a></p></li>
-<li><p>Telescoping Series - Worked Example -
-<a href="http://Telescoping%20Series (Lecture)">HERE</a></p></li>
-<li><p>In mathematics, a telescoping series is a series whose partial
-sums eventually only have a fixed number of terms after
-cancellation.</p></li>
-<li><p>Such a technique is also known as the method of
-differences.</p></li>
-</ul>
-<p>
-<ul>
-<li>A telescoping series does not have a set form, like the geometric
-and p-series do. * A telescoping series is any series where nearly every
-term cancels with a preceeding or following term. * For instance, the
-series</li>
-</ul>
-<p><span class="math display">\[   \sum^{\infty}_{n=1} \frac{1}{n} -
-\frac{1}{n+1} \]</span></p>
-<p>is telescoping.</p>
-<p>In mathematics, a telescoping series is a series whose partial sums
-eventually only have a fixed number of terms after cancellation.[1][2]
-Such a technique is also known as the method of differences. For
-example, the series <span class="math display">\[\sum_{n=1}^\infty\frac{1}{n(n+1)}\]</span>
-simplifies as <span class="math display">\[\begin{align}
-\sum_{n=1}^\infty \frac{1}{n(n+1)} &amp; {} = \sum_{n=1}^\infty \left(
-\frac{1}{n} - \frac{1}{n+1} \right) \\
-{} &amp; {} = \lim_{N\to\infty} \sum_{n=1}^N \left( \frac{1}{n} -
-\frac{1}{n+1} \right) \\
-{} &amp; {} = \lim_{N\to\infty} \left\lbrack {\left(1 -
-\frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots +
-\left(\frac{1}{N} - \frac{1}{N+1}\right) } \right\rbrack  \\
-{} &amp; {} = \lim_{N\to\infty} \left\lbrack {  1 + \left( - \frac{1}{2}
-+ \frac{1}{2}\right) + \left( - \frac{1}{3} + \frac{1}{3}\right) +
-\cdots + \left( - \frac{1}{N} + \frac{1}{N}\right) - \frac{1}{N+1} }
-\right\rbrack = 1.
-\end{align}\]</span></p>
-<p>
-<p>For example, the series <span class="math display">\[\sum_{n=1}^\infty\frac{1}{n(n+1)}\]</span>
-simplifies as <span class="math display">\[\begin{align}
-\sum_{n=1}^\infty \frac{1}{n(n+1)} &amp; {} = \sum_{n=1}^\infty \left(
-\frac{1}{n} - \frac{1}{n+1} \right) \\
-{} &amp; {} = \lim_{N\to\infty} \sum_{n=1}^N \left( \frac{1}{n} -
-\frac{1}{n+1} \right) \\
-{} &amp; {} = \lim_{N\to\infty} \left\lbrack {\left(1 -
-\frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \cdots +
-\left(\frac{1}{N} - \frac{1}{N+1}\right) } \right\rbrack  \\
-{} &amp; {} = \lim_{N\to\infty} \left\lbrack {  1 + \left( - \frac{1}{2}
-+ \frac{1}{2}\right) + \left( - \frac{1}{3} + \frac{1}{3}\right) +
-\cdots + \left( - \frac{1}{N} + \frac{1}{N}\right) - \frac{1}{N+1} }
-\right\rbrack = 1.
-\end{align}\]</span></p>
-<p>Look at the partial sums:</p>
-<p><span class="math display">\[   \sum^{n}_{i=1}  \frac{1}{i}  -
-1/(i+1) = (1/1 - 1/2) + (1/2 - 1/3) + \ldots + (1/n -
-1/(n+1))\]</span></p>
-<p><span class="math display">\[= 1 - 1/(n+1)\]</span></p>
-<p>because of cancellation of adjacent terms.</p>
-<p>So, the sum of the series, which is the limit of the partial sums, is
-1.</p>
-<p>
-<p>You do have to be careful; not every telescoping series converges.
-Look at the following series:</p>
-<p><span class="math display">\[   \sum^{\infty}_{i=1} n - (n + 1)
-\]</span></p>
-<p>You might at first think that all of the terms will cancel, and you
-will be left with just 1 as the sum.. But take a look at the partial
-sums:</p>
-<p><span class="math display">\[   \sum^{n}_{i=1} - (i + 1) = (1 - 2) +
-(2 - 3) + \ldots + (n - (n + 1)) =\]</span></p>
-<p><span class="math display">\[1 - (n + 1) =\]</span> <span class="math display">\[-n.\]</span></p>
-<p>
-<p>This sequence does not converge, so the sum does not converge. This
-can be more easily seen if you simplify the expression for the term. You
-find that</p>
-<p><span class="math display">\[   \sum^{\infty}_{i=1} n - (n + 1) =
-\sum^{\infty}_{i=1} -1 \]</span></p>
-<p>and any infinite sum with a constant term diverges.</p>
-<div id="videos-2" class="section level4">
-<h4>Videos</h4>
-<ul>
-<li><p><a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820">Introduction
-to </a><a href="https://www.youtube.com/watch?v=wQ4_kSZAkAQ">Sequences –
-Part 1</a> [4:09]</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=Mj0Z1ts8U0k">Introduction
-to Sequences – Part 3</a> [8:27]</p></li>
-<li><p><a title="Evaluating Sequence Values" href="https://www.youtube.com/watch?v=GcVEi0gP820">Evaluating
-Sequence Values</a></p></li>
-<li><p>Exam Question
-<a href="https://www.youtube.com/watch?v=TZ_k798VNdk">Sequences and
-Series 2003 proof by induction</a></p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
 <div id="exercises-series-and-summations" class="section level1" data-navmenu="Exercises">
 <h1>Exercises: Series and Summations</h1>
 <div id="column-8" class="section level2 tabset">
@@ -2932,11 +2938,14 @@ Z^{+}\)</span>.\</p>
 <p>[1.] Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sigma\)</span> notation.</p>
 <p>[2.] Calculate <span class="math inline">\(s_1\)</span> , <span class="math inline">\(s_2\)</span> and <span class="math inline">\(s_3\)</span>.</p>
 <p>[3.] Find a recurrence relation which expresses <span class="math inline">\(s_{n+1}\)</span> in terms of <span class="math inline">\(s_n\)</span>.</p>
-<p>: Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sum\)</span> notation. <span class="math display">\[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n
+</div>
+<div id="part-1" class="section level4">
+<h4>Part 1:</h4>
+<p>Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sum\)</span> notation. <span class="math display">\[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n
 \in Z^{+}\]</span></p>
 <p>: Express <span class="math inline">\(s_n\)</span> using <span class="math inline">\(\sum\)</span> notation. <span class="math display">\[s_n = 1 + 3 + 5 + \ldots + (2n-1) \mbox{   for }n
 \in Z^{+}\]</span></p>
-<p><span class="math display">\[  \sum^{k=n}_{k=1} (2k-1) \]</span></p>
+<p><span class="math display">\[ \sum^{k=n}_{k=1} (2k-1) \]</span></p>
 </div>
 <div id="question-2" class="section level4">
 <h4>Question 2</h4>
@@ -2966,19 +2975,31 @@ exercise</a></li>
 <div id="question-1-1" class="section level4">
 <h4>Question 1</h4>
 <p>Find a recurrence relation which expresses <span class="math inline">\(s_{n+1}\)</span> in terms of <span class="math inline">\(s_n\)</span>.</p>
-<p></p>
+</div>
+<div id="arithmetic-progressions-1" class="section level4">
+<h4>Arithmetic Progressions</h4>
 <p><span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
 \right] \]</span></p>
 <p>Recall <span class="math inline">\(a=11\)</span>,<span class="math inline">\(d=2\)</span> and <span class="math inline">\(n=21\)</span></p>
 <p><span class="math display">\[ S_n  = {21 \over 2} \left[ (2.11)
 +[(21-1)2] \right] \]</span> <span class="math display">\[ S_n  = 10.5
 \left[ 22 + 40 \right]  = 10.5 \times 62\]</span> <span class="math display">\[ S_n  = 651 \]</span></p>
-<p>% HOB book Page 393</p>
-<p>Find the sum of the arithmetic progression {</p>
+</div>
+</div>
+</div>
+</div>
+<div id="worksheet-2-1" class="section level1" data-navmenu="Exercises">
+<h1>Worksheet 2</h1>
+<div id="column-9" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<p>Find the sum of the arithmetic progression</p>
 <p><span class="math display">\[ 11 + 13 + 15 + \ldots + 49 + 51
-\]</span> }</p>
-<p>%%- First recall two useful equations for working with arithmetic
-progressions.\ </p>
+\]</span></p>
+<p>First recall two useful equations for working with arithmetic
+progressions. <br></p>
 <p>For the arithmetic sequence <span class="math inline">\(a,(a+d)
 ,(a+2d), \ldots\)</span></p>
 <p>[(i)] <span class="math inline">\(t_n\)</span> is the <span class="math inline">\(n-th\)</span> term of series.<span class="math display">\[ t_n= a+(n-1)d \]</span></p>
@@ -2993,118 +3014,92 @@ first <span class="math inline">\(n\)</span> terms</p>
 number of terms) is.</li>
 <li>The last term is <span class="math inline">\(51\)</span>.</li>
 </ul>
-<p>%%-</p>
-<ul>
-<li>The last term is <span class="math inline">\(51\)</span>.</li>
-<li><span class="math inline">\(t_n\)</span> = 51 = [ 11 + (n-1)2 ]</li>
-<li><span class="math inline">\(t_n\)</span> = 51 = 2n + 9</li>
-<li><span class="math inline">\(n=21\)</span></li>
-</ul>
+<p><br> * The last term is <span class="math inline">\(51\)</span>. *
+<span class="math inline">\(t_n\)</span> = 51 = [ 11 + (n-1)2 ] * <span class="math inline">\(t_n\)</span> = 51 = 2n + 9 * <span class="math inline">\(n=21\)</span></p>
 <p>There are 21 terms in the series.</p>
-<p>%%- <span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
+<p><span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
 \right] \]</span></p>
 <p>Recall <span class="math inline">\(a=11\)</span>,<span class="math inline">\(d=2\)</span> and <span class="math inline">\(n=21\)</span></p>
 <p><span class="math display">\[ \phantom{S_n  = {21 \over 2} \left[
 (2.11) +[(21-1)2] \right]} \]</span> <span class="math display">\[
 \phantom{S_n  = 10.5 \left[ 22 + 40 \right]  = 10.5 \times 62}\]</span>
 <span class="math display">\[ \phantom{S_n  = 651} \]</span></p>
-<p>%%- <span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
+<p>
+<p><span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
 \right] \]</span></p>
 <p>Recall <span class="math inline">\(a=11\)</span>,<span class="math inline">\(d=2\)</span> and <span class="math inline">\(n=21\)</span></p>
 <p><span class="math display">\[ S_n  = {21 \over 2} \left[ (2.11)
 +[(21-1)2] \right] \]</span> <span class="math display">\[ S_n  = 10.5
 \left[ 22 + 40 \right]  = 10.5 \times 62\]</span> <span class="math display">\[ S_n  = 651 \]</span></p>
-</div>
-</div>
 <div id="summations" class="section level3">
-<h3>{Summations}</h3>
-<p>%%- Find <span class="math inline">\(S_n\)</span>, the sum of <span class="math inline">\(n\)</span> terms, of the geometric series</p>
+<h3>Summations</h3>
+<p>Find <span class="math inline">\(S_n\)</span>, the sum of <span class="math inline">\(n\)</span> terms, of the geometric series</p>
 <p><span class="math display">\[  2 + \frac{2}{3} + \frac{2}{3^2} +
-\frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]</span> If <span class="math inline">\(S_n\)</span> = 242/81, find the value of <span class="math inline">\(n\)</span>.</p>
-<p>%%- <span class="math display">\[  2 + \frac{2}{3} + \frac{2}{3^2} +
+\frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]</span></p>
+<p>If <span class="math inline">\(S_n\)</span> = 242/81, find the value
+of <span class="math inline">\(n\)</span>.</p>
+<p><span class="math display">\[  2 + \frac{2}{3} + \frac{2}{3^2} +
 \frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]</span> <span class="math display">\[ \phantom{ 2 \times \left[ 1 + \frac{1}{3} +
 \frac{1}{3^2} + \frac{1}{3^3} +  \ldots + \frac{1}{3^{n-1}}   \right]  }
 \]</span></p>
-<p></p>
+<div id="summation-theorem" class="section level4">
+<h4>Summation Theorem</h4>
 <p><span class="math display">\[ \sum^{n}_{r=0} x^r =
 \frac{x^{n+1}-1}{x-1} \]</span> <span class="math display">\[ \phantom{k
 \sum^{n}_{r=0} x^r = k \frac{x^{n+1}-1}{x-1}  } \]</span> </p>
-<p>%%- <span class="math display">\[  2 + \frac{2}{3} + \frac{2}{3^2} +
+<p><span class="math display">\[  2 + \frac{2}{3} + \frac{2}{3^2} +
 \frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]</span> <span class="math display">\[  2 \times \left[ 1 + \frac{1}{3} + \frac{1}{3^2}
 + \frac{1}{3^3} +  \ldots + \frac{1}{3^{n-1}}   \right] \]</span></p>
-<p></p>
+</div>
+</div>
+<div id="summation-theorem-1" class="section level3">
+<h3>Summation Theorem</h3>
 <p><span class="math display">\[ \sum^{n}_{r=0} x^r =
 \frac{x^{n+1}-1}{x-1} \]</span> <span class="math display">\[
 k  \sum^{n}_{r=0} x^r  =  k \left( \frac{x^{n+1}-1}{x-1} \right)
 \]</span> Here <span class="math inline">\(k=2\)</span> and <span class="math inline">\(x = 1/3\)</span></p>
-<p>%%- </p>
 <p><span class="math display">\[ k  \sum^{n}_{r=0} x^r  =  k \left(
 \frac{x^{n+1}-1}{x-1} \right) \]</span> Here <span class="math inline">\(k=2\)</span> and <span class="math inline">\(x =
 1/3\)</span> <span class="math display">\[  \phantom{ 2  \sum^{n}_{r=0}
 (1/3)^r  =  2 \left( \frac{(1/3)^{n+1}-1}{(1/3)-1} \right) }
 \]</span></p>
-<p>%%- </p>
 <p><span class="math display">\[ k  \sum^{n}_{r=0} x^r  =  k \left(
 \frac{x^{n+1}-1}{x-1} \right) \]</span> Here <span class="math inline">\(k=2\)</span> and <span class="math inline">\(x =
 1/3\)</span> <span class="math display">\[  2  \sum^{n}_{r=0}
 (1/3)^r  =  2 \left( \frac{(1/3)^{n+1}-1}{(1/3)-1} \right)  =
 \frac{242}{81} \]</span></p>
-<p>%%- <span class="math display">\[2 \left(
-\frac{(1/3)^{n+1}-1}{(1/3)-1} \right)  = \frac{-3}{4} \left[
-(1/3)^{n+1}-1 \right]  = \frac{242}{81} \]</span></p>
+<p><span class="math display">\[2 \left( \frac{(1/3)^{n+1}-1}{(1/3)-1}
+\right)  = \frac{-3}{4} \left[ (1/3)^{n+1}-1 \right]  = \frac{242}{81}
+\]</span></p>
 <p><span class="math display">\[ \frac{-3}{4} \left[ (1/3)^{n+1}-1
 \right]  = \frac{242}{81} \]</span></p>
 <p><span class="math display">\[  \left[ (1/3)^{n+1}-1
 \right]  =  \frac{-4}{3} \times \frac{242}{81} \]</span></p>
-<p>{Geometric Series}</p>
-<p>%%- </p>
+</div>
+<div id="geometric-series-1" class="section level3">
+<h3>Geometric Series</h3>
+<p></p>
 <ul>
-<li>Summation of <span class="math inline">\(n\)</span> terms {</li>
+<li>Summation of <span class="math inline">\(n\)</span> terms</li>
 </ul>
 <p><span class="math display">\[ S_n = \frac{a(1-r)^n}{1-r} \]</span> }
-* Sum to infinity of a geometric series {</p>
+* Sum to infinity of a geometric series</p>
 <p><span class="math display">\[ \mbox{ when } 0 &lt; r &lt; 1 :
-S_{\infty} = \frac{a}{1-r} \]</span> }</p>
-<table style="width:49%;">
-<colgroup>
-<col width="48%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left">{Geometric Series}{Example 1}</td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math display">\[ \frac{1}{2} + \frac{1}{4}
-+ \frac{1}{8} +  \frac{1}{16} +\ldots  \]</span></td>
-</tr>
-<tr class="odd">
-<td align="left">- {Summations}</td>
-</tr>
-<tr class="even">
-<td align="left">Summation Theorem</td>
-</tr>
-<tr class="odd">
-<td align="left"><span class="math display">\[ \sum^{n}_{r=0} x^r =
-\frac{x^{n+1}-1}{x-1} \]</span></td>
-</tr>
-<tr class="even">
-<td align="left">Here <span class="math inline">\(x = 1/3\)</span></td>
-</tr>
-<tr class="odd">
-<td align="left"><span class="math display">\[  2 + \frac{2}{3} +
-\frac{2}{3^2} + \frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}}
-\]</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="hob-book-page-393" class="section level2">
-<h2>% HOB book Page 393</h2>
+S_{\infty} = \frac{a}{1-r} \]</span></p>
+<p>Geometric Series- Example 1</p>
+<p><span class="math display">\[ \frac{1}{2} + \frac{1}{4} + \frac{1}{8}
++  \frac{1}{16} +\ldots  \]</span></p>
 <ul>
-<li>{Arithmetic Progressions} First recall two useful equations for
-working with Arithmetic Progressions</li>
+<li>{Summations}</li>
 </ul>
+<p>Summation Theorem</p>
+<p><span class="math display">\[ \sum^{n}_{r=0} x^r =
+\frac{x^{n+1}-1}{x-1} \]</span></p>
+<p>Here <span class="math inline">\(x = 1/3\)</span></p>
+<p><span class="math display">\[  2 + \frac{2}{3} + \frac{2}{3^2} +
+\frac{2}{3^3} +  \ldots + \frac{2}{3^{n-1}} \]</span></p>
+<p>First recall two useful equations for working with Arithmetic
+Progressions</p>
 <p>For the arithmetic sequence <span class="math inline">\(a,(a+d)
 ,(a+2d), \ldots\)</span></p>
 <p>[(i)] <span class="math inline">\(t_n\)</span> is the <span class="math inline">\(n-th\)</span> term of series = <span class="math inline">\(a+(n-1)d\)</span></p>
@@ -3112,10 +3107,7 @@ working with Arithmetic Progressions</li>
 first <span class="math inline">\(n\)</span> terms</p>
 <p><span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
 \right] \]</span></p>
-<hr />
-<ul>
-<li>{Arithmetic Progressions}</li>
-</ul>
+<p><br></p>
 <p>Find the sum of the arithmetic progression { <span class="math display">\[ 11 + 13 + 15 + \dots + 49 + 51 \]</span> }</p>
 <ul>
 <li><span class="math inline">\(a=11\)</span> and <span class="math inline">\(d=2\)</span></li>
@@ -3123,20 +3115,14 @@ first <span class="math inline">\(n\)</span> terms</p>
 number of terms) is.</li>
 <li>The last term is <span class="math inline">\(51\)</span></li>
 </ul>
-<hr />
+<p><br></p>
 <ul>
-<li><p>{Arithmetic Progressions}</p></li>
-<li><p>The last term is <span class="math inline">\(51\)</span>.</p></li>
-<li><p><span class="math inline">\(t_n\)</span> = 51 = [ 11 + (n-1)2
-]</p></li>
-<li><p><span class="math inline">\(t_n\)</span> = 51 = 2n + 9</p></li>
-<li><p><span class="math inline">\(n=21\)</span></p></li>
+<li>The last term is <span class="math inline">\(51\)</span>.</li>
+<li><span class="math inline">\(t_n\)</span> = 51 = [ 11 + (n-1)2 ]</li>
+<li><span class="math inline">\(t_n\)</span> = 51 = 2n + 9</li>
+<li><span class="math inline">\(n=21\)</span></li>
 </ul>
 <p>There are 21 terms in the series.</p>
-<hr />
-<ul>
-<li>{Arithmetic Progressions}</li>
-</ul>
 <p><span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
 \right] \]</span></p>
 <p>Recall <span class="math inline">\(a=11\)</span>,<span class="math inline">\(d=2\)</span> and <span class="math inline">\(n=21\)</span></p>
@@ -3144,27 +3130,23 @@ number of terms) is.</li>
 (2.11) +[(21-1)2] \right]} \]</span> <span class="math display">\[
 \phantom{S_n  = 10.5 \left[ 22 + 40 \right]  = 10.5 \times 62}\]</span>
 <span class="math display">\[ \phantom{S_n  = 651} \]</span></p>
-<hr />
-<ul>
-<li>{Arithmetic Progressions}</li>
-</ul>
+<p><br></p>
 <p><span class="math display">\[ S_n  = {n \over 2} \left[ 2a+(n-1)d
 \right] \]</span></p>
 <p>Recall <span class="math inline">\(a=11\)</span>,<span class="math inline">\(d=2\)</span> and <span class="math inline">\(n=21\)</span></p>
 <p><span class="math display">\[ S_n  = {21 \over 2} \left[ (2.11)
 +[(21-1)2] \right] \]</span> <span class="math display">\[ S_n  = 10.5
 \left[ 22 + 40 \right]  = 10.5 \times 62\]</span> <span class="math display">\[ S_n  = 651 \]</span></p>
-<p>{</p>
-<p><span class="math display">\[ S_n = \frac{a(1-r)^n}{1-r} \]</span> }
-{</p>
+<p><span class="math display">\[ S_n = \frac{a(1-r)^n}{1-r}
+\]</span></p>
 <p><span class="math display">\[ \mbox{ when } 0 &lt; r &lt; 1 :
-S_{\infty} = \frac{a}{1-r} \]</span> }</p>
-<hr />
-<ul>
-<li>{Geometric Series}{Example 1}</li>
-</ul>
+S_{\infty} = \frac{a}{1-r} \]</span></p>
+<div id="geometric-series---example-1" class="section level4">
+<h4>Geometric Series - Example 1</h4>
 <p><span class="math display">\[ \frac{1}{2} + \frac{1}{4} + \frac{1}{8}
 +  \frac{1}{16} +\ldots  \]</span></p>
+</div>
+</div>
 </div>
 </div>
 

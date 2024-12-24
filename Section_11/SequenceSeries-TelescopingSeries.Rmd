@@ -1,4 +1,4 @@
-Telescoping Series {data-navmenu = "Series"}
+Telescoping Series {data-navmenu="Sequences and Series"}
 =====================================
 
 Column {.tabset}

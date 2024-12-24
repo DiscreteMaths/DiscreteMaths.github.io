@@ -105,7 +105,7 @@ This demonstrates how summation notation can be used to analyze the number of op
 
 
 
-Aritmetic Progressions {data-navmenu="Sequence and Series"}
+Aritmetic Progressions {data-navmenu="Sequences and Series"}
 =====================================
 
 Column {.tabset}
@@ -237,6 +237,10 @@ Recall $a=11$,$d=2$ and $n=21$
 
 
 
+```{r child="Section_11/SequenceSeries-TelescopingSeries.Rmd"}
+```
+
+
 
 
 ```{r child="Section_11/SequenceSeries-IntroductionToSequencesSeries.Rmd"}
@@ -252,10 +256,6 @@ Recall $a=11$,$d=2$ and $n=21$
 
 
 ```{r child="Section_11/SequenceSeries-RecurrenceRelations.Rmd"}
-```
-
-
-```{r child="Section_11/SequenceSeries-TelescopingSeries.Rmd"}
 ```
 
 
