@@ -1,4 +1,4 @@
-Set Operations {data-navmenu="Set Theory"}
+Set Operations {data-navmenu="Set Operations"}
 ====================================
 
 Column {.tabset}

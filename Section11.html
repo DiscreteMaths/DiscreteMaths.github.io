@@ -2922,6 +2922,103 @@ r_{n+1}=&amp;r_n \left( 2-D r_n \right)
 <span class="math inline">\(a_{n}\)</span> or <span class="math inline">\(a_{n+1}\)</span>.</p>
 </div>
 </div>
+<div id="introduction-to-recurrence-relations" class="section level3">
+<h3>Introduction to Recurrence Relations</h3>
+<p>A recurrence relation, also known as a recursive relation, is an
+equation that defines a sequence of values using recursion. Each term in
+the sequence is defined as a function of one or more previous terms.
+Recurrence relations are widely used in computer science, particularly
+in the analysis of algorithms, and they also appear in various fields
+such as mathematics and economics.</p>
+<div id="types-of-recurrence-relations" class="section level4">
+<h4>Types of Recurrence Relations</h4>
+<ol style="list-style-type: decimal">
+<li><strong>Linear Recurrence Relations</strong>: Each term is a linear
+combination of previous terms.</li>
+<li><strong>Homogeneous Recurrence Relations</strong>: The relation does
+not have any additional terms (like constants or functions of the
+index).</li>
+<li><strong>Non-Homogeneous Recurrence Relations</strong>: The relation
+includes additional terms other than linear combinations of previous
+terms.</li>
+<li><strong>Higher-Order Recurrence Relations</strong>: The relation
+involves terms further back than the immediate preceding terms.</li>
+</ol>
+</div>
+<div id="examples-of-recurrence-relations" class="section level4">
+<h4>Examples of Recurrence Relations</h4>
+<ol style="list-style-type: decimal">
+<li><p><strong>Fibonacci Sequence</strong>: <span class="math display">\[ F(n) = F(n-1) + F(n-2) \]</span> with initial
+conditions <span class="math inline">\(F(0) = 0\)</span> and <span class="math inline">\(F(1) = 1\)</span>.</p></li>
+<li><p><strong>Factorial</strong>: <span class="math display">\[ T(n) =
+n \cdot T(n-1) \]</span> with initial condition <span class="math inline">\(T(0) = 1\)</span>.</p></li>
+<li><p><strong>Arithmetic Sequence</strong>: <span class="math display">\[ a_n = a_{n-1} + d \]</span> with a given initial
+term <span class="math inline">\(a_1\)</span>.</p></li>
+<li><p><strong>Geometric Sequence</strong>: <span class="math display">\[ a_n = r \cdot a_{n-1} \]</span> with a given
+initial term <span class="math inline">\(a_1\)</span>.</p></li>
+</ol>
+</div>
+<div id="solving-recurrence-relations" class="section level4">
+<h4>Solving Recurrence Relations</h4>
+<p>To solve a recurrence relation means to find a closed-form expression
+(an explicit formula that does not involve recursion) for the sequence.
+Various methods exist for solving recurrence relations:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Substitution Method</strong>: Guess the form of the solution
+and use mathematical induction to find the constants.</li>
+<li><strong>Characteristic Equation Method</strong>: Used for linear
+homogeneous recurrence relations with constant coefficients.</li>
+<li><strong>Iteration Method</strong>: Expand the recurrence relation
+step by step until a pattern emerges.</li>
+</ol>
+</div>
+<div id="example-solving-a-simple-recurrence-relation" class="section level4">
+<h4>Example: Solving a Simple Recurrence Relation</h4>
+<p><strong>Example 1</strong>: Fibonacci Sequence Given: <span class="math display">\[ F(n) = F(n-1) + F(n-2) \]</span> with initial
+conditions <span class="math inline">\(F(0) = 0\)</span> and <span class="math inline">\(F(1) = 1\)</span>.</p>
+<p><strong>Solution</strong>: The characteristic equation for this
+recurrence relation is: <span class="math display">\[ x^2 = x + 1
+\]</span> Solving this quadratic equation, we find the roots: <span class="math display">\[ x = \frac{1 \pm \sqrt{5}}{2} \]</span> These
+roots are often denoted as <span class="math inline">\(\alpha = \frac{1
++ \sqrt{5}}{2}\)</span> and <span class="math inline">\(\beta = \frac{1
+- \sqrt{5}}{2}\)</span>.</p>
+<p>The general solution is: <span class="math display">\[ F(n) = A
+\alpha^n + B \beta^n \]</span> Using the initial conditions to find
+<span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>: <span class="math display">\[ F(0) = A
+\alpha^0 + B \beta^0 = A + B = 0 \]</span> <span class="math display">\[
+F(1) = A \alpha + B \beta = 1 \]</span></p>
+<p>Solving these equations: <span class="math display">\[ A + B = 0
+\]</span> <span class="math display">\[ A \alpha + B \beta = 1 \]</span>
+We find: <span class="math display">\[ A = \frac{1}{\sqrt{5}}, \quad B =
+-\frac{1}{\sqrt{5}} \]</span></p>
+<p>Thus, the closed-form solution is: <span class="math display">\[ F(n)
+= \frac{1}{\sqrt{5}} \left( \left( \frac{1 + \sqrt{5}}{2} \right)^n -
+\left( \frac{1 - \sqrt{5}}{2} \right)^n \right) \]</span></p>
+</div>
+<div id="application-in-computer-science" class="section level4">
+<h4>Application in Computer Science</h4>
+<p>Recurrence relations are particularly useful in analyzing the time
+complexity of recursive algorithms.</p>
+<p><strong>Example 2</strong>: Merge Sort The time complexity <span class="math inline">\(T(n)\)</span> of Merge Sort can be described by
+the recurrence relation: <span class="math display">\[ T(n) =
+2T\left(\frac{n}{2}\right) + O(n) \]</span> Using the Master Theorem, we
+can solve this recurrence relation to find that the time complexity is
+<span class="math inline">\(O(n \log n)\)</span>.</p>
+</div>
+<div id="exercises" class="section level4">
+<h4>Exercises</h4>
+<ol style="list-style-type: decimal">
+<li>Solve the recurrence relation <span class="math inline">\(a_n =
+3a_{n-1} + 2\)</span> with the initial condition <span class="math inline">\(a_0 = 4\)</span>.</li>
+<li>Determine the closed-form solution for the recurrence relation <span class="math inline">\(T(n) = 2T(n-1) + 1\)</span> with <span class="math inline">\(T(1) = 1\)</span>.</li>
+<li>Use the characteristic equation method to solve <span class="math inline">\(b_n = 5b_{n-1} - 6b_{n-2}\)</span> with initial
+conditions <span class="math inline">\(b_0 = 2\)</span> and <span class="math inline">\(b_1 = 3\)</span>.</li>
+</ol>
+<p>I hope this lesson helps you understand recurrence relations and
+their applications! Let me know if you have any questions or need
+further examples.</p>
+</div>
+</div>
 </div>
 </div>
 <div id="exercises-series-and-summations" class="section level1" data-navmenu="Exercises">

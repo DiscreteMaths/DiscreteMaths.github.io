@@ -1,5 +1,3 @@
-
-
 Types of Set {data-navmenu="Set Theory"}
 ====================================
 
@@ -10,9 +8,6 @@ Column {.tabset}
 
 ### Types of Sets
 Sets can be classified into many types. Some of which are finite, infinite, subset, universal, proper, singleton set, etc.
-
-
-
 
 
 #### The Universal Set and the Empty Set
@@ -41,6 +36,7 @@ A set which contains infinite number of elements is called an infinite set.
 \subsubsection*{Example} 
 
 \[S={x|x\in N  and x>10}\]
+
 #### Subset
 A set X is a subset of set Y (Written as $X \subseteq Y$) if every element of X is an element of set Y.
 
@@ -92,7 +88,7 @@ $S={x|x\in N, 7<x<9} = {8}$
 #### Equal Set
 If two sets contain the same elements they are said to be equal.
 
-\subsubsection*{Example} 
+<h3>Example</h3>
 
 If A={1,2,6}A={1,2,6} and B={6,1,2}B={6,1,2}, they are equal as every element of set A is an element of set B and every element of set B is an element of set A.
 
@@ -117,6 +113,7 @@ In case of overlapping sets −
 #### Example
 
 Let, $A={1,2,6}$ and $B={6,12,42}$. There is a common element ‘6’, hence these sets are overlapping sets.
+
 
 ### Disjoint Set
 
@@ -223,46 +220,6 @@ For example:
 {(1,2),(3,4)} is a set of two elements, each of which is an ordered pair. One of the elements of the set is (1,2) and the other element of the set is (3,4).
 ({1,2},{3},{2,4}) is an ordered list of sets. The first element of the list is the set {1,2}; the second element of the list is the set {3}; the third element of the list is the set {2,4}.
 
-Power Sets {data-navmenu="Set Theory"}
-====================================
-
-Column {.tabset}
--------------------------------------------------------------
-
-
-### Power Sets
-
-#### Worked Example
-
-Consider the set $Z$:
-\[ Z = \{ a,b,c\}  \]
-
-* [Q1] How many sets are in the power set of $Z$? 
-* [Q2] Write out the power set of $Z$. 
-* [Q3] How many elements are in each element set?
-
-
-#### Solutions to Worked Example
-
-* [Q1] There are 3 elements in $Z$. So there is $2^3 = 8$ element sets contained in the power set.
-
-* [Q2] Write out the power set of $Z$.
-\[ \mathcal{P}(Z) = \{ \{0\}, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\} \]
-
-* [Q3]
-
-* [*] One element set is the null set - i.e. containing no
-elements 
-
-* [$\bullet$] Three element sets have only elements 
-* [$\bullet$] Three element sets have two elements 
-* [$\bullet$] One element set contains all three elements 
-* [$\bullet$] 1+3+3+1=8
-
-
-#### Exercise
-For the set $Y = \{u,v,w,x\}$ , answer the questions from the
-previous exercise
 
 
 
@@ -287,62 +244,5 @@ Let $S={a,b,c,d,e,f,g,h}$
 
 *  One probable partitioning is ${a},{b,c,d},{e,f,g,h}$
 *  Another probable partitioning is ${a,b},{c,d},{e,f,g,h}$
-
-
-
-
-De Morgan's Laws {data-navmenu="De Morgan's Laws"}
-====================================
-
-Column {.tabset}
--------------------------------------------------------------
-
-### De Morgan's Laws
-
-#### Set theory and Boolean algebra
-
-In set theory and Boolean algebra, De Morgan's Laws are often stated as "Union and intersection interchange under complementation" which can be formally expressed as:
-
-\[\overline{A \cup B}\equiv\overline{A} \cap \overline{B}\]
-\[\overline{A \cap B}\equiv\overline{A} \cup \overline{B}\]
-where:
-
-* $\overline{A}$ is the negation of A, the overline being written above the terms to be negated
-* $\cap$ is the intersection operator (AND)
-* $\cup$ is the union operator (OR)
-
-
-<hline>
-
-* In propositional logic and boolean algebra, ***De Morgan's laws*** are a pair of transformation rules that are both valid rules of inference. 
-* The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
-
-The rules can be verbalized as:
-
-* The negation of a conjunction is the disjunction of the negations.
-* The negation of a disjunction is the conjunction of the negations.
-
-or informally as:
-
-\textbf{``not (A and B)" is the same as "(not A) or (not B)"
-}
-
-and also,
-
-
-***``not (A or B)" is the same as "(not A) and (not B)"***
-
-
-The rules can be expressed in formal language with two propositions P and Q as:
-\[ \neg(P\land Q)\iff(\neg P)\lor(\neg Q)\]
-\[\neg(P\lor Q)\iff(\neg P)\land(\neg Q)\]
-where:
-
-* $\neg$ is the negation operator (NOT)
-* $\wedge $ is the conjunction operator (AND)
-* $\vee$ is the disjunction operator (OR)
-* $\leftarrow \rightarrow$ is a metalogical symbol meaning "can be replaced in a logical proof with"
-
-
 
 

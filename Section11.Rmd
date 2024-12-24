@@ -259,6 +259,9 @@ Recall $a=11$,$d=2$ and $n=21$
 ```
 
 
+```{r child="Section_11/Recurrence_Relation.Rmd"}
+```
+
 
 ```{r child="TutorialSheets/Series-Tutorial-1.Rmd"}
 ```

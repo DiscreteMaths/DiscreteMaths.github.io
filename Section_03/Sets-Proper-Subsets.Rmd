@@ -1,0 +1,26 @@
+### Proper Subset
+**Proper Subset**
+
+In set theory, a proper subset of a set A is a subset of A that is not equal to A itself. In other words, it contains some but not all of the elements of A.
+
+**Key Points:**
+
+* **Symbol:** ⊂ (or ⊊) is used to denote a proper subset.
+* **Definition:** If A and B are sets, A is a proper subset of B if:
+    * Every element of A is also an element of B (A ⊆ B)
+    * There exists at least one element in B that is not in A.
+
+**Example:**
+
+* Let A = {1, 2, 3}
+    * {1, 2} is a proper subset of A because it contains some but not all of A's elements.
+    * {1, 2, 3} is a subset of A, but it is not a proper subset because it is equal to A.
+
+**Key Differences between Subset and Proper Subset:**
+
+* **Subset (⊆):** Includes the possibility that the two sets are equal.
+* **Proper Subset (⊂ or ⊊):** Excludes the possibility that the two sets are equal.
+
+**In essence:**
+
+* A proper subset is like a smaller version of the original set, missing at least one element.

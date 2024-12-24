@@ -72,8 +72,13 @@ We write this mathematically as
 ```{r child="Section_03/Set-MembershipTables.Rmd"}
 ```
 
+```{r child="Section_03/Set-TypesOfSet.Rmd"}
+```
 
 ```{r child="Section_03/Set-PowerSets.Rmd"}
+```
+
+```{r child="Section_03/Set-De-Morgans-Laws.Rmd"}
 ```
 
 ```{r child="Section_03/Set-Theory-Tutorial-1.Rmd"}

@@ -1,0 +1,224 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+```{r eval=FALSE,include=FALSE}
+
+# CT6 
+# - ASI 2005 April Question B - 1
+# - ASI 2006 April Question B - 1
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#90EE90",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Introduction to Numbers
+## Fractional Numbers: Recurring Decimals
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+**De Morgan's Laws in Probability**
+
+De Morgan's Laws are fundamental in set theory and have important implications in probability theory. They provide a way to express the complement of the union or intersection of two events.
+
+**1. Complement of the Union:**
+
+* **Statement:** 
+   P( (A ∪ B)' ) = P(A' ∩ B') 
+
+* **Interpretation:** 
+   The probability that neither event A nor event B occurs is equal to the probability that both event A does not occur *and* event B does not occur.
+
+<p>
+
+**2. Complement of the Intersection:**
+
+* **Statement:**
+   P( (A ∩ B)' ) = P(A' ∪ B')
+
+* **Interpretation:**
+   The probability that not both A and B occur is equal to the probability that either A does not occur *or* B does not occur (or neither occurs).
+
+---
+
+**Universal Space** - Four Regions: 1,2,3 and 4
+
+```{r echo=FALSE,fig.width=9,fig.height=5}
+library(ggplot2)
+
+# Create a data frame for the rectangle
+
+library(ggplot2)
+
+# Create a data frame for the rectangle
+rectangle_df <- data.frame(
+  xmin = -5, xmax = 8,
+  ymin = -3, ymax = 3
+)
+
+# Create data frames for the circles and scale them by a factor of 2
+circle1_df <- data.frame(
+  x = 2 * cos(seq(0, 2 * pi, length.out = 100)),
+  y = 2 * sin(seq(0, 2 * pi, length.out = 100))
+)
+
+circle2_df <- data.frame(
+  x = 2 * cos(seq(0, 2 * pi, length.out = 100)) + 3,
+  y = 2 * sin(seq(0, 2 * pi, length.out = 100))
+)
+
+# Create the plot with annotations and no axis ticks
+p1<- ggplot() +
+  geom_rect(data = rectangle_df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), fill = "lightgreen", color = "black", alpha = 0.5) +
+  geom_polygon(data = circle1_df, aes(x = x, y = y), fill = "blue", alpha = 0.5) +
+  geom_polygon(data = circle2_df, aes(x = x, y = y), fill = "red", alpha = 0.5) +
+  annotate("text", x = -1, y = 0, label = "1", color = "black", size = 7, fontface = "bold") +
+  annotate("text", x = 4, y = 0, label = "2", color = "black", size = 7, fontface = "bold") +
+  annotate("text", x = 1.5, y = 0, label = "3", color = "black", size = 7, fontface = "bold") +
+  annotate("text", x = -4, y = -2, label = "4", color = "black", size = 7, fontface = "bold") +
+  annotate("text", x = 0, y = 0, label = "A", color = "blue", size = 9, fontface = "bold") + 
+  annotate("text", x = 3, y = 0, label = "B", color = "red", size = 9, fontface = "bold") + 
+  theme_minimal() +
+  theme(
+    axis.title = element_blank(),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    panel.grid = element_blank()
+  ) +
+  coord_equal() +
+  labs(title = "Events A and B")
+
+p1
+```
+* **Event $A$** - Regions 1 and 3   (**Event $A^{c}$** - Regions 2 and 4)
+<br>
+<br>
+* **Event $B$** - Regions 2 and 3   (**Event $B^{c}$** - Regions 1 and 4)
+<br>
+<br>
+* $A^{c} \cup B^{c}$ - Regions 1, 2 and 4   
+<br>
+* $A^{c} \cap B^{c}$ - Region 4
+<br>
+---
+
+**Law 1**
+
+```{r echo=FALSE,fig.width=6,fig.height=4}
+p1
+
+```
+
+* $A \cup B$ - Regions 1, 2  and 3  
+* $(A \cup B)^c$ - Region 4
+
+Recall:
+
+* $A^{c} \cap B^{c}$ - Region 4
+
+Therefore:
+
+   $$P( (A \cup B)^c ) = P(A^{c} \cap B^{c})$$ 
+---
+
+**Law 2**
+
+```{r echo=FALSE,fig.width=6,fig.height=4}
+p1
+
+```
+
+* $A \cap B$ - Region 3 
+* $(A \cap B)^{c}$ - Regions 1, 2  and 4  
+
+Recall:
+<br>
+* $A^{c} \cup B^{c}$ - Regions 1, 2  and 4 
+
+Therefore:
+
+$$P( (A \cap B)^c ) = P(A^{c} \cup B^{c})$$ 
+
+---
+
+**Example:**
+
+Imagine you're flipping a coin twice. 
+
+* **Event A:** Getting heads on the first flip.
+* **Event B:** Getting heads on the second flip.
+<br>
+<br>
+* **A ∪ B:** The event that you get heads on at least one of the flips.
+* **(A ∪ B)':** The event that you get tails on both flips.
+<br>
+<br>
+* **A':** The event that you get tails on the first flip.
+* **B':** The event that you get tails on the second flip.
+* **A' ∩ B':** The event that you get tails on both flips.
+
+As you can see, in this case, P( (A ∪ B)' ) = P(A' ∩ B'), illustrating De Morgan's Law for the complement of the union.
+
+---
+
+**Key Takeaways:**
+
+* De Morgan's Laws provide valuable tools for manipulating and simplifying probability expressions.
+* They help to express complex events in terms of simpler ones.
+* These laws have applications in various areas of probability and statistics, such as set theory, logic, and circuit design.
+
+**Note:**
+
+* These laws can be extended to more than two events.
+* They are closely related to the laws of Boolean algebra.
+
+---
+
+
+---
