@@ -199,6 +199,13 @@ This course covers the fundamentals of graph theory, a critical area in discrete
 ```{r child="Section_08/Graphs-IntroductionToGraphs.Rmd"}
 ```
 
+```{r child="Section_08/Graphs-DegreeSequence.Rmd"}
+```
+
+
+
+```{r child="Section_08/Graphs-Types-Of-Graphs.Rmd"}
+```
 
 
 ```{r child="Section_08/Graphs-Connectivity.Rmd"}

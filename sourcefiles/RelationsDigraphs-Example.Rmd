@@ -1,0 +1,39 @@
+**Example: Social Network Relationships**
+
+**Scenario:**
+
+Consider a social network where users can connect with each other. Let's define a relation "R" on the set of users as follows:
+
+* **(a, b) ∈ R** if and only if user 'a' is friends with user 'b'.
+
+**Analysis:**
+
+1. **Symmetric:**
+
+   * If user 'a' is friends with user 'b' (i.e., $(a, b) \in R$), then user 'b' must also be friends with user 'a' (i.e., (b, a) \in R). 
+    This is generally true in most social networks where friendships are typically reciprocal. 
+
+2. **Reflexive:**
+
+   * In most social networks, a user cannot be friends with themselves. Therefore, the relation "R" is generally **not reflexive**. 
+
+3. **Transitive:**
+
+   * If user 'a' is friends with user 'b' $(a, b) \in R$ and user 'b' is friends with user 'c' (b, c) \in R, it does not necessarily mean that user 'a' is friends with user 'c' (a, c) \in R. This demonstrates that the relation "R" is **not transitive** in general.
+
+**Transient Relation Example:**
+
+* Let's introduce a new relation "S" on the set of users:
+
+   * **(a, b) \in S** if and only if user 'a' has sent a friend request to user 'b'.
+
+* This relation "S" is **not symmetric**. If user 'a' sends a friend request to user 'b' ((a, b) \in S), it does not guarantee that user 'b' has also sent a friend request to user 'a' ((b, a) \in S).
+
+**Key Takeaways:**
+
+* This example illustrates how real-world scenarios can be modeled using relations. 
+* Understanding the properties of relations (symmetry, reflexivity, transitivity) is crucial in analyzing and designing systems that involve relationships between entities.
+
+**Note:** These are general observations. Specific social network platforms may have variations in their friendship mechanisms, which could affect the properties of the "R" relation.
+
+This example demonstrates how to analyze a real-world scenario (social network) in terms of the properties of relations (symmetry, reflexivity, transitivity), providing a concrete understanding of these concepts.

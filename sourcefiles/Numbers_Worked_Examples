@@ -1,0 +1,68 @@
+**Exercise:**
+
+**1. Number Representation:**
+
+*   **a) Convert the decimal number 1234 to its hexadecimal representation.**
+*   **b) Convert the hexadecimal number 0xCAFE to its decimal representation.**
+*   **c) Perform the following hexadecimal addition: 0x2A + 0x5B.** 
+*   **d) Perform the following hexadecimal subtraction: 0x7F - 0x3A.**
+
+**2. Bitwise Operations:**
+
+*   **a) Given the following hexadecimal numbers: A = 0xAB, B = 0xCD.**
+      *   Perform the bitwise AND operation (A & B) and express the result in hexadecimal.
+      *   Perform the bitwise OR operation (A | B) and express the result in hexadecimal.
+      *   Perform the bitwise XOR operation (A ^ B) and express the result in hexadecimal.
+      *   Perform the bitwise NOT operation (~A) and express the result in hexadecimal.
+*   **b) Explain how you can use bitwise operations to:**
+      *   Check if a specific bit in a given hexadecimal number is set to 1.
+      *   Set a specific bit in a given hexadecimal number to 1.
+      *   Clear a specific bit in a given hexadecimal number to 0.
+      *   Toggle the value of a specific bit in a given hexadecimal number.
+
+**3. Applications:**
+
+*   **a) Explain the significance of hexadecimal numbers in computer science, particularly in relation to memory addresses and color representation.**
+*   **b) Describe how hexadecimal numbers are used in networking protocols (e.g., MAC addresses, IPv6 addresses).**
+*   **c) Discuss the advantages and disadvantages of using hexadecimal notation compared to decimal and binary notation.**
+
+**4. Challenging Problem:**
+
+*   **a) Write a simple algorithm (in pseudocode or using a programming language of your choice) to convert a decimal number to its hexadecimal representation.**
+
+**Solutions (for instructor reference):**
+
+1.  **a) 1234 (decimal) = 0x4D2 (hexadecimal)**
+    **b) 0xCAFE (hexadecimal) = 51966 (decimal)**
+    **c) 0x2A + 0x5B = 0x85**
+    **d) 0x7F - 0x3A = 0x45**
+2.  **a)**
+      *   A & B = 0x89
+      *   A | B = 0xCF
+      *   A ^ B = 0x46
+      *   ~A = 0x54
+3.  **a)**
+      *   **Memory Addresses:** Hexadecimal is often used for memory addresses due to its compact representation and ease of conversion to binary.
+      *   **Color Representation:** Colors are often represented in hexadecimal using RGB or RGBA values (e.g., #FFFFFF for white).
+4.  **a)**
+      *   **Algorithm (Pseudocode):**
+          ```
+          function decimalToHexadecimal(decimal):
+              hexadecimal = "" 
+              while decimal > 0:
+                  remainder = decimal % 16
+                  if remainder < 10:
+                      hexadecimal = str(remainder) + hexadecimal 
+                  else:
+                      hexadecimal = chr(ord('A') + remainder - 10) + hexadecimal 
+                  decimal = decimal // 16
+              return hexadecimal 
+          ```
+
+**Key Considerations:**
+
+*   **Difficulty:** Adjust the difficulty by including more complex conversions, bitwise operations, or application-based problems.
+*   **Programming:** If students have programming experience, incorporate programming exercises that involve hexadecimal manipulation.
+*   **Real-world Examples:** Use real-world examples to illustrate the concepts and motivate students (e.g., analyzing network traffic, debugging assembly code).
+
+This exercise covers fundamental concepts of hexadecimal numbers, their applications in computer science, and basic bitwise operations. It provides a solid foundation for students to understand and work with hexadecimal numbers effectively in their computer science studies.

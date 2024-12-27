@@ -1,0 +1,122 @@
+---
+title: "Introduction to Numbers"
+subtitle: "Discrete Maths for Computer Science Students"
+author: DiscreteMaths.github.io
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+## Number Sets
+
+State which of the following sets the following numbers belong to. 
+
+
+|  |    Number    | |   Number     | |    Number    |
+|-------|--------|-------|--------|-------|--------|
+| 1     | 18     | 5     | \( \frac{17}{4} \) | 9     |8.2347...  |
+| 2     | 0 | 6    | 1.33333... | 10     | \(\sqrt{\pi}\)  |
+| 3     |  -6  | 7    |   4.25   | 11    | \(\pi\)    |
+| 4     | \(\sqrt{25}\) | 8   | (15)₁₀ | 12    |- 11.132 |
+
+---
+
+### Possible Answers
+
+The possible answers are
+
+
+* Real Number: $\mathbb{R}$
+
+* Rational Number : $\mathbb{Q} \subseteq \mathbb{R}$
+
+* Integer : $\mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+
+* Natural number : $\mathbb{N} \subseteq \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+
+
+**Remark:** 
+$\subseteq$ is the notation to signify that something is a subset.
+	
+----------------------------------------------------
+
+1. **18**:
+   - Natural Number (\(\mathbb{N}\)): Yes
+   - Integer (\(\mathbb{Z}\)): Yes
+   - Rational Number (\(\mathbb{Q}\)): Yes
+   - Real Number (\(\mathbb{R}\)): Yes
+   
+----------------------------------------------------
+
+2. **0**:
+   - Integer (\(\mathbb{Z}\)): Yes
+   - Rational Number (\(\mathbb{Q}\)): Yes
+   - Real Number (\(\mathbb{R}\)): Yes
+
+----------------------------------------------------
+
+3. **-6**:
+    - Integer (\(\mathbb{Z}\)): Yes
+    - Rational Number (\(\mathbb{Q}\)): Yes
+    - Real Number (\(\mathbb{R}\)): Yes
+    
+----------------------------------------------------
+
+4. **\(\sqrt{25} = 5\)**:
+   - Natural Number (\(\mathbb{N}\)): Yes
+   - Integer (\(\mathbb{Z}\)): Yes
+   - Rational Number (\(\mathbb{Q}\)): Yes
+   - Real Number (\(\mathbb{R}\)): Yes
+   
+----------------------------------------------------
+
+5. **\(\frac{17}{4}\)**:
+   - Rational Number (\(\mathbb{Q}\)): Yes
+   - Real Number (\(\mathbb{R}\)): Yes
+
+----------------------------------------------------
+
+6. **1.33333...** 
+   - (*a repeating decimal, equivalent to \(4/3\)*):
+   - Rational Number (\(\mathbb{Q}\)): Yes
+   - Real Number (\(\mathbb{R}\)): Yes
+   
+----------------------------------------------------
+
+7. **4.25** 
+   - (*a terminating decimal, equivalent to \(\frac{17}{4}\)*):
+   - Rational Number (\(\mathbb{Q}\)): Yes
+   - Real Number (\(\mathbb{R}\)): Yes
+
+----------------------------------------------------
+
+8. **\((15)_{10}\)** 
+    - (*assuming it is the decimal representation of 15*)
+    - Natural Number (\(\mathbb{N}\)): Yes
+    - Integer (\(\mathbb{Z}\)): Yes
+    - Rational Number (\(\mathbb{Q}\)): Yes
+    - Real Number (\(\mathbb{R}\)): Yes
+      
+----------------------------------------------------
+
+9. **8.2347...** (assuming it is a non-terminating, non-repeating decimal):
+   - Real Number (\(\mathbb{R}\)): Yes   
+   
+----------------------------------------------------
+
+10. **\(\sqrt{\pi}\)** 
+   - (*the square root of an irrational number is still irrational*):
+   - Real Number (\(\mathbb{R}\)): Yes
+   
+----------------------------------------------------
+
+11. **\(\pi\)** (Pi):
+   - Real Number (\(\mathbb{R}\)): Yes
+
+----------------------------------------------------
+
+12. **-11.132**:
+    - Rational Number (\(\mathbb{Q}\)): Yes
+    - Real Number (\(\mathbb{R}\)): Yes
+

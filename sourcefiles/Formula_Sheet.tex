@@ -1,0 +1,270 @@
+
+\pagestyle{fancy}
+\setmarginsrb{20mm}{0mm}{20mm}{25mm}{12mm}{11mm}{0mm}{11mm}
+\lhead{MathsResource} \chead{Introduction to Calculus} \rhead{Tutorial Sheets} %\input{tcilatex}
+\begin{document}
+%=============================== %
+\section*{Formula Sheet}
+\subsection*{Notation:}
+\begin{framed}
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item $\mathbb{R}$ - All real numbers positive and negative
+			\item $\mathbb{R}^+$ - All positive real numbers including $0$
+			\item $\mathbb{R}^-$ - All negative real numbers including $0$
+			\\
+			\phantomspace{here}
+			\bigskip 
+			\item $[a,b]$ - All real numbers $x$ such that $a \le x \le b$
+			\item $(a,b)$ - All real numbers $x$ such that $a < x < b$
+			\item $[a,\infty)$ - All real numbers $x$ such that $a \le x$
+			\item $(a,\infty)$ - All real numbers $x$ such that $a < x$
+		\end{itemize} 
+	\end{multicols}
+\end{framed}
+	
+\subsection*{Floor and Ceiling Functions}
+	\begin{itemize}
+		\item $\lceil x\rceil$ : Ceiling function
+		\item $\lfloor x\rfloor$  : Floor Function
+		\item $\{x\}$ : Fractional Part of a number
+		($\{x\} = x- \lfloor x\rfloor$)
+	\end{itemize}
+	\subsection*{Logarithms}
+	\begin{framed}
+	If $a^b = c$ then $\mbox{log}_a c = b$.
+	\end{framed}
+	
+
+	The following laws are very useful for working with logarithms.
+	\begin{multicols}{2}
+	\begin{enumerate}
+		\item $\mbox{log}_b(X)$ + $\mbox{log}_b(Y)$ = $\mbox{log}_b(XY)$\bigskip
+		\item $\mbox{log}_b(X)$ - $\mbox{log}_b(Y)$ = $\mbox{log}_b(X / Y)$ \bigskip
+		\item $\mbox{log}_b(X^Y)$ = $Y \mbox{log}_b(X)$
+		
+		\item $\mbox{log}_b(X) = 1 $ when $b=X$
+	\end{enumerate}
+	\end{multicols}
+
+
+\subsection*{Change of Base Formula}
+
+\[ \log_A(B) = \frac{ \log_e(B) }{ \log_e(A) }  \]
+	\subsection*{Sum and Difference of Two Cubes}
+	\[ a^3 + b^3 = (a-b)(a^2 - ab + b^2)\]
+	\[ a^3 - b^3 = (a-b)(a^2 + ab + b^2)\]
+	
+	%======================================== %
+	
+	\subsection*{Sequences and Series}
+	
+
+
+
+
+Arithmetic Series Summation:
+\begin{multicols}{2}	
+	\[ \sum_{i=1}^{n} i = \frac{n(n+1)}{2}\]
+	
+
+	\[ S_n = \frac{n}{2} \left(2a + (n-1) d \right)\]
+\end{multicols}	
+	Geometric Series Summation:
+	\begin{multicols}{2}
+	\[ S_n = a\left(\frac{1-r^n}{1-r}\right)\]
+	
+	\[ S_\infty = \frac{a}{1-r}\]
+	\end{multicols}
+	
+	
+	\subsection*{Ratio Test}
+	
+	For a series with general term $u_n$, if
+	
+	\[ \lim_{n \to \infty } \left| \frac{u_{n+1}}{u_n} \right| = r\]
+	then the series converges (absolutely) if $r<1$
+	
+	
+	%==========================================================================================%
+	
+\newpage
+	\subsection*{Curve Sketching}
+	\begin{description}
+		\item[Horizontal Asymptote:] The horizontal asymptote is computed as
+		\[ \lim_{x \to \infty } f(x) \]
+	\end{description}
+
+	%==========================================================================================%
+	
+			\subsection*{Maclaurin Series}
+			\[f(x) = f(0) + f^{\prime}(0) + \frac{f^{\prime \prime}(0)}{2!} + \frac{f^{\prime \prime}(0)}{2!} + \frac{f^{\prime\prime \prime}(0)}{3!} + \ldots \]
+	%==========================================================================================%
+	
+	\subsection*{Hyperbolic Functions }
+	
+	\[ \cosh(x)  =  \frac{e^{x} + e^{-x}}{2} \]
+	
+	\[ \sinh(x)  = \frac{e^{x} - e^{-x}}{2} \]
+	
+	%==========================================================================================%
+
+	\subsection*{Rules of Differentiation}
+	%% - http://media.wix.com/ugd/b064dd_62ab7d7000c34b7eb4a8e2108269cf27.pdf
+	\begin{description}
+		\item[Product Rule:]  with $y = uv$
+		
+		
+		\[ \frac{dy}{dx} = u \frac{dv}{dx} +  v \frac{du}{dx} \]
+		
+		\item[Quotient Rule:] \[ y = \frac{u}{v}\]
+		\[ \frac{dy}{dx}  = \frac{v \frac{du}{dx} - u \frac{dv}{dx} }{v^2} \]
+		
+		
+		
+		\item[Chain Rule:]
+		
+		% y = f(u) and u = u(x), that is y = f(u(x)) ⇒ dy
+		% dx
+		\[ \frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx}  \]
+	\end{description}
+
+	\subsection*{Integration}
+	
+	Integration by parts: 
+	
+	\[ \int u dv = uv - \int v du \]  
+	
+
+	
+	\subsection*{Dynamics}
+	Where $s(t)$ denotes displacement at time $t$, $v(t)$ denotes the velocity at time $t$ and $a(t)$
+	denotes the acceleration at time $t$, 
+	\begin{multicols}{2}
+	\[  \frac{ds(t)}{dt}  = v(t),\]
+	\[  \frac{dv(t)}{dt}  = a(t).\]
+	\end{multicols}
+	\subsection*{Electrical Circuits}
+	Where $q(t)$ denotes the charge at time $t$ and $i(t)$ denotes the current at time $t$,
+	\[  \frac{dq(t)}{dt}  = i(t).\]
+	
+
+
+	
+	
+\subsection*{Curve Sketching}
+\begin{description}
+	\item[Horizontal Asymptote:] The horizontal asymptote is computed as
+		\[ \lim_{x \to \infty } f(x) \]
+\end{description}
+
+	
+	\subsection*{Notation}
+	%% - http://media.wix.com/ugd/b064dd_62ab7d7000c34b7eb4a8e2108269cf27.pdf
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item $\mathbb{R}$ - All real numbers positive and negative
+			\item $\mathbb{R}^+$ - All positive real numbers including $0$
+			\item $\mathbb{R}^-$ - All negative real numbers including $0$
+			\item $[a,b]$ - All real numbers $x$ such that $a \le x \le b$
+			\item $(a,b)$ - All real numbers $x$ such that $a < x < b$
+			\item $[a,\infty)$ - All real numbers $x$ such that $a \le x$
+			\item $(a,\infty)$ - All real numbers $x$ such that $a < x$
+		\end{itemize} 
+	\end{multicols}
+\end{framed}
+\newpage
+
+\newpage
+	\section*{Formula Sheet}
+	
+\subsection*{Logarithms}
+If $a^b = c$ \, then \, $\mbox{log}_a c = b$.
+
+
+
+\subsection*{Change of Base Formula}
+
+\[ \log_A(B) = \frac{ \log_e(B) }{ \log_e(A) }  \]
+	\subsection*{Sum and Difference of Two Cubes}
+	\[ a^3 + b^3 = (a-b)(a^2 - ab + b^2)\]
+	\[ a^3 - b^3 = (a-b)(a^2 + ab + b^2)\]
+	
+	%======================================== %
+	
+	\subsection*{Sequences and Series}
+Arithmetic Series Summation:
+\begin{multicols}{2}	
+	\[ \sum_{i=1}^{n} i = \frac{n(n+1)}{2}\]
+	
+
+	\[ S_n = \frac{n}{2} \left(2a + (n-1) d \right)\]
+\end{multicols}	
+	Geometric Series Summation:
+	\begin{multicols}{2}
+	\[ S_n = a\left(\frac{1-r^n}{1-r}\right)\]
+	
+	\[ S_\infty = \frac{a}{1-r}\]
+	\end{multicols}
+	
+	
+	\subsection*{Ratio Test}
+	
+	For a series with general term $u_n$, if
+	
+	\[ \lim_{n \to \infty } \left| \frac{u_{n+1}}{u_n} \right| = r\]
+	then the series converges (absolutely) if $r<1$
+	
+	
+	%==========================================================================================%
+	
+	
+	\subsection*{Curve Sketching}
+	\begin{description}
+		\item[Horizontal Asymptote:] The horizontal asymptote is computed as
+		\[ \lim_{x \to \infty } f(x) \]
+	\end{description}
+	%==========================================================================================%
+	
+	\subsection*{Maclaurin Series}
+	\[f(x) = f(0) + f^{\prime}(0) + \frac{f^{\prime \prime}(0)}{2!} + \frac{f^{\prime\prime \prime}(0)}{3!} + \ldots \]
+	%==========================================================================================%
+	
+	\subsection*{Hyperbolic Functions }
+	
+	\begin{multicols}{2}
+	\[ \cosh(x)  =  \frac{e^{x} + e^{-x}}{2} \]
+	
+	\[ \sinh(x)  = \frac{e^{x} - e^{-x}}{2} \]
+	\end{multicols}
+
+	
+	%==========================================================================================%
+	
+
+	\subsection*{Integration}
+	
+	Integration by parts: 
+	
+	\[ \int u dv = uv - \int v du \]  
+	
+\noindent Further formulae and special cases on pages 25 \& 26 of the log tables provided.
+	
+	\subsection*{Dynamics}
+	Where $s(t)$ denotes displacement at time $t$, $v(t)$ denotes the velocity at time $t$ and $a(t)$
+	denotes the acceleration at time $t$, 
+	\begin{multicols}{2}
+	\[  \frac{ds(t)}{dt}  = v(t),\]
+	\[  \frac{dv(t)}{dt}  = a(t).\]
+	\end{multicols}
+	\subsection*{Electrical Circuits}
+	Where $q(t)$ denotes the charge at time $t$ and $i(t)$ denotes the current at time $t$,
+	\[  \frac{dq(t)}{dt}  = i(t).\]
+	
+	
+
+\end{document}

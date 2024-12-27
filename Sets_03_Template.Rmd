@@ -41,7 +41,7 @@ style_mono_accent_inverse(
   #base_color = "#4169e1", #)(vvv#TREES
   #background_color = "#E6E6FA",  #TREE
   base_color = "black", #)(
-  background_color =  "#90EE90",
+  background_color =  "#DAB1DA",
   text_color="black",
   text_bold_color = "black",
   header_font_google = google_font("Josefin Sans"),
@@ -54,8 +54,9 @@ style_mono_accent_inverse(
   remark-slide-number { display: none; } 
 </style>
 
-# Introduction to Numbers
-## Rational and Irrational Numbers
+# Set Theory
+## The Power Set
+
 <br>
 ## Discrete Maths for Computer Science Students
 <br><br><br><br>

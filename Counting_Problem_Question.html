@@ -36,8 +36,10 @@ class: center, middle, inverse, title-slide
   remark-slide-number { display: none; } 
 &lt;/style&gt;
 
-# Introduction to Numbers
-## Rational and Irrational Numbers
+# Counting Problems
+### Character Counting in an Alphabet of Five Symbols
+
+
 &lt;br&gt;
 ## Discrete Maths for Computer Science Students
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
@@ -45,111 +47,57 @@ class: center, middle, inverse, title-slide
 
 ---
 
-**De Morgan's Laws in Probability**
+### Counting Problem
 
-De Morgan's Laws are fundamental in set theory and have important implications in probability theory. They provide a way to express the complement of the union or intersection of two events.
+* A string is a palindrome if the string is the same when we read it from the left and from the right, for example: tacocat. 
 
-**1. Complement of the Union:**
+* Let the alphabet be the symbols {a,b,c,d,e}. 
 
-* **Statement:** 
-   P( (A ∪ B)' ) = P(A' ∩ B') 
+* How many palindromes of length 11 exists over this alphabet?
 
-* **Interpretation:** 
-   The probability that neither event A nor event B occurs is equal to the probability that both event A does not occur *and* event B does not occur.
-
-&lt;p&gt;
-
-**2. Complement of the Intersection:**
-
-* **Statement:**
-   P( (A ∩ B)' ) = P(A' ∪ B')
-
-* **Interpretation:**
-   The probability that not both A and B occur is equal to the probability that either A does not occur *or* B does not occur (or neither occurs).
 
 ---
 
-**Universal Space** - Four Regions: 1,2,3 and 4
+### Solution
 
-![](Numbers_01_Template_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
-* **Event `\(A\)`** - Regions 1 and 3   (**Event `\(A^{c}\)`** - Regions 2 and 4)
-&lt;br&gt;
-&lt;br&gt;
-* **Event `\(B\)`** - Regions 2 and 3   (**Event `\(B^{c}\)`** - Regions 1 and 4)
-&lt;br&gt;
-&lt;br&gt;
-* `\(A^{c} \cup B^{c}\)` - Regions 1, 2 and 4   
-&lt;br&gt;
-* `\(A^{c} \cap B^{c}\)` - Region 4
-&lt;br&gt;
+To solve the problem of finding the number of palindromes of length 11 over the alphabet {a, b, c, d, e}, we can follow this solution:
+
+1. A string is a palindrome if it reads the same forwards and backwards.
+2. A palindrome of length 11 can be written in the form `\(s x \overline{s}\)`, 
+  - where `\(s\)` is a string of length 5, 
+  - `\(x\)` is a single symbol, 
+  - and `\(\overline{s}\)` is the reverse of `\(s\)`.
+
+`$${\Large{ \underline{a,b,c,d,a},\mid\textbf{e}\mid,\overline{ a, d,c,b,a, } } }$$`
 ---
 
-**Law 1**
+### Steps:
+- Let `\(s\)` be a string of length 5. Each position in `\(s\)` can be filled with any of the 5 symbols from the alphabet {a, b, c, d, e}.
+- Since `\(s\)` has 5 positions, and each position has 5 choices, there are `\(5^5\)` possible strings for `\(s\)`.
+- The single symbol `\(x\)` also has 5 choices.
 
-![](Numbers_01_Template_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
-
-* `\(A \cup B\)` - Regions 1, 2  and 3  
-* `\((A \cup B)^c\)` - Region 4
-
-Recall:
-
-* `\(A^{c} \cap B^{c}\)` - Region 4
-
-Therefore:
-
-   `$$P( (A \cup B)^c ) = P(A^{c} \cap B^{c})$$` 
----
-
-**Law 2**
-
-![](Numbers_01_Template_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
-
-* `\(A \cap B\)` - Region 3 
-* `\((A \cap B)^{c}\)` - Regions 1, 2  and 4  
-
-Recall:
 &lt;br&gt;
-* `\(A^{c} \cup B^{c}\)` - Regions 1, 2  and 4 
 
-Therefore:
+### Completing the Palindrome
+For a palindrome of length 11, the 7th, 8th, and 9th positions are essentially determined by the 5th, 4th, and 3rd positions, respectively, because the string reads the same forwards and backwards.
 
-`$$P( (A \cap B)^c ) = P(A^{c} \cup B^{c})$$` 
+In this case, there are no independent choices for the 7th, 8th, and 9th positions because their values are dictated by the corresponding earlier positions to ensure the palindrome property.
 
 ---
 
-**Example:**
+### Calculation:
+- The total number of palindromes is given by:
+`$$5^5 \times 5 = 5^6$$`
 
-Imagine you're flipping a coin twice. 
+- Calculating `\(5^6\)`:
+`$$5^6 = 15625$$`
+  
+&lt;br&gt;
 
-* **Event A:** Getting heads on the first flip.
-* **Event B:** Getting heads on the second flip.
-&lt;br&gt;
-&lt;br&gt;
-* **A ∪ B:** The event that you get heads on at least one of the flips.
-* **(A ∪ B)':** The event that you get tails on both flips.
-&lt;br&gt;
-&lt;br&gt;
-* **A':** The event that you get tails on the first flip.
-* **B':** The event that you get tails on the second flip.
-* **A' ∩ B':** The event that you get tails on both flips.
-
-As you can see, in this case, P( (A ∪ B)' ) = P(A' ∩ B'), illustrating De Morgan's Law for the complement of the union.
+### Conclusion:
+There are 15,625 different palindromes of length 11 over the alphabet {a, b, c, d, e}.
 
 ---
-
-**Key Takeaways:**
-
-* De Morgan's Laws provide valuable tools for manipulating and simplifying probability expressions.
-* They help to express complex events in terms of simpler ones.
-* These laws have applications in various areas of probability and statistics, such as set theory, logic, and circuit design.
-
-**Note:**
-
-* These laws can be extended to more than two events.
-* They are closely related to the laws of Boolean algebra.
-
----
-
 
 ---
     </textarea>

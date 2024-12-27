@@ -1,5 +1,6 @@
 ---
-title: "Discrete Mathematics - Section 6"
+title: "Discrete Mathematics 
+- Section 6"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -12,32 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
-About {data-navmenu="About"}
-=====================================
-
-
-Column {.tabset}
--------------------------------------------------
-
-### Functions
-
-<a href="index.html">Back to Main Page</a>
-
-
-<h3>Functions</h3>
-
-This section of the course, "Fundamentals of Functions in Mathematics," delves into the essential concepts and terminologies associated with functions. It provides a comprehensive understanding of the **domain**, **co-domain**, **image**, **ancestor**, and **range** of functions. Students will explore how functions are defined, represented, and analyzed, gaining insights into their fundamental properties. 
-
-Through interactive activities, visual aids, and practical examples, this part of the course aims to equip students with the mathematical tools necessary to approach complex problems in computer science and related fields. By mastering these core concepts, students will be prepared for advanced studies and applications involving mathematical functions.
-
-
-
-```{r child = "navigate.Rmd"}
-```
-
-
-Functions {data-navmenu="Function Fundamentals"}
+Functions {data-navmenu="Section 3"}
 =====================================
 
 Column {.tabset}
@@ -46,41 +22,20 @@ Column {.tabset}
 
 ### Functions
 
+#### *{Session 04:Functions}
 
-<h3>Functions</h3>
-
-#### Objective:
-By the end of this lesson, students will be able to define and differentiate between the concepts of Domain, Co-domain, Image, Ancestor, and Range in the context of mathematical functions.
-
-#### Lesson Outline:
-
-- **Domain**:
-  - Definition: The set of all possible input values (independent variables) for which the function is defined.
-  - Example: For \( f(x) = \sqrt{x} \), the domain is \( x \ge 0 \).
-
-- **Co-domain**:
-  - Definition: The set of all possible output values (dependent variables) that the function can produce.
-  - Example: For \( f(x) = x^2 \), if the co-domain is all real numbers, then it includes both positive and negative values, even though the actual outputs (range) are non-negative.
-
-- **Image**:
-  - Definition: The actual output of the function for a specific input value.
-  - Example: For \( f(x) = x + 2 \), the image of \( 3 \) is \( 5 \) (i.e., \( f(3) = 5 \)).
-
-- **Ancestor**:
-  - Definition: A value in the domain that maps to a specific value in the range.
-  - Example: For \( f(x) = x^2 \), the ancestors of \( 9 \) in \( f(x) \) are \( 3 \) and \( -3 \).
-
-- **Range**:
-  - Definition: The set of all actual output values (images) that the function produces.
-  - Example: For \( f(x) = x^2 \), the range is \( y \ge 0 \).
+* Definitions
 
 
-```{r child = "navigate.Rmd"}
-```
 
-### Polynomial Functions
+[Domain]
+[Co-domain]
+[Image]
+[Ancestor]
+[Range]
 
-#### Polynomial Functions
+
+#### *{Polynomial Functions (4.1.5)}
 
 
 [Constants] $(P_0)$
@@ -89,15 +44,11 @@ By the end of this lesson, students will be able to define and differentiate bet
 [Cubic Functions] $(P_3)$
 
 -----------------------------------
-
 ### Ordered Pairs
 
-```{r echo=FALSE}
-#https://math24.net/cartesian-product-sets.html
-```
+https://math24.net/cartesian-product-sets.html
 
-<h3>Ordered Pairs</h3>
-
+Ordered Pairs
 In sets, the order of elements is not important. For example, the sets {2, 3} and {3, 2} are equal to each other. However, there are many instances in mathematics where the order of elements is essential. So, for example, the pairs of numbers with coordinates (2, 3) and (3, 2) represent different points on the plane. This leads to the concept of ordered pairs.
 
 An ordered pair is defined as a set of two objects together with an order associated with them. Ordered pairs are usually written in parentheses (as opposed to curly braces, which are used for writing sets).
@@ -202,10 +153,6 @@ Necessary Conditions for Invertibility of a Function
 * A function is ***one-to-one*** if no two distinct elements of the domain have the same image.
 
 
-Tutorial Videos {data-navmenu="Tutorials and Videos"}
-=====================================
 
-Column {.tabset}
---------------------
-
-### Tutorial Videos
+```{r child="navigate.Rmd"}
+```

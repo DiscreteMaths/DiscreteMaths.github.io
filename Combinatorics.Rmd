@@ -1,0 +1,11 @@
+Combinatorics is a branch of pure mathematics concerning the study of discrete (and usually finite) objects. It is related to many other areas of mathematics, such as algebra, probability theory, ergodic theory and geometry, as well as to applied subjects in computer science and statistical physics. Aspects of combinatorics include "counting" the objects satisfying certain criteria (enumerative combinatorics), deciding when the criteria can be met, and constructing and analyzing objects meeting the criteria (as in combinatorial designs and matroid theory), finding "largest", "smallest", or "optimal" objects (extremal combinatorics and combinatorial optimization), and finding algebraic structures these objects may have (algebraic combinatorics).
+
+Combinatorics is as much about problem solving as theory building, though it has developed powerful theoretical methods, especially since the later twentieth century (see the page List of combinatorics topics for details of the more recent development of the subject). One of the oldest and most accessible parts of combinatorics is graph theory, which also has numerous natural connections to other areas.
+
+There are many combinatorial patterns and theorems related to the structure of combinatoric sets. These often focus on a partition or ordered partition of a set. See the List of partition topics for an expanded list of related topics or the List of combinatorics topics for a more general listing. Some of the more notable results are highlighted below.
+
+An example of a simple combinatorial question is the following: What is the number of possible orderings of a deck of 52 distinct playing cards? The answer is 52! (52 factorial), which is equal to about 8.0658 \cdot 10^{67}.
+
+Another example of a more difficult problem: Given a certain number n of people, is it possible to assign them to sets so that each person is in at least one set, each pair of people is in exactly one set together, every two sets have exactly one person in common, and no set contains everyone, all but one person, or exactly one person? The answer depends on n.
+
+Combinatorics is used frequently in computer science to obtain estimates on the number of elements of certain sets. A mathematician who studies combinatorics is often referred to as a combinatorialist or combinatorist.

@@ -2464,12 +2464,123 @@ Paths in Graphs</a></li>
 <li><a href="https://youtube.com/watch?v=/5bpRc0FJNnM"> Paths and
 Cycles in Graph Theory </a></li>
 </ul>
+<p>In graph theory, the degree sequence of a graph is a list of the
+degrees of its vertices, usually written in non-increasing order. The
+degree of a vertex is the number of edges incident to it.</p>
+<p>Essentially, the degree sequence provides a summary of the graph’s
+structure by indicating how many connections (or edges) each vertex (or
+node) has.</p>
+</div>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<p>Consider a simple graph with the following vertices and edges: -
+Vertices: <span class="math inline">\(V = \{A, B, C, D, E\}\)</span> -
+Edges: <span class="math inline">\(E = \{(A, B), (A, C), (B, D), (C, D),
+(D, E)\}\)</span></p>
+<p>The degrees of the vertices are: - Vertex <span class="math inline">\(A\)</span>: 2 edges (connected to <span class="math inline">\(B\)</span> and <span class="math inline">\(C\)</span>) - Vertex <span class="math inline">\(B\)</span>: 2 edges (connected to <span class="math inline">\(A\)</span> and <span class="math inline">\(D\)</span>) - Vertex <span class="math inline">\(C\)</span>: 2 edges (connected to <span class="math inline">\(A\)</span> and <span class="math inline">\(D\)</span>) - Vertex <span class="math inline">\(D\)</span>: 3 edges (connected to <span class="math inline">\(B\)</span>, <span class="math inline">\(C\)</span>, and <span class="math inline">\(E\)</span>) - Vertex <span class="math inline">\(E\)</span>: 1 edge (connected to <span class="math inline">\(D\)</span>)</p>
+<p>The degree sequence is therefore: <span class="math display">\[ (3,
+2, 2, 2, 1) \]</span></p>
+</div>
+<div id="significance" class="section level3">
+<h3>Significance</h3>
+<ul>
+<li><strong>Graph Realizability</strong>: A sequence of non-negative
+integers is the degree sequence of some graph if and only if it
+satisfies certain conditions (like the Erdős–Gallai theorem). This is
+useful in graph construction and network analysis.</li>
+<li><strong>Graph Properties</strong>: The degree sequence can provide
+insights into various properties of the graph, such as its connectivity,
+centrality, and potential existence of certain subgraphs.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="types-of-graphs-2" class="section level1" data-navmenu="Graphs">
+<h1>Types of Graphs</h1>
+<div id="column-5" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
+<div id="regular-graphs" class="section level3">
+<h3>Regular Graphs</h3>
+<p>In graph theory, a <strong>regular graph</strong> is a graph where
+each vertex has the same number of edges, meaning that every vertex has
+the same degree. If every vertex in the graph has degree <span class="math inline">\(k\)</span>, the graph is called a <strong><span class="math inline">\(k\)</span>-regular graph</strong> or simply a
+<strong>regular graph of degree <span class="math inline">\(k\)</span></strong>.</p>
+<div id="key-points" class="section level4">
+<h4>Key Points:</h4>
+<ul>
+<li><strong>Degree</strong>: The number of edges incident to a
+vertex.</li>
+<li><strong><span class="math inline">\(k\)</span>-Regular
+Graph</strong>: A graph where every vertex has degree <span class="math inline">\(k\)</span>.</li>
+</ul>
+</div>
+<div id="examples" class="section level4">
+<h4>Examples:</h4>
+<ul>
+<li><strong>3-Regular Graph</strong>: In a 3-regular graph, each vertex
+is connected to exactly three other vertices.</li>
+<li><strong>Complete Graph</strong>: A complete graph with <span class="math inline">\(n\)</span> vertices (<span class="math inline">\(K_n\)</span>) is <span class="math inline">\((n-1)\)</span>-regular because every vertex is
+connected to every other vertex.</li>
+</ul>
+<p>Regular graphs are important in various fields, including network
+design and error-correcting codes, due to their uniform structure.</p>
+</div>
+</div>
+<div id="planar-graphs-1" class="section level3">
+<h3>Planar Graphs</h3>
+<p>In graph theory, a <strong>planar graph</strong> is a graph that can
+be embedded in the plane, meaning it can be drawn on a flat surface
+without any of its edges crossing each other. Here are some key points
+about planar graphs:</p>
+<div id="characteristics-of-planar-graphs" class="section level4">
+<h4>Characteristics of Planar Graphs:</h4>
+<ol style="list-style-type: decimal">
+<li><strong>No Edge Crossings</strong>: A planar graph can be drawn in
+such a way that no two edges intersect except at their endpoints.</li>
+<li><strong>Faces</strong>: In a planar graph, the regions enclosed by
+the edges are called faces. The unbounded region surrounding the graph
+is also considered a face.</li>
+<li><strong>Euler’s Formula</strong>: For a connected planar graph with
+<span class="math inline">\(V\)</span> vertices, <span class="math inline">\(E\)</span> edges, and <span class="math inline">\(F\)</span> faces, Euler’s formula holds: <span class="math display">\[
+V - E + F = 2
+\]</span></li>
+</ol>
+</div>
+<div id="examples-of-planar-graphs" class="section level4">
+<h4>Examples of Planar Graphs:</h4>
+<ul>
+<li><strong>Trees</strong>: All trees are planar graphs because they can
+be drawn without edge crossings.</li>
+<li><strong>Cycle Graphs</strong>: Simple cycle graphs (like triangles
+and quadrilaterals) are planar.</li>
+<li><strong>Graph with small numbers of edges</strong>: Graphs with few
+edges relative to the number of vertices are often planar.</li>
+</ul>
+</div>
+<div id="non-planar-graphs" class="section level4">
+<h4>Non-Planar Graphs:</h4>
+<ul>
+<li><strong>Kuratowski’s Theorem</strong>: A graph is non-planar if it
+contains a subgraph that is homeomorphic to <span class="math inline">\(K_5\)</span> (complete graph on 5 vertices) or
+<span class="math inline">\(K_{3,3}\)</span> (complete bipartite graph
+on 6 vertices, partitioned into two sets of 3).</li>
+<li><strong>Example of Non-Planar Graphs</strong>: <span class="math inline">\(K_5\)</span> and <span class="math inline">\(K_{3,3}\)</span> are classical examples of
+non-planar graphs.</li>
+</ul>
+</div>
+<div id="applications" class="section level4">
+<h4>Applications:</h4>
+<p>Planar graphs are used in various fields such as network design,
+geography (map coloring), and computer graphics. They simplify problems
+involving circuit layout, urban planning, and geographical information
+systems.</p>
+</div>
 </div>
 </div>
 </div>
 <div id="connectivity" class="section level1" data-navmenu="Graphs">
 <h1>Connectivity</h1>
-<div id="column-5" class="section level2 tabset">
+<div id="column-6" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="graph-connectivity" class="section level3">
 <h3>Graph Connectivity</h3>
@@ -2552,7 +2663,7 @@ from the rest of the graph, provided that <span class="math inline">\({\displays
 </div>
 <div id="isomorphic-graphs" class="section level1" data-navmenu="Isomorphic Graphs">
 <h1>Isomorphic Graphs</h1>
-<div id="column-6" class="section level2 tabset">
+<div id="column-7" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="isomorphic-graphs-1" class="section level3">
 <h3>Isomorphic Graphs</h3>
@@ -2665,7 +2776,7 @@ know if you need further details or examples.</p>
 </div>
 <div id="graph-theory---worksheet-1" class="section level1" data-navmenu="Exercises">
 <h1>Graph Theory - Worksheet 1</h1>
-<div id="column-7" class="section level2 tabset">
+<div id="column-8" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1" class="section level3">
 <h3>Work Sheet 1</h3>

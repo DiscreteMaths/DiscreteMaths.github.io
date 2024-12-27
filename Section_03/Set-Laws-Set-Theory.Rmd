@@ -1,0 +1,48 @@
+Set theory is based on several fundamental laws that describe how sets interact with each other. These laws are analogous to the laws of algebra and help us understand relationships between sets. Here are some of the key laws of set theory:
+
+### Basic Laws:
+1. **Commutative Laws**:
+   - Union: \( A \cup B = B \cup A \)
+   - Intersection: \( A \cap B = B \cap A \)
+
+2. **Associative Laws**:
+   - Union: \( (A \cup B) \cup C = A \cup (B \cup C) \)
+   - Intersection: \( (A \cap B) \cap C = A \cap (B \cap C) \)
+
+3. **Distributive Laws**:
+   - Intersection over Union: \( A \cap (B \cup C) = (A \cap B) \cup (A \cap C) \)
+   - Union over Intersection: \( A \cup (B \cap C) = (A \cup B) \cap (A \cup C) \)
+
+4. **Identity Laws**:
+   - Union with the empty set: \( A \cup \emptyset = A \)
+   - Intersection with the empty set: \( A \cap \emptyset = \emptyset \)
+   - Union with the universal set: \( A \cup U = U \)
+   - Intersection with the universal set: \( A \cap U = A \)
+
+5. **Idempotent Laws**:
+   - Union: \( A \cup A = A \)
+   - Intersection: \( A \cap A = A \)
+
+### Complement Laws:
+1. **Complement of the Universal Set**: \( \overline{U} = \emptyset \)
+2. **Complement of the Empty Set**: \( \overline{\emptyset} = U \)
+3. **Complement of a Complement**: \( \overline{\overline{A}} = A \)
+
+### De Morgan's Laws:
+1. \( \overline{A \cup B} = \overline{A} \cap \overline{B} \)
+2. \( \overline{A \cap B} = \overline{A} \cup \overline{B} \)
+
+### Absorption Laws:
+1. Union: \( A \cup (A \cap B) = A \)
+2. Intersection: \( A \cap (A \cup B) = A \)
+
+### Other Useful Laws:
+1. **Double Complement Law**: \( \overline{\overline{A}} = A \)
+2. **Complement Laws**:
+   - \( A \cup \overline{A} = U \)
+   - \( A \cap \overline{A} = \emptyset \)
+3. **Annihilation Laws**:
+   - \( A \cup \emptyset = A \)
+   - \( A \cap \emptyset = \emptyset \)
+
+These laws form the foundation of set theory and are used extensively in mathematics, logic, computer science, and various other fields to analyze and manipulate sets. If you need more details or examples, feel free to ask!

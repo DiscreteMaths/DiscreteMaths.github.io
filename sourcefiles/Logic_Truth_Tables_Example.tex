@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+\item
+Let n be an element of the set $\{10, 11, 12, 13, 14, 15, 16, 17, 18, 19\}$,
+and p and q be the propositions:
+$p : n is even$, $q : n > 15$.
+Draw up truth tables for the following statements and find the values of n for
+which they are true:
+
+\begin{enumerate}[(a)]
+\item $p \vee \neg q$
+\item $\neg p \wedge q$
+\end{enumerate}
+\end{enumerate}
+
+Let's construct the truth tables for the given propositions and determine the values of \( n \) for which they are true:
+
+Let:
+- \( p \): \( n \) is even.
+- \( q \): \( n > 15 \).
+
+### Truth Table for \( p \vee \neg q \)
+Here, \( \neg q \) means \( n \leq 15 \).
+
+| \( n \) | \( p \) (is even) | \( q \) (\( n > 15 \)) | \( \neg q \) (\( n \leq 15 \)) | \( p \vee \neg q \) |
+|---------|-------------------|-----------------------|-------------------------------|----------------------|
+| 10      | True              | False                 | True                          | True                 |
+| 11      | False             | False                 | True                          | True                 |
+| 12      | True              | False                 | True                          | True                 |
+| 13      | False             | False                 | True                          | True                 |
+| 14      | True              | False                 | True                          | True                 |
+| 15      | False             | False                 | True                          | True                 |
+| 16      | True              | True                  | False                         | True                 |
+| 17      | False             | True                  | False                         | False                |
+| 18      | True              | True                  | False                         | True                 |
+| 19      | False             | True                  | False                         | False                |
+
+The values of \( n \) for which \( p \vee \neg q \) is true are: \( \{10, 11, 12, 13, 14, 15, 16, 18\} \).
+
+### Truth Table for \( \neg p \wedge q \)
+Here, \( \neg p \) means \( n \) is not even (i.e., odd).
+
+| \( n \) | \( p \) (is even) | \( q \) (\( n > 15 \)) | \( \neg p \) (\( n \) is odd) | \( \neg p \wedge q \) |
+|---------|-------------------|-----------------------|------------------------------|-----------------------|
+| 10      | True              | False                 | False                        | False                 |
+| 11      | False             | False                 | True                         | False                 |
+| 12      | True              | False                 | False                        | False                 |
+| 13      | False             | False                 | True                         | False                 |
+| 14      | True              | False                 | False                        | False                 |
+| 15      | False             | False                 | True                         | False                 |
+| 16      | True              | True                  | False                        | False                 |
+| 17      | False             | True                  | True                         | True                  |
+| 18      | True              | True                  | False                        | False                 |
+| 19      | False             | True                  | True                         | True                  |
+
+The values of \( n \) for which \( \neg p \wedge q \) is true are: \( \{17, 19\} \).
+
+If you need further explanations or assistance, feel free to ask!

@@ -36,8 +36,9 @@ class: center, middle, inverse, title-slide
   remark-slide-number { display: none; } 
 &lt;/style&gt;
 
-# Introduction to Numbers
-## Rational and Irrational Numbers
+# Graph Theory
+## Graph Theory Analysis with Adjacency Matrix
+
 &lt;br&gt;
 ## Discrete Maths for Computer Science Students
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
@@ -45,111 +46,119 @@ class: center, middle, inverse, title-slide
 
 ---
 
-**De Morgan's Laws in Probability**
+### Objective
 
-De Morgan's Laws are fundamental in set theory and have important implications in probability theory. They provide a way to express the complement of the union or intersection of two events.
+This exercise tests your understanding of graph properties, specifically connectivity, completeness, and the existence of Euler trails, Euler circuits, Hamiltonian paths, and Hamiltonian cycles. 
 
-**1. Complement of the Union:**
+---
+### Part A:
+1. Given the graph \(G\) with vertices \(V = \{1, 2, 3, 4, 5, 6\}\), draw the graph of the following adjacency matrix:
 
-* **Statement:** 
-   P( (A ∪ B)' ) = P(A' ∩ B') 
 
-* **Interpretation:** 
-   The probability that neither event A nor event B occurs is equal to the probability that both event A does not occur *and* event B does not occur.
+`$$\begin{array}{c||cccccc} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\ \hline \hline 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 2 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\ 3 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 4 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\ 5 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 6 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\ \end{array}$$`
+&lt;ol start="2"&gt;
+&lt;li&gt;Is the graph connected?&lt;/li&gt;
+&lt;li&gt;Is the graph complete?&lt;/li&gt;
+&lt;/ol&gt;
+---
 
-&lt;p&gt;
+### Part B:
+Does the graph have:
+4. an Euler trail?
+5. an Euler circuit?
+6. a Hamiltonian path?
+7. a Hamiltonian cycle?
 
-**2. Complement of the Intersection:**
 
-* **Statement:**
-   P( (A ∩ B)' ) = P(A' ∪ B')
-
-* **Interpretation:**
-   The probability that not both A and B occur is equal to the probability that either A does not occur *or* B does not occur (or neither occurs).
 
 ---
 
-**Universal Space** - Four Regions: 1,2,3 and 4
+### Part A: 
+**Drawing the Graph and Analyzing Connectivity and Completeness**
 
-![](Numbers_01_Template_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
-* **Event `\(A\)`** - Regions 1 and 3   (**Event `\(A^{c}\)`** - Regions 2 and 4)
-&lt;br&gt;
-&lt;br&gt;
-* **Event `\(B\)`** - Regions 2 and 3   (**Event `\(B^{c}\)`** - Regions 1 and 4)
-&lt;br&gt;
-&lt;br&gt;
-* `\(A^{c} \cup B^{c}\)` - Regions 1, 2 and 4   
-&lt;br&gt;
-* `\(A^{c} \cap B^{c}\)` - Region 4
-&lt;br&gt;
----
+Given the adjacency matrix:
+```
+     1 2 3 4 5 6
+ 1 [ 0 1 0 1 0 1 ]
+ 2 [ 1 0 1 0 1 0 ]
+ 3 [ 0 1 0 1 0 1 ]
+ 4 [ 1 0 1 0 1 0 ]
+ 5 [ 0 1 0 1 0 1 ]
+ 6 [ 1 0 1 0 1 0 ]
+```
 
-**Law 1**
-
-![](Numbers_01_Template_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
-
-* `\(A \cup B\)` - Regions 1, 2  and 3  
-* `\((A \cup B)^c\)` - Region 4
-
-Recall:
-
-* `\(A^{c} \cap B^{c}\)` - Region 4
-
-Therefore:
-
-   `$$P( (A \cup B)^c ) = P(A^{c} \cap B^{c})$$` 
----
-
-**Law 2**
-
-![](Numbers_01_Template_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
-
-* `\(A \cap B\)` - Region 3 
-* `\((A \cap B)^{c}\)` - Regions 1, 2  and 4  
-
-Recall:
-&lt;br&gt;
-* `\(A^{c} \cup B^{c}\)` - Regions 1, 2  and 4 
-
-Therefore:
-
-`$$P( (A \cap B)^c ) = P(A^{c} \cup B^{c})$$` 
+#### Drawing the Graph:
+- Vertex 1 is connected to vertices 2, 4, and 6.
+- Vertex 2 is connected to vertices 1, 3, and 5.
+- Vertex 3 is connected to vertices 2, 4, and 6.
+- Vertex 4 is connected to vertices 1, 3, and 5.
+- Vertex 5 is connected to vertices 2, 4, and 6.
+- Vertex 6 is connected to vertices 1, 3, and 5.
 
 ---
 
-**Example:**
+### Remark:
 
-Imagine you're flipping a coin twice. 
+* This is a complete bipartite graph and is denoted `\(K_{3,3}\)`. 
+ 
+* The graph is connected since each vertex in {1,3,5} is connected to each vertex in {2,4,6}, so there is a path between each pair of vertices in the graph. 
+ 
+---
 
-* **Event A:** Getting heads on the first flip.
-* **Event B:** Getting heads on the second flip.
-&lt;br&gt;
-&lt;br&gt;
-* **A ∪ B:** The event that you get heads on at least one of the flips.
-* **(A ∪ B)':** The event that you get tails on both flips.
-&lt;br&gt;
-&lt;br&gt;
-* **A':** The event that you get tails on the first flip.
-* **B':** The event that you get tails on the second flip.
-* **A' ∩ B':** The event that you get tails on both flips.
+The graph will look like this:
 
-As you can see, in this case, P( (A ∪ B)' ) = P(A' ∩ B'), illustrating De Morgan's Law for the complement of the union.
+
+
+![](Graph_Theory_Question_files/figure-html/graph-1.png)&lt;!-- --&gt;
+
+
+---
+### Part A: 
+
+**Checking for Connectedness and Completeness**
+
+
+#### Analysis:
+- **Exercise 2: Is the graph connected?** 
+  - Yes, the graph is connected because there is a path between any pair of vertices.
+
+- **Exercise 3: Is the graph complete?**
+  - No, the graph is not complete because not every pair of vertices is connected by an edge. 
+  - In a complete graph with 6 vertices, every vertex should be connected to every other vertex.
 
 ---
 
-**Key Takeaways:**
+### Part B: 
 
-* De Morgan's Laws provide valuable tools for manipulating and simplifying probability expressions.
-* They help to express complex events in terms of simpler ones.
-* These laws have applications in various areas of probability and statistics, such as set theory, logic, and circuit design.
+**Checking for Euler and Hamiltonian Properties**
 
-**Note:**
+#### 1. Does the graph have an Euler trail?
+- An Euler trail exists if and only if exactly two vertices have an odd degree (number of edges). 
+- Here, each vertex has a degree of 3 (odd degree). Since we have more than two vertices with an odd degree, the graph does not have an Euler trail.
 
-* These laws can be extended to more than two events.
-* They are closely related to the laws of Boolean algebra.
+#### 2. Does the graph have an Euler circuit?
+- An Euler circuit exists if and only if all vertices have an even degree. 
+- In this graph, all vertices have an odd degree, so there is no Euler circuit.
+
 
 ---
 
+### Part B: 
+
+**Checking for Euler and Hamiltonian Properties**
+
+
+#### 3. Does the graph have a Hamiltonian path?
+- A Hamiltonian path is a path that visits each vertex exactly once. 
+- Given the symmetry and the connectivity of the graph, there is a Hamiltonian path. 
+- For example, one such path could be: 1-2-3-4-5-6.
+
+#### 4. Does the graph have a Hamiltonian cycle?
+- A Hamiltonian cycle is a cycle that visits each vertex exactly once and returns to the starting vertex. 
+- The graph has a Hamiltonian cycle. 
+- One example could be: 1-2-3-4-5-6-1.
+
+---
 
 ---
     </textarea>

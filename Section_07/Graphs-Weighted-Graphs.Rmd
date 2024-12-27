@@ -1,0 +1,45 @@
+**Weighted Graphs: A Short Tutorial**
+
+**Introduction**
+
+In graph theory, a **weighted graph** is a graph where each edge is assigned a numerical value, often referred to as the **weight** or **cost**. This weight can represent various real-world quantities, such as:
+
+* **Distance:** In road networks, the weight of an edge might represent the distance between two cities.
+* **Cost:** In transportation networks, it could represent the cost of traveling along a particular route.
+* **Time:** In communication networks, it might represent the time taken to transmit data between two nodes.
+
+**Key Concepts**
+
+* **Weighted Edges:** Edges in a weighted graph are not just connections; they have associated values.
+* **Path Weight:** The weight of a path in a weighted graph is the sum of the weights of the edges that make up that path.
+* **Shortest Path Problems:** A common problem in graph theory is finding the shortest path between two vertices in a weighted graph, where "shortest" refers to the path with the minimum total weight. Algorithms like Dijkstra's algorithm and A* search are designed to solve this problem efficiently.
+* **Minimum Spanning Trees:** In undirected weighted graphs, a minimum spanning tree is a subgraph that connects all vertices with the minimum possible total edge weight.
+
+**Example**
+
+Consider a road network represented as a weighted graph. 
+
+* **Vertices:** Cities.
+* **Edges:** Roads connecting the cities.
+* **Weights:** Distances between cities.
+
+Finding the shortest route between two cities would involve finding the path with the minimum total weight (distance) in the graph.
+
+**Applications**
+
+Weighted graphs have numerous applications in various fields:
+
+* **Transportation:** Route planning, traffic flow optimization.
+* **Computer Networks:** Network routing, data transmission.
+* **Social Networks:** Analyzing relationships and influence.
+* **Bioinformatics:** Modeling biological networks and protein interactions.
+
+**Visual Representation**
+
+Weighted graphs are often visualized using diagrams where the edge weights are displayed alongside or on the edges themselves.
+
+**In Summary**
+
+Weighted graphs are a powerful tool for modeling real-world systems with associated costs or values. Understanding their properties and algorithms for working with them is essential in many areas of computer science and other disciplines.
+
+**Note:** This is a basic overview. Weighted graphs have many more intricacies and applications that can be explored further.

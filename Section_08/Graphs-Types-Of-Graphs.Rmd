@@ -1,0 +1,43 @@
+Types of Graphs {data-navmenu="Graphs"}
+=====================================
+
+Column {.tabset}
+--------------------
+
+### Regular Graphs
+
+In graph theory, a **regular graph** is a graph where each vertex has the same number of edges, meaning that every vertex has the same degree. If every vertex in the graph has degree \(k\), the graph is called a **\(k\)-regular graph** or simply a **regular graph of degree \(k\)**.
+
+#### Key Points:
+- **Degree**: The number of edges incident to a vertex.
+- **\(k\)-Regular Graph**: A graph where every vertex has degree \(k\).
+
+#### Examples:
+- **3-Regular Graph**: In a 3-regular graph, each vertex is connected to exactly three other vertices.
+- **Complete Graph**: A complete graph with \(n\) vertices (\(K_n\)) is \((n-1)\)-regular because every vertex is connected to every other vertex.
+
+Regular graphs are important in various fields, including network design and error-correcting codes, due to their uniform structure.
+
+### Planar Graphs
+In graph theory, a **planar graph** is a graph that can be embedded in the plane, meaning it can be drawn on a flat surface without any of its edges crossing each other. Here are some key points about planar graphs:
+
+#### Characteristics of Planar Graphs:
+1. **No Edge Crossings**: A planar graph can be drawn in such a way that no two edges intersect except at their endpoints.
+2. **Faces**: In a planar graph, the regions enclosed by the edges are called faces. The unbounded region surrounding the graph is also considered a face.
+3. **Euler's Formula**: For a connected planar graph with \(V\) vertices, \(E\) edges, and \(F\) faces, Euler's formula holds:
+   \[
+   V - E + F = 2
+   \]
+
+#### Examples of Planar Graphs:
+- **Trees**: All trees are planar graphs because they can be drawn without edge crossings.
+- **Cycle Graphs**: Simple cycle graphs (like triangles and quadrilaterals) are planar.
+- **Graph with small numbers of edges**: Graphs with few edges relative to the number of vertices are often planar.
+
+#### Non-Planar Graphs:
+- **Kuratowski's Theorem**: A graph is non-planar if it contains a subgraph that is homeomorphic to \(K_5\) (complete graph on 5 vertices) or \(K_{3,3}\) (complete bipartite graph on 6 vertices, partitioned into two sets of 3).
+- **Example of Non-Planar Graphs**: \(K_5\) and \(K_{3,3}\) are classical examples of non-planar graphs.
+
+#### Applications:
+Planar graphs are used in various fields such as network design, geography (map coloring), and computer graphics. They simplify problems involving circuit layout, urban planning, and geographical information systems.
+

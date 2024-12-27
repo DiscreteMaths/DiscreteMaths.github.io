@@ -1,0 +1,95 @@
+**Tutorial Sheet: Graph Theory Fundamentals**
+
+**1. Introduction**
+
+*   Graph theory is a branch of mathematics that studies the relationships between objects. 
+*   In computer science, graphs are used to model various systems, such as networks, data structures (trees, graphs), and algorithms.
+
+**2. Basic Concepts**
+
+*   **Graph:** A graph G is an ordered pair (V, E), where:
+      *   V is a finite set of vertices (or nodes).
+      *   E is a set of edges, where each edge connects two vertices.
+*   **Undirected Graph:** An edge (u, v) has no direction; it connects vertices u and v without a specific order.
+*   **Directed Graph (Digraph):** An edge (u, v) has a direction, representing an ordered pair from vertex u to vertex v.
+*   **Degree of a Vertex:** 
+      *   In an undirected graph: The number of edges incident to the vertex.
+      *   In a directed graph: 
+          *   **In-degree:** The number of edges incoming to the vertex.
+          *   **Out-degree:** The number of edges outgoing from the vertex.
+
+**3. Exercises**
+
+**Exercise 1: Basic Graph Terminology**
+
+*   **Given:** The following graph:
+      [Image of a simple undirected graph with 5 vertices and 6 edges]
+*   **a) Identify all vertices.**
+*   **b) Identify all edges.**
+*   **c) Determine the degree of each vertex.**
+
+**Exercise 2: Directed Graphs**
+
+*   **Given:** The following directed graph:
+      [Image of a simple directed graph with 4 vertices and 5 edges]
+*   **a) Determine the in-degree of each vertex.**
+*   **b) Determine the out-degree of each vertex.**
+
+**Exercise 3: Degree Sequences**
+
+*   **a) What is a degree sequence of a graph?**
+*   **b) Is the sequence (3, 3, 2, 2, 1) a possible degree sequence of an undirected graph?**
+*   **c) Is the sequence (3, 3, 2, 2, 1) a possible degree sequence of a directed graph?**
+
+**Exercise 4: Adjacency Matrix**
+
+*   **Given:** The following undirected graph:
+      [Image of a simple undirected graph with 4 vertices and 4 edges]
+*   **a) Construct the adjacency matrix for this graph.**
+
+**Exercise 5: Incidence Matrix**
+
+*   **Given:** The following undirected graph:
+      [Image of a simple undirected graph with 4 vertices and 4 edges]
+*   **a) Construct the incidence matrix for this graph.**
+
+**4. Further Exploration (Optional)**
+
+*   **a) Explore different types of graphs:** Trees, cycles, complete graphs, bipartite graphs.
+*   **b) Learn about graph traversals:** Depth-first search (DFS) and breadth-first search (BFS).
+*   **c) Investigate applications of graph theory in computer science:** 
+      *   Social network analysis
+      *   Web page ranking (PageRank)
+      *   Routing algorithms in networks
+
+**Solutions**
+
+*   **Exercise 1:** 
+      *   **a) Vertices:** {A, B, C, D, E}
+      *   **b) Edges:** {(A, B), (A, C), (B, C), (B, D), (C, D), (C, E)}
+      *   **c) Degrees:** deg(A) = 2, deg(B) = 3, deg(C) = 4, deg(D) = 2, deg(E) = 1
+
+*   **Exercise 2:** 
+      *   **a) In-degrees:** deg<sup>-</sup>(A) = 0, deg<sup>-</sup>(B) = 2, deg<sup>-</sup>(C) = 1, deg<sup>-</sup>(D) = 2
+      *   **b) Out-degrees:** deg<sup>+</sup>(A) = 2, deg<sup>+</sup>(B) = 1, deg<sup>+</sup>(C) = 1, deg<sup>+</sup>(D) = 1
+
+*   **Exercise 3:**
+      *   **a) A degree sequence is a list of the degrees of all vertices in a graph.**
+      *   **b) Yes.** The sequence (3, 3, 2, 2, 1) is a possible degree sequence for an undirected graph.
+      *   **c) Yes.** The sequence (3, 3, 2, 2, 1) is also a possible degree sequence for a directed graph.
+
+*   **Exercise 4:**
+      *   **a) Adjacency Matrix:** 
+          *   [ 0 1 1 0 ]
+             [ 1 0 1 1 ]
+             [ 1 1 0 1 ]
+             [ 0 1 1 0 ] 
+
+*   **Exercise 5:**
+      *   **a) Incidence Matrix:** 
+          *   [ 1 1 0 0 ]
+             [ 1 0 1 1 ]
+             [ 0 1 1 0 ]
+             [ 0 0 0 1 ]
+
+This tutorial sheet provides a basic introduction to graph theory concepts. Remember to refer to your textbook and lecture notes for more detailed explanations and examples.

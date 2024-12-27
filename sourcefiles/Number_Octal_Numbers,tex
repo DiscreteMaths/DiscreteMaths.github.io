@@ -1,0 +1,74 @@
+**Worked Exercise: Octal Numbers**
+
+**1. Conversion Between Decimal and Octal**
+
+*   **a) Convert the decimal number 153 to its octal representation.**
+
+    *   **Solution:**
+        1. Divide 153 by 8 repeatedly:
+           - 153 ÷ 8 = 19 with a remainder of 1
+           - 19 ÷ 8 = 2 with a remainder of 3
+           - 2 ÷ 8 = 0 with a remainder of 2
+        2. Read the remainders from bottom to top: 231
+        *   **Therefore, 153 (decimal) = 231 (octal)**
+
+*   **b) Convert the octal number 472 to its decimal representation.**
+
+    *   **Solution:**
+        1. Expand the octal number using its place values:
+           472 (octal) = (4 × 8²) + (7 × 8¹) + (2 × 8⁰)
+        2. Calculate:
+           472 (octal) = (4 × 64) + (7 × 8) + (2 × 1) = 256 + 56 + 2 = 314
+        *   **Therefore, 472 (octal) = 314 (decimal)**
+
+**2. Octal Arithmetic**
+
+*   **a) Perform the following octal addition: 37 + 52**
+
+    *   **Solution:**
+        ```
+          37
+        + 52
+        -----
+          111
+        ```
+
+*   **b) Perform the following octal subtraction: 75 - 26**
+
+    *   **Solution:**
+        ```
+          75
+        - 26
+        -----
+          47
+        ```
+
+**3. Octal to Binary Conversion**
+
+*   **a) Convert the octal number 613 to its binary representation.**
+
+    *   **Solution:**
+        1. Convert each octal digit to its 3-bit binary equivalent:
+           - 6 (octal) = 110 (binary)
+           - 1 (octal) = 001 (binary)
+           - 3 (octal) = 011 (binary)
+        2. Combine the binary equivalents: 110 001 011
+        *   **Therefore, 613 (octal) = 110001011 (binary)**
+
+**4. Binary to Octal Conversion**
+
+*   **a) Convert the binary number 101110 to its octal representation.**
+
+    *   **Solution:**
+        1. Group the binary digits into groups of three, starting from the right: 1 011 110
+        2. Convert each group of three binary digits to its octal equivalent:
+           - 1 (binary) = 1 (octal)
+           - 011 (binary) = 3 (octal)
+           - 110 (binary) = 6 (octal)
+        *   **Therefore, 101110 (binary) = 136 (octal)**
+
+**5. Application: File Permissions**
+
+*   Octal numbers are often used to represent file permissions in Unix-like systems. Each permission (read, write, execute) for owner, group, and others is represented by a single octal digit.
+
+**Note:** These are basic exercises. For more advanced problems, you can explore octal-to-hexadecimal conversions, bitwise operations on octal numbers, and real-world applications in computer systems.

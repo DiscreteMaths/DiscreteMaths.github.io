@@ -2,16 +2,16 @@
 
 
 \section{Special sets of numbers}
-\smallskip 
+
 It is convenient to denote certain key sets of numbers by a standard letter.
 Definition 2.2 
 The symbol Z is used to denote the set of integers," 
  denotes the set of positive integers; 
  R denotes the set of real numbers;
 Q denotes the set of rational numbers {the letter Q stands for “quotient”).
-\smallskip 
+
 % %
-\smallskip 
+	
 Of these sets, we can specify the set of positive integers and the set of integers by the listing method
 using elipses, as follows:
 \[Z^{+} = {1,2,s,...}\]

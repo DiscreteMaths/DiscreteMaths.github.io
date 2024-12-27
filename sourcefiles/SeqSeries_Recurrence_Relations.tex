@@ -1,0 +1,96 @@
+**Tutorial Sheet: Recurrence Relations**
+
+**1. Introduction**
+
+*   Recurrence relations are equations that define a sequence in terms of previous terms in the sequence. 
+*   They are fundamental in computer science, appearing in areas like algorithm analysis (e.g., runtime of recursive algorithms), data structures (e.g., analysis of tree structures), and discrete mathematics.
+
+**2. Exercises**
+
+**Exercise 1: Finding the First Terms of a Sequence**
+
+*   **Given:** The recurrence relation: 
+      *   a<sub>n</sub> = 3a<sub>n-1</sub> - 2, for n ≥ 1
+      *   a<sub>0</sub> = 1
+*   **Find:** The values of a<sub>1</sub>, a<sub>2</sub>, and a<sub>3</sub>.
+
+*   **Solution:**    *   a<sub>1</sub> = 3a<sub>0</sub> - 2 = 3(1) - 2 = 1
+    *   a<sub>2</sub> = 3a<sub>1</sub> - 2 = 3(1) - 2 = 1
+    *   a<sub>3</sub> = 3a<sub>2</sub> - 2 = 3(1) - 2 = 1
+
+**Exercise 2: Solving a Simple Recurrence Relation**
+
+*   **Given:** The recurrence relation:
+      *   a<sub>n</sub> = 2a<sub>n-1</sub>, for n ≥ 1
+      *   a<sub>0</sub> = 3
+*   **Find:** A closed-form solution for a<sub>n</sub>.
+
+*   **Solution:**
+    *   a<sub>1</sub> = 2a<sub>0</sub> = 2(3) = 6
+    *   a<sub>2</sub> = 2a<sub>1</sub> = 2(6) = 12
+    *   a<sub>3</sub> = 2a<sub>2</sub> = 2(12) = 24
+    *   Observe a pattern: a<sub>n</sub> = 3 * 2<sup>n</sup>
+    *   **Closed-form solution:** a<sub>n</sub> = 3 * 2<sup>n</sup>
+
+**Exercise 3: Solving a Linear Homogeneous Recurrence Relation**
+
+*   **Given:** The recurrence relation:
+      *   a<sub>n</sub> = 2a<sub>n-1</sub> + 3a<sub>n-2</sub>, for n ≥ 2
+      *   a<sub>0</sub> = 1, a<sub>1</sub> = 2
+*   **Find:** A closed-form solution for a<sub>n</sub>.
+
+*   **Solution:**
+    *   **Characteristic Equation:** 
+        *   r<sup>2</sup> - 2r - 3 = 0 
+        *   (r - 3)(r + 1) = 0 
+        *   r<sub>1</sub> = 3, r<sub>2</sub> = -1
+    *   **General Solution:** 
+        *   a<sub>n</sub> = α * 3<sup>n</sup> + β * (-1)<sup>n</sup> 
+    *   **Find α and β using initial conditions:**
+        *   a<sub>0</sub> = 1: α + β = 1
+        *   a<sub>1</sub> = 2: 3α - β = 2
+        *   Solve the system of equations to find α = 3/4 and β = 1/4
+    *   **Closed-form solution:** 
+        *   a<sub>n</sub> = (3/4) * 3<sup>n</sup> + (1/4) * (-1)<sup>n</sup> 
+        *   a<sub>n</sub> = (1/4) * (3<sup>n+1</sup> + (-1)<sup>n</sup>)
+
+**Exercise 4: Analyzing a Recursive Algorithm**
+
+*   **Consider:** The following recursive function for calculating the nth Fibonacci number:
+      ```python
+      def fibonacci(n):
+          if n <= 1:
+              return n
+          else:
+              return fibonacci(n-1) + fibonacci(n-2)
+      ```
+*   **a) Write the recurrence relation that describes the number of calls to the `fibonacci` function.**
+*   **b) (Optional):** Discuss the time complexity of this recursive implementation (hint: it's exponential).
+
+*   **Solution:**
+    *   **a) Let T(n) be the number of calls to `fibonacci(n)`:
+        *   T(n) = T(n-1) + T(n-2) + 1 
+          *   (T(n-1) for the first recursive call, T(n-2) for the second, and 1 for the current call)
+        *   T(0) = 1, T(1) = 1 
+
+**Exercise 5: (Challenge) Solving a Non-homogeneous Recurrence Relation**
+
+*   **Given:** The recurrence relation:
+      *   a<sub>n</sub> = 2a<sub>n-1</sub> + n, for n ≥ 1
+      *   a<sub>0</sub> = 1
+*   **Find:** A closed-form solution for a<sub>n</sub>. 
+
+*   **Solution:**
+    *   This is a non-homogeneous recurrence relation. 
+    *   Find the general solution to the associated homogeneous equation (a<sub>n</sub> = 2a<sub>n-1</sub>).
+    *   Find a particular solution to the non-homogeneous equation (e.g., by the method of undetermined coefficients).
+    *   Combine the general and particular solutions.
+    *   Use the initial condition to determine the constants. 
+
+**Note:** This tutorial sheet provides a basic introduction to recurrence relations. 
+*   More advanced topics include: 
+    *   Solving linear homogeneous recurrence relations with repeated roots.
+    *   Solving non-homogeneous recurrence relations using the method of generating functions. 
+    *   Applications of recurrence relations in algorithm analysis and data structures.
+
+This tutorial sheet provides a starting point for learning about recurrence relations. Remember to consult your textbook and lecture notes for additional examples and explanations.

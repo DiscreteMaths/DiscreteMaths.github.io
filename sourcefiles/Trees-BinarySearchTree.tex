@@ -1,0 +1,51 @@
+A **Binary Search Tree** (BST) is a type of binary tree that maintains a sorted order of elements, making it an efficient data structure for search, insertion, and deletion operations. Each node in a binary search tree has at most two children, referred to as the left child and the right child.
+
+### Key Properties of Binary Search Trees:
+1. **Node Structure**:
+   - Each node contains a key (or value), and pointers to its left and right children.
+
+2. **Binary Search Property**:
+   - For any node \( n \):
+     - All values in the left subtree of \( n \) are less than the value of \( n \).
+     - All values in the right subtree of \( n \) are greater than the value of \( n \).
+
+3. **No Duplicates**:
+   - In a typical BST, no duplicate elements are allowed. Each value appears only once.
+
+### Operations on Binary Search Trees:
+1. **Search**:
+   - To find a value in the tree, start at the root and recursively compare the target value with the current node's value. Move to the left or right child accordingly until the target is found or a leaf node is reached.
+
+2. **Insertion**:
+   - To insert a value, start at the root and find the appropriate location following the binary search property. Insert the new node as a leaf.
+
+3. **Deletion**:
+   - To delete a node, there are three cases to consider:
+     - Node has no children (leaf node): Simply remove the node.
+     - Node has one child: Remove the node and link its parent to its child.
+     - Node has two children: Find the in-order predecessor (or successor), replace the node's value with this value, and delete the in-order predecessor (or successor).
+
+### Example:
+Consider a BST with the following nodes inserted in this order: 50, 30, 70, 20, 40, 60, 80.
+
+```
+        50
+       /  \
+     30    70
+    / \    / \
+  20  40  60  80
+```
+
+### Applications:
+- **Searching and Sorting**: Efficiently performing search, insert, and delete operations.
+- **Dynamic Sets**: Managing dynamically changing data.
+- **Data Structures**: Foundational for more advanced data structures like balanced trees (AVL, Red-Black trees) and heaps.
+
+### Advantages:
+- **Efficiency**: Average-case time complexity for search, insertion, and deletion is \(O(\log n)\), where \(n\) is the number of nodes.
+- **Order**: In-order traversal of a BST yields elements in sorted order.
+
+### Limitations:
+- **Unbalanced Trees**: If the tree becomes unbalanced, the operations' time complexity can degrade to \(O(n)\). Balanced variants like AVL trees and Red-Black trees address this issue.
+
+Binary Search Trees are a fundamental data structure in computer science, providing an efficient way to manage and manipulate sorted data. They serve as the basis for more advanced structures and algorithms, making them an essential topic for study and application. Let me know if you need more information or examples!

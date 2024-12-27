@@ -27,6 +27,53 @@ For example, just as sine and cosine have Pythagorean identities, hyperbolic sin
 \]
 
 
+### Worked Example
+
+**Exercise:**
+
+**1. Definitions:**
+
+*   **a) Define the hyperbolic sine function (sinh(x)) in terms of the exponential function.**
+*   **b) Define the hyperbolic cosine function (cosh(x)) in terms of the exponential function.**
+
+**2. Basic Calculations:**
+
+*   **a) Calculate sinh(0).**
+*   **b) Calculate cosh(0).**
+
+**3. Graphing:**
+
+*   **a) Sketch the graph of sinh(x).**
+*   **b) Sketch the graph of cosh(x).**
+
+**4. Identity:**
+
+*   **a) State the fundamental hyperbolic identity relating sinh(x) and cosh(x).**
+
+**Solutions:**
+
+**1. Definitions:**
+
+*   **a) sinh(x) = (e^x - e^(-x)) / 2**
+*   **b) cosh(x) = (e^x + e^(-x)) / 2**
+
+**2. Basic Calculations:**
+
+*   **a) sinh(0) = (e^0 - e^(-0)) / 2 = (1 - 1) / 2 = 0**
+*   **b) cosh(0) = (e^0 + e^(-0)) / 2 = (1 + 1) / 2 = 1**
+
+**3. Graphing:**
+
+*   **a) Graph of sinh(x):** An odd function, passing through the origin, with a shape similar to a cubic function.
+*   **b) Graph of cosh(x):** An even function, always positive, with a shape similar to a parabola opening upwards.
+
+**4. Identity:**
+
+*   **a) cosh^2(x) - sinh^2(x) = 1**
+
+This exercise covers the basic definitions, calculations, and graphing of hyperbolic functions, providing a foundation for further exploration of their properties and applications.
+
+
 ### Applications in Discrete Mathematics
 In discrete mathematics, hyperbolic functions can be useful in various contexts, including:
 

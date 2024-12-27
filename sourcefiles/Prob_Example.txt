@@ -1,0 +1,11 @@
+
+
+\item[(b)]\textbf{\textit{Independent Events (6 Marks)}}\\ Suppose A and B are two events, with P(A), the probability that A occurs, equal to 0.4 and P(B), the probability that B occurs, equal to 0.5. .
+\begin{itemize}
+\item Assume that A and B are independent events. Calculate P(A $\cap$ B), the probability of both A and B occuring. %if A and B are independent events.
+\item Assume that A and B are independent events. Calculate P(A $\cup$ B), the probability of either A or B (or both) occuring.
+\item (1 Mark)  Assume that A and B are mutually exclusive events. Calculate P(A $\cap$ B), the probability of both A and B occuring. %if A and B are independent events.
+\item (1 Mark) Assume that A and B are mutually exclusive events. Calculate P(A $\cup$ B), the probability of either A or B (or both) occuring.
+%\item[i]               A and B are 
+\end{itemize}
+
