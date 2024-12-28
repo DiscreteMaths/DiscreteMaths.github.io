@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Spanning Trees</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Spanning Trees
+]
+.subtitle[
+## DiscreteMaths.github.io
+]
+
+---
+
+
+&lt;style type="text/css"&gt;
+  body{
+  font-size: 20pt;
+}
+&lt;/style&gt;
+
+
+
+
+
+
+
+# Hexadecimal Numbers
+## Worked Example: Converting Hexadecimal Numbers
+&lt;br&gt;
+## Discrete Maths for Computer Science Students
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+### &lt;tt&gt;DiscreteMaths.github.io&lt;/tt&gt;
+
+---
+
+### Exercise 1
+
+Convert the following hexadecimal numbers into their Base 2 equivalents.
+
+A. `\(5F_{16}\)`
+
+B. `\(AE_{16}\)`
+
+C. `\(1F_{16}\)`
+
+D. `\(B4_{16}\)`
+
+---
+
+`$$\begin{array}{|c||r||c|c|c|} \hline
+\text{Decimal} &amp; \text{Binary}  &amp; \text{Hexadecimal} &amp; \text{Octal} &amp; \text{Binary with 4 digits}  \\ 
+\text{Base 10} &amp; \text{Base 2} &amp; \text{Base 16} &amp; \text{Base 8} &amp; \text{Base 2} \\ \hline \hline
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0000 \\ \hline
+1 &amp; 1 &amp; 1 &amp; 1 &amp; 0001 \\ \hline
+2 &amp; 10 &amp; 2 &amp; 2 &amp; 0010 \\ \hline
+3 &amp; 11 &amp; 3 &amp; 3 &amp; 0011 \\ \hline
+4 &amp; 100 &amp; 4 &amp; 4 &amp; 0100 \\ \hline
+5 &amp; 101 &amp; 5 &amp; 5 &amp; 0101 \\ \hline
+6 &amp; 110 &amp; 6 &amp; 6 &amp; 0110 \\ \hline
+7 &amp; 111 &amp; 7 &amp; 7 &amp; 0111 \\ \hline
+8 &amp; 1000 &amp; 8 &amp; 10 &amp; 1000 \\ \hline
+9 &amp; 1001 &amp; 9 &amp;11 &amp; 1001 \\ \hline
+10 &amp; 1010 &amp; A &amp;12 &amp; 1010 \\ \hline
+11 &amp; 1011 &amp; B &amp;13 &amp; 1011 \\ \hline
+12 &amp; 1100 &amp; C &amp;14 &amp; 1100 \\ \hline
+13 &amp; 1101 &amp; D &amp;15 &amp; 1101 \\ \hline
+14 &amp; 1110 &amp; E &amp;16 &amp; 1110 \\ \hline
+15 &amp; 1111 &amp; F &amp;17 &amp; 1111 \\ \hline
+\end{array}$$`
+
+
+---
+
+
+### Conversion Steps:
+1. Convert each hexadecimal digit to its 4-bit binary equivalent.
+2. Combine the binary equivalents to form the full binary number.
+
+#### (A)  `\(5F_{16}\)`:
+- `\(5_{16}\)` in binary is `\(0101_2\)`
+- `\(F_{16}\)` in binary is `\(1111_2\)`
+
+Combining these:
+`$$5F_{16} = 0101 1111_2$$`
+
+#### (B) `\(AE_{16}\)`:
+- `\(A_{16}\)` in binary is `\(1010_2\)`
+- `\(E_{16}\)` in binary is `\(1110_2\)`
+
+Combining these:
+`$$AE_{16} = 1010 1110_2$$`
+
+---
+
+#### (C)  `\(1F_{16}\)`:
+- `\(1_{16}\)` in binary is `\(0001_2\)`
+- `\(F_{16}\)` in binary is `\(1111_2\)`
+
+Combining these:
+`$$1F_{16} = 0001 1111_2$$`
+
+#### (D)  `\(B4_{16}\)`:
+- `\(B_{16}\)` in binary is `\(1011_2\)`
+- `\(4_{16}\)` in binary is `\(0100_2\)`
+
+Combining these:
+`$$B4_{16} = 1011 0100_2$$`
+
+---
+
+### Summary:
+
+- `\(5F_{16}\)` = `\(0101 1111_2\)`
+
+- `\(AE_{16}\)` = `\(1010 1110_2\)`
+
+- `\(1F_{16}\)` = `\(0001 1111_2\)`
+
+- `\(B4_{16}\)` = `\(1011 0100_2\)`
+
+
+---
+
+### Exercise 2 
+
+Convert the following hexadecimal numbers into their Base 10 equivalents.
+
+A. `\(91E_{16}\)`
+
+B. `\(F32_{16}\)`
+
+C. `\(54B_{16}\)`
+
+D. `\(79D_{16}\)`
+
+---
+
+### Conversion Steps:
+
+1. Each digit in the hexadecimal number is multiplied by 16 raised to the power of its position (starting from 0).
+
+2. Sum all the results to get the decimal equivalent.
+
+#### (A)  `\(91E_{16}\)`:
+
+$$
+9 \times 16^2 + 1 \times 16^1 + E \times 16^0
+$$
+
+Here, `\(E\)` in hexadecimal is `\(14\)` in decimal:
+
+$$
+9 \times 256 + 1 \times 16 + 14 \times 1 = 2304 + 16 + 14 = 2334
+$$
+
+So,
+
+`$$91E_{16} = 2334_{10}$$`
+
+---
+
+#### (B) `\(F32_{16}\)`:
+
+$$
+F \times 16^2 + 3 \times 16^1 + 2 \times 16^0
+$$
+
+Here, `\(F\)` in hexadecimal is `\(15\)` in decimal:
+
+$$
+15 \times 256 + 3 \times 16 + 2 \times 1 = 3840 + 48 + 2 = 3890
+$$
+
+So,
+`$$F32_{16} = 3890_{10}$$`
+
+---
+
+#### (C)  `\(54B_{16}\)`:
+
+$$
+5 \times 16^2 + 4 \times 16^1 + B \times 16^0
+$$
+
+Here, `\(B\)` in hexadecimal is `\(11\)` in decimal:
+
+$$
+5 \times 256 + 4 \times 16 + 11 \times 1 = 1280 + 64 + 11 = 1355
+$$
+
+So,
+`$$54B_{16} = 1355_{10}$$`
+
+#### (D)  `\(79D_{16}\)`:
+
+$$
+7 \times 16^2 + 9 \times 16^1 + D \times 16^0
+$$
+
+Here, `\(D\)` in hexadecimal is `\(13\)` in decimal:
+
+$$
+7 \times 256 + 9 \times 16 + 13 \times 1 = 1792 + 144 + 13 = 1949
+$$
+
+So,
+`$$79D_{16} = 1949_{10}$$`
+
+---
+
+### Summary:
+
+- `\(91E_{16}\)` = `\(2334_{10}\)`
+
+- `\(F32_{16}\)` = `\(3890_{10}\)`
+
+- `\(54B_{16}\)` = `\(1355_{10}\)`
+
+- `\(79D_{16}\)` = `\(1949_{10}\)`
+---
+
+---
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

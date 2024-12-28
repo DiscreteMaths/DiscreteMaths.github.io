@@ -1,5 +1,5 @@
 
-Binary Numbers 2 {data-navmenu="Exercises"}
+Binary Numbers 2 {data-navmenu="Tutorials and Videos"}
 =====================================
 
 Column {.tabset}

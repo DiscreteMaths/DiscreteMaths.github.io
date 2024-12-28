@@ -1,5 +1,5 @@
 
-Other Number Bases {data-navmenu="Other Bases"}
+Other Number Bases {data-navmenu="Other Systems"}
 ==================================
 
 Column{.tabset}

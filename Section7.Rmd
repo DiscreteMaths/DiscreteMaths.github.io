@@ -44,3 +44,8 @@ Big O notation is one of the most fundamental tools for computer scientists to a
 
 ```{r child="Section_06/Functions-O-Notation.Rmd"}
 ```
+
+
+```{r child="Section_05/Functions-Logarithms.Rmd"}
+```
+

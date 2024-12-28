@@ -2053,6 +2053,12 @@ Equations</a></td>
 </tbody>
 </table>
 </div>
+</div>
+</div>
+<div id="binary-numbers" class="section level1" data-navmenu="Binary Numbers">
+<h1>Binary Numbers</h1>
+<div id="column-1" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
 <div id="what-are-binary-numbers" class="section level3">
 <h3>What are Binary Numbers</h3>
 <p>A binary number is a number expressed in the base-2 numeral system or
@@ -2061,11 +2067,11 @@ only two symbols: typically “0” (zero) and “1” (one).</p>
 </div>
 </div>
 </div>
-<div id="binary-numbers" class="section level1" data-navmenu="Binary Numbers">
+<div id="binary-numbers-1" class="section level1" data-navmenu="Binary Numbers">
 <h1>Binary Numbers</h1>
-<div id="column-1" class="section level2 tabset">
+<div id="column-2" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
-<div id="binary-numbers-1" class="section level3">
+<div id="binary-numbers-2" class="section level3">
 <h3>Binary Numbers</h3>
 <h5>
 binary Numbers
@@ -2130,7 +2136,7 @@ towards the left-hand side.</p></li>
 </div>
 <div id="worked-examples" class="section level1" data-navmenu="Binary Numbers">
 <h1>Worked Examples</h1>
-<div id="column-2" class="section level2 tabset">
+<div id="column-3" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="worked-examples-1" class="section level3">
 <h3>Worked Examples</h3>
@@ -2183,7 +2189,7 @@ Subtraction using “Two’s Complement”</a></p></li>
 </div>
 <div id="binary-multiplication" class="section level1" data-navmenu="Binary Numbers">
 <h1>Binary Multiplication</h1>
-<div id="column-3" class="section level2 tabset">
+<div id="column-4" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="binary-multiplication-1" class="section level3">
 <h3>Binary Multiplication</h3>
@@ -2201,123 +2207,6 @@ Multiplication: using Left Shifting</a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=/-svSPXMGyfs "> Binary
 Multiplication ( Binary Numbers Tutorial Sheet) </a></p></li>
 </ul>
-</div>
-</div>
-</div>
-</div>
-<div id="gray-code" class="section level1" data-navmenu="Binary Numbers">
-<h1>Gray Code</h1>
-<div id="column-4" class="section level2 tabset">
-<h2 class="tabset">Column</h2>
-<div id="gray-code-1" class="section level3">
-<h3>Gray Code</h3>
-<div id="gray-code-2" class="section level4">
-<h4>Gray Code</h4>
-<ul>
-<li><p>The reflected binary code (RBC), also known just as reflected
-binary (RB) or Gray code after Frank Gray, is an ordering of the binary
-numeral system such that two successive values differ in only one bit
-(binary digit).</p></li>
-<li><p>For example, the representation of the decimal value “1” in
-binary would normally be “001” and “2” would be “010”.</p></li>
-<li><p>In Gray code, these values are represented as “001” and “011”.
-That way, incrementing a value from 1 to 2 requires only one bit to
-change, instead of two.</p></li>
-<li><p>Gray codes are widely used to prevent spurious output from
-electromechanical switches and to facilitate error correction in digital
-communications such as digital terrestrial television and some cable TV
-systems.</p></li>
-</ul>
-</div>
-</div>
-<div id="worked-example" class="section level3">
-<h3>Worked Example</h3>
-<p>Here is an example of generating Gray code, which is a binary numeral
-system where two successive values differ in only one bit.</p>
-<h3>
-Example: Generate 3-bit Gray Code
-</h3>
-<div id="step-1-understand-binary-representation" class="section level4">
-<h4>Step 1: Understand Binary Representation</h4>
-<p>First, list all the 3-bit binary numbers in standard order:</p>
-<pre><code>000, 001, 010, 011, 100, 101, 110, 111</code></pre>
-</div>
-<div id="step-2-generate-gray-code" class="section level4">
-<h4>Step 2: Generate Gray Code</h4>
-<p>To convert these binary numbers to Gray code, follow the rule where
-the first bit remains the same, and each subsequent bit is obtained by
-XOR’ing the previous bit with the current bit.</p>
-<p>Let’s go through each binary number:</p>
-<ol style="list-style-type: decimal">
-<li><strong>000</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>0</strong></li>
-<li>Second bit: <span class="math inline">\(0 \oplus 0 = 0\)</span></li>
-<li>Third bit: <span class="math inline">\(0 \oplus 0 = 0\)</span></li>
-<li>Gray code: <strong>000</strong></li>
-</ul></li>
-<li><strong>001</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>0</strong></li>
-<li>Second bit: <span class="math inline">\(0 \oplus 0 = 0\)</span></li>
-<li>Third bit: <span class="math inline">\(0 \oplus 1 = 1\)</span></li>
-<li>Gray code: <strong>001</strong></li>
-</ul></li>
-<li><strong>010</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>0</strong></li>
-<li>Second bit: <span class="math inline">\(0 \oplus 1 = 1\)</span></li>
-<li>Third bit: <span class="math inline">\(1 \oplus 0 = 1\)</span></li>
-<li>Gray code: <strong>011</strong></li>
-</ul></li>
-<li><strong>011</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>0</strong></li>
-<li>Second bit: <span class="math inline">\(0 \oplus 1 = 1\)</span></li>
-<li>Third bit: <span class="math inline">\(1 \oplus 1 = 0\)</span></li>
-<li>Gray code: <strong>010</strong></li>
-</ul></li>
-<li><strong>100</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>1</strong></li>
-<li>Second bit: <span class="math inline">\(1 \oplus 0 = 1\)</span></li>
-<li>Third bit: <span class="math inline">\(1 \oplus 0 = 1\)</span></li>
-<li>Gray code: <strong>110</strong></li>
-</ul></li>
-<li><strong>101</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>1</strong></li>
-<li>Second bit: <span class="math inline">\(1 \oplus 0 = 1\)</span></li>
-<li>Third bit: <span class="math inline">\(1 \oplus 1 = 0\)</span></li>
-<li>Gray code: <strong>111</strong></li>
-</ul></li>
-<li><strong>110</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>1</strong></li>
-<li>Second bit: <span class="math inline">\(1 \oplus 1 = 0\)</span></li>
-<li>Third bit: <span class="math inline">\(0 \oplus 1 = 1\)</span></li>
-<li>Gray code: <strong>101</strong></li>
-</ul></li>
-<li><strong>111</strong> (Binary)
-<ul>
-<li>First bit remains the same: <strong>1</strong></li>
-<li>Second bit: <span class="math inline">\(1 \oplus 1 = 0\)</span></li>
-<li>Third bit: <span class="math inline">\(0 \oplus 1 = 1\)</span></li>
-<li>Gray code: <strong>100</strong></li>
-</ul></li>
-</ol>
-</div>
-<div id="step-3-list-the-gray-code-sequence" class="section level4">
-<h4>Step 3: List the Gray Code Sequence</h4>
-<p>Here is the 3-bit Gray code sequence:</p>
-<pre><code>000, 001, 011, 010, 110, 111, 101, 100</code></pre>
-</div>
-<div id="summary" class="section level4">
-<h4>Summary</h4>
-<p>By following the rule of keeping the first bit the same and XOR’ing
-subsequent bits, we have successfully converted 3-bit binary numbers
-into Gray code. This sequence ensures that only one bit changes between
-consecutive values.</p>
 </div>
 </div>
 </div>
@@ -2420,7 +2309,7 @@ hexadecimal.</li>
 </ol>
 </div>
 </div>
-<div id="summary-1" class="section level3">
+<div id="summary" class="section level3">
 <h3>Summary</h3>
 <h5>
 Hexadecimal Numbers
@@ -2459,7 +2348,7 @@ Hexadecimal Numbers to Base 10 - Worked Example 4 </a></li>
 </div>
 </div>
 </div>
-<div id="other-number-bases" class="section level1" data-navmenu="Other Bases">
+<div id="other-number-bases" class="section level1" data-navmenu="Other Systems">
 <h1>Other Number Bases</h1>
 <div id="column-6" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
@@ -2523,15 +2412,162 @@ Hexadecimal Numbers To Octal - Worked Example 2 </a> *
 Hexadecimal Numbers To Octal - Worked Example 3 </a></td>
 </tr>
 <tr class="even">
-<td>Conversion Lookup Table {data-navmenu=“Exercises”}
+<td>Gray Code {data-navmenu=“Other Systems”}
 ==================================</td>
 </tr>
 <tr class="odd">
-<td>Column {.tabset}</td>
+<td>Column{.tabset}</td>
 </tr>
 </tbody>
 </table>
 </div>
+<div id="gray-code" class="section level3">
+<h3>Gray Code</h3>
+<div id="gray-code-1" class="section level4">
+<h4>Gray Code</h4>
+<ul>
+<li><p>The reflected binary code (RBC), also known just as reflected
+binary (RB) or Gray code after Frank Gray, is an ordering of the binary
+numeral system such that two successive values differ in only one bit
+(binary digit).</p></li>
+<li><p>For example, the representation of the decimal value “1” in
+binary would normally be “001” and “2” would be “010”.</p></li>
+<li><p>In Gray code, these values are represented as “001” and “011”.
+That way, incrementing a value from 1 to 2 requires only one bit to
+change, instead of two.</p></li>
+<li><p>Gray codes are widely used to prevent spurious output from
+electromechanical switches and to facilitate error correction in digital
+communications such as digital terrestrial television and some cable TV
+systems.</p></li>
+</ul>
+</div>
+</div>
+<div id="worked-example" class="section level3">
+<h3>Worked Example</h3>
+<p>Here is an example of generating Gray code, which is a binary numeral
+system where two successive values differ in only one bit.</p>
+<h3>
+Example: Generate 3-bit Gray Code
+</h3>
+<div id="step-1-understand-binary-representation" class="section level4">
+<h4>Step 1: Understand Binary Representation</h4>
+<p>First, list all the 3-bit binary numbers in standard order:</p>
+<pre><code>000, 001, 010, 011, 100, 101, 110, 111</code></pre>
+</div>
+<div id="step-2-generate-gray-code" class="section level4">
+<h4>Step 2: Generate Gray Code</h4>
+<p>To convert these binary numbers to Gray code, follow the rule where
+the first bit remains the same, and each subsequent bit is obtained by
+XOR’ing the previous bit with the current bit.</p>
+<p>Let’s go through each binary number:</p>
+<ol style="list-style-type: decimal">
+<li><strong>000</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>0</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(0 \oplus 0 =
+0\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(0 \oplus 0 =
+0\)</span></p></li>
+<li><p>Gray code: <strong>000</strong></p></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>001</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>0</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(0 \oplus 0 =
+0\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(0 \oplus 1 =
+1\)</span></p></li>
+<li><p>Gray code: <strong>001</strong></p></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>010</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>0</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(0 \oplus 1 =
+1\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(1 \oplus 0 =
+1\)</span></p></li>
+<li><p>Gray code: <strong>011</strong></p></li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>011</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>0</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(0 \oplus 1 =
+1\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(1 \oplus 1 =
+0\)</span></p></li>
+<li><p>Gray code: <strong>010</strong></p></li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>100</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>1</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(1 \oplus 0 =
+1\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(1 \oplus 0 =
+1\)</span></p></li>
+<li><p>Gray code: <strong>110</strong></p></li>
+</ul>
+<ol start="6" style="list-style-type: decimal">
+<li><strong>101</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>1</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(1 \oplus 0 =
+1\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(1 \oplus 1 =
+0\)</span></p></li>
+<li><p>Gray code: <strong>111</strong></p></li>
+</ul>
+<ol start="7" style="list-style-type: decimal">
+<li><strong>110</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>1</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(1 \oplus 1 =
+0\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(0 \oplus 1 =
+1\)</span></p></li>
+<li><p>Gray code: <strong>101</strong></p></li>
+</ul>
+<ol start="8" style="list-style-type: decimal">
+<li><strong>111</strong> (Binary)</li>
+</ol>
+<ul>
+<li><p>First bit remains the same: <strong>1</strong></p></li>
+<li><p>Second bit: <span class="math inline">\(1 \oplus 1 =
+0\)</span></p></li>
+<li><p>Third bit: <span class="math inline">\(0 \oplus 1 =
+1\)</span></p></li>
+<li><p>Gray code: <strong>100</strong></p></li>
+</ul>
+</div>
+<div id="step-3-list-the-gray-code-sequence" class="section level4">
+<h4>Step 3: List the Gray Code Sequence</h4>
+<p>Here is the 3-bit Gray code sequence:</p>
+<pre><code>000, 001, 011, 010, 110, 111, 101, 100</code></pre>
+</div>
+<div id="summary-1" class="section level4">
+<h4>Summary</h4>
+<p>By following the rule of keeping the first bit the same and XOR’ing
+subsequent bits, we have successfully converted 3-bit binary numbers
+into Gray code. This sequence ensures that only one bit changes between
+consecutive values.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="conversion-lookup-table" class="section level1" data-navmenu="Exercises">
+<h1>Conversion Lookup Table</h1>
+<div id="column-7" class="section level2 tabset">
+<h2 class="tabset">Column</h2>
 <div id="conversion-table" class="section level3">
 <h3>Conversion Table</h3>
 <h4>
@@ -2701,7 +2737,7 @@ Video List
 </div>
 <div id="numbers---worksheets" class="section level1" data-navmenu="Exercises">
 <h1>Numbers - Worksheets</h1>
-<div id="column-7" class="section level2 tabset">
+<div id="column-8" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="work-sheet-1" class="section level3">
 <h3>Work Sheet 1</h3>
@@ -2740,7 +2776,7 @@ the word which means ``numbers” in German.)</p>
 All rational numbers are real numbers.)</p>
 </div>
 </div>
-<div id="binary-numbers-2" class="section level3">
+<div id="binary-numbers-3" class="section level3">
 <h3>Binary Numbers</h3>
 <p>Express the following decimal numbers as binary numbers.</p>
 <span class="math inline">\((73)_{10}\)</span>
@@ -2929,9 +2965,9 @@ characters?</li>
 </div>
 </div>
 </div>
-<div id="binary-numbers-3" class="section level1" data-navmenu="Exercises">
+<div id="binary-numbers-4" class="section level1" data-navmenu="Exercises">
 <h1>Binary Numbers</h1>
-<div id="column-8" class="section level2 tabset">
+<div id="column-9" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="worksheet-1" class="section level3">
 <h3>Worksheet 1</h3>
@@ -3217,7 +3253,7 @@ of the following forms:</p>
 </div>
 <div id="binary-numbers-2-1" class="section level1" data-navmenu="Exercises">
 <h1>Binary Numbers 2</h1>
-<div id="column-9" class="section level2 tabset">
+<div id="column-10" class="section level2 tabset">
 <h2 class="tabset">Column</h2>
 <div id="worksheet-1-1" class="section level3">
 <h3>Worksheet 1</h3>

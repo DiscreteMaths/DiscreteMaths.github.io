@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
@@ -22,9 +22,14 @@ Column {.tabset}
 
 <a href="index.html">Back to main page</a>
 
-<h3>Section 5: Functions (Part 1)</h3>
+<h3>Functions (Part 1)</h3>
+
+```{r child = "navigate.Rmd"}
+```
 
 
+Syllabus {data-navmenu="About"}
+=====================================
 
 * Introduction to Functions
 * Mathematical Functions and Special Functions
@@ -131,9 +136,6 @@ Anything to the power of zero is always 1
 
 
 ```{r child="Section_05/Functions-PrecisionFunctions.Rmd"}
-```
-
-```{r child="Section_05/Functions-Logarithms.Rmd"}
 ```
 
 

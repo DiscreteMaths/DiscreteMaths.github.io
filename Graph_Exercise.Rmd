@@ -1,0 +1,78 @@
+
+Sure! Let's create a graph with 5 vertices where each vertex has a degree of 2 or more. Here is an example of such a graph:
+
+Vertices: \( A, B, C, D, E \)
+Edges: 
+- \( A \) connected to \( B \) and \( C \)
+- \( B \) connected to \( A, C, \) and \( D \)
+- \( C \) connected to \( A, B, \) and \( E \)
+- \( D \) connected to \( B \) and \( E \)
+- \( E \) connected to \( C \) and \( D \)
+
+### Adjacency Matrix
+
+The adjacency matrix \( \mathbf{A} \) for this graph is:
+\[
+\begin{array}{c|ccccc}
+  & A & B & C & D & E \\
+\hline
+A & 0 & 1 & 1 & 0 & 0 \\
+B & 1 & 0 & 1 & 1 & 0 \\
+C & 1 & 1 & 0 & 0 & 1 \\
+D & 0 & 1 & 0 & 0 & 1 \\
+E & 0 & 0 & 1 & 1 & 0 \\
+\end{array}
+$$
+
+- Each row and column represent the vertices \( A, B, C, D, \) and \( E \).
+- The cell \( \mathbf{A}[i][j] \) is 1 if there is an edge between vertices \( i \) and \( j \), and 0 otherwise.
+
+In this adjacency matrix, each vertex has at least 2 edges, ensuring each has a degree of 2 or more.
+
+If you have any further questions or need another example, feel free to ask!
+\begin{enumerate}
+*  How many edges are in the spanning tree $T$ ?
+*  What is the sum of the degree sequence of $T$?
+*  Write down all the possible degree sequences for the spanning tree $T$.
+\end{enumerate}
+
+### Spanning Tree Properties
+
+Let's go through each question one by one.
+
+#### 1. How many edges are in the spanning tree \( T \) ?
+
+In a spanning tree with \( n \) vertices, the number of edges is always \( n - 1 \). This is a fundamental property of spanning trees, as they are acyclic and connected graphs.
+
+If \( T \) has \( n \) vertices, then the number of edges in \( T \) is:
+\[ \text{Number of edges} = n - 1 $$
+
+#### 2. What is the sum of the degree sequence of \( T \)?
+
+The sum of the degrees of all the vertices in any graph is twice the number of edges, according to the Handshaking Lemma. Since a spanning tree with \( n \) vertices has \( n - 1 \) edges, the sum of the degree sequence is:
+\[ \text{Sum of the degree sequence} = 2(n - 1) $$
+
+#### 3. Write down all the possible degree sequences for the spanning tree \( T \).
+
+The degree sequence of a spanning tree \( T \) is a list of degrees of its vertices. Since the sum of the degrees of the vertices is \( 2(n - 1) \), the degree sequence must add up to this number. Let's consider some examples with different \( n \) values:
+
+- **For \( n = 4 \):**
+  \[ \text{Number of edges} = 4 - 1 = 3 $$
+  \[ \text{Sum of the degree sequence} = 2(3) = 6 $$
+
+  Possible degree sequences could be:
+  - \( (3, 1, 1, 1) \)
+  - \( (2, 2, 1, 1) \)
+
+- **For \( n = 5 \):**
+  \[ \text{Number of edges} = 5 - 1 = 4 $$
+  \[ \text{Sum of the degree sequence} = 2(4) = 8 $$
+
+  Possible degree sequences could be:
+  - \( (4, 1, 1, 1, 1) \)
+  - \( (3, 2, 1, 1, 1) \)
+  - \( (2, 2, 2, 1, 1) \)
+
+These sequences list the degrees of each vertex in \( T \) such that the sum of the degrees is \( 2(n - 1) \) and they are connected in a tree structure. These examples can be extended to any number of vertices \( n \).
+
+If you have a specific number of vertices for the spanning tree or further questions, feel free to ask!

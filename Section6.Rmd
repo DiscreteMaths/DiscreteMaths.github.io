@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Functions {data-navmenu="Section 3"}
+About {data-navmenu="About"}
 =====================================
 
 Column {.tabset}
@@ -21,6 +21,15 @@ Column {.tabset}
 
 
 ### Functions
+
+
+
+
+
+```{r child="navigate.Rmd"}
+```
+
+
 
 #### *{Session 04:Functions}
 
@@ -48,7 +57,9 @@ Column {.tabset}
 
 https://math24.net/cartesian-product-sets.html
 
-Ordered Pairs
+
+
+### Ordered Pairs
 In sets, the order of elements is not important. For example, the sets {2, 3} and {3, 2} are equal to each other. However, there are many instances in mathematics where the order of elements is essential. So, for example, the pairs of numbers with coordinates (2, 3) and (3, 2) represent different points on the plane. This leads to the concept of ordered pairs.
 
 An ordered pair is defined as a set of two objects together with an order associated with them. Ordered pairs are usually written in parentheses (as opposed to curly braces, which are used for writing sets).
@@ -151,8 +162,3 @@ Necessary Conditions for Invertibility of a Function
 * A function is ***onto*** if is range is equal to its codomain.
 
 * A function is ***one-to-one*** if no two distinct elements of the domain have the same image.
-
-
-
-```{r child="navigate.Rmd"}
-```

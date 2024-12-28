@@ -1,4 +1,4 @@
-Gray Code {data-navmenu="Binary Numbers"}
+Gray Code {data-navmenu="Other Systems"}
 ==================================
 
 Column{.tabset}

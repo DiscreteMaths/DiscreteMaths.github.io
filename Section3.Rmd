@@ -29,6 +29,15 @@ Column {.tabset}
 * Much of the concepts in probability are derived from the consequences of set theory. 
 * Indeed, one way to state the axioms of probability involves set theory.
 
+```{r child = "navigate.Rmd"}
+```
+
+
+Set Notation {data-navmenu="Set Theory"}
+=====================================
+
+Column {.tabset}
+--------------------
 
 
 ### Set Notation

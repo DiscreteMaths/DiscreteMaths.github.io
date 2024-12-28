@@ -1,6 +1,5 @@
 ---
-title: "Discrete Mathematics 
-- Section 4"
+title: "Discrete Mathematics - Section 4"
 output: 
   flexdashboard::flex_dashboard:
     theme: united
@@ -13,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Discrete Mathematics {data-navmenu="Introduction"}
+About{data-navmenu="About"}
 =====================================
 
 Column {.tabset}
@@ -23,6 +22,9 @@ Column {.tabset}
 
 <a href="index.html">Back to main page</a>
 
+
+```{r child = "navigate.Rmd"}
+```
 
 <h3>Section 4</h3>
 
@@ -41,5 +43,3 @@ Column {.tabset}
 ```{r child="Section_04/Logic-Tutorial-1.Rmd"}
 ```
 
-```{r child="navigate.Rmd"}
-```

@@ -22,7 +22,12 @@ Column {.tabset}
 
 <a href="index.html">Back to main page</a>
 
-<h3>Section 11</h3>
+<h3>Sequences and Series</h3>
+
+
+```{r child = "navigate.Rmd"}
+```
+
 
 In mathematics, the sequence is a collection or list of numbers that have a logical/sequential order or pattern between them. 
 <p>

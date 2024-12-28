@@ -23,7 +23,7 @@ Column {.tabset}
 <a href="index.html">Back to main page</a>
 
 
-<h3>Convergence and Ration Tests</h3>
+<h3>Convergence and Ratio Tests</h3>
 
 ```{r child = "navigate.Rmd"}
 ```
@@ -40,7 +40,7 @@ Column {.tabset}
 ```{r child="Section_12/SequenceSeries-ConvergenceTests.Rmd"}
 ```
 
-Tutorial Videos {data-navmenu="Tutorial Videos"}
+Tutorial Videos {data-navmenu="Tutorials and Videos"}
 =====================================
 
 Column {.tabset}

@@ -1,0 +1,247 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+```{r eval=FALSE,include=FALSE}
+
+# CT6 
+# - ASI 2005 April Question B - 1
+# - ASI 2006 April Question B - 1
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color = "#98a869",
+  text_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+# Hexadecimal Numbers
+## Worked Example: Converting Hexadecimal Numbers
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+### Exercise 1
+
+Convert the following hexadecimal numbers into their Base 2 equivalents.
+
+A. $5F_{16}$
+
+B. $AE_{16}$
+
+C. $1F_{16}$
+
+D. $B4_{16}$
+
+---
+
+$$\begin{array}{|c||r||c|c|c|} \hline
+\text{Decimal} & \text{Binary}  & \text{Hexadecimal} & \text{Octal} & \text{Binary with 4 digits}  \\ 
+\text{Base 10} & \text{Base 2} & \text{Base 16} & \text{Base 8} & \text{Base 2} \\ \hline \hline
+0 & 0 & 0 & 0 & 0000 \\ \hline
+1 & 1 & 1 & 1 & 0001 \\ \hline
+2 & 10 & 2 & 2 & 0010 \\ \hline
+3 & 11 & 3 & 3 & 0011 \\ \hline
+4 & 100 & 4 & 4 & 0100 \\ \hline
+5 & 101 & 5 & 5 & 0101 \\ \hline
+6 & 110 & 6 & 6 & 0110 \\ \hline
+7 & 111 & 7 & 7 & 0111 \\ \hline
+8 & 1000 & 8 & 10 & 1000 \\ \hline
+9 & 1001 & 9 &11 & 1001 \\ \hline
+10 & 1010 & A &12 & 1010 \\ \hline
+11 & 1011 & B &13 & 1011 \\ \hline
+12 & 1100 & C &14 & 1100 \\ \hline
+13 & 1101 & D &15 & 1101 \\ \hline
+14 & 1110 & E &16 & 1110 \\ \hline
+15 & 1111 & F &17 & 1111 \\ \hline
+\end{array}$$
+
+
+---
+
+
+### Conversion Steps:
+1. Convert each hexadecimal digit to its 4-bit binary equivalent.
+2. Combine the binary equivalents to form the full binary number.
+
+#### (A)  $5F_{16}$:
+- $5_{16}$ in binary is $0101_2$
+- $F_{16}$ in binary is $1111_2$
+
+Combining these:
+$$5F_{16} = 0101 1111_2$$
+
+#### (B) $AE_{16}$:
+- $A_{16}$ in binary is $1010_2$
+- $E_{16}$ in binary is $1110_2$
+
+Combining these:
+$$AE_{16} = 1010 1110_2$$
+
+---
+
+#### (C)  $1F_{16}$:
+- $1_{16}$ in binary is $0001_2$
+- $F_{16}$ in binary is $1111_2$
+
+Combining these:
+$$1F_{16} = 0001 1111_2$$
+
+#### (D)  $B4_{16}$:
+- $B_{16}$ in binary is $1011_2$
+- $4_{16}$ in binary is $0100_2$
+
+Combining these:
+$$B4_{16} = 1011 0100_2$$
+
+---
+
+### Summary:
+
+- $5F_{16}$ = $0101 1111_2$
+
+- $AE_{16}$ = $1010 1110_2$
+
+- $1F_{16}$ = $0001 1111_2$
+
+- $B4_{16}$ = $1011 0100_2$
+
+
+---
+
+### Exercise 2 
+
+Convert the following hexadecimal numbers into their Base 10 equivalents.
+
+A. $91E_{16}$
+
+B. $F32_{16}$
+
+C. $54B_{16}$
+
+D. $79D_{16}$
+
+---
+
+### Conversion Steps:
+
+1. Each digit in the hexadecimal number is multiplied by 16 raised to the power of its position (starting from 0).
+
+2. Sum all the results to get the decimal equivalent.
+
+#### (A)  $91E_{16}$:
+
+$$
+9 \times 16^2 + 1 \times 16^1 + E \times 16^0
+$$
+
+Here, $E$ in hexadecimal is $14$ in decimal:
+
+$$
+9 \times 256 + 1 \times 16 + 14 \times 1 = 2304 + 16 + 14 = 2334
+$$
+
+So,
+
+$$91E_{16} = 2334_{10}$$
+
+---
+
+#### (B) $F32_{16}$:
+
+$$
+F \times 16^2 + 3 \times 16^1 + 2 \times 16^0
+$$
+
+Here, $F$ in hexadecimal is $15$ in decimal:
+
+$$
+15 \times 256 + 3 \times 16 + 2 \times 1 = 3840 + 48 + 2 = 3890
+$$
+
+So,
+$$F32_{16} = 3890_{10}$$
+
+---
+
+#### (C)  $54B_{16}$:
+
+$$
+5 \times 16^2 + 4 \times 16^1 + B \times 16^0
+$$
+
+Here, $B$ in hexadecimal is $11$ in decimal:
+
+$$
+5 \times 256 + 4 \times 16 + 11 \times 1 = 1280 + 64 + 11 = 1355
+$$
+
+So,
+$$54B_{16} = 1355_{10}$$
+
+#### (D)  $79D_{16}$:
+
+$$
+7 \times 16^2 + 9 \times 16^1 + D \times 16^0
+$$
+
+Here, $D$ in hexadecimal is $13$ in decimal:
+
+$$
+7 \times 256 + 9 \times 16 + 13 \times 1 = 1792 + 144 + 13 = 1949
+$$
+
+So,
+$$79D_{16} = 1949_{10}$$
+
+---
+
+### Summary:
+
+- $91E_{16}$ = $2334_{10}$
+
+- $F32_{16}$ = $3890_{10}$
+
+- $54B_{16}$ = $1355_{10}$
+
+- $79D_{16}$ = $1949_{10}$
+---
+
+---

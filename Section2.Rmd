@@ -31,6 +31,12 @@ This module section introduces fundamental number systems essential for digital 
 ```{r child="navigate.Rmd"}
 ```
 
+Binary Numbers {data-navmenu="Binary Numbers"}
+=====================================
+
+Column {.tabset}
+--------------------
+
 ### What are Binary Numbers
 
 A binary number is a number expressed in the base-2 numeral system or binary numeral system, a method of mathematical expression which uses only two symbols: typically "0" (zero) and "1" (one).
@@ -45,8 +51,6 @@ A binary number is a number expressed in the base-2 numeral system or binary num
 ```
 
 
-```{r child="Section_02/Numbers-GrayCode.Rmd"}
-```
 
 
 
@@ -55,6 +59,10 @@ A binary number is a number expressed in the base-2 numeral system or binary num
 
 
 ```{r child="Section_02/Numbers-Otherbases.Rmd"}
+```
+
+
+```{r child="Section_02/Numbers-GrayCode.Rmd"}
 ```
 
 ```{r child="Section_02/Numbers-ConversionTable.Rmd"}
