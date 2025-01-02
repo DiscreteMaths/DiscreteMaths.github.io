@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Spanning Trees</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Spanning Trees
+]
+.subtitle[
+## DiscreteMaths.github.io
+]
+
+---
+
+
+&lt;style type="text/css"&gt;
+  body{
+  font-size: 20pt;
+}
+&lt;/style&gt;
+
+
+
+
+
+
+&lt;style&gt; 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+&lt;/style&gt;
+
+# Trees
+## Binary Search Tree - Terminology
+
+&lt;br&gt;
+## Discrete Maths for Computer Science Students
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+### &lt;tt&gt;DiscreteMaths.github.io&lt;/tt&gt;
+
+---
+
+### Objective
+
+This exercise tests your understanding of graph properties, specifically connectivity, completeness, and the existence of Euler trails, Euler circuits, Hamiltonian paths, and Hamiltonian cycles. 
+
+---
+### Part A:
+1. Given the graph \(G\) with vertices \(V = \{1, 2, 3, 4, 5, 6\}\), draw the graph of the following adjacency matrix:
+
+
+`$$\begin{array}{c||cccccc} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\ \hline \hline 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 2 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\ 3 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 4 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\ 5 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 \\ 6 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 \\ \end{array}$$`
+&lt;ol start="2"&gt;
+&lt;li&gt;Is the graph connected?&lt;/li&gt;
+&lt;li&gt;Is the graph complete?&lt;/li&gt;
+&lt;/ol&gt;
+---
+
+### Part B:
+Does the graph have:
+4. an Euler trail?
+5. an Euler circuit?
+6. a Hamiltonian path?
+7. a Hamiltonian cycle?
+
+
+
+---
+
+### Part A: 
+**Drawing the Graph and Analyzing Connectivity and Completeness**
+
+Given the adjacency matrix:
+```
+     1 2 3 4 5 6
+ 1 [ 0 1 0 1 0 1 ]
+ 2 [ 1 0 1 0 1 0 ]
+ 3 [ 0 1 0 1 0 1 ]
+ 4 [ 1 0 1 0 1 0 ]
+ 5 [ 0 1 0 1 0 1 ]
+ 6 [ 1 0 1 0 1 0 ]
+```
+
+#### Drawing the Graph:
+- Vertex 1 is connected to vertices 2, 4, and 6.
+- Vertex 2 is connected to vertices 1, 3, and 5.
+- Vertex 3 is connected to vertices 2, 4, and 6.
+- Vertex 4 is connected to vertices 1, 3, and 5.
+- Vertex 5 is connected to vertices 2, 4, and 6.
+- Vertex 6 is connected to vertices 1, 3, and 5.
+
+---
+
+### Remark:
+
+* This is a complete bipartite graph and is denoted `\(K_{3,3}\)`. 
+ 
+* The graph is connected since each vertex in {1,3,5} is connected to each vertex in {2,4,6}, so there is a path between each pair of vertices in the graph. 
+ 
+---
+
+The graph will look like this:
+
+
+
+![](Trees_Template_files/figure-html/graph-1.png)&lt;!-- --&gt;
+
+
+---
+### Part A: 
+
+**Checking for Connectedness and Completeness**
+
+
+#### Analysis:
+- **Exercise 2: Is the graph connected?** 
+  - Yes, the graph is connected because there is a path between any pair of vertices.
+
+- **Exercise 3: Is the graph complete?**
+  - No, the graph is not complete because not every pair of vertices is connected by an edge. 
+  - In a complete graph with 6 vertices, every vertex should be connected to every other vertex.
+
+---
+
+### Part B: 
+
+**Checking for Euler and Hamiltonian Properties**
+
+#### 1. Does the graph have an Euler trail?
+- An Euler trail exists if and only if exactly two vertices have an odd degree (number of edges). 
+- Here, each vertex has a degree of 3 (odd degree). Since we have more than two vertices with an odd degree, the graph does not have an Euler trail.
+
+#### 2. Does the graph have an Euler circuit?
+- An Euler circuit exists if and only if all vertices have an even degree. 
+- In this graph, all vertices have an odd degree, so there is no Euler circuit.
+
+
+---
+
+### Part B: 
+
+**Checking for Euler and Hamiltonian Properties**
+
+
+#### 3. Does the graph have a Hamiltonian path?
+- A Hamiltonian path is a path that visits each vertex exactly once. 
+- Given the symmetry and the connectivity of the graph, there is a Hamiltonian path. 
+- For example, one such path could be: 1-2-3-4-5-6.
+
+#### 4. Does the graph have a Hamiltonian cycle?
+- A Hamiltonian cycle is a cycle that visits each vertex exactly once and returns to the starting vertex. 
+- The graph has a Hamiltonian cycle. 
+- One example could be: 1-2-3-4-5-6-1.
+
+---
+
+---
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+```{r eval=FALSE,include=FALSE}
+
+# CT6 
+# - ASI 2005 April Question B - 1
+# - ASI 2006 April Question B - 1
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "#4169e1", #)(
+  background_color =  "#E6E6FA", #"#CC99FF",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Trees
+## Binary Search Tree - Terminology
+
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+### Objective
+
+This exercise tests your understanding of graph properties, specifically connectivity, completeness, and the existence of Euler trails, Euler circuits, Hamiltonian paths, and Hamiltonian cycles. 
+
+---
+### Part A:
+1. Given the graph \(G\) with vertices \(V = \{1, 2, 3, 4, 5, 6\}\), draw the graph of the following adjacency matrix:
+
+
+$$\begin{array}{c||cccccc} & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline \hline 1 & 0 & 1 & 0 & 1 & 0 & 1 \\ 2 & 1 & 0 & 1 & 0 & 1 & 0 \\ 3 & 0 & 1 & 0 & 1 & 0 & 1 \\ 4 & 1 & 0 & 1 & 0 & 1 & 0 \\ 5 & 0 & 1 & 0 & 1 & 0 & 1 \\ 6 & 1 & 0 & 1 & 0 & 1 & 0 \\ \end{array}$$
+<ol start="2">
+<li>Is the graph connected?</li>
+<li>Is the graph complete?</li>
+</ol>
+---
+
+### Part B:
+Does the graph have:
+4. an Euler trail?
+5. an Euler circuit?
+6. a Hamiltonian path?
+7. a Hamiltonian cycle?
+
+
+
+---
+
+### Part A: 
+**Drawing the Graph and Analyzing Connectivity and Completeness**
+
+Given the adjacency matrix:
+```
+     1 2 3 4 5 6
+ 1 [ 0 1 0 1 0 1 ]
+ 2 [ 1 0 1 0 1 0 ]
+ 3 [ 0 1 0 1 0 1 ]
+ 4 [ 1 0 1 0 1 0 ]
+ 5 [ 0 1 0 1 0 1 ]
+ 6 [ 1 0 1 0 1 0 ]
+```
+
+#### Drawing the Graph:
+- Vertex 1 is connected to vertices 2, 4, and 6.
+- Vertex 2 is connected to vertices 1, 3, and 5.
+- Vertex 3 is connected to vertices 2, 4, and 6.
+- Vertex 4 is connected to vertices 1, 3, and 5.
+- Vertex 5 is connected to vertices 2, 4, and 6.
+- Vertex 6 is connected to vertices 1, 3, and 5.
+
+---
+
+### Remark:
+
+* This is a complete bipartite graph and is denoted $K_{3,3}$. 
+ 
+* The graph is connected since each vertex in {1,3,5} is connected to each vertex in {2,4,6}, so there is a path between each pair of vertices in the graph. 
+ 
+---
+
+The graph will look like this:
+
+
+
+```{r graph, echo=FALSE,message=FALSE,warning=FALSE}
+#install.packages("igraph")
+library(igraph)
+
+# Adjacency matrix
+adj_matrix <- matrix(
+  c(0, 1, 0, 1, 0, 1,
+    1, 0, 1, 0, 1, 0,
+    0, 1, 0, 1, 0, 1,
+    1, 0, 1, 0, 1, 0,
+    0, 1, 0, 1, 0, 1,
+    1, 0, 1, 0, 1, 0),
+  nrow = 6, byrow = TRUE
+)
+
+# Create a graph from the adjacency matrix
+g <- graph_from_adjacency_matrix(adj_matrix, mode = "undirected")
+
+# Plot the graph
+plot(g)
+
+```
+
+
+---
+### Part A: 
+
+**Checking for Connectedness and Completeness**
+
+
+#### Analysis:
+- **Exercise 2: Is the graph connected?** 
+  - Yes, the graph is connected because there is a path between any pair of vertices.
+
+- **Exercise 3: Is the graph complete?**
+  - No, the graph is not complete because not every pair of vertices is connected by an edge. 
+  - In a complete graph with 6 vertices, every vertex should be connected to every other vertex.
+
+---
+
+### Part B: 
+
+**Checking for Euler and Hamiltonian Properties**
+
+#### 1. Does the graph have an Euler trail?
+- An Euler trail exists if and only if exactly two vertices have an odd degree (number of edges). 
+- Here, each vertex has a degree of 3 (odd degree). Since we have more than two vertices with an odd degree, the graph does not have an Euler trail.
+
+#### 2. Does the graph have an Euler circuit?
+- An Euler circuit exists if and only if all vertices have an even degree. 
+- In this graph, all vertices have an odd degree, so there is no Euler circuit.
+
+
+---
+
+### Part B: 
+
+**Checking for Euler and Hamiltonian Properties**
+
+
+#### 3. Does the graph have a Hamiltonian path?
+- A Hamiltonian path is a path that visits each vertex exactly once. 
+- Given the symmetry and the connectivity of the graph, there is a Hamiltonian path. 
+- For example, one such path could be: 1-2-3-4-5-6.
+
+#### 4. Does the graph have a Hamiltonian cycle?
+- A Hamiltonian cycle is a cycle that visits each vertex exactly once and returns to the starting vertex. 
+- The graph has a Hamiltonian cycle. 
+- One example could be: 1-2-3-4-5-6-1.
+
+---
+
+---

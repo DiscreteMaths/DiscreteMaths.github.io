@@ -1,0 +1,98 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#FDFD96",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Probability
+## Sampling From Two Urns - Sample Space
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+### Sampling From Two Urns
+
+Suppose one urn contains three balls: one red, one blue, and one green, and a second urn contains three balls numbered 1, 2, and 3. 
+
+An experiment consists of two balls being drawn at random (i.e. one from each urn).
+
+
+### Exercise 
+
+Write out the sample space for this experiment.
+
+---
+
+***First Urn***:  one red, one blue, and one green
+
+***Second urn***: three balls numbered 1, 2, and 3. 
+
+An experiment consists of two balls being drawn at random (i.e., one from each urn).
+
+
+- $R$ represents the red ball from the first urn
+
+- $B$ represents the blue ball from the first urn
+
+- $G$ represents the green ball from the first urn
+
+- $1, 2, 3$ represent the numbered balls from the second urn
+
+**Sample Space**:
+
+The sample space consists of all possible combinations of drawing one ball from each urn.
+
+$$S = \{ (R,1), (R,2), (R,3), (B,1), (B,2), (B,3), (G,1), (G,2), (G,3) \}$$
+
+
+---
+
+
+---

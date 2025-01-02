@@ -1,0 +1,137 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#FDFD96",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Probability
+## Winning the National Lottery
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+### National Lottery:
+
+In the National Lottery 6 numbers are chosen without replacement from 49. 
+
+### Exercises
+Calculate the probability of 
+
+A. winning the jackpot (choosing all 6 numbers correctly)
+
+B. winning the smallest prize (choosing 3 of the 6 numbers correctly)
+
+C. choosing at least one of the numbers correctly.
+
+
+
+
+---
+
+### Exercise A.
+
+**Winning the Jackpot (choosing all 6 numbers correctly)**
+
+* The total number of ways to choose 6 numbers out of 49 is given by the combination formula:
+$$\binom{49}{6} = \frac{49!}{6!(49-6)!}$$
+
+* Calculating this:
+$$\binom{49}{6} = \frac{49!}{6!43!} = 13,983,816$$
+
+* Since there is only one correct combination out of the 13,983,816 possibilities:
+$$P(\text{winning the jackpot}) = \frac{1}{13,983,816}$$
+
+---
+
+### Exercise B.
+
+**Winning the Smallest Prize (choosing 3 of the 6 numbers correctly)**
+
+* For winning the smallest prize, you need to choose 3 correct numbers out of the 6 winning numbers and 3 incorrect numbers out of the 43 remaining numbers.
+
+* The number of ways to choose 3 correct numbers out of 6:
+$$\binom{6}{3} = 20$$
+
+* The number of ways to choose 3 incorrect numbers out of 43:
+$$\binom{43}{3} = 12,341$$
+
+* The total number of ways to choose 3 correct and 3 incorrect numbers:
+$$\binom{6}{3} \times \binom{43}{3} = 20 \times 12,341 = 246,820$$
+
+---
+
+### Exercise B.
+
+* The probability of winning the smallest prize:
+
+$$P(\text{winning the smallest prize}) = \frac{246,820}{13,983,816} \approx 0.01765$$
+
+---
+
+### Exercise C.
+
+**Choosing at Least One of the Numbers Correctly**
+
+* The probability of choosing at least one correct number is the complement of the probability of choosing none of the correct numbers.
+
+* The number of ways to choose 6 incorrect numbers out of 43:
+$$\binom{43}{6} = \frac{43!}{6!37!} = 4,496,388$$
+
+* The probability of choosing none of the correct numbers:
+$$P(\text{choosing none correctly}) = \frac{4,496,388}{13,983,816} \approx 0.321$$
+
+* Therefore, the probability of choosing at least one correct number:
+
+$$P(\text{choosing at least one correctly}) = 1 - P(\text{choosing none correctly})$$
+
+$$P(\text{choosing at least one correctly}) \approx 1 - 0.321 = 0.679$$
+
+---
+
+---

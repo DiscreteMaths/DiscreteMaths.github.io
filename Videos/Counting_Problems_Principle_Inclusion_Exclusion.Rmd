@@ -1,0 +1,200 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#FF964F",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Counting Problems
+##  Principle of Inclusion and Exclusion
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+## Principle of Inclusion and Exclusion
+
+### School Example 
+
+* Among a group of students, 50 played cricket, 50 played hockey and 40 played volley ball. 
+
+* 15 played both cricket and hockey, 20 played both hockey and volley ball, 15 played cricket and volley ball and 10 played all three. 
+
+* If every student played at least one game, find the number of students and how many played only cricket, only hockey and only volley ball?
+
+
+
+---
+
+### Definitions:
+
+- Let $C$ be the set of students who played cricket.
+
+- Let $H$ be the set of students who played hockey.
+
+- Let $V$ be the set of students who played volleyball.
+
+
+We are given the following:
+- $|C| = 50$ (students who played cricket)
+
+- $|H| = 50$ (students who played hockey)
+
+- $|V| = 40$ (students who played volleyball)
+
+- $|C \cap H| = 15$ (students who played both cricket and hockey)
+
+- $|H \cap V| = 20$ (students who played both hockey and volleyball)
+
+- $|C \cap V| = 15$ (students who played both cricket and volleyball)
+
+- $|C \cap H \cap V| = 10$ (students who played all three games)
+
+
+---
+
+## Principle of Inclusion and Exclusion
+
+The principle of inclusion and exclusion is a fundamental concept in counting problems used to calculate the size of the union of multiple sets. 
+
+This principle helps to avoid overcounting elements that belong to multiple sets by systematically including and excluding the intersections of these sets.
+
+### Explanation:
+
+For two sets $A$ and $B$:
+$$|A \cup B| = |A| + |B| - |A \cap B|$$
+
+- $|A|$ is the number of elements in set $A$.
+- $|B|$ is the number of elements in set $B$.
+- $|A \cap B|$ is the number of elements that are in both $A$ and $B$.
+
+---
+
+### For Three Sets:
+
+For three sets $A$, $B$, and $C$:
+$$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|$$
+
+- We add the sizes of the individual sets $|A|$, $|B|$, and $|C|$.
+- We subtract the sizes of the pairwise intersections $|A \cap B|$, $|A \cap C|$, and $|B \cap C|$ to correct for double counting.
+- We add back the size of the intersection of all three sets $|A \cap B \cap C|$ to correct for triple counting.
+
+---
+
+### Total Number of Students:
+The total number of students is given by the principle of inclusion and exclusion:
+
+$$|C \cup H \cup V| = |C| + |H| + |V| - |C \cap H| - |H \cap V| - |C \cap V| + |C \cap H \cap V|$$
+
+Substituting the given values:
+
+$$
+|C \cup H \cup V| = 50 + 50 + 40 - 15 - 20 - 15 + 10 = 100
+$$
+
+So, the total number of students is $100$.
+
+---
+
+### Number of Students Who Played Only One Game:
+
+To find the number of students who played only one game, we subtract those who played multiple games from the total number who played each game.
+
+
+
+**Only Cricket**:
+
+$$
+|C_{\text{only}}| = |C| - |C \cap H| - |C \cap V| + |C \cap H \cap V|
+$$
+
+Substituting the given values:
+
+$$
+|C_{\text{only}}| = 50 - 15 - 15 + 10 = 30
+$$
+
+---
+
+### Number of Students Who Played Only One Game:
+
+**Only Hockey**:
+
+$$
+|H_{\text{only}}| = |H| - |H \cap C| - |H \cap V| + |C \cap H \cap V|
+$$
+
+Substituting the given values:
+
+$$
+|H_{\text{only}}| = 50 - 15 - 20 + 10 = 25
+$$
+
+<br>
+
+**Only Volleyball**:
+
+$$
+|V_{\text{only}}| = |V| - |V \cap C| - |V \cap H| + |C \cap H \cap V|
+$$
+
+Substituting the given values:
+
+$$
+|V_{\text{only}}| = 40 - 15 - 20 + 10 = 15
+$$
+
+---
+
+### Summary:
+- The total number of students is $100$.
+- The number of students who played only cricket is $30$.
+- The number of students who played only hockey is $25$.
+- The number of students who played only volleyball is $15$.
+
+---

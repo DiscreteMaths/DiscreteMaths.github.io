@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Spanning Trees</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Spanning Trees
+]
+.subtitle[
+## DiscreteMaths.github.io
+]
+
+---
+
+
+&lt;style type="text/css"&gt;
+  body{
+  font-size: 20pt;
+}
+&lt;/style&gt;
+
+
+
+
+
+
+&lt;style&gt; 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+&lt;/style&gt;
+
+# Counting Problems
+##  Principle of Inclusion and Exclusion
+&lt;br&gt;
+## Discrete Maths for Computer Science Students
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+### &lt;tt&gt;DiscreteMaths.github.io&lt;/tt&gt;
+
+---
+
+## Principle of Inclusion and Exclusion
+
+### School Example 
+
+* Among a group of students, 50 played cricket, 50 played hockey and 40 played volley ball. 
+
+* 15 played both cricket and hockey, 20 played both hockey and volley ball, 15 played cricket and volley ball and 10 played all three. 
+
+* If every student played at least one game, find the number of students and how many played only cricket, only hockey and only volley ball?
+
+
+
+---
+
+### Definitions:
+
+- Let `\(C\)` be the set of students who played cricket.
+
+- Let `\(H\)` be the set of students who played hockey.
+
+- Let `\(V\)` be the set of students who played volleyball.
+
+
+We are given the following:
+- `\(|C| = 50\)` (students who played cricket)
+
+- `\(|H| = 50\)` (students who played hockey)
+
+- `\(|V| = 40\)` (students who played volleyball)
+
+- `\(|C \cap H| = 15\)` (students who played both cricket and hockey)
+
+- `\(|H \cap V| = 20\)` (students who played both hockey and volleyball)
+
+- `\(|C \cap V| = 15\)` (students who played both cricket and volleyball)
+
+- `\(|C \cap H \cap V| = 10\)` (students who played all three games)
+
+
+---
+
+## Principle of Inclusion and Exclusion
+
+The principle of inclusion and exclusion is a fundamental concept in counting problems used to calculate the size of the union of multiple sets. 
+
+This principle helps to avoid overcounting elements that belong to multiple sets by systematically including and excluding the intersections of these sets.
+
+### Explanation:
+
+For two sets `\(A\)` and `\(B\)`:
+`$$|A \cup B| = |A| + |B| - |A \cap B|$$`
+
+- `\(|A|\)` is the number of elements in set `\(A\)`.
+- `\(|B|\)` is the number of elements in set `\(B\)`.
+- `\(|A \cap B|\)` is the number of elements that are in both `\(A\)` and `\(B\)`.
+
+---
+
+### For Three Sets:
+
+For three sets `\(A\)`, `\(B\)`, and `\(C\)`:
+`$$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|$$`
+
+- We add the sizes of the individual sets `\(|A|\)`, `\(|B|\)`, and `\(|C|\)`.
+- We subtract the sizes of the pairwise intersections `\(|A \cap B|\)`, `\(|A \cap C|\)`, and `\(|B \cap C|\)` to correct for double counting.
+- We add back the size of the intersection of all three sets `\(|A \cap B \cap C|\)` to correct for triple counting.
+
+---
+
+### Total Number of Students:
+The total number of students is given by the principle of inclusion and exclusion:
+
+`$$|C \cup H \cup V| = |C| + |H| + |V| - |C \cap H| - |H \cap V| - |C \cap V| + |C \cap H \cap V|$$`
+
+Substituting the given values:
+
+$$
+|C \cup H \cup V| = 50 + 50 + 40 - 15 - 20 - 15 + 10 = 100
+$$
+
+So, the total number of students is `\(100\)`.
+
+---
+
+### Number of Students Who Played Only One Game:
+
+To find the number of students who played only one game, we subtract those who played multiple games from the total number who played each game.
+
+
+
+**Only Cricket**:
+
+$$
+|C_{\text{only}}| = |C| - |C \cap H| - |C \cap V| + |C \cap H \cap V|
+$$
+
+Substituting the given values:
+
+$$
+|C_{\text{only}}| = 50 - 15 - 15 + 10 = 30
+$$
+
+---
+
+### Number of Students Who Played Only One Game:
+
+**Only Hockey**:
+
+$$
+|H_{\text{only}}| = |H| - |H \cap C| - |H \cap V| + |C \cap H \cap V|
+$$
+
+Substituting the given values:
+
+$$
+|H_{\text{only}}| = 50 - 15 - 20 + 10 = 25
+$$
+
+&lt;br&gt;
+
+**Only Volleyball**:
+
+$$
+|V_{\text{only}}| = |V| - |V \cap C| - |V \cap H| + |C \cap H \cap V|
+$$
+
+Substituting the given values:
+
+$$
+|V_{\text{only}}| = 40 - 15 - 20 + 10 = 15
+$$
+
+---
+
+### Summary:
+- The total number of students is `\(100\)`.
+- The number of students who played only cricket is `\(30\)`.
+- The number of students who played only hockey is `\(25\)`.
+- The number of students who played only volleyball is `\(15\)`.
+
+---
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -27,13 +27,15 @@ Column {.tabset}
 
 
 
-* A telescoping series does not have a set form, like the geometric and p-series do. * A telescoping series is any series where nearly every term cancels with a preceeding or following term. * For instance, the series
+* A telescoping series does not have a set form, like the geometric and p-series do. 
+* A telescoping series is any series where nearly every term cancels with a preceeding or following term. 
+* For instance, the following series is telescoping. 
+
 
 
 
 \[   \sum^{\infty}_{n=1} \frac{1}{n} - \frac{1}{n+1} \]
 
-is telescoping. 
 
 
 ### Telescoping Series

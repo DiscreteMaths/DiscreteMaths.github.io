@@ -1,0 +1,104 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#FDFD96",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Probability
+## Picking Beads From An Urn (Worked Example)
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+### Sampling from an Urn
+
+Suppose an urn contains seven white, four black, and three red beads. 
+
+Three beads are picked at random without replacement. 
+
+
+### Exercises
+
+Find the probability that:
+
+A. All three beads are of different colors.
+
+B. At least two beads are the same color.
+
+---
+
+## Sampling from an Urn
+
+### Exercise A.
+
+**Probability that all three beads are of different colors**
+
+1. **Total number of ways to pick 3 beads out of 14**:
+$$\binom{14}{3} = \frac{14!}{3!(14-3)!} = \frac{14 \times 13 \times 12}{3 \times 2 \times 1} = 364$$
+
+2. **Number of ways to pick 1 white, 1 black, and 1 red**:
+$$\binom{7}{1} \times \binom{4}{1} \times \binom{3}{1} = 7 \times 4 \times 3 = 84$$
+
+3. **Probability**:
+$$P(\text{all three beads are different}) = \frac{84}{364} \approx 0.2308$$
+
+
+---
+
+### Exercise B.
+
+**Probability that at least two beads are the same color**
+
+We can find this by using the complement rule. First, calculate the probability that all three beads are of different colors (which we found above) and then subtract it from 1:
+
+$$P(\text{at least 2 beads are the same}) = 1 - P(\text{all three beads are different})$$
+$$P(\text{at least 2 beads are the same}) = 1 - 0.2308 \approx 0.7692$$
+
+---

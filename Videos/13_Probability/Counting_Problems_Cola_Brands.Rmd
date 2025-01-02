@@ -1,0 +1,172 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#FDFD96",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Probability
+## Cola Brands - Worked Example
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+### Cola Brand Preferences
+
+Consider the following probabilities for a survey about beverage preferences among individuals:
+
+* Let $P$ be the event that ***an individual drinks Pepsi*** and $C$ be the event that ***the individual drink Coca Coca***.
+
+* We are told that $\Pr(P) = 0.72$, $\Pr(C) = 0.24$ and $\Pr(P \cap C) = 0.12$.
+
+
+### Exercises
+
+A. Calculate the probability that an individual drinks both brands? 
+
+B. Calculate the probability that an individual drinks neither brand? 
+
+C. Are $P$ and $C$ mutually exclusive? 
+
+D. Are $P$ and $C$ independent? 
+
+
+
+---
+
+### Solution
+
+Let's tackle these probability questions one by one using the given information:
+
+Given:
+- $P$ is the event that an individual drinks Pepsi.
+- $C$ is the event that an individual drinks Coca-Cola.
+- $\Pr(P) = 0.72$
+- $\Pr(C) = 0.24$
+- $\Pr(P \cap C) = 0.12$
+
+
+---
+
+### Exercise A. 
+
+**Calculate the probability that an individual drinks both brands**
+
+* The probability that an individual drinks both brands is given by:
+
+$$\Pr(P \cap C) = 0.12$$
+
+---
+
+### Exercise B. 
+
+**Calculate the probability that an individual drinks neither brand**
+
+* The probability of an individual drinking neither brand can be found by using the complement rule. 
+
+* First, we find the probability that an individual drinks at least one of the brands:
+
+$$\Pr(P \cup C) = \Pr(P) + \Pr(C) - \Pr(P \cap C)$$
+
+$$\Pr(P \cup C) = 0.72 + 0.24 - 0.12 = 0.84$$
+
+* So, the probability that an individual drinks neither brand is:
+$$\Pr(\text{neither } P \text{ nor } C) = 1 - \Pr(P \cup C) = 1 - 0.84
+= 0.16$$
+
+---
+
+### Exercise C. 
+
+**Are $P$ and $C$ mutually exclusive?**
+
+* Two events are mutually exclusive if they cannot occur at the same time, i.e., $\Pr(P \cap C) = 0$.
+
+* Given that:
+$$\Pr(P \cap C) = 0.12$$
+
+* Since $\Pr(P \cap C) \neq 0$, the events $P$ and $C$ are not mutually exclusive.
+
+---
+
+### Exercise D. 
+
+**Are $P$ and $C$ independent?**
+
+* Two events are independent if the occurrence of one does not affect the probability of the other. 
+
+Mathematically, $P$ and $C$ are independent if:
+
+$$\Pr(P \cap C) = \Pr(P) \times \Pr(C)$$
+
+* Recall: $\Pr(P) = 0.72$, $\Pr(C) = 0.24$ and $\Pr(P \cap C) = 0.12$
+
+* Calculate $\Pr(P) \times \Pr(C)$:
+$$\Pr(P) \times \Pr(C) = 0.72 \times 0.24 = 0.1728$$
+
+* Since:
+$$\Pr(P \cap C) = 0.12 \neq 0.1728$$
+
+* The events $P$ and $C$ are not independent.
+
+---
+
+### Summary:
+
+- **A.** The probability that an individual drinks both brands: $\Pr(P \cap C) = 0.12$
+
+- **B.** The probability that an individual drinks neither brand: $0.16$
+
+- **C.** $P$ and $C$ are not mutually exclusive.
+
+- **D.** $P$ and $C$ are not independent.
+
+---
+
+---

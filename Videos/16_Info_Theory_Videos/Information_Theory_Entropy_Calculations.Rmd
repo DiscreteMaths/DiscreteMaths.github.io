@@ -1,0 +1,192 @@
+---
+title: "Sampling Distributions"
+subtitle: "Sampling Exponential Random Variates"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+```{r eval=FALSE,include=FALSE}
+
+# CT6 
+# - ASI 2005 April Question B - 1
+# - ASI 2006 April Question B - 1
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#ACE7F8",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Information Theory
+## Entropy Calculations
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+An input source is a random variable X with a four letter alphabet $\{A,B,C,D\}$.
+There are four different probability distributions presented below. 
+
+
+Compute the entropy for each case.
+
+$$\begin{array}{|c||c|c|c|c|}
+\hline
+	&	\text{Case 1}	&	\text{Case 2}	&	\text{Case 3}	&	\text{Case 4}	\\	
+Xi	&	P(Xi)	&	P(Xi)	&	P(Xi)	&	P(Xi)	\\	\hline
+A	&	0.25	&	0.25	&	0.7	&	0.97	\\	\hline
+B	&	0.25	&	0.5	&	0.1	&	0.01	\\	\hline
+C	&	0.25	&	0.125	&	0.1	&	0.01	\\	\hline
+D	&	0.25	&	0.125	&	0.1	&	0.01	\\	\hline
+\end{array}$$
+
+---
+
+To compute the entropy for each case, we use the entropy formula for a discrete random variable \(X\) with a finite set of outcomes:
+
+$$H(X) = -\sum_{i} P(x_i) \log_2 P(x_i)$$
+
+Now we will compute the entropy for each of the 4 cases.
+
+---
+
+### Case 1:
+$$
+P(X = A) = 0.25, \quad P(X = B) = 0.25, \quad P(X = C) = 0.25, \quad P(X = D) = 0.25
+$$
+
+<br><br>
+**Entropy Calculation**
+
+$$H(X) = - (0.25 \log_2 0.25 + 0.25 \log_2 0.25 + 0.25 \log_2 0.25 + 0.25 \log_2 0.25)$$
+
+$$= - 4 \times 0.25 \log_2 0.25$$
+
+$$= - 4 \times 0.25 \times (-2)$$
+
+$$= 2 \text{ bits}$$
+
+---
+
+
+### Case 2:
+$$
+P(X = A) = 0.25, \quad P(X = B) = 0.5, \quad P(X = C) = 0.125, \quad P(X = D) = 0.125
+$$
+
+<br><br>
+**Entropy Calculation**
+$$H(X) = - (0.25 \log_2 0.25 + 0.5 \log_2 0.5 + 0.125 \log_2 0.125 + 0.125 \log_2 0.125)$$
+
+$$= - (0.25 \times -2 + 0.5 \times -1 + 0.125 \times -3 + 0.125 \times -3)$$
+
+$$= - (-0.5 - 0.5 - 0.375 - 0.375)$$
+
+$$= 1.75 \text{ bits}$$
+
+---
+
+### Case 3:
+$$
+P(X = A) = 0.7, \quad P(X = B) = 0.1, \quad P(X = C) = 0.1, \quad P(X = D) = 0.1
+$$
+
+<br><br>
+**Entropy Calculation**
+
+$$H(X) = - (0.7 \log_2 0.7 + 0.1 \log_2 0.1 + 0.1 \log_2 0.1 + 0.1 \log_2 0.1)$$
+
+$$= - (0.7 \log_2 0.7 + 3 \times 0.1 \log_2 0.1)$$
+
+$$= - (0.7 \times -0.5146 + 3 \times 0.1 \times -3.3219)$$
+
+$$= - (-0.36022 - 0.99657)$$
+
+$$= 1.3568 \text{ bits}$$
+
+---
+
+### Case 4:
+
+$$
+P(X = A) = 0.97, \quad P(X = B) = 0.01, \quad P(X = C) = 0.01, \quad P(X = D) = 0.01
+$$
+<br><br>
+**Entropy Calculation**
+$$H(X) = - (0.97 \log_2 0.97 + 0.01 \log_2 0.01 + 0.01 \log_2 0.01 + 0.01 \log_2 0.01)$$
+
+$$= - (0.97 \log_2 0.97 + 3 \times 0.01 \log_2 0.01)$$
+
+$$= - (0.97 \times -0.0439 + 3 \times 0.01 \times -6.6439)$$
+
+$$= - (-0.04258 - 0.19932)$$
+
+$$= 0.2419 \text{ bits}$$
+
+---
+
+### Summary of Entropies:
+
+- **Case 1**: $H(X) = 2 \text{ bits}$
+
+- **Case 2**: $H(X) = 1.75 \text{ bits}$
+
+- **Case 3**: $H(X) = 1.3568 \text{ bits}$
+
+- **Case 4**: $H(X) = 0.2419 \text{ bits}$
+
+
+* These values reflect the uncertainty or randomness in each probability distribution. 
+
+* Case 1, with equal probabilities, has the highest entropy, while Case 4, with a dominant probability, has the lowest entropy. 
+
+
+---
+
+
+---
+
+
+---
+If you have any more questions or need further clarification, feel free to ask!

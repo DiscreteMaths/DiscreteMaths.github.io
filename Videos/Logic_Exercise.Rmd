@@ -41,7 +41,7 @@ style_mono_accent_inverse(
   #base_color = "#4169e1", #)(vvv#TREES
   #background_color = "#E6E6FA",  #TREE
   base_color = "black", #)(
-  background_color =  "#CC99FF",
+  background_color =  "#C17985",
   text_color="black",
   text_bold_color = "black",
   header_font_google = google_font("Josefin Sans"),

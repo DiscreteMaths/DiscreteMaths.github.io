@@ -1,12 +1,7 @@
-Sure! Here is the amended syllabus for a 16-week Discrete Mathematics course without a final exam:
 
----
+### Course Syllabus: 
 
-### Course Syllabus: Discrete Mathematics for Computer Science
-
-**Course Title**: Discrete Mathematics for Computer Science
-
-**Course Description**:
+**Discrete Mathematics for Computer Science**ion**:
 This course provides an introduction to discrete mathematics with an emphasis on applications in computer science. Topics covered include logic, set theory, combinatorics, graph theory, functions, and discrete probability. These concepts form the foundational mathematical tools necessary for advanced topics in computer science, such as algorithms, data structures, and computer networks.
 
 **Prerequisites**:

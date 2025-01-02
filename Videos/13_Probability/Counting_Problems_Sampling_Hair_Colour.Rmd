@@ -1,0 +1,128 @@
+---
+title: "Spanning Trees"
+subtitle: "DiscreteMaths.github.io"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    font_size: 20pts
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+<style type="text/css">
+  body{
+  font-size: 20pt;
+}
+</style>
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+library(knitr)
+library(dplyr)
+library(janitor)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent_inverse(
+  #base_color = "#4169e1", #)(vvv#TREES
+  #background_color = "#E6E6FA",  #TREE
+  base_color = "black", #)(
+  background_color =  "#FDFD96",
+  text_color="black",
+  text_bold_color = "black",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "400", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+<style> 
+  /* Hide page numbers */ .
+  remark-slide-number { display: none; } 
+</style>
+
+# Probability
+## Students Hair Colour (Worked Example)
+<br>
+## Discrete Maths for Computer Science Students
+<br><br><br><br>
+### <tt>DiscreteMaths.github.io</tt>
+
+---
+
+### Hair Colour
+
+In a class of 20 pupils, 11 have dark hair, 7 have fair hair, and 2 have red hair. Two pupils are chosen at random to collect the homework.
+
+### Exercise
+
+What is the probability that:
+
+A. Both have fair hair
+
+B. Each has hair of a different color
+
+
+---
+
+### Solution
+
+**Probability questions about pupils with different hair colors**
+
+Let's denote:
+- $D$ for pupils with dark hair ($11$ pupils)
+- $F$ for pupils with fair hair ($7$ pupils)
+- $R$ for pupils with red hair ($2$ pupils)
+
+Two pupils are chosen at random to collect the homework.
+
+---
+
+### Exercise A.
+
+**Probability that both pupils have fair hair**
+
+* The number of ways to choose 2 fair-haired pupils out of 7 is:
+$$\binom{7}{2} = \frac{7!}{2!(7-2)!} = \frac{7 \times 6}{2 \times 1} = 21$$
+
+* The total number of ways to choose 2 pupils out of 20 is:
+$$\binom{20}{2} = \frac{20!}{2!(20-2)!} = \frac{20 \times 19}{2 \times 1} = 190$$
+
+* The probability that both pupils have fair hair is:
+$$P(\text{both have fair hair}) = \frac{\binom{7}{2}}{\binom{20}{2}} = \frac{21}{190} = \frac{21}{190} \approx 0.1105$$
+
+---
+### Exercise B 
+
+**Probability that each pupil has a different hair color**
+
+The number of ways to choose 2 pupils with different hair colors can be found by summing the combinations of pupils with different hair colors:
+
+- Choosing 1 dark-haired and 1 fair-haired:
+$$\binom{11}{1} \times \binom{7}{1} = 11 \times 7 = 77$$
+
+- Choosing 1 dark-haired and 1 red-haired:
+$$\binom{11}{1} \times \binom{2}{1} = 11 \times 2 = 22$$
+
+- Choosing 1 fair-haired and 1 red-haired:
+$$\binom{7}{1} \times \binom{2}{1} = 7 \times 2 = 14$$
+---
+
+### Exercise B 
+
+Total number of ways to choose 2 pupils with different hair colors:
+$$77 + 22 + 14 = 113$$
+
+The probability that each pupil has a different hair color is:
+$$P(\text{different hair color}) = \frac{113}{190} = \frac{113}{190} \approx 0.5947$$
+
+---
+
+---
